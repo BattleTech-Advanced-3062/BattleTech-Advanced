@@ -9,7 +9,7 @@
 		"items": "BTA_List_Terra"
 	},
 	{
-		"name": "Terra",
+		"name": "Terra - Special",
 		"conditions": {
 			"tag": "planet_name_terra"
 		},
