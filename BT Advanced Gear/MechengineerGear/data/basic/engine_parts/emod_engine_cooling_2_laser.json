@@ -3,7 +3,7 @@
 		"EngineHeatBlock": 2,
 		"BonusDescriptions": [
 				"Whitespace",
-				"EngineHSAdd: 2"
+				"EngineHSAdd: 2",
 				"EndMoveHeat: -10"
 			],
 		"WorkOrderCosts": {

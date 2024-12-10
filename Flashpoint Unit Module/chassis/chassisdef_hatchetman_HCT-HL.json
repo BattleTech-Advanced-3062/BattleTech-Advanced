@@ -15,7 +15,7 @@
 		"UIName": "Hel",
 		"Id": "chassisdef_hatchetman_HCT-HL",
 		"Name": "Hel",
-		"Details": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. With changing the weapons out for a pair of clan heavy medium lasers, and a pair of clan heavy small laser",
+		"Details": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. Hel changes out the weapons out for a pair of Clan heavy medium lasers, and a pair of Clan heavy small lasers.",
 		"Icon": "uixTxrIcon_hatchetman"
 	},
 	"MovementCapDefID": "movedef_hatchetman_HCT-3F",
@@ -25,7 +25,7 @@
 	"PrefabBase": "hatchetman",
 	"VariantName": "HCT-HL",
 	"StockRole": "Gladiator",
-	"YangsThoughts": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. With changing the weapons out for a pair of clan heavy medium lasers, and a pair of clan heavy small laser",
+	"YangsThoughts": "Upgraded from the previous prototype design, Loki's personal mech has gone through a partial redesign with the addition of Hardened Armor, a true TSM, and a DHS kit. Hel changes out the weapons out for a pair of Clan heavy medium lasers, and a pair of Clan heavy small lasers.",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
