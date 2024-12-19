@@ -3,6 +3,8 @@
 	"requirementList": [
         {
             "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
             "ExclusionTags": {
                 "items": [ "planet_other_empty" ],
                 "tagSetSourceFile": ""

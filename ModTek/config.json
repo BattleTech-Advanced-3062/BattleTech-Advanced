@@ -111,9 +111,10 @@
           "HarmonyX [TRACE]",
           "HarmonyX [LOG]",
           "Unity [ERROR] RenderTexture.Create failed: format unsupported for random writes",
-          "WartechIIC [ERROR] Newtonsoft.Json.JsonSerializationException:",
           "Unity [ERROR] ObjectDisposedException: Cannot access a disposed object.",
-          "AppDomain [DEBUG] UnhandledException"
+          "AppDomain [DEBUG] UnhandledException",
+          "HarmonyX [ERROR] Failed to patch void",
+          "HarmonyX [WARNING] io.mission.customunits: You should only patch implemented methods/constructors to avoid issues."
         ],
         "AbsoluteTimeEnabled": true,
         "AbsoluteTimeUseUtc": true
