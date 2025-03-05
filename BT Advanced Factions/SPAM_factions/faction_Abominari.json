@@ -1,0 +1,47 @@
+{
+	"ID": "faction_Abominari",
+	"Name": "Abominari",
+	"ShortName": "Abominari",
+	"Demonym": "Abominari",
+	"Government": "Pirate",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "Abominari",
+	"icon": "uixTxrLogo_Abominari",
+	"heraldryDefId": "heraldrydef_Abominari",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "The Abominari are an unusual pirate warband with an unclear provenance. They appeared in the Magistracy of Canopus without any warning, broadcasting nonsensical mashed-up biblical scriptures, and attacking without pause. Their equipment is in decent repair and they offer no explanation of their actions. Indeed, they simply appear, raid or kill their targets, and vanish as quickly as they came.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}
