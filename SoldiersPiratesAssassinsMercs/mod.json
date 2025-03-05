@@ -2008,6 +2008,114 @@
 				"PersonalityAttributes": [
 					"PIRATE"
 				]
+			},
+			"StrychnineSlavers": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 3,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"SantandersKillers": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 4,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"HookwormsHighwaymen": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 5,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"CalderonsCommandos": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 6,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"TheDark": {
+				"MercFactionFallbackTag": "DarkCaste",
+				"AppearanceWeight": 2,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"DARKCASTE"
+				]
+			},
+			"DedricksonsDevils": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 7,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"ForeverVigilant": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 5,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"Abominari": {
+				"MercFactionFallbackTag": "AuriganPirates",
+				"AppearanceWeight": 4,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"PIRATE"
+				]
+			},
+			"GreenGhosts": {
+				"MercFactionFallbackTag": "DarkCaste",
+				"AppearanceWeight": 1,
+				"RestrictionIsWhitelist": true,
+				"EmployerRestrictions": [
+					"AuriganPirates"
+				],
+				"UnitRating": 2,
+				"PersonalityAttributes": [
+					"GREENGHOSTS"
+				]
 			}
 		},
 		"FallbackUnitFactionTag": "mercenaries",
