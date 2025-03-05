@@ -5,7 +5,7 @@
 			"Visible": true,
 			"AllowOnWeapon": false,
 			"AllowOmni": true,
-			"Description": "OmniMechs are different from BattleMechs in several ways such as their extreme flexibility in loadouts.  Omni hardpoints are a special type of hardpoint, unique to OmniMechs, which allow mounting any BattleMech weapon.",
+			"Description": "OmniMechs are different from BattleMechs in several ways such as their extreme flexibility in loadouts.  Omni hardpoints are a special type of hardpoint that allows any weapon that isn’t for Battle Armor or a Super Weapon to be mounted to the mech.",
 			"TooltipCaption": "Omni Hardpoints"
 		},
 		{
