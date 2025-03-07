@@ -61,7 +61,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",
@@ -115,6 +115,7 @@
 			"SaiphTriumvirate",
 			"TerracapConfederation",
 			"StykCommonality",
+			"TheRaptors",
 			"unit_heavy"
 		],
 		"tagSetSourceFile": ""

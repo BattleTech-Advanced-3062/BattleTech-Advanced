@@ -20,9 +20,9 @@
 	},
 	"MovementCapDefID": "movedef_flea_FLE-15",
 	"PathingCapDefID": "pathingdef_light",
-	"HardpointDataDefID": "hardpointdatadef_cuambassador",
-	"PrefabIdentifier": "chrprfmech_cuambassadorbase-001",
-	"PrefabBase": "cuambassador",
+	"HardpointDataDefID": "hardpointdatadef_mite",
+	"PrefabIdentifier": "chrprfmech_mitebase-001",
+	"PrefabBase": "mite",
 	"Tonnage": 10,
 	"InitialTonnage": 1,
 	"weightClass": "LIGHT",
@@ -212,12 +212,12 @@
 	"VariantName": "MTE-MGT",
 	"ChassisTags": {
 		"items": [
-			"mr-resize-0.7-0.7-0.7",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"OmniMech",
 			"LightMech",
-			"HeroMech"
+			"HeroMech",
+			"IgnoreEngineLimit"
 		],
 		"tagSetSourceFile": ""
 	},
