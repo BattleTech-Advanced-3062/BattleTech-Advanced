@@ -20,9 +20,9 @@
 	},
 	"MovementCapDefID": "movedef_flea_FLE-15",
 	"PathingCapDefID": "pathingdef_light",
-	"HardpointDataDefID": "hardpointdatadef_cuambassador",
-	"PrefabIdentifier": "chrprfmech_cuambassadorbase-001",
-	"PrefabBase": "cuambassador",
+	"HardpointDataDefID": "hardpointdatadef_mite",
+	"PrefabIdentifier": "chrprfmech_mitebase-001",
+	"PrefabBase": "mite",
 	"Tonnage": 10,
 	"InitialTonnage": 1,
 	"weightClass": "LIGHT",
@@ -56,7 +56,12 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -65,12 +70,7 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 10,
@@ -97,7 +97,12 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 15,
 			"MaxArmor": 40,
@@ -124,12 +129,7 @@
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 10,
@@ -202,11 +202,11 @@
 	"VariantName": "MTE-13B",
 	"ChassisTags": {
 		"items": [
-			"mr-resize-0.7-0.7-0.7",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"OmniMech",
-			"LightMech"
+			"LightMech",
+			"IgnoreEngineLimit"
 		],
 		"tagSetSourceFile": ""
 	},

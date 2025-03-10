@@ -1,0 +1,47 @@
+{
+	"ID": "faction_CalderonsCommandos",
+	"Name": "Calderon's Commandos",
+	"ShortName": "Calderon's Commandos",
+	"Demonym": "Calderon's Commandos",
+	"Government": "Pirate",
+	"Allies": [],
+	"Enemies": [],
+	"Presence": 1.0,
+	"ReputationStatements": [
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander.",
+		"We've got a need for a mercenary to help us out with a little problem. I hope you're up for the task, Commander."
+	],
+	"MissionSuccessStatements": [
+		"Well done, Commander. We obviously placed our faith in the right mercenary company. We'll let you know if we have any other work for you."
+	],
+	"GoodFaithFailureStatements": [
+		"You win some, you lose some. Sometimes it's in between. I'm disappointed you couldn't complete the contract, but at least you gave it your best shot."
+	],
+	"BadFaithFailureStatements": [
+		"For somebody who came so highly recommended, you let us down pretty hard. Thanks for nothing, I guess."
+	],
+	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
+	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DataManager": null,
+	"factionID": "CalderonsCommandos",
+	"icon": "uixTxrLogo_CalderonsCommandos",
+	"heraldryDefId": "heraldrydef_CalderonsCommandos",
+	"storePanelImage": null,
+	"factionStoreColor": null,
+	"Description": "After the death of Jeffrey Calderon and the assumption of leadership by Grover Shraplen, some in the Concordat protested this. Among them was Stewart Bogdanovich-Calderon, a distant member of the Calderon family tree, who decreed that a Calderon would rule the Concordat even if they had to take it by force. To that end, Bogdanovich-Calderon set about creating Calderon's Commandos and waging a one-man war against the Concordat.",
+	"StartingReputationValues": [
+		0,
+		0,
+		0
+	],
+	"StartingReputationModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"Description": {
+		"Cost": 0,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "null",
+		"Model": "null",
+		"UIName": "null",
+		"Id": "heraldrydef_TheDark",
+		"Name": "The Dark",
+		"Details": "",
+		"Icon": ""
+	},
+	"textureLogoID": "uixTxrLogo_TheDark",
+	"primaryMechColorID": "Greyscale_04",
+	"secondaryMechColorID": "Greyscale_05",
+	"tertiaryMechColorID": "Greyscale_02"
+}

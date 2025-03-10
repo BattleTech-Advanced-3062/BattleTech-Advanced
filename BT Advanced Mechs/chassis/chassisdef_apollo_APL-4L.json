@@ -83,6 +83,10 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -94,6 +98,10 @@
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
@@ -110,6 +118,10 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],

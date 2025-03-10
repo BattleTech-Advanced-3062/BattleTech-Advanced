@@ -1,0 +1,18 @@
+{
+	"Description": {
+		"Cost": 0,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "null",
+		"Model": "null",
+		"UIName": "null",
+		"Id": "heraldrydef_ForeverVigilant",
+		"Name": "Forever Vigilant",
+		"Details": "",
+		"Icon": ""
+	},
+	"textureLogoID": "uixTxrLogo_ForeverVigilant",
+	"primaryMechColorID": "Blue_05",
+	"secondaryMechColorID": "Greyscale_03",
+	"tertiaryMechColorID": "Blue_04"
+}
