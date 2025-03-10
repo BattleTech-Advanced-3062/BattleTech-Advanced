@@ -9,7 +9,7 @@
 	"PenetrateAIMult": 0.4,
 	"JamAIAvoid": 1.0,
 	"DamageJamAIAvoid": 2.0,
-	"ExternalHeatLimit": 85,
+	"ExternalHeatLimit": 50,
 	"AmmoCanBeExhausted": true,
 	"RestoreEjectedWeapons": true,
 	"BurningForestDesignMask": "DesignMaskBurningForest",

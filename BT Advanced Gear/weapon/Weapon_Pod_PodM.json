@@ -23,7 +23,10 @@
 			"PipsIgnored: 1",
 			"WpnAccuracy: +1",
 			"InternalAmmo: 1"
-		]
+		],
+		"AmmoCost": {
+			"PerUnitCost": 1000
+		}
 	},
 	"Category": "AntiPersonnel",
 	"Type": "Autocannon",

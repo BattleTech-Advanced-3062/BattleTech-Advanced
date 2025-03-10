@@ -67,6 +67,10 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
@@ -82,6 +86,10 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -111,6 +119,10 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -122,6 +134,10 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false

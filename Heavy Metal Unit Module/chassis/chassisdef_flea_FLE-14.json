@@ -209,6 +209,7 @@
 		"items": [
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
+			"OmniMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""
