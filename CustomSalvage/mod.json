@@ -132,5 +132,12 @@
 			"Path": "icons",
 			"ShouldMergeJSON": false
 		}
-	]
+	],
+	"Logs": {
+		"CustomSalvage.log": {
+			"Include": [
+				"CustomSalvage"
+			]
+		}
+	}
 }
