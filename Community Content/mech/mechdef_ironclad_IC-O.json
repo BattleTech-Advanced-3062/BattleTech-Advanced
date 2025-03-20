@@ -407,7 +407,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_1"
+			"LocalGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -419,7 +419,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_1"
+			"TargetComponentGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -585,7 +585,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_2"
+			"LocalGUID": "target_PPC_2"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -597,7 +597,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_2"
-		},
+			"TargetComponentGUID": "target_PPC_2"
+		}
 	]
 }
