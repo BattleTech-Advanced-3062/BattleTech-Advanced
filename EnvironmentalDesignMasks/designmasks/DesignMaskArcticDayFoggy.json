@@ -1,12 +1,12 @@
 {
   "Description": {
     "Id": "DesignMaskArcticDayFoggy",
-    "Name": "Foggy Arctic Day",
-    "Details": "Polar biomes increase a unit's Heat-sinking ability by 20%, and visibility on sensors by a similar amount. In the fog visibility is reduced to 80% of normal and all units have +1 defense.",
+    "Name": "Topsy-Turvy Foggy Arctic Day",
+    "Details": "Polar biomes reduce a unit's Heat-sinking ability by 20%, and visibility on sensors by a similar amount. In the fog visibility is improved to 120% of normal and all units have -1 defense.",
     "Icon": "fog-arctic"
   },
-  "heatSinkMultiplier": 1.2,
-  "signatureMultiplier": 1.2,
-  "visibilityMultiplier": 0.8,
-  "targetabilityModifier": 1
+  "heatSinkMultiplier": 0.8,
+  "signatureMultiplier": 0.8,
+  "visibilityMultiplier": 1.2,
+  "targetabilityModifier": -1
 }
