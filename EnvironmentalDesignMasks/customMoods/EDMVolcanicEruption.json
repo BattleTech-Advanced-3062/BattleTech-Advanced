@@ -4,7 +4,7 @@
   "designMask": "DesignMaskVolcanicEruption",
   "startMission": [
     {
-      "words": "What the hell, Commander, a volcano is going off on this planet! This is insane!",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! What the hell, Commander, a volcano is going off on this planet! This is insane!",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_SumireDefault",
       "emote": "Default",

@@ -4,7 +4,7 @@
   "designMask": "DesignMaskHurricane",
   "startMission": [
     {
-      "words": "Who the hell conducts military operations during a hurricane, Commander? This is insane!",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! Who the hell conducts military operations during a hurricane, Commander? This is insane!",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_SumireDefault",
       "emote": "Default",

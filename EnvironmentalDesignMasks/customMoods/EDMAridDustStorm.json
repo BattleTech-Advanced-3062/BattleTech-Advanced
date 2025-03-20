@@ -5,7 +5,7 @@
   "moodTags": ["biomeAridBadlands", "biomeAridDesert"],
   "startMission": [
     {
-      "words": "This duststorm is screwing with sensors and visuals. You'll be operating almost blind out here, and the wind is going to make it hard to keep steady.",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! This duststorm is screwing with sensors and visuals. You'll be operating almost blind out here, and the wind is going to make it hard to keep steady.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_SumireDefault",
       "emote": "Default",
