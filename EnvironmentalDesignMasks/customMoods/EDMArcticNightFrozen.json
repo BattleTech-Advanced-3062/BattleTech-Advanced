@@ -4,7 +4,7 @@
   "designMask": "DesignMaskArcticNightFrozen",
   "startMission": [
     {
-      "words": "Our vision might be worse at night, but the arctic temps improve sensor signals. We'll get sensor returns before we see anything visually.",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! Our vision might be worse at night, but the arctic temps improve sensor signals. We'll get sensor returns before we see anything visually.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_DariusDefault",
       "emote": "Default",

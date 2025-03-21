@@ -1,11 +1,11 @@
 {
   "Description" : {
     "Id" : "DesignMaskBiomeBadlandsParched",
-    "Name" : "Desert",
-    "Details" : "Units in the Desert sink only 85% of their normal Heat.",
+    "Name" : "Topsy-Turvy Desert",
+    "Details" : "Units in the Desert sink 115% of their normal Heat.",
     "Icon" : "uixSvgIcon_biome_Heated"
   },
-  "heatSinkMultiplier" : 0.85,
+  "heatSinkMultiplier" : 1.15,
   "audioSwitchSurfaceType" : "dirt",
   "audioSwitchRainingSurfaceType" : "mud"
 }

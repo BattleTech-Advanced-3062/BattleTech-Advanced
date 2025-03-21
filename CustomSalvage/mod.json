@@ -31,7 +31,6 @@
 		"SalvageLegWeight": 0.75,
 		"SalvageTorsoWeight": 1,
 		"SalvageHeadWeight": 0.5,
-		"SalvageCTWeight": 1.5,
 		"VACTDestroyedMod": 0.35,
 		"VABLDestroyedMod": 0.68,
 		"SalvageTurrets": true,
@@ -51,9 +50,9 @@
 		"FullVehicleStructurePersentage": -0.05,
 		"AdditionalStructurePercentagePerPart": 0.11,
 		"FullUnitRecoveryChance": 1,
-		"FullMechRecoveryChance": 1, 
+		"FullMechRecoveryChance": 1,
 		"FullVehicleRecoveryChance": 0.5,
-    	"SquadAdditionalPartChance": 0.25,
+		"SquadAdditionalPartChance": 0.25,
 		"SquadDisassembleComponents": false,
 		"VehicleDisassembleComponents": true,
 		"VehicleAlwaysDisassembled": true,
@@ -82,6 +81,7 @@
 		"ExcludedColor": "magenta",
 		"AssemblyVariants": true,
 		"MinPartsToAssembly": 0.5,
+		"MinPartsToAssemblySpecial": 0.5,
 		"ExcludeTags": [
 			"BLACKLISTED"
 		],
@@ -90,7 +90,6 @@
 		"MaxVariantsInDescription": 5,
 		"ApplyPartPriceMod": true,
 		"UnEquipedMech": false,
-		"BrokenMech": false,
 		"HeadRepaired": false,
 		"LeftArmRepaired": false,
 		"RightArmRepaired": false,
@@ -133,5 +132,12 @@
 			"Path": "icons",
 			"ShouldMergeJSON": false
 		}
-	]
+	],
+	"Logs": {
+		"CustomSalvage.log": {
+			"Include": [
+				"CustomSalvage"
+			]
+		}
+	}
 }

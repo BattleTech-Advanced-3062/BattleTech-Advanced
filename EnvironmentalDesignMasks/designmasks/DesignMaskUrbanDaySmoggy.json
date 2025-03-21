@@ -1,13 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskUrbanDaySmoggy",
-    "Name": "Smoggy Day",
-    "Details": "Heavy smog obscures everything, reducing visual and sensor range to 80% of normal. All units have +1 defense.",
+    "Name": "Topsy-Turvy Smoggy Day",
+    "Details": "Heavy smog clarifies everything, improving visual and sensor range to 120% of normal. All units have -1 defense.",
     "Icon": "fog"
   },
-  "targetabilityModifier": 1,
-  "visibilityMultiplier": 0.8,
-  "signatureMultiplier": 0.8,
+  "targetabilityModifier": -1,
+  "visibilityMultiplier": 1.2,
+  "signatureMultiplier": 1.2,
 	"audioSwitchSurfaceType" : "dirt",
 	"audioSwitchRainingSurfaceType" : "mud"
 }

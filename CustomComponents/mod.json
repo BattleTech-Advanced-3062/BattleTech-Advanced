@@ -108,5 +108,12 @@
 			"Enabled": true
 		}
 	},
-	"Manifest": []
+	"Manifest": [],
+	"Logs": {
+		"CustomComponents.log": {
+			"Include": [
+				"CustomComponents"
+			]
+		}
+	}
 }

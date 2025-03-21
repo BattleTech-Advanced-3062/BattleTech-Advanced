@@ -216,5 +216,37 @@
 			"MaxTimesEncountered": -1,
 			"BribeAcceptanceMultiplier": 0.4
 		}
+	],
+	"DARKCASTE": [
+		{
+			"Dialogue": [
+				"I am disgusted by having to face mercenaries, but the work is the work. Surrender now and perhaps we will show you mercy. Perhaps."
+			],
+			"BribeSuccessDialogue": [
+				"...your money is worth more today than taking your lives would be. Fine, let it be done."
+			],
+			"BribeFailureDialogue": [
+				"Disgusting that you think we can be bought for such a low price. Prepare to die, mercenary scum!"
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.15
+		}
+	],
+	"GREENGHOSTS": [
+		{
+			"Dialogue": [
+				"......"
+			],
+			"BribeSuccessDialogue": [
+				"......very well, we will withdraw."
+			],
+			"BribeFailureDialogue": [
+				"......die now, fool."
+			],
+			"MinTimesEncountered": 0,
+			"MaxTimesEncountered": -1,
+			"BribeAcceptanceMultiplier": 0.05
+		}
 	]
 }

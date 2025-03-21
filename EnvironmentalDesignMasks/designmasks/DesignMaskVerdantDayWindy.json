@@ -1,8 +1,8 @@
 {
   "Description": {
     "Id": "DesignMaskVerdantDayWindy",
-    "Name": "Heavy Winds",
-    "Details": "In heavy winds units take 10% more stability damage and the scatter on all weapons with scatter (such as artillery) is increased by 15%.",
+    "Name": "Topsy-Turvy Heavy Winds",
+    "Details": "In heavy winds units take 10% less stability damage and the scatter on all weapons with scatter (such as artillery) is reduced by 15%.",
     "Icon": "uixSvgIcon_biome_Normal"
   },
   "audioSwitchSurfaceType" : "dirt",
@@ -28,7 +28,7 @@
     "statisticData": {
      "statName": "CAC_MinMissRadius_Mod",
 	 "operation": "Float_Multiply",
-	 "modValue": "1.15",
+	 "modValue": "0.85",
 	 "modType": "System.Single",
      "targetCollection": "Weapon"
     },
@@ -56,7 +56,7 @@
       "statisticData": {
         "statName": "CAC_MaxMissRadius_Mod",
 		"operation": "Float_Multiply",
-		"modValue": "1.15",
+		"modValue": "0.85",
 		"modType": "System.Single",
 		"targetCollection": "Weapon"
       },
@@ -83,7 +83,7 @@
 		"statisticData": {
 			"statName": "ReceivedInstabilityMultiplier",
 			"operation": "Float_Multiply",
-			"modValue": "1.1",
+			"modValue": "0.9",
 			"modType": "System.Single"
 		},
 		"nature": "Buff"
