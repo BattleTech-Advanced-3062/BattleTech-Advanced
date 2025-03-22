@@ -32,3 +32,9 @@ jobs:
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factoryRenderer.py
+            - name: Run Pilot automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/pilotRenderer.py
