@@ -30,7 +30,7 @@
 	"ChassisID": "chassisdef_jenner_JR7-O",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 999999,
+		"Cost": 504800,
 		"Rarity": 999,
 		"Purchasable": false,
 		"Manufacturer": null,
@@ -41,7 +41,7 @@
 		"Details": "Like many FrankenMechs, the reasoning behind the \"Oxide\" is lost either to time or the untimely end of its creator. This Jenner can't seem to decide whether it wants to be a short-range skirmisher or an excessively mobile fire-support unit. Either way, when its tubes run dry, it's time to use that speed and get out of there ASAP.",
 		"Icon": "uixTxrIcon_jenner"
 	},
-	"simGameMechPartCost": 99999999,
+	"simGameMechPartCost": 400000,
 	"Version": 1,
 	"Locations": [
 		{
