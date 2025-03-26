@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_HiringHall.png"
 	},
 	"Scope": "Company",
-	"Weight": 50,
+	"Weight": 250,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
