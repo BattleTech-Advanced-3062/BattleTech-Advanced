@@ -116,7 +116,7 @@
 		"UIName": "Templar",
 		"Id": "chassisdef_templar_TLR1-OD",
 		"Name": "Templar",
-		"Details": "Intended for long range combat, the Templar D is configured to engage an enemy at long ranges. To do this, makes use of twin Light Gauss Rifles and their incredibly long reach. However, because the Light Gauss Rifles are so focused on long range, the Templar D requires something to defend itself up close. That task falls two a pair of Large X-Pulse Lasers, which do an admirable job of shooting down any pesky lights that think to underrun the gauss rifles.",
+		"Details": "Intended for long range combat, the Templar D is configured to engage an enemy at long ranges. To do this, makes use of twin Light Gauss Rifles and their incredibly long reach. However, because the Light Gauss Rifles are so focused on long range, the Templar D requires something to defend itself up close. That task falls too a pair of Large X-Pulse Lasers, which do an admirable job of shooting down any pesky lights that think to underrun the gauss rifles.",
 		"Icon": "uixTxrIcon_templar"
 	},
 	"MovementCapDefID": "movedef_templar-TLR1-O",
@@ -335,7 +335,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Ranged Assault",
-	"YangsThoughts": "Intended for long range combat, the Templar D is configured to engage an enemy at long ranges. To do this, makes use of twin Light Gauss Rifles and their incredibly long reach. However, because the Light Gauss Rifles are so focused on long range, the Templar D requires something to defend itself up close. That task falls two a pair of Large X-Pulse Lasers, which do an admirable job of shooting down any pesky lights that think to underrun the gauss rifles.",
+	"YangsThoughts": "Intended for long range combat, the Templar D is configured to engage an enemy at long ranges. To do this, makes use of twin Light Gauss Rifles and their incredibly long reach. However, because the Light Gauss Rifles are so focused on long range, the Templar D requires something to defend itself up close. That task falls too a pair of Large X-Pulse Lasers, which do an admirable job of shooting down any pesky lights that think to underrun the gauss rifles.",
 	"CustomParts": {
 		"CustomParts": []
 	}
