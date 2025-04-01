@@ -95,6 +95,8 @@
 			"ignoredAbilities": [
 				"AbilityDefBDInit",
 				"AbilityDefBlueAP",
+				"AbilityDefBlueSpeed",
+				"AbilityDefCMD_TankDrop_Cargo",
 				"AbilityDefLokiGhost",
 				"AbilityDefWulfSRM",
 				"AbilityDefTexHealth",

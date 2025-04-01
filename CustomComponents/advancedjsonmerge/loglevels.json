@@ -1,0 +1,15 @@
+{
+	"TargetID": "settings",
+	"Instructions": [
+		{
+			"JSONPath": "loggerLevels",
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"k": "CustomComponents",
+					"v": "Log"
+				}
+			]
+		}
+	]
+}

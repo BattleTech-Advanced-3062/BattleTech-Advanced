@@ -17,7 +17,7 @@
 		},
 		"BonusDescriptions": [
 			"FTLLRM",
-			"WpnAccuracy: +1",
+			"WpnAccuracy: -1",
 			"CostPerShot: 50",
 			"AmmoCount: 120"
 		],

@@ -700,7 +700,7 @@
 			"k": "Float_MaxThinkSeconds",
 			"v": {
 				"type": "Float",
-				"floatVal": 60.0
+				"floatVal": 120.0
 			}
 		},
 		{

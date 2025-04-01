@@ -43,8 +43,7 @@
 		"Locals",
 		"Mercenaries",
 		"SaiphTriumvirate",
-		"TerracapConfederation",
-		"AuriganDirectorate"
+		"TerracapConfederation"
 	],
 	"Presence": 1,
 	"factionID": "Davion",

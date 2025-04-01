@@ -1,7 +1,7 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "18.1",
+	"Version": "18.5",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
 		{
@@ -107,7 +107,8 @@
 		"MechSprayPaint",
 		"SearchAndRescue",
 		"JwNetOverride",
-		"VMMWSGC"
+		"VMMWSGC",
+		"JwTweaks"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

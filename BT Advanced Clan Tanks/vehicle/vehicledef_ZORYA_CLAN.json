@@ -96,15 +96,15 @@
 			"MountedLocation": "Turret",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional",
-			"LocalGUID":"target_LRM_1"
+			"LocalGUID": "target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Gear_Attachment_ArtemisIV",
 			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Front",
+			"MountedLocation": "Turret",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_1"
+			"TargetComponentGUID": "target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Gear_Guardian_ECM_CLAN",

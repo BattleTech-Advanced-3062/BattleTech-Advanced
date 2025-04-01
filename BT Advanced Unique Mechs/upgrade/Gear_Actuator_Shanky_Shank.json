@@ -3,8 +3,17 @@
 		"Category": [
 			{
 				"CategoryID": "w/s/m/melee"
+			},
+			{
+				"CategoryID": "PartHand"
+			},
+			{
+				"CategoryID": "ArmHandActuator"
 			}
 		],
+		"ArmActuator": {
+			"Type": "PartHand"
+		},
 		"BonusDescriptions": [
 			"IsPhysWeap",
 			"PhysWeapUnsteady",

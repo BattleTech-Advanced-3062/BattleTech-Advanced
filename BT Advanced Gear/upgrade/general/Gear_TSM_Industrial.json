@@ -1,0 +1,198 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "ProtoTSM"
+		},
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"PunchDamageBonus: +50%",
+			"KickDamageBonus: +30%",
+			"PhysWeapDamageBonus: +30%",
+			"Dynamic: 11"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 11,
+			"ShowIcon": false,
+			"NameText": "Industrial TSM",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 1000000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Bergan Industries",
+		"Model": "Prototype",
+		"UIName": "T.S.M. (Industrial)",
+		"Id": "Gear_TSM_Industrial",
+		"Name": "T.S.M. Industrial",
+		"Details": "Industrial TSM is the version of TSM that was created after the original experiments with it in the 3030s. It increases the physical attack damage of the carrying mech by 50% while having no other effects on the combat capability of the design in any way. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "offroad-racer"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "Torso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 2,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "pTSM-Kick_Damage",
+				"Name": "pTSM Kick Damage",
+				"Details": "Kick attacks deal 50% more damage.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Kick_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.3",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 2,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "pTSM-Punch_Damage",
+				"Name": "pTSM Punch Damage",
+				"Details": "Punch attacks deal 50% more damage.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Punch_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 2,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "pTSM-PhysWeap_Damage",
+				"Name": "pTSM Physical Weapon Damage",
+				"Details": "Physical weapon attacks deal 50% more damage.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Physical_Weapon_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.3",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

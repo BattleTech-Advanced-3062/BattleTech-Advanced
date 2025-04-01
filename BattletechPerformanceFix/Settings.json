@@ -1,19 +1,18 @@
 {
   "features": {
     "LocalizationPatches": false,
-    "MechLabFixFeature": false,
-    "LoadFixes": false,
-    "NoSalvageSoftlock": false,
-    "DataLoaderGetEntryCheck": false,
-    "ShopTabLagFix": false,
+    "MechLabFixFeature": true,
+    "NoSalvageSoftlock": true,
+    "DataLoaderGetEntryCheck": true,
+    "ShopTabLagFix": true,
     "ContractLagFix": true,
     "EnableLoggingDuringLoads": false,
     "ExtraLogging": false,
-    "ShaderDependencyOverride": false,
+    "ShaderDependencyOverride": true,
     "DisableDeployAudio": false,
     "RemovedFlashpointFix": false,
     "DisableSimAnimations": false,
-    "RemovedContractsFix": false,
+    "RemovedContractsFix": true,
     "EnableConsole": false
   },
   "WantContractsLagFixVerify": false

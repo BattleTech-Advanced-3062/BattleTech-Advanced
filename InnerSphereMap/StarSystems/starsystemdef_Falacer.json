@@ -43,7 +43,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 17,
+	"JumpDistance": 7,
 	"ownerID": "DaneSacellum",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,

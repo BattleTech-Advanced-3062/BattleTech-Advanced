@@ -1,7 +1,7 @@
 {
 	"Description": {
 		"Id": "starsystemdef_Cynthiana(Liao2202+)",
-		"Name": "Cynthiana (Liao 2202+)",
+		"Name": "Liao",
 		"Details": "Liao, named after the Capellan namesake, has served as a capital for many years until it's devastation during the Succession Wars reduced it to a backwater. It still maintains it's importance to the Capellan Confederation however.",
 		"Icon": ""
 	},
@@ -31,7 +31,8 @@
 			"planet_other_starleague",
 			"planet_other_hub",
 			"planet_other_ruins",
-			"planet_faction_liao"
+			"planet_faction_liao",
+			"planet_factory"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -102,6 +103,6 @@
 		"MagistracyOfCanopus",
 		"TaurianConcordat",
 		"Mercenaries",
-		"AuriganPirates"
+		"ShenSeTian"
 	]
 }

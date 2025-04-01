@@ -1,0 +1,27 @@
+{
+	"Id": "WeaponUpgrade_Superweapon_FCS_COIL",
+	"addonType": "superweaponfcs",
+	"targetComponentTags": [
+		"SuperweaponFCSSupported-COIL"
+	],
+	"modes": [
+		{
+			"Id": "Off",
+			"UIName": "FCS Off",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
+		},
+		{
+			"Id": "On",
+			"UIName": "FCS On",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
+		},
+		{
+			"Id": "Over",
+			"UIName": "FCS Over",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
+		}
+	]
+}

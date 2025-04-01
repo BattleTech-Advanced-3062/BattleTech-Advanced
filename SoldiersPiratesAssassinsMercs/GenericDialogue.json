@@ -37,7 +37,7 @@
 	],
 	"9thDivisionWoB": [
 		"You face the 9th Division of the Word of Blake, warrior. In the name of the Blessed Blake, we shall obliterate you this day!",
-		"You face Measure of Trust III-Beta, the finest battalion in the division. Serve us or die.",
+		"You face Measure of Trust III-Gamma, the finest battalion in the division. Serve us or die.",
 		"We are no militia rabble led by local government dogs. We are Crushing Reality III-delta, led by Precentor Lenca. We are Blake's bravest!",
 		"Conrad Toyama did nothing wrong. Repent of your wrongdoings and join us or die!"
 	],
@@ -210,5 +210,53 @@
 	],
 	"RepublicanGuard": [
 		"Alright lads, it's time for the Republican Guard to show their colors once again. Get out there and take these mercenaries down! For the Rim Worlds Republic!"
+	],
+	"GreenGhosts": [
+		"......"
+	],
+	"DarkCaste": [
+		"There but for the grace of the Great Father go we. Stand and deliver, fellow MechWarriors!"
+	],
+	"TheDark": [
+		"Our Clan has fallen, the Great Father has forsaken us, there is no future for our people, but I'll be damned if I let you lay us low today! Brothers, we fight for the honor of our fallen Clan! Forward, and let none survive!"
+	],
+	"BandOfTheDamned": [
+		"Yarr harr harr, mateys, it be plundering time! ....nah I'm just kiddin', always wanted to say that. We are gonna kill you though, no hard feelings."
+	],
+	"DeathsConsorts": [
+		"Lady Death has a message for you: time to die. Run or don't, it makes no difference to her, you'll just die tired if you do."
+	],
+	"MorrisonsExtractors": [
+		"Time to rumble, dipshits. Extractors, do your thing and extract value from these idiots corpses!"
+	],
+	"NewBeltPirates": [
+		"We're the New Belt Pirates, we dance with the Clans in their own space, you ain't got nothin' on us fools. Time to rumble!."
+	],
+	"TortugaFusiliers": [
+		"Your money or your life, makes not difference to me."
+	],
+	"ShenSeTian": [
+		"The Chancellor turned his back on us so we've turned our back on the Confederation, it's the least they deserve. Anyone who stands in our way will be cut down without mercy, including you."
+	],
+	"StrychnineSlavers": [
+		"How about you shut down those 'Mechs and climb on out for us? No? Well, we'll just have to shoot the 'Mechs out from under you can take you as slaves regardless. It's more fun that way anyhow!"
+	],
+	"SantandersKillers": [
+		"We might have lost Santander V but we've still got our fighting spirit! Time to take your 'Mechs from your smoking corpses!"
+	],
+	"HookwormsHighwaymen": [
+		"Highwaymen, all forward! Clear this mercenary scum out of my sight!"
+	],
+	"CalderonsCommandos": [
+		"Grover Shraplen isn't my Protector! Down with the pretender and down with any who support him! If you're not with us, you're against us!"
+	],
+	"DedricksonsDevils": [
+		"Damn, fellow mercs, hate to see it. I was like you all once and maybe you'll end up in my shoes sooner than later. Still, I got a job to do, it ain't personal, friends."
+	],
+	"ForeverVigilant": [
+		"Lady Kamea Arano is a pretender to the throne, a child playing at rulership, and we'll be sure to take her down a peg! Down with the Reach!"
+	],
+	"Abominari": [
+		"Yea, though we walk through the shadow of the valley of death, we shall fear no MechWarrior, for the light of the House Lords is with us. Seek not to bar our way, for we shall win through, no matter the cost!"
 	]
 }

@@ -82,6 +82,12 @@
 				"additionalValues": null
 			},
 			{
+				"Type": "MechWarrior_AddRoster",
+				"value": "pilot_wiki_Amid",
+				"valueConstant": null,
+				"additionalValues": null
+			},
+			{
 				"Type": "System_ShowRewards",
 				"value": "itemCollection_loot_SpareParts",
 				"valueConstant": null,

@@ -7,6 +7,9 @@ mechdef_cossack_C-SK1,Mech,1,8
 mechdef_anubis_ABS-3L,Mech,1,6
 mechdef_anubis_ABS-3R,Mech,1,6
 mechdef_anubis_ABS-3T,Mech,1,6
+mechdef_slowpoke_SLP-4U,Mech,1,5
+mechdef_slowpoke_SLP-5U,Mech,1,5
+mechdef_slowpoke_SLP-6U,Mech,1,5
 mechdef_huronw_HUR-WO-R4L,Mech,1,5
 mechdef_huronw_HUR-WO-R5H,Mech,1,5
 mechdef_huronw_HUR-WO-R5X,Mech,1,5

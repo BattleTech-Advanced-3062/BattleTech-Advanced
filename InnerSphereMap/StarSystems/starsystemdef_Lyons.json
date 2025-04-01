@@ -30,7 +30,13 @@
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
-		"highlandsSpring"
+		"lowlandsSpring",
+		"lowlandsFall",
+		"highlandsSpring",
+		"highlandsFall",
+		"polarFrozen",
+		"tundraFrozen",
+		"jungleTropical"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -87,6 +93,6 @@
 		"Liao",
 		"WordOfBlake",
 		"Mercenaries",
-		"AuriganPirates"
+		"TheDark"
 	]
 }

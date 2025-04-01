@@ -4,15 +4,20 @@
 	"Website": "https://github.com/Denadan/CustomSalvage",
 	"Enabled": true,
 	"Hidden": true,
-	"Version": "1.9c",
 	"DependsOn": [
 		"CustomComponents"
 	],
 	"DLL": "CustomSalvage.dll",
 	"DLLEntryPoint": "CustomSalvage.Control.Init",
-	"CustomResourceTypes": ["CSTags"],
+	"CustomResourceTypes": [
+		"CSTags"
+	],
 	"Settings": {
 		"LogLevel": "Debug",
+		"DEBUG_ShowLoadingTags": false,
+		"DEBUG_LOTOFPARTS": false,
+		"DEBUG_ShowConfig": false,
+		"ShowDEBUGChances": false,
 		"RecoveryType": "PartDestroyed",
 		"PartCountType": "PartDestroyed",
 		"LostMechAction": "ReturnItemsToPlayer",
@@ -26,7 +31,6 @@
 		"SalvageLegWeight": 0.75,
 		"SalvageTorsoWeight": 1,
 		"SalvageHeadWeight": 0.5,
-		"SalvageCTWeight": 1.5,
 		"VACTDestroyedMod": 0.35,
 		"VABLDestroyedMod": 0.68,
 		"SalvageTurrets": true,
@@ -34,6 +38,24 @@
 		"UpgradeSalvage": false,
 		"AllowDropBlackListed": false,
 		"NoSalvageMechTag": "NOSALVAGE",
+		"UniqieUnitTag": "UniqueMech",
+		"FullEnemyUnitSalvage": false,
+		"MaxFullUnitsInSalvage": 1,
+		"FullUnitInfoIcon": "icons8-info",
+		"FullUnitRandomSalvageSlotUsingMod": 1.0,
+		"FullUnitUsedAllRandomSalvageSlots": false,
+		"FullUnitUsedAmountOfLootableComponents": true,
+		"FullUnitStructurePersentage": 0.45,
+		"FullMechStructurePersentage": 0.01,
+		"FullVehicleStructurePersentage": -0.05,
+		"AdditionalStructurePercentagePerPart": 0.11,
+		"FullUnitRecoveryChance": 1,
+		"FullMechRecoveryChance": 1,
+		"FullVehicleRecoveryChance": 0.5,
+		"SquadAdditionalPartChance": 0.25,
+		"SquadDisassembleComponents": false,
+		"VehicleDisassembleComponents": true,
+		"VehicleAlwaysDisassembled": true,
 		"BGColors": [
 			{
 				"Tag": "unit_assault",
@@ -59,13 +81,15 @@
 		"ExcludedColor": "magenta",
 		"AssemblyVariants": true,
 		"MinPartsToAssembly": 0.5,
+		"MinPartsToAssemblySpecial": 0.5,
 		"ExcludeTags": [
 			"BLACKLISTED"
 		],
 		"ExcludeVariants": [],
+		"BrokeByTag": [],
 		"MaxVariantsInDescription": 5,
+		"ApplyPartPriceMod": true,
 		"UnEquipedMech": false,
-		"BrokenMech": false,
 		"HeadRepaired": false,
 		"LeftArmRepaired": false,
 		"RightArmRepaired": false,
@@ -81,6 +105,17 @@
 		"RepairMechComponents": true,
 		"RepairComponentsFunctionalThreshold": 1,
 		"RepairComponentsNonFunctionalThreshold": 0,
+		"AdaptPartBaseCost": 0.015,
+		"MaxAdaptMod": 5,
+		"AdaptModWeight": 2,
+		"OmniTechTag": "OmniMech",
+		"OmniSpecialtoSpecialMod": 0.1,
+		"OmniSpectialtoNormalMod": 0.25,
+		"OmniNormalMod": 0,
+		"AllowScrapToParts": false,
+		"MinScrapParts": 0.51,
+		"MaxScrapParts": 0.91,
+		"ShowSalvageFloaties": true,
 		"RepairChanceByTP": false,
 		"BaseTP": 10,
 		"LimbChancePerTp": 1,
@@ -89,28 +124,7 @@
 		"LimbMaxChance": 1,
 		"ComponentMinChance": 1,
 		"ComponentMaxChance": 1,
-		"BrokeByTag": [],
-		"AdaptPartBaseCost": 0.015,
-		"MaxAdaptMod": 5,
-		"AdaptModWeight": 2,
-		"OmniTechTag": "OmniMech",
-		"OmniSpectialtoSpecialMod": 0.1,
-		"OmniSpectialtoNormalMod": 0.25,
-		"OmniNormalMod": 0,
-		"AllowScrapToParts": false,
-		"MinScrapParts": 0.51,
-		"MaxScrapParts": 0.91,
-		"ShowSalvageFloaties": true,
-		"FullEnemyUnitSalvage": false,
-		"MaxFullUnitsInSalvage": 1,
-		"FullUnitInfoIcon": "icons8-info",
-		"FullUnitRandomSalvageSlotUsingMod": 1.0,
-		"FullUnitUsedAllRandomSalvageSlots": false,
-		"FullUnitUsedAmountOfLootableComponents": true,
-		"FullUnitStructurePersentage": 0.45,
-		"SquadDisassembleComponents": true,
-		"VehicleDisassembleComponents": true,
-		"VehicleAlwaysDisassembled": true
+		"RepairTPMaxEffect": 0.66
 	},
 	"Manifest": [
 		{
@@ -118,5 +132,12 @@
 			"Path": "icons",
 			"ShouldMergeJSON": false
 		}
-	]
+	],
+	"Logs": {
+		"CustomSalvage.log": {
+			"Include": [
+				"CustomSalvage"
+			]
+		}
+	}
 }

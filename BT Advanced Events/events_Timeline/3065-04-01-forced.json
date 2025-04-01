@@ -49,17 +49,17 @@
 									"WIIC_set_starsystemdef_Braunschweig_defender_strength_45",
 									"WIIC_set_starsystemdef_Braunschweig_attacker_strength_50",
 									"WIIC_ClanGoliathScorpion_attacks_starsystemdef_Luebeck",
-									"WIIC_set_starsystemdef_Luebeck_defender_strength_20",
-									"WIIC_set_starsystemdef_Luebeck_attacker_strength_45",
+									"WIIC_set_starsystemdef_Lübeck_defender_strength_20",
+									"WIIC_set_starsystemdef_Lübeck_attacker_strength_45",
 									"WIIC_ClanGoliathScorpion_attacks_starsystemdef_Tomalov",
 									"WIIC_set_starsystemdef_Tomalov_defender_strength_20",
 									"WIIC_set_starsystemdef_Tomalov_attacker_strength_45",
 									"WIIC_give_starsystemdef_Kampen_to_ClanGoliathScorpion",
 									"WIIC_give_starsystemdef_Bruges_to_ClanGoliathScorpion",
-									"WIIC_give_starsystemdef_Koeningsberg_to_ClanGoliathScorpion",
-									"WIIC_Hanse_attacks_starsystemdef_Koeningsberg",
-									"WIIC_set_starsystemdef_Koeningsberg_defender_strength_40",
-									"WIIC_set_starsystemdef_Koeningsberg_attacker_strength_20"
+									"WIIC_give_starsystemdef_Köningsberg_to_ClanGoliathScorpion",
+									"WIIC_Hanse_attacks_starsystemdef_Köningsberg",
+									"WIIC_set_starsystemdef_Köningsberg_defender_strength_40",
+									"WIIC_set_starsystemdef_Köningsberg_attacker_strength_20"
 								],
 								"tagSetSourceFile": ""
 							},

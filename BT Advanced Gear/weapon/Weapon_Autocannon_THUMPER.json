@@ -13,6 +13,7 @@
 			"ArtilleryAttack",
 			"ArtilleryDetails",
 			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
 			"NoFireInMelee",
 			"AMSImmune",
 			"WeaponAttachmentCompatible: Artillery FCS"
@@ -47,10 +48,6 @@
 	"FireTerrainChance": 0.042,
 	"AlwaysIndirectVisuals": true,
 	"IndirectFireCapable": true,
-	"IsArtillery": true,
-	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
-	"ArtilleryReticleRadius" : 100,
-	"ArtilleryReticleText": "Thumper",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 1100000,
@@ -77,6 +74,23 @@
 	"CriticalComponent": false,
 	"ImprovedBallistic": true,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true,
+			"IsArtillery": true,
+			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+			"ArtilleryReticleRadius" : 100,
+			"ArtilleryReticleText": "Thumper"
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "ThumperCopperhead"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"OmniRestriction.{location}",

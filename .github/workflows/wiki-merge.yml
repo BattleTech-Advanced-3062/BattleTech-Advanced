@@ -19,7 +19,6 @@ jobs:
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
-                ref: 'parser'
             - name: Run Faction automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}

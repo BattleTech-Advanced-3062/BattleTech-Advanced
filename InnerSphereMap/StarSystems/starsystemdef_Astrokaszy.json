@@ -77,7 +77,7 @@
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 5,
+	"DefaultDifficulty": 3,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [

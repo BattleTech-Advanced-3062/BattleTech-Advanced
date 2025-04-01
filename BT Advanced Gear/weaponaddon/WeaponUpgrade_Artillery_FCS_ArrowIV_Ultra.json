@@ -36,8 +36,8 @@
 					"nature": "Debuff",
 					"statisticData": {
 						"statName": "DamageReductionMultiplierAll",
-						"operation": "Float_Add",
-						"modValue": "0.02",
+						"operation": "Float_Multiply",
+						"modValue": "0.98",
 						"modType": "System.Single"
 					}
 				}
@@ -74,8 +74,8 @@
 					"nature": "Debuff",
 					"statisticData": {
 						"statName": "DamageReductionMultiplierAll",
-						"operation": "Float_Add",
-						"modValue": "0.02",
+						"operation": "Float_Multiply",
+						"modValue": "0.98",
 						"modType": "System.Single"
 					}
 				}

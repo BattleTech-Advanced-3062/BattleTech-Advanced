@@ -13,7 +13,8 @@
 			"EvasiveExponent: 0.75",
 			"HeatPerChargeOC: 1.15",
 			"EvasiveExponentOC: 1.1",
-			"PipsIgnored: 3"
+			"PipsIgnored: 3",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -98,7 +99,8 @@
 		"items": [
 			"component_type_stock",
 			"range_close",
-			"WebbTCSupported-COIL"
+			"WebbTCSupported-COIL",
+			"SuperweaponFCSSupported-COIL"
 		],
 		"tagSetSourceFile": ""
 	}

@@ -1,4 +1,5 @@
 BTA_List_Shiro,,,
+emod_engine_090,HeatSink,0,10
 emod_engine_120,HeatSink,0,10
 emod_engine_200,HeatSink,0,10
 emod_engine_240,HeatSink,0,10
@@ -26,4 +27,6 @@ mechdef_hermesii_HER-5ME,Mech,1,10
 mechdef_quickdraw_QKD-5A,Mech,1,10
 mechdef_stalker_STK-6M,Mech,1,10
 mechdef_strider_SR1-O,Mech,1,10
+mechdef_apollo_APL-1J,Mech,1,10
+mechdef_apollo_APL-4J,Mech,1,10
 vehicledef_ONTOS_FUSION,Mech,1,10

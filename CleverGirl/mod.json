@@ -1,7 +1,7 @@
 {
 	"Name": "CleverGirl",
 	"Enabled": true,
-	"Version": "0.6.8.0",
+	"Version": "2.3.0",
 	"Description": "Provides little nudges for the AI",
 	"Author": "IceRaptor",
 	"Website": "https://github.com/IceRaptor/CleverGirl",
@@ -23,6 +23,9 @@
 			"FriendlyDamageMulti": 2.0,
 			"PunchbotDamageMulti": 2.0,
 			"OneShotMinimumToHit": 0.4
-		}
+		},
+		"SimplifiedAmmoModeOperationThreshold": 40,
+		"AttemptReducingOverheatSolutions": true,
+		"RestrictFiringModeToFlyingTargets": []
 	}
 }

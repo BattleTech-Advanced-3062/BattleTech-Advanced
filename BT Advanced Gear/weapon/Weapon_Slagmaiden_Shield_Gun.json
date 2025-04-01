@@ -11,14 +11,19 @@
 		"BonusDescriptions": [
 			"ModularArmor: +125",
 			"WpnRecoil: 2",
-			"LBX"
+			"LBX",
+			"CostPerShot: 800",
+			"AmmoCount: 2"
 		],
 		"Flags": [
 			"default",
 			"not_broken",
 			"autorepair",
 			"no_salvage"
-		]
+		],
+		"AmmoCost": {
+			"PerUnitCost": 800
+		}
 	},
 	"Category": "Ballistic",
 	"Type": "Autocannon",

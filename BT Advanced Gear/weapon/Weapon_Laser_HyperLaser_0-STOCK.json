@@ -14,7 +14,8 @@
 			"WpnCrits: +50%",
 			"WeaponJAMFlat: 1.25",
 			"JamExplode",
-			"WeaponBoom: 150"
+			"WeaponBoom: 150",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -78,7 +79,8 @@
 			"component_type_variant",
 			"component_type_variant3",
 			"range_long",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

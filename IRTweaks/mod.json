@@ -10,9 +10,7 @@
 	"DLL": "IRTweaks.dll",
 	"DependsOn": [
 		"IRBTModUtils",
-		"Custom Ammo Categories"
-	],
-	"OptionallyDependsOn": [
+		"Custom Ammo Categories",
 		"CBTBehaviorsEnhanced"
 	],
 	"Settings": {
@@ -28,6 +26,7 @@
 			"BulkScrapping": false,
 			"CombatLog": false,
 			"CTDestructInjuryFix": true,
+			"CalledShotTweaks": true,
 			"DamageReductionInCombatHud": true,
 			"DifficultyModsFromStats": false,
 			"DisableCampaign": true,
@@ -37,6 +36,7 @@
 			"DisableFiringStat": true,
 			"DisableLowFundsNotification": true,
 			"DisableMPHashCalculation": true,
+			"EventRequirementsScopeFix": true,
 			"ExplodingBuildingFix": true,
 			"ExtendedStats": false,
 			"FactionReputationFixes": true,

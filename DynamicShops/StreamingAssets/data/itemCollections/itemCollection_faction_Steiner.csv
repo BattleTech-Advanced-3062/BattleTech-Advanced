@@ -21,6 +21,7 @@ Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,0,1
 Ammo_AmmunitionBox_ArtemisIV_LRM,AmmunitionBox,0,1
 Ammo_AmmunitionBox_ArtemisIV_SRM,AmmunitionBox,0,1
 Gear_Attachment_ArtemisIV,Upgrade,0,1
+Gear_Attachment_SuperweaponFCS,Upgrade,0,1
 mechdef_ba_infiltratormkii,Mech,0,10
 mechdef_ba_sloth,Mech,0,10
 mechdef_ba_rottweiler,Mech,0,10

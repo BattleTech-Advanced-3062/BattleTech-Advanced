@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "3062-08-21",
 		"Name": "MercNews Broadcast",
-		"Details": "STYK COMMONALITY UNDER SIEGE!\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]]: The beleaguered [[DM.BaseDescriptionDefs[LoreStykCommonality],Styk Commonality]] has come under heavy attack in recent weeks by [[DM.BaseDescriptionDefs[LoreHouseLiao], Capellan Confederation]] forces. Though not confirmed, it has long been suspected that Capellan Chancellor [[DM.BaseDescriptionDefs[LoreSunTzuLiao],Sun Zhu Liao]] has been preparing to once again absorb large portions of the [[DM.BaseDescriptionDefs[LoreChaosMarch], Chaos March]] into the [[DM.BaseDescriptionDefs[LoreHouseLiao], Capellan Confederation]]. The call for mercenary support on both sides of the conflict has reached record levels as the fate of this world, and very likely several others, hangs in the balance.",
+		"Details": "STYK COMMONALITY UNDER SIEGE!\r\n\n\n[[DM.BaseDescriptionDefs[LoreOutreach],Outreach]]: The beleaguered [[DM.BaseDescriptionDefs[LoreStykCommonality],Styk Commonality]] has come under heavy attack in recent weeks by [[DM.BaseDescriptionDefs[LoreHouseLiao], Capellan Confederation]] forces. Though not confirmed, it has long been suspected that Capellan Chancellor [[DM.BaseDescriptionDefs[LoreSunTzuLiao],Sun-Tzu Liao]] has been preparing to once again absorb large portions of the [[DM.BaseDescriptionDefs[LoreChaosMarch], Chaos March]] into the [[DM.BaseDescriptionDefs[LoreHouseLiao], Capellan Confederation]]. The call for mercenary support on both sides of the conflict has reached record levels as the fate of this world, and very likely several others, hangs in the balance.",
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",

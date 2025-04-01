@@ -1,0 +1,64 @@
+{
+	"Custom": {
+		"AddonReference": {
+			"installedLocationOnly": true,
+			"autoTarget": true,
+			"WeaponAddonIds": [
+				"WeaponUpgrade_Superweapon_FCS",
+				"WeaponUpgrade_Superweapon_FCS_Rotary",
+				"WeaponUpgrade_Superweapon_FCS_VSPL",
+				"WeaponUpgrade_Superweapon_FCS_COIL"
+			]
+		},
+		"Category": [
+			{
+				"CategoryID": "WeaponAttachment"
+			},
+			{
+				"CategoryID": "NoTTS"
+			}
+		],
+		"BonusDescriptions": [
+			"WeaponAttachmentTargets: Superweapon-hardpoint Weapons",
+			"WeaponAttachmentModifiesModes",
+			"WeaponAttachmentPipsIgnored: +1",
+			"WeaponAttachmentAccuracy: +2"
+		],
+		"RGBColor": "#5C6670"
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 245000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Sienar Fleet Systems",
+		"Model": "Hammertong",
+		"UIName": "Superweapon FCS",
+		"Id": "Gear_Attachment_SuperweaponFCS",
+		"Name": "Superweapon FCS Attachment",
+		"Details": "This Fire Control System is designed for Superweapon-hardpoint weapons, such as the 'Death' Ray, HISC Hyper Laser, 'Naval' PPC, Mercy, Experimental MIRV, Ground Mobile HPG, COIL, Experimental Assault Gauss, Scattershot Railgun, and the Skyshell Cannon and strongly improves their accuracy in battle at the cost of weight and space. Generally however, this is considered a resonable tradeoff for the benefits such fire control systems provide.",
+		"Icon": "WeaponAttachment"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BAIncompatible",
+			"ProtoIncompatible"
+		],
+		"tagSetSourceFile": ""
+	}
+}

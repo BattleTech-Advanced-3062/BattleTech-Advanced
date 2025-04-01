@@ -55,9 +55,9 @@
 		"Purchasable": true,
 		"Manufacturer": "TharHes",
 		"Model": "Short-Range Missile Launcher",
-		"UIName": "Twin SRM6s",
+		"UIName": "Twin SRM6",
 		"Id": "Weapon_SRM_SRM12_0-STOCK",
-		"Name": "Twin SRM6s",
+		"Name": "Twin SRM6",
 		"Details": "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},

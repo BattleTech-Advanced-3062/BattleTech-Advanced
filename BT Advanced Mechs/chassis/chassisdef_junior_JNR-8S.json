@@ -1,0 +1,241 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Junior",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1624000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Junior",
+		"Id": "chassisdef_junior_JNR-8S",
+		"Name": "Junior",
+		"Details": "One of the earliest ultralight BattleMechs, the Junior was develpoed by House Davion during the Age of War as a cheap weapon testing platform but quickly found a use as a light trooper design for militias. During the 3040s, as the Helm Core was being spread throughout the Inner Sphere, the Federated Suns returned to the Junior and upgraded it for the modern era. The engine was improved to an XL, the structure was given the Endo-Steel treatment, the armor was upgraded to Ferro-Fibrous, and the weight saved was used to upgrade the weapons to a trio of Magshot Rifles (sourced from the Federated Sun's allies in the Lyran Commonwealth) and an ER Small Laser.",
+		"Icon": "uixTxrIcon_junior"
+	},
+	"MovementCapDefID": "movedef_flea_FLE-15",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_junior",
+	"PrefabIdentifier": "chrprfmech_juniorbase-001",
+	"PrefabBase": "junior",
+	"Tonnage": 10,
+	"InitialTonnage": 1,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 15,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 15,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 15,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 10,
+			"MaxRearArmor": -1,
+			"InternalStructure": 5
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": 25,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 40,
+			"MaxRearArmor": 30,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": 25,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 10,
+			"MaxRearArmor": -1,
+			"InternalStructure": 5
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": 1.25,
+			"y": 3.5,
+			"z": 0
+		},
+		{
+			"x": -1.25,
+			"y": 3.5,
+			"z": 0
+		}
+	],
+	"VariantName": "JNR-8S",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"OmniMech",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Ultralight Trooper",
+	"YangsThoughts": "One of the earliest ultralight BattleMechs, the Junior was develpoed by House Davion during the Age of War as a cheap weapon testing platform but quickly found a use as a light trooper design for militias. During the 3040s, as the Helm Core was being spread throughout the Inner Sphere, the Federated Suns returned to the Junior and upgraded it for the modern era. The engine was improved to an XL, the structure was given the Endo-Steel treatment, the armor was upgraded to Ferro-Fibrous, and the weight saved was used to upgrade the weapons to a trio of Magshot Rifles (sourced from the Federated Sun's allies in the Lyran Commonwealth) and an ER Small Laser.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Junior",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

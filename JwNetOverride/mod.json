@@ -1,13 +1,12 @@
 {
 	"Name": "JwNetOverride",
 	"Author": "Jamie Wolf",
+	"Enabled": true,
+	"Hidden": true,
 	"Website": "",
-
 	"DependsOn": [
-		"IRBTModUtils" 
+		"IRBTModUtils"
 	],
 	"DLL": "JwNetServices.dll",
 	"DLLEntryPoint": "JwNetServices.JwNetCore.Init"
-
-
 }

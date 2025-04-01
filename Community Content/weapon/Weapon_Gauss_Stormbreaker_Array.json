@@ -47,14 +47,14 @@
 	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
 	"Description": {
 		"Cost": 1500000,
-		"Rarity": 20,
+		"Rarity": 10,
 		"Purchasable": true,
 		"Manufacturer": "Pafftek Industries",
 		"Model": "Magnetic Rail Stormbreaker Cannon Array",
 		"UIName": "Stormbreaker Mk-9",
 		"Id": "Weapon_Gauss_Stormbreaker_Array",
 		"Name": "Stormbreaker Mk-9",
-		"Details": "After looking at other Inner Sphere manufacturer's Machine Gun Arrays (MGAs,) and then studying Clan tech Gauss Rifle coils, Pafftek Industries created a 12 barrel Magshot Gauss Array.   The enhanced coils give a slight boost to the overall range of the magshot projectiles, without altering standard Magshot shot.  However the weapon is easy to jam at high barrel counts and generates a lot of heat.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "After looking at other Inner Sphere manufacturer's Machine Gun Arrays (MGAs,) and then studying Clan tech Gauss Rifle coils, Pafftek Industries created a 12 barrel Magshot Gauss Array. The enhanced coils give a slight boost to the overall range of the magshot projectiles, without altering standard Magshot shot. However the weapon is easy to jam at high barrel counts and generates a lot of heat.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",
@@ -98,9 +98,7 @@
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",
-			"range_extreme",
-			"wr-jammable_weapon",
-			"WebbTCSupported-RotaryGauss"
+			"range_extreme"
 		],
 		"tagSetSourceFile": ""
 	}

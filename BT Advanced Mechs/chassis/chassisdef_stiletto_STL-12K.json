@@ -1,0 +1,248 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "StardriveStiletto",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1624000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Stiletto",
+		"Id": "chassisdef_stiletto_STL-12K",
+		"Name": "Stiletto",
+		"Details": "Though an early ultra-light design, the Stiletto proved to have unexpectedly good staying power in the DCMS where it proved popular for garrisons and light scout work. After the runaway success that was the Stiletto STL-9K, several more refit packages were authorized by DCMS brass, including the -11K. This variant uses the Endo-Steel and XL engine of the -9K but upgrades the core to a 105-rated one. It also uses Heavy Ferro-Fibrous armor and a Small Cockpit which together free up enough weight to mount a mammoth ER PPC. The -12K has no other weapons but is largely considered to not need any other weapons since at its size the ER PPC is more than sufficient for any combat the Stiletto might run into.",
+		"Icon": "uixTxrIcon_stardrivestiletto"
+	},
+	"MovementCapDefID": "movedef_flea_FLE-15",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_stardrivestilleto",
+	"PrefabIdentifier": "chrprfmech_stardrivestilletobase-001",
+	"PrefabBase": "stardrivestilleto",
+	"Tonnage": 15,
+	"InitialTonnage": 1.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 15,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 15,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 15,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": 1.25,
+			"y": 3.5,
+			"z": 0
+		},
+		{
+			"x": -1.25,
+			"y": 3.5,
+			"z": 0
+		}
+	],
+	"VariantName": "STL-12K",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Ultralight Recon",
+	"YangsThoughts": "Though an early ultra-light design, the Stiletto proved to have unexpectedly good staying power in the DCMS where it proved popular for garrisons and light scout work. After the runaway success that was the Stiletto STL-9K, several more refit packages were authorized by DCMS brass, including the -12K. This variant uses the Endo-Steel and XL engine of the -9K but upgrades the core to a 105-rated one. It also uses Heavy Ferro-Fibrous armor and a Small Cockpit which together free up enough weight to mount a mammoth ER PPC. The -12K has no other weapons but is largely considered to not need any other weapons since at its size the ER PPC is more than sufficient for any combat the Stiletto might run into.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Stiletto",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

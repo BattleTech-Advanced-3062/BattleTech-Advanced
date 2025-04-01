@@ -54,6 +54,7 @@
 		"TraitDefIndirectReduceTwo",
 		"TraitDefMinRangeReduce90",
 		"TraitDefCalledShotMaster",
+		"TraitDefHeadshotImmunity",
 		"TraitDefIndirectReduceThree"
 	],
 	"AIPersonality": "Undefined",

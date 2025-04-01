@@ -23,7 +23,10 @@
 			"PipsIgnored: 1",
 			"WpnAccuracy: +1",
 			"InternalAmmo: 1"
-		]
+		],
+		"AmmoCost": {
+			"PerUnitCost": 1000
+		}
 	},
 	"Category": "AntiPersonnel",
 	"Type": "Autocannon",
@@ -98,7 +101,7 @@
 			"LongRange": 30.0,
 			"DamagePerShot": -25.0,
 			"forbiddenRangeEnable": true,
-			"ForbiddenRange": 30
+			"ForbiddenRange": 29
 		},
 		{
 			"Id": "long",
@@ -110,7 +113,7 @@
 			"LongRange": 60.0,
 			"DamagePerShot": -50.0,
 			"forbiddenRangeEnable": true,
-			"ForbiddenRange": 60
+			"ForbiddenRange": 59
 		}
 	],
 	"ComponentTags": {

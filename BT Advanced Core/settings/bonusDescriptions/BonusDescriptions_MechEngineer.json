@@ -2076,6 +2076,12 @@
 			"Full": "True artillery weapons have a unique attack sequence. When a target is selected, the attack is programmed in targeting that location (not a unit but the place the unit is standing) and the artillery unit enters an artillery stance and ends its turn. On the artillery unit's next turn, it can either brace (exiting the artillery stance and canceling the attack) or it can fire, completing the attack against the targeted location. Artillery weapons target the ground, not individual units, and do not track if units move out of the blast radius."
 		},
 		{
+			"Bonus": "GuidedArtilleryAttack",
+			"Short": "Guided Artillery Attack",
+			"Long": "Guided Artillery Attack",
+			"Full": "True artillery weapons have a secondary attack sequence, called a guided attack. This attack mode only works with specialized ammunition (such as Homing Arrow IV ammo or Copperhead ammo for the tube artillery). A guided artillery attack works like normal weapons, firing immediately without delay, but can only be effectively performed against targets painted by TAG, as otherwise the ammunition cannot get a lock on the target and thus will miss harmlessly."
+		},
+		{
 			"Bonus": "ArtilleryDetails",
 			"Short": "Artillery Details",
 			"Long": "Artillery Details",
@@ -2304,6 +2310,12 @@
 			"Full": "TAG, or Target Acquisition Gear, grants a {0} bonus to AoE damage against the TAG'd unit."
 		},
 		{
+			"Bonus": "TAGSemiGuided",
+			"Short": "TAG Guidance",
+			"Long": "Target Acquisition Gear Guidance",
+			"Full": "TAG, or Target Acquisition Gear, marks the target as an appropriate target for specialized ammunition such as Semi-Guided LRM ammo, increasing that ammunition's accuracy against the TAG'd unit."
+		},
+		{
 			"Bonus": "C3TAG",
 			"Short": "C3 Master Accuracy {0}",
 			"Long": "C3 Master Accuracy {0}",
@@ -2314,6 +2326,12 @@
 			"Short": "TAG Acc {0}",
 			"Long": "Target Acquisition Gear",
 			"Full": "TAG, or Target Acquisition Gear, grants a {0} bonus to AoE damage against the TAG'd unit. Clan TAG fires two shots and can stack with itself up to a total of two stacks of the effect."
+		},
+		{
+			"Bonus": "BATAG",
+			"Short": "TAG Acc {0}",
+			"Long": "Target Acquisition Gear",
+			"Full": "TAG, or Target Acquisition Gear, grants a {0} bonus to AoE damage against the TAG'd unit. BA TAG fires one shot but can stack with itself up to a total of four stacks of the effect."
 		},
 		{
 			"Bonus": "LBX",
@@ -2715,7 +2733,7 @@
 			"Bonus": "ACDamage",
 			"Short": "{0} AC Dmg",
 			"Long": "{0} AC Damage",
-			"Full": "{0} Autocannon Damage"
+			"Full": "Increased Autocannon Damage by +{0} per shot."
 		},
 		{
 			"Bonus": "MissileDamage",
@@ -4638,10 +4656,10 @@
 			"Full": "Increases the clustering modifier of this weapon by {0}, meaning shots are that much more likely to hit the same location on the target."
 		},
 		{
-			"Bonus": "OstscoutTargeting",
-			"Short": "Ostscout Targeting",
-			"Long": "Ostscout Targeting provides {0} accuracy within 150 meters.",
-			"Full": "The Ostscout's targeting systems are so good that they provide {0} accuracy against enemies within a 150 meter radius of the Ostscout."
+			"Bonus": "SuperSensors",
+			"Short": "Advanced Targeting",
+			"Long": "Advanced Targeting provides {0} accuracy within 150 meters.",
+			"Full": "This 'Mechs targeting systems are so good that they provide {0} accuracy against enemies within a 150 meter radius of the 'Mech."
 		},
 		{
 			"Bonus": "BoostedMissileDamage",
@@ -5136,6 +5154,12 @@
 			"Full": "This piece of equipment occupies {0} additional slots in a mech's critical locations."
 		},
 		{
+			"Bonus": "C3MasterReserved",
+			"Short": "Reserved Slots {0}",
+			"Long": "Reserved Critical Slots {0}",
+			"Full": "This piece of equipment occupies {0} additional slots in a mech's Center Torso."
+		},
+		{
 			"Bonus": "Knockdown",
 			"Short": "Self-Knockdown",
 			"Long": "Self-Knockdown",
@@ -5494,6 +5518,18 @@
 			"Short": "Viral Jammer Range",
 			"Long": "Viral Jammer Range",
 			"Full": "The Viral Jammer's range of effect is {0} meters."
+		},
+		{
+			"Bonus": "SemiGuidedLRM",
+			"Short": "Semi-Guided LRM",
+			"Long": "Semi-Guided LRM",
+			"Full": "Semi-Guided LRMs gain a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+		},
+		{
+			"Bonus": "GuidedArtillery",
+			"Short": "Guided Artillery",
+			"Long": "Guided Artillery",
+			"Full": "Guided artillery ammunition gains a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
 		}
 	]
 }

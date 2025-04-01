@@ -1,4 +1,10 @@
 itemCollection_systemStores_MechParts_Davion_Light,,,
+mechdef_junior_JNR-9A,Mech,1,6
+mechdef_junior_JNR-9L,Mech,1,4
+mechdef_junior_JNR-9R,Mech,1,6
+mechdef_mite_MTE-13C,Mech,1,6
+mechdef_mite_MTE-13D,Mech,1,6
+mechdef_mite_MTE-14X,Mech,1,4
 mechdef_osiris_OSR-3D,Mech,1,7
 mechdef_fireball_ALM-8D,Mech,1,8
 mechdef_talon_TLN-5W,Mech,1,4

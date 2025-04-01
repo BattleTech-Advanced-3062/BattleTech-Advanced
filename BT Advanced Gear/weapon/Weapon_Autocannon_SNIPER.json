@@ -13,6 +13,7 @@
 			"ArtilleryAttack",
 			"ArtilleryDetails",
 			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
 			"NoFireInMelee",
 			"AMSImmune",
 			"WeaponAttachmentCompatible: Artillery FCS"
@@ -47,10 +48,6 @@
 	"FireTerrainChance": 0.0585,
 	"AlwaysIndirectVisuals": true,
 	"IndirectFireCapable": true,
-	"IsArtillery": true,
-	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
-	"ArtilleryReticleRadius" : 140,
-	"ArtilleryReticleText": "Sniper",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
 	"Description": {
 		"Cost": 1650000,
@@ -77,6 +74,23 @@
 	"CriticalComponent": false,
 	"ImprovedBallistic": true,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true,
+			"IsArtillery": true,
+			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+			"ArtilleryReticleRadius" : 140,
+			"ArtilleryReticleText": "Sniper"
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "SniperCopperhead"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"OmniRestriction.{location}",

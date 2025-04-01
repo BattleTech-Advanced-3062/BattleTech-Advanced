@@ -1,0 +1,260 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Foxfire",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1624000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Foxfire",
+		"Id": "chassisdef_foxfire_FXR-4X",
+		"Name": "Foxfire",
+		"Details": "One of the few ultralight BattleMechs developed by the Lyran Commonwealth, the Foxfire was designed entirely to carry its unique Firestorm Flamer into combat, all other considerations are secondary. During the 3060s when the Lyran Commonwealth was revitalizing the Foxfire, they performed several experimental upgrades designed to test the limits on what an ultralight was capable of. One such design was the FXR-4X, built around a Torso Cockpit. To carry the heavy cockpit, the -4X uses Heavy Ferro-Fibrous armor and a slower 90-rated XL engine. For firepower, it carries the famous Firestorm Flamer as well as two standard Flamers. In the now vacant head, it carries a trio of ER Small Lasers. The FXR-4X was a qualified success and sees continual but limited production.",
+		"Icon": "uixTxrIcon_foxfire"
+	},
+	"MovementCapDefID": "movedef_flea_FLE-15",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_foxfire",
+	"PrefabIdentifier": "chrprfmech_foxfirebase-001",
+	"PrefabBase": "foxfire",
+	"Tonnage": 15,
+	"InitialTonnage": 1.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 15,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 15,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 15,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": 1.25,
+			"y": 3.5,
+			"z": 0
+		},
+		{
+			"x": -1.25,
+			"y": 3.5,
+			"z": 0
+		}
+	],
+	"VariantName": "FXR-4X",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Ultralight Flamebringer",
+	"YangsThoughts": "One of the few ultralight BattleMechs developed by the Lyran Commonwealth, the Foxfire was designed entirely to carry its unique Firestorm Flamer into combat, all other considerations are secondary. During the 3060s when the Lyran Commonwealth was revitalizing the Foxfire, they performed several experimental upgrades designed to test the limits on what an ultralight was capable of. One such design was the FXR-4X, built around a Torso Cockpit. To carry the heavy cockpit, the -4X uses Heavy Ferro-Fibrous armor and a slower 90-rated XL engine. For firepower, it carries the famous Firestorm Flamer as well as two standard Flamers. In the now vacant head, it carries a trio of ER Small Lasers. The FXR-4X was a qualified success and sees continual but limited production.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Foxfire",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Weapon_Flamer_Firestorm_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -83,7 +83,8 @@
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,
-			"DamageLevel": "Functional"
+			"DamageLevel": "Functional",
+			"LocalGUID": "target_LRM_1"
 		},
 		{
 			"ComponentDefID": "Weapon_LRM_LRM15_0-STOCK",
@@ -91,7 +92,7 @@
 			"MountedLocation": "Front",
 			"HardpointSlot": 1,
 			"DamageLevel": "Functional",
-			"LocalGUID":"target_LRM_1"
+			"LocalGUID": "target_LRM_2"
 		},
 		{
 			"ComponentDefID": "Gear_Attachment_ArtemisIV",
@@ -99,7 +100,15 @@
 			"MountedLocation": "Front",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
-			"TargetComponentGUID":"target_LRM_1"
+			"TargetComponentGUID": "target_LRM_1"
+		},
+		{
+			"ComponentDefID": "Gear_Attachment_ArtemisIV",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Front",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"TargetComponentGUID": "target_LRM_2"
 		},
 		{
 			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",

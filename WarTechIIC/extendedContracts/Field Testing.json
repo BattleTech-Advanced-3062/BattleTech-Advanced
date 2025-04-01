@@ -1,6 +1,16 @@
 {
 	"name": "Field Testing",
-	"requirementList": [],
+	"requirementList": [
+        {
+            "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+            "ExclusionTags": {
+                "items": [ "planet_other_empty" ],
+                "tagSetSourceFile": ""
+            }
+        }
+    ],
 	"weight": 1,
 	"spawnLocation": "OwnSystem",
 	"employer": ["Allied"],
@@ -35,8 +45,6 @@
 			"contract": [ "ThreeWayBattle_TestDrive_Wildcard_5_NEW", "ThreeWayBattle_TestDrive_Wildcard_8_NEW" ],
 			"declinePenalty": "BreakContract",
 			"ignoreContractRequirements": true,
-			"contractPayoutMultiplier": 1.1,
-			"contractBonusSalvage": -15,
 			"contractMessage": "Our employer has lined up another scenario for us to run through. Time to put their new machine to the test."
 		},
 		"PaymentDelivered": {

@@ -65,7 +65,7 @@
 		"UIName": "Anti-Missile ECM",
 		"Id": "Gear_AntiMissile_ECM",
 		"Name": "Anti-Missile ECM",
-		"Details": "Designed and integrated into the experimental Raven-4LX, the Anti-Missile ECM combines the circuitry of a Guardian ECM with a unique sensor scrabler that interfers with incoming missile targeting. The Anti-Missile ECM emits a special signal that actively scrambles incoming missile fire in an area around the unit, keeping the Raven-4LX and its allies safe under even the heaviest weapons fire. However, the effect proved prone to maintenance woes and remains experimental.",
+		"Details": "Designed and integrated into the experimental Raven-4LX, the Anti-Missile ECM combines the circuitry of a Guardian ECM with a unique sensor scrambler that interferes with incoming missile targeting. The Anti-Missile ECM emits a special signal that actively scrambles incoming missile fire in an area around the unit, keeping the Raven-4LX and its allies safe under even the heaviest weapons fire. However, the effect proved prone to maintenance woes and remains experimental.",
 		"Icon": "circuitry"
 	},
 	"BonusValueA": "",

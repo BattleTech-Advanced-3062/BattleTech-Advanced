@@ -3,12 +3,17 @@ mechdef_urbanmech_UM-R25,Mech,1,1
 mechdef_urbanmech_UM-R60,Mech,1,9
 mechdef_urbanmech_UM-R60C,Mech,1,7
 mechdef_urbanmech_UM-R60L,Mech,1,7
+mechdef_urbanmech_UM-R60P,Mech,1,7
 mechdef_urbanmech_UM-R60X,Mech,1,7
+mechdef_urbanmech_UM-R61,Mech,1,5
 mechdef_urbanmech_UM-R63,Mech,1,5
 mechdef_urbanmech_UM-R68,Mech,1,5
+mechdef_urbanmech_UM-R69,Mech,1,5
 mechdef_urbanmech_UM-R71,Mech,1,5
 mechdef_urbanmech_UM-R72,Mech,1,3
 mechdef_urbanmech_UM-R90,Mech,1,7
+mechdef_urbanmech_UM-R100PH,Mech,1,1
+mechdef_urbanmech_UM-R100PT,Mech,1,1
 mechdef_urbanmech_UM-R100X,Mech,1,1
 mechdef_urbanmech_UM-RM-PRIME,Mech,1,1
 mechdef_urbanmech_UM-IIC,Mech,1,1

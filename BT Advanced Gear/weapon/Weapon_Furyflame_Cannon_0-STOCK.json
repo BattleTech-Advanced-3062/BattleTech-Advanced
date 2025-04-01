@@ -1,0 +1,118 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/o/artillery"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage"
+		],
+		"BonusDescriptions": [
+			"IsArtilleryCannon",
+			"VariableDmg: 10",
+			"WpnRecoil: 2",
+			"NoFireInMelee",
+			"AreaOfEffect: 60",
+			"AreaOfEffectDmg: 20",
+			"AreaOfEffectHeatDmg: 20",
+			"WeaponAttachmentCompatible: Artillery FCS",
+			"CostPerShot: 100",
+			"AmmoCount: 6"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.25
+        },
+		"AmmoCost": {
+			"PerUnitCost": 1000
+		}
+	},
+	"weaponCategoryID": "Artillery",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC20",
+	"MinRange": 60,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "Flamer",
+	"StartingAmmoCapacity": 6,
+	"HeatGenerated": 20,
+	"Damage": 30,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 10,
+	"HeatDamage": 30,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 15,
+	"AMSImmune": true,
+	"AOECapable": true,
+	"AOERange": 60,
+	"AOEDamage": 20,
+	"AOEHeatDamage": 20,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
+	"Description": {
+		"Cost": 3650000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Defiance",
+		"Model": "Flame of Frenzy",
+		"UIName": "Furyflame Cannon",
+		"Id": "Weapon_Furyflame_Cannon_0-STOCK",
+		"Name": "Furyflame Cannon",
+		"Details": "The Furyflame Cannon is a unique weapon for the Foxfire ultralight BattleMech and cannot be removed from the Foxfire's frame. It is essentially a miniaturized Thumper Artillery Cannon and does moderate direct and area of effect damage to its targets. Importantly, all of its shells are loaded with incendiary components, ensuring the Foxfire is more than capable of bringing its signature flames to the battle. \n\n<b><color=#ffcc00>Uses Internal Ammo.</color></b>",
+		"Icon": "Art-illery"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "artillery",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 4,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"ImprovedBallistic": true,
+	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "DirectFire",
+			"UIName": "Direct",
+			"isBaseMode": true,
+			"IndirectFireCapable": false
+		},
+		{
+			"Id": "IndirectFire",
+			"UIName": "Indirect",
+			"isBaseMode": false,
+			"IndirectFireCapable": true,
+			"AlwaysIndirectVisuals": true,
+			"AccuracyModifier": 2.0
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"mr-resize-8",
+			"range_extreme",
+			"ArtilleryFCSSupported-ArtyCannon",
+			"WebbTCSupported-ArtyCannon"
+		],
+		"tagSetSourceFile": ""
+	}
+}

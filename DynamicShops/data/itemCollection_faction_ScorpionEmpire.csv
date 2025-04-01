@@ -1,4 +1,4 @@
-itemCollection_faction_ClanGoliathScorpion,,,
+itemCollection_faction_ScorpionEmpire,,,
 mechdef_stonerhino_STR-1,Mech,0,10
 mechdef_cazador_CZD-1,Mech,0,10
 mechdef_sunspider_SNS_PRIME,Mech,0,10
@@ -39,18 +39,21 @@ Weapon_Autocannon_THUMPER_CANNON,Weapon,0,1
 Ammo_AmmunitionBox_Generic_Longtom,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Longtom,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Longtom,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Copperhead_Longtom,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Longtom_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Longtom_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Longtom_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Sniper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Sniper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Sniper,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Copperhead_Sniper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Sniper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Sniper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Sniper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Thumper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Fascam_Thumper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Thumper,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Copperhead_Thumper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Thumper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Thumper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Thumper_Cannon,AmmunitionBox,0,1

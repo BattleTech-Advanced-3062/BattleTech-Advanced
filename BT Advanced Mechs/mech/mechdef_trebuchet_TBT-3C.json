@@ -10,6 +10,8 @@
 			"unit_lance_support",
 			"unit_role_sniper",
 			"DarkCaste",
+			"TheDark",
+			"GreenGhosts",
 			"331stDivision",
 			"Marik",
 			"1stKnightsOfTheInnerSphere",
@@ -106,7 +108,7 @@
 	"ChassisID": "chassisdef_trebuchet_TBT-3C",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 10000000,
+		"Cost": 5000000,
 		"Rarity": 2,
 		"Purchasable": true,
 		"Manufacturer": null,

@@ -1,0 +1,147 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 2,
+			"StabilityDamagePerAmmo": 2
+		},
+		"BonusDescriptions": [
+			"NoFireInMelee",
+			"WpnAccuracy: -2",
+			"WeaponBoom: 200",
+			"HeatDamage: 100",
+			"CostPerShot: 100",
+			"AreaOfEffect: 30",
+			"AreaOfEffectDmg: 1",
+			"ScatterRadius: 30, 90",
+			"Swarm: 120",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.25
+        },
+		"AmmoCost": {
+			"PerUnitCost": 150
+		}
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "LRM",
+	"WeaponSubType": "LRM20",
+	"MinRange": 60,
+	"MaxRange": 660,
+	"RangeSplit": [
+		150,
+		330,
+		540
+	],
+	"AmmoCategory": "Flamer",
+	"StartingAmmoCapacity": 200,
+	"HeatGenerated": 100,
+	"Damage": 1,
+	"OverheatedDamageMultiplier": 1.2,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 1,
+	"AccuracyModifier": 2,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": true,
+	"IndirectFireCapable": true,
+	"AlwaysIndirectVisuals": true,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 200,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 2,
+	"MissileHealth": 1,
+	"AOERange": 30,
+	"AOEDamage": 1,
+	"MinMissRadius": 30,
+	"MaxMissRadius": 90,
+	"TrooperSquadDamageModifier": 1.5,
+	"SpreadRange": 120,
+	"FireTerrainChance": 1,
+	"FireDurationWithoutForest": 2,
+	"FireTerrainStrength": 2,
+	"FireTerrainCellRadius": 1,
+	"FireOnSuccessHit": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
+	"Description": {
+		"Cost": 2250000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Haas",
+		"Model": "Multiple Launch Rocket System",
+		"UIName": "MLRS",
+		"Id": "Weapon_MLRS",
+		"Name": "MLRS",
+		"Details": "The Periphery, well, more specifically the Marians, while not having the R & D base of the Inner Sphere Great Houses still attempted to break into the superweapons department the only way they knew how, by strapping more and more rockets together. The final result is a massive launcher capable of launching 200 rockets at a target, though those rockets are even more inaccurate than its contempories, prone to drift mid-flight, with a reduced payload, often blanketing an area around the target and sometimes finding another target entirely. However, the designers considered this a worthwhile tradeoff, with each warhead's area and inferno capabilities. The Multiple Rocket Launcher System was placed into production, and found acceptance in various periphery states and mercenaries requiring big firepower, on the cheap. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "lrm20",
+	"BattleValue": 0,
+	"InventorySize": 8,
+	"Tonnage": 14,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Effect_InfernoSRMHeat",
+				"Name": "Inferno Gel",
+				"Details": "This unit is coated with burning chemicals, generating 6 extra heat each turn.",
+				"Icon": "fire-zone"
+			},
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Subtract",
+				"modValue": "6",
+				"modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

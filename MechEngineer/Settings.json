@@ -217,7 +217,7 @@
 	"ComponentExplosions": {
 		"Enabled": true,
 		"EnabledDescription": "Allows each component to define destructive forces in case they explode, also implements proper CASE.",
-		"PassthroughHeadToCenterTorso" : false
+		"PassthroughHeadToCenterTorso": false
 	},
 	"CompressFloatieMessages": {
 		"Enabled": true,

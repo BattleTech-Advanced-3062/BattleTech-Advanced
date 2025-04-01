@@ -13,6 +13,7 @@
 			"ArtilleryAttack",
 			"ArtilleryDetails",
 			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
 			"NoFireInMelee",
 			"AMSImmune",
 			"WeaponAttachmentCompatible: Artillery FCS"
@@ -47,10 +48,6 @@
 	"FireTerrainChance": 0.085,
 	"AlwaysIndirectVisuals": true,
 	"IndirectFireCapable": true,
-	"IsArtillery": true,
-	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
-	"ArtilleryReticleRadius" : 200,
-	"ArtilleryReticleText": "Long Tom",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
 	"Description": {
 		"Cost": 2100000,
@@ -77,6 +74,23 @@
 	"CriticalComponent": false,
 	"ImprovedBallistic": true,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true,
+			"IsArtillery": true,
+			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+			"ArtilleryReticleRadius" : 200,
+			"ArtilleryReticleText": "Long Tom"
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "LongTomCopperhead"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"OmniRestriction.{location}",

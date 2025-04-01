@@ -44,7 +44,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 22,
+	"JumpDistance": 10,
 	"ownerID": "MallardRepublic",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,

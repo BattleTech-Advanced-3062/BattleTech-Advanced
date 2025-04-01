@@ -260,6 +260,10 @@
 		"MaxVehicleRandomPilots": 4,
 		"ShowVehicleBays": true,
 		"AllowVehiclesEdit": false,
+		"VehcilesPartialEditable": false,
+		"VehicleComponentOneAllowed": "VehicleLimited",
+		"VehicleComponentForbiddenTag": "VehicleForbidden",
+		"VehicleComponentCategoryTagPrefix": "VehicleComponentFamily-",
 		"MechBaySwitchIconMech": "mech",
 		"MechBaySwitchIconVehicle": "vehicle",
 		"MechBaySwitchIconUp": "weapon_up",
@@ -269,10 +273,13 @@
 		"CountContractMaxUnits4AsUnlimited": true,
 		"CanPilotVehicleProbability": 0.5,
 		"CanPilotAlsoMechProbability": 0.0,
+		"GenerateExtraPilotingClassesForRonin": false,
 		"SquadStructureIcon": "ba_structure",
 		"SquadArmorOutlineIcon": "ba_armor_outline",
 		"SquadArmorIcon": "ba_armor",
-		"squadForcedTags": ["battle_armor_bays"],
+		"squadForcedTags": [
+			"battle_armor_bays"
+		],
 		"LancesIcons": [
 			"one",
 			"two",
@@ -476,11 +483,6 @@
 				"y": 1.1,
 				"z": 1.1
 			},
-			"cuambassador": {
-				"x": 0.9,
-				"y": 0.9,
-				"z": 0.9
-			},
 			"cudragoon": {
 				"x": 1.05,
 				"y": 1.05,
@@ -532,9 +534,9 @@
 				"z": 0.85
 			},
 			"dasher": {
-				"x": 0.8,
-				"y": 0.8,
-				"z": 0.8
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"darkcrow": {
 				"x": 0.8,
@@ -552,9 +554,9 @@
 				"z": 1.05
 			},
 			"duangung": {
-				"x": 0.65,
-				"y": 0.65,
-				"z": 0.65
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
 			},
 			"emperor": {
 				"x": 1.08,
@@ -605,6 +607,11 @@
 				"x": 0.95,
 				"y": 0.95,
 				"z": 0.95
+			},
+			"foxfire": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"freedom": {
 				"x": 0.875,
@@ -817,9 +824,9 @@
 				"z": 1.085
 			},
 			"jackrabbit": {
-				"x": 0.8,
-				"y": 0.8,
-				"z": 0.8
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"jinggau": {
 				"x": 0.9,
@@ -830,6 +837,11 @@
 				"x": 1.05,
 				"y": 1.05,
 				"z": 1.05
+			},
+			"junior": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
 			},
 			"katana": {
 				"x": 1.05,
@@ -931,6 +943,16 @@
 				"y": 1.05,
 				"z": 1.05
 			},
+			"mistlynx": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
+			},
+			"mite": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
 			"ml22v2": {
 				"x": 0.95,
 				"y": 0.95,
@@ -1017,9 +1039,9 @@
 				"z": 1.15
 			},
 			"piranha": {
-				"x": 0.85,
-				"y": 0.85,
-				"z": 0.85
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"prometheus": {
 				"x": 0.9,
@@ -1047,9 +1069,9 @@
 				"z": 0.95
 			},
 			"sentinel": {
-				"x": 0.8,
-				"y": 0.8,
-				"z": 0.8
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"shayu": {
 				"x": 0.8,
@@ -1101,6 +1123,11 @@
 				"y": 0.65,
 				"z": 0.65
 			},
+			"slowpoke": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
 			"sneedrfl": {
 				"x": 0.9,
 				"y": 0.9,
@@ -1112,6 +1139,11 @@
 				"z": 0.825
 			},
 			"stag": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"stardriveapollo": {
 				"x": 0.85,
 				"y": 0.85,
 				"z": 0.85

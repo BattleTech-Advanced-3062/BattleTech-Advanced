@@ -55,9 +55,9 @@
 		"Purchasable": false,
 		"Manufacturer": "SCI",
 		"Model": "Extended-Range Large Laser",
-		"UIName": "Twin ER L Lasers",
+		"UIName": "Twin ER L Laser",
 		"Id": "Weapon_Laser_LargeLaserER_Twin_0-STOCK",
-		"Name": "Twin ER L Lasers",
+		"Name": "Twin ER L Laser",
 		"Details": "An improvement upon standard Large Lasers, Extended-Range Large Lasers extend their effective range at the cost of massive heat generation. Like all Lasers, ER Large Lasers enjoy a baseline accuracy bonus over other weapons.",
 		"Icon": "uixSvgIcon_weapon_Energy"
 	},

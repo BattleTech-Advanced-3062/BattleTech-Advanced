@@ -13,6 +13,7 @@
 			"ArtilleryAttack",
 			"ArtilleryDetails",
 			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
 			"NoFireInMelee",
 			"AMSImmune",
 			"WeaponAttachmentCompatible: Artillery FCS"
@@ -46,10 +47,6 @@
 	"Instability": 35,
 	"AMSImmune": true,
 	"FireTerrainChance": 0.075,
-	"IsArtillery": true,
-	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
-	"ArtilleryReticleRadius" : 120,
-	"ArtilleryReticleText": "Arrow IV",
 	"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
 	"Description": {
 		"Cost": 1152000,
@@ -75,6 +72,23 @@
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "Artillery",
+			"UIName": "Arty",
+			"isBaseMode": true,
+			"IsArtillery": true,
+			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+			"ArtilleryReticleRadius" : 120,
+			"ArtilleryReticleText": "Arrow IV"
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Guided",
+			"isBaseMode": false,
+			"AmmoCategory": "ArrowIVHoming"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",

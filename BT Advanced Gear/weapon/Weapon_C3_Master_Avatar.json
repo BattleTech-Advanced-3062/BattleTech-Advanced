@@ -26,15 +26,16 @@
 			]
 		},
 		"BonusDescriptions": [
-				"C3",
-				"C3Master",
-				"C3ECMWeakness",
-				"C3MResolve: 120, +2",
-				"C3MEvasion: 120, +1",
-				"C3TAG: +2",
-				"EvasionIgnored: 3",
-				"WeaponAttachmentCompatible: TAG FCS",
-				"ReservedSlots: 1"
+			"C3",
+			"C3Master",
+			"C3ECMWeakness",
+			"C3MResolve: 120, +2",
+			"C3MEvasion: 120, +1",
+			"TAG: 50%",
+			"TAGSemiGuided",
+			"EvasionIgnored: 3",
+			"WeaponAttachmentCompatible: TAG FCS",
+			"C3MasterReserved: 1"
 		],
 		"Flags": [
 			"no_salvage"
@@ -218,13 +219,6 @@
 			},
 			"targetingData": {
 				"effectTriggerType": "OnHit",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "NotSet",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
 				"showInTargetPreview": false,
 				"showInStatusPanel": true
 			},
@@ -232,32 +226,56 @@
 			"Description": {
 				"Id": "TAG-Effect",
 				"Name": "Target Acquired",
-				"Details": "This target was Acquired by a C3 Master. +2 to hit.",
-				"Icon": "uixSvgIcon_artillery"
+				"Details": "This target was TAG'ed. Target takes 50% more AoE damage and is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
 			},
 			"nature": "Debuff",
 			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "-2.0",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
+				"statName": "CACAoEDamageMult",
+				"operation": "Float_Multiply",
+				"modValue": "1.50",
+				"modType": "System.Single"
 			},
 			"tagData": {
 				"tagList": [
 					"lv-tag-effect"
 				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
 			},
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-SemiGuidedEffect",
+				"Name": "Semi-Guided Acquired",
+				"Details": "This target was TAG'ed. Target is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_TargetAcquired",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
 		},
 		{
 			"durationData": {

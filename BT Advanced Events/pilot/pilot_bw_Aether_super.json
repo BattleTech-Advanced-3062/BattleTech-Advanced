@@ -28,6 +28,7 @@
 	"Morale": 0,
 	"Voice": "f_bear02",
 	"abilityDefNames": [
+		"TraitDefHeadshotImmunity",
 		"AbilityDefP5",
 		"AbilityDefP8",
 		"AbilityDefP10a",

@@ -1,0 +1,23 @@
+{
+	"Description": {
+		"Id": "Ammunition_LRM_SemiGuided",
+		"Name": "LRM Ammo",
+		"UIName": "Semi-Guided",
+		"Details": "Long range missiles, capable of dealing moderate damage at long range. Each missile lacks punch, but in a group they can deal significant damage.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "LRM",
+	"HeatGenerated": 0,
+	"AccuracyModifier": 2,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -5
+	}
+}

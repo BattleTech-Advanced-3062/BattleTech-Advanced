@@ -38,7 +38,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 27,
+	"JumpDistance": 12,
 	"ownerID": "JacobsonHaven",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,

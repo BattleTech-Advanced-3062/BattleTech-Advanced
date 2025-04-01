@@ -135,5 +135,19 @@
 			"tag": "planet_name_bristol"
 		},
 		"items": "BTA_List_Bristol"
+	},
+	{
+		"name": "June",
+		"conditions": {
+			"tag": "planet_name_june"
+		},
+		"items": "BTA_List_June"
+	},
+	{
+		"name": "Novaya Zemlya",
+		"conditions": {
+			"tag": "planet_name_novayazemlya"
+		},
+		"items": "BTA_List_NovayaZemlya"
 	}
 ]

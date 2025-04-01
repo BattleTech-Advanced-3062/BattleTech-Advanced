@@ -6,9 +6,9 @@
 	],
 	"modes": [
 		{
-			"Id": "FCS",
-			"UIName": "FCS",
-			"Name": "FCS",
+			"Id": "Artillery",
+			"UIName": "FCS Arty",
+			"Name": "FCS Arty",
 			"isBaseMode": true,
 			"statusEffects": [
 				{
@@ -36,12 +36,19 @@
 					"nature": "Debuff",
 					"statisticData": {
 						"statName": "DamageReductionMultiplierAll",
-						"operation": "Float_Add",
-						"modValue": "0.02",
+						"operation": "Float_Multiply",
+						"modValue": "0.98",
 						"modType": "System.Single"
 					}
 				}
 			]
+		},
+		{
+			"Id": "Guided",
+			"UIName": "FCS Homing",
+			"Name": "FCS Homing",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
 		}
 	]
 }

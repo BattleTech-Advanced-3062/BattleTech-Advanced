@@ -5,7 +5,10 @@ mechdef_panther_PNT-10K,Mech,1,7
 mechdef_owens_OW-1-Prime,Mech,1,7
 mechdef_raptor_RTX1-O,Mech,1,5
 mechdef_stinger_STG-A1,Mech,1,1
-mechdef_stiletto_STL-9K,Mech,1,2
+mechdef_stiletto_STL-9K,Mech,1,6
+mechdef_stiletto_STL-10K,Mech,1,6
+mechdef_stiletto_STL-11K,Mech,1,6
+mechdef_stiletto_STL-12K,Mech,1,6
 mechdef_gladiator_GLD-4R,Mech,1,8
 mechdef_sentinel_STN-3K,Mech,1,6
 mechdef_wolverine_WVR-8K,Mech,1,5

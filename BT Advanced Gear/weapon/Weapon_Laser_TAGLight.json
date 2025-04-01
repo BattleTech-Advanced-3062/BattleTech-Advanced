@@ -7,6 +7,7 @@
 		],
 		"BonusDescriptions": [
 			"TAG: 25%",
+			"TAGSemiGuided",
 			"PipsIgnored: 4",
 			"WeaponAttachmentCompatible: TAG FCS"
 		]
@@ -84,13 +85,48 @@
 				"Id": "TAG-Effect",
 				"Name": "Target Acquired",
 				"Details": "This target was TAG'ed. Target takes 25% more AoE damage.",
-				"Icon": "uixSvgIcon_artillery"
+				"Icon": "target-laser"
 			},
 			"nature": "Debuff",
 			"statisticData": {
 				"statName": "CACAoEDamageMult",
 				"operation": "Float_Multiply",
 				"modValue": "1.25",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-SemiGuidedEffect",
+				"Name": "Semi-Guided Acquired",
+				"Details": "This target was TAG'ed. Target is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_TargetAcquired",
+				"operation": "Float_Add",
+				"modValue": "1",
 				"modType": "System.Single"
 			},
 			"tagData": {

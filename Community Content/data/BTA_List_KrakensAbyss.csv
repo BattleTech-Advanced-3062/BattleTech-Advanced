@@ -18,6 +18,7 @@ mechdef_barghest_BGS-1ZP,Mech,0,10
 mechdef_goliath_GOL-1H,Mech,0,10
 mechdef_goliath_GOL-1PA,Mech,0,10
 mechdef_goliath_GOL-2H,Mech,0,10
+mechdef_goliath_GOL-3H,Mech,0,10
 mechdef_goliath_GOL-3M,Mech,0,10
 mechdef_goliath_GOL-3M2,Mech,0,10
 mechdef_goliath_GOL-3PA,Mech,0,10
@@ -26,6 +27,7 @@ mechdef_goliath_GOL-4PA,Mech,0,10
 mechdef_goliath_GOL-4S,Mech,0,10
 mechdef_goliath_GOL-5D,Mech,0,10
 mechdef_colossalturtle_CTR-1,Mech,0,10
+mechdef_colossalturtle_CTR-2,Mech,0,10
 mechdef_greatturtle_GTR-1,Mech,0,10
 mechdef_greatturtle_GTR-2,Mech,0,10
 mechdef_greatturtle_GTR-3,Mech,0,10

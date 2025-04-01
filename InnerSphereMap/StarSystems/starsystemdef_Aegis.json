@@ -39,7 +39,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
-	"JumpDistance": 19,
+	"JumpDistance": 8,
 	"ownerID": "SanctuaryAlliance",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,

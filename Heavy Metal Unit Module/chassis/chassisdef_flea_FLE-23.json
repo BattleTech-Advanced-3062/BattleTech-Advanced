@@ -1,0 +1,251 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Flea",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1624000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Flea",
+		"Id": "chassisdef_flea_FLE-23",
+		"Name": "Flea",
+		"Details": "The Flea FLE-14 was one of the earliest ultralight BattleMechs but was functionally a failure. It was too poorly armored and armed and attempted to use jump jets on the design despite the lack of need for them. However, the idea of an ultralight Flea was not without merit and the Free Worlds League would resurrect the idea in the 3060s. Among the updated designs was the FLE-23 which used a good amount of weight-saving technology available (Endo-Steel, XL engine, and a Small Cockpit) in order to mount a two each MML-3s and Medium Lasers, giving it both flexibility in combat and a respectable punch for its size. The FLE-23 was a success and saw limited deployment with elite Marik units.",
+		"Icon": "uixTxrIcon_flea"
+	},
+	"MovementCapDefID": "movedef_flea_FLE-15",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_flea",
+	"PrefabIdentifier": "chrPrfMech_fleaBase-001",
+	"PrefabBase": "flea",
+	"Tonnage": 15,
+	"InitialTonnage": 1.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 15,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 15,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 15,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": 1.25,
+			"y": 3.5,
+			"z": 0
+		},
+		{
+			"x": -1.25,
+			"y": 3.5,
+			"z": 0
+		}
+	],
+	"VariantName": "FLE-23",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"OmniMech",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Ultralight Recon",
+	"YangsThoughts": "The Flea FLE-14 was one of the earliest ultralight BattleMechs but was functionally a failure. It was too poorly armored and armed and attempted to use jump jets on the design despite the lack of need for them. However, the idea of an ultralight Flea was not without merit and the Free Worlds League would resurrect the idea in the 3060s. Among the updated designs was the FLE-23 which used a good amount of weight-saving technology available (Endo-Steel, XL engine, and a Small Cockpit) in order to mount a two each MML-3s and Medium Lasers, giving it both flexibility in combat and a respectable punch for its size. The FLE-23 was a success and saw limited deployment with elite Marik units.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Flea",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

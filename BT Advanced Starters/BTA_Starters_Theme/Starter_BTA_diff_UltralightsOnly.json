@@ -1,0 +1,28 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_start_Ultralights",
+				"Name": "Ultralights",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": 1,
+				"CareerScoreModifier": 0.5,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Winfield"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_10ton,itemCollection_Mechs_Starting_Ultralight_10ton"
+					}
+				]
+			}
+		}
+	]
+}

@@ -24,7 +24,8 @@
 			"NoFireInMelee",
 			"WpnAccuracy: +1",
 			"WeaponBoom: 150",
-			"LocationRestricted: Torsos Only"
+			"LocationRestricted: Torsos Only",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		],
 		"Flags": [
 			"no_salvage",
@@ -150,7 +151,8 @@
 		"items": [
 			"component_type_stock",
 			"range_standard",
-			"WebbTCSupported-VSPL"
+			"WebbTCSupported-VSPL",
+			"SuperweaponFCSSupported-VSPL"
 		],
 		"tagSetSourceFile": ""
 	}

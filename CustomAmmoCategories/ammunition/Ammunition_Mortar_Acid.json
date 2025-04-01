@@ -44,7 +44,7 @@
 			"Description": {
 				"Id": "Effect_AcidDMG",
 				"Name": "Acid",
-				"Details": "This unit is coated with corrosive Acid. It will take [AMT] increased Damage.",
+				"Details": "This unit is coated with corrosive acid. It will take [AMT] increased damage (max 0.2).",
 				"Icon": "acid"
 			},
 			"statisticData": {

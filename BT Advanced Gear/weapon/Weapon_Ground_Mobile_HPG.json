@@ -18,7 +18,8 @@
 			"AreaOfEffect: 250",
 			"AreaOfEffectDmg: 30",
 			"AreaOfEffectHeatDmg: 30",
-			"NoFireInMelee"
+			"NoFireInMelee",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		],
 		"Flags": [
 			"no_salvage",
@@ -141,7 +142,8 @@
 		"items": [
 			"component_type_stock",
 			"range_very-long",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

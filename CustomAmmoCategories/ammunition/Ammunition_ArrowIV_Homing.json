@@ -1,0 +1,35 @@
+{
+	"Description": {
+		"Id": "Ammunition_ArrowIV_Homing",
+		"Name": "ArrowIV Ammo",
+		"UIName": "Homing",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "ArrowIVHoming",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"AOECapable": false,
+	"DamagePerShot": -85.0,
+	"HeatDamagePerShot": -35,
+	"AccuracyModifier": 90,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -95
+	},
+	"AdditionalImpactVFX": "WFX_Nuke",
+	"AdditionalImpactVFXScaleX": 2,
+	"AdditionalImpactVFXScaleY": 2,
+	"AdditionalImpactVFXScaleZ": 2,
+	"FireDurationWithoutForest": 0,
+	"FireTerrainChance": 0.02,
+	"FireTerrainStrength": 4,
+	"FireTerrainCellRadius": 6,
+	"FireOnSuccessHit": true
+}

@@ -20,6 +20,7 @@ Weapon_Bomb_Bay_FuelAir,Weapon,0,1
 Weapon_Bomb_Bay_FASCAM,Weapon,0,1
 Weapon_Bomb_Bay_Rocket_Pod,Weapon,0,1
 Gear_Attachment_LRMFCS,Upgrade,0,1
+Gear_Attachment_SuperweaponFCS,Upgrade,0,1
 Gear_Attachment_Apollo,Upgrade,0,1
 Ammo_AmmunitionBox_Generic_MRM,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Improved_MRM,AmmunitionBox,0,1

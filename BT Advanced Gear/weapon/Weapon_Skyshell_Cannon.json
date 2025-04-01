@@ -14,7 +14,8 @@
 			"WpnCooldown: 1",
 			"Airburst: 20, 60",
 			"AirburstRadius: 60",
-			"AirburstPenalty: 50%, 60"
+			"AirburstPenalty: 50%, 60",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -87,7 +88,8 @@
 			"component_type_stock",
 			"component_type_lostech",
 			"range_standard",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

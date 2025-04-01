@@ -26,7 +26,8 @@
 		"Locals",
 		"AuriganPirates",
 		"WordOfBlake",
-		"RimWorldsRepublic"
+		"RimWorldsRepublic",
+		"DarkCaste"
 	],
 	"Presence": 0.1,
 	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",

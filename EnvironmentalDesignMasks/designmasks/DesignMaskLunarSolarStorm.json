@@ -1,13 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskLunarSolarStorm",
-    "Name": "Solar Storm",
-    "Details": "Radiation reduces sensor range to 40% normal and adds 4 heat per turn to every unit. Units in a vacuum sink only 65% of their normal Heat. Ballistic and missile weapons, as well as jump jets, gain 30% more max range thanks to reduced gravity.",
+    "Name": "Topsy-Turvy Solar Storm",
+    "Details": "Radiation improves sensor range to 160% normal and removes 4 heat per turn to every unit. Units in a vacuum sink 135% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 30% less max range thanks to reduced gravity.",
     "Icon": "raining-martian"
   },
-  "heatSinkMultiplier": 0.65,
-  "heatPerTurn": 4,
-  "signatureMultiplier": 0.4,
+  "heatSinkMultiplier": 1.35,
+  "heatPerTurn": -4,
+  "signatureMultiplier": 1.6,
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "mud",
   "stickyEffect": {
@@ -31,7 +31,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "1.3",
+      "modValue": "0.7",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -60,7 +60,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "1.3",
+        "modValue": "0.7",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -88,7 +88,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "1.3",
+        "modValue": "0.7",
         "modType": "System.Single"
       },
       "nature": "Buff"

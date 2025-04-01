@@ -64,7 +64,7 @@
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
-	"Radius": 4,
+	"Radius": 7,
 	"PunchesWithLeftArm": false,
 	"AlwaysPunchIfPossible": false,
 	"EngageRangeModifier": 0,

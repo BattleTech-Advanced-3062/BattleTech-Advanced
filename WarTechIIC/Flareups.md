@@ -29,7 +29,7 @@ Factions will only attack or raid themselves if they are set to be their own ene
 With the weight for each target system and each faction which could attack it figured out, one is selected at random.
 
 ### Initial setup
-A border world controlled by the defender and near the attacker is chosen at random. The flareup is now visible as a blip to the starmap, appearance controlled by the `attackMarker` or `raidMarker` as appropriate. See [ColourfulFlashpoints](https://github.com/wmtorode/ColourfulFlashPoints) for details on the settings.
+A border world controlled by the defender and near the attacker is chosen at random. The flareup is now visible as a blip to the starmap, appearance controlled by the `mapMarker` settings in `extendedContracts/Attack.json|Raid.json` as appropriate. See [ColourfulFlashpoints](https://github.com/wmtorode/ColourfulFlashPoints) for details on the settings.
 
 The initial attacker and defender forces are calculated as follows.
 1) The attacker begins with `defaultAttackStrength` points, overridden by their setting in `attackStrength` if they have one.
@@ -62,7 +62,7 @@ So that's cool and all, but what do players do?
 
 Well, when they enter the star system where a flareup is occurring, each faction may generate a contract to hire the player ("Flareup: Attack Planet", "Flareup: Raid Planet", or one of the two variants of "Flareup: Defend Planet" for attacks/raids) if:
 1) They are not listed in `wontHirePlayer`.
-2) The players reputation with that faction is at least `minReputationToHelpAttack` / `minReputationToHelpRaid`.
+2) The players reputation with that faction is at least `minReputationToHelpAttack` (applying to both Attacks and Raids).
 
 If the player accepts the contract, the "countdown" is immediately set to 0, and the next mission is set to begin tomorrow. They get a task in the timeline telling them when the next mission will occur.
 

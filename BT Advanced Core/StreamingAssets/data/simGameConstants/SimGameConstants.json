@@ -56,7 +56,23 @@
 		"HighRepNotificationValue": 50,
 		"DailyHealValue": 0,
 		"MedTechSkillMod": 1,
-		"EmployerRepBadFaithMod": -1
+		"EmployerRepBadFaithMod": -1,
+		"CrewConversationNames": [
+			"ALEXANDER",
+			"DARIUS",
+			"FARAH",
+			"KAMEA",
+			"SUMIRE",
+			"YANG"
+		],
+		"CrewConversationList": [
+			"5a384617623035d414000089",
+			"5a3845e3623035d414000075",
+			"5a3845f0623035d41400007f",
+			"e0kFfyUGoiEbV1KPRVUkDTfG",
+			"5a3845b6623035d41400002a",
+			"5a305324623035701c00002a"
+		]
 	},
 	"Flashpoints": {
 		"MaxActiveFlashpoints": 10,
@@ -72,7 +88,7 @@
 		"HonoredMaxContractDifficulty": 14,
 		"MaxMechWarriorsPerPod": 12,
 		"StartWithRandomMechs": true,
-		"GameLength" : 2525
+		"GameLength": 2525
 	},
 	"Pilot": {
 		"IncapacitatedDamageCost": 180,

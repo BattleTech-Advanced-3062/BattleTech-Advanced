@@ -28,6 +28,7 @@
 	"Morale": 0,
 	"Voice": "m_pro02_david",
 	"abilityDefNames": [
+		"TraitDefHeadshotImmunity",
 		"AbilityDefG5",
 		"AbilityDefG8a",
 		"AbilityDefG10a",

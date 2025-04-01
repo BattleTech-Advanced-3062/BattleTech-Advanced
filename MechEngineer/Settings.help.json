@@ -432,7 +432,9 @@
     },
     "ComponentExplosions" : {
         "Enabled" : true,
-        "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE."
+        "EnabledDescription" : "Allows each component to define destructive forces in case they explode, also implements proper CASE.",
+        "PassthroughHeadToCenterTorso" : false,
+        "PassthroughHeadToCenterTorsoorsoDescription" : "Pass excessive head damage to the center torso."
     },
     "CompressFloatieMessages" : {
         "Enabled" : true,

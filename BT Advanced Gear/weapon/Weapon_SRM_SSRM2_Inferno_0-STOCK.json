@@ -1,0 +1,137 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "w/m/s/ssrm"
+		},
+		"BonusDescriptions": [
+			"Streak",
+			"Clustering: 2",
+			"PipsIgnored: 1",
+			"WpnAccuracy: +1",
+			"WpnCrits: +50%",
+			"HeatDamage: 2",
+			"Inferno: 6",
+			"OHDamage: 50%",
+			"AntiBA: 100%",
+			"MissileHealth: 3",
+			"WeaponAttachmentCompatible: SRM FCS"
+		],
+		"Flags": [
+			"no_salvage"
+		]
+	},
+	"Category": "Missile",
+	"Type": "SRM",
+	"WeaponSubType": "SRM2",
+	"MinRange": 0,
+	"MaxRange": 360,
+	"RangeSplit": [
+		90,
+		180,
+		270
+	],
+	"AmmoCategory": "STREAKSRM",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 6,
+	"Damage": 5,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 1,
+	"DamageVariance": 0,
+	"HeatDamage": 2,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"Streak": true,
+	"HitGenerator": "Streak",
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"FireTerrainChance": 0.01,
+	"MissileHealth": 3,
+	"ClusteringModifier": 2,
+	"FireTerrainStrength": 4,
+	"FireTerrainChance": 1,
+	"FireDurationWithoutForest": 2,
+	"OverheatedDamageMultiplier": 1.5,
+	"FireOnSuccessHit": true,
+	"TrooperSquadDamageModifier": 2,
+	"WeaponEffectID": "WeaponEffect-Weapon_SRM2",
+	"Description": {
+		"Cost": 450000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "Holly",
+		"Model": "STREAK Missile Launcher",
+		"UIName": "Inferno S-SRM2",
+		"Id": "Weapon_SRM_SSRM2_Inferno_0-STOCK",
+		"Name": "Inferno S-SRM2",
+		"Details": "The Streak SRM-2 launcher is an advanced SRM that uses an advanced active guidance system to track targets, but at the cost of 50% increased weight and heat generation. This unique version, make specifically for the Apollo Ultralight BattleMech, incorporates some inferno SRM technology in order to produce a powerful heat damage dealing weapon. \n\n<b><color=#ffcc00>Uses Streak SRM Ammo.</color></b>",
+		"Icon": "uixSvgIcon_weapon_Missile"
+	},
+	"BonusValueA": "Streak!",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "srm2",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Effect_InfernoSRMHeat",
+				"Name": "Inferno Gel",
+				"Details": "This unit is coated with burning chemicals, generating 6 extra heat each turn.",
+				"Icon": "fire-zone"
+			},
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Subtract",
+				"modValue": "6",
+				"modType": "System.Int32"
+			},
+			"nature": "Debuff"
+		}
+	
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_standard",
+			"SRMFCSSupported",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

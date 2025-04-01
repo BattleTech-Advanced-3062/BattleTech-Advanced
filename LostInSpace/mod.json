@@ -2,12 +2,19 @@
 	"Name": "LostInSpace",
 	"DLL": "LostInSpace.dll",
 	"Hidden": true,
-	"Version": "1.1.0.0",
+	"Version": "1.1.1",
 	"Description": "",
 	"Author": "T-Bone",
-	"Website": "https://github.com/ajkroeg/LostInSpace",
+	"Website": "https://github.com/BattletechModders/LostInSpace",
 	"DependsOn": [],
 	"ConflictsWith": [],
 	"CustomResourceTypes": [],
-	"Manifest": []
+	"Manifest": [],
+	"Logs": {
+		"LostInSpace.log": {
+			"Include": [
+				"LostInSpace"
+			]
+		}
+	}
 }

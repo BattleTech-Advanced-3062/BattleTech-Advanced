@@ -8,15 +8,15 @@
 	"defaultMaxTonnage": 400,
 	"allowUpgrades": true,
 	"showAdditionalArgoUpgrades": true,
-	"enable4thCategory": false,
+	"enableRTExtendedCategories": false,
 	"argoUpgradeName": "Command & Control",
 	"argoUpgradeCategory1Name": "Lance A and Vehicle Control",
 	"argoUpgradeCategory2Name": "Lance B Control",
 	"argoUpgradeCategory3Name": "Drop Tonnage",
 	"argoUpgradeCategory4Name": "Drop Information",
 	"CuInitialVehicles": 2,
-	"CuV2FormationSize" : 8,
-	"CuV2InitialSlots" : [
+	"CuV2FormationSize": 8,
+	"CuV2InitialSlots": [
 		"default_mech_tank_slot",
 		"default_mech_tank_slot",
 		"default_mech_tank_slot",

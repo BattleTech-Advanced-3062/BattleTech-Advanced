@@ -3,13 +3,13 @@
 	<BtaMode>1</BtaMode>
 	<RequiredBattleTechVersion>1.9.1</RequiredBattleTechVersion>
 	<RequiredLauncherVersion>1.2.1</RequiredLauncherVersion>
-	<SecureHash>FkcWrRbdFr0WHxa5FucWqxauFtkWUhbxFocWmhZqFu0=</SecureHash>
+	<SecureHash>FrAWNhaZFnAWRxYNFlcWqxZmFvcWNxbdFv0WARYrFp8=</SecureHash>
 	<showCoreItems>true</showCoreItems>
 	<Tasks>
 		<InstallTask>
 			<Id>coreInstall</Id>
 			<canSelect>false</canSelect>
-			<excludePaths>btaConfig.xml,.git,.modtek,.git,log.txt,Flashpoint DLC Flashpoints,Flashpoint Unit Module,FlashpointEnabler,Heavy Metal Equipment Module,Heavy Metal Flashpoint Module,Heavy Metal Sanctuary Worlds Units,Heavy Metal Unit Module,Urban Warfare Flashpoints,Urban Warfare Unit Module,DefaultFire,LinuxFire,RogueTechPerfFix,Community Content</excludePaths>
+			<excludePaths>btaConfig.xml,.git,.github,.modtek,.git,log.txt,Flashpoint DLC Flashpoints,Flashpoint Unit Module,FlashpointEnabler,Heavy Metal Equipment Module,Heavy Metal Flashpoint Module,Heavy Metal Sanctuary Worlds Units,Heavy Metal Unit Module,Urban Warfare Flashpoints,Urban Warfare Unit Module,DefaultFire,LinuxFire,RogueTechPerfFix,Community Content</excludePaths>
 			<isSelected>true</isSelected>
 			<jobOrder>0</jobOrder>
 			<jobType>Install</jobType>

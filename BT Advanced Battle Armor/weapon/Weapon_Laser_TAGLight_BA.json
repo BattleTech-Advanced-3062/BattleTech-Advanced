@@ -6,9 +6,10 @@
 			}
 		],
 		"BonusDescriptions": [
-				"TAG: 1",
-				"PipsIgnored: 4"
-			]
+			"BATAG: 13%",
+			"TAGSemiGuided",
+			"PipsIgnored: 4"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "Laser",
@@ -70,18 +71,11 @@
 				"useActivationsOfTarget": true,
 				"ticksOnEndOfRound": false,
 				"ticksOnMovements": false,
-				"stackLimit": 1,
+				"stackLimit": 4,
 				"clearedWhenAttacked": false
 			},
 			"targetingData": {
 				"effectTriggerType": "OnHit",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "NotSet",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
 				"showInTargetPreview": false,
 				"showInStatusPanel": true
 			},
@@ -89,32 +83,21 @@
 			"Description": {
 				"Id": "TAG-Effect",
 				"Name": "Target Acquired",
-				"Details": "This target was TAG'ed. +1 to hit.",
-				"Icon": "uixSvgIcon_artillery"
+				"Details": "This target was TAG'ed. Target takes 5% more AoE damage. Stacks up to four times.",
+				"Icon": "target-laser"
 			},
 			"nature": "Debuff",
 			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "-1.0",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
+				"statName": "CACAoEDamageMult",
+				"operation": "Float_Multiply",
+				"modValue": "1.05",
+				"modType": "System.Single"
 			},
 			"tagData": {
 				"tagList": [
 					"lv-tag-effect"
 				]
-			},
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
+			}
 		},
 		{
 			"durationData": {
@@ -128,95 +111,28 @@
 			},
 			"targetingData": {
 				"effectTriggerType": "OnHit",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "NotSet",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
 				"showInTargetPreview": false,
 				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TAG-Signature_Increase",
-				"Name": "Detected",
-				"Details": "TAG increases Signature",
-				"Icon": "uixSvgIcon_artillery"
+				"Id": "TAG-SemiGuidedEffect",
+				"Name": "Semi-Guided Acquired",
+				"Details": "This target was TAG'ed. Target is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
 			},
-			"nature": "Buff",
+			"nature": "Debuff",
 			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "SensorSignatureModifier",
-				"operation": "Float_Multiply",
-				"modValue": "1.15",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
+				"statName": "ADD_ENCOUNTER_TAG_TargetAcquired",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
 			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
-		},
-		{
-			"durationData": {
-				"duration": 2,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": 1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "TAG-Visibility_Increase",
-				"Name": "Detected",
-				"Details": "TAG increases Visibility",
-				"Icon": "uixSvgIcon_artillery"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
-				"statName": "SpottingVisibilityMultiplier",
-				"operation": "Float_Multiply",
-				"modValue": "1.15",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
 		},
 		{
 			"durationData": {

@@ -14,7 +14,8 @@
 			"VariableBurstCount: 6",
 			"NoFireInMelee",
 			"AreaOfEffect: 45",
-			"AreaOfEffectDmg: 18"
+			"AreaOfEffectDmg: 18",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -129,7 +130,8 @@
 		"items": [
 			"component_type_stock",
 			"range_long",
-			"WebbTCSupported-RotaryAC"
+			"WebbTCSupported-RotaryAC",
+			"SuperweaponFCSSupported-Rotary"
 		],
 		"tagSetSourceFile": ""
 	}

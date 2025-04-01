@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "StardriveStiletto",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 1624000,
 		"Rarity": 0,
@@ -62,11 +69,15 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 30,
+			"MaxArmor": 20,
 			"MaxRearArmor": -1,
 			"InternalStructure": 10
 		},
@@ -75,8 +86,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 50,
-			"MaxRearArmor": 25,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
 			"InternalStructure": 20
 		},
 		{
@@ -93,8 +104,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 15,
-			"MaxArmor": 60,
-			"MaxRearArmor": 30,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
 			"InternalStructure": 25
 		},
 		{
@@ -102,8 +113,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 50,
-			"MaxRearArmor": 25,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
 			"InternalStructure": 20
 		},
 		{
@@ -120,7 +131,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 30,
+			"MaxArmor": 20,
 			"MaxRearArmor": -1,
 			"InternalStructure": 10
 		},
@@ -129,7 +140,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 40,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
 			"InternalStructure": 15
 		},
@@ -138,7 +149,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 40,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
 			"InternalStructure": 15
 		}
@@ -202,7 +213,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Stiletto",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Stiletto",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

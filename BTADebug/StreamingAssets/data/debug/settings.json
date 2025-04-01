@@ -70,12 +70,32 @@
 			"v": "Debug"
 		},
 		{
+			"k": "BattletechPerformanceFix",
+			"v": "Log"
+		},
+		{
 			"k": "CustomShops",
 			"v": "Debug"
 		},
 		{
 			"k": "DynamicShops",
 			"v": "Debug"
+		},
+		{
+			"k": "LewdableTanks",
+			"v": "Debug"
+		},
+		{
+			"k": "CustomSalvage",
+			"v": "Debug"
+		},
+		{
+			"k": "CustomComponents",
+			"v": "Log"
+		},
+		{
+			"k": "MechEngineer",
+			"v": "Log"
 		}
 	],
 	"fileLogAppenders": [

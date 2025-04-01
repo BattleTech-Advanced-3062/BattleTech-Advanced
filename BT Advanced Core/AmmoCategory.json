@@ -1875,6 +1875,62 @@
 			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+		},
+		{
+			"ID": 6134,
+			"Name": "ArrowIVHoming",
+			"FriendlyName": "ArrowIVHoming",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6135,
+			"Name": "LongTomCopperhead",
+			"FriendlyName": "LongTomCopperhead",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6136,
+			"Name": "SniperCopperhead",
+			"FriendlyName": "SniperCopperhead",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6137,
+			"Name": "ThumperCopperhead",
+			"FriendlyName": "ThumperCopperhead",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		}
 	]
 }

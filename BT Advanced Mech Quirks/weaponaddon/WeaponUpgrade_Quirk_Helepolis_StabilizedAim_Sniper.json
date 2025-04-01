@@ -6,9 +6,9 @@
 	],
 	"modes": [
 		{
-			"Id": "Quirk",
-			"UIName": "Quirk",
-			"Name": "Quirk",
+			"Id": "Artillery",
+			"UIName": "Quirk Arty",
+			"Name": "Quirk Arty",
 			"isBaseMode": true,
 			"statusEffects": [
 				{
@@ -42,6 +42,13 @@
 					}
 				}
 			]
+		},
+		{
+			"Id": "Guided",
+			"UIName": "Quirk Copperhead",
+			"Name": "Quirk Copperhead",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
 		}
 	]
 }

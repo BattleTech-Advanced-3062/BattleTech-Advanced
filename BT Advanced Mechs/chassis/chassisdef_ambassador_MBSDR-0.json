@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Ambassador",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 1624000,
 		"Rarity": 0,
@@ -200,6 +207,7 @@
 	"VariantName": "MBSDR-0",
 	"ChassisTags": {
 		"items": [
+			"mr-resize-0.85-0.85-0.85",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"IgnoreEngineLimit",

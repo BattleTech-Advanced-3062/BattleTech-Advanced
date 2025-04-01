@@ -6,9 +6,9 @@
 	],
 	"modes": [
 		{
-			"Id": "FCS",
-			"UIName": "FCS",
-			"Name": "FCS",
+			"Id": "Artillery",
+			"UIName": "FCS Arty",
+			"Name": "FCS Arty",
 			"isBaseMode": true,
 			"statusEffects": [
 				{
@@ -42,6 +42,13 @@
 					}
 				}
 			]
+		},
+		{
+			"Id": "Guided",
+			"UIName": "FCS Copperhead",
+			"Name": "FCS Copperhead",
+			"EvasivePipsIgnored": 1,
+			"AccuracyModifier": -2.0
 		}
 	]
 }

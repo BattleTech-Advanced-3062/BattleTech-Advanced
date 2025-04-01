@@ -204,7 +204,6 @@
 	"VariantName": "COM-SH",
 	"ChassisTags": {
 		"items": [
-			"ActuatorLowerLeft",
 			"LightMech",
 			"HeroMech"
 		],

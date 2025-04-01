@@ -14,7 +14,8 @@
 			"AreaOfEffect: 90",
 			"AreaOfEffectDmg: 40",
 			"ScatterRadius: 60, 120",
-			"AMSImmune"
+			"AMSImmune",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -82,7 +83,8 @@
 		"items": [
 			"component_type_stock",
 			"range_extreme",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

@@ -1,0 +1,254 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "StardriveApollo",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1624000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Apollo",
+		"Id": "chassisdef_apollo_APL-1J",
+		"Name": "Apollo",
+		"Details": "During the Reunification War of the 2500s, each Great House had to tighten their budgets somewhat due to the costs of the war. For the Free Worlds League, this took the form of cost-cutting with their recon lances and so the Apollo APL-1J was introduced. At 2/3rds the cost of a Wasp or Stinger but with equivalent or superior capabilities, the Apollo made perfect sense to the overtaxed public that would end up paying for it. The Apollo is built with a 90-rated fusion engine and carries a pair of Medium Lasers for primary firepower as well as a Machine Gun in the center torso.",
+		"Icon": "uixTxrIcon_stardriveapollo"
+	},
+	"MovementCapDefID": "movedef_flea_FLE-15",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_stardriveapollo",
+	"PrefabIdentifier": "chrprfmech_stardriveapollobase-001",
+	"PrefabBase": "stardriveapollo",
+	"Tonnage": 15,
+	"InitialTonnage": 1.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 15,
+	"MeleeInstability": 5,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 15,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 15,
+	"DFAInstability": 5,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 40,
+			"MaxRearArmor": 20,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 20,
+			"MaxRearArmor": -1,
+			"InternalStructure": 10
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 6.5,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 6.5,
+			"z": -0.5
+		},
+		{
+			"x": 1.25,
+			"y": 3.5,
+			"z": 0
+		},
+		{
+			"x": -1.25,
+			"y": 3.5,
+			"z": 0
+		}
+	],
+	"VariantName": "APL-1J",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Ultralight Recon",
+	"YangsThoughts": "During the Reunification War of the 2500s, each Great House had to tighten their budgets somewhat due to the costs of the war. For the Free Worlds League, this took the form of cost-cutting with their recon lances and so the Apollo APL-1J was introduced. At 2/3rds the cost of a Wasp or Stinger but with equivalent or superior capabilities, the Apollo made perfect sense to the overtaxed public that would end up paying for it. The Apollo is built with a 90-rated fusion engine and carries a pair of Medium Lasers for primary firepower as well as a Machine Gun in the center torso.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Ultralight_Apollo",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

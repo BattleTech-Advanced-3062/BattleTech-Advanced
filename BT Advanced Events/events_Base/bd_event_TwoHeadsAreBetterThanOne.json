@@ -202,7 +202,7 @@
                             ],
 							"Actions": null,
 							"ForceEvents": null,
-							"TemporaryResult": false,
+							"TemporaryResult": true,
 							"ResultDuration": 14
 						}
 					]

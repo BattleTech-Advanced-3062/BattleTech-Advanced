@@ -23,6 +23,5 @@
 	"tempDesignMaskOnImpactTurns": 3,
 	"tempDesignMaskOnImpact": "DesignMaskSmoke",
 	"FireOnSuccessHit": true,
-	"LongVFXOnImpact": "vfxPrfPrtl_miningSmokePlume_sm_loop",
-	"AlwaysIndirectVisuals": true
+	"LongVFXOnImpact": "vfxPrfPrtl_miningSmokePlume_sm_loop"
 }

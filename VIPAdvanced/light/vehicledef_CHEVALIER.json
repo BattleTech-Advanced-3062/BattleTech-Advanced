@@ -2,7 +2,6 @@
 	"VehicleTags": {
 		"items": [
 			"unit_controllableTank",
-			"NOSALVAGE",
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_light",
@@ -26,6 +25,8 @@
 			"9thDivisionWoB",
 			"WoBProtectorateMilitia",
 			"DarkCaste",
+			"TheDark",
+			"GreenGhosts",
 			"331stDivision",
 			"Kurita",
 			"1stSwordOfLight",

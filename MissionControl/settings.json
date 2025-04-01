@@ -148,7 +148,7 @@
 			},
 			{
 				"MapId": "mapGeneral_lostWorld_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.7
+				"IncreaseBoundarySizeByPercentage": 0.8
 			},
 			{
 				"MapId": "mapGeneral_Interchange_aDes",
@@ -190,11 +190,6 @@
 				"MapId": "mapGeneral_cragMire_vLow",
 				"ContractTypeName": "DefendBase",
 				"IncreaseBoundarySizeByPercentage": 0.3
-			},
-			{
-				"MapId": "mapGeneral_capitolHill_uTech",
-				"ContractTypeName": "ThreeWayBattle",
-				"IncreaseBoundarySizeByPercentage": 0.2
 			},
 			{
 				"MapId": "mapGeneral_borealForest_iGlc",
@@ -260,6 +255,14 @@
 			{
 				"ContractTypeName": "AmbushConvoy",
 				"IncreaseBoundarySizeByPercentage": 0.2
+			},
+			{
+				"MapId": "mapGeneral_capitolHill_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapGeneral_escarpmentValley_vLow",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},

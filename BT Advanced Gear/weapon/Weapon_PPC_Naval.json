@@ -11,7 +11,8 @@
 		},
 		"BonusDescriptions": [
 			"WpnCooldown: 1",
-			"WeaponBoom: 250"
+			"WeaponBoom: 250",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
 	"weaponCategoryID": "Superweapon",
@@ -137,7 +138,8 @@
 		"items": [
 			"component_type_stock",
 			"range_long",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
 		],
 		"tagSetSourceFile": ""
 	}

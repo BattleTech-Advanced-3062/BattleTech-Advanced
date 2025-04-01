@@ -4,7 +4,7 @@
   "designMask": "DesignMaskPollutedAir",
   "startMission": [
     {
-      "words": "The pollution here is real bad, so bad that it's affecting sensors and sight ranges. Be careful out there, Commander.",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! The pollution here is real bad, so bad that it's affecting sensors and sight ranges. Be careful out there, Commander.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_DariusDefault",
       "emote": "Default",

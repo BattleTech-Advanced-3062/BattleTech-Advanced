@@ -1,0 +1,30 @@
+{
+	"Description": {
+		"Id": "Ammunition_Thumper_Copperhead",
+		"Name": "Thumper Ammo",
+		"UIName": "Copperhead",
+		"Details": "Massive rounds, designed for devastating impact, to be used in an AC/20.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "ThumperCopperhead",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"AOECapable": false,
+	"DamagePerShot": -60.0,
+	"HeatDamagePerShot": -20,
+	"AccuracyModifier": 90,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -95
+	},
+	"AdditionalImpactVFX": "WFX_ExplosiveSmokeS",
+	"AdditionalImpactVFXScaleX": 3,
+	"AdditionalImpactVFXScaleY": 3,
+	"AdditionalImpactVFXScaleZ": 3
+}

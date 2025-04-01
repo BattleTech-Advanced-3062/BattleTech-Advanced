@@ -22,13 +22,13 @@
 			"Description": {
 				"Id": "TraitDefCalledShotImprove",
 				"Name": "Improved Called Shot",
-				"Details": "Called Shots twice as reliable",
+				"Details": "Called Shots more reliable",
 				"Icon": "uixSvgIcon_ability_mastertactician"
 			},
 			"statisticData": {
 				"statName": "CalledShotBonusMultiplier",
 				"operation": "Float_Multiply",
-				"modValue": "1.4",
+				"modValue": "1.2",
 				"modType": "System.Single"
 			}
 		}

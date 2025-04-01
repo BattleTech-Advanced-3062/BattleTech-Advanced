@@ -13,9 +13,9 @@
 			"StabilityDamagePerAmmo": 3
 		},
 		"BonusDescriptions": [
-			"AreaOfEffect: 90",
-			"AreaOfEffectDmg: 20",
-			"AreaOfEffectHeatDmg: 10",
+			"AreaOfEffect: 60",
+			"AreaOfEffectDmg: 15",
+			"AreaOfEffectHeatDmg: 25",
 			"AreaOfEffectSTABDmg: 5",
 			"AlwaysStartsFireAnywhere",
 			"FireTerrainSize: 1",
@@ -23,8 +23,8 @@
 			"FireTerrainStrength: 2",
 			"CostPerShot: 500",
 			"AmmoCount: 5",
-			"OHDamage: 25%",
-			"AntiBA: 50%"
+			"OHDamage: 50%",
+			"AntiBA: 150%"
 		],
 		"AmmoCost": {
 			"PerUnitCost": 500

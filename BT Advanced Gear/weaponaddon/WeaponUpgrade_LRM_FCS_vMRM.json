@@ -1,0 +1,29 @@
+{
+	"Id": "WeaponUpgrade_LRM_FCS_vMRM",
+	"addonType": "lrmfcs",
+	"targetComponentTags": [
+		"LRMFCSSupported-vMRM"
+	],
+	"modes": [
+		{
+			"Id": "lv1",
+			"UIName": "FCS Base",
+			"AccuracyModifier": -1.0
+		},
+		{
+			"Id": "lv2",
+			"UIName": "FCS Dmg",
+			"AccuracyModifier": -1.0
+		},
+		{
+			"Id": "lv3",
+			"UIName": "FCS Acc",
+			"AccuracyModifier": -1.0
+		},
+		{
+			"Id": "lv4",
+			"UIName": "FCS Heat",
+			"AccuracyModifier": -1.0
+		}
+	]
+}

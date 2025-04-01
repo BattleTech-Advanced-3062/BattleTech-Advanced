@@ -2,18 +2,16 @@
 	"Description": {
 		"Id": "blue_event_co_Aether",
 		"Name": "The Winds of Chance",
-		"Details": "As you relax in a bar after a hard day's work, you feel eyes on the back of your head, and turn to see the bartender pointing your crew out to a woman. Despite her dangerous eyes, you put a hand out, restraining Darius from challenging her as she approaches. Whatever she's here for, it doesn't seem like trouble. At least not the immediate sort.\r\n\r\n\"Are you Commander {COMMANDER.Callsign}? I heard rumors that you've been taking jobs for a certain Lady.\" She watches as you all glance at each other, seeming to take that as enough confirmation to carry on. \"[[DM.BaseDescriptionDefs[Blue_Lore_Aether],Aether]], Mechwarrior, Arano Royal Guard. Well, that and 33rd planetary guard, Weldry.\" She scratches the back of her head, seeming embarrassed about that particular posting.\r\n\r\nYou vaguely recognize her, now that she mentions the royal guard - you saw her face hanging around Raju occasionally, back a few years ago. She leans in close to whisper. \"I've been laying low since the coup, waiting for a chance. If you're going to help do something about it, well, I'd like to enlist.\"",
+		"Details": "As you relax in a bar after a hard day's work, you feel eyes on the back of your head, and turn to see the bartender pointing your crew out to a woman. Despite her dangerous eyes, you put a hand out, restraining Darius from challenging her as she approaches. Whatever she's here for, it doesn't seem like trouble. At least not the immediate sort.\r\n\r\n\"Are you Commander {COMMANDER.Callsign}? I heard rumors that you've been taking jobs for a certain Lady.\" She watches as you all glance at each other, seeming to take that as enough confirmation to carry on. \"[[DM.BaseDescriptionDefs[Blue_Lore_Aether],Aether]], Mechwarrior, Arano Royal Guard. Well, that and 33rd planetary guard, Weldry.\" She scratches the back of her head, seeming embarrassed about that particular posting.\r\n\r\nYou vaguely recognize her, now that she mentions the royal guard - you saw her face hanging around Raju occasionally, back a few years ago. She leans in close to whisper. \"I heard you trained with Raiju, and I'm a free agent these days.\"",
 		"Icon": "uixTxrSpot_BigCity"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 600,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
 			"tagSetSourceFile": "",
-			"items": [
-				"flashpoint_StoryTime3_complete"
-			]
+			"items": []
 		},
 		"ExclusionTags": {
 			"tagSetSourceFile": "",

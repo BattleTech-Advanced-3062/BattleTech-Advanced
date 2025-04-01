@@ -1,0 +1,30 @@
+{
+	"Item": "Gear_Duo_Duel_Ultralight",
+	"AllowInInventory": false,
+	"Requirements": [],
+	"Results": [
+		{
+			"Scope": "Company",
+			"Stats": null,
+			"Actions": [
+				{
+					"Type": "System_AddContract",
+					"value": "DuoDuel_GameworldDuoUltralight",
+					"valueConstant": null,
+					"additionalValues": [
+						"Locals",
+						"SelfEmployed",
+						null,
+						null,
+						null,
+						null,
+						"8",
+						null
+					]
+				}
+			],
+			"TemporaryResult": false,
+			"ResultDuration": 0
+		}
+	]
+}

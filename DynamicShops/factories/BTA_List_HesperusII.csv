@@ -63,6 +63,10 @@ mechdef_flashman_FLS-8K,Mech,1,10
 mechdef_flashman_FLS-9C,Mech,1,10
 mechdef_yeager_YGR-1E,Mech,1,10
 mechdef_atlas_AS7-S2,Mech,1,10
+mechdef_foxfire_FXR-4R,Mech,1,10
+mechdef_foxfire_FXR-5R,Mech,1,10
+mechdef_foxfire_FXR-6R,Mech,1,10
+mechdef_foxfire_FXR-7R,Mech,1,10
 vehicledef_HUNTER,Mech,1,10
 vehicledef_MANTICORE,Mech,1,10
 vehicledef_ROMMEL_RT,Mech,1,10

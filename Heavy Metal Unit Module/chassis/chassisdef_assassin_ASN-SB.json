@@ -37,7 +37,7 @@
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
-	"Radius": 8,
+	"Radius": 4,
 	"PunchesWithLeftArm": false,
 	"MeleeDamage": 45,
 	"MeleeInstability": 20,

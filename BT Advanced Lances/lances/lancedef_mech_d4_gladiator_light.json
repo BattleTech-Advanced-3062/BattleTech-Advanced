@@ -34,7 +34,8 @@
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
-					"unit_urbie"
+					"unit_urbie",
+					"unit_ultralight"
 				],
 				"tagSetSourceFile": "Tags/UnitTags"
 			},
@@ -65,7 +66,8 @@
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
-					"unit_urbie"
+					"unit_urbie",
+					"unit_ultralight"
 				],
 				"tagSetSourceFile": "Tags/UnitTags"
 			},

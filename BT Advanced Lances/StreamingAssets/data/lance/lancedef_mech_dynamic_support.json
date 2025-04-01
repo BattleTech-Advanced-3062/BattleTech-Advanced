@@ -38,8 +38,7 @@
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
-					"unit_urbie",
-					"unit_range_short"
+					"unit_urbie"
 				],
 				"tagSetSourceFile": "Tags/UnitTags"
 			},
@@ -68,39 +67,7 @@
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
-					"unit_urbie",
-					"unit_range_short"
-				],
-				"tagSetSourceFile": "Tags/UnitTags"
-			},
-			"pilotTagSet": {
-				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
-			},
-			"excludedPilotTagSet": {
-				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
-			}
-		},
-		{
-			"unitType": "Mech",
-			"unitId": "Tagged",
-			"pilotId": "Tagged",
-			"dynamicDifficulty": true,
-			"unitTagSet": {
-				"items": [
-					"unit_mech",
-					"unit_indirectFire",
-					"unit_legal",
-					"{CUR_TEAM.faction}"
-				],
-				"tagSetSourceFile": "Tags/UnitTags"
-			},
-			"excludedUnitTagSet": {
-				"items": [
-					"unit_noncombatant",
-					"unit_urbie",
-					"unit_range_short"
+					"unit_urbie"
 				],
 				"tagSetSourceFile": "Tags/UnitTags"
 			},
@@ -130,8 +97,37 @@
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
-					"unit_urbie",
-					"unit_range_short"
+					"unit_urbie"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"dynamicDifficulty": true,
+			"unitTagSet": {
+				"items": [
+					"unit_mech",
+					"unit_indirectFire",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
 				],
 				"tagSetSourceFile": "Tags/UnitTags"
 			},

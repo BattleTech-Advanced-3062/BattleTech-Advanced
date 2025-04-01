@@ -31,7 +31,7 @@
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 50,
 	"mapMood": null,
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

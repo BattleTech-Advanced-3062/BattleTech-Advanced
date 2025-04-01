@@ -44,7 +44,7 @@
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 50,
 	"lanceMinTonnage": 280,
 	"lanceMaxTonnage": -1,
 	"mechMinTonnages": [

@@ -75,10 +75,19 @@ Defines what to do with your lost mech
 - `string FullUnitInfoIcon = "icons8-info"` - if FullEnemyUnitSalvage enabled, you can see actual unit state by clicking its icon in salvage slot. While cursor is hover over unit's icon its actual icon is replaced to this to point active cotrol.
 - `float FullUnitRandomSalvageSlotUsingMod = 1f` - if full unit is selected for priority salvage random salvage amount is redused to (DefaultMechPartMax \* FullUnitRandomSalvageSlotUsingMod - 1).
 - `bool FullUnitUsedAllRandomSalvageSlots = true` - if enabled any full unit added to priority salvage reduce random salvage amount to 0. Eg. you will only able to get priority salvage. 
-- `bool SquadDisassembleComponents = false` - by current rules BA squads are always dissassembled to parts in salvage. If this option enabled its components goes to possible salvage.
-- `bool VehicleDisassembleComponents = false` - If this option enabled vehicle components goes to possible salvage if dissasembled to parts. If disabled only vehicle parts will be result of dissassemling.
+- `bool SquadDisassembleComponents = false` - by current rules BA squads are always dissassembled to parts in salvage. If this option enabled its components goes to possible salvage. Option working regardless FullEnemyUnitSalvage state.
+- `bool VehicleDisassembleComponents = false` - If this option enabled vehicle components goes to possible salvage if dissasembled to parts. If disabled only vehicle parts will be result of dissassemling. Option working regardless FullEnemyUnitSalvage state.
+- `bool VehicleDisassembleEditableComponentsOnly = true` - If enabled only editable vehicle components goes to salvage, if disabled - logic is same as for other unit types.
 - `bool VehicleAlwaysDisassembled = false` - If this option enabled vehicles goes to salvage in dissasembled state, otherwise they always go in full state (vehciles have no CT).
-
+- `bool FullUnitUsedAmountOfLootableComponents = true` - If true amount of not destroyed salvagable componetns will be added to required random salvage slots to be able to get full unit as salvage. Needed random salvage slots formula will be (DefaultMechPartMax + <amount of components>) \* FullUnitRandomSalvageSlotUsingMod - 1
+- `float FullUnitStructurePersentage = 0.5f` - if absolute value is above 0.001f (and FullEnemyUnitSalvage is true) additional rule to detect if unit goes to salvage in disassembled state will be used (regardless type) - percentage of rest structure - if unit have less than FullUnitStructurePersentage of overall structure it goes in disassembled state.
+- `float FullMechStructurePersentage = 0f` - if absolute value is above 0.001f (and FullEnemyUnitSalvage is true) and unit is not vehicle and not squad this value used istead of FullUnitStructurePersentage
+- `float FullVehicleStructurePersentage = 0f` - if absolute value is above 0.001f (and FullEnemyUnitSalvage is true) and unit is vehicle this value used istead of FullUnitStructurePersentage
+- `float AdditionalStructurePercentagePerPart = 0f` - AdditionalStructurePercentagePerPart * DefaultMechPartMax will be added to effective needed rest structure pecentage. Can be negative. 
+- `float FullUnitRecoveryChance = 0.9f` - if above 0f and unit can be looted in full state and pass other checks it will suffer this check on random roll, on fail goes to loot in disassembled state
+- `float FullMechRecoveryChance = 0.95f` - if above 0f and unit can be looted in full state and not vehicle and not squad and pass other checks it will suffer this check on random roll, on fail goes to loot in disassembled state
+- `float FullVehicleRecoveryChance = 0.3f` - if above 0f and unit can be looted in full state and is vehicle and pass other checks it will suffer this check on random roll, on fail goes to loot in disassembled state
+- `float SquadAdditionalPartChance = 0f` - if destroyed unit is squad instead of normal logic to calculate unit parts goes to salvage it will perform (DefaultMechPartMax - 1) rolls from 0 to 1, for every roll less than SquadAdditionalPartChance it will add additional unit part to salvage. One part is always guaranteed.
 ## Assembly options
 
 ### recoloring mech icons in storage
@@ -194,6 +203,25 @@ Allow override assembly settings by chassis
 - ReplacePriceMult - if true discard tags mult and use value from custom only, if false - value multiplicative
 - PriceMult - price multiplier for aseembly this mech
 - PartsMin - if greater or equal 0 - replace min parts multiplier( = maxparts * this rounded up)
+
+## LootableUniqueMech
+```
+    "LootableUniqueMech": {
+      "ReplaceID": "mechdef_annihilator_ANH-2A",
+	  "randomSearchTags":{
+		"ShouldHaveTags":[],
+		"ShouldNotHaveTags":[],
+		"ExcludeSelfTags":[]
+	  }
+    }
+```
+
+Logic:
+if player have unit with this chassiss it will try to replace it.
+if ReplaceID is not empty - it will just replace current unit to this one.
+if ReplaceID is empty it will try to find unit by tags (method is the same as for contract opfor generation, which means CustomUnitsSpawn behavior applied)
+if ShouldHaveTags is empty list - it will fill ShouldHaveTags using MechTags, remove ShouldNotHaveTags (from current custom), remove ExcludeSelfTags (from current custom) 
+and remove UniqieReplaceSearchExcludeTags (got from mod settings, default "unit_rarity_chassis_unique", "unit_unique")
 
 ----------------
 ## Thanks:
