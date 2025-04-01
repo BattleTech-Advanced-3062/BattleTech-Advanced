@@ -1,16 +1,16 @@
 {
   "Description": {
     "Id": "DesignMaskMartianNightSnow",
-    "Name": "Martian Night Snow",
-    "Details": "The night and snow, reduce visibility to 80% of normal. Units in a partial vacuum sink only 75% of their normal Heat, but the condensing dry ice removes 12 heat per turn. Ballistic and missile weapons, as well as jump jets, gain 15% more max range thanks to reduced gravity.",
+    "Name": "Topsy-Turvy Martian Night Snow",
+    "Details": "The night and snow, improve visibility to 120% of normal. Units in a partial vacuum sink 125% of their normal Heat, but the condensing dry ice adds 12 heat per turn. Ballistic and missile weapons, as well as jump jets, gain 15% less max range thanks to increased gravity.",
     "Icon": "uixSvgIcon_biome_PartialVacuum"
   },
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "dirt",
   "vfxNameModifier": "_mars",
-  "heatSinkMultiplier": 0.75,
-  "heatPerTurn": -12,
-  "visibilityMultiplier": 0.8,
+  "heatSinkMultiplier": 1.25,
+  "heatPerTurn": 12,
+  "visibilityMultiplier": 1.2,
   "stickyEffect": {
     "durationData": {
       "duration": -1,
@@ -32,7 +32,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "1.15",
+      "modValue": "0.85",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -61,7 +61,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "1.15",
+        "modValue": "0.85",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -89,7 +89,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "1.15",
+        "modValue": "0.85",
         "modType": "System.Single"
       },
       "nature": "Buff"

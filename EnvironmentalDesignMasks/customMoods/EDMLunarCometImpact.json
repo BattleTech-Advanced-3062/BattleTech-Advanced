@@ -4,7 +4,7 @@
   "designMask": "DesignMaskLunarImpact",
   "startMission": [
     {
-      "words": "Did you see the impact? Safely distant as predicted.\n\nThe dust it released is mostly ice so while visibility and targeting will be reduced, your heat sinks will work at near nominal efficiency.",
+      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! Did you see the impact? Safely distant as predicted.\n\nThe dust it released is mostly ice so while visibility and targeting will be reduced, your heat sinks will work at near nominal efficiency.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_SumireDefault",
       "emote": "Default",

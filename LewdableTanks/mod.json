@@ -1,7 +1,7 @@
 {
 	"Name": "LewdableTanks",
 	"Author": "Denadan",
-	"Website": "https://github.com/Denadan/LewdableTanks",
+	"Website": "https://github.com/BattletechModders/LewdableTanks",
 	"Enabled": true,
 	"Hidden": true,
 	"DependsOn": [
@@ -15,6 +15,7 @@
 	"Settings": {
 		"Recovery": "HpLeftConstant",
 		"LostVehicleAction": "ReturnParts",
+		"NoVehiclePartsTag": "NOSALVAGE",
 		"FixMechPartCost": true,
 		"AddWeaponToDescription": true,
 		"OmniTechTag": "omni_tank",
@@ -25,8 +26,14 @@
 		"RecoveryChanceConstantMod": -0.5,
 		"RecoveryChanceHPMod": 0.5,
 		"RecoveryChanceHPBase": -0.5,
-		"NoVehiclePartsTag": "NOSALVAGE",
 		"ArmorEffectOnHP": 0
 	},
-	"Manifest": []
+	"Manifest": [],
+	"Logs": {
+		"LewdableTanks.log": {
+			"Include": [
+				"LewdableTanks"
+			]
+		}
+	}
 }

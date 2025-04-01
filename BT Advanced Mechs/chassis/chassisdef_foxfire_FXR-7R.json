@@ -87,6 +87,10 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -118,6 +122,10 @@
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				}
 			],
