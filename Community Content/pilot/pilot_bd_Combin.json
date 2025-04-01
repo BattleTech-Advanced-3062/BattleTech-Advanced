@@ -1,0 +1,57 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Combin",
+		"Name": "Fire Priestess",
+		"FirstName": "Ardiente",
+		"LastName": "Casado",
+		"Callsign": "Fire Priestess",
+		"Gender": "Female",
+		"Faction": "AuriganRestoration",
+		"Age": "22",
+		"Details": "Born on some dusty semi-glassed by nukes hellhole of a planet in the Periphery, Ardiente was destined by Great Fire to be one of spiritual leaders for her tribe. Drastically decreased by Succession Wars, her planet population turns into groups of survivors, wandering dry badlands and ruins in search of spare parts for machines and hydroponics which sustained their lives. Ardiente's tribe managed to maintain - if barely - an old Firestarter. Piloted by Fire Priest, the one marked with eyes the color of smoldering coals, this ancient machine was used for scouting dangerous areas, hauling heavy cargo on its back, deterring possible aggressors and, occasionally, as a power source. \r\n\r\n But while one ramshackle light mech can be a force to reckon with for a forgotten Periphery world, it is hardly a threat to a pirate group in search of Star League relics. Unlike mercenary company in hunt for heads of said pirate group. The arrival of a second lance of mechs, while increasing damage to the tribe's settlement, actually saved most of the people and Ardiente herself. However, instead of running away the moment the pirates attention was drawn away from her already one-armed mech, young priestess stayed in the fight until the end, actively trying to help her unintentional saviors. Company commander, impressed by her bravery and endurance, agreed to take the remaining people of the tribe on the condition that she will assign a contract with the company. Ardiente did not know what 'contract' was, how to sign it and even did not have a proper surname to fill in, but was ready to fight side by side with warriors from the sky again if it meant safety for her people. \r\n\r\n Strange girl with eyes the color of smoldering coals never parts with her creepy decorated helmet. She claims that it allows her to speak with the predecessors and experience of Fire Priests of the past helps her in the fight. Looking at how she dances with flamers while exposing enemies to fire from other units, even sometimes coordinating barrages or just cheering allies up, one could believe that it is true. And looking closely at unnaturally light for an old “neurobucket” disguised as a demon's head, one could believe that there were some Star League relics on that hellhole planet. \r\n\r\n<b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Combin"
+	},
+	"BaseGunnery": "4",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "8",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_pro06_tough",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefSprintIncrease10",
+		"TraitDefHealthAddOne",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"AbilityDefT5Aa",
+		"TraitDefCalledShotImprove",
+		"TraitDefIndirectReduceTwo",
+		"TraitDefMinRangeReduce90",
+		"AbilityDefT8Aa"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_periphery",
+			"name_Combin",
+			"pilot_brave",
+			"pilot_reckless"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}
