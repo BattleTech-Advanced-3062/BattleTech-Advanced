@@ -187,6 +187,10 @@
 				"IncreaseBoundarySizeByPercentage": 0.4
 			},
 			{
+				"MapId": "mapGeneral_gridLock_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
 				"MapId": "mapGeneral_cragMire_vLow",
 				"ContractTypeName": "DefendBase",
 				"IncreaseBoundarySizeByPercentage": 0.3
