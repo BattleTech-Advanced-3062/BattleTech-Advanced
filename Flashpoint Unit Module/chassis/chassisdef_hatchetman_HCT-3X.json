@@ -15,7 +15,7 @@
 		"UIName": "Hatchetman",
 		"Id": "chassisdef_hatchetman_HCT-3X",
 		"Name": "Hatchetman",
-		"Details": "The Hatchetman -3X further indexes on the stock designs close combat role, adding more armor and replacing its AC10 for an array of SRMs, Lasers, and Anti-Personnel weapons. This is the ultimate melee brawler.",
+		"Details": "The Hatchetman -3X further builds on the stock designs close combat role, adding more armor and replacing its AC10 for an array of SRMs, Lasers, and Anti-Personnel weapons. This is the ultimate melee brawler.",
 		"Icon": "uixTxrIcon_hatchetman"
 	},
 	"MovementCapDefID": "movedef_hatchetman_HCT-3F",
@@ -25,7 +25,7 @@
 	"PrefabBase": "hatchetman",
 	"VariantName": "HCT-3X",
 	"StockRole": "Brawler",
-	"YangsThoughts": "Someone thought the Hatchetman couldn't kill well enough at arm's length and came up with the -3X. It's brimming with as many short range weapon systems as its well-armored chassis can take. This is truly death at point blank range, Boss. Just watch the heat on this one.",
+	"YangsThoughts": "Someone thought the Hatchetman couldn't kill well enough at knife range and came up with the -3X. It's brimming with as many short range weapon systems as its well-armored chassis can take. This is truly death at point blank range, Boss. Just watch the heat on this one.",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
