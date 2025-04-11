@@ -8,7 +8,7 @@
 		"UIName": "Cataphract",
 		"Id": "chassisdef_cataphract_CTF-4L",
 		"Name": "Cataphract",
-		"Details": "Newly deployed by the Capellan Confederation, the Cataphract -4L is intended to form the core of a Shadow Lance and act as the long range fire support element, though claims of the design being spotted in the Word of Blake cannot be discounted. Armed with a Gauss Rifle and an ER PPC, the -4L excels at this, but the inclusion of Stealth Armor and CASE protecting the Gauss Rifle increased its lethality and staying power. A pair of ER Medium Lasers round out the -4L's armament, keeping the Cataphract simple and deadly. The only complaint by some pilots regards the lack of Jump Jets, but their inclusion was deemed unncessary by the Stretegios.",
+		"Details": "Newly deployed by the Capellan Confederation, the Cataphract -4L is intended to form the core of a Shadow Lance and act as the long range fire support element.  Armed with a Gauss Rifle and an ER PPC, the -4L excels at this, and the inclusion of Stealth Armor and CASE protecting the Gauss Rifle have increased its lethality and staying power. A pair of ER Medium Lasers round out the -4L's armament, keeping the Cataphract simple and deadly.  Although a Capellan-exclusive top secret design, claims of the -4L being spotted in the Word of Blake cannot be discounted.  The only complaint by some pilots regards the lack of Jump Jets, but their inclusion was deemed unnecessary by the Capellan Strategios.",
 		"Icon": "uixTxrIcon_cataphract"
 	},
 	"MovementCapDefID": "movedef_cataphract_CTF-1X",
@@ -243,5 +243,5 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Armored Sniper",
-	"YangsThoughts": "Newly deployed by the Capellan Confederation, the Cataphract -4L is intended to form the core of a Shadow Lance and act as the long range fire support element, though claims of the design being spotted in the Word of Blake cannot be discounted. Armed with a Gauss Rifle and an ER PPC, the -4L excels at this, but the inclusion of Stealth Armor and CASE protecting the Gauss Rifle increased its lethality and staying power. A pair of ER Medium Lasers round out the -4L's armament, keeping the Cataphract simple and deadly. The only complaint by some pilots regards the lack of Jump Jets, but their inclusion was deemed unncessary by the Stretegios."
+	"YangsThoughts": "Newly deployed by the Capellan Confederation, the Cataphract -4L is intended to form the core of a Shadow Lance and act as the long range fire support element.  Armed with a Gauss Rifle and an ER PPC, the -4L excels at this, and the inclusion of Stealth Armor and CASE protecting the Gauss Rifle have increased its lethality and staying power. A pair of ER Medium Lasers round out the -4L's armament, keeping the Cataphract simple and deadly.  Although a Capellan-exclusive top secret design, claims of the -4L being spotted in the Word of Blake cannot be discounted.  The only complaint by some pilots regards the lack of Jump Jets, but their inclusion was deemed unnecessary by the Capellan Strategios."
 }
