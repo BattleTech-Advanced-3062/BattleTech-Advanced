@@ -1,0 +1,49 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Phoenyx",
+		"Name": "Phoenyx",
+		"FirstName": "David",
+		"LastName": "Bodimer",
+		"Callsign": "Phoenyx",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "42",
+		"Details": "Making contact with long lost colonies was not unusual for the ComStar Explorer Corps, but even they were surprised to discover a mostly functional Star League era base on an otherwise undeveloped and uninhabited world. Stranger still were the pair of brothers who had taken up residence in the complex. Whether they were the only survivors of whatever befell the facility, or merely stumbled upon it themselves, remains unknown. The brothers prefer not to elaborate. Offering information on the installation in exchange for a ride, the brothers took up the mercenary way of life upon reaching the inner sphere.\r\n\r\nThe elder brother, David, adopted the callsign Phoenyx - a reference to the mythical terran bird that is born again from its ashes when it dies. He has taken naturally to the cockpit and shows an uncanny familiarity with weapons systems and battlefield tactics. He is affable, if a bit taciturn, and has proven himself a reliable asset to the companies he joins.\r\n\r\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Phoenyx"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "5",
+	"BonusGuts": 0,
+	"BaseTactics": "3",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro02_david",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"AbilityDefG5a",
+		"TraitDefHealthAddOne",
+		"AbilityDefGu5"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_lostech",
+			"name_Phoenyx"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}
