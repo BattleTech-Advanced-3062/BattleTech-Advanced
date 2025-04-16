@@ -21,7 +21,7 @@
 		180,
 		270
 	],
-	"AmmoCategory": "Flamer",
+	"AmmoCategory": "OSSRM",
 	"StartingAmmoCapacity": 2,
 	"HeatGenerated": 4,
 	"Damage": 8,
@@ -65,6 +65,73 @@
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],
+	"Modes": [
+		{
+			"Id": "STD",
+			"UIName": "STD",
+			"isBaseMode": true
+		},
+		{
+			"Id": "TNDM",
+			"UIName": "Tandem",
+			"isBaseMode": false,
+			"Damage": -4,
+			"APDamage": 4,
+			"APCriticalChanceMultiplier": 0.015
+		},
+		{
+			"Id": "Inferno",
+			"UIName": "Inferno",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 2,
+						"ticksOnActivations": true,
+						"useActivationsOfTarget": true,
+						"ticksOnEndOfRound": false,
+						"ticksOnMovements": false,
+						"stackLimit": 1,
+						"clearedWhenAttacked": false
+					},
+					"targetingData": {
+						"effectTriggerType": "OnHit",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "NotSet",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "Effect_InfernoSRMHeat",
+						"Name": "Inferno Gel",
+						"Details": "This unit is coated with burning chemicals, generating 6 extra heat each turn.",
+						"Icon": "fire-zone"
+					},
+					"statisticData": {
+						"statName": "HeatSinkCapacity",
+						"operation": "Int_Subtract",
+						"modValue": "6",
+						"modType": "System.Int32"
+					},
+					"nature": "Debuff"
+				}
+			]
+		},
+		{
+			"Id": "Coal",
+			"UIName": "Coal",
+			"isBaseMode": false,
+			"DamagePerShot": -4,
+			"Instability": 3
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"component_type_stock",

@@ -34,7 +34,7 @@
 		360,
 		540
 	],
-	"AmmoCategory": "Flamer",
+	"AmmoCategory": "Cannonball",
 	"StartingAmmoCapacity": 1,
 	"HeatGenerated": 15,
 	"Damage": 180,
