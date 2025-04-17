@@ -1,0 +1,97 @@
+{
+	"Custom": {
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"default"
+		],
+		"BonusDescriptions": [
+			"Dissipation: 2",
+			"EndMoveHeat: -2"
+		]	
+	},
+    "DissipationCapacity" : 2,
+    "Description" : {
+        "Cost" : 1,
+        "Rarity" : 4,
+        "Purchasable" : false,
+		"Manufacturer": "Generic",
+		"Model": "Reserved Slots",
+        "UIName" : "S.C.M. Component (S)",
+        "Id" : "Gear_SCM_Linked",
+        "Name" : "S.C.M. Component (S)",
+        "Details" : "This is a piece of the Super-Cooled Myomer system.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+		{
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect_SCMVenting",
+                "Name": "Super-Cooled Myomer Venting",
+                "Details": "Sanctuary Heat Sinks vent 2 heat",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "-2",
+                "modType": "System.Int32",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+	],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
+

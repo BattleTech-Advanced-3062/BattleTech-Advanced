@@ -5530,6 +5530,12 @@
 			"Short": "Guided Artillery",
 			"Long": "Guided Artillery",
 			"Full": "Guided artillery ammunition gains a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+		},
+		{
+			"Bonus": "SCM",
+			"Short": "SCM",
+			"Long": "Super-Cooled Myomer",
+			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 2 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
 		}
 	]
 }
