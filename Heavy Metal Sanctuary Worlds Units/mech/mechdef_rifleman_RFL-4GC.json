@@ -26,7 +26,7 @@
 		"UIName": "Rifleman RFL-4GC",
 		"Id": "mechdef_rifleman_RFL-4GC",
 		"Name": "Rifleman",
-		"Details": "Developed during a war between the Jacobson Haven and the Dane Sacellum where the Sacellum had issues with its ammunition manufacturing, the -4GC is an exceedingly simple design. Armed with only two weapons, both of them Gamma Cannons, the -4GC can delete targets from the battlespace as fast as it can train the guns on them. 11 DHS and a brace of 6 Heat Negators keep the guns ice-cold in any circumstance. The -4GC performed so well that it was kept in production and eventually even found its way to the other Sanctuary World powers.",
+		"Details": "Developed during a war between the Jacobson Haven and the Dane Sacellum where the Sacellum had issues with its ammunition manufacturing, the -4GC is an exceedingly simple design. Armed with only two weapons, both of them Gamma Cannons, the -4GC can delete targets from the battlespace as fast as it can train the guns on them. Eleven DHS and a brace of six Heat Negators keep the guns ice-cold in any circumstance. The -4GC performed so well that it was kept in production and eventually even found its way to the other Sanctuary World powers.",
 		"Icon": "uixTxrIcon_rifleman"
 	},
 	"simGameMechPartCost": 670000,
