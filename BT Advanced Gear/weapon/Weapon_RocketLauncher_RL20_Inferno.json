@@ -36,7 +36,7 @@
 		330,
 		540
 	],
-	"AmmoCategory": "Flamer",
+	"AmmoCategory": "Rocket",
 	"StartingAmmoCapacity": 20,
 	"HeatGenerated": 20,
 	"Damage": 2,

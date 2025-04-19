@@ -37,7 +37,7 @@
 		420,
 		630
 	],
-	"AmmoCategory": "Flamer",
+	"AmmoCategory": "GyroJet",
 	"StartingAmmoCapacity": 10,
 	"HeatGenerated": 10,
 	"Damage": 10,

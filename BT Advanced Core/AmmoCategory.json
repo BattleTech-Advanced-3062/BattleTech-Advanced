@@ -1902,7 +1902,7 @@
 			"UIColorRef": "QualityD",
 			"FallbackUIColor": "QualityD",
 			"Icon": "MissileHardpointIcon",
-			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		},
 		{
 			"ID": 6136,
@@ -1916,12 +1916,82 @@
 			"UIColorRef": "QualityD",
 			"FallbackUIColor": "QualityD",
 			"Icon": "MissileHardpointIcon",
-			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		},
 		{
 			"ID": 6137,
 			"Name": "ThumperCopperhead",
 			"FriendlyName": "ThumperCopperhead",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC10"
+		},
+		{
+			"ID": 6138,
+			"Name": "Cannonball",
+			"FriendlyName": "Cannonball",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "BallisticHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+		},
+		{
+			"ID": 6139,
+			"Name": "GyroJet",
+			"FriendlyName": "GyroJet",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6140,
+			"Name": "OSNARC",
+			"FriendlyName": "OSNARC",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6141,
+			"Name": "OSSRM",
+			"FriendlyName": "OSSRM",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "QualityD",
+			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6142,
+			"Name": "OSLRM",
+			"FriendlyName": "OSLRM",
 			"IsBallistic": false,
 			"IsMissile": true,
 			"IsEnergy": false,
