@@ -91,6 +91,9 @@
 		"name_Turtrus": [
 			"AbilityDefTurtrusEnergy"
 		],
+		"name_Amid": [
+			"AbilityDefAmidSpeed"
+		],
 		"name_GrampaTex": [
 			"AbilityDefGrampaTex"
 		],
