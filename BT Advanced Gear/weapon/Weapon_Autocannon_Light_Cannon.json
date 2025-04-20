@@ -6,13 +6,15 @@
 			}
 		],
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 3,
+			"ExplosionDamagePerAmmo": 180,
 			"StabilityDamagePerAmmo": 3
 		},
 		"BonusDescriptions": [
+			"WpnAccuracy: -1",
 			"CannonShots: 15",
 			"CostPerShot: 500",
 			"WpnRecoil: 4",
+			"WeaponBoom: 180",
 			"IsCannon",
 			"WeaponAttachmentCompatible: Periphery FCS",
 			"WeaponAttachmentCompatible: Ammo Feed - Cannon"
@@ -43,7 +45,7 @@
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": 0,
+	"AccuracyModifier": 1,
 	"CriticalChanceMultiplier": 1.25,
 	"AOECapable": false,
 	"IndirectFireCapable": false,

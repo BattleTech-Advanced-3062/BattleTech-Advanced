@@ -10,9 +10,11 @@
 			"StabilityDamagePerAmmo": 5
 		},
 		"BonusDescriptions": [
+			"WpnAccuracy: -1",
 			"CannonShots: 10",
 			"CostPerShot: 700",
 			"WpnRecoil: 5",
+			"WeaponBoom: 240",
 			"IsCannon",
 			"WeaponAttachmentCompatible: Periphery FCS",
 			"WeaponAttachmentCompatible: Ammo Feed - Cannon"
@@ -36,14 +38,14 @@
 	],
 	"AmmoCategory": "Flamer",
 	"StartingAmmoCapacity": 1,
-	"HeatGenerated": 6,
+	"HeatGenerated": 18,
 	"Damage": 240,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": 0,
+	"AccuracyModifier": 1,
 	"CriticalChanceMultiplier": 1.25,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
