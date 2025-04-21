@@ -15,7 +15,7 @@
       "Fire": "true",
       "Landmines": "true",
       "MoveClamp": 0.5,
-      "AllowPartialMovement": false
+      "AllowPartialMovement": true
     },
     "MoveCostModPerBiome": {
       "DesignMaskBiomeMartianVacuum": 5,
