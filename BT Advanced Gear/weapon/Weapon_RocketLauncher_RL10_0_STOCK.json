@@ -11,7 +11,7 @@
 		},
 		"BonusDescriptions": [
 			"WpnAccuracy: -2",
-			"WeaponBoom: 40",
+			"WeaponBoom: 50",
 			"CostPerShot: 100",
 			"MissileHealth: 1",
 			"WeaponAttachmentCompatible: Ammo Feed - Rocket",
