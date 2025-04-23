@@ -15,7 +15,7 @@
 		"BonusDescriptions": [
 				"Airburst: 4, 100",
 				"AirburstRadius: 30",
-				"AirburstPenalty: 40%",
+				"AirburstPenalty: 40%, 30",
 				"Thunder",
 				"ThunderCripple",
 				"ThunderBurnReactionDestroy",
