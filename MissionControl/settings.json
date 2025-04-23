@@ -254,7 +254,7 @@
 			},
 			{
 				"MapId": "mapGeneral_highPlateaus_aDes",
-				"IncreaseBoundarySizeByPercentage": 0.4
+				"IncreaseBoundarySizeByPercentage": 0.5
 			},
 			{
 				"ContractTypeName": "AmbushConvoy",
