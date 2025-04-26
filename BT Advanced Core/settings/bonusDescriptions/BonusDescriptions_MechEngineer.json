@@ -4143,7 +4143,7 @@
 			"Bonus": "DXRHeatDebuff",
 			"Short": "DXR Debuff",
 			"Long": "Directed X-Ray Cannon Debuff",
-			"Full": "The Directed X-Ray Cannon, in addition to dealing respectable heat damage, also inflicts a lingering heat penalty that afflicts the target with extra heat during their next activation."
+			"Full": "The Directed X-Ray Cannon, in addition to dealing respectable heat damage, also inflicts a lingering heat penalty that afflicts the target with {0} extra heat during their next activation."
 		},
 		{
 			"Bonus": "DBACModes",
