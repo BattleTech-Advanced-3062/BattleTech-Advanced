@@ -15,6 +15,7 @@ Gear_Sanctuary_AP,Upgrade,0,10
 Gear_Sanctuary_ECM,Upgrade,0,10
 Gear_Sanctuary_Supercharger,Upgrade,0,10
 Weapon_DXR_DXR,Weapon,0,10
+Weapon_DXR_DXR_Super,Weapon,0,10
 Weapon_Flamer_Sanctuary,Weapon,0,10
 Weapon_Gamma_Gamma,Weapon,0,10
 Weapon_Lance_LargeLance,Weapon,0,10
@@ -60,3 +61,6 @@ mechdef_peregrine_PGR-1N,Mech,1,10
 mechdef_peregrine_PGR-2G,Mech,1,10
 mechdef_peregrine_PGR-2V,Mech,1,10
 mechdef_erinyes_TSP-H0,Mech,1,10
+mechdef_kinzhal_KZH-4D,Mech,1,10
+mechdef_kinzhal_KZH-4DD,Mech,1,10
+mechdef_kinzhal_KZH-4L,Mech,1,10
