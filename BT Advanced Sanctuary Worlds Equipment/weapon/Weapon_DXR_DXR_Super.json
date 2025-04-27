@@ -1,0 +1,167 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"BonusDescriptions": [
+			"DXRHeatDebuff: 12",
+			"WpnCrits: +50%",
+			"AntiBA: 300%",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+    "weaponCategoryID" : "Superweapon",
+    "Type" : "PPC",
+    "WeaponSubType" : "PPC",
+    "MinRange" : 0,
+    "MaxRange" : 720,
+    "RangeSplit" : [
+        180,
+        360,
+        540
+    ],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 70,
+    "Damage" : 80,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 80,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 0,
+	"ColorsTable": [
+		{
+		  "C": "#010eb9",
+		  "I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"TrooperSquadDamageModifier": 4,
+    "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
+    "Description" : {
+        "Cost" : 1500000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Sanctuary Electronics",
+        "Model" : "Superior Directed X-Ray Cannon",
+        "UIName" : "Super DXR (S)",
+        "Id" : "Weapon_DXR_DXR_Super",
+        "Name" : "Super DXR (S)",
+        "Details" : "The Directed X-Ray Cannon, or DXR, fires an extremely intense blast of X-rays at the target, bathing them in destructive radiation. The DXR is a staple weapon of the Sanctuary Worlds and finds use across the Sanctuary's battlefields. However, the Dane Sacellum decided to find a way to draw more strength out of the concept, leading them to the unimaginatively named Super DXR. The Super DXR resulted from taking the core components of almost four standard DXRs and fusing them together into a single weapon emitter. The Super DXR has tremendous effects on the target but is also prohibitively heavy and creates prodigious waste heat itself, necessitating the development of advanced cooling methods.",
+        "Icon" : "death-star"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "PPC",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 15,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+		{
+            "durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : true,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-DXR-Burn5",
+                "Name" : "LINGERING X-RAYS",
+                "Details" : "This unit gains [AMT] Heat on its next activation (this effect stacks with itself).",
+                "Icon" : "uixSvgIcon_statusOnFire"
+            },
+            "nature" : "Debuff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "statName": "EndMoveHeat",
+                "operation": "Int_Add",
+                "modValue": "12",
+                "modType": "System.Int32"
+            }
+        },
+		{
+			"durationData" : {
+                "duration" : 1,
+                "ticksOnActivations" : true,
+                "useActivationsOfTarget" : true,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+			"targetingData" : {
+                "effectTriggerType" : "OnHit",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "NotSet",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false,
+                "hideApplicationFloatie" : true
+            },
+			"effectType" : "VFXEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Inferno-VFX",
+                "Name" : "Inferno VFX",
+                "Details" : "Visual indicator of the Inferno effect",
+                "Icon" : "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature" : "Debuff",
+			"vfxData" : {
+				"vfxName" : "vfxPrfPrtl_weaponLRM_napalmStatus_B",
+				"attachToImpactPoint" : true,
+				"location" : -1,
+				"isAttached" : true,
+				"facesAttacker" : false,
+				"isOneShot" : false,
+				"duration" : -1.0		
+			}
+		}
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_very-long",
+			"SuperweaponFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

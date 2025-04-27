@@ -112,7 +112,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 13,
+      "InventorySlots": 14,
       "MaxArmor": 150,
       "MaxRearArmor": 75,
       "InternalStructure": 75
@@ -143,7 +143,7 @@
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 13,
+      "InventorySlots": 14,
       "MaxArmor": 150,
       "MaxRearArmor": 75,
       "InternalStructure": 75
