@@ -4,7 +4,7 @@
   "designMask": "DesignMaskMartianAfternoonRust",
   "startMission": [
     {
-      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! It may look as a dust storm but it's actually a rust storm. Visibility is reduced as you would expect. But the metallic particles will actually increase your sensor signature. I'll get the cleaning hoses ready, boss.",
+      "words": "It may look as a dust storm but it's actually a rust storm. Visibility is reduced as you would expect. But the metallic particles will actually increase your sensor signature. I'll get the cleaning hoses ready, boss.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_YangDefault",
       "emote": "Default",

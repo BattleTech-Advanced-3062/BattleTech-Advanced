@@ -1,12 +1,12 @@
 {
   "Description": {
     "Id": "DesignMaskUrbanNightFoggy",
-    "Name": "Topsy-Turvy Foggy Night",
-    "Details": "On a foggy night visibility is improved to 130% of normal and all units have -1 defense.",
+    "Name": "Foggy Night",
+    "Details": "On a foggy night visibility is reduced to 70% of normal and all units have +1 defense.",
     "Icon": "fog"
   },
-  "visibilityMultiplier": 1.3,
-	"targetabilityModifier": -1,
+  "visibilityMultiplier": 0.7,
+  "targetabilityModifier": 1,
 	"audioSwitchSurfaceType" : "dirt",
 	"audioSwitchRainingSurfaceType" : "mud"
 }

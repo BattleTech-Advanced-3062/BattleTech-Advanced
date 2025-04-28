@@ -4,7 +4,7 @@
   "designMask": "DesignMaskVerdantDayRainy",
   "startMission": [
     {
-      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! That rain will help with heatsinking, Commander. Light 'em up.",
+      "words": "That rain will help with heatsinking, Commander. Light 'em up.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_YangDefault",
       "emote": "Default",

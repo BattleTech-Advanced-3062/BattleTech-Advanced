@@ -1,11 +1,11 @@
 {
   "Description": {
     "Id": "DesignMaskJungleAfternoonMonsoon",
-    "Name": "Topsy-Turvy Jungle Monsoon",
-    "Details": "The pouring rain impairs heat sinks, causing an additional 12 heat per turn. All units gain -1 defense. Additionally, tropical biomes reduce a unit's Heat-sinking ability by 10%.",
+    "Name": "Jungle Monsoon",
+    "Details": "The pouring rain helps units sink an additional 12 heat per turn. All units gain +1 defense. Additionally, tropical biomes increase a unit's Heat-sinking ability by 10%.",
     "Icon": "raining"
   },
-  "heatSinkMultiplier" : 0.9,
-  "heatPerTurn": 12,
-  "targetabilityModifier": -1
+  "heatSinkMultiplier" : 1.10,
+  "heatPerTurn": -12,
+  "targetabilityModifier": 1
 }

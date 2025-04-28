@@ -1,10 +1,10 @@
 {
   "Description": {
     "Id": "DesignMaskJungleDayMisty",
-    "Name": "Topsy-Turvy Jungle Day",
-    "Details": "Tropical biomes reduce a unit's Heat-sinking ability by 10%.",
+    "Name": "Jungle Day",
+    "Details": "Tropical biomes increase a unit's Heat-sinking ability by 10%.",
     "Icon": "uixSvgIcon_biome_Tropical"
   },
-  "heatSinkMultiplier" : 0.9,
+  "heatSinkMultiplier" : 1.10,
   "hideInUI" : true
 }

@@ -1,11 +1,11 @@
 {
   "Description": {
     "Id": "DesignMaskLunarTremors",
-    "Name": "Topsy-Turvy Ground Tremors",
-    "Details": "Ground tremors have made the regolith more stable improving walk and sprint speeds. Units in a vacuum sink 135% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 30% less max range thanks to reduced gravity.",
+    "Name": "Ground Tremors",
+    "Details": "Ground tremors have made the regolith less stable reducing walk and sprint speeds. Units in a vacuum sink only 65% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 30% more max range thanks to reduced gravity.",
     "Icon": "uixSvgIcon_biome_Vacuum"
   },
-  "heatSinkMultiplier": 1.35,
+  "heatSinkMultiplier": 0.65,
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "mud",
   "stickyEffect": {
@@ -29,7 +29,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "0.7",
+      "modValue": "1.3",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -58,7 +58,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "0.7",
+        "modValue": "1.3",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -86,7 +86,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "0.7",
+        "modValue": "1.3",
         "modType": "System.Single"
       },
       "nature": "Buff"
@@ -112,7 +112,7 @@
       "statisticData": {
         "statName": "WalkSpeed",
         "operation": "Float_Multiply",
-        "modValue": "1.1",
+        "modValue": "0.9",
         "modType": "System.Single"
       },
       "nature": "Buff"
@@ -138,7 +138,7 @@
       "statisticData": {
         "statName": "CBTBE_RunMultiMod",
         "operation": "Float_Add",
-        "modValue": "0.1",
+        "modValue": "-0.1",
         "modType": "System.Single"
       },
       "nature": "Buff"

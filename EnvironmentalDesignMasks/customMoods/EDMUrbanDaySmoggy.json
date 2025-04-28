@@ -4,7 +4,7 @@
   "designMask": "DesignMaskUrbanDaySmoggy",
   "startMission": [
     {
-      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! This smog is heavy enough to mess with sensors as well as visuals. Keep your eyes peeled for ambushes, but remember the enemy is stuck in this soup as well.",
+      "words": "This smog is heavy enough to mess with sensors as well as visuals. Keep your eyes peeled for ambushes, but remember the enemy is stuck in this soup as well.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_DariusDefault",
       "emote": "Default",

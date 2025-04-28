@@ -1,15 +1,15 @@
 {
   "Description": {
     "Id": "DesignMaskArcticDayBlizzard",
-    "Name": "Topsy-Turvy Polar Blizzard",
-    "Details": "The blizzard decreases a unit's Heat-sinking ability by 20%, and also generates an additional 12 heat per turn. In the snow visibility and sensor range is improved to 140% of normal and all units have -2 defense. Units take 15% less stability damage due to being supported by the high winds.",
+    "Name": "Polar Blizzard",
+    "Details": "The blizzard increases unit's Heat-sinking ability by 20%, and also sinks an additional 12 heat per turn. In the snow visibility and sensor range is reduced to 60% of normal and all units have +2 defense. Units take 15% more stability damage from the high winds.",
     "Icon": "uixSvgIcon_biome_Polar"
   },
-  "heatSinkMultiplier": 0.8,
-  "signatureMultiplier": 1.4,
-  "visibilityMultiplier": 1.4,
-  "targetabilityModifier": -2,
-  "heatPerTurn": 12,
+  "heatSinkMultiplier": 1.2,
+  "signatureMultiplier": 0.6,
+  "visibilityMultiplier": 0.6,
+  "targetabilityModifier": 2,
+  "heatPerTurn": -12,
   "stickyEffect": {
     "durationData": {
       "duration": -1,
@@ -31,7 +31,7 @@
     "statisticData": {
 		"statName": "ReceivedInstabilityMultiplier",
 		"operation": "Float_Multiply",
-		"modValue": "0.85",
+		"modValue": "1.15",
 		"modType": "System.Single"
     },
     "nature": "Buff"

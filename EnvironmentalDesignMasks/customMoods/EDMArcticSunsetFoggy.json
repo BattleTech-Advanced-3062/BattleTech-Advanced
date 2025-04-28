@@ -4,7 +4,7 @@
   "designMask": "DesignMaskArcticSunsetFoggy",
   "startMission": [
     {
-      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! Visually identifying targets in the fog might be difficult, but your sensors should cut right through it.",
+      "words": "Visually identifying targets in the fog might be difficult, but your sensors should cut right through it.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_DariusDefault",
       "emote": "Default",

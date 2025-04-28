@@ -1,11 +1,11 @@
 {
   "Description": {
     "Id": "DesignMaskVerdantDayRainy",
-    "Name": "Topsy-Turvy Heavy Rain",
-    "Details": "Units sink 8 less heat per turn due to heavy rain.",
+    "Name": "Heavy Rain",
+    "Details": "Units sink an additional 8 heat per turn due to heavy rain.",
     "Icon": "raining"
   },
-  "heatPerTurn": 8,
+  "heatPerTurn": -8,
   "audioSwitchSurfaceType" : "dirt",
   "audioSwitchRainingSurfaceType" : "mud"
 }

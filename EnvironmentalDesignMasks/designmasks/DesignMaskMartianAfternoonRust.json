@@ -1,16 +1,16 @@
 {
   "Description": {
     "Id": "DesignMaskMartianAfternoonRust",
-    "Name": "Topsy-Turvy Martian Rust Storm",
-    "Details": "The dust storm improves visual range to 120% of normal. The particulates are metallic and as they accumulate will decrease sensor signatures. Faster movement gathers more grains effectively improving the benefits of evasion. Units in a partial vacuum sink 125% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 15% less max range thanks to improved gravity.",
+    "Name": "Martian Rust Storm",
+    "Details": "The dust storm reduces visual range to 80% of normal. The particulates are metallic and as they accumulate will amplify sensor signatures. Faster movement gathers more grains effectively limiting the benefits of evasion. Units in a partial vacuum sink only 75% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 15% more max range thanks to reduced gravity.",
     "Icon": "fog-martian"
   },
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "dirt",
   "vfxNameModifier": "_mars",
-  "heatSinkMultiplier": 1.25,
-  "visibilityMultiplier": 1.2,
-  "signatureMultiplier": 0.8,
+  "heatSinkMultiplier": 0.75,
+  "visibilityMultiplier": 0.8,
+  "signatureMultiplier": 1.2,
   "stickyEffect": {
     "durationData": {
       "duration": -1,
@@ -32,7 +32,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "0.85",
+      "modValue": "1.15",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -61,7 +61,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "0.85",
+        "modValue": "1.15",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -89,7 +89,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "0.85",
+        "modValue": "1.15",
         "modType": "System.Single"
       },
       "nature": "Buff"
@@ -115,7 +115,7 @@
       "statisticData": {
         "statName": "EvasivePipsGainedAdditional",
         "operation": "Int_Add",
-        "modValue": "1",
+        "modValue": "-1",
         "modType": "System.Int32"
       },
       "nature": "Buff"

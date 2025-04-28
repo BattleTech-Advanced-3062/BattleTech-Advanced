@@ -1,17 +1,17 @@
 {
   "Description": {
     "Id": "DesignMaskMartianAfternoonDusty",
-    "Name": "Topsy-Turvy Martian Dust Storm",
-    "Details": "The dust storm leaves units incredibly acute, reducing visual and sensor range to 140% of normal. All units have -2 defense. Units in a partial vacuum sink 125% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 15% less max range thanks to improved gravity.",
+    "Name": "Martian Dust Storm",
+    "Details": "The dust storm leaves units nearly blind, reducing visual and sensor range to 60% of normal. All units have +2 defense. Units in a partial vacuum sink only 75% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 15% more max range thanks to reduced gravity.",
     "Icon": "fog-martian"
   },
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "dirt",
   "vfxNameModifier": "_mars",
-  "heatSinkMultiplier": 1.25,
-  "targetabilityModifier": -2,
-  "visibilityMultiplier": 1.4,
-  "signatureMultiplier": 1.4,
+  "heatSinkMultiplier": 0.75,
+  "targetabilityModifier": 2,
+  "visibilityMultiplier": 0.6,
+  "signatureMultiplier": 0.6,
   "stickyEffect": {
     "durationData": {
       "duration": -1,
@@ -33,7 +33,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "0.85",
+      "modValue": "1.15",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -62,7 +62,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "0.85",
+        "modValue": "1.15",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -90,7 +90,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "0.85",
+        "modValue": "1.15",
         "modType": "System.Single"
       },
       "nature": "Buff"
