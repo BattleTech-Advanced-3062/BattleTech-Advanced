@@ -9,12 +9,12 @@
 			}
 		],
 		"BonusDescriptions": [
-			"OHDamage: 20%",
+			"OHDamage: 50%",
 			"AreaOfEffect: 45",
 			"AreaOfEffectDmg: 10",
 			"AreaOfEffectHeatDmg: 10",
 			"AntiBA: 100%",
-			"PipsIgnored: 3",
+			"PipsIgnored: 4",
 			"AlwaysStartsFire"
 		]
 	},
@@ -33,7 +33,7 @@
 	"HeatGenerated": 8,
 	"Damage": 10,
 	"EvasiveDamageMultiplier": 0,
-	"EvasivePipsIgnored": 3,
+	"EvasivePipsIgnored": 4,
 	"DamageVariance": 0,
 	"HeatDamage": 20,
 	"AccuracyModifier": 0,
@@ -44,7 +44,7 @@
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 0,
 	"Instability": 0,
-	"OverheatedDamageMultiplier": 1.2,
+	"OverheatedDamageMultiplier": 1.5,
 	"FireOnSuccessHit": true,
 	"CantHitUnaffecedByPathing": true,
 	"FireTerrainChance": 1,
