@@ -7,10 +7,10 @@
 			"StabilityDamage": 100
 		},
 		"BonusDescriptions": [
-				"RunSpeed: +0.4",
-				"HeatGenerated: +15%",
-				"MASCWeight: 50%"
-			],
+			"RunSpeed: +0.4",
+			"HeatGenerated: +15%",
+			"MASCWeight: 50%"
+		],
 		"Weights": {
 			"StructureFactor": 1.5
 		}

@@ -1,12 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskLunarMagnetic",
-    "Name": "Topsy-Turvy Magnetic Deposits",
-    "Details": "Subsurface deposits generate a sizable magnetic field which weakens this area against charged particles. Both sensor and targeting systems perform worse with more interference. Units in a vacuum sink 135% of their normal Heat. Ballstic and missile weapons, as well as jump jets, gain 30% less max range thanks to reduced gravity.",
+    "Name": "Magnetic Deposits",
+    "Details": "Subsurface deposits generate a sizable magnetic field which protects this area against charged particles. Both sensor and targeting systems perform better with less interference. Units in a vacuum sink only 65% of their normal Heat. Ballistic and missile weapons, as well as jump jets, gain 30% more max range thanks to reduced gravity.",
     "Icon": "uixSvgIcon_biome_Vacuum"
   },
-  "heatSinkMultiplier": 1.35,
-  "targetabilityModifier": 2,
+  "signatureMultiplier": 1.2,
+  "targetabilityModifier": -2,
+  "heatSinkMultiplier": 0.65,
   "audioSwitchSurfaceType": "dirt",
   "audioSwitchRainingSurfaceType": "mud",
   "stickyEffect": {
@@ -30,7 +31,7 @@
     "statisticData": {
       "statName": "MaxRange",
       "operation": "Float_Multiply",
-      "modValue": "0.7",
+      "modValue": "1.3",
       "modType": "System.Single",
       "targetCollection": "Weapon",
       "targetWeaponCategory": "Ballistic"
@@ -59,7 +60,7 @@
       "statisticData": {
         "statName": "MaxRange",
         "operation": "Float_Multiply",
-        "modValue": "0.7",
+        "modValue": "1.3",
         "modType": "System.Single",
         "targetCollection": "Weapon",
         "targetWeaponCategory": "Missile"
@@ -87,7 +88,7 @@
       "statisticData": {
         "statName": "JumpDistanceMultiplier",
         "operation": "Float_Multiply",
-        "modValue": "0.7",
+        "modValue": "1.3",
         "modType": "System.Single"
       },
       "nature": "Buff"

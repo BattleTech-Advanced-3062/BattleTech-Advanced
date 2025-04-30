@@ -1,13 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskAridNightFoggy",
-    "Name": "Topsy-Turvy Foggy Desert Night",
-    "Details": "Units in the Badlands sink 115% of their normal Heat. On a foggy night visibility is improved to 130% of normal and all units have -1 defense.",
+    "Name": "Foggy Desert Night",
+    "Details": "Units in the Badlands sink only 85% of their normal Heat. On a foggy night visibility is reduced to 70% of normal and all units have +1 defense.",
     "Icon": "fog-arid"
   },
-  "heatSinkMultiplier": 1.15,
-  "visibilityMultiplier": 1.3,
-  "targetabilityModifier": -1,
+  "heatSinkMultiplier": 0.85,
+  "visibilityMultiplier": 0.7,
+  "targetabilityModifier": 1,
 	"audioSwitchSurfaceType" : "sand",
 	"audioSwitchRainingSurfaceType" : "mud"
 }

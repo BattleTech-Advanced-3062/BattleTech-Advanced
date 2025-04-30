@@ -20,7 +20,8 @@
 		"Locals",
 		"Mercenaries",
 		"SarnaSupremacy",
-		"AuriganPirates"
+		"AuriganPirates",
+		"ShenSeTian"
 	],
 	"Presence": 0.1,
 	"DefaultCombatLeaderCastDefId": "castDef_Ives",

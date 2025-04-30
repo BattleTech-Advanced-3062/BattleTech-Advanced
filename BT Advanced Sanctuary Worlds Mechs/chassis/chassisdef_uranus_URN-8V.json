@@ -8,7 +8,7 @@
 		"UIName": "Uranus",
 		"Id": "chassisdef_uranus_URN-8V",
 		"Name": "Uranus",
-		"Details": "Just before initial contact with the Inner Sphere the Sanctuary Alliance realized they had a gap in their military, that of a line breaker heavy 'Mech, a design meant to smash through enemy forces and create openings for other more specialized Sanctuary designs to exploit and so the Alliance set to work. The Uranus was the result, a heavy 'Mech with a focus on firepower instead of speed or durability. The URN-8V is a twist on the standard -8S. Armed with an Scattergun/20 and two Large Modal Lasers, the -8V's claim to fame is its Ferro-Vanadium armor that boosts its survivability despite the heavy armaments. A fairly standard 260-rated XL engine provides power while an ECM Suite and SHIELD provide extra protection.",
+		"Details": "Just before initial contact with the Inner Sphere the Sanctuary Alliance realized they had a gap in their military, that of a line breaker heavy 'Mech, a design meant to smash through enemy forces and create openings for other more specialized Sanctuary designs to exploit and so the Alliance set to work. The Uranus was the result, a heavy 'Mech with a focus on firepower instead of speed or durability. The URN-8V is a twist on the standard -8S. Armed with an Scattergun/20 and two Large Modal Lasers, the -8V's claim to fame is its Ferro-Vanadium armor that boosts its survivability despite the heavy armaments. A fairly standard 260-rated XL engine provides power while an ECM Suite provides extra protection.",
 		"Icon": "uixTxrIcon_uranus"
 	},
 	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -218,7 +218,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Linebreaker",
-	"YangsThoughts": "Just before initial contact with the Inner Sphere the Sanctuary Alliance realized they had a gap in their military, that of a line breaker heavy 'Mech, a design meant to smash through enemy forces and create openings for other more specialized Sanctuary designs to exploit and so the Alliance set to work. The Uranus was the result, a heavy 'Mech with a focus on firepower instead of speed or durability. The URN-8V is a twist on the standard -8S. Armed with an Scattergun/20 and two Large Modal Lasers, the -8V's claim to fame is its Ferro-Vanadium armor that boosts its survivability despite the heavy armaments. A fairly standard 260-rated XL engine provides power while an ECM Suite and SHIELD provide extra protection.",
+	"YangsThoughts": "Just before initial contact with the Inner Sphere the Sanctuary Alliance realized they had a gap in their military, that of a line breaker heavy 'Mech, a design meant to smash through enemy forces and create openings for other more specialized Sanctuary designs to exploit and so the Alliance set to work. The Uranus was the result, a heavy 'Mech with a focus on firepower instead of speed or durability. The URN-8V is a twist on the standard -8S. Armed with an Scattergun/20 and two Large Modal Lasers, the -8V's claim to fame is its Ferro-Vanadium armor that boosts its survivability despite the heavy armaments. A fairly standard 260-rated XL engine provides power while an ECM Suite provides provide extra protection.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

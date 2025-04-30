@@ -284,6 +284,7 @@
 				"AESLeg",
 				"ProtoTSM",
 				"OmniGyro",
+				"SCM",
 				"ProtoMech"
 			]
 		},
@@ -294,6 +295,7 @@
 				"AESArm",
 				"AESLeg",
 				"ProtoTSM",
+				"SCM",
 				"TSM"
 			]
 		},
@@ -306,6 +308,7 @@
 				"Supercharger",
 				"ProtoTSM",
 				"MASCOmni",
+				"SCM",
 				"OmniGyro"
 			]
 		},
@@ -317,6 +320,7 @@
 				"AESLeg",
 				"Supercharger",
 				"ProtoTSM",
+				"SCM",
 				"MASC"
 			]
 		},
@@ -327,6 +331,7 @@
 				"MASC",
 				"MASCOmni",
 				"TarComp",
+				"SCM",
 				"ProtoTSM"
 			]
 		},
@@ -337,7 +342,20 @@
 				"MASC",
 				"MASCOmni",
 				"TarComp",
+				"SCM",
 				"ProtoTSM"
+			]
+		},
+		{
+			"Tag": "SCM",
+			"IncompatibleTags": [
+				"MASC",
+				"AESArm",
+				"AESLeg",
+				"TSM",
+				"ProtoTSM",
+				"OmniGyro",
+				"ProtoMech"
 			]
 		},
 		{

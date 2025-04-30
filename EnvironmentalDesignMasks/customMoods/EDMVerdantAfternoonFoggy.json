@@ -4,7 +4,7 @@
   "designMask": "DesignMaskVerdantAfternoonFoggy",
   "startMission": [
     {
-      "words": "TOPSY TURVY WEATHER, THIS IS ALL REVERSED! HAPPY APRIL FOOLS! The rain should help your heatsinks keep up, Commander, but don't expect any miracles from a light shower like this.",
+      "words": "The rain should help your heatsinks keep up, Commander, but don't expect any miracles from a light shower like this.",
       "wordsColor": {"r": 1, "g": 1, "b": 1},
       "selectedCastDefId": "castDef_YangDefault",
       "emote": "Default",

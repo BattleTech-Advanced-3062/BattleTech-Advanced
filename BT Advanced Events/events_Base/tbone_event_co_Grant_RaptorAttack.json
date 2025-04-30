@@ -108,7 +108,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Accept the contract.",
-						"Details": "\"Everyone saddle up; looks like we're going bounty hunting! By the way, [[SCN_MW,{SCN_MW.Callsign}]]...what are they even doing here?\", [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] asks.\r\n\r\n\r\n\"Their latest scheme seems to involve some kind of Salinization Facility on the planet surface. It seems they're trying to convert the entire planet into salt so they can sell it an organization known only as \"R.T\"... Rogue Traders maybe? It's an ambitious scheme, but I guess they got so caught up in whether they <i>could</i>, they never bothered to ask if they <i>should</i>.\" [[SCN_MW,{SCN_MW.Callsign}]] replies.\"\r\n\r\n\r\n<b>A unique contract named Clever Girl has been added to the Command Center.</b>",
+						"Details": "\"Everyone saddle up; looks like we're going bounty hunting! By the way, [[SCN_MW,{SCN_MW.Callsign}]]...what are they even doing here?\", [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]] asks.\r\n\r\n\r\n\"Their latest scheme seems to involve some kind of Salinization Facility on the planet surface. It seems they're trying to convert the entire planet into salt so they can sell it to an organization known only as \"R.T.\"... Rogue Traders maybe? It's an ambitious scheme, but I guess they got so caught up in whether they <i>could</i>, they never bothered to ask if they <i>should</i>.\" [[SCN_MW,{SCN_MW.Callsign}]] replies.\"\r\n\r\n\r\n<b>A unique contract named Clever Girl has been added to the Command Center.</b>",
 						"Icon": null
 					},
 					"Weight": 100,

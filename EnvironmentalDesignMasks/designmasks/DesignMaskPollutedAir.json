@@ -1,13 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskPollutedAir",
-    "Name": "Topsy-Turvy Polluted Atmosphere",
-    "Details": "Heavy pollution has improved operations, improving visual and sensor range to 130% of normal. All units have -1 defense.",
+    "Name": "Polluted Atmosphere",
+    "Details": "Heavy pollution has impacted operations, reducing visual and sensor range to 70% of normal. All units have +1 defense.",
     "Icon": "fog"
   },
-  "targetabilityModifier": -1,
-  "visibilityMultiplier": 1.3,
-  "signatureMultiplier": 1.3,
+  "targetabilityModifier": 1,
+  "visibilityMultiplier": 0.7,
+  "signatureMultiplier": 0.7,
 	"audioSwitchSurfaceType" : "dirt",
 	"audioSwitchRainingSurfaceType" : "mud"
 }

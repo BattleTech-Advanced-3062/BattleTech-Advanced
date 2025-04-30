@@ -9,13 +9,13 @@
 			}
 		],
 		"BonusDescriptions": [
-				"FCS"
-			],
+			"FCS"
+		],
 		"Flags": [
 			"default",
-				"not_broken",
-				"no_salvage",
-				"autorepair"
+			"not_broken",
+			"no_salvage",
+			"autorepair"
 		]
 	},
 	"Description": {
@@ -41,7 +41,35 @@
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
-	"statusEffects": [],
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TankCockpitEject",
+				"Name": "No Ejection",
+				"Details": "This unit is a vehicle, it lacks an ejection system, thus preventing pilot ejections.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"statisticData": {
+				"statName": "CanEject",
+				"operation": "Set",
+				"modValue": "false",
+				"modType": "System.Boolean"
+			},
+			"nature": "Buff"
+		}
+	],
 	"ComponentTags": {
 		"items": [
 			"TanksOnly",

@@ -76,7 +76,7 @@
 			"Id": "Stab",
 			"UIName": "Stab",
 			"isBaseMode": false,
-			"DamagePerShot": -55,
+			"DamagePerShot": -50,
 			"Instability" : 35
 		}
 	],

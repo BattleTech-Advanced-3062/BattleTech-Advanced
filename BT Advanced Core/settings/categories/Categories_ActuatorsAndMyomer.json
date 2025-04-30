@@ -73,6 +73,20 @@
 			}
 		},
 		{
+			"Name": "SCM",
+			"displayName": "Super-Cooled Myomer",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "6",
+				"Sorter": 1000
+			}
+		},
+		{
 			"Name": "MASCOmni",
 			"displayName": "MASC",
 			"BaseLimits": [

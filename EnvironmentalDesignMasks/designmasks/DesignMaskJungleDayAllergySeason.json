@@ -1,13 +1,13 @@
 {
   "Description": {
     "Id": "DesignMaskJungleDayAllergySeason",
-    "Name": "Topsy-Turvy Allergy Season",
-    "Details": "Clouds of pollen clarify and enhance everything, improve sensor and visual range to 130% of normal. All units gain -2 defense and take 5% less damage from all sources. Additionally, tropical biomes reduce a unit's Heat-sinking ability by 10%.",
+    "Name": "Allergy Season",
+    "Details": "Clouds of pollen obscure everything, reducing sensor and visual range to 70% of normal. All units gain +2 defense and take 5% more damage from all sources. Additionally, tropical biomes increase a unit's Heat-sinking ability by 10%.",
     "Icon": "uixSvgIcon_biome_Tropical"
   },
-  "heatSinkMultiplier" : 0.9,
-  "targetabilityModifier": -2,
-  "visibilityMultiplier": 1.3,
-  "signatureMultiplier": 1.3,
-  "allDamageTakenMultiplier": 0.95
+  "heatSinkMultiplier" : 1.10,
+  "targetabilityModifier": 2,
+  "visibilityMultiplier": 0.7,
+  "signatureMultiplier": 0.7,
+  "allDamageTakenMultiplier": 1.05
 }

@@ -1,14 +1,14 @@
 {
   "Description": {
     "Id": "DesignMaskAridDustStorm",
-    "Name": "Topsy-Turvy Dust Storm",
-    "Details": "Sensor range and visibility is improved to 140% of normal, and all units gain -2 defense due to poor visibility. Units take 20% less stability damage due to being supported by strong winds.",
+    "Name": "Dust Storm",
+    "Details": "Sensor range and visibility is reduced to 60% of normal, and all units gain +2 defense due to poor visibility. Units take 20% more stability damage due to strong winds.",
     "Icon": "raining-martian"
   },
-  "targetabilityModifier": -2,
-  "heatSinkMultiplier": 1.15,
-  "visibilityMultiplier": 1.4,
-  "signatureMultiplier": 1.4,
+  "targetabilityModifier": 2,
+  "heatSinkMultiplier": 0.85,
+  "visibilityMultiplier": 0.6,
+  "signatureMultiplier": 0.6,
   "stickyEffect": {
     "durationData": {
       "duration": -1,
@@ -30,7 +30,7 @@
     "statisticData": {
 		"statName": "ReceivedInstabilityMultiplier",
 		"operation": "Float_Multiply",
-		"modValue": "0.8",
+		"modValue": "1.2",
 		"modType": "System.Single"
     },
     "nature": "Buff"

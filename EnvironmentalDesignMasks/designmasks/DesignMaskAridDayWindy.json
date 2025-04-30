@@ -1,11 +1,11 @@
 {
   "Description": {
     "Id": "DesignMaskAridDayWindy",
-    "Name": "Topsy-Turvy Windy Desert Day",
-    "Details": "Units in the Desert sink 115% of their normal Heat. In heavy winds units take 10% less stability damage and the scatter on all weapons with scatter (such as artillery) is decreased by 15%.",
+    "Name": "Windy Desert Day",
+    "Details": "Units in the Desert sink only 85% of their normal Heat. In heavy winds units take 10% more stability damage and the scatter on all weapons with scatter (such as artillery) is increased by 15%.",
     "Icon": "uixSvgIcon_biome_Heated"
   },
-  "heatSinkMultiplier": 1.15,
+  "heatSinkMultiplier": 0.85,
   "audioSwitchSurfaceType" : "sand",
   "audioSwitchRainingSurfaceType" : "mud",
   "stickyEffect": {
@@ -29,7 +29,7 @@
     "statisticData": {
      "statName": "CAC_MinMissRadius_Mod",
 	 "operation": "Float_Multiply",
-	 "modValue": "0.85",
+	 "modValue": "1.15",
 	 "modType": "System.Single",
      "targetCollection": "Weapon"
     },
@@ -57,7 +57,7 @@
       "statisticData": {
         "statName": "CAC_MaxMissRadius_Mod",
 		"operation": "Float_Multiply",
-		"modValue": "0.85",
+		"modValue": "1.15",
 		"modType": "System.Single",
 		"targetCollection": "Weapon"
       },
@@ -84,7 +84,7 @@
 		"statisticData": {
 			"statName": "ReceivedInstabilityMultiplier",
 			"operation": "Float_Multiply",
-			"modValue": "0.9",
+			"modValue": "1.1",
 			"modType": "System.Single"
 		},
 		"nature": "Buff"
