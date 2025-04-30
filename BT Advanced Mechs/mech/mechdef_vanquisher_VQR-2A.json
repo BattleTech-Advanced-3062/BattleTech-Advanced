@@ -5,6 +5,7 @@
 			"unit_assault",
 			"unit_release",
 			"unit_rarity_6",
+			"Ignore_SelfKnockdown",
 			"unit_ready",
 			"unit_lance_tank",
 			"unit_role_brawler",

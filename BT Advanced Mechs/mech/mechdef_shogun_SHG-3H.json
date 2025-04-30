@@ -1,8 +1,10 @@
-{
+
+			"Ignore_SelfKnockdown",{
 	"MechTags": {
 		"items": [
 			"unit_generic",
 			"unit_bracket_high",
+			"Ignore_SelfKnockdown",
 			"unit_mech",
 			"unit_assault",
 			"unit_indirectFire",
