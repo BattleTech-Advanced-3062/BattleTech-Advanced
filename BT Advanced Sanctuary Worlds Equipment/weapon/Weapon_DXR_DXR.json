@@ -6,11 +6,11 @@
 			}
 		],
 		"BonusDescriptions": [
-				"DXRHeatDebuff",
-				"WpnCrits: +25%",
-				"AntiBA: 100%",
-				"WeaponAttachmentCompatible: Plasma FCS"
-			]
+			"DXRHeatDebuff: 6",
+			"WpnCrits: +25%",
+			"AntiBA: 100%",
+			"WeaponAttachmentCompatible: Plasma FCS"
+		]
 	},
     "Category" : "Energy",
     "Type" : "PPC",

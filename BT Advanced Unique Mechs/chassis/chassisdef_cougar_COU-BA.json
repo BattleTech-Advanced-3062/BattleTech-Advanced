@@ -138,7 +138,7 @@
 		"UIName": "Blood Adder",
 		"Id": "chassisdef_cougar_COU-BA",
 		"Name": "Blood Adder",
-		"Details": "The Blood Adder mounts an ATM 9 in each arm, supported by a Heavy Machine Gun in each side torso. Fitted with only the standard ten Double Heat Sinks, the Blood Adder carrys four tons of ATM reloads and one and a half tons of HMG ammo. A head mounted Anti-Missile System with a single ton of reloads helps to defend it against missile attacks.",
+		"Details": "The Blood Adder mounts an ATM 9 in each arm, supported by a Heavy Machine Gun in each side torso. Fitted with only the standard ten Double Heat Sinks, the Blood Adder carries four tons of ATM reloads and one and a half tons of HMG ammo. A head mounted Anti-Missile System with a single ton of reloads helps to defend it against missile attacks.",
 		"Icon": "uixTxrIcon_cougar"
 	},
 	"MovementCapDefID": "movedef_cougar",
@@ -332,7 +332,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "After the Refusal War with Clan Wolf, Falcon Khan Marthe Pryde decided to upgrade the 'Mechs her Clan fielded as they rebuilt. The design that resulted was the Cougar, based on the earlier Adder. Though the two 'Mechs are visually similar and share the same weight, the Falcon Cougar is slower and better armed. The Jade Falcon scientists continued to closely mimic the Adder in the Cougar's weapon systems. The primary configuration uses a pair of LRM-10s and Large Pulse Lasers for a combination of direct and indirect fire support.",
+	"YangsThoughts": "The Blood Adder mounts an ATM 9 in each arm, supported by a Heavy Machine Gun in each side torso. Fitted with only the standard ten Double Heat Sinks, the Blood Adder carries four tons of ATM reloads and one and a half tons of HMG ammo. A head mounted Anti-Missile System with a single ton of reloads helps to defend it against missile attacks.",
 	"CustomParts": {
 		"CustomParts": []
 	}

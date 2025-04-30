@@ -21,7 +21,7 @@
 		180,
 		270
 	],
-	"AmmoCategory": "Flamer",
+	"AmmoCategory": "OSSRM",
 	"StartingAmmoCapacity": 2,
 	"HeatGenerated": 4,
 	"Damage": 8,

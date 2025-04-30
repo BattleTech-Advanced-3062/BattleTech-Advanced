@@ -21,14 +21,14 @@
 			"AreaOfEffect: 30",
 			"AreaOfEffectDmg: 1",
 			"ScatterRadius: 30, 90",
-			"Swarm: 180",
+			"Swarm: 120",
 			"WeaponAttachmentCompatible: Superweapon FCS"
 		],
 		"InternalAmmoTonnage": {
             "InternalAmmoTons": 0.25
         },
 		"AmmoCost": {
-			"PerUnitCost": 100
+			"PerUnitCost": 150
 		}
 	},
 	"weaponCategoryID": "Superweapon",
@@ -66,7 +66,7 @@
 	"MinMissRadius": 30,
 	"MaxMissRadius": 90,
 	"TrooperSquadDamageModifier": 1.5,
-	"SpreadRange": 180,
+	"SpreadRange": 120,
 	"FireTerrainChance": 1,
 	"FireDurationWithoutForest": 2,
 	"FireTerrainStrength": 2,

@@ -164,8 +164,8 @@
 				]
 			},
 			"ClanFireMandrill": {
-				"FactionReplaceChance": 0.3,
-				"FactionMCAdditionalLanceReplaceChance": 0.2,
+				"FactionReplaceChance": 1.0,
+				"FactionMCAdditionalLanceReplaceChance": 1.0,
 				"AlternateOpforWeights": [
 					{
 						"FactionName": "KindraaSainze",

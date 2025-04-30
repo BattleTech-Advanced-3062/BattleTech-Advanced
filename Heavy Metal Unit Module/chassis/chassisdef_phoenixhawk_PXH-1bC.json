@@ -12,9 +12,9 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Phoenix Hawk",
+		"UIName": "Royal Phoenix Hawk",
 		"Id": "chassisdef_phoenixhawk_PXH-1bC",
-		"Name": "Phoenix Hawk",
+		"Name": "Royal Phoenix Hawk",
 		"Details": "Made by ComStar for the Battle of Tukayyid out of damaged Phoenix Hawk chassis that ComStar had in storage, the PHX-1bC proved its worth on the battlefield as a premier scouting platform against the Clans. Armed with the PHX-1b's ER Large Laser and pair of Medium Lasers, the -1bC takes a twist on normal Phoenix Hawks and adds a Narc Launcher for accurate ally targeting and a Flamer for starting fires and denying the Clans cover. A Guardian ECM is carried over from the -1b. The -1bC performed well enough that ComStar kept it in service post-Tukayyid.",
 		"Icon": "uixTxrIcon_phoenixhawk"
 	},

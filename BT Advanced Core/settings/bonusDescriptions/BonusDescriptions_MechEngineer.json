@@ -2955,7 +2955,7 @@
 			"Bonus": "AllyMissileDamageTaken",
 			"Short": "{0} AllyMiss.Dmg.Tkn",
 			"Long": "{0} Ally Missile Damage taken",
-			"Full": "{0} reduced Damage taken from Missile Attacks for the Lance"
+			"Full": "{0} reduced Damage taken from Missile Attacks for player units"
 		},
 		{
 			"Bonus": "MeleeDamageTaken",
@@ -3069,7 +3069,7 @@
 			"Bonus": "AllyMissileDefense",
 			"Short": "{0} Ally Mssl.Def",
 			"Long": "{0} Ally Missile Defense",
-			"Full": "{0} Defense against being hit by Missile Attacks for the Lance"
+			"Full": "{0} Defense against being hit by Missile Attacks for player units"
 		},
 		{
 			"Bonus": "Initiative",
@@ -3367,14 +3367,14 @@
 		},
 		{
 			"Bonus": "LanceIndirectAcc",
-			"Short": "{0} Lance Indirect.Acc",
-			"Long": "{0} Lance Indirect Acc",
+			"Short": "{0} Player Unit Indirect.Acc",
+			"Long": "{0} Player Unit Indirect Acc",
 			"Full": "{0} Player Unit Accuracy with Indirect Fire"
 		},
 		{
 			"Bonus": "LanceDirectAcc",
-			"Short": "{0} Lance Direct.Acc",
-			"Long": "{0} Lance Direct Acc",
+			"Short": "{0} Player Unit Direct.Acc",
+			"Long": "{0} Player Unit Direct Acc",
 			"Full": "{0} Player Unit Accuracy with Direct Fire"
 		},
 		{
@@ -3553,8 +3553,8 @@
 		},
 		{
 			"Bonus": "LanceResolve",
-			"Short": "{0} Lance Resolve",
-			"Long": "{0} Increased Lance Resolve",
+			"Short": "{0} Player Unit Resolve",
+			"Long": "{0} Increased Player Unit Resolve",
 			"Full": "{0} increased Resolve gain for all Player Units"
 		},
 		{
@@ -3565,8 +3565,8 @@
 		},
 		{
 			"Bonus": "LanceAcc",
-			"Short": "{0} Lance Accuracy",
-			"Long": "{0} Increased Lance Accuracy",
+			"Short": "{0} Player Unit Accuracy",
+			"Long": "{0} Increased Player Unit Accuracy",
 			"Full": "{0} Accuracy for all Player Units"
 		},
 		{
@@ -3613,8 +3613,8 @@
 		},
 		{
 			"Bonus": "LanceSight2",
-			"Short": "{0} Lance Sight",
-			"Long": "{0} Lance Sight",
+			"Short": "{0} Player Unit Sight",
+			"Long": "{0} Player Unit Sight",
 			"Full": "{0} Player Unit Base Sight Distance"
 		},
 		{
@@ -4143,7 +4143,7 @@
 			"Bonus": "DXRHeatDebuff",
 			"Short": "DXR Debuff",
 			"Long": "Directed X-Ray Cannon Debuff",
-			"Full": "The Directed X-Ray Cannon, in addition to dealing respectable heat damage, also inflicts a lingering heat penalty that afflicts the target with extra heat during their next activation."
+			"Full": "The Directed X-Ray Cannon, in addition to dealing respectable heat damage, also inflicts a lingering heat penalty that afflicts the target with {0} extra heat during their next activation."
 		},
 		{
 			"Bonus": "DBACModes",
@@ -5530,6 +5530,12 @@
 			"Short": "Guided Artillery",
 			"Long": "Guided Artillery",
 			"Full": "Guided artillery ammunition gains a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+		},
+		{
+			"Bonus": "SCM",
+			"Short": "SCM",
+			"Long": "Super-Cooled Myomer",
+			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 2 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
 		}
 	]
 }

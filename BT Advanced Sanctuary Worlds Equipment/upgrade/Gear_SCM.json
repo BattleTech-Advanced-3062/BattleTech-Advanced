@@ -1,0 +1,89 @@
+{
+	"Custom": {
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "3 * [[Chassis.Tonnage]] / 15",
+				"CBillCost": "2500 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "SCM"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "LeftTorso",
+					"ComponentDefType": "HeatSink"
+				},
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "LeftArm",
+					"ComponentDefType": "HeatSink"
+				},
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "LeftLeg",
+					"ComponentDefType": "HeatSink"
+				},
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "RightTorso",
+					"ComponentDefType": "HeatSink"
+				},
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "RightArm",
+					"ComponentDefType": "HeatSink"
+				},
+				{
+					"ComponentDefId": "Gear_SCM_Linked",
+					"Location": "RightLeg",
+					"ComponentDefType": "HeatSink"
+				}
+			]
+		},
+		"BonusDescriptions": [
+			"LinkedSlots: 6",
+			"SCM"
+		]
+	},
+	"Description": {
+		"Cost": 1000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Sanctuary Engineering",
+		"Model": "Sanctuary Myomer",
+		"UIName": "S.C.M. (S)",
+		"Id": "Gear_SCM",
+		"Name": "Super-Cooled Myomer (S)",
+		"Details": "The Sanctuary Worlds pursued a very different technological path than the Inner Sphere or the Clans. In their endless experimentation and development, they came across a way to integrate heat sinking technology into a BattleMech's myomer systems. This invention came to be known as Super-Cooled Myomer (SCM) and was put into limited use by the Dane Sacellum to help maintain the heating levels on several of their more heat-intensive BattleMech designs. While SCM is very effective at cooling a 'Mech's weapons systems, it is also quite bulky, taking a good amount of internal space to operate, making it somewhat more of a niche option for engineers.",
+		"Icon": "uixSvgIcon_equipment_Heatsink"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

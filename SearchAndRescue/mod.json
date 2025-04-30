@@ -19,7 +19,18 @@
 		"FriendlyTerritoryRecoveryMult": 1.0,
 		"InjureOnEjectChance": 0,
 		"InjureIgnoreBonusHealth": false,
-		"AlwaysRecoverContractIDs": [],
+		"AlwaysRecoverContractIDs": [
+			"DuoDuel_GameworldDuoAssault",
+			"DuoDuel_GameworldDuoHeavy",
+			"DuoDuel_GameworldDuoLight",
+			"DuoDuel_GameworldDuoMedium",
+			"DuoDuel_GameworldDuoUltralight",
+			"SoloDuel_GameworldSoloAssault",
+			"SoloDuel_GameworldSoloHeavy",
+			"SoloDuel_GameworldSoloLight",
+			"SoloDuel_GameworldSoloMedium",
+			"SoloDuel_GameworldSoloUltralight"
+		],
 		"RecoveryContractIDs": [
 			"Rescue_SAR_IntelligenceAgent_Hard",
 			"Rescue_SAR_IntelligenceAgent_Med",

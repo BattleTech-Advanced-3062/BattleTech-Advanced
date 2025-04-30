@@ -5,7 +5,7 @@
 		},
 		"BonusDescriptions": [
 			"PipsIgnored: 3",
-			"AntiBA: 75%",
+			"AntiBA: 50%",
 			"AlwaysStartsFire"
 		]
 	},
@@ -27,7 +27,7 @@
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 3,
 	"DamageVariance": 0,
-	"HeatDamage": 15,
+	"HeatDamage": 12,
 	"AccuracyModifier": 0,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
@@ -40,7 +40,7 @@
 	"FireOnSuccessHit": true,
 	"CantHitUnaffecedByPathing": true,
 	"FireTerrainChance": 1,
-	"TrooperSquadDamageModifier": 1.75,
+	"TrooperSquadDamageModifier": 1.5,
 	"WeaponEffectID": "WeaponEffect-Weapon_Flamer",
 	"Description": {
 		"Cost": 20000,

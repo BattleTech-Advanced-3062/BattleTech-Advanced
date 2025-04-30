@@ -21,7 +21,7 @@
 	"internalDmgStatName": "InjureOnStructDmg",
 	"internalDmgInjuryLimit": 1,
 	"internalDmgLvlReq": 20,
-	"timeHealsAllWounds": true,
+	"timeHealsAllWounds": false,
 	"missionKillSeverityThreshold": 4,
 	"reInjureWeightAppliesCurrentContract": false,
 	"reInjureLocWeight": 11,

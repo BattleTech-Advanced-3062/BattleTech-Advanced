@@ -9,13 +9,25 @@
 	],
 	"DLL": "MechEngineer.dll",
 	"DLLEntryPoint": "MechEngineer.Control.Start",
-	"ConflictsWith": ["CustomSlots", "HandHeld", "OnePointArmorStep", "Pansar"],
-	"CustomResourceTypes": ["MEBonusDescriptions", "MEStatusEffects"],
-	
+	"ConflictsWith": [
+		"CustomSlots",
+		"HandHeld",
+		"OnePointArmorStep",
+		"Pansar"
+	],
+	"CustomResourceTypes": [
+		"MEBonusDescriptions",
+		"MEStatusEffects"
+	],
 	"LogSettings": {
-		"Enabled" : true
+		"Enabled": true
 	},
-	
-	"Manifest": [
-	]
+	"Manifest": [],
+	"Logs": {
+		"MechEngineer.log": {
+			"Include": [
+				"MechEngineer"
+			]
+		}
+	}
 }

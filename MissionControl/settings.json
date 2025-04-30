@@ -148,7 +148,7 @@
 			},
 			{
 				"MapId": "mapGeneral_lostWorld_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.7
+				"IncreaseBoundarySizeByPercentage": 0.8
 			},
 			{
 				"MapId": "mapGeneral_Interchange_aDes",
@@ -184,6 +184,10 @@
 			},
 			{
 				"MapId": "mapGeneral_cityCenter_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapGeneral_gridLock_uTech",
 				"IncreaseBoundarySizeByPercentage": 0.4
 			},
 			{
@@ -250,7 +254,7 @@
 			},
 			{
 				"MapId": "mapGeneral_highPlateaus_aDes",
-				"IncreaseBoundarySizeByPercentage": 0.4
+				"IncreaseBoundarySizeByPercentage": 0.5
 			},
 			{
 				"ContractTypeName": "AmbushConvoy",

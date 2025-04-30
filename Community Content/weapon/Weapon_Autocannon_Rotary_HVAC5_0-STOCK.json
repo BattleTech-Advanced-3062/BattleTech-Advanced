@@ -13,8 +13,8 @@
 			"WeaponJAMMultiple3Stage: 20%, 30%, 35%",
 			"VariableBurstCount: 6",
 			"NoFireInMelee",
-			"AreaOfEffect: 25",
-			"AreaOfEffectDmg: 60",
+			"AreaOfEffect: 60",
+			"AreaOfEffectDmg: 25",
 			"WeaponAttachmentCompatible: Autocannon FCS"
 		]
 	},
@@ -46,8 +46,8 @@
 	"AttackRecoil": 1,
 	"Instability": 13,
 	"AOECapable": true,
-	"AOERange": 25,
-	"AOEDamage": 60,
+	"AOERange": 60,
+	"AOEDamage": 25,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 420000,

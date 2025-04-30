@@ -10,9 +10,9 @@
 			"AlwaysStartsFire"
 		],
 		"Flags": [
-			"not_broken"
-		],
-		"Lootable": "Weapon_FlamerHeavy_Flamer_0-STOCK"
+			"not_broken",
+			"no_salvage"
+		]
 	},
 	"Category": "AntiPersonnel",
 	"Type": "Flamer",
