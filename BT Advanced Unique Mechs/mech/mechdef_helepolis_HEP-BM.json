@@ -8,6 +8,7 @@
 			"unit_role_sniper",
 			"unit_gladiator",
 			"unit_rarity_1",
+			"Ignore_SelfKnockdown",
 			"SolarisVIIMercLeague",
 			"ai_heat_normal",
 			"ai_dfa_high",

@@ -23,7 +23,8 @@
         "DFADamageBonus: +30%",
         "DFAAcc: +3",
         "DFASelfStabDamage: 50%",
-		"DFASelfDamage: 50%"
+		"DFASelfDamage: 50%",
+		"KnockdownImmunity"
       ],
     "Flags": [
         "ignore_shutdown",
