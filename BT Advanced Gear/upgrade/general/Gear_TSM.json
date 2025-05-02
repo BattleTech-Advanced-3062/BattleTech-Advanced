@@ -1,13 +1,18 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "TSM"
-		},
+		"Category": [
+			{
+				"CategoryID": "TSM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
-				"not_broken",
-				"no_salvage",
-				"autorepair",
-				"ignore_damage"
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
 		],
 		"BonusDescriptions": [
 			"HeatGenerated: +45%",

@@ -147,6 +147,16 @@
 			]
 		},
 		{
+			"CategoryID": "Myomer",
+			"Defaults": [
+				{
+					"Location": "CenterTorso",
+					"DefID": "emod_myomer_standard",
+					"Type": "Upgrade"
+				}
+			]
+		},
+		{
 			"CategoryID": "Cooling",
 			"Defaults": [
 				{

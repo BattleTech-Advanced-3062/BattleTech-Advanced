@@ -154,6 +154,26 @@
 			}
 		},
 		{
+			"Name": "Myomer",
+			"DisplayName": "Myomer",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopLeft",
+				"MechConfiguration": {},
+				"InventorySorter": "1",
+				"Sorter": 1,
+				"Flags": [
+					"ignore_damage",
+					"no_salvage"
+				]
+			}
+		},
+		{
 			"Name": "Cooling",
 			"DisplayName": "Cooling System",
 			"BaseLimits": [
@@ -163,7 +183,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"CustomWidget": "TopLeft",
+				"CustomWidget": "TopRight",
 				"MechConfiguration": {},
 				"InventorySorter": "2",
 				"Sorter": 2,
@@ -259,8 +279,9 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "2",
-				"Sorter": 2
+				"CustomWidget": "TopRight",
+				"InventorySorter": "3",
+				"Sorter": 3
 			}
 		},
 		{
