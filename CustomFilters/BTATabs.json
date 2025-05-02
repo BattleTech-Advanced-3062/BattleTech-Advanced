@@ -687,49 +687,8 @@
 						"TSM",
 						"ProtoTSM",
 						"SCM",
-						"MASC"
-					],
-					"NotCategories": [
-						"Quirk",
-						"notused"
-					]
-				}
-			},
-			{
-				"Icon": "uixSvgIcon_equipment_ActuatorLeg",
-				"Tag": "",
-				"Tooltip": "Show Leg Upgrades",
-				"Filter": {
-					"ComponentTypes": [
-						"Upgrade"
-					],
-					"Categories": [
-						"LegHip",
-						"LegUpperActuator",
-						"LegLowerActuator",
-						"LegFootActuator"
-					],
-					"NotCategories": [
-						"notused"
-					]
-				}
-			},
-			{
-				"Icon": "uixSvgIcon_equipment_ActuatorArm",
-				"Tag": "",
-				"Tooltip": "Show Arm Upgrades",
-				"Filter": {
-					"ComponentTypes": [
-						"Upgrade"
-					],
-					"Categories": [
-						"ArmShoulder",
-						"ArmUpperActuator",
-						"ArmLowerActuator",
-						"ArmHandActuator",
-						"OmniLowerActuator",
-						"OmniHandActuator",
-						"MeleeActuator"
+						"MASC",
+						"Myomer"
 					],
 					"NotCategories": [
 						"Quirk",
@@ -756,6 +715,7 @@
 				"CASE2",
 				"ModularArmor",
 				"Avionics",
+				"LandingGear",
 				"TankStuff",
 				"BAGear",
 				"PartialWing",

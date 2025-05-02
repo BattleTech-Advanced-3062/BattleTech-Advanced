@@ -141,6 +141,20 @@
 				"InventorySorter": "5",
 				"Sorter": 1000
 			}
+		},
+		{
+			"Name": "Myomer",
+			"displayName": "Myomer System",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 1000
+			}
 		}
 	]
 }
