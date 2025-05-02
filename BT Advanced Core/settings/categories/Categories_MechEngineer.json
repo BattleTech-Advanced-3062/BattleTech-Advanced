@@ -165,8 +165,8 @@
 			"DefaultCustoms": {
 				"CustomWidget": "TopLeft",
 				"MechConfiguration": {},
-				"InventorySorter": "1",
-				"Sorter": 1,
+				"InventorySorter": "2",
+				"Sorter": 2,
 				"Flags": [
 					"ignore_damage",
 					"no_salvage"
