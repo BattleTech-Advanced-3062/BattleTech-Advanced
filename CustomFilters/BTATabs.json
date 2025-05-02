@@ -544,10 +544,7 @@
 				"C3i",
 				"NullSig",
 				"CLPS",
-				"TSM",
-				"ProtoTSM",
 				"Supercharger",
-				"MASC",
 				"Airdrop",
 				"Strafe",
 				"Misc",
@@ -560,6 +557,12 @@
 				"TankStuff",
 				"BAGear",
 				"BlueShield",
+				"BACombatShield",
+				"WeaponAttachment",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"CommsGear",
+				"LandingGear",
 				"notused"
 			]
 		},
@@ -665,6 +668,26 @@
 					],
 					"Categories": [
 						"Gyro"
+					],
+					"NotCategories": [
+						"Quirk",
+						"notused"
+					]
+				}
+			},
+			{
+				"Icon": "muscular-torso",
+				"Tag": "",
+				"Tooltip": "Show Myomer Upgrades",
+				"Filter": {
+					"ComponentTypes": [
+						"Upgrade"
+					],
+					"Categories": [
+						"TSM",
+						"ProtoTSM",
+						"SCM",
+						"MASC"
 					],
 					"NotCategories": [
 						"Quirk",
@@ -814,27 +837,6 @@
 				}
 			},
 			{
-				"Icon": "offroad-racer",
-				"Tag": "",
-				"Tooltip": "Show Movement and Myomer Upgrades",
-				"Filter": {
-					"ComponentTypes": [
-						"Upgrade"
-					],
-					"Categories": [
-						"TSM",
-						"ProtoTSM",
-						"SCM",
-						"Supercharger",
-						"MASC"
-					],
-					"NotCategories": [
-						"Quirk",
-						"notused"
-					]
-				}
-			},
-			{
 				"Icon": "WeaponAttachment",
 				"Tag": "",
 				"Tooltip": "Show Weapon Attachments",
@@ -922,6 +924,7 @@
 					],
 					"Categories": [
 						"Misc",
+						"Supercharger",
 						"CombatShield",
 						"BACombatShield",
 						"Handhold",

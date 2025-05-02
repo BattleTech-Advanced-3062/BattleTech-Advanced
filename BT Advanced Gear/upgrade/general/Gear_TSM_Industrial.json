@@ -36,7 +36,7 @@
 		"Id": "Gear_TSM_Industrial",
 		"Name": "T.S.M. Industrial",
 		"Details": "Industrial TSM is the version of TSM that was created after the original experiments with it in the 3030s. It increases the physical attack damage of the carrying mech by 50% while having no other effects on the combat capability of the design in any way. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
-		"Icon": "offroad-racer"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
