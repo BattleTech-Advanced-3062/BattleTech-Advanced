@@ -758,6 +758,8 @@
 				"Avionics",
 				"TankStuff",
 				"BAGear",
+				"PartialWing",
+				"CommsGear",
 				"notused"
 			]
 		},
@@ -924,6 +926,7 @@
 					],
 					"Categories": [
 						"Misc",
+						"Cargo",
 						"Supercharger",
 						"CombatShield",
 						"BACombatShield",
