@@ -4,20 +4,20 @@
 			"CategoryID": "ProtoTSM"
 		},
 		"Flags": [
-				"not_broken",
-				"no_salvage",
-				"autorepair",
-				"ignore_damage"
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
 		],
 		"BonusDescriptions": [
-				"HeatGenerated: +35%",
-				"PunchDamageBonus: +50%",
-				"KickDamageBonus: +30%",
-				"PhysWeapDamageBonus: +30%",
-				"Dynamic: 5"
-			],
+			"HeatGenerated: +35%",
+			"PunchDamageBonus: +50%",
+			"KickDamageBonus: +30%",
+			"PhysWeapDamageBonus: +30%",
+			"Dynamic: 6"
+		],
 		"DynamicSlots": {
-			"ReservedSlots": 5,
+			"ReservedSlots": 6,
 			"ShowIcon": false,
 			"NameText": "Proto-TSM",
 			"BonusAText": "Dynamic Slot",
@@ -47,7 +47,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

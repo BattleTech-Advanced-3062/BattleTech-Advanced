@@ -9,10 +9,17 @@
 			"StabilityDamage": 100
 		},
 		"BonusDescriptions": [
-				"RunSpeed: +0.3",
-				"HeatGenerated: +10%",
-				"MASCWeight: 40%"
-			],
+			"RunSpeed: +0.3",
+			"HeatGenerated: +10%",
+			"MASCWeight: 40%"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 2,
+			"ShowIcon": false,
+			"NameText": "M.A.S.C. (C)",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
 		"Weights": {
 			"StructureFactor": 1.4
 		}
@@ -35,9 +42,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 2,
+	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

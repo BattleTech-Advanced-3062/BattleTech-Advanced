@@ -21,10 +21,10 @@
 			"PhysWeapDamageBonus: +30%",
 			"WalkSpeed: +10%",
 			"RunSpeed: +0.1",
-			"Dynamic: 5"
+			"Dynamic: 6"
 		],
 		"DynamicSlots": {
-			"ReservedSlots": 5,
+			"ReservedSlots": 6,
 			"ShowIcon": false,
 			"NameText": "TSM",
 			"BonusAText": "Dynamic Slot",
@@ -54,7 +54,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

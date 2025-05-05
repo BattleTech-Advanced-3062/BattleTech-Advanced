@@ -13,10 +13,10 @@
 			"PunchDamageBonus: +50%",
 			"KickDamageBonus: +30%",
 			"PhysWeapDamageBonus: +30%",
-			"Dynamic: 11"
+			"Dynamic: 12"
 		],
 		"DynamicSlots": {
-			"ReservedSlots": 11,
+			"ReservedSlots": 12,
 			"ShowIcon": false,
 			"NameText": "Industrial TSM",
 			"BonusAText": "Dynamic Slot",
@@ -46,7 +46,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
