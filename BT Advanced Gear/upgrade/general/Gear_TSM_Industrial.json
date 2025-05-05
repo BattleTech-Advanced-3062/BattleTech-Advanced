@@ -1,8 +1,13 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "ProtoTSM"
-		},
+		"Category": [
+			{
+				"CategoryID": "ProtoTSM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
 			"not_broken",
 			"no_salvage",

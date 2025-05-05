@@ -9,6 +9,9 @@
 		"Category": [
 			{
 				"CategoryID": "SCM"
+			},
+			{
+				"CategoryID": "Myomer"
 			}
 		],
 		"Flags": [

@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "MASCOmni"
+			},
+			{
+				"CategoryID": "Myomer"
 			}
 		],
 		"ComponentExplosion": {

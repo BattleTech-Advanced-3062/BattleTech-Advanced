@@ -1,8 +1,13 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "TSMOmni"
-		},
+		"Category": [
+			{
+				"CategoryID": "TSMOmni"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
 			"not_broken",
 			"no_salvage",
