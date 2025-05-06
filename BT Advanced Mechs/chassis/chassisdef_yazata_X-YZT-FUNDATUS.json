@@ -103,7 +103,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 18,
 			"MaxArmor": 255,
 			"MaxRearArmor": 120,
 			"InternalStructure": 135
@@ -112,7 +112,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 20,
+			"InventorySlots": 22,
 			"MaxArmor": 330,
 			"MaxRearArmor": 150,
 			"InternalStructure": 195
@@ -138,7 +138,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 18,
 			"MaxArmor": 255,
 			"MaxRearArmor": 120,
 			"InternalStructure": 135
