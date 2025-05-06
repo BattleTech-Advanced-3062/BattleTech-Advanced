@@ -169,7 +169,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 120,
 			"MaxRearArmor": 40,
 			"InternalStructure": 80
