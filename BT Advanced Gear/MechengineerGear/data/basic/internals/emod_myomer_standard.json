@@ -19,7 +19,7 @@
 		"Id": "emod_myomer_standard",
 		"Name": "Standard Myomer",
 		"Details": "Myomer is an artificial analog of biological muscles with a greater strength to weight ratio. They are engaged with electrical current and its strength depends on the amount of fibers activated, not the current provided. In a way, myomer is the reason BattleMechs are the supreme war machines they are; the myomer is an extremely efficient and load-bearing form of locomotion, but cannot be used in a wheeled, tracked, or airborne platform due to the nature of its operation. As such, even though BattleMechs present much greater surface area that must be armored, and much more structure to be carried, myomer still allows them to bear more weapons and armor than any other form of armored fighting vehicle.",
-		"Icon": "uixSvgIcon_action_end"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",

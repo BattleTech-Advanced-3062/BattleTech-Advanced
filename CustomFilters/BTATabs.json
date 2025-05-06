@@ -640,6 +640,27 @@
 				}
 			},
 			{
+				"Tag": "",
+				"Icon": "fire-shield",
+				"Tooltip": "Show thermal equipment",
+				"Filter": {
+					"ComponentTypes": [
+						"HeatSink"
+					],
+					"Categories": [
+						"ThermalGear"
+					],
+					"NotCategories": [
+						"EnginePart",
+						"Cooling",
+						"Special",
+						"EngineHeatBlock",
+						"HeatSink",
+						"notused"
+					]
+				}
+			},
+			{
 				"Icon": "vibrating-shield",
 				"Tag": "",
 				"Tooltip": "Show Armor",

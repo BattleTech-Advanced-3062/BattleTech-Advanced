@@ -187,6 +187,16 @@
 			]
 		},
 		{
+			"CategoryID": "ThermalGear",
+			"Defaults": [
+				{
+					"Location": "CenterTorso",
+					"DefID": "emod_thermal_standard",
+					"Type": "HeatSink"
+				}
+			]
+		},
+		{
 			"CategoryID": "EngineHeatBlock",
 			"Defaults": [
 				{

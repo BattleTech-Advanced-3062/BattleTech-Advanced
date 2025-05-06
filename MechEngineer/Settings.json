@@ -878,7 +878,7 @@
 			"Enabled": true,
             "Label" : "Cooling",
             "ShortLabel" : "C",
-            "Slots" : 2
+            "Slots" : 3
         }
 	},
 	"OrderedStatusEffects": {

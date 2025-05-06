@@ -285,6 +285,21 @@
 			}
 		},
 		{
+			"Name": "ThermalGear",
+			"DisplayName": "Thermal Gear",
+			"BaseLimits": [
+				{
+					"Max": 1,
+					"Min": 1
+				}
+			],
+			"DefaultCustoms": {
+				"CustomWidget": "TopRight",
+				"InventorySorter": "4",
+				"Sorter": 4
+			}
+		},
+		{
 			"Name": "EngineCore",
 			"DisplayName": "Engine Core",
 			"BaseLimits": [
