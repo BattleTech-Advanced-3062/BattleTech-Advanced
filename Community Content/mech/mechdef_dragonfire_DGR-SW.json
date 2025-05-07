@@ -428,7 +428,7 @@
 			"TargetComponentGUID":"target_Cannon_2"
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
