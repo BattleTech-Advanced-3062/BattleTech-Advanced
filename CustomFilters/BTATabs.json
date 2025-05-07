@@ -703,7 +703,7 @@
 				"Tooltip": "Myomer",
 				"Filter": {
 					"ComponentTypes": [
-						"Upgrades"
+						"Upgrade"
 					],
 					"Categories": [
 						"TSM",
