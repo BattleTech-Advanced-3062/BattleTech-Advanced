@@ -490,7 +490,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Bulk-Bank",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

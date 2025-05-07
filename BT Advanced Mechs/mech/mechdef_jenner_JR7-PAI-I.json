@@ -74,7 +74,7 @@
 		"UIName": "Jenner JR7-PAI-I",
 		"Id": "mechdef_jenner_JR7-PAI-I",
 		"Name": "Jenner",
-		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II, differ only in the setup of their heat sinking.  The PAI-II having 2 prototype Freezers installed in lieu of 2 of the standard heat sinks of the PAI-I.  Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL20s. The chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
+		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II, differ only in the setup of their heat sinking.  The PAI-II having 2 prototype Freezers installed in lieu of 2 of the standard heat sinks of the PAI-I.  Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL15s. The chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
 		"Icon": "uixTxrIcon_jenner"
 	},
 	"simGameMechPartCost": 400000,
@@ -92,64 +92,64 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 50,
+			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 50,
+			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 66,
+			"CurrentArmor": 80,
 			"CurrentRearArmor": 40,
 			"CurrentInternalStructure": 40,
-			"AssignedArmor": 66,
+			"AssignedArmor": 80,
 			"AssignedRearArmor": 40
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 90,
-			"CurrentRearArmor": 50,
+			"CurrentArmor": 110,
+			"CurrentRearArmor": 51,
 			"CurrentInternalStructure": 55,
-			"AssignedArmor": 90,
-			"AssignedRearArmor": 50
+			"AssignedArmor": 110,
+			"AssignedRearArmor": 51
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 66,
+			"CurrentArmor": 80,
 			"CurrentRearArmor": 40,
 			"CurrentInternalStructure": 40,
-			"AssignedArmor": 66,
+			"AssignedArmor": 80,
 			"AssignedRearArmor": 40
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 50,
+			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 30,
-			"AssignedArmor": 50,
+			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 65,
+			"CurrentArmor": 75,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 40,
-			"AssignedArmor": 65,
+			"AssignedArmor": 75,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 65,
+			"CurrentArmor": 75,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 40,
-			"AssignedArmor": 65,
+			"AssignedArmor": 75,
 			"AssignedRearArmor": -1
 		}
 	],
@@ -462,7 +462,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_RocketLauncher_RL20_Inferno",
+			"ComponentDefID": "Weapon_RocketLauncher_RL15_Inferno",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -473,7 +473,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_RocketLauncher_RL20_Inferno",
+			"ComponentDefID": "Weapon_RocketLauncher_RL15_Inferno",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,

@@ -378,7 +378,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "Head",
 			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Sniper_Cannon",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",

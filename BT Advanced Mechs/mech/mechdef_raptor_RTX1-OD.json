@@ -299,7 +299,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_BAP",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",

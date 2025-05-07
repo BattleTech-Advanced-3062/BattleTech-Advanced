@@ -390,7 +390,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Coolant_Pod_x6",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

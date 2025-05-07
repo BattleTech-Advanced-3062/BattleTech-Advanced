@@ -399,7 +399,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_Sanctuary_ECM",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",

@@ -8,7 +8,7 @@
 		"UIName": "Dragon",
 		"Id": "chassisdef_dragon_DRG-5PA",
 		"Name": "Dragon",
-		"Details": "The Dragon 5PA is a a Periphery take on the Grand Dragon. By keeping the original speed of the Dragon, together with periphery level XLs, Endo, and Light Plating, the designers were able to cram two revolver style rifles into it's right arm, giving it a heck of a punch. It's center torso rocket launchers exploit holes made by the rifles, and 3 medium lasers round out it's firepower.",
+		"Details": "The Dragon 5PA is a a Periphery take on the Grand Dragon. By keeping the original speed of the Dragon, together with periphery level XLs, Endo, and Light Plating, the designers were able to cram two revolver style rifles into it's right arm, giving it a heck of a punch. Its center torso rocket launchers exploit holes made by the rifles, and 3 medium lasers round out it's firepower.",
 		"Icon": "uixTxrIcon_dragon"
 	},
 	"MovementCapDefID": "movedef_dragon_DRG-1N",
@@ -95,6 +95,10 @@
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
@@ -219,7 +223,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Brawler",
-	"YangsThoughts": "The Dragon 5PA is a a Periphery take on the Grand Dragon. By keeping the original speed of the Dragon, together with periphery level XLs, Endo, and Light Plating, the designers were able to cram two revolver style rifles into it's right arm, giving it a heck of a punch. It's center torso rocket launchers exploit holes made by the rifles, and 3 medium lasers round out it's firepower.",
+	"YangsThoughts": "The Dragon 5PA is a a Periphery take on the Grand Dragon. By keeping the original speed of the Dragon, together with periphery level XLs, Endo, and Light Plating, the designers were able to cram two revolver style rifles into it's right arm, giving it a heck of a punch. Its center torso rocket launchers exploit holes made by the rifles, and 3 medium lasers round out it's firepower.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
