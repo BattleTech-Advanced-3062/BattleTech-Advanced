@@ -233,7 +233,7 @@
 			"DamageLevel": "Functional",
 			"GUID": null,
 			"HardpointSlot": -1,
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"SimGameUID": "",
 			"hasPrefabName": false,
 			"prefabName": null

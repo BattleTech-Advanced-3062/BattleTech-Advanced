@@ -446,7 +446,7 @@
 			"hasPrefabName": false
 		},		
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_TSM",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
