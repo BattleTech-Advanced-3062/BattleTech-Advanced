@@ -379,8 +379,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Coolant_Pod",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Coolant_Pod_x2",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
@@ -425,17 +425,6 @@
 		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Coolant_Pod",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
