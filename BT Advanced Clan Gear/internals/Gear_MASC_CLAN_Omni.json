@@ -24,7 +24,7 @@
 		],
 		"DynamicSlots": {
 			"ReservedSlots": 2,
-			"ShowIcon": false,
+			"ShowIcon": true,
 			"NameText": "M.A.S.C. (C)",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "

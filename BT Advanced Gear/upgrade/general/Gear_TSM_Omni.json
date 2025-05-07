@@ -25,7 +25,7 @@
 		],
 		"DynamicSlots": {
 			"ReservedSlots": 6,
-			"ShowIcon": false,
+			"ShowIcon": true,
 			"NameText": "TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "

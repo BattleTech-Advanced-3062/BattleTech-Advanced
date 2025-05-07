@@ -22,7 +22,7 @@
 		],
 		"DynamicSlots": {
 			"ReservedSlots": 12,
-			"ShowIcon": false,
+			"ShowIcon": true,
 			"NameText": "Industrial TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "

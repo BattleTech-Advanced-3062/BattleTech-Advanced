@@ -23,7 +23,7 @@
 		],
 		"DynamicSlots": {
 			"ReservedSlots": 6,
-			"ShowIcon": false,
+			"ShowIcon": true,
 			"NameText": "Proto-TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
