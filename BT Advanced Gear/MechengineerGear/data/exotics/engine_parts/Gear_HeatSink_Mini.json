@@ -1,8 +1,16 @@
 {
 	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Heatsink"
+			},
+			{
+				"CategoryID": "MicroHeatSink"
+			}
+		],
 		"Flags": [
-				"not_broken",
-				"no_salvage"
+			"not_broken",
+			"no_salvage"
 		],
 		"BonusDescriptions": [
 			"Dissipation: 2"
