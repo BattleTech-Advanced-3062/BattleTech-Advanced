@@ -37,7 +37,7 @@
 		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
-	"JumpDistance": 15,
+	"JumpDistance": 8,
 	"ownerID": "Cameron",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
