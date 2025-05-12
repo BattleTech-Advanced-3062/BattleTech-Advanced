@@ -133,6 +133,10 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,

@@ -1,0 +1,88 @@
+{
+	"Description": {
+		"Id": "starsystemdef_CatsCradle",
+		"Name": "Cat's Cradle",
+		"Details": "While the planet is rather inhospitable, extensive mineral wealth led to mining companies establishing a number of outposts in the area. To entertain themselves during their multi-year contracts on planet, these employees would begin setting up bloodsports with converted industrial mechs, eventually becoming what would become known as the Cradle Games, held every 3 years. While not at the scale of Solaris VII or Noisel, the arenas drew a respectable following.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -52.02,
+		"y": -419.97,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_catscradle",
+			"planet_size_small",
+			"planet_climate_lunar",
+			"planet_feature_moon02",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_mining",
+			"planet_factory",
+			"planet_faction_cameron"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 15,
+	"ownerID": "Cameron",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "F",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_Cameron",
+		"itemCollection_shop_industrial",
+		"itemCollection_shop_research"
+	],
+	"factionShopOwnerID": "Cameron",
+	"FactionShopItems": [
+		"itemCollection_faction_Cameron"
+	],
+	"BlackMarketShopItems": null,
+	"CoreSystemID": "starsystemdef_CatsCradle",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"Cameron",
+		"ComStar",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Steiner",
+		"Marik",
+		"Kurita",
+		"Davion",
+		"Liao",
+		"WordOfBlake",
+		"Mercenaries",
+		"AuriganPirates"
+	]
+}
