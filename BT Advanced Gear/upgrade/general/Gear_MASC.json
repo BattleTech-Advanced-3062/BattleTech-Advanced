@@ -14,7 +14,8 @@
 		"BonusDescriptions": [
 			"RunSpeed: +0.4",
 			"HeatGenerated: +15%",
-			"MASCWeight: 50%"
+			"MASCWeight: 50%",
+			"Dynamic: 3"
 		],
 		"DynamicSlots": {
 			"ReservedSlots": 3,

@@ -14,7 +14,8 @@
 		"BonusDescriptions": [
 			"RunSpeed: +0.3",
 			"HeatGenerated: +10%",
-			"MASCWeight: 40%"
+			"MASCWeight: 40%",
+			"Dynamic: 2"
 		],
 		"Flags": [
 			"not_broken",
