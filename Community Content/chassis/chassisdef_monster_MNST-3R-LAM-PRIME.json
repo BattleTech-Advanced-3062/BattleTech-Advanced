@@ -53,6 +53,15 @@
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Avionics_MON",
 			"ComponentDefType": "Upgrade",
