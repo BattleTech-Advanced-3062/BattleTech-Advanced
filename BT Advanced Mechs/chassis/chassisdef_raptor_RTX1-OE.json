@@ -272,6 +272,15 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,

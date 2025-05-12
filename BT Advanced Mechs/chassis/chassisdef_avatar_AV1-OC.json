@@ -94,6 +94,15 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "emod_engineslots_size3",
 			"SimGameUID": null,

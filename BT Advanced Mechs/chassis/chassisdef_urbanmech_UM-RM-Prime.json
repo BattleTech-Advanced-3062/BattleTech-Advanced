@@ -226,6 +226,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engineslots_xl_center",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

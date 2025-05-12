@@ -309,6 +309,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_structureslots_endosteelprototype",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

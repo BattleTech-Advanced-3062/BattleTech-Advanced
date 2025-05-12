@@ -75,6 +75,15 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
 			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
 			"SimGameUID": null,
