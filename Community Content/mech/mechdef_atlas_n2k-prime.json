@@ -121,7 +121,7 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SBGAUSS",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",

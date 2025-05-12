@@ -51,8 +51,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Ballistic",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
 		},
