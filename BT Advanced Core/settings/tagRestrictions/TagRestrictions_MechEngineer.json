@@ -320,6 +320,8 @@
 				"MASCOmni",
 				"TarComp",
 				"SCM",
+				"SEM",
+				"BTM",
 				"ProtoTSM"
 			]
 		},
@@ -331,11 +333,31 @@
 				"MASCOmni",
 				"TarComp",
 				"SCM",
+				"SEM",
+				"BTM",
 				"ProtoTSM"
 			]
 		},
 		{
 			"Tag": "SCM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "SEM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "BTM",
 			"IncompatibleTags": [
 				"AESArm",
 				"AESLeg",

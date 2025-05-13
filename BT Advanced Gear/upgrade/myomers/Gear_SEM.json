@@ -1,0 +1,147 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "SEM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"HeatGenerated: +25%",
+			"Accuracy: +2",
+			"Dynamic: 8"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 8,
+			"ShowIcon": true,
+			"NameText": "SEM",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Mojave Manufacturing",
+		"Model": "Red Rock",
+		"UIName": "S.E.M.",
+		"Id": "Gear_SEM",
+		"Name": "Steady-Eye Myomer",
+		"Details": "Steady-Eye Myomer, or S.E.M., is an advanced myomer system for BattleMechs that provides increased accuracy for weapons fire at the cost of increased heat generation due to increased tension in the myomer bundles. S.E.M. provides a noticeable improvement to ranged accuracy for equipped BattleMechs but causes much more wear and tear on the myomer bundles themselves as they tense and flex to steady the equipped 'Mech's aim mid-combat. Because of this increased tension, the 'Mech's heat generation is increased as the myomer friction creates waste heat. Still, S.E.M. has proven effective in combat and so the downside is considered worthwhile. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SEM-WeaponAccuracy",
+				"Name": "Steady-Eye Myomer",
+				"Details": "This unit gains +2 accuracy but also gains +25% heat generation from its special Steady-Eye Myomer (S.E.M.).",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "AccuracyModifier",
+				"operation": "Float_Add",
+				"modValue": "-2.0",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SEM-Heat",
+				"Name": "SEM Heat Generation",
+				"Details": "Heat generation increased by 25%.",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "HeatGenerated",
+				"operation": "Float_Multiply",
+				"modValue": "1.25",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

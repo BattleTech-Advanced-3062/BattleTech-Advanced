@@ -1,0 +1,154 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "BTM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"HeatGenerated: +20%",
+			"Defense: +2",
+			"Dynamic: 8"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 8,
+			"ShowIcon": true,
+			"NameText": "BTM",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Payne Industries",
+		"Model": "Maximum Strength",
+		"UIName": "B.T.M.",
+		"Id": "Gear_BTM",
+		"Name": "Bullet-Time Myomer",
+		"Details": "Bullet-Time Myomer, named after an obscure Terran game reference by its development team, is an advanced myomer system for BattleMechs that allows them to more adroitly avoid incoming attacks. B.T.M. includes specialized circuitry and sensors that electrically stimulate the myomer bundles when incoming weapons fire is detected, causing \"unpredictable\" spasms that help the 'Mech dodge said weapons fire. While B.T.M. takes some getting used to, MechWarriors have reported favorable results and so the technology has slowly been adapted for wider use. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "BTM-HitDefense",
+				"Name": "Bullet-Time Myomer",
+				"Details": "This unit gains +2 defense but also gains +20% heat generation from its special Bullet-Time Myomer (B.T.M.).",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "2.0",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "NotSet",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "BTM-Heat",
+				"Name": "BTM Heat Generation",
+				"Details": "Heat generation increased by 20%.",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "HeatGenerated",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

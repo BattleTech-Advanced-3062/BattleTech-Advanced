@@ -12,7 +12,7 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"CritRes: 20%"
+			"CritRes: 20%",
 			"Dynamic: 5"
 		],
 		"DynamicSlots": {
@@ -35,7 +35,7 @@
 		"UIName": "Platinum Myomer",
 		"Id": "Gear_Platinum_Myomer",
 		"Name": "Platinum Myomer",
-		"Details": "An advanced form of myomer, Platinum Myomer is a network of reinforced myomer strands that run throughout a 'Mech's skeleton and help resist incoming critical damage. While Platinum Myomer is limited in application, it is quite effective at its job. <b><color=#099ff2>Automatically activated, works continuously.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "An advanced form of myomer, Platinum Myomer is a network of reinforced myomer strands that run throughout a 'Mech's skeleton and help resist incoming critical damage. While Platinum Myomer is limited in application, it is quite effective at its job. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
 		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
