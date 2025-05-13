@@ -165,7 +165,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 11,
+			"InventorySlots": 14,
 			"MaxArmor": 100,
 			"MaxRearArmor": 0,
 			"InternalStructure": 5
@@ -313,6 +313,26 @@
 		{
 			"MountedLocation": "LeftLeg",
 			"ComponentDefID": "emod_kit_battlearmor",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_myomer_standard_battlearmor",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_thermal_standard_battlearmor",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
