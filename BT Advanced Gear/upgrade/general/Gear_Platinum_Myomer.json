@@ -1,0 +1,103 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"CritRes: 20%"
+			"Dynamic: 5"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 5,
+			"ShowIcon": true,
+			"NameText": "Plat. Myomer",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Mack's Mercs",
+		"Model": "Production",
+		"UIName": "Platinum Myomer",
+		"Id": "Gear_Platinum_Myomer",
+		"Name": "Platinum Myomer",
+		"Details": "An advanced form of myomer, Platinum Myomer is a network of reinforced myomer strands that run throughout a 'Mech's skeleton and help resist incoming critical damage. While Platinum Myomer is limited in application, it is quite effective at its job. <b><color=#099ff2>Automatically activated, works continuously.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 2,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "PlatMyomer-CritResist",
+				"Name": "Platinum Myomer Crit Resistance",
+				"Details": "Crits are 20% less frequent.",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.8",
+				"modType": "System.Single"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
