@@ -322,6 +322,8 @@
 				"SCM",
 				"SEM",
 				"BTM",
+				"ACM",
+				"LWM",
 				"ProtoTSM"
 			]
 		},
@@ -335,6 +337,8 @@
 				"SCM",
 				"SEM",
 				"BTM",
+				"ACM",
+				"LWM",
 				"ProtoTSM"
 			]
 		},
@@ -358,6 +362,24 @@
 		},
 		{
 			"Tag": "BTM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "LWM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "ACM",
 			"IncompatibleTags": [
 				"AESArm",
 				"AESLeg",
