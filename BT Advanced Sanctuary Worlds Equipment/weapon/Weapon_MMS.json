@@ -24,7 +24,7 @@
 	],
 	"AmmoCategory": "MMS",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 50,
+	"HeatGenerated": 40,
 	"Damage": 6,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
