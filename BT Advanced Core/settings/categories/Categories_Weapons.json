@@ -161,6 +161,15 @@
 		{
 			"Name": "w/a/g/massdriver",
 			"DisplayName": "Mass Driver",
+			"BaseLimits": [],
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "230"
+			}
+		},
+		{
+			"Name": "OneDriver",
+			"DisplayName": "Singular Mass Driver",
 			"BaseLimits": [
 				{
 				  "Min": 0,
@@ -169,7 +178,7 @@
 			],
 			"DefaultCustoms": {
 				"Sorter": 1000,
-				"InventorySorter": "230"
+				"InventorySorter": "235"
 			}
 		},
 		{

@@ -49,6 +49,7 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
+	"ProjectileSpeedMultiplier": 1.5,
 	"TrooperSquadDamageModifier": 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {

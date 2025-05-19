@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "a/a/g/massdriver"
+				"CategoryID": "a/s/su/superweapon"
 			}
 		],
 		"BonusDescriptions": [
@@ -25,7 +25,7 @@
 		"Id": "Ammo_AmmunitionBox_Generic_HDRIVER",
 		"Name": "Heavy Mass Driver Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Mass Driver ammunition does not explode when struck by weapon fire.",
-		"Icon": "FerroMag-ammo"
+		"Icon": "death-star"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
