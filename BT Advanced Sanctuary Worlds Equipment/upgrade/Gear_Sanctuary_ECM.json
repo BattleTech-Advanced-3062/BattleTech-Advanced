@@ -235,6 +235,120 @@
 					"nature": "Buff"
 				}
 			]
+		},
+		{
+			"Id": "Gear_ECM_DroneOSScramble",
+			"Name": "DroneOS Scrambling",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Online",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-WeaponJamming",
+						"Name": "DroneOS Jamming",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "AccuracyModifier",
+						"operation": "Float_Add",
+						"modValue": "99.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-WalkSpeed",
+						"Name": "DroneOS WalkSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-DroneOS-RunSpeed",
+						"Name": "DroneOS RunSpeed",
+						"Details": "ECM is scrambling this unit's DroneOS system, rendering the 'Mech functionally useless in combat due to turning its sensor systems effectively blind and disrupting its movement ability due to weakened controls.",
+						"Icon": "UixSvgIcon_designMask_electricalField"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.5",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
 		}
 	],
 	"statusEffects": [],
