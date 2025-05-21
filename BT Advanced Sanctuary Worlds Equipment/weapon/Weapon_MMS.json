@@ -6,7 +6,7 @@
 			}
 		],
 		"BonusDescriptions": [
-			"StructureDmgMod: 4",
+			"StructureDmgMod: 2",
 			"WpnCrits: -80%",
 			"MissileHealth: 1",
 			"WeaponAttachmentCompatible: Superweapon FCS"
@@ -25,12 +25,12 @@
 	"AmmoCategory": "MMS",
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 40,
-	"Damage": 6,
+	"Damage": 4,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
-	"HeatDamage": 4,
+	"HeatDamage": 2,
 	"AccuracyModifier": 0,
 	"CriticalChanceMultiplier": 0.2,
 	"AOECapable": false,
@@ -40,7 +40,7 @@
 	"ProjectilesPerShot": 2,
 	"AttackRecoil": 1,
 	"Instability": 1,
-	"StructureDamage": 4,
+	"StructureDamage": 2,
 	"ColorsTable": [
 		{
 		  "C": "#fcaf25",
@@ -49,6 +49,7 @@
 	],
 	"MissileHealth": 1,
 	"ImprovedBallistic": true,
+	"HitGenerator": "Cluster",
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
 	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
