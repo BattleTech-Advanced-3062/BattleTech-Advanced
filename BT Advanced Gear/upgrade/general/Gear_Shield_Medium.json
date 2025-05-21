@@ -3,6 +3,14 @@
 		"Category": {
 			"CategoryID": "CombatShield"
 		},
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Medium",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
 			"ModularArmor: +80",
 			"ArmAccuracy: -1"
@@ -13,7 +21,7 @@
 	},
 	"StatName": null,
 	"Description": {
-		"Cost": 500000,
+		"Cost": 1000000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Solaris VII",
@@ -22,7 +30,7 @@
 		"Id": "Gear_Shield_Medium",
 		"Name": "Medium Shield",
 		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Medium Shield is the middle-weight of the BattleMech Shields and provides a solid amount protection.",
-		"Icon": "shield-reflect"
+		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -30,9 +38,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 5,
+	"InventorySize": 4,
 	"Tonnage": 4,
-	"AllowedLocations": "LeftArm, RightArm",
+	"AllowedLocations": "LeftArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -52,7 +60,7 @@
 				"Id": "StatusEffect-Shield_Large-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

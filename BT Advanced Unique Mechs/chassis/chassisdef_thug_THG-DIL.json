@@ -8,7 +8,7 @@
 		"UIName": "Dillinger",
 		"Id": "chassisdef_thug_THG-DIL",
 		"Name": "Dillinger",
-		"Details": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-4s round out the armament. The strangest addition to the chassis though might be a Small Shield ensconcing the HVAC/10 for extra protection.",
+		"Details": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-6s round out the armament.",
 		"Icon": "uixTxrIcon_thug"
 	},
 	"MovementCapDefID": "movedef_hatamotochi_HTM-27T",
@@ -225,7 +225,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-4s round out the armament. The strangest addition to the chassis though might be a Small Shield ensconcing the HVAC/10 for extra protection.",
+	"YangsThoughts": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-6s round out the armament.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

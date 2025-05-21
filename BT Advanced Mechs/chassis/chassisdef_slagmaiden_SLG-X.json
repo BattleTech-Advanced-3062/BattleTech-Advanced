@@ -268,7 +268,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "emod_arm_part_hand",
+			"ComponentDefID": "Gear_Shield_Hand_Large",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,

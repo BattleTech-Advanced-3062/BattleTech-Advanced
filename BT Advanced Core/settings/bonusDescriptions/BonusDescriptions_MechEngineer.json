@@ -517,6 +517,18 @@
 			"Full": "Provides {0} damage reduction when Deactivated."
 		},
 		{
+			"Bonus": "ShieldBlock",
+			"Short": "{0} Shield Block",
+			"Long": "{0} Shield Block",
+			"Full": "When activated, this component provides the carrying unit with {0} damage reduction."
+		},
+		{
+			"Bonus": "ShieldMovePenalty",
+			"Short": "{0} Shield Impaired",
+			"Long": "{0} Shield Impaired",
+			"Full": "When activated, this component reduces the carrying unit's movement speed by {0}."
+		},
+		{
 			"Bonus": "PenaltyCalledShot",
 			"Short": "{0} Called Shot",
 			"Long": "{0} Called Shot",

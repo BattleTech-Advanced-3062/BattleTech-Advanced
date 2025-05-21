@@ -3,9 +3,20 @@
 		"Category": {
 			"CategoryID": "CombatShield"
 		},
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Small",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
 			"ModularArmor: +55",
 			"ArmAccuracy: -1"
+		],
+		"Flags": [
+			"no_salvage"
 		]
 	},
 	"StatName": null,
@@ -19,7 +30,7 @@
 		"Id": "Gear_Shield_Small",
 		"Name": "Small Shield",
 		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Small Shield is the smallest and lightest of the BattleMech Shields and provides the least protection of the three.",
-		"Icon": "shield-reflect"
+		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -27,9 +38,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 3,
+	"InventorySize": 2,
 	"Tonnage": 2,
-	"AllowedLocations": "LeftArm, RightArm",
+	"AllowedLocations": "LeftArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -49,7 +60,7 @@
 				"Id": "StatusEffect-Shield_Small-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

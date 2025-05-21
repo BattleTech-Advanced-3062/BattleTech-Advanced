@@ -6,11 +6,16 @@
 			},
 			{
 				"CategoryID": "CombatShield"
-			},
-			{
-				"CategoryID": "MeleeWeaponHandRequired"
 			}
 		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Large",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
 			"ModularArmor: +125",
 			"ArmAccuracy: -1",
@@ -98,7 +103,7 @@
 				"Id": "StatusEffect-Shield_Large-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

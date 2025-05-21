@@ -229,7 +229,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Quirk_BarrelFist_Hammerhands_Hero",
+			"ComponentDefID": "Gear_Quirk_BarrelFist_Hammerhands_Hero_Left",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

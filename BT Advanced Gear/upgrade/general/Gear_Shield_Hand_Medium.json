@@ -1,0 +1,136 @@
+{
+	"Custom": {
+		"ArmActuator": {
+			"Type": "PartHand"
+		},
+		"BonusDescriptions": [
+			"Activatable",
+			"ShieldBlock: 15%",
+			"ShieldMovePenalty: 15%"
+		],
+		"ActivatableComponent": {
+			"ButtonName": "Shield Block",
+			"CanActivateAfterMove": true,
+			"FailFlatChance": 0.0,
+			"FailRoundsStart": 1,
+			"FailChancePerTurn": 0.0,
+			"FailISDamage": 0,
+			"FailCrit": false,
+			"DeactivationMessage": "Block Lowered",
+			"ActivationMessage": "Block Raised",
+			"NoUniqueCheck": true,
+			"CanNotBeActivatedManualy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-DR",
+						"Name": "Block Raised",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Multiply",
+						"modValue": "0.85",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-WalkSpeed",
+						"Name": "Block Walk Speed",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.85",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-RunSpeed",
+						"Name": "Block Run Speed",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.15",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	},
+	"StatName": null,
+	"Description": {
+		"Cost": 0,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Shield",
+		"UIName": "Shield Hand",
+		"Id": "Gear_Shield_Hand_Medium",
+		"Name": "Shield Hand",
+		"Details": "This is the hand carrying the shield. It serves as an activated component to allowing the carrying unit to activate the shield in order to block some amount of incoming damage via active use of the shield. However, this extra damage reduction comes at the cost of movement penalties as actively blocking with the shield takes effort and slows the carrying unit down.",
+		"Icon": "vibrating-shield"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "LeftArm, RightArm",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -6,13 +6,18 @@
 			},
 			{
 				"CategoryID": "CombatShield"
-			},
-			{
-				"CategoryID": "MeleeWeaponHandRequired"
 			}
 		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Medium",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
-			"ModularArmor: +90",
+			"ModularArmor: +80",
 			"ArmAccuracy: -1",
 			"WordsWords: Leave This Weapon Disabled!!"
 		],
@@ -63,7 +68,7 @@
 		"Id": "Weapon_ValkyrieII_Shield",
 		"Name": "Medium Shield",
 		"Details": "This is a unique shield, designed for the Valkyrie II. It cannot be removed or used elsewhere.",
-		"Icon": "shield-reflect"
+		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -93,7 +98,7 @@
 				"Id": "StatusEffect-Shield_Medium-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

@@ -1,0 +1,287 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ArmLowerActuator"
+			},
+			{
+				"CategoryID": "ArmHandActuator"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
+		"ArmActuator": {
+			"Type": "PartLower"
+		},
+		"BonusDescriptions": [
+			"Activatable",
+			"ShieldBlock: 20%",
+			"ShieldMovePenalty: 20%",
+			"PunchStabBonus: +15%",
+			"PunchDamageBonus: +15%",
+			"PunchAccuracy: +2",
+			"ArmAccuracy: +1"
+		],
+		"ActivatableComponent": {
+			"ButtonName": "Shield Block",
+			"CanActivateAfterMove": true,
+			"FailFlatChance": 0.0,
+			"FailRoundsStart": 1,
+			"FailChancePerTurn": 0.0,
+			"FailISDamage": 0,
+			"FailCrit": false,
+			"DeactivationMessage": "Block Lowered",
+			"ActivationMessage": "Block Raised",
+			"NoUniqueCheck": true,
+			"CanNotBeActivatedManualy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-DR",
+						"Name": "Block Raised",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Multiply",
+						"modValue": "0.8",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-WalkSpeed",
+						"Name": "Block Walk Speed",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "WalkSpeed",
+						"operation": "Float_Multiply",
+						"modValue": "0.8",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-RunSpeed",
+						"Name": "Block Run Speed",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Icon": "vibrating-shield"
+					},
+					"statisticData": {
+						"statName": "CBTBE_RunMultiMod",
+						"operation": "Float_Add",
+						"modValue": "-0.2",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		"Flags": [
+			"default",
+			"not_broken",
+			"no_salvage",
+			"autorepair"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 80000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Quirk",
+		"Model": "Hammerhands",
+		"UIName": "Hammerhands Shield Fist",
+		"Id": "Gear_Quirk_BarrelFist_Hammerhands_Hero_Left",
+		"Name": "Hammerhands Shield Fist",
+		"Details": "This gear represents the Hammerhands's inherent Shield Fist quirk. This grants the Hammerhands bonus melee damage as well as the ability to shield block using its left arm shield.",
+		"Icon": "vibrating-shield"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "LeftArm",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HandMelee",
+				"Name": "Hand Melee Damage",
+				"Details": "Melee attacks deal 15% Extra damage.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Punch_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HandMeleeStab",
+				"Name": "Hand Melee Stab",
+				"Details": "Melee attacks deal 15% extra stability damage.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Punch_Target_Instability_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Status-LowerAccuracy-{location}",
+				"Name": "Lower Arm Accuracy",
+				"Details": "+1 Arm mounted accuracy.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "{location}.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": -1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Battlefists-PunchAccuracy",
+				"Name": "Articulate Actuators",
+				"Details": "Punch attacks have +2 Accuracy.",
+				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "CBTBE_Punch_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32",
+				"additionalRules": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1",
+			"BLACKLISTED",
+			"LowerArm.Equipped"
+		],
+		"tagSetSourceFile": ""
+	}
+}
