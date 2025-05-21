@@ -4164,6 +4164,12 @@
 			"Full": "The Sanctuary Drone Interface replaces a human in the cockpit with a remote-controlled drone. This insulates the pilot against feedback injuries while providing numerous benefits. However, it is not fool-proof. If the drone is destroyed, such as through cockpit destruction, lethal feedback can occur to the pilot controlling it from afar."
 		},
 		{
+			"Bonus": "DroneOS",
+			"Short": "Drone OS",
+			"Long": "Drone Operating System",
+			"Full": "The Inner Sphere Drone Operating System replaces a human in the cockpit with a remote-controled drone system (the cockpit is occupied by mechanical hardware to accept pilot commands). This insulates the pilot against feedback injuries while providing numerous benefits. However, it is not fool-proof. If the drone is destroyed, such as through cockpit destruction, lethal feedback can occur to the pilot controlling it from afar."
+		},
+		{
 			"Bonus": "IsCannon",
 			"Short": "Cannon",
 			"Long": "Cannon",

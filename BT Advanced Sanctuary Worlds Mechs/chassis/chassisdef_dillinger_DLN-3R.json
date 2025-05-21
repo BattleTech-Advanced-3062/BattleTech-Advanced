@@ -1,0 +1,268 @@
+{
+	"Description": {
+		"Cost": 14000000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Dillinger",
+		"Id": "chassisdef_dillinger_DLN-3R",
+		"Name": "Dillinger",
+		"Details": "Developed by the Jacobson Haven in order to carry the Micro-Missile weapon system (MMS), the Dillinger was named for an ancient hero of the Havenfolk. The 'Mech is built on a 270-rated Dense Fusion Engine for power and has an Endo-Steel frame for reliable structure. The highlight of the design is, of course, the MMS itself, mounted in the center torso for maximum protection and fed by three tons of SHIELD-protected ammunition. The MMS is backed up by two each Large Electro-Lasers and VRM-12s, for superior ranged firepower. The warload's heat is managed by 10 DHS as well as five advanced Heat Controllers.",
+		"Icon": "uixTxrIcon_dillinger"
+	},
+	"MovementCapDefID": "movedef_emperor_EMP-6A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_genericsh7",
+	"PrefabIdentifier": "chrprfmech_genericsh7base-001",
+	"PrefabBase": "genericsh7",
+	"Tonnage": 90,
+	"InitialTonnage": 9,
+	"weightClass": "ASSAULT",
+	"BattleValue": 9642000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 95,
+	"MeleeInstability": 45,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 95,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 95,
+	"DFAInstability": 45,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 190,
+			"MaxRearArmor": 95,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 290,
+			"MaxRearArmor": 145,
+			"InternalStructure": 145
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 190,
+			"MaxRearArmor": 95,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 190,
+			"MaxRearArmor": -1,
+			"InternalStructure": 95
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "DLN-3R",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Superweapon Carrier",
+	"YangsThoughts": "Developed by the Jacobson Haven in order to carry the Micro-Missile weapon system (MMS), the Dillinger was named for an ancient hero of the Havenfolk. The 'Mech is built on a 270-rated Dense Fusion Engine for power and has an Endo-Steel frame for reliable structure. The highlight of the design is, of course, the MMS itself, mounted in the center torso for maximum protection and fed by three tons of SHIELD-protected ammunition. The MMS is backed up by two each Large Electro-Lasers and VRM-12s, for superior ranged firepower. The warload's heat is managed by 10 DHS as well as five advanced Heat Controllers.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedTargeting_Dillinger",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_sanctuaryendosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_dense_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Sanctuary_Drone",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

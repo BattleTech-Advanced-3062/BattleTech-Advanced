@@ -1931,6 +1931,7 @@
 					"lrm20": 0.9,
 					"srm20": 0.9,
 					"lrm10": 0.8,
+					"arrow": 0.75,
 					"mortar": 0.7,
 					"lrm5": 0.6,
 					"srm6": 0.65,
@@ -1972,6 +1973,7 @@
 				"HardpointCandidates": {
 					"lrm20": 1.0,
 					"srm20": 1.0,
+					"arrow": 0.95,
 					"lrm15": 0.9,
 					"lrm10": 0.8,
 					"mortar": 0.7,
