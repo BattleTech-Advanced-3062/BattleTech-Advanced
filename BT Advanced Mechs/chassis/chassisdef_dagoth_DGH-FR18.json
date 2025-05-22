@@ -15,7 +15,7 @@
 		"UIName": "Dagoth",
 		"Id": "chassisdef_dagoth_DGH-FR18",
 		"Name": "Dagoth",
-		"Details": "Developed by VEST for the Solaris arenas, the Dagoth is a powerful competitor in said arenas. Built with an eye for function over form, the Dagoth has been called ugly by detractors but its win record speaks for itself and neutralizes said complaints. Every Dagoth comes with at least one melee weapon or shield and is powered by a 325-rated XL fusion engine, ensuring high ground speed to close the gap with enemies. The DGH-FR18 is the stock model and uses a Large Shield for extra protection. For firepower, it uses an ER Large Laser, twin MML-7s, and twin Medium Lasers while five jump jets give it extra mobility in the arenas.",
+		"Details": "Developed by VEST for the Solaris arenas, the Dagoth is a powerful competitor in said arenas. Built with an eye for function over form, the Dagoth has been called ugly by detractors but its win record speaks for itself and neutralizes said complaints. Every Dagoth comes with at least one melee weapon or shield and is powered by a 325-rated XL fusion engine, ensuring high ground speed to close the gap with enemies. The DGH-FR18 is the stock model and uses a Large Shield for extra protection. For firepower, it uses an ER PPC, twin MML-7s, and twin Medium Lasers while 13 DHS keep it all chilly.",
 		"Icon": "uixTxrIcon_dagoth"
 	},
 	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -228,7 +228,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Arena Brawler",
-	"YangsThoughts": "Developed by VEST for the Solaris arenas, the Dagoth is a powerful competitor in said arenas. Built with an eye for function over form, the Dagoth has been called ugly by detractors but its win record speaks for itself and neutralizes said complaints. Every Dagoth comes with at least one melee weapon or shield and is powered by a 325-rated XL fusion engine, ensuring high ground speed to close the gap with enemies. The DGH-FR18 is the stock model and uses a Large Shield for extra protection. For firepower, it uses an ER Large Laser, twin MML-7s, and twin Medium Lasers while five jump jets give it extra mobility in the arenas.",
+	"YangsThoughts": "Developed by VEST for the Solaris arenas, the Dagoth is a powerful competitor in said arenas. Built with an eye for function over form, the Dagoth has been called ugly by detractors but its win record speaks for itself and neutralizes said complaints. Every Dagoth comes with at least one melee weapon or shield and is powered by a 325-rated XL fusion engine, ensuring high ground speed to close the gap with enemies. The DGH-FR18 is the stock model and uses a Large Shield for extra protection. For firepower, it uses an ER PPC, twin MML-7s, and twin Medium Lasers while 13 DHS keep it all chilly.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
