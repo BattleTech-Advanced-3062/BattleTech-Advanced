@@ -10,7 +10,7 @@
 		],
 		"ActivatableComponent": {
 			"ButtonName": "Shield Block",
-			"CanActivateAfterMove": true,
+			"CanActivateAfterMove": false,
 			"FailFlatChance": 0.0,
 			"FailRoundsStart": 1,
 			"FailChancePerTurn": 0.0,

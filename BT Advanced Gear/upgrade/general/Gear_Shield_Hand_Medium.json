@@ -6,11 +6,12 @@
 		"BonusDescriptions": [
 			"Activatable",
 			"ShieldBlock: 15%",
-			"ShieldMovePenalty: 15%"
+			"ShieldMovePenalty: 15%",
+			"ShieldJumpPenalty: 20%"
 		],
 		"ActivatableComponent": {
 			"ButtonName": "Shield Block",
-			"CanActivateAfterMove": true,
+			"CanActivateAfterMove": false,
 			"FailFlatChance": 0.0,
 			"FailRoundsStart": 1,
 			"FailChancePerTurn": 0.0,
@@ -36,7 +37,7 @@
 					"Description": {
 						"Id": "ShieldBlock-DR",
 						"Name": "Block Raised",
-						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 10% but reducing its movement speed by 10% as well.",
+						"Details": "This unit is using its shield to absorb incoming damage, increasing its damage reduction by 15% but reducing its ground speed by 15% and its jump speed by 20% as well.",
 						"Icon": "vibrating-shield"
 					},
 					"statisticData": {
@@ -98,6 +99,32 @@
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "ShieldBlock-JumpDistance",
+						"Name": "Block Jump Decreased",
+						"Details": "The BattleMech Wing System increases Jump Jet jump distance by 20%",
+						"Icon": "vibrating-shield"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "JumpDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "0.8",
+						"modType": "System.Single"
+					}
 				}
 			]
 		}

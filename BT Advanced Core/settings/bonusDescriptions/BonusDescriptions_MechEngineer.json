@@ -529,6 +529,12 @@
 			"Full": "When activated, this component reduces the carrying unit's movement speed by {0}."
 		},
 		{
+			"Bonus": "ShieldJumpPenalty",
+			"Short": "{0} Shield Jump",
+			"Long": "{0} Shield Jump",
+			"Full": "When activated, this component reduces the carrying unit's jump speed by {0}."
+		},
+		{
 			"Bonus": "PenaltyCalledShot",
 			"Short": "{0} Called Shot",
 			"Long": "{0} Called Shot",
