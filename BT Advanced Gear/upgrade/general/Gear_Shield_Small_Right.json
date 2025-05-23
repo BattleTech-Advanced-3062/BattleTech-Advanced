@@ -6,13 +6,13 @@
 		"Linked": {
 			"Links": [
 				{
-					"ComponentDefId": "Gear_Shield_Hand_Large",
-					"Location": "LeftArm"
+					"ComponentDefId": "Gear_Shield_Hand_Small",
+					"Location": "RightArm"
 				}
 			]
 		},
 		"BonusDescriptions": [
-			"ModularArmor: +125",
+			"ModularArmor: +55",
 			"ArmAccuracy: -1"
 		],
 		"Flags": [
@@ -21,15 +21,15 @@
 	},
 	"StatName": null,
 	"Description": {
-		"Cost": 1500000,
+		"Cost": 500000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Solaris VII",
 		"Model": "Shield",
-		"UIName": "Large Shield",
-		"Id": "Gear_Shield_Large",
-		"Name": "Large Shield",
-		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Large Shield is the largest of the BattleMech Shields and provides the most protection of the three.",
+		"UIName": "Small Shield",
+		"Id": "Gear_Shield_Small_Right",
+		"Name": "Small Shield",
+		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Small Shield is the smallest and lightest of the BattleMech Shields and provides the least protection of the three.",
 		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
@@ -38,9 +38,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 6,
-	"Tonnage": 6,
-	"AllowedLocations": "LeftArm",
+	"InventorySize": 2,
+	"Tonnage": 2,
+	"AllowedLocations": "RightArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -57,7 +57,7 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Shield_Large-{location}",
+				"Id": "StatusEffect-Shield_Small-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
 				"Icon": "vibrating-shield"
@@ -66,7 +66,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "125",
+				"modValue": "55",
 				"modType": "System.Single"
 			}
 		},

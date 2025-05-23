@@ -15,7 +15,7 @@
 		"UIName": "Valkyrie II",
 		"Id": "chassisdef_valkyrieii_VLK-II-3S",
 		"Name": "Valkyrie II",
-		"Details": "The Valkyrie II proved a popular and effective design in the armies of the Federated Suns, so much so that the brass demanded more Valkyrie IIs be produced to meet soldier demand. Among the variants produced was the VLK-II-2S, an experimental version with a Mech-scale Sword. The -2S was popular but pilots often complained of a lack of range and of durability problems so it was eventually supplanted by the VLK-II-3S. This variant uses an XL engine for power and is equipped with twin Light AC/2s for ranged firepower. Up close it can call upon six Medium Lasers and the required Sword to slice apart enemies. For extra durability, the -3S is equipped with a Medium Shield while a Supercharger and five jump jets guarantee it can close the distance in any terrain.",
+		"Details": "The Valkyrie II proved a popular and effective design in the armies of the Federated Suns, so much so that the brass demanded more Valkyrie IIs be produced to meet soldier demand. Among the variants produced was the VLK-II-2S, an experimental version with a Mech-scale Sword. The -2S was popular but pilots often complained of a lack of range and of durability problems so it was eventually supplanted by the VLK-II-3S. This variant uses an XL engine for power and is equipped with twin Light AC/5s for ranged firepower. Up close it can call upon six Medium Lasers and the required Sword to slice apart enemies. For extra durability, the -3S is equipped with a Medium Shield while a Supercharger guarantees it can close the distance in any terrain.",
 		"Icon": "uixTxrIcon_valkyrieII"
 	},
 	"MovementCapDefID": "movedef_valkyrieii-VLK-II-1A",
@@ -231,7 +231,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Recon and Striker",
-	"YangsThoughts": "The Valkyrie II proved a popular and effective design in the armies of the Federated Suns, so much so that the brass demanded more Valkyrie IIs be produced to meet soldier demand. Among the variants produced was the VLK-II-2S, an experimental version with a Mech-scale Sword. The -2S was popular but pilots often complained of a lack of range and of durability problems so it was eventually supplanted by the VLK-II-3S. This variant uses an XL engine for power and is equipped with twin Light AC/2s for ranged firepower. Up close it can call upon six Medium Lasers and the required Sword to slice apart enemies. For extra durability, the -3S is equipped with a Medium Shield while a Supercharger and five jump jets guarantee it can close the distance in any terrain.",
+	"YangsThoughts": "The Valkyrie II proved a popular and effective design in the armies of the Federated Suns, so much so that the brass demanded more Valkyrie IIs be produced to meet soldier demand. Among the variants produced was the VLK-II-2S, an experimental version with a Mech-scale Sword. The -2S was popular but pilots often complained of a lack of range and of durability problems so it was eventually supplanted by the VLK-II-3S. This variant uses an XL engine for power and is equipped with twin Light AC/5s for ranged firepower. Up close it can call upon six Medium Lasers and the required Sword to slice apart enemies. For extra durability, the -3S is equipped with a Medium Shield while a Supercharger guarantees it can close the distance in any terrain.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "RightArm",
@@ -260,6 +260,28 @@
 			"ComponentDefID": "Weapon_ValkyrieII_Sword",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Shield_Hand_Medium",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",

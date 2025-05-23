@@ -6,13 +6,13 @@
 		"Linked": {
 			"Links": [
 				{
-					"ComponentDefId": "Gear_Shield_Hand_Large",
-					"Location": "LeftArm"
+					"ComponentDefId": "Gear_Shield_Hand_Medium",
+					"Location": "RightArm"
 				}
 			]
 		},
 		"BonusDescriptions": [
-			"ModularArmor: +125",
+			"ModularArmor: +80",
 			"ArmAccuracy: -1"
 		],
 		"Flags": [
@@ -21,15 +21,15 @@
 	},
 	"StatName": null,
 	"Description": {
-		"Cost": 1500000,
+		"Cost": 1000000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Solaris VII",
 		"Model": "Shield",
-		"UIName": "Large Shield",
-		"Id": "Gear_Shield_Large",
-		"Name": "Large Shield",
-		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Large Shield is the largest of the BattleMech Shields and provides the most protection of the three.",
+		"UIName": "Medium Shield",
+		"Id": "Gear_Shield_Medium_Right",
+		"Name": "Medium Shield",
+		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Medium Shield is the middle-weight of the BattleMech Shields and provides a solid amount protection.",
 		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
@@ -38,9 +38,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 6,
-	"Tonnage": 6,
-	"AllowedLocations": "LeftArm",
+	"InventorySize": 4,
+	"Tonnage": 4,
+	"AllowedLocations": "RightArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -66,7 +66,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "125",
+				"modValue": "80",
 				"modType": "System.Single"
 			}
 		},

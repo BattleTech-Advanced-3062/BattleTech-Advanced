@@ -8,6 +8,14 @@
 				"CategoryID": "CombatShield"
 			}
 		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Large",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
 			"ModularArmor: +125",
 			"WpnRecoil: 2",
