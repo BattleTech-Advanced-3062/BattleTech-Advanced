@@ -7,9 +7,9 @@
 			"ExplosionDamage": 50
 		},
 		"BonusDescriptions": [
-				"GaussCapRange: +15%",
-				"GaussCapDmg: +15%",
-				"GaussCapHeat: +200%",
+				"GaussCapRange: +15",
+				"GaussCapDmg: +15",
+				"GaussCapHeat: +200",
 				"WeaponBoom: 50"
 			]
 	},

@@ -106,7 +106,7 @@
 		"UIName": "Hellspawn HSN-9F",
 		"Id": "mechdef_hellspawn_HSN-9F",
 		"Name": "Hellspawn",
-		"Details": "Intended as a brawler configuration of the Hellspawn, the -9F removes a Medium Pulse Laser, the Guardian EMC suite and both LRM launchers in favor of a pair of MRM-20 racks. Despite this increased firepower, AFFS pilots have reportedly suffered higher casualties than normal as the Hellspawn -9D attempts to write checks it can't cash.",
+		"Details": "Intended as a brawler configuration of the Hellspawn, the -9F removes a Medium Pulse Laser, the Guardian EMC suite and both LRM launchers in favor of a pair of MRM-20 racks. Despite this increased firepower, AFFS pilots have reportedly suffered higher casualties than normal as the Hellspawn -9F attempts to write checks it can't cash.",
 		"Icon": "uixTxrIcon_hellspawn"
 	},
 	"simGameMechPartCost": 490000,
