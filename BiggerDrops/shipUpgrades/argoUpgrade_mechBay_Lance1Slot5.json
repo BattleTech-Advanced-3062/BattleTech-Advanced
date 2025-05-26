@@ -7,7 +7,7 @@
 		"Id": "argoUpgrade_mechBay_Lance1Slot5",
 		"Name": "Lance A Slot 5",
 		"Details": "Increases the company's ability to field additional combat units, both mechs and vehicles, in Lance A. \n\n <b><color=#F79232>Increases Lance A Slots to 5 and increases Drop Weight Limit by 50 tons.</color></b>",
-		"Icon": "uixSvgIcon_shipUpgrade_refitharness"
+		"Icon": "leopard-a5"
 	},
 	"Illustration": "uixTxrSpot_YangWorking",
 	"Location": "UNKNOWN",
