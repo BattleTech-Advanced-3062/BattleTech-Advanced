@@ -15,7 +15,7 @@
 		"UIName": "Awesome",
 		"Id": "chassisdef_awesome_AWS-8Q-II",
 		"Name": "Awesome",
-		"Details": "Building off of the original Awesome design, the Awesome II is 20 tons heavier, carries more armor, and now mounts a quintet of PPCs tied to a targeting computer. The upgrade to double heat sinks allows its pilot to simply tape down the firing button, destroying, knocking down, or debilitating any target in no time. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "A call back to the 8M variant of Awesome, the 8M-II eschews the LRMs of its predecessor. Intead, it wires 5 ERLL to an advanced targetting computer, magnification array, and laser pulse modules to ensure its pilot can hit with pinpoint accuracy at targets even a mile away. Twenty prototype heatsinks, an exchanger and heat bank keep the mech ice cold, and Case II protects the fragile heatsinks. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_awesome"
 	},
 	"MovementCapDefID": "movedef_awesome_AWS-8Q",
@@ -112,7 +112,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 17,
+			"InventorySlots": 16,
 			"MaxArmor": 320,
 			"MaxRearArmor": 160,
 			"InternalStructure": 160
@@ -144,10 +144,6 @@
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],
@@ -234,6 +230,26 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Magnification_Array_Universal",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Cockpit_Torso_VRPP",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -275,18 +291,9 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
 		}
 	],
-	"VariantName": "AWS-8Q-II",
+	"VariantName": "AWS-8M-II",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitLowerRight",
@@ -295,7 +302,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Sniper & Defender",
-	"YangsThoughts": "Building off of the original Awesome design, the Awesome II is 20 tons heavier, carries more armor, and now mounts a quintet of PPCs tied to a targeting computer. The upgrade to double heat sinks allows its pilot to simply tape down the firing button, destroying, knocking down, or debilitating any target in no time. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"YangsThoughts": "A call back to the 8M variant of Awesome, the 8M-II eschews the LRMs of its predecessor. Intead, it wires 5 ERLL to an advanced targetting computer, magnification array, and laser pulse modules to ensure its pilot can hit with pinpoint accuracy at targets even a mile away. Twenty prototype heatsinks, an exchanger and heat bank keep the mech ice cold, and Case II protects the fragile heatsinks.  \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 	"CustomParts": {
 		"CustomParts": []
 	}
