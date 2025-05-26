@@ -17,7 +17,7 @@
 			"CPBoom: 60"
 		],
 		"ActivatableComponent": {
-			"ButtonName": "Weapon Pod (Energy)",
+			"ButtonName": "Weapon Pod (Artillery)",
 			"CanActivateAfterMove": true,
 			"FailFlatChance": 0.0,
 			"FailRoundsStart": 1,
@@ -52,7 +52,7 @@
 					"Description": {
 						"Id": "WeaponPod",
 						"Name": "Weapon Pod Engaged",
-						"Details": "The weapon pod has been activated, reducing energy weapon heat generation by 30% this turn.",
+						"Details": "The weapon pod has been activated, reducing artillery weapon heat generation by 30% this turn.",
 						"Icon": "fire-shield"
 					},
 					"statisticData": {
@@ -62,7 +62,7 @@
 						"modType": "System.Single",
 						"additionalRules": "NotSet",
 						"targetCollection": "Weapon",
-						"targetWeaponCategoryId": "Energy",
+						"targetWeaponCategoryId": "Artillery",
 						"targetWeaponType": "NotSet",
 						"targetAmmoCategory": "NotSet",
 						"targetWeaponSubType": "NotSet"
@@ -79,9 +79,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Coolant Pod",
-		"UIName": "Weapon Pod (Energy)",
-		"Id": "Gear_Weapon_Coolant_Energy",
-		"Name": "Weapon Pod (Energy)",
+		"UIName": "Weapon Pod (Artillery)",
+		"Id": "Gear_Weapon_Coolant_Artillery",
+		"Name": "Weapon Pod (Artillery)",
 		"Details": "The Weapon Pod is a specialized variant of the generic Coolant Pod. Instead of simply overcharging the carrying unit's cooling systems, the Weapon Pod is tuned to a specific weapon type and reduces the generated heat from that weapon type for a single attack. Because of its more limited range of efficacy, the Weapon Pod's effects are more powerful than the generic Coolant Pod.",
 		"Icon": "fire-shield"
 	},

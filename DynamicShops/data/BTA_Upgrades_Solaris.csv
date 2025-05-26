@@ -4,7 +4,7 @@ BTA_FCS,Reference,2,5
 BTA_Cockpit,Reference,2,5
 BTA_Gyro,Reference,2,3
 BTA_Myomer,Reference,2,4
-BTA_CoolantPod,Reference,2,3
+BTA_ThermalGear,Reference,2,3
 BTA_List_Solaris_DarkMirage,Reference,1,5
 Gear_Attachment_LaserInsulator,Upgrade,4,6
 Gear_Attachment_LaserPulseModule,Upgrade,2,3

@@ -409,6 +409,12 @@
 			"Full": "{0} Heat per Turn when Activated"
 		},
 		{
+			"Bonus": "ActiveWeaponHeatPerTurn",
+			"Short": "{0} Weapon Heat / Turn",
+			"Long": "{0} Weapon Heat / Turn",
+			"Full": "{0} Weapon Heat per Turn when Activated"
+		},
+		{
 			"Bonus": "ActiveMelee",
 			"Short": "{0} MeleeDmg",
 			"Long": "{0} Melee Damage",
