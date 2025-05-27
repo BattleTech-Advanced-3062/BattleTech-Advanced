@@ -14,14 +14,14 @@
         },
         "BonusDescriptions": [
 				"CostPerShot: 90",
-				"AmmoCount: 150"
+				"AmmoCount: 75"
             ],
 		"AmmoCost": {
 			"PerUnitCost": 90
 		}
     },
     "AmmoID": "Ammunition_MMS",
-    "Capacity": 150,
+    "Capacity": 75,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,

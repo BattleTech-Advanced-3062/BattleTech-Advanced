@@ -26,7 +26,7 @@
 		"UIName": "Marauder II MAD-4SG",
 		"Id": "mechdef_marauderII_MAD-4SG",
 		"Name": "Marauder II",
-		"Details": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Two tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Three tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_marauderii"
 	},
 	"simGameMechPartCost": 12100000,
@@ -405,9 +405,9 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_case2",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
 			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
