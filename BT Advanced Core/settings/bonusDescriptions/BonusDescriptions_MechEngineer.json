@@ -4194,6 +4194,12 @@
 			"Full": "The Inner Sphere Drone Operating System replaces a human in the cockpit with a remote-controled drone system (the cockpit is occupied by mechanical hardware to accept pilot commands). This insulates the pilot against feedback injuries while providing numerous benefits. However, it is not fool-proof. If the drone is destroyed, such as through cockpit destruction, lethal feedback can occur to the pilot controlling it from afar."
 		},
 		{
+			"Bonus": "DroneECMWeakness",
+			"Short": "Drone ECM",
+			"Long": "Drone ECM Weakness",
+			"Full": "The Inner Sphere Drone Operating System is cripplingly weak to enemy ECM coverage. If the Drone OS starts its turn inside the area of an enemy ECM, its weapon accuracy and movement speed are reduced by 99%."
+		},
+		{
 			"Bonus": "IsCannon",
 			"Short": "Cannon",
 			"Long": "Cannon",

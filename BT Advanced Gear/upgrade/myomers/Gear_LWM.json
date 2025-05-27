@@ -17,6 +17,7 @@
 		"BonusDescriptions": [
 			"WalkSpeed: -10%",
 			"RunSpeed: -0.1",
+			"StructureFactor: 25%",
 			"Dynamic: 6"
 		],
 		"DynamicSlots": {
