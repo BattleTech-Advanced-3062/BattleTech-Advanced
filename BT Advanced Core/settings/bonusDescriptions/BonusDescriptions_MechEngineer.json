@@ -2625,7 +2625,7 @@
 			"Bonus": "BallisticMinRange",
 			"Short": "{0} Ball.MinRange",
 			"Long": "{0} Ballistic Min.Range",
-			"Full": "{0} minimum Range with Ballistic Weapons"
+			"Full": "{0} minimum Range with Ballistic hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticACMinRange",
@@ -2637,25 +2637,25 @@
 			"Bonus": "EnergyMinRange",
 			"Short": "{0} Enrg.MinRange",
 			"Long": "{0} Energy Min.Range",
-			"Full": "{0} minimum Range with Energy Weapons"
+			"Full": "{0} minimum Range with Energy hardpoint Weapons"
 		},
 		{
 			"Bonus": "MissileMinRange",
 			"Short": "{0} Miss.MinRange",
 			"Long": "{0} Missile Min.Range",
-			"Full": "{0} minimum Range with Missile Weapons"
+			"Full": "{0} minimum Range with Missile hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticRange",
 			"Short": "{0} Ball.Range",
 			"Long": "{0} Ballistic Range",
-			"Full": "{0} increased Range with Ballistic Weapons"
+			"Full": "{0} increased Range with Ballistic hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticMaxRange",
 			"Short": "{0} Max Ball.Range",
 			"Long": "{0} Max Ballistic Range",
-			"Full": "{0} increased maximum range with ballistic weapons"
+			"Full": "{0} increased maximum range with ballistic hardpoint weapons"
 		},
 		{
 			"Bonus": "BallisticACRange",
@@ -2667,25 +2667,25 @@
 			"Bonus": "EnergyRange",
 			"Short": "{0} Enrg.Range",
 			"Long": "{0} Energy Range",
-			"Full": "{0} increased Range with Energy Weapons"
+			"Full": "{0} increased Range with energy hardpoint weapons"
 		},
 		{
 			"Bonus": "EnergyMaxRange",
 			"Short": "{0} Max Enrg.Range",
 			"Long": "{0} Max Energy Range",
-			"Full": "{0} increased maximum range with energy weapons"
+			"Full": "{0} increased maximum range with energy hardpoint weapons"
 		},
 		{
 			"Bonus": "MissileRange",
 			"Short": "{0} Miss.Range",
 			"Long": "{0} Missile Range",
-			"Full": "{0} increased Range with Missile Weapons"
+			"Full": "{0} increased Range with Missile hardpoint Weapons"
 		},
 		{
 			"Bonus": "MissileMaxRange",
 			"Short": "{0} Max Miss.Range",
 			"Long": "{0} Max Missile Range",
-			"Full": "{0} increased maximum range with missile weapons"
+			"Full": "{0} increased maximum range with missile hardpoint weapons"
 		},
 		{
 			"Bonus": "SRMRange",
