@@ -8,7 +8,7 @@
 		"UIName": "Helepolis",
 		"Id": "chassisdef_helepolis_HEP-3R",
 		"Name": "Helepolis",
-		"Details": "First unleashed by the Terran Hegemony in 2460, the Helepolis is a ponderous BattleMech designed to deliver artillery fire. When the Terran Hegemony was restored in 3036, the Helepolis was put back into production by Terran factories. A new variant, the HEP-3R, uses the same Sniper Artillery Piece as the original but uses a 225-rated Light Fusion Engine for power and Endo-Composite structure and Ferro-Fibrous armor for weight-savings. It puts these cutting-edge technologies towards improving the backup weaponry to a Large and Medium X-Pulse Laser as well as twin MML-7s with four total tons of ammo housed in a CASE II protected bin.",
+		"Details": "First unleashed by the Terran Hegemony in 2460, the Helepolis is a ponderous BattleMech designed to deliver artillery fire. When the Terran Hegemony was restored in 3036, the Helepolis was put back into production by Terran factories. A new variant, the HEP-3R, uses the same Sniper Artillery Piece as the original but uses a 225-rated Light Fusion Engine for power and Endo-Composite structure and Ferro-Fibrous armor for weight-savings. It puts these cutting-edge technologies towards improving the backup weaponry to a Large and Medium X-Pulse Laser as well as twin MML-7s with three total tons of ammo housed in a CASE II protected bin.",
 		"Icon": "uixTxrIcon_helepolis"
 	},
 	"MovementCapDefID": "movedef_helepolis_HEP-2H",
@@ -106,7 +106,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
 			"InternalStructure": 115
@@ -220,7 +220,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Artillery Support",
-	"YangsThoughts": "First unleashed by the Terran Hegemony in 2460, the Helepolis is a ponderous BattleMech designed to deliver artillery fire. When the Terran Hegemony was restored in 3036, the Helepolis was put back into production by Terran factories. A new variant, the HEP-3R, uses the same Sniper Artillery Piece as the original but uses a 225-rated Light Fusion Engine for power and Endo-Composite structure and Ferro-Fibrous armor for weight-savings. It puts these cutting-edge technologies towards improving the backup weaponry to a Large and Medium X-Pulse Laser as well as twin MML-7s with four total tons of ammo housed in a CASE II protected bin.",
+	"YangsThoughts": "First unleashed by the Terran Hegemony in 2460, the Helepolis is a ponderous BattleMech designed to deliver artillery fire. When the Terran Hegemony was restored in 3036, the Helepolis was put back into production by Terran factories. A new variant, the HEP-3R, uses the same Sniper Artillery Piece as the original but uses a 225-rated Light Fusion Engine for power and Endo-Composite structure and Ferro-Fibrous armor for weight-savings. It puts these cutting-edge technologies towards improving the backup weaponry to a Large and Medium X-Pulse Laser as well as twin MML-7s with three total tons of ammo housed in a CASE II protected bin.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "LeftLeg",

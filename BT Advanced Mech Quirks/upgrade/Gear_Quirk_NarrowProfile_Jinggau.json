@@ -42,7 +42,7 @@
 		"UIName": "Jinggau Narrow Profile",
 		"Id": "Gear_Quirk_NarrowProfile_Jinggau",
 		"Name": "Jinggau Narrow Profile",
-		"Details": "This piece of gear represents the Jinggau's inherent Narrow Profile quirk. This gives the Lancelot bonus hit defense due to its smaller profile.",
+		"Details": "This piece of gear represents the Jinggau's inherent Narrow Profile quirk. This gives the Jinggau bonus hit defense due to its smaller profile.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "+1 Hit Defense",

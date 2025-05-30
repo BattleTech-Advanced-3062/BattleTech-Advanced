@@ -153,6 +153,20 @@
 				"InventorySorter": "7",
 				"Sorter": 1000
 			}
+		},
+		{
+			"Name": "CommsGear",
+			"displayName": "Communication Equipment",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "8",
+				"Sorter": 1000
+			}
 		}
 	]
 }

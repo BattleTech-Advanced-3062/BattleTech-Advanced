@@ -91,7 +91,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
 			"InternalStructure": 115
@@ -231,6 +231,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		},
 		{
 			"MountedLocation": "CenterTorso",

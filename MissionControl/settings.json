@@ -267,6 +267,10 @@
 			{
 				"MapId": "mapGeneral_escarpmentValley_vLow",
 				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_theMound_vHigh",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},

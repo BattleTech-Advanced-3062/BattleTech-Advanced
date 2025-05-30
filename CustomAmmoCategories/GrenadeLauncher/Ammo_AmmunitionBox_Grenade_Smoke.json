@@ -20,14 +20,14 @@
 			"SmokeSight: 80%",
 			"Signature: 25%",
 			"CostPerShot: 500",
-			"AmmoCount: 5"
+			"AmmoCount: 8"
 		],
 		"AmmoCost": {
 			"PerUnitCost": 500
 		}
 	},
 	"AmmoID": "Ammunition_Grenade_Smoke",
-	"Capacity": 5,
+	"Capacity": 8,
 	"Description": {
 		"Cost": 40000,
 		"Rarity": 1,

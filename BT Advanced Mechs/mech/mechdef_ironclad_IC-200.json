@@ -674,8 +674,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Coolant_Pod",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Coolant_Pod_x2",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -755,17 +755,6 @@
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Coolant_Pod",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

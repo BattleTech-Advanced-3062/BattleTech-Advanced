@@ -406,7 +406,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

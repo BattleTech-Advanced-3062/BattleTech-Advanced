@@ -11,6 +11,7 @@
 			"9thDivisionWoB",
 			"WoBProtectorateMilitia",
 			"ComStar",
+			"2ndArmyVMu",
 			"11thArmyVEta",
 			"7thArmyVIota",
 			"Cameron",
@@ -417,7 +418,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",

@@ -24,7 +24,7 @@
 		"UIName": "Royal Ostroc OSR-2CB-K",
 		"Id": "mechdef_ostroc_OSR-2CB-K",
 		"Name": "Royal Ostroc",
-		"Details": "Gifted to Kamea Arano's Restoration by ComStar, this Royal Ostroc has seen some refits as befits Kamea's status as the ruler of the Aurigan Reach. Because Kamea is not just a ruler but is a symbol of the Restoration her mechtechs decided to amplify the survivability of her Ostroc as much as possible. Though it mounts an XL engine, this was done to permit the carrying of almost 23 tons of Hardened Armor, ensuring Kamea's survival through just about any battlefield experience. For firepower, the OSR-2CB-K carries two each ER Large and ER Medium Lasers, which are amplified by a cutting-edge Target and Tracking System. Finally, Kamea's cockpit itself is shielded by an Armored Cowl, for maximum protection.",
+		"Details": "Gifted to Kamea Arano's Restoration by ComStar, this Royal Ostroc has seen some refits as befits Kamea's status as the ruler of the Aurigan Reach. Because Kamea is not just a ruler but is a symbol of the Restoration her mechtechs decided to amplify the survivability of her Ostroc as much as possible. Though it mounts an XL engine, this was done to permit the carrying of almost 23 tons of Hardened Armor, ensuring Kamea's survival through just about any battlefield experience. For firepower, the OSR-2CB-K carries two each ER Large and ER Medium Lasers, which are amplified by a MASC system for bursts of speed. Finally, Kamea's cockpit itself is shielded by an Hardened Cockpit, for maximum protection.",
 		"Icon": "uixTxrIcon_ostroc"
 	},
 	"simGameMechPartCost": 700000,
@@ -259,8 +259,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_MASC",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -363,6 +363,17 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
 			"SimGameUID": null,
@@ -390,6 +401,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

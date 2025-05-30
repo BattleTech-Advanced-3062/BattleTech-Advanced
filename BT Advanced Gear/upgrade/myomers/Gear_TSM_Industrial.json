@@ -1,8 +1,13 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "ProtoTSM"
-		},
+		"Category": [
+			{
+				"CategoryID": "ProtoTSM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
 			"not_broken",
 			"no_salvage",
@@ -13,11 +18,11 @@
 			"PunchDamageBonus: +50%",
 			"KickDamageBonus: +30%",
 			"PhysWeapDamageBonus: +30%",
-			"Dynamic: 11"
+			"Dynamic: 12"
 		],
 		"DynamicSlots": {
-			"ReservedSlots": 11,
-			"ShowIcon": false,
+			"ReservedSlots": 12,
+			"ShowIcon": true,
 			"NameText": "Industrial TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
@@ -36,7 +41,7 @@
 		"Id": "Gear_TSM_Industrial",
 		"Name": "T.S.M. Industrial",
 		"Details": "Industrial TSM is the version of TSM that was created after the original experiments with it in the 3030s. It increases the physical attack damage of the carrying mech by 50% while having no other effects on the combat capability of the design in any way. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
-		"Icon": "offroad-racer"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -46,7 +51,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

@@ -9,22 +9,22 @@
 			"not_broken"
 		],
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 35,
-			"StabilityDamagePerAmmo": 3
+			"ExplosionDamagePerAmmo": 30,
+			"StabilityDamagePerAmmo": 15
 		},
 		"BonusDescriptions": [
-			"AreaOfEffect: 60",
-			"AreaOfEffectDmg: 45",
+			"AreaOfEffect: 30",
+			"AreaOfEffectDmg: 60",
 			"AreaOfEffectSTABDmg: 15",
 			"CostPerShot: 500",
-			"AmmoCount: 5"
+			"AmmoCount: 8"
 		],
 		"AmmoCost": {
 			"PerUnitCost": 500
 		}
 	},
 	"AmmoID": "Ammunition_Grenade_HiEx",
-	"Capacity": 5,
+	"Capacity": 8,
 	"Description": {
 		"Cost": 40000,
 		"Rarity": 1,

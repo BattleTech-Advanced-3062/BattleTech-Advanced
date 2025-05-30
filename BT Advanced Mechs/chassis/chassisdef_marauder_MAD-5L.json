@@ -91,7 +91,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
 			"InternalStructure": 115
@@ -233,7 +233,7 @@
 			"DamageLevel": "Functional",
 			"GUID": null,
 			"HardpointSlot": -1,
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"SimGameUID": "",
 			"hasPrefabName": false,
 			"prefabName": null

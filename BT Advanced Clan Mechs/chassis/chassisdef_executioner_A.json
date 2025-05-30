@@ -107,7 +107,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_MASC_CLAN_Omni",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -254,7 +254,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 225,
 			"MaxRearArmor": 75,
 			"InternalStructure": 150

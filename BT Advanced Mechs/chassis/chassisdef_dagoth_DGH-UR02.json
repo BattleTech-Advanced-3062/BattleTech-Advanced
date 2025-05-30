@@ -116,7 +116,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 210,
 			"MaxRearArmor": 105,
 			"InternalStructure": 105
@@ -300,7 +300,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "emod_arm_part_hand",
+			"ComponentDefID": "Gear_Shield_Hand_Large",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,

@@ -8,7 +8,7 @@
 		"UIName": "Marauder II",
 		"Id": "chassisdef_marauderII_MAD-4SG",
 		"Name": "Marauder II",
-		"Details": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Two tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Three tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_marauderii"
 	},
 	"MovementCapDefID": "movedef_marauderII_MAD-4A",
@@ -104,7 +104,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 310,
 			"MaxRearArmor": 155,
 			"InternalStructure": 155
@@ -230,7 +230,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Sniper & Ranged Assault",
-	"YangsThoughts": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Two tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"YangsThoughts": "This Marauder II has been modified to be able to carry a superweapon, the HISC Hyper Laser. Backing up the phenomenally powerful Hyper Laser are a pair of simple yet effective Gauss Rifles. A 300-rated XL engine gives plenty of weight for the warload while 14 DHS and an advanced Heat Exchanger help manage the Hyper Laser's heat generation. Three tons of ammo is sufficient for shorter engagements, if a little light.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

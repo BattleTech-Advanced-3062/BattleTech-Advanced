@@ -15,7 +15,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",
@@ -39,7 +39,7 @@
 		"UIName": "UrbanMech UM-B27",
 		"Id": "mechdef_urbanmech_UM-B27",
 		"Name": "UrbanMech",
-		"Details": "From The Secret Lab Of Doctor Science, this custom Urbanmech has space for two entire Battle Armor squads, with firing ports, inside the Right Torso. It has a Core 060 for power as well as a Light AC/5 and Small Laser for 'firepower'. It's really there just for the Battle Armor Bay.",
+		"Details": "From The Secret Lab Of Doctor Science, this custom Urbanmech has space for two entire Battle Armor squads, with firing ports, inside the Right Torso. It has a Core 060 for power as well as a Light AC/5 and Small Laser for 'firepower'. It's really there just for the Battle Armor Bay. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_urbanmech"
 	},
 	"simGameMechPartCost": 250000,

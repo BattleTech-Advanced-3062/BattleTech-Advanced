@@ -39,6 +39,36 @@
 			}
 		}
 	},
+	"StatusEffect_ECM-DroneOS-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-DroneOS-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ECM-DroneOS-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
 	"StatusEffect_ViralJammer-VRPP-Jamming": {
 		"TargetCollectionsForSearch": {
 			"Component": {
@@ -65,6 +95,96 @@
 				"MustMatchAll": false,
 				"TargetCollectionTagMatch": [
 					"VRPP"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-WeaponJamming": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-WalkSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Allies-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
+				]
+			}
+		}
+	},
+	"StatusEffect_ViralJammer-DroneOS-Creator-RunSpeed": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"DroneOS"
 				]
 			}
 		}

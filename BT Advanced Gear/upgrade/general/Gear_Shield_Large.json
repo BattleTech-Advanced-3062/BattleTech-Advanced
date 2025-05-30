@@ -3,6 +3,14 @@
 		"Category": {
 			"CategoryID": "CombatShield"
 		},
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Large",
+					"Location": "LeftArm"
+				}
+			]
+		},
 		"BonusDescriptions": [
 			"ModularArmor: +125",
 			"ArmAccuracy: -1"
@@ -13,7 +21,7 @@
 	},
 	"StatName": null,
 	"Description": {
-		"Cost": 500000,
+		"Cost": 1500000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Solaris VII",
@@ -22,7 +30,7 @@
 		"Id": "Gear_Shield_Large",
 		"Name": "Large Shield",
 		"Details": "Designed for the arenas of Solaris VII, BattleMech Shields are a mostly untested technology, though they're not terribly complex. Mountable only in the arms, a BattleMech Shield provides additional armor protection for the carrying mech as it uses the shield to soak incoming fire. The Large Shield is the largest of the BattleMech Shields and provides the most protection of the three.",
-		"Icon": "shield-reflect"
+		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -30,9 +38,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 7,
+	"InventorySize": 6,
 	"Tonnage": 6,
-	"AllowedLocations": "LeftArm, RightArm",
+	"AllowedLocations": "LeftArm",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -52,7 +60,7 @@
 				"Id": "StatusEffect-Shield_Large-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

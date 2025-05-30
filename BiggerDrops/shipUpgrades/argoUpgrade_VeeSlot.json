@@ -7,7 +7,7 @@
 		"Id": "argoUpgrade_VeeSlot",
 		"Name": "Vehicle Drop 3",
 		"Details": "Increases the company's ability to field an additional combat vehicle. <b><color=#F79232>Increases Vehicle-Only Slots to 3 and increases Drop Weight Limit by 50 tons.</color></b>",
-		"Icon": "uixSvgIcon_shipUpgrade_automation"
+		"Icon": "vee-a3"
 	},
 	"Illustration": "uixTxrSpot_YangWorking",
 	"Location": "UNKNOWN",

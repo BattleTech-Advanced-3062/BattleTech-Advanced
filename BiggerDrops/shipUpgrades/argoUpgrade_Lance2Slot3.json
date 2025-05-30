@@ -7,7 +7,7 @@
 		"Id": "argoUpgrade_Lance2Slot3",
 		"Name": "Lance B Slot 3",
 		"Details": "Increases the company's ability to field additional combat units, both mechs and vehicles, in Lance B. \n\n <b><color=#F79232>Increases Lance B Slots to 3 and increases Drop Weight Limit by 50 tons</color></b>",
-		"Icon": "uixSvgIcon_shipUpgrade_arcade"
+		"Icon": "leopard-b3"
 	},
 	"Illustration": "uixTxrSpot_YangWorking",
 	"Location": "UNKNOWN",

@@ -368,7 +368,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Improved-Bank",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

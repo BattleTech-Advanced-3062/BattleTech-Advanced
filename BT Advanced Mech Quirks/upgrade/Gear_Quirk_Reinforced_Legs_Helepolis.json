@@ -19,7 +19,8 @@
     ],
     "BonusDescriptions": [
         "ModularArmor: +75",
-        "Reinforced: +75"
+        "Reinforced: +75",
+		"KnockdownImmunity"
     ],
     "Flags": [
 		"default",

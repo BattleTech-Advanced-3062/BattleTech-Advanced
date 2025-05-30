@@ -1,0 +1,89 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"BonusDescriptions": [
+			"StructureDmgMod: 2",
+			"WpnCrits: -80%",
+			"MissileHealth: 1",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID" : "Superweapon",
+	"Type": "LRM",
+	"WeaponSubType": "LRM20",
+	"MinRange": 0,
+	"MaxRange": 720,
+	"RangeSplit": [
+		180,
+		360,
+		540
+	],
+	"AmmoCategory": "MMS",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 40,
+	"Damage": 4,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 2,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.2,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 15,
+	"ProjectilesPerShot": 2,
+	"AttackRecoil": 1,
+	"Instability": 1,
+	"StructureDamage": 2,
+	"ColorsTable": [
+		{
+		  "C": "#fcaf25",
+		  "I": 5
+		}
+	],
+	"MissileHealth": 1,
+	"ImprovedBallistic": true,
+	"HitGenerator": "Cluster",
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
+	"Description": {
+		"Cost": 1505000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Sanctuary Manufacturing",
+		"Model": "Micro-Missile System",
+		"UIName": "MMS (S)",
+		"Id": "Weapon_MMS",
+		"Name": "Micro-Missile System (S)",
+		"Details": "The MMS, or Micro-Missile System, is a unique weapon system developed by the Jacobson Haven after stealing research from the Mallard Republic. The MMS fires a hail of missiles, each of which is equipped with a piercing warhead and is armed with inferno gel to ensure that no defense is sufficient against the system. The MMS deals tremendous damage to armor, structure, and the target's heat control systems, guaranteeing nothing is secure when a MMS takes the field. The Haven quickly put the MMS into production and developed the Dillinger BattleMech to carry the system into battle.",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "lrm20",
+	"BattleValue": 0,
+	"InventorySize": 5,
+	"Tonnage": 14,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"SuperweaponFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

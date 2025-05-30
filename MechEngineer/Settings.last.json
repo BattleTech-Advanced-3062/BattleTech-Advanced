@@ -896,14 +896,16 @@
         "MechLabMechRightShift" : 0,
         "MechLabArmTopPadding" : 120,
         "TopLeftWidget" : {
+			"Enabled": true,
             "Label" : "Chassis",
             "ShortLabel" : "S",
             "Slots" : 3
         },
         "TopRightWidget" : {
-            "Label" : "Quirk",
-            "ShortLabel" : "Q",
-            "Slots" : 0
+			"Enabled": true,
+            "Label" : "Cooling",
+            "ShortLabel" : "C",
+            "Slots" : 2
         }
     },
     "MoveMultiplierStat" : {

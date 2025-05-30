@@ -1,5 +1,8 @@
 {
   "Custom": {
+	"Category": {
+			"CategoryID": "notused"
+	},
 	"MM_LinkedActor": {
 	  "CUVehicleDefId" : "vehicledef_RATTLERSL_TRACK_LEFT_FRONT",
 	  "PilotDefId" : "pilot_rattler_turret",

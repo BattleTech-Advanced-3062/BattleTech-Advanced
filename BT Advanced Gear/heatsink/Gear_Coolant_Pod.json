@@ -2,10 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "HeatSink"
-			},
-			{
-				"CategoryID": "CoolantPod"
+				"CategoryID": "ThermalGear"
 			}
 		],
 		"ComponentExplosion": {
@@ -14,13 +11,14 @@
 			"StabilityDamage": 15
 		},
 		"BonusDescriptions": [
-				"Activatable",
-				"ActivatableUses: 1",
-				"ActiveHeatPerTurn: -30",
-				"CPBoom: 30"
-			],
+			"Activatable",
+			"ActivatableUses: 1",
+			"ActiveHeatPerTurn: -30",
+			"CPBoom: 30"
+		],
 		"ActivatableComponent": {
 			"ButtonName": "Coolant Pod",
+			"CanActivateAfterMove": true,
 			"FailFlatChance": 0.0,
 			"FailRoundsStart": 1,
 			"FailChancePerTurn": 0.0,
@@ -70,7 +68,7 @@
 	},
 	"DissipationCapacity": 0,
 	"Description": {
-		"Cost": 360000,
+		"Cost": 100000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
@@ -79,7 +77,7 @@
 		"Id": "Gear_Coolant_Pod",
 		"Name": "Coolant Pod",
 		"Details": "Designed to provide temporary extra cooling, the Coolant Pod effectively supercharges the mech's existing cooling systems, providing a minor boost to overall cooling when activated. However, Coolant Pods are explosive when struck by Mech scale weaponry.",
-		"Icon": "uixSvgIcon_equipment_Heatsink"
+		"Icon": "fire-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -89,7 +87,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 1,
-	"AllowedLocations": "All",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],

@@ -3,9 +3,6 @@
 		"Category": [
 			{
 				"CategoryID": "w/s/m/melee"
-			},
-			{
-				"CategoryID": "MeleeWeaponHandRequired"
 			}
 		],
 		"BonusDescriptions": [

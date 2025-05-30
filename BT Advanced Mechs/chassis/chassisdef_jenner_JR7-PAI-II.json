@@ -8,7 +8,7 @@
 		"UIName": "Jenner",
 		"Id": "chassisdef_jenner_JR7-PAI-II",
 		"Name": "Jenner",
-		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II differ only in the setup of their heat sinking.   The PAI-II has 2 prototype Freezers installed in lieu of 2 of the single heat sinks of the PAI-I.   Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL20s.   The Chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
+		"Details": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II differ only in the setup of their heat sinking.   The PAI-II has 2 prototype Freezers installed in lieu of 2 of the single heat sinks of the PAI-I.   Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL15s.   The Chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
 		"Icon": "uixTxrIcon_jenner"
 	},
 	"MovementCapDefID": "movedef_jenner_JR7-D",
@@ -105,7 +105,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 110,
 			"MaxRearArmor": 55,
 			"InternalStructure": 55
@@ -214,7 +214,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Fast Striker Cavalry",
-	"YangsThoughts": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II differ only in the setup of their heat sinking.   The PAI-II has 2 prototype Freezers installed in lieu of 2 of the single heat sinks of the PAI-I.   Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL20s.   The Chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
+	"YangsThoughts": "Made by Periphery Arms as a means to bring the medium Binary Laser on a fast scout, the closely related JR7-PAI-I and JR7-PAI-II differ only in the setup of their heat sinking.   The PAI-II has 2 prototype Freezers installed in lieu of 2 of the single heat sinks of the PAI-I.   Armament consists of 2 Medium Binary Lasers, 2 Flamers, and 2 Inferno RL15s.   The Chassis is built upon periphery prototype endo-steel and protected by the very cost effective Retro Light Plating.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

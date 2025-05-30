@@ -371,7 +371,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Laser_LargeLaser_1-Diverse_Optics",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",

@@ -15,10 +15,11 @@
 			}
 		},
 		"BonusDescriptions": [
-				"StabDamageTaken: -40%",
-				"GyroStab: 60",
-				"GyroWeight: +60%"
-			],
+			"StabDamageTaken: -40%",
+			"GyroStab: 60",
+			"DamageReduction: 10%",
+			"GyroWeight: +60%"
+		],
 		"Weights": {
 			"StructureFactor": 1.6
 		}
@@ -35,7 +36,7 @@
 		"UIName": "Gyro Heavy Duty",
 		"Id": "Gear_Gyro_Heavy_Duty",
 		"Name": "Heavy Duty Gyro",
-		"Details": "Developed by the Draconis Combine in the 3060s, the Heavy Duty Gyro provides myriad defense boons to its equipped mech. In addition to providing a boost to the threshold at which a mech becomes unsteady, the Heavy Duty Gyro also heavily reduces the amount of incoming stability damage dealt to the carrying mech. However, it comes at a cost: the Heavy Duty Gyro is much heavier than a standard gyro, taking up much more weight.",
+		"Details": "Developed by the Draconis Combine in the 3060s, the Heavy Duty Gyro provides myriad defense boons to its equipped mech. In addition to providing a boost to the threshold at which a mech becomes unsteady, the Heavy Duty Gyro also heavily reduces the amount of incoming stability damage dealt to the carrying mech. Finally, the Heavy Duty Gyro also helps the carrying 'Mech absorb more firepower, effectively reducing incoming damage. However, it comes at a cost: the Heavy Duty Gyro is much heavier than a standard gyro, taking up much more weight.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -59,13 +60,13 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInStatusPanel": true
 			  },
 			  "effectType": "StatisticEffect",
 			  "Description": {
 				"Id": "StatusEffect-Gyro-HeavyDutyStabDecrease",
-				"Name": "INCOMING STABILITY DAMAGE DECREASED",
-				"Details": "Incoming stability damage reduced by [AMT].",
+				"Name": "Heavy Duty Gyro",
+				"Details": "The Heavy Duty Gyro reduces incoming damage by 10%, incoming stability damage by 40%, and increases the carrying 'Mech's stability threshold by 60.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			  },
 			  "nature": "Buff",
@@ -103,6 +104,28 @@
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-HeavyDutyDR",
+				"Name": "Heavy Duty Gyro DR",
+				"Details": "All incoming damage increased by 10%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single"
+			}
 		}
 	],
 	"ComponentTags": {

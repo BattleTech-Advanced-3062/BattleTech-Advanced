@@ -112,7 +112,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
 			"InternalStructure": 115
@@ -229,7 +229,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Quirk_BarrelFist_Hammerhands_Hero",
+			"ComponentDefID": "Gear_Quirk_BarrelFist_Hammerhands_Hero_Left",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

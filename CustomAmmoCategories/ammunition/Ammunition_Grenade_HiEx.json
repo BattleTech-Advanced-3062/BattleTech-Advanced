@@ -17,7 +17,7 @@
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
 	"AOECapable": true,
-	"AOERange": 60,
-	"AOEDamage": 45,
+	"AOERange": 30,
+	"AOEDamage": 60,
 	"AOEInstability": 15
 }

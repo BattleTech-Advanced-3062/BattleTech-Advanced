@@ -83,6 +83,10 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "Missile",
 					"Omni": false
 				},
@@ -106,7 +110,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 320,
 			"MaxRearArmor": 160,
 			"InternalStructure": 160
@@ -114,6 +118,10 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Ballistic",
 					"Omni": false

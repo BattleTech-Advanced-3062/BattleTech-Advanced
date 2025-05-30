@@ -1,0 +1,63 @@
+{
+	"Description": {
+		"Id": "pilot_bd_MorgantheBear",
+		"Name": "Claymore",
+		"FirstName": "Sir James",
+		"LastName": "Gladstone",
+		"Callsign": "Claymore",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "62",
+		"Details": "Sir James William Gladstone was born on Northwind to successful merchant parents, the second of three children, who used their influence to secure him a place at the prestigious Northwind Military Academy.\r\n\r\nWhilst at the academy he was subject to ruthless bullying due to his slight frame and method of entry, however he always seemed to eventually get the upper hand against those who tormented him through a combination of an almost preternatural ability to read any situation, both tactically, socially and politically, effectively using brains over brawn to defeat his tormentors. Eventually, he graduated NMA with honours in 3024 and was accepted as a recon lance commander with the 2nd Kearny Highlanders.\r\n\r\nJames served with the highlanders through the fourth succession war, the War of 3039 and the Clan Invasion, reaching the rank of Lieutenant Colonel when transferred to Macleod’s Regiment as their XO in 3050. In 3058, James revealed himself as a member of the Royal Black Watch Regiment and accompanied Macleod’s Regiment as part of Task Force Serpent and was only one of three survivors after the annihilation of Clan Smoke Jaguar on Huntress.\r\n\r\nJames eventually retired in 3061 with full military honours and a knighthood for his actions during the battles on Huntress. Gifted with his beloved Battlemaster “Nessie” as a well-earned retirement gift, he now travels the Inner Sphere as a freelance mercenary, with the one un-negotiable requirement that he is still be allowed to play bagpipe tunes on his external speakers once battle is engaged.\r\n\r\n<b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Morgan"
+	},
+	"BaseGunnery": "6",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "8",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_raju",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefRefireReduceOne",
+		"AbilityDefG5a",
+		"TraitDefGunneryHeatBonus1",
+		"TraitDefSprintIncrease10",
+		"TraitDefHealthAddOne",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"AbilityDefT5Aa",
+		"TraitDefCalledShotImprove",
+		"TraitDefIndirectReduceTwo",
+		"TraitDefMinRangeReduce90",
+		"AbilityDefT8A"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_military",
+			"name_Morgan",
+			"pilot_officer",
+			"pilot_brave",
+			"pilot_command",
+			"pilot_dependable",
+			"pilot_noble"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

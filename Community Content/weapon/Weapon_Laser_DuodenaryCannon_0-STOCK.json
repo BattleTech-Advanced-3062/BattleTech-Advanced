@@ -1,0 +1,109 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/er"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnCrits: +50%",
+				"WpnAccuracy: +1",
+				"ModalWeapon: Linked Cores",
+				"ModalWeapon1: Split Cores",
+				"WeaponAttachmentCompatible: Laser Insulator",
+				"WeaponAttachmentCompatible: Laser FCS"
+			]
+	},
+	"Category": "Energy",
+	"Type": "Laser",
+	"WeaponSubType": "MediumLaserER",
+	"MinRange": 0,
+	"MaxRange": 480,
+	"RangeSplit": [
+		120,
+		240,
+		360
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 54,
+	"Damage": 90,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1.5,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"ColorsTable": [
+		{
+		  "C": "#FF2F90",
+		  "I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"HitGenerator": "Cluster",
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+	"FireDelayMultiplier": 0.01,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
+	"Description": {
+		"Cost": 95000,
+		"Rarity": 20,
+		"Purchasable": false,
+		"Manufacturer": "SCI",
+		"Model": "Duodenary Laser Cannon",
+		"UIName": "'Dazer' Cannon",
+		"Id": "Weapon_Laser_DuodenaryCannon_0-STOCK",
+		"Name": "Duodenary Laser Cannon",
+		"Details": "Essentially a massive array of twelve ER medium lasers, the so called 'Dazer' Cannon features integrated cooling and linked cores, allowing them to be fired together or seperately. However, despite greater increased penetration, the damage potential is reduced by over 66%, leaving it as a weapon with niche applications at dealing critical damage. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixSvgIcon_weapon_Energy"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 8,
+	"Tonnage": 13,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "Split_Cores",
+			"UIName": "Split",
+			"isBaseMode": false,
+			"HitGenerator": "Cluster",
+			"ProjectilesPerShot": 12
+		},
+		{
+			"Id": "Linked_Cores",
+			"UIName": "Linked",
+			"isBaseMode": true
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_standard",
+			"LaserInsulatorAttachable.{location}",
+			"LaserInsulatorSupported-Binary",
+			"LaserFCSSupported-Binary",
+			"WebbTCSupported-Binary"
+		],
+		"tagSetSourceFile": ""
+	}
+}

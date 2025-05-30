@@ -16,12 +16,12 @@
     "Type" : "PPC",
     "WeaponSubType" : "PPC",
     "MinRange" : 0,
-    "MaxRange" : 360,
-    "RangeSplit" : [
-        90,
-        180,
-        270
-    ],
+    "MaxRange": 500,
+	"RangeSplit": [
+		200,
+		300,
+		400
+	],
     "AmmoCategory" : "NotSet",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 20,
@@ -30,7 +30,7 @@
     "EvasiveDamageMultiplier" : 0,
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
-    "HeatDamage" : 30,
+    "HeatDamage" : 35,
     "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1.25,
     "AOECapable" : false,
@@ -49,6 +49,7 @@
 	"ImprovedBallistic": true,
 	"ColorSpeedChange": 1,
 	"ColorChangeRule": "Linear",
+	"ProjectileSpeedMultiplier": 1.5,
 	"TrooperSquadDamageModifier": 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_PPC",
     "Description" : {

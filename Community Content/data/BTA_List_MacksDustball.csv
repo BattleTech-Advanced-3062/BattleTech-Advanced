@@ -30,6 +30,7 @@ Weapon_Autocannon_PAC2_CLAN,Weapon,0,10
 Weapon_Autocannon_PAC4_CLAN,Weapon,0,10
 Weapon_Autocannon_PAC8_CLAN,Weapon,0,10
 Weapon_Laser_BinaryHeavy_0-STOCK,Weapon,0,10
+Weapon_Laser_DuodenaryCannon_0-STOCK,Weapon,0,10
 Weapon_Laser_RotaryLargeLaserPulse_CLAN,Weapon,0,10
 Weapon_Laser_RotaryMediumLaserPulse_CLAN,Weapon,0,10
 Weapon_Laser_RotarySmallLaserPulse_CLAN,Weapon,0,10
@@ -110,3 +111,4 @@ mechdef_thanatos_TNS-MKD,Mech,0,10
 mechdef_kiso_K-3N-PB9,Mech,0,10
 mechdef_scylla_SCY-MKD,Mech,0,10
 mechdef_quickdraw_QKD-7M,Mech,0,10
+mechdef_marauderII_MAD-4SG,Mech,0,10

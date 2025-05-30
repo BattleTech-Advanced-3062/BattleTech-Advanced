@@ -429,7 +429,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_TSM",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",

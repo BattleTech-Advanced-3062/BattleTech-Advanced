@@ -279,48 +279,36 @@
 		{
 			"Tag": "TSM",
 			"IncompatibleTags": [
-				"MASC",
 				"AESArm",
 				"AESLeg",
-				"ProtoTSM",
 				"OmniGyro",
-				"SCM",
 				"ProtoMech"
 			]
 		},
 		{
 			"Tag": "TSMOmni",
 			"IncompatibleTags": [
-				"MASC",
 				"AESArm",
 				"AESLeg",
-				"ProtoTSM",
-				"SCM",
-				"TSM"
+				"ProtoMech"
 			]
 		},
 		{
 			"Tag": "MASC",
 			"IncompatibleTags": [
-				"TSM",
 				"AESArm",
 				"AESLeg",
 				"Supercharger",
-				"ProtoTSM",
 				"MASCOmni",
-				"SCM",
 				"OmniGyro"
 			]
 		},
 		{
 			"Tag": "MASCOmni",
 			"IncompatibleTags": [
-				"TSM",
 				"AESArm",
 				"AESLeg",
 				"Supercharger",
-				"ProtoTSM",
-				"SCM",
 				"MASC"
 			]
 		},
@@ -332,6 +320,10 @@
 				"MASCOmni",
 				"TarComp",
 				"SCM",
+				"SEM",
+				"BTM",
+				"ACM",
+				"LWM",
 				"ProtoTSM"
 			]
 		},
@@ -343,17 +335,54 @@
 				"MASCOmni",
 				"TarComp",
 				"SCM",
+				"SEM",
+				"BTM",
+				"ACM",
+				"LWM",
 				"ProtoTSM"
 			]
 		},
 		{
 			"Tag": "SCM",
 			"IncompatibleTags": [
-				"MASC",
 				"AESArm",
 				"AESLeg",
-				"TSM",
-				"ProtoTSM",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "SEM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "BTM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "LWM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
+				"OmniGyro",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "ACM",
+			"IncompatibleTags": [
+				"AESArm",
+				"AESLeg",
 				"OmniGyro",
 				"ProtoMech"
 			]
@@ -386,8 +415,8 @@
 			"Tag": "ProtoTSM",
 			"IncompatibleTags": [
 				"MASC",
-				"TSM",
-				"AES",
+				"AESArm",
+				"AESLeg",
 				"ProtoMech"
 			]
 		},

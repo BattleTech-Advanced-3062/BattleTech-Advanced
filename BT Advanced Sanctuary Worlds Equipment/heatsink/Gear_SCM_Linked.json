@@ -21,7 +21,7 @@
         "Id" : "Gear_SCM_Linked",
         "Name" : "S.C.M. Component (S)",
         "Details" : "This is a piece of the Super-Cooled Myomer system.",
-        "Icon" : "uixSvgIcon_equipment_Heatsink"
+        "Icon" : "muscular-torso"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",

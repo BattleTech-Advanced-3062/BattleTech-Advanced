@@ -1,12 +1,12 @@
 {
 	"Custom": {
 		"BonusDescriptions": [
-				"HybridStructureWeight: 0.25"
-			],
+			"HybridStructureWeight: 0.25"
+		],
 		"Color": "OrangeHalf",
 		"Flags": [
 			"ignore_damage",
-				"no_salvage"
+			"no_salvage"
 		]
 	},
 	"Description": {

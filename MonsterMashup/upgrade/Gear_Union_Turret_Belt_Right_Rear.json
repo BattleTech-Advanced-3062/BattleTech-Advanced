@@ -1,5 +1,8 @@
 {
   "Custom": {
+	"Category": {
+			"CategoryID": "notused"
+	},
 	"MM_LinkedActor": {
 	  "CUVehicleDefId" : "vehicledef_UNION_TURRET_AFT",
 	  "PilotDefId" : "pilot_dropship_turret",
