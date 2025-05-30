@@ -164,19 +164,19 @@
 			"UIName": "ArrowIV",
 			"isBaseMode": false,
 			"IndirectFireCapable": true,
-			"DamagePerShot": 29.0,
-			"MaxRange": 910.0,
-			"ShortRange": 250.0,
-			"MediumRange": 380.0,
-			"LongRange": 850.0,
+			"MinRange": -60.0,
+			"ShortRange": 30.0,
+			"MediumRange": 60.0,
+			"LongRange": 90.0,
+			"MaxRange": 120.0,
 			"AmmoCategory": "ArrowIV",
 			"WeaponEffectID": "WeaponEffect-Weapon_LRM20",
-			"Instability": 9,
 			"AMSImmune": true,
 			"ShotsWhenFired": -14,
-			"MinMissRadius": 40,
-			"MaxMissRadius": 80,
-			"DamageVariance": 10
+			"IsArtillery": true,
+			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
+			"ArtilleryReticleRadius" : 120,
+			"ArtilleryReticleText": "Arrow IV"
 		}
 	],
 	"ComponentTags": {

@@ -9,6 +9,9 @@
 		"Category": [
 			{
 				"CategoryID": "SCM"
+			},
+			{
+				"CategoryID": "Myomer"
 			}
 		],
 		"Flags": [
@@ -66,7 +69,7 @@
 		"Id": "Gear_SCM",
 		"Name": "Super-Cooled Myomer (S)",
 		"Details": "The Sanctuary Worlds pursued a very different technological path than the Inner Sphere or the Clans. In their endless experimentation and development, they came across a way to integrate heat sinking technology into a BattleMech's myomer systems. This invention came to be known as Super-Cooled Myomer (SCM) and was put into limited use by the Dane Sacellum to help maintain the heating levels on several of their more heat-intensive BattleMech designs. While SCM is very effective at cooling a 'Mech's weapons systems, it is also quite bulky, taking a good amount of internal space to operate, making it somewhat more of a niche option for engineers.",
-		"Icon": "uixSvgIcon_equipment_Heatsink"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",

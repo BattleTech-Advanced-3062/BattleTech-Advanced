@@ -2,7 +2,10 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "w/a/g/massdriver"
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "OneDriver"
 			},
 			{
 				"CategoryID": "NeverMelee"
@@ -21,10 +24,11 @@
 			"WpnRecoil: 3",
 			"WpnCooldown: 1",
 			"WeaponBoom: 250",
-			"LocationRestricted: Torsos Only"
+			"LocationRestricted: Torsos Only",
+			"WeaponAttachmentCompatible: Superweapon FCS"
 		]
 	},
-	"Category": "Ballistic",
+	"weaponCategoryID" : "Superweapon",
 	"Type": "Gauss",
 	"WeaponSubType": "Gauss",
 	"MinRange": 90,
@@ -66,7 +70,7 @@
 		"Id": "Weapon_MassDriver_Heavy",
 		"Name": "Heavy Mass Driver (S)",
 		"Details": "Developed from ancient civilian sector technology, the Mass Driver is essentially a gigantic magnetic cannon that hurls a heavy metallic slug at targets, dealing incredible damage. However, Mass Drivers are heavy and restrictive, limiting how many can be mounted at once. The Heavy Mass Driver is the largest of the Mass Drivers and is the most powerful single weapon that the Sanctuary Worlders can deploy. The Heavy Mass Driver is so devastating that the Sanctuary Worlds heavily restrict its deployment out of fear of misuse. <b><color=#099ff2>VOLATILE!</color></b>",
-		"Icon": "FerroMag"
+		"Icon": "death-star"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -111,6 +115,7 @@
 			"component_type_stock",
 			"component_type_lostech",
 			"range_extreme",
+			"SuperweaponFCSSupported-Standard",
 			"WebbTCSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""

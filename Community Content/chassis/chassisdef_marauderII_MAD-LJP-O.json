@@ -114,7 +114,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 19,
 			"MaxArmor": 310,
 			"MaxRearArmor": 155,
 			"InternalStructure": 155
@@ -133,6 +133,10 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -241,6 +245,15 @@
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_armorslots_clanferrolamellor",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

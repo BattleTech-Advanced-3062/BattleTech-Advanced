@@ -70,6 +70,10 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -108,7 +112,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 310,
 			"MaxRearArmor": 155,
 			"InternalStructure": 155
@@ -153,6 +157,10 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -265,6 +273,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		},
 		{
 			"MountedLocation": "CenterTorso",

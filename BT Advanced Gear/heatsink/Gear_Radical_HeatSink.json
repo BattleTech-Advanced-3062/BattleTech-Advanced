@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "HeatSink"
+				"CategoryID": "ThermalGear"
 			},
 			{
 				"CategoryID": "RadicalHS"
@@ -10,7 +10,7 @@
 		],
 		"ComponentExplosion": {
 			"HeatDamage": 45,
-			"ExplosionDamage": 23,
+			"ExplosionDamage": 22,
 			"StabilityDamage": 22
 		},
 		"BonusDescriptions": [
@@ -19,7 +19,7 @@
 			"FailChance: 0%",
 			"FailChanceTurnDelay: 2",
 			"FailChanceTurn: 15%",
-			"ActiveHeatPerTurn: -30",
+			"ActiveHeatPerTurn: -45",
 			"CPBoom: 45"
 		],
 		"ActivatableComponent": {
@@ -61,13 +61,13 @@
 					"Description": {
 						"Id": "CoolantPod",
 						"Name": "Radical HS Flush",
-						"Details": "Remove 30 extra heat.",
+						"Details": "Remove 45 extra heat.",
 						"Icon": "uixSvgIcon_equipment_Heatsink"
 					},
 					"statisticData": {
 						"statName": "HeatSinkCapacity",
 						"operation": "Int_Add",
-						"modValue": "30",
+						"modValue": "45",
 						"modType": "System.Int32"
 					},
 					"nature": "Buff"
@@ -85,8 +85,8 @@
 		"UIName": "HISC Radical HS System",
 		"Id": "Gear_Radical_HeatSink",
 		"Name": "HISC Radical HS System",
-		"Details": "The Radical Heat Sink System, more precisely known as the Reclaimed Coolant Flush Injector to its designers, is effectively a more powerful evolution of the Federated Suns coolant pod technology. While the coolant pod never saw wide production due to being limited use and difficult to engage in the midst of combat, the Radical Heat Sink System solves at least one of those problems by being multi-use. The Radical Heat Sink System activates automatically during combat, ensuring that high heat loads are automatically managed mid-fight, helping to offset its greater weight and bulk compared to the coolant pod with increased functionality and ease of use.",
-		"Icon": "uixSvgIcon_equipment_Heatsink"
+		"Details": "The Radical Heat Sink System, more precisely known as the Reclaimed Coolant Flush Injector to its designers, is effectively a more powerful evolution of the Federated Suns coolant pod technology. While the coolant pod never saw wide production due to being limited use and difficult to engage in the midst of combat, the Radical Heat Sink System solves at least one of those problems by being multi-use. The Radical Heat Sink System activates automatically during combat, ensuring that high heat loads are automatically managed mid-fight, helping to offset its greater weight compared to the coolant pod with increased functionality and ease of use.",
+		"Icon": "fire-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -94,9 +94,9 @@
 	"ComponentSubType": "Heatsink",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 3,
+	"InventorySize": 1,
 	"Tonnage": 4,
-	"AllowedLocations": "All",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [],

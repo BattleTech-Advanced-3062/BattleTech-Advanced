@@ -1,31 +1,33 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "TSMOmni"
-		},
+		"Category": [
+			{
+				"CategoryID": "ProtoTSM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
-				"not_broken",
-				"no_salvage",
-				"autorepair",
-				"ignore_damage"
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
 		],
 		"BonusDescriptions": [
-				"HeatGenerated: +45%",
-				"PunchDamageBonus: +50%",
-				"KickDamageBonus: +30%",
-				"PhysWeapDamageBonus: +30%",
-				"WalkSpeed: +10%",
-				"RunSpeed: +0.1",
-				"Dynamic: 5"
-			],
+			"HeatGenerated: +35%",
+			"PunchDamageBonus: +50%",
+			"KickDamageBonus: +30%",
+			"PhysWeapDamageBonus: +30%",
+			"Dynamic: 6"
+		],
 		"DynamicSlots": {
-			"ReservedSlots": 5,
-			"ShowIcon": false,
-			"NameText": "TSM",
+			"ReservedSlots": 6,
+			"ShowIcon": true,
+			"NameText": "Proto-TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
-		},
-		"Lootable": "Gear_TSM"
+		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -35,12 +37,12 @@
 		"Rarity": 100,
 		"Purchasable": false,
 		"Manufacturer": "Bergan Industries",
-		"Model": "Omni",
-		"UIName": "T.S.M.",
-		"Id": "Gear_TSM_Omni",
-		"Name": "Triple Strength Myomer",
-		"Details": "An advanced form of myomer, Triple-Strength Myomer grants the carrying unit a small but potent variety of benefits but with the downside of causing much more heat generation as the myomer itself amplifies the carrying unit's heat generation. Among TSM's benefits are boosted movement speed, both walking and sprinting, as well as drastically increased physical damage. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
-		"Icon": "offroad-racer"
+		"Model": "Prototype",
+		"UIName": "T.S.M. (P)",
+		"Id": "Gear_TSM_Prototype_Bergan",
+		"Name": "Bergan T.S.M. Prototype",
+		"Details": "Prototype TSM is the early manufacture version of TSM. This formula was created by the Capellan Confederation as a result of receiving a 'leak' from the Federated Suns in 3028. It increases the physical attack damage of the carrying mech by 50%. The down side is that the 'Mech needs to run hotter to allow the bundles to properly function. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -50,7 +52,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [
@@ -78,8 +80,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TSM-Kick_Damage",
-				"Name": "TSM Kick Damage",
+				"Id": "pTSM-Kick_Damage",
+				"Name": "pTSM Kick Damage",
 				"Details": "Kick attacks deal 50% more damage.",
 				"Icon": "uixSvgIcon_equipment_ActuatorArm"
 			},
@@ -124,8 +126,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TSM-Punch_Damage",
-				"Name": "TSM Punch Damage",
+				"Id": "pTSM-Punch_Damage",
+				"Name": "pTSM Punch Damage",
 				"Details": "Punch attacks deal 50% more damage.",
 				"Icon": "uixSvgIcon_equipment_ActuatorArm"
 			},
@@ -170,8 +172,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TSM-PhysWeap_Damage",
-				"Name": "TSM Physical Weapon Damage",
+				"Id": "pTSM-PhysWeap_Damage",
+				"Name": "pTSM Physical Weapon Damage",
 				"Details": "Physical weapon attacks deal 50% more damage.",
 				"Icon": "uixSvgIcon_equipment_ActuatorArm"
 			},
@@ -216,9 +218,9 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "TSM-Heat",
-				"Name": "TSM Heat Generation",
-				"Details": "Heat generation increased by 45%.",
+				"Id": "Proto_TSM-Heat",
+				"Name": "HEAT GENERATION INCREASED",
+				"Details": "Heat generation increased by 25%.",
 				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 			},
 			"nature": "Buff",
@@ -227,7 +229,7 @@
 				"effectsPersistAfterDestruction": false,
 				"statName": "HeatGenerated",
 				"operation": "Float_Multiply",
-				"modValue": "1.45",
+				"modValue": "1.35",
 				"modType": "System.Single",
 				"additionalRules": "NotSet",
 				"targetCollection": "Weapon",
@@ -242,68 +244,6 @@
 			"vfxData": null,
 			"instantModData": null,
 			"poorlyMaintainedEffectData": null
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"ticksOnActivations": false,
-				"useActivationsOfTarget": false,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": 1,
-				"clearedWhenAttacked": false
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "TSM-WalkSpeed",
-				"Name": "TSM Walk Speed",
-				"Details": "Increased walking speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "TSM-RunSpeed",
-				"Name": "TSM Run Speed",
-				"Details": "Increased sprint speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData": {
-				"statName": "CBTBE_RunMultiMod",
-				"operation": "Float_Add",
-				"modValue": "0.1",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
 		}
 	],
 	"ComponentTags": {

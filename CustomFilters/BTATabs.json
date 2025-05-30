@@ -12,7 +12,7 @@
 		"Buttons": [
 			{
 				"Icon": "uixSvgIcon_weapon_Ballistic",
-				"Tooltip": "Show Autocannons",
+				"Tooltip": "Autocannons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -39,7 +39,7 @@
 			},
 			{
 				"Icon": "FerroMag",
-				"Tooltip": "Show Gauss Rifles",
+				"Tooltip": "Gauss Rifles",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -60,7 +60,7 @@
 			},
 			{
 				"Icon": "mor-tar",
-				"Tooltip": "Show Mortars",
+				"Tooltip": "Mortars",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -77,7 +77,7 @@
 			},
 			{
 				"Icon": "Art-illery",
-				"Tooltip": "Show Artillery",
+				"Tooltip": "Artillery Systems",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -96,7 +96,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_weapon_Energy",
-				"Tooltip": "Show Energy weapons",
+				"Tooltip": "Energy Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -125,7 +125,7 @@
 			},
 			{
 				"Icon": "particle",
-				"Tooltip": "Show PPC and Plasma weapons",
+				"Tooltip": "PPC and Plasma Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -148,7 +148,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_weapon_Missile",
-				"Tooltip": "Show SRM-class weapons",
+				"Tooltip": "SRM-class Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -169,7 +169,7 @@
 			},
 			{
 				"Icon": "MRM",
-				"Tooltip": "Show LRM-class weapons",
+				"Tooltip": "LRM-class Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -188,7 +188,7 @@
 			},
 			{
 				"Icon": "missile-pod",
-				"Tooltip": "Show Misc Missile Weapons",
+				"Tooltip": "Misc Missile Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -205,7 +205,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_weapon_Support",
-				"Tooltip": "Show Physical Support and AMS Weapons",
+				"Tooltip": "Physical Support and AMS Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -229,7 +229,7 @@
 			},
 			{
 				"Icon": "laser-burst",
-				"Tooltip": "Show Energy Support Weapons",
+				"Tooltip": "Energy Support Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -256,7 +256,7 @@
 			},
 			{
 				"Icon": "death-star",
-				"Tooltip": "Show Superweapons",
+				"Tooltip": "Superweapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -271,7 +271,7 @@
 			},
 			{
 				"Icon": "bombing-run",
-				"Tooltip": "Show Bomb Bay weapons",
+				"Tooltip": "Bomb Bay Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -286,7 +286,7 @@
 			},
 			{
 				"Icon": "battle-amor-suit",
-				"Tooltip": "Show Battle Armor weapons",
+				"Tooltip": "Battle Armor Weapons",
 				"Filter": {
 					"ComponentTypes": [
 						"Weapon"
@@ -314,7 +314,7 @@
 		"Buttons": [
 			{
 				"Icon": "uixSvgIcon_weapon_Ballistic",
-				"Tooltip": "Show Autocannon ammo",
+				"Tooltip": "Autocannon Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -338,7 +338,7 @@
 			},
 			{
 				"Icon": "FerroMag",
-				"Tooltip": "Show Gauss ammo",
+				"Tooltip": "Gauss Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -359,7 +359,7 @@
 			},
 			{
 				"Icon": "mor-tar",
-				"Tooltip": "Show Mortar ammo",
+				"Tooltip": "Mortar Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -376,7 +376,7 @@
 			},
 			{
 				"Icon": "Art-illery",
-				"Tooltip": "Show Artillery ammo",
+				"Tooltip": "Artillery Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -395,7 +395,7 @@
 			},
 			{
 				"Icon": "particle",
-				"Tooltip": "Show Plasma/chemical fuel/ammo",
+				"Tooltip": "Plasma/Chemical Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -411,7 +411,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_weapon_Missile",
-				"Tooltip": "Show SRM-class ammo",
+				"Tooltip": "SRM-class Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -431,7 +431,7 @@
 			},
 			{
 				"Icon": "MRM",
-				"Tooltip": "Show LRM-class ammo",
+				"Tooltip": "LRM-class Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -449,7 +449,7 @@
 			},
 			{
 				"Icon": "missile-pod",
-				"Tooltip": "Show Misc Missile ammo",
+				"Tooltip": "Misc Missile Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -466,7 +466,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_weapon_Support",
-				"Tooltip": "Show Support weapons ammo",
+				"Tooltip": "Support Weapon Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -486,7 +486,7 @@
 			},
 			{
 				"Icon": "death-star",
-				"Tooltip": "Show Superweapons ammo",
+				"Tooltip": "Superweapons Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -501,7 +501,7 @@
 			},
 			{
 				"Icon": "uixSvgIcon_equipment_TTS",
-				"Tooltip": "Show Anti-Missile System ammo",
+				"Tooltip": "Anti-Missile System Ammo",
 				"Filter": {
 					"ComponentTypes": [
 						"AmmunitionBox"
@@ -544,10 +544,7 @@
 				"C3i",
 				"NullSig",
 				"CLPS",
-				"TSM",
-				"ProtoTSM",
 				"Supercharger",
-				"MASC",
 				"Airdrop",
 				"Strafe",
 				"Misc",
@@ -560,6 +557,12 @@
 				"TankStuff",
 				"BAGear",
 				"BlueShield",
+				"BACombatShield",
+				"WeaponAttachment",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"CommsGear",
+				"LandingGear",
 				"notused"
 			]
 		},
@@ -571,7 +574,7 @@
 			{
 				"Tag": "",
 				"Icon": "enginecore",
-				"Tooltip": "Show engine cores",
+				"Tooltip": "Engine Cores",
 				"Filter": {
 					"Categories": [
 						"EngineCore"
@@ -584,7 +587,7 @@
 			{
 				"Tag": "",
 				"Icon": "uixSvgIcon_equipment_ThermalExchanger",
-				"Tooltip": "Show engine shielding",
+				"Tooltip": "Engine Shieldings",
 				"Filter": {
 					"Categories": [
 						"EngineShield",
@@ -608,7 +611,7 @@
 			{
 				"Tag": "",
 				"Icon": "EngineCooling",
-				"Tooltip": "Engine Cooling",
+				"Tooltip": "E-Coolings",
 				"Filter": {
 					"Categories": [
 						"EngineHeatBlock"
@@ -622,7 +625,7 @@
 			{
 				"Tag": "",
 				"Icon": "uixSvgIcon_equipment_Heatsink",
-				"Tooltip": "Show heatsinks and heat control equipment",
+				"Tooltip": "Heat Sinks",
 				"Filter": {
 					"ComponentTypes": [
 						"HeatSink"
@@ -632,6 +635,28 @@
 						"Cooling",
 						"Special",
 						"EngineHeatBlock",
+						"ThermalGear",
+						"notused"
+					]
+				}
+			},
+			{
+				"Tag": "",
+				"Icon": "fire-shield",
+				"Tooltip": "Thermal Equipment",
+				"Filter": {
+					"ComponentTypes": [
+						"HeatSink"
+					],
+					"Categories": [
+						"ThermalGear"
+					],
+					"NotCategories": [
+						"EnginePart",
+						"Cooling",
+						"Special",
+						"EngineHeatBlock",
+						"HeatSink",
 						"notused"
 					]
 				}
@@ -639,7 +664,7 @@
 			{
 				"Icon": "vibrating-shield",
 				"Tag": "",
-				"Tooltip": "Show Armor",
+				"Tooltip": "Armors",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -658,7 +683,7 @@
 			{
 				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Tag": "",
-				"Tooltip": "Show Gyro",
+				"Tooltip": "Gyros",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -673,40 +698,19 @@
 				}
 			},
 			{
-				"Icon": "uixSvgIcon_equipment_ActuatorLeg",
+				"Icon": "muscular-torso",
 				"Tag": "",
-				"Tooltip": "Show Leg Upgrades",
+				"Tooltip": "Myomer",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
 					],
 					"Categories": [
-						"LegHip",
-						"LegUpperActuator",
-						"LegLowerActuator",
-						"LegFootActuator"
-					],
-					"NotCategories": [
-						"notused"
-					]
-				}
-			},
-			{
-				"Icon": "uixSvgIcon_equipment_ActuatorArm",
-				"Tag": "",
-				"Tooltip": "Show Arm Upgrades",
-				"Filter": {
-					"ComponentTypes": [
-						"Upgrade"
-					],
-					"Categories": [
-						"ArmShoulder",
-						"ArmUpperActuator",
-						"ArmLowerActuator",
-						"ArmHandActuator",
-						"OmniLowerActuator",
-						"OmniHandActuator",
-						"MeleeActuator"
+						"TSM",
+						"ProtoTSM",
+						"SCM",
+						"MASC",
+						"Myomer"
 					],
 					"NotCategories": [
 						"Quirk",
@@ -733,8 +737,11 @@
 				"CASE2",
 				"ModularArmor",
 				"Avionics",
+				"LandingGear",
 				"TankStuff",
 				"BAGear",
+				"PartialWing",
+				"CommsGear",
 				"notused"
 			]
 		},
@@ -746,7 +753,7 @@
 			{
 				"Icon": "uixSvgIcon_action_jump",
 				"Tag": "",
-				"Tooltip": "Show JumpJets",
+				"Tooltip": "JumpJets",
 				"Filter": {
 					"ComponentTypes": [
 						"JumpJet"
@@ -768,7 +775,7 @@
 			{
 				"Icon": "uixSvgIcon_equipment_Cockpit",
 				"Tag": "",
-				"Tooltip": "Show Head Components",
+				"Tooltip": "Head Components",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -792,7 +799,7 @@
 			{
 				"Icon": "circuitry",
 				"Tag": "",
-				"Tooltip": "Show Electronic Warfare",
+				"Tooltip": "Electronic Warfare Components",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -814,30 +821,9 @@
 				}
 			},
 			{
-				"Icon": "offroad-racer",
-				"Tag": "",
-				"Tooltip": "Show Movement and Myomer Upgrades",
-				"Filter": {
-					"ComponentTypes": [
-						"Upgrade"
-					],
-					"Categories": [
-						"TSM",
-						"ProtoTSM",
-						"SCM",
-						"Supercharger",
-						"MASC"
-					],
-					"NotCategories": [
-						"Quirk",
-						"notused"
-					]
-				}
-			},
-			{
 				"Icon": "WeaponAttachment",
 				"Tag": "",
-				"Tooltip": "Show Weapon Attachments",
+				"Tooltip": "Weapon Attachments",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -854,7 +840,7 @@
 			{
 				"Icon": "uixSvgIcon_equipment_ActuatorLeg",
 				"Tag": "",
-				"Tooltip": "Show Leg Actuators",
+				"Tooltip": "Leg Actuators",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -874,7 +860,7 @@
 			{
 				"Icon": "uixSvgIcon_equipment_ActuatorArm",
 				"Tag": "",
-				"Tooltip": "Show Arm Actuators",
+				"Tooltip": "Arm Actuators",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -897,7 +883,7 @@
 			{
 				"Icon": "missile-mech",
 				"Tag": "",
-				"Tooltip": "Show Support Unit Systems",
+				"Tooltip": "Support Unit Systems",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
@@ -915,13 +901,15 @@
 			{
 				"Icon": "uixSvgIcon_equipment_Generic",
 				"Tag": "",
-				"Tooltip": "Show Miscellaneous Upgrades",
+				"Tooltip": "Miscellaneous Upgrades",
 				"Filter": {
 					"ComponentTypes": [
 						"Upgrade"
 					],
 					"Categories": [
 						"Misc",
+						"Cargo",
+						"Supercharger",
 						"CombatShield",
 						"BACombatShield",
 						"Handhold",

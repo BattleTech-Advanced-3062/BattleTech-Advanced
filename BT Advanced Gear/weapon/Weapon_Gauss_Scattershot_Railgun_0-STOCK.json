@@ -81,7 +81,7 @@
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "artillery",
 	"BattleValue": 0,
-	"InventorySize": 15,
+	"InventorySize": 13,
 	"Tonnage": 30,
 	"AllowedLocations": "LeftTorso,RightTorso,CenterTorso",
 	"DisallowedLocations": "LeftArm,RightArm",

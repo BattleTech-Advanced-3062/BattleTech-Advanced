@@ -19,12 +19,14 @@ Weapon_AMS_Sanctuary,Weapon,0,10
 Weapon_DRM_DRM2,Weapon,0,10
 Weapon_DRM_DRM4,Weapon,0,10
 Weapon_DRM_DRM6,Weapon,0,10
+Weapon_MMS,Weapon,0,10
 Weapon_Sirocco,Weapon,0,10
 Weapon_VRM_VRM6,Weapon,0,10
 Weapon_VRM_VRM12,Weapon,0,10
 Weapon_VRM_VRM18,Weapon,0,10
 Weapon_VRM_VRM24,Weapon,0,10
 Ammo_AmmunitionBox_Generic_APM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_MMS,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_DRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_DRM_half,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_VRM,AmmunitionBox,0,10
@@ -42,6 +44,9 @@ mechdef_cheetah_CHE-4F,Mech,1,10
 mechdef_cheetah_CHE-4M,Mech,1,10
 mechdef_cheetah_CHE-5F,Mech,1,10
 mechdef_cheetah_CHE-6G,Mech,1,10
+mechdef_dillinger_DLN-3R,Mech,1,10
+mechdef_dillinger_DLN-4N,Mech,1,10
+mechdef_dillinger_DLN-5S,Mech,1,10
 mechdef_lambda_LBD-4G,Mech,1,10
 mechdef_lambda_LBD-4M,Mech,1,10
 mechdef_lambda_LBD-4S,Mech,1,10

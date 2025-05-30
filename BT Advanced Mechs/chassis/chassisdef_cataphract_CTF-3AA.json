@@ -100,7 +100,7 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
-			"InventorySlots": 16,
+			"InventorySlots": 17,
 			"MaxArmor": 220,
 			"MaxRearArmor": 110,
 			"InternalStructure": 110
@@ -240,7 +240,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_TSM",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",

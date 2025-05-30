@@ -1,16 +1,29 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "MASC"
-		},
+		"Category": [
+			{
+				"CategoryID": "MASC"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"ComponentExplosion": {
 			"StabilityDamage": 100
 		},
 		"BonusDescriptions": [
 			"RunSpeed: +0.4",
 			"HeatGenerated: +15%",
-			"MASCWeight: 50%"
+			"MASCWeight: 50%",
+			"Dynamic: 3"
 		],
+		"DynamicSlots": {
+			"ReservedSlots": 3,
+			"ShowIcon": true,
+			"NameText": "M.A.S.C.",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
 		"Weights": {
 			"StructureFactor": 1.5
 		}
@@ -25,7 +38,7 @@
 		"Id": "Gear_MASC",
 		"Name": "M.A.S.C.",
 		"Details": "Introduced in 2740 by the Terran Hegemony, the Myomer Accelerator Signal Circuitry (MASC) is a piece of equipment that allows a BattleMech to run at much higher speeds. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
-		"Icon": "offroad-racer"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -33,9 +46,9 @@
 	"ComponentSubType": "NotSet",
 	"PrefabIdentifier": "",
 	"BattleValue": 0,
-	"InventorySize": 3,
+	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

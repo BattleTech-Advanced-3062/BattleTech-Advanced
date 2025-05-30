@@ -147,6 +147,16 @@
 			]
 		},
 		{
+			"CategoryID": "Myomer",
+			"Defaults": [
+				{
+					"Location": "CenterTorso",
+					"DefID": "emod_myomer_standard",
+					"Type": "Upgrade"
+				}
+			]
+		},
+		{
 			"CategoryID": "Cooling",
 			"Defaults": [
 				{
@@ -172,6 +182,16 @@
 				{
 					"Location": "CenterTorso",
 					"DefID": "emod_engineslots_std_center",
+					"Type": "HeatSink"
+				}
+			]
+		},
+		{
+			"CategoryID": "ThermalGear",
+			"Defaults": [
+				{
+					"Location": "CenterTorso",
+					"DefID": "emod_thermal_standard",
 					"Type": "HeatSink"
 				}
 			]

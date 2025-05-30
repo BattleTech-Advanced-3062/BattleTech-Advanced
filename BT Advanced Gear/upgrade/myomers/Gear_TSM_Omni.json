@@ -1,13 +1,18 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "TSM"
-		},
+		"Category": [
+			{
+				"CategoryID": "TSMOmni"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
 		"Flags": [
-				"not_broken",
-				"no_salvage",
-				"autorepair",
-				"ignore_damage"
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
 		],
 		"BonusDescriptions": [
 			"HeatGenerated: +45%",
@@ -16,15 +21,16 @@
 			"PhysWeapDamageBonus: +30%",
 			"WalkSpeed: +10%",
 			"RunSpeed: +0.1",
-			"Dynamic: 5"
+			"Dynamic: 6"
 		],
 		"DynamicSlots": {
-			"ReservedSlots": 5,
-			"ShowIcon": false,
+			"ReservedSlots": 6,
+			"ShowIcon": true,
 			"NameText": "TSM",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
-		}
+		},
+		"Lootable": "Gear_TSM"
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -34,12 +40,12 @@
 		"Rarity": 100,
 		"Purchasable": false,
 		"Manufacturer": "Bergan Industries",
-		"Model": "Production",
+		"Model": "Omni",
 		"UIName": "T.S.M.",
-		"Id": "Gear_TSM",
+		"Id": "Gear_TSM_Omni",
 		"Name": "Triple Strength Myomer",
 		"Details": "An advanced form of myomer, Triple-Strength Myomer grants the carrying unit a small but potent variety of benefits but with the downside of causing much more heat generation as the myomer itself amplifies the carrying unit's heat generation. Among TSM's benefits are boosted movement speed, both walking and sprinting, as well as drastically increased physical damage. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
-		"Icon": "offroad-racer"
+		"Icon": "muscular-torso"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -49,7 +55,7 @@
 	"BattleValue": 0,
 	"InventorySize": 1,
 	"Tonnage": 0,
-	"AllowedLocations": "Torso",
+	"AllowedLocations": "CenterTorso",
 	"DisallowedLocations": "All",
 	"CriticalComponent": false,
 	"statusEffects": [

@@ -60,7 +60,7 @@
 		"Id": "Weapon_Hammerhands_Shield",
 		"Name": "Large Shield",
 		"Details": "This is a unique shield, designed for the Hammerhands. It cannot be removed or used elsewhere.",
-		"Icon": "shield-reflect"
+		"Icon": "vibrating-shield"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
@@ -90,7 +90,7 @@
 				"Id": "StatusEffect-Shield_Medium-{location}",
 				"Name": "Bonus Arm Armor",
 				"Details": "The BattleMech Shield is providing extra armor to the equipped arm at the cost of impairing that arm's accuracy with weaponry.",
-				"Icon": "shield-reflect"
+				"Icon": "vibrating-shield"
 			},
 			"nature": "Buff",
 			"statisticData": {

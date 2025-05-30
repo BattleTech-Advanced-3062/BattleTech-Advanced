@@ -10,6 +10,7 @@
 			"unit_role_scout",
 			"Kurita",
 			"1stSwordOfLight",
+			"3rdNightStalkers",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
@@ -25,7 +26,7 @@
 		"UIName": "Stiletto STL-12K",
 		"Id": "mechdef_stiletto_STL-12K",
 		"Name": "Stiletto",
-		"Details": "Though an early ultra-light design, the Stiletto proved to have unexpectedly good staying power in the DCMS where it proved popular for garrisons and light scout work. After the runaway success that was the Stiletto STL-9K, several more refit packages were authorized by DCMS brass, including the -11K. This variant uses the Endo-Steel and XL engine of the -9K but upgrades the core to a 105-rated one. It also uses Heavy Ferro-Fibrous armor and a Small Cockpit which together free up enough weight to mount a mammoth ER PPC. The -12K has no other weapons but is largely considered to not need any other weapons since at its size the ER PPC is more than sufficient for any combat the Stiletto might run into.",
+		"Details": "Though an early ultra-light design, the Stiletto proved to have unexpectedly good staying power in the DCMS where it proved popular for garrisons and light scout work. After the runaway success that was the Stiletto STL-9K, several more refit packages were authorized by DCMS brass, including the -12K. This variant uses the Endo-Steel and XL engine of the -9K but upgrades the core to a 105-rated one. It also uses Heavy Ferro-Fibrous armor and a Small Cockpit which together free up enough weight to mount a mammoth ER PPC. The -12K has no other weapons but is largely considered to not need any other weapons since at its size the ER PPC is more than sufficient for any combat the Stiletto might run into.",
 		"Icon": "uixTxrIcon_stardrivestiletto"
 	},
 	"simGameMechPartCost": 190000,

@@ -51,8 +51,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Ballistic",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
 		},
@@ -1605,8 +1605,8 @@
 			"IsEnergy": false,
 			"IsSupport": false,
 			"UsesInternalAmmo": false,
-			"UIColorRef": "Ballistic",
-			"FallbackUIColor": null,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Gauss"
 		},
@@ -1999,6 +1999,20 @@
 			"UsesInternalAmmo": false,
 			"UIColorRef": "QualityD",
 			"FallbackUIColor": "QualityD",
+			"Icon": "MissileHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6143,
+			"Name": "MMS",
+			"FriendlyName": "MMS",
+			"IsBallistic": false,
+			"IsMissile": true,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
 		}

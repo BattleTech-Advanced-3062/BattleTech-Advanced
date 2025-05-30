@@ -35,7 +35,7 @@
 		"UIName": "Dillinger THG-DIL",
 		"Id": "mechdef_thug_THG-DIL",
 		"Name": "Dillinger",
-		"Details": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-4s round out the armament. The strangest addition to the chassis though might be a Small Shield ensconcing the HVAC/10 for extra protection.",
+		"Details": "Named after an Old Earth gangster of some fame, Dillinger is a rough and tumble arena design made with, ironically, cutting-edge technology. The arms sport most of it, with the right hook being a Hyper-Velocity Autocannon/10 and the left being twin Large Variable-Speed Pulse Lasers. A pair of rather uninteresting SRM-6s round out the armament.",
 		"Icon": "uixTxrIcon_thug"
 	},
 	"simGameMechPartCost": 970000,
@@ -386,7 +386,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -397,7 +397,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -445,17 +445,6 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Shield_Small",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

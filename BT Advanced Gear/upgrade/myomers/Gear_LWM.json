@@ -1,0 +1,130 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "LWM"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"WalkSpeed: -10%",
+			"RunSpeed: -0.1",
+			"StructureFactor: 25%",
+			"Dynamic: 6"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 6,
+			"ShowIcon": true,
+			"NameText": "LWM",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"Weights": {
+			"StructureFactor": 0.75
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 700000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Atkins Manufacturing",
+		"Model": "Dietician",
+		"UIName": "L.W.M.",
+		"Id": "Gear_LWM",
+		"Name": "Light-Weight Myomer",
+		"Details": "An advanced form of myomer, Light-Weight Myomer saves a small amount of weight when installed on a BattleMech at the cost of bulk and slower speed due to weaker myomer tension. L.W.M. is made from thinner and lighter myomer strands that still have enough strength to manage BattleMech movement in combat, however they are slightly less responsive than normal myomer bundles and so the 'Mech's movement speed is slightly impaired. Still, MechTechs generally believe it's a worthwhile trade-off. <b><color=#099ff2>Automatically activated, works continuously.</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "LWM-WalkSpeed",
+				"Name": "Light-Weight Myomer",
+				"Details": "Light-Weight Myomer, or L.W.M., is affecting this unit's combat capabilities. It gained back a small amount of weight in the Mech Bay but has reduced movement speed in combat to compensate.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "0.9",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "LWM-RunSpeed",
+				"Name": "LWM Run Speed",
+				"Details": "Decreased sprint speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "CBTBE_RunMultiMod",
+				"operation": "Float_Add",
+				"modValue": "-0.1",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

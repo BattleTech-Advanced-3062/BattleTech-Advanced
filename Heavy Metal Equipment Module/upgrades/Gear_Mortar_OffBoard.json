@@ -1,8 +1,13 @@
 {
 	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "notused"
+			}
+		],
 		"Flags": [
-				"not_broken",
-				"no_salvage"
+			"not_broken",
+			"no_salvage"
 		]
 	},
 	"Description": {

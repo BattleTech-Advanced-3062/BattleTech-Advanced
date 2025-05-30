@@ -205,6 +205,20 @@
 			}
 		},
 		{
+			"Name": "LandingGear",
+			"displayName": "Land-Air Mech Landing Gear",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 0
+			}
+		},
+		{
 			"Name": "Handhold",
 			"displayName": "Battle Armor Handhold",
 			"BaseLimits": [
@@ -267,6 +281,20 @@
 				{
 				  "Min": 0,
 				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "0",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Cargo",
+			"displayName": "Cargo Space",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 4
 				}
 			],
 			"DefaultCustoms": {

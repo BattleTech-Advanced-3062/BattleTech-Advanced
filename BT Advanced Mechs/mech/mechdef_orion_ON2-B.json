@@ -24,7 +24,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",
@@ -515,7 +515,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Standard",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

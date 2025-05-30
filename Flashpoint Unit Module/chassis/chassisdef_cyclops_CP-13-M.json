@@ -189,7 +189,7 @@
 		{
 			"Hardpoints": [],
 			"InternalStructure": 145,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"Location": "CenterTorso",
 			"MaxArmor": 290,
 			"MaxRearArmor": 145,

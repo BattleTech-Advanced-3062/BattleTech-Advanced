@@ -18,6 +18,15 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Gyro_Omnimech",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -245,7 +254,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 15,
+			"InventorySlots": 17,
 			"MaxArmor": 235,
 			"MaxRearArmor": 75,
 			"InternalStructure": 155

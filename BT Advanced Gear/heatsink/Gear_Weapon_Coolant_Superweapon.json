@@ -1,0 +1,107 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "ThermalGear"
+			}
+		],
+		"ComponentExplosion": {
+			"HeatDamage": 60,
+			"ExplosionDamage": 30,
+			"StabilityDamage": 30
+		},
+		"BonusDescriptions": [
+			"Activatable",
+			"ActivatableUses: 1",
+			"ActiveWeaponHeatPerTurn: -30%",
+			"CPBoom: 60"
+		],
+		"ActivatableComponent": {
+			"ButtonName": "Weapon Pod (Superweapon)",
+			"CanActivateAfterMove": true,
+			"FailFlatChance": 0.0,
+			"FailRoundsStart": 1,
+			"FailChancePerTurn": 0.0,
+			"FailISDamage": 0,
+			"FailCrit": false,
+			"MechTonnageWeightMult": 0,
+			"MechTonnageSlotsMult": 0,
+			"EngineTonnageWeightMult": 0,
+			"EngineTonnageSlotsMult": 0,
+			"FailPilotingBase": 0,
+			"FailPilotingMult": 0.0,
+			"DeactivationMessage": "",
+			"ActivationMessage": "Weapon Pod Engaged",
+			"ChargesCount": 1,
+			"NoUniqueCheck": true,
+			"CanNotBeActivatedManualy": false,
+			"FailDamageLocations": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": 1,
+						"ticksOnActivations": true
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInTargetPreview": true,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "WeaponPod",
+						"Name": "Weapon Pod Engaged",
+						"Details": "The weapon pod has been activated, reducing superweapon heat generation by 30% this turn.",
+						"Icon": "fire-shield"
+					},
+					"statisticData": {
+						"statName": "HeatGenerated",
+						"operation": "Float_Multiply",
+						"modValue": "0.7",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponCategoryId": "Superweapon",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	},
+	"DissipationCapacity": 0,
+	"Description": {
+		"Cost": 200000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Coolant Pod",
+		"UIName": "Weapon Pod (Superweapon)",
+		"Id": "Gear_Weapon_Coolant_Superweapon",
+		"Name": "Weapon Pod (Superweapon)",
+		"Details": "The Weapon Pod is a specialized variant of the generic Coolant Pod. Instead of simply overcharging the carrying unit's cooling systems, the Weapon Pod is tuned to a specific weapon type and reduces the generated heat from that weapon type for a single attack. Because of its more limited range of efficacy, the Weapon Pod's effects are more powerful than the generic Coolant Pod.",
+		"Icon": "fire-shield"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1.5,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_variant",
+			"component_type_variant1"
+		],
+		"tagSetSourceFile": ""
+	}
+}

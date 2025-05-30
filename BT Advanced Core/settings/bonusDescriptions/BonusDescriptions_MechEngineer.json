@@ -409,6 +409,12 @@
 			"Full": "{0} Heat per Turn when Activated"
 		},
 		{
+			"Bonus": "ActiveWeaponHeatPerTurn",
+			"Short": "{0} Weapon Heat / Turn",
+			"Long": "{0} Weapon Heat / Turn",
+			"Full": "{0} Weapon Heat per Turn when Activated"
+		},
+		{
 			"Bonus": "ActiveMelee",
 			"Short": "{0} MeleeDmg",
 			"Long": "{0} Melee Damage",
@@ -515,6 +521,24 @@
 			"Short": "{0} DR",
 			"Long": "{0} Damage Reduction while Off",
 			"Full": "Provides {0} damage reduction when Deactivated."
+		},
+		{
+			"Bonus": "ShieldBlock",
+			"Short": "{0} Shield Block",
+			"Long": "{0} Shield Block",
+			"Full": "When activated, this component provides the carrying unit with {0} damage reduction."
+		},
+		{
+			"Bonus": "ShieldMovePenalty",
+			"Short": "{0} Shield Impaired",
+			"Long": "{0} Shield Impaired",
+			"Full": "When activated, this component reduces the carrying unit's movement speed by {0}."
+		},
+		{
+			"Bonus": "ShieldJumpPenalty",
+			"Short": "{0} Shield Jump",
+			"Long": "{0} Shield Jump",
+			"Full": "When activated, this component reduces the carrying unit's jump speed by {0}."
 		},
 		{
 			"Bonus": "PenaltyCalledShot",
@@ -2601,7 +2625,7 @@
 			"Bonus": "BallisticMinRange",
 			"Short": "{0} Ball.MinRange",
 			"Long": "{0} Ballistic Min.Range",
-			"Full": "{0} minimum Range with Ballistic Weapons"
+			"Full": "{0} minimum Range with Ballistic hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticACMinRange",
@@ -2613,25 +2637,25 @@
 			"Bonus": "EnergyMinRange",
 			"Short": "{0} Enrg.MinRange",
 			"Long": "{0} Energy Min.Range",
-			"Full": "{0} minimum Range with Energy Weapons"
+			"Full": "{0} minimum Range with Energy hardpoint Weapons"
 		},
 		{
 			"Bonus": "MissileMinRange",
 			"Short": "{0} Miss.MinRange",
 			"Long": "{0} Missile Min.Range",
-			"Full": "{0} minimum Range with Missile Weapons"
+			"Full": "{0} minimum Range with Missile hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticRange",
 			"Short": "{0} Ball.Range",
 			"Long": "{0} Ballistic Range",
-			"Full": "{0} increased Range with Ballistic Weapons"
+			"Full": "{0} increased Range with Ballistic hardpoint Weapons"
 		},
 		{
 			"Bonus": "BallisticMaxRange",
 			"Short": "{0} Max Ball.Range",
 			"Long": "{0} Max Ballistic Range",
-			"Full": "{0} increased maximum range with ballistic weapons"
+			"Full": "{0} increased maximum range with ballistic hardpoint weapons"
 		},
 		{
 			"Bonus": "BallisticACRange",
@@ -2643,25 +2667,25 @@
 			"Bonus": "EnergyRange",
 			"Short": "{0} Enrg.Range",
 			"Long": "{0} Energy Range",
-			"Full": "{0} increased Range with Energy Weapons"
+			"Full": "{0} increased Range with energy hardpoint weapons"
 		},
 		{
 			"Bonus": "EnergyMaxRange",
 			"Short": "{0} Max Enrg.Range",
 			"Long": "{0} Max Energy Range",
-			"Full": "{0} increased maximum range with energy weapons"
+			"Full": "{0} increased maximum range with energy hardpoint weapons"
 		},
 		{
 			"Bonus": "MissileRange",
 			"Short": "{0} Miss.Range",
 			"Long": "{0} Missile Range",
-			"Full": "{0} increased Range with Missile Weapons"
+			"Full": "{0} increased Range with Missile hardpoint Weapons"
 		},
 		{
 			"Bonus": "MissileMaxRange",
 			"Short": "{0} Max Miss.Range",
 			"Long": "{0} Max Missile Range",
-			"Full": "{0} increased maximum range with missile weapons"
+			"Full": "{0} increased maximum range with missile hardpoint weapons"
 		},
 		{
 			"Bonus": "SRMRange",
@@ -4162,6 +4186,18 @@
 			"Short": "Drone Interface",
 			"Long": "Drone Interface",
 			"Full": "The Sanctuary Drone Interface replaces a human in the cockpit with a remote-controlled drone. This insulates the pilot against feedback injuries while providing numerous benefits. However, it is not fool-proof. If the drone is destroyed, such as through cockpit destruction, lethal feedback can occur to the pilot controlling it from afar."
+		},
+		{
+			"Bonus": "DroneOS",
+			"Short": "Drone OS",
+			"Long": "Drone Operating System",
+			"Full": "The Inner Sphere Drone Operating System replaces a human in the cockpit with a remote-controled drone system (the cockpit is occupied by mechanical hardware to accept pilot commands). This insulates the pilot against feedback injuries while providing numerous benefits. However, it is not fool-proof. If the drone is destroyed, such as through cockpit destruction, lethal feedback can occur to the pilot controlling it from afar."
+		},
+		{
+			"Bonus": "DroneECMWeakness",
+			"Short": "Drone ECM",
+			"Long": "Drone ECM Weakness",
+			"Full": "The Inner Sphere Drone Operating System is cripplingly weak to enemy ECM coverage. If the Drone OS starts its turn inside the area of an enemy ECM, its weapon accuracy and movement speed are reduced by 99%."
 		},
 		{
 			"Bonus": "IsCannon",

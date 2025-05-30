@@ -54,7 +54,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "2",
+				"InventorySorter": "12",
 				"Sorter": 1000
 			}
 		},
@@ -62,7 +62,7 @@
 			"Name": "CDHS",
 			"displayName": "Clan Double Heat Sink",
 			"DefaultCustoms": {
-				"InventorySorter": "2",
+				"InventorySorter": "10",
 				"Sorter": 1000
 			}
 		},
@@ -76,7 +76,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "3",
+				"InventorySorter": "13",
 				"Sorter": 1000
 			}
 		},
@@ -84,7 +84,7 @@
 			"Name": "PDHS",
 			"displayName": "Prototype Double-Strength Heat Sink",
 			"DefaultCustoms": {
-				"InventorySorter": "3",
+				"InventorySorter": "11",
 				"Sorter": 1000
 			}
 		},
@@ -98,7 +98,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "4",
+				"InventorySorter": "14",
 				"Sorter": 1000
 			}
 		},
@@ -106,7 +106,7 @@
 			"Name": "LHS",
 			"displayName": "Laser Heat Sink",
 			"DefaultCustoms": {
-				"InventorySorter": "4",
+				"InventorySorter": "12",
 				"Sorter": 1000
 			}
 		},
@@ -120,7 +120,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "5",
+				"InventorySorter": "15",
 				"Sorter": 1000
 			}
 		},
@@ -128,7 +128,7 @@
 			"Name": "CHS",
 			"displayName": "Compact Heat Sink",
 			"DefaultCustoms": {
-				"InventorySorter": "5",
+				"InventorySorter": "13",
 				"Sorter": 1000
 			}
 		},
@@ -142,7 +142,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "6",
+				"InventorySorter": "16",
 				"Sorter": 1000
 			}
 		},
@@ -150,7 +150,23 @@
 			"Name": "SDHS",
 			"displayName": "Sanctuary Double Heat Sink",
 			"DefaultCustoms": {
-				"InventorySorter": "6",
+				"InventorySorter": "14",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Freezer",
+			"displayName": "Freezer Double Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "15",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "MicroHeatSink",
+			"displayName": "Micro Heat Sink",
+			"DefaultCustoms": {
+				"InventorySorter": "16",
 				"Sorter": 1000
 			}
 		},
@@ -164,7 +180,15 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "7",
+				"InventorySorter": "20",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "Negator",
+			"displayName": "Sanctuary Heat Negator",
+			"DefaultCustoms": {
+				"InventorySorter": "21",
 				"Sorter": 1000
 			}
 		},
@@ -178,15 +202,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "9",
-				"Sorter": 1000
-			}
-		},
-		{
-			"Name": "Negator",
-			"displayName": "Sanctuary Heat Negator",
-			"DefaultCustoms": {
-				"InventorySorter": "8",
+				"InventorySorter": "30",
 				"Sorter": 1000
 			}
 		},
@@ -194,7 +210,7 @@
 			"Name": "Controller",
 			"displayName": "Sanctuary Heat Controller",
 			"DefaultCustoms": {
-				"InventorySorter": "9",
+				"InventorySorter": "31",
 				"Sorter": 1000
 			}
 		},
@@ -202,7 +218,7 @@
 			"Name": "CoolantPod",
 			"displayName": "Coolant Pod",
 			"DefaultCustoms": {
-				"InventorySorter": "10",
+				"InventorySorter": "1",
 				"Sorter": 1000
 			}
 		},
@@ -216,7 +232,7 @@
 				}
 			],
 			"DefaultCustoms": {
-				"InventorySorter": "11",
+				"InventorySorter": "2",
 				"Sorter": 1000
 			}
 		}

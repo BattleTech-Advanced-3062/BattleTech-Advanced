@@ -10,19 +10,19 @@
 		],
 		"ComponentExplosion": {
 			"ExplosionDamagePerAmmo": 15,
-			"StabilityDamagePerAmmo": 3
+			"StabilityDamagePerAmmo": 5
 		},
 		"BonusDescriptions": [
-			"AreaOfEffect: 60",
+			"AreaOfEffect: 30",
 			"AreaOfEffectDmg: 15",
-			"AreaOfEffectHeatDmg: 25",
+			"AreaOfEffectHeatDmg: 30",
 			"AreaOfEffectSTABDmg: 5",
 			"AlwaysStartsFireAnywhere",
 			"FireTerrainSize: 1",
 			"FireTerrainDuration: 2",
 			"FireTerrainStrength: 2",
 			"CostPerShot: 500",
-			"AmmoCount: 5",
+			"AmmoCount: 8",
 			"OHDamage: 50%",
 			"AntiBA: 150%"
 		],
@@ -31,7 +31,7 @@
 		}
 	},
 	"AmmoID": "Ammunition_Grenade_Inferno",
-	"Capacity": 5,
+	"Capacity": 8,
 	"Description": {
 		"Cost": 40000,
 		"Rarity": 1,

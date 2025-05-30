@@ -485,7 +485,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Radical_HeatSink",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

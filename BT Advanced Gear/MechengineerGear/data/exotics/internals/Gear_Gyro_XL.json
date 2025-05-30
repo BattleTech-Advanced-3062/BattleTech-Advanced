@@ -15,9 +15,9 @@
 			}
 		},
 		"BonusDescriptions": [
-				"GyroStab: 40",
-				"GyroWeight: -30%"
-			],
+			"GyroStab: 40",
+			"GyroWeight: -30%"
+		],
 		"Weights": {
 			"StructureFactor": 0.7
 		}
