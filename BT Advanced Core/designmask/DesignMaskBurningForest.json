@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "DesignMaskBurningForest",
 		"Name": "BURNING FOREST",
-		"Details": "This is a burning forest. The smoke given off shrouds units and makes them harder to target, but passing through the terrain causes 25 heat damage and causes units to sink 50% of their heat for two turns.",
+		"Details": "This is a burning forest. The smoke given off shrouds units and makes them harder to target, but passing through the terrain causes 25 heat damage and causes units to sink 75% of their heat for two turns.",
 		"Icon": "fire-zone"
 	},
 	"moveCostMechLight": 1.1,
