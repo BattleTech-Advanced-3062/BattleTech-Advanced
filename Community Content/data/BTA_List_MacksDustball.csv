@@ -85,6 +85,7 @@ vehicledef_CARRIER_THUMPERCANNON,Mech,0,10
 vehicledef_YANK_TANK,Mech,0,10
 vehicledef_CARRIER_HEAVYMLRS,Mech,0,10
 vehicledef_SCHREK_PIERCING,Mech,0,10
+vehicledef_ALACORN_MARV,Mech,0,10
 mechdef_icarusii_ICR-2R,Mech,0,10
 mechdef_shadowhawk_SHD-7D,Mech,0,10
 mechdef_catapult_CPLT-J1-X,Mech,0,10
