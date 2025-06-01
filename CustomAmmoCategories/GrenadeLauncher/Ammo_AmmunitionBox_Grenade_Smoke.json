@@ -37,7 +37,7 @@
 		"UIName": "Ammo Grenade Smoke",
 		"Id": "Ammo_AmmunitionBox_Grenade_Smoke",
 		"Name": "Grenade Smoke Ammo",
-		"Details": "Smoke Grenades deliver a smoke payload, able to shroud part of the battlefield upon impact.",
+		"Details": "Smoke Grenades deliver a smoke payload, able to shroud part of the battlefield upon impact. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E.",
 		"Icon": "mor-tar-ammo"
 	},
 	"BonusValueA": "",
