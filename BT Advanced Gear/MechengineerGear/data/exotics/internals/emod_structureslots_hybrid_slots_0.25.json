@@ -3,6 +3,9 @@
 		"BonusDescriptions": [
 			"HybridStructureWeight: 0.25"
 		],
+		"Category": {
+			"CategoryID": "HybridStructure"
+		},
 		"Color": "OrangeHalf",
 		"Flags": [
 			"ignore_damage",

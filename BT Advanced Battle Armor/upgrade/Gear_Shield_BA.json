@@ -1,10 +1,15 @@
 {
 	"Custom": {
 		"Category": {
-			"CategoryID": "BACombatShield"
+			{
+				"CategoryID": "BACombatShield"
+			}
 		},
 		"BonusDescriptions": [
 			"ModularArmor: 15"
+		],
+		"Flags": [
+			"no_salvage"
 		]
 	},
 	"StatName": null,
