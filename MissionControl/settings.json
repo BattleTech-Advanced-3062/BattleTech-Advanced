@@ -271,6 +271,10 @@
 			{
 				"MapId": "mapGeneral_theMound_vHigh",
 				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_powerStructure_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},
