@@ -1,7 +1,12 @@
 {
   "Custom": {
 	"Category": {
+		{
 			"CategoryID": "notused"
+		},
+		{
+			"CategoryID": "Rattler"
+		}
 	},
 	"MM_LinkedActor": {
 	  "CUVehicleDefId" : "vehicledef_RATTLERSL_CHASSIS_REAR",

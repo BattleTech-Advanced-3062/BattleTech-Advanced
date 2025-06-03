@@ -5,14 +5,16 @@
 				"CategoryID": "w/s/m/melee"
 			},
 			{
-				"CategoryID": "ArmHandActuator"
-			},
-			{
 				"CategoryID": "CombatShield"
 			}
 		],
-		"ArmActuator": {
-			"Type": "PartHand"
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Shield_Hand_Medium",
+					"Location": "RightArm"
+				}
+			]
 		},
 		"BonusDescriptions": [
 			"ModularArmor: +60",
@@ -78,7 +80,7 @@
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "sword",
 	"BattleValue": 0,
-	"InventorySize": 2,
+	"InventorySize": 1,
 	"Tonnage": 0,
 	"AllowedLocations": "RightArm",
 	"DisallowedLocations": "All",
