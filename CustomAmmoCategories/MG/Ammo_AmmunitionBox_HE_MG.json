@@ -14,8 +14,8 @@
 		},
 		"BonusDescriptions": [
 			"WpnCrits: -100%",
-			"AreaOfEffect: 10",
-			"AreaOfEffectDmg: 5",
+			"HeatDamage: +0.5",
+			"WeaponDamage: -2",
 			"CostPerShot: 100",
 			"AmmoCount: 100"
 		],
@@ -23,18 +23,18 @@
 			"PerUnitCost": 100
 		}
 	},
-	"AmmoID": "Ammunition_MG_HE",
+	"AmmoID": "Ammunition_MG_Incendiary",
 	"Capacity": 100,
 	"Description": {
-		"Cost": 50000,
+		"Cost": 75000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "MG AOE",
-		"UIName": "Ammo MG AOE",
+		"Model": "MG Inferno",
+		"UIName": "Ammo MG Inferno",
 		"Id": "Ammo_AmmunitionBox_HE_MG",
-		"Name": "MG Ammo AOE",
-		"Details": "Composed of a unique cartridge that explodes into shrapnel when it strikes the target, Machine Gun Area of Effect ammo is a unique, if unusual ammo type. The shrapnel radius is small but inflicts bonus damage as expected.",
+		"Name": "MG Ammo Inferno",
+		"Details": "Composed of a unique cartridge that explodes into a small burst of inferno gel, Inferno MG ammo has limited uses but does apply heat to enemy targets without issue. It doesn't apply a lot of heat damage but damage is damage.",
 		"Icon": "uixSvgIcon_ammoBox_Support"
 	},
 	"BonusValueA": "",

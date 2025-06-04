@@ -1,8 +1,8 @@
 {
 	"Description": {
 		"Id": "Ammunition_MG_Incendiary",
-		"Name": "MG Ammo",
-		"UIName": "Incendiary",
+		"Name": "MG Inferno Ammo",
+		"UIName": "Inferno",
 		"Details": "Large bore belted ammunition for 'Mech-mounted machine guns.",
 		"Icon": null,
 		"Cost": 0,
@@ -13,11 +13,9 @@
 	"Category": "MG",
 	"AIBattleValue": 60,
 	"HeatGenerated": 0,
-	"DamagePerShot": -1,
-	"HeatDamagePerShot": 1,
+	"DamagePerShot": -2,
+	"HeatDamagePerShot": 0.5,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
-	"CriticalDamageModifier": 1,
-	"FireTerrainChance": 0.01
-}
+	"CriticalDamageModifier": -1
