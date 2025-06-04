@@ -1,10 +1,10 @@
 {
 	"Custom": {
-		"Category": {
+		"Category": [
 			{
 				"CategoryID": "BACombatShield"
 			}
-		},
+		],
 		"BonusDescriptions": [
 			"ModularArmor: 15"
 		],
