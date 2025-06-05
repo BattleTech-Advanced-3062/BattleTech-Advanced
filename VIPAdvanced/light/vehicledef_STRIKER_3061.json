@@ -1,19 +1,19 @@
 {
 	"Version": 1,
 	"Description": {
+		"Cost": 250000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Striker Mk.4-C3",
 		"Id": "vehicledef_STRIKER_3061",
 		"Name": "Striker Mk.4-C3",
-		"Details": "",
-		"Icon": "Striker",
-		"Cost": 564,
-		"Rarity": 0,
-		"Purchasable": false
+		"Details": "A rather basic but functional tank, the Striker has served the Inner Sphere for decades and is reknown throughout the Inner Sphere as a cheap but effective vehicle for any combat situation. The Striker Mk.4-C3 is a 3061 upgrade that introduces a C3 system to the vehicle while retaining its good LRM coverage and respectable speed and armor. \n\n <b><color=#ffcc00>Wheeled: Fast in open ground, slow in rough terrain.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       130     20\n<b>Left</b>          115     20\n<b>Right</b>        115     20\n<b>Rear</b>        100     20\n<b>Turret</b>      120     20\n\n<b>Total</b>      580    100\n",
+		"Icon": "Striker"
 	},
 	"ChassisID": "vehiclechassisdef_STRIKER_3061",
 	"VehicleTags": {
 		"items": [
-			"unit_noncontrollableTank",
-			"NOSALVAGE",
+			"unit_controllableTank",
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_light",
