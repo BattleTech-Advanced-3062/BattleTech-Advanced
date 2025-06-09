@@ -1,9 +1,9 @@
 {
 	"Description": {
 		"Id": "AbilityDefGu5T",
-		"Name": "REDUNDANT COMPONENTS",
-		"Details": "PASSIVE: This tank crew thinks ahead and brought backup components and patched in workarounds, reducing their tank's vulnerability to critical damage by 50% at all times.",
-		"Icon": "allied-star"
+		"Name": "ANGLED ARMOR",
+		"Details": "PASSIVE: This tank is being piloted by a defensive mastermind. Their skill behind the wheel grants the tank additional hit defense, as they know how best to angle the tank's armor for maximum effectiveness.",
+		"Icon": "battle-tank"
 	},
 	"DisplayParams": "ShowInMWTRay",
 	"ReqSkill": "Guts",
@@ -22,16 +22,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-RedundantCritResist",
-				"Name": "Redundant Components",
-				"Details": "All incoming critical chances reduced by 50%.",
-				"Icon": "allied-star"
+				"Id": "StatusEffect-AngledArmorDefense",
+				"Name": "Angled Armor",
+				"Details": "This unit gains +2 hit defense at all times.",
+				"Icon": "battle-tank"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "CriticalHitChanceReceivedMultiplier",
-				"operation": "Float_Multiply",
-				"modValue": "0.5",
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "2.0",
 				"modType": "System.Single"
 			}
 		}
