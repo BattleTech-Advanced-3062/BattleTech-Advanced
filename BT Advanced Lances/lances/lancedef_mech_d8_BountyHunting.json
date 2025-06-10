@@ -19,9 +19,7 @@
 		{
 			"unitType": "Mech",
 			"unitId": "Tagged",
-			"unitSimGameID": null,
 			"pilotId": "Tagged",
-			"pilotSimGameID": null,
 			"unitTagSet": {
 				"items": [
 					"unit_assault",
@@ -53,9 +51,7 @@
 		{
 			"unitType": "Mech",
 			"unitId": "Tagged",
-			"unitSimGameID": null,
 			"pilotId": "Tagged",
-			"pilotSimGameID": null,
 			"unitTagSet": {
 				"items": [
 					"unit_heavy",

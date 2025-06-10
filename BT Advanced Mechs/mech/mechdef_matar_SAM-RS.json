@@ -7,9 +7,6 @@
 			"unit_rarity_2",
 			"unit_lance_support",
 			"unit_role_sniper",
-			"Cameron",
-			"StarGuardCorps",
-			"ICorps",
 			"ComStar",
 			"2ndArmyVMu",
 			"11thArmyVEta",
@@ -50,7 +47,7 @@
 			"Location": "LeftArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 90,
+			"CurrentInternalStructure": 95,
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
@@ -86,7 +83,7 @@
 			"Location": "RightArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 90,
+			"CurrentInternalStructure": 95,
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
