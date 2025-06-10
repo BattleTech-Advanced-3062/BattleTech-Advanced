@@ -778,7 +778,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_OpForConvoy"
+						"AssetDenial"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -802,15 +802,10 @@
 						},
 						"customUnitName": "",
 						"customHeraldryDefId": "",
-						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitType": "Vehicle",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -840,15 +835,10 @@
 						},
 						"customUnitName": "",
 						"customHeraldryDefId": "",
-						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitType": "Vehicle",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -878,15 +868,10 @@
 						},
 						"customUnitName": "",
 						"customHeraldryDefId": "",
-						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitType": "Vehicle",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -916,15 +901,10 @@
 						},
 						"customUnitName": "",
 						"customHeraldryDefId": "",
-						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitType": "Vehicle",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {

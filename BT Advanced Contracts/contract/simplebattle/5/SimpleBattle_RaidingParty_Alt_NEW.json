@@ -484,15 +484,12 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech",
-						"lance_type_fire"
+						"RaidingParty"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [
-						"lance_type_gladiator"
-					],
+					"items": [],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -542,14 +539,9 @@
 						},
 						"customUnitName": null,
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_assault",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
@@ -579,14 +571,9 @@
 						},
 						"customUnitName": null,
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_medium",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
@@ -616,14 +603,9 @@
 						},
 						"customUnitName": null,
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_medium",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
