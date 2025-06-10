@@ -126,7 +126,7 @@
 			"InventorySlots": 18,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
-			"InternalStructure": 115
+			"InternalStructure": 120
 		},
 		{
 			"Location": "CenterTorso",
@@ -152,7 +152,7 @@
 			"InventorySlots": 22,
 			"MaxArmor": 320,
 			"MaxRearArmor": 150,
-			"InternalStructure": 155
+			"InternalStructure": 160
 		},
 		{
 			"Location": "RightTorso",
@@ -178,7 +178,7 @@
 			"InventorySlots": 18,
 			"MaxArmor": 230,
 			"MaxRearArmor": 115,
-			"InternalStructure": 115
+			"InternalStructure": 120
 		},
 		{
 			"Location": "RightArm",

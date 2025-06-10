@@ -841,7 +841,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_vehicle"
+						"lance_type_convoy"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -868,13 +868,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_noncombatant",
-								"unit_vehicle",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -905,13 +901,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_noncombatant",
-								"unit_vehicle",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -942,12 +934,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_vehicle",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -978,13 +967,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_noncombatant",
-								"unit_vehicle",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {

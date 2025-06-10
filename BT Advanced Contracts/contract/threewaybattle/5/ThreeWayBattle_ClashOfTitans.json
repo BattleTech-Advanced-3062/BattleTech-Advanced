@@ -3279,7 +3279,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_battle"
+						"ClashofTitans"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -3305,19 +3305,13 @@
 						"customUnitName": "Cronus",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechDef_InheritLance",
 						"unitTagSet": {
-							"items": [
-								"unit_assault",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_vehicle",
-								"unit_turret"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
@@ -3344,19 +3338,13 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechDef_InheritLance",
 						"unitTagSet": {
-							"items": [
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_vehicle",
-								"unit_turret"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
@@ -4788,7 +4776,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_battle"
+						"ClashofTitans"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -4814,19 +4802,13 @@
 						"customUnitName": "Tethys",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
-						"unitDefId": "Tagged",
+						"unitDefId": "mechDef_InheritLance",
 						"unitTagSet": {
-							"items": [
-								"unit_assault",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
-							"items": [
-								"unit_vehicle",
-								"unit_turret"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
