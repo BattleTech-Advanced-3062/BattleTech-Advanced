@@ -62,10 +62,10 @@
 		{
 			"Location": "CenterTorso",
 			"CurrentArmor": 350,
-			"CurrentRearArmor": 140,
+			"CurrentRearArmor": 137,
 			"CurrentInternalStructure": 210,
 			"AssignedArmor": 350,
-			"AssignedRearArmor": 140,
+			"AssignedRearArmor": 137,
 			"DamageLevel": "Functional"
 		},
 		{
@@ -88,19 +88,19 @@
 		},
 		{
 			"Location": "LeftLeg",
-			"CurrentArmor": 285,
+			"CurrentArmor": 280,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 155,
-			"AssignedArmor": 285,
+			"AssignedArmor": 280,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "RightLeg",
-			"CurrentArmor": 285,
+			"CurrentArmor": 280,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 155,
-			"AssignedArmor": 285,
+			"AssignedArmor": 280,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
 		}
@@ -446,6 +446,24 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": 0,
+			"SimGameUID": "",
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": 0,
+			"SimGameUID": "",
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
