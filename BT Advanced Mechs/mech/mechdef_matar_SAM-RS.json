@@ -38,7 +38,7 @@
 			"Location": "Head",
 			"CurrentArmor": 45,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 16,
+			"CurrentInternalStructure": 24,
 			"AssignedArmor": 45,
 			"AssignedRearArmor": -1
 		},
