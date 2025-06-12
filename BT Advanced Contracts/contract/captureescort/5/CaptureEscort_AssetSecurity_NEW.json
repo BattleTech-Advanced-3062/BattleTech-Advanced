@@ -832,7 +832,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"AssetSecurity"
+						"lance_type_convoy"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},

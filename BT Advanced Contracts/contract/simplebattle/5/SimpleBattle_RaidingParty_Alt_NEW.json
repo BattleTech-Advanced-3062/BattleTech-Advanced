@@ -484,12 +484,14 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"RaidingParty"
+						"lance_type_mech"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -538,7 +540,7 @@
 							"EncounterObjectGuid": "e3e34fc2-c664-42ab-920b-6002c058ac55"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
+						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
 							"items": [],
@@ -570,7 +572,7 @@
 							"EncounterObjectGuid": "ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
+						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
 							"items": [],
@@ -602,7 +604,7 @@
 							"EncounterObjectGuid": "f46b3021-803a-41ed-87e0-1b8cb86663b8"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
+						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
 							"items": [],
