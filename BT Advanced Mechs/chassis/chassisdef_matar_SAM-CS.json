@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Matar",
-		"Id": "chassisdef_matar_SAM-RS",
+		"Id": "chassisdef_matar_SAM-CS",
 		"Name": "Matar",
-		"Details": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+		"Details": "The Matar had a troubled history, all thanks to its association with the worst mass murderer in Inner Sphere history. However, the design itself waas not beyond saving and ComStar set out to do just that. Knowing that they would soon be surrounded by enemies all braying for their destruction, ComStar set about updating the ComGuard to serve as a support role for the reborn Terran Hegemony. Part of that was reintroducing the SuperHeavy BattleMech as the ultimate deterrant. The newly reborn Matar, the SAM-CS, carries a conventional yet effective loadout of twin UAC/10s and triple ER Large Lasers, all built on an XL 330-rated fusion engine for power. CASE II protects the four tons of ammunition while advanced heat control equipment keeps it all well cooled.",
 		"Icon": "uixTxrIcon_matar"
 	},
 	"FixedEquipment": [
@@ -88,7 +88,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -114,10 +114,6 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
@@ -127,6 +123,10 @@
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],
@@ -159,10 +159,6 @@
 				},
 				{
 					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -200,7 +196,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -277,7 +273,7 @@
 			"z": 1
 		}
 	],
-	"VariantName": "SAM-RS",
+	"VariantName": "SAM-CS",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
@@ -288,7 +284,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Slow Juggernaut",
-	"YangsThoughts": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+	"YangsThoughts": "The Matar had a troubled history, all thanks to its association with the worst mass murderer in Inner Sphere history. However, the design itself waas not beyond saving and ComStar set out to do just that. Knowing that they would soon be surrounded by enemies all braying for their destruction, ComStar set about updating the ComGuard to serve as a support role for the reborn Terran Hegemony. Part of that was reintroducing the SuperHeavy BattleMech as the ultimate deterrant. The newly reborn Matar, the SAM-CS, carries a conventional yet effective loadout of twin UAC/10s and triple ER Large Lasers, all built on an XL 330-rated fusion engine for power. CASE II protects the four tons of ammunition while advanced heat control equipment keeps it all well cooled.",
 	"CustomParts": {
 		"CustomParts": []
 	}

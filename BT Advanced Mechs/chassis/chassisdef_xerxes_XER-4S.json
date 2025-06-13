@@ -113,6 +113,10 @@
 				{
 					"WeaponMountID": "Artillery",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -186,6 +190,10 @@
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],

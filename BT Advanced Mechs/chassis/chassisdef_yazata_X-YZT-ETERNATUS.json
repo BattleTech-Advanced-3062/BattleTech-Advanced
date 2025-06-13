@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Yazata",
-		"Id": "chassisdef_yazata_X-YZT-FUNDATUS",
+		"Id": "chassisdef_yazata_X-YZT-ETERNATUS",
 		"Name": "Yazata",
-		"Details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Built on Endo-Steel bones and powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Sniper Artillery Piece for primary firepower while two Inner Sphere ER PPCs and a Clan-grade HAG/30 provide direct damage. Nothing can withstand the Yazata for long.",
+		"Details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support. Nothing can withstand the Yazata for long.",
 		"Icon": "uixTxrIcon_yazata"
 	},
 	"MovementCapDefID": "movedef_mackie-9H",
@@ -236,7 +236,7 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "X-YZT-FUNDATUS",
+	"VariantName": "X-YZT-ETERNATUS",
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
@@ -248,7 +248,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Superheavy Omni",
-	"YangsThoughts": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Built on Endo-Steel bones and powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Sniper Artillery Piece for primary firepower while two Inner Sphere ER PPCs and a Clan-grade HAG/30 provide direct damage. Nothing can withstand the Yazata for long.",
+	"YangsThoughts": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support. Nothing can withstand the Yazata for long.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

@@ -10,7 +10,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_HardenedCockpit_Monster",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -18,21 +18,20 @@
 		}
 	],
 	"Description": {
-		"Cost": 35741070,
+		"Cost": 25000000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Monster",
-		"Id": "chassisdef_monster_MNST-3R",
-		"Name": "Monster",
-		"Details": "The heaviest known BattleMech in existence, the Monster is a secretive experimental superheavy siege mech designed by House Steiner after endless iteration and some covert knowledge 'transfers' from ComStar concerning Amaris's Matar design. Armed with a ludicrous amount of weaponry and armor, the Monster lives up to its name. However, the Monster is absurdly slow and largely unable to defend itself against being swarmed by lighter elements. Armed with a pair each of LB-10X Autocannons and Ultra Autocannon/10s for primary offense and a pair each of Streak SRM-6s and Medium Pulse Lasers for close-range defense, the Monster can annihilate anything it engages.",
-		"Icon": "uixTxrIcon_monster"
+		"UIName": "Omega",
+		"Id": "chassisdef_omega_SHP-X6",
+		"Name": "Omega",
+		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that didn't stop the Word of Blake from iterating even further on the design, eventually ending up with the SHP-X6, an updated Omega for a more modern battlfield. Armed with the same withering firepower as the original, the SHP-X6 proved a battlefield success.",
+		"Icon": "uixTxrIcon_omega"
 	},
-	"VariantName": "MNST-3R",
+	"VariantName": "SHP-X6",
 	"ChassisTags": {
 		"items": [
-			"mr-resize-1.06-1.06-1.06",
 			"SuperHeavyMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
@@ -41,12 +40,12 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Monster is a secretive experimental superheavy siege mech designed by House Steiner after endless iteration and some covert knowledge 'transfers' from ComStar concerning Amaris's Matar design. Armed with a ludicrous amount of weaponry and armor, the Monster lives up to its name. However, the Monster is absurdly slow and largely unable to defend itself against being swarmed by lighter elements. Armed with a pair each of LB-10X Autocannons and Ultra Autocannon/10s for primary offense and a pair each of Streak SRM-6s and Medium Pulse Lasers for close-range defense, the Monster can annihilate anything it engages.",
+	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that didn't stop the Word of Blake from iterating even further on the design, eventually ending up with the SHP-X6, an updated Omega for a more modern battlfield. Armed with the same withering firepower as the original, the SHP-X6 proved a battlefield success.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_monster",
-	"PrefabIdentifier": "chrprfmech_monsterbase-001",
-	"PrefabBase": "monster",
+	"HardpointDataDefID": "hardpointdatadef_omega",
+	"PrefabIdentifier": "chrprfmech_omegabase-001",
+	"PrefabBase": "omega",
 	"Tonnage": 150,
 	"InitialTonnage": 15,
 	"weightClass": "ASSAULT",
@@ -80,7 +79,12 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 60,
@@ -91,19 +95,23 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -129,11 +137,11 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{
@@ -149,7 +157,12 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 22,
 			"MaxArmor": 420,
@@ -172,11 +185,11 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{
@@ -194,19 +207,23 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],

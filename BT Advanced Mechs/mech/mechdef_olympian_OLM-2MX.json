@@ -16,17 +16,17 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_olympian_OLM-1MX",
+	"ChassisID": "chassisdef_olympian_OLM-2MX",
 	"Description": {
 		"Cost": 25000000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Olympian OLM-1MX",
-		"Id": "mechdef_olympian_OLM-1MX",
+		"UIName": "Olympian OLM-2MX",
+		"Id": "mechdef_olympian_OLM-2MX",
 		"Name": "Olympian",
-		"Details": "With their immediate neighbors working on superheavy battlemechs, House Marik found itself behind the technological 8-ball. In order to ensure the FWLM could compete on a new, heavier battlefield, Thomas Marik commissioned Project Olympian, House Marik's superheavy construction project. The resultant mech, the OLM-1MX Olympian, proved effective albeit expensive. Armed with twin capacitor fed Heavy PPCs as well as four each MML-5s and ER Small Lasers. The Olympian proved successful though its cost and grueling maintenance requirements kept it from wider production.",
+		"Details": "With their immediate neighbors working on superheavy battlemechs, House Marik found itself behind the technological 8-ball. In order to ensure the FWLM could compete on a new, heavier battlefield, Thomas Marik commissioned Project Olympian, House Marik's superheavy construction project. The resultant mech, the OLM-1MX Olympian, proved effective albeit expensive. The -2MX is the second variant produced and relies on overwhelming firepower, with twin Sniper Artillery Cannons doing the heavy lifting. A sole ER PPC provides much needed ammo-free firepowre.",
 		"Icon": "uixTxrIcon_olympian"
 	},
 	"simGameMechPartCost": 714821,
@@ -288,72 +288,59 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
-			"ComponentDefType": "Weapon",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_CommandConsole",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
+			"SimGameUID": "",
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_MML_5",
+			"ComponentDefID": "Weapon_Autocannon_SNIPER_CANNON",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"hasPrefabName": false,
-			"DamageLevel": "Functional"
+			"DamageLevel": "Functional",
+			"LocalGUID":"target_Sniper_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_MML_5",
-			"ComponentDefType": "Weapon",
+			"ComponentDefID": "Gear_Attachment_ArtilleryFCS",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
 			"hasPrefabName": false,
-			"DamageLevel": "Functional"
+			"TargetComponentGUID":"target_Sniper_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_MML_5",
+			"ComponentDefID": "Weapon_Autocannon_SNIPER_CANNON",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"hasPrefabName": false,
-			"DamageLevel": "Functional"
+			"DamageLevel": "Functional",
+			"LocalGUID":"target_Sniper_2"
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_MML_5",
-			"ComponentDefType": "Weapon",
+			"ComponentDefID": "Gear_Attachment_ArtilleryFCS",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
 			"hasPrefabName": false,
-			"DamageLevel": "Functional"
+			"TargetComponentGUID":"target_Sniper_2"
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"hasPrefabName": false,
@@ -362,7 +349,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_PPC_Capacitor",
+			"ComponentDefID": "Gear_Attachment_PPCFCS",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
@@ -373,29 +360,8 @@
 			"TargetComponentGUID":"target_PPC_1"
 		},
 		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"hasPrefabName": false,
-			"DamageLevel": "Functional",
-			"LocalGUID":"target_PPC_2"
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_PPC_Capacitor",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_2"
-		},
-		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -403,32 +369,32 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Inferno_Sniper_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Sniper_Cannon",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "emod_case2",
-			"ComponentDefType": "Upgrade",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Shaped_Sniper_Cannon",
+			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
@@ -442,43 +408,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"SimGameUID": "",
-			"hasPrefabName": false,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,
