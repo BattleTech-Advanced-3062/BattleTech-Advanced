@@ -4803,7 +4803,7 @@
 			"Bonus": "Strafe",
 			"Short": "Strafing Run",
 			"Long": "Strafing Run",
-			"Full": "This equipment permits the carrying unit to call in an aerospace strafing run on a designated flight path. Strafing units attack everything in the flight path, including allied units as they are unable to discriminat due to the speed of the strafe."
+			"Full": "This equipment permits the carrying unit to call in an aerospace strafing run on a designated flight path. Strafing units attack everything in the flight path, including allied units as they are unable to discriminat due to the speed of the strafe. Must be used before movement and consumes entire turn."
 		},
 		{
 			"Bonus": "StrafeCount",
