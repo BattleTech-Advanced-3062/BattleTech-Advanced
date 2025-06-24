@@ -127,7 +127,10 @@
 					}
 				}
 			]
-		}
+		},
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"StatName": null,
 	"Description": {

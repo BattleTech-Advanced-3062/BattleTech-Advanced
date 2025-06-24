@@ -100,7 +100,10 @@
 					"nature": "Buff"
 				}
 			]
-		}
+		},
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"StatName": null,
 	"Description": {
