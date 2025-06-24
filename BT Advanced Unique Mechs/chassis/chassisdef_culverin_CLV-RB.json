@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Omega",
+			"PrefabID": "Culverin",
 			"Exclude": false,
 			"Include": true
 		}
@@ -9,15 +9,47 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_405",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_xl_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Culverin",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -30,31 +62,30 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Omega",
-		"Id": "chassisdef_omega_SHP-X4",
-		"Name": "Omega",
-		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
-		"Icon": "uixTxrIcon_omega"
+		"UIName": "Ribauldequin",
+		"Id": "chassisdef_culverin_CLV-RB",
+		"Name": "Ribauldequin",
+		"Details": "The Culverin is the pride of the Federated Suns but nothing is beyond the reach of the gameworld Solaris VII and so the Culverin found its way into the arenas. This variant, named after an extremely obscure Old Terran blackpowder weapon of some sort, is a gameworld take on the Culverin. Armed with triple Silver Bullet Gauss Rifles as well as twin Clan-grade LRM-20s, the Ribauldequin is more than capable of sanding anything down to dust. A total of ten tons of ammo proved more than sufficient for the arenas while CASE II protects both the ammo and the gauss rifles.",
+		"Icon": "uixTxrIcon_culverin"
 	},
-	"VariantName": "SHP-X4",
+	"VariantName": "CLV-RB",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
-			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "The Culverin is the pride of the Federated Suns but nothing is beyond the reach of the gameworld Solaris VII and so the Culverin found its way into the arenas. This variant, named after an extremely obscure Old Terran blackpowder weapon of some sort, is a gameworld take on the Culverin. Armed with triple Silver Bullet Gauss Rifles as well as twin Clan-grade LRM-20s, the Ribauldequin is more than capable of sanding anything down to dust. A total of ten tons of ammo proved more than sufficient for the arenas while CASE II protects both the ammo and the gauss rifles.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_omega",
-	"PrefabIdentifier": "chrprfmech_omegabase-001",
-	"PrefabBase": "omega",
-	"Tonnage": 150,
-	"InitialTonnage": 15,
+	"HardpointDataDefID": "hardpointdatadef_piratemech1",
+	"PrefabIdentifier": "chrprfmech_piratemech1base-001",
+	"PrefabBase": "piratemech1",
+	"Tonnage": 135,
+	"InitialTonnage": 13.5,
 	"weightClass": "ASSAULT",
 	"BattleValue": 10206000,
 	"Heatsinks": 0,
@@ -110,19 +141,15 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 240,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 120
 		},
 		{
 			"Location": "LeftTorso",
@@ -148,59 +175,46 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
+			"MaxArmor": 280,
+			"MaxRearArmor": 140,
+			"InternalStructure": 140
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 420,
-			"MaxRearArmor": 210,
-			"InternalStructure": 210
+			"MaxArmor": 390,
+			"MaxRearArmor": 195,
+			"InternalStructure": 195
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -210,23 +224,27 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
+			"MaxArmor": 280,
+			"MaxRearArmor": 140,
+			"InternalStructure": 140
 		},
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -236,27 +254,27 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 240,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 120
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 280,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 140
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 280,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 140
 		}
 	],
 	"LOSSourcePositions": [

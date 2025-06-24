@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Omega",
+			"PrefabID": "Monster",
 			"Exclude": false,
 			"Include": true
 		}
@@ -17,7 +17,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+			"ComponentDefID": "Gear_Quirk_HardenedCockpit_Monster",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -25,20 +25,21 @@
 		}
 	],
 	"Description": {
-		"Cost": 25000000,
+		"Cost": 35741070,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Omega",
-		"Id": "chassisdef_omega_SHP-X4",
-		"Name": "Omega",
-		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
-		"Icon": "uixTxrIcon_omega"
+		"UIName": "Cookie",
+		"Id": "chassisdef_monster_MNST-CK",
+		"Name": "Cookie",
+		"Details": "This rather bafflingly named BattleMech is a unique variant of the Monster, a Lyran superheavy BattleMech designed for siege warfare. While ponderously slow and clunky, the Cookie (the name has baffled MechWarriors since the 'Mech's introduction, there are betting pools on Solaris VII about its origin) is more than deadly, capable of obliterating anything it can see with its paired Improved Heavy Gauss Rifles and MRM-40s. A MASC system gives the Cookie a little more speed while a Webb Targeting Computer helps with weapon accuracy.",
+		"Icon": "uixTxrIcon_monster"
 	},
-	"VariantName": "SHP-X4",
+	"VariantName": "MNST-CK",
 	"ChassisTags": {
 		"items": [
+			"mr-resize-1.06-1.06-1.06",
 			"SuperHeavyMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
@@ -46,13 +47,13 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "This rather bafflingly named BattleMech is a unique variant of the Monster, a Lyran superheavy BattleMech designed for siege warfare. While ponderously slow and clunky, the Cookie (the name has baffled MechWarriors since the 'Mech's introduction, there are betting pools on Solaris VII about its origin) is more than deadly, capable of obliterating anything it can see with its paired Improved Heavy Gauss Rifles and MRM-40s. A MASC system gives the Cookie a little more speed while a Webb Targeting Computer helps with weapon accuracy.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_omega",
-	"PrefabIdentifier": "chrprfmech_omegabase-001",
-	"PrefabBase": "omega",
+	"HardpointDataDefID": "hardpointdatadef_monster",
+	"PrefabIdentifier": "chrprfmech_monsterbase-001",
+	"PrefabBase": "monster",
 	"Tonnage": 150,
 	"InitialTonnage": 15,
 	"weightClass": "ASSAULT",
@@ -86,12 +87,7 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 60,
@@ -102,19 +98,23 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				}
 			],
@@ -148,10 +148,6 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
@@ -164,12 +160,7 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 22,
 			"MaxArmor": 420,
@@ -200,10 +191,6 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
@@ -218,19 +205,23 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				}
 			],

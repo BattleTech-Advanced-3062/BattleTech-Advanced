@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Omega",
+			"PrefabID": "Olympian",
 			"Exclude": false,
 			"Include": true
 		}
@@ -16,8 +16,8 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Quirk_Battlefists_Olympian",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -30,31 +30,31 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Omega",
-		"Id": "chassisdef_omega_SHP-X4",
-		"Name": "Omega",
-		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
-		"Icon": "uixTxrIcon_omega"
+		"UIName": "Scalpel",
+		"Id": "chassisdef_olympian_OLM-SC",
+		"Name": "Scalpel",
+		"Details": "Some 'Mechs are hammers and some are scalpels. At least, that's the philosophy that this 'Mech's designer had. Where most other superheavy BattleMechs are hammers, winning encounter with brute force and raw power, this Olympian-class superheavy BattleMech wins encounters via surgical precision of its six Large Pulse Lasers. While less firepower than might be expected from a superheavy, the extremely high accuracy means that the Scalpel is always scoring hits and slagging away armor, leading to it scoring many victories in the arenas.",
+		"Icon": "uixTxrIcon_olympian"
 	},
-	"VariantName": "SHP-X4",
+	"VariantName": "OLM-SC",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
+			"mr-resize-1.1-1.1-1.1",
 			"ArmLimitLowerRight",
-			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "Some 'Mechs are hammers and some are scalpels. At least, that's the philosophy that this 'Mech's designer had. Where most other superheavy BattleMechs are hammers, winning encounter with brute force and raw power, this Olympian-class superheavy BattleMech wins encounters via surgical precision of its six Large Pulse Lasers. While less firepower than might be expected from a superheavy, the extremely high accuracy means that the Scalpel is always scoring hits and slagging away armor, leading to it scoring many victories in the arenas.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_omega",
-	"PrefabIdentifier": "chrprfmech_omegabase-001",
-	"PrefabBase": "omega",
-	"Tonnage": 150,
-	"InitialTonnage": 15,
+	"HardpointDataDefID": "hardpointdatadef_alligator",
+	"PrefabIdentifier": "chrprfmech_alligatorbase-001",
+	"PrefabBase": "alligator",
+	"Tonnage": 120,
+	"InitialTonnage": 12,
 	"weightClass": "ASSAULT",
 	"BattleValue": 10206000,
 	"Heatsinks": 0,
@@ -86,12 +86,7 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 60,
@@ -100,43 +95,26 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 210,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 105
 		},
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -146,49 +124,53 @@
 				{
 					"WeaponMountID": "Artillery",
 					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Superweapon",
-					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
+			"MaxArmor": 250,
+			"MaxRearArmor": 125,
+			"InternalStructure": 125
 		},
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 420,
-			"MaxRearArmor": 210,
-			"InternalStructure": 210
+			"MaxArmor": 360,
+			"MaxRearArmor": 180,
+			"InternalStructure": 180
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -198,9 +180,31 @@
 				{
 					"WeaponMountID": "Artillery",
 					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 250,
+			"MaxRearArmor": 125,
+			"InternalStructure": 125
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -209,54 +213,28 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 210,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 105
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 250,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 125
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 250,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 125
 		}
 	],
 	"LOSSourcePositions": [

@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Yazata",
-		"Id": "chassisdef_yazata_X-YZT-ETERNATUS",
-		"Name": "Yazata",
-		"Details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support. Nothing can withstand the Yazata for long.",
+		"UIName": "Extremis",
+		"Id": "chassisdef_yazata_X-YZT-EXTREMIS",
+		"Name": "Extremis",
+		"Details": "The Yazata Word of Blake Superheavy is already a vanishingly rare, nearly mythical weapon of warfare. It appears only rarely, decimates the opposition, and then is gone without a trace. Its designations are mysterious and its origin is unclear. However, this 'Mech, the Extremis, is an even stranger variant of the Yazata intended for direct arena combat. Armed with twin ER PPC Shotguns and Rotary Gauss Rifles, the Extremis is capable of obliterating anything it surveys in the arenas. Angel ECM keeps the mech well protected and a rare Sanctuary Worlds-grade Supercharger gives it unexpected boosts of speed.",
 		"Icon": "uixTxrIcon_yazata"
 	},
 	"MovementCapDefID": "movedef_mackie-9H",
@@ -243,7 +243,7 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "X-YZT-ETERNATUS",
+	"VariantName": "X-YZT-EXTREMIS",
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
@@ -254,8 +254,8 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Omni",
-	"YangsThoughts": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 390-rated light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support. Nothing can withstand the Yazata for long.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "The Yazata Word of Blake Superheavy is already a vanishingly rare, nearly mythical weapon of warfare. It appears only rarely, decimates the opposition, and then is gone without a trace. Its designations are mysterious and its origin is unclear. However, this 'Mech, the Extremis, is an even stranger variant of the Yazata intended for direct arena combat. Armed with twin ER PPC Shotguns and Rotary Gauss Rifles, the Extremis is capable of obliterating anything it surveys in the arenas. Angel ECM keeps the mech well protected and a rare Sanctuary Worlds-grade Supercharger gives it unexpected boosts of speed.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

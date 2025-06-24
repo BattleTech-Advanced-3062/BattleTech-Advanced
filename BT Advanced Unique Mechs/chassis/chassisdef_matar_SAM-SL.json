@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Matar",
-		"Id": "chassisdef_matar_SAM-RS",
-		"Name": "Matar",
-		"Details": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+		"UIName": "Slayer",
+		"Id": "chassisdef_matar_SAM-SL",
+		"Name": "Slayer",
+		"Details": "With the resurrection of the Matar by ComStar in the 3050s came a revitalization in the concept of superheavy BattleMechs throughout the Inner Sphere. With that revitalization came the interest of the gameworld, Solaris VII, and inevitably some of the newly crafted superheavies found their way to the arenas. This 'Mech, the so-called Slayer, is one such design. Armed with a whopping 6 ER PPCs, the Slayer is a powerful machine. To keep the heat managed, the Slayer uses rare Sanctuary Worlds heat management technology such as Heat Controllers. The Slayer proved a hit in the arenas and went on to have a solid career.",
 		"Icon": "uixTxrIcon_matar"
 	},
 	"FixedEquipment": [
@@ -95,7 +95,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -113,11 +113,7 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -134,6 +130,10 @@
 				},
 				{
 					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],
@@ -161,11 +161,7 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -207,7 +203,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -284,7 +280,7 @@
 			"z": 1
 		}
 	],
-	"VariantName": "SAM-RS",
+	"VariantName": "SAM-SL",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
@@ -294,8 +290,8 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Slow Juggernaut",
-	"YangsThoughts": "With an intended role of static defense, the Matar was built around long range firepower, toting a pair of Gauss Rifles in the side torsos supplemented by a dorsal-mounted ER Large Laser. To deal with faster units the Matar was ill-suited to fight, a pair of Large Pulse Lasers were equipped, one in each arm. A simple pivot of the torso would enable the pilot to even hit targets directly behind him with one of the arm lasers, both capable of dealing crippling hits to lighter assets. When coupled with the rear-mounted Medium Pulse Laser, there was no true safe angle from which to attack a Matar. Reportedly at Stefan Amaris' personal insistence, the Matar carries a pair of Flamers to roast opposing infantry alive. To guard against advanced munitions that could threaten the Matar from long range, a Guardian ECM was installed in one of the legs.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "With the resurrection of the Matar by ComStar in the 3050s came a revitalization in the concept of superheavy BattleMechs throughout the Inner Sphere. With that revitalization came the interest of the gameworld, Solaris VII, and inevitably some of the newly crafted superheavies found their way to the arenas. This 'Mech, the so-called Slayer, is one such design. Armed with a whopping 6 ER PPCs, the Slayer is a powerful machine. To keep the heat managed, the Slayer uses rare Sanctuary Worlds heat management technology such as Heat Controllers. The Slayer proved a hit in the arenas and went on to have a solid career.",
 	"CustomParts": {
 		"CustomParts": []
 	}

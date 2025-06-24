@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Omega",
+			"PrefabID": "Culverin",
 			"Exclude": false,
 			"Include": true
 		}
@@ -9,15 +9,47 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_405",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_xl_center",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Culverin",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"hasPrefabName": false,
@@ -30,31 +62,30 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Omega",
-		"Id": "chassisdef_omega_SHP-X4",
-		"Name": "Omega",
-		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
-		"Icon": "uixTxrIcon_omega"
+		"UIName": "Culverin",
+		"Id": "chassisdef_culverin_CLV-3N",
+		"Name": "Culverin",
+		"Details": "Determined not to be left behind by the march of progress, the Armed Forces of the Federated Suns began work in the 3050s on a Superheavy BattleMech program. Despite a decade of fitful starts and stops, they eventually debuted a design in the 3060s, the Culverin. Named for an ancient Terran artillery weapon, the Culverin carries two of the AFFS's favored weapons, Rotary Autocannon/5s, into battle. To back up the RACs the Culverin has an Extended LRM-20 and, in the only nod to ammo-free firepower, an ER Large Laser. 7 total tons of CASE II protected ammunition ensure the guns keep running in any combat situation. Most shockingly though, the Culverin is powered by a 405-rated XL engine, breaking the normal confines of what BattleMech engines can consist of.",
+		"Icon": "uixTxrIcon_culverin"
 	},
-	"VariantName": "SHP-X4",
+	"VariantName": "CLV-3N",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
-			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+	"StockRole": "Superheavy Direct-Fire Support",
+	"YangsThoughts": "Determined not to be left behind by the march of progress, the Armed Forces of the Federated Suns began work in the 3050s on a Superheavy BattleMech program. Despite a decade of fitful starts and stops, they eventually debuted a design in the 3060s, the Culverin. Named for an ancient Terran artillery weapon, the Culverin carries four of the AFFS's favored weapons, LB-10X Autocannons, into combat. To back up the barrage of autocannons the Culverin has a mere MML-7 and ER Small Laser, necessitating it remain close to supply lines lest its generous 8 tons of ammo run out. Most shockingly though, the Culverin is powered by a 405-rated XL engine, breaking the normal confines of what BattleMech engines can consist of.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_omega",
-	"PrefabIdentifier": "chrprfmech_omegabase-001",
-	"PrefabBase": "omega",
-	"Tonnage": 150,
-	"InitialTonnage": 15,
+	"HardpointDataDefID": "hardpointdatadef_piratemech1",
+	"PrefabIdentifier": "chrprfmech_piratemech1base-001",
+	"PrefabBase": "piratemech1",
+	"Tonnage": 135,
+	"InitialTonnage": 13.5,
 	"weightClass": "ASSAULT",
 	"BattleValue": 10206000,
 	"Heatsinks": 0,
@@ -110,19 +141,15 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 240,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 120
 		},
 		{
 			"Location": "LeftTorso",
@@ -148,59 +175,46 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
+			"MaxArmor": 280,
+			"MaxRearArmor": 140,
+			"InternalStructure": 140
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 420,
-			"MaxRearArmor": 210,
-			"InternalStructure": 210
+			"MaxArmor": 390,
+			"MaxRearArmor": 195,
+			"InternalStructure": 195
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -210,23 +224,23 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 310,
-			"MaxRearArmor": 155,
-			"InternalStructure": 155
+			"MaxArmor": 280,
+			"MaxRearArmor": 140,
+			"InternalStructure": 140
 		},
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Artillery",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
@@ -236,27 +250,27 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 270,
+			"MaxArmor": 240,
 			"MaxRearArmor": -1,
-			"InternalStructure": 135
+			"InternalStructure": 120
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 280,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 140
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 310,
+			"MaxArmor": 280,
 			"MaxRearArmor": -1,
-			"InternalStructure": 155
+			"InternalStructure": 140
 		}
 	],
 	"LOSSourcePositions": [

@@ -30,13 +30,13 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Omega",
-		"Id": "chassisdef_omega_SHP-X4",
-		"Name": "Omega",
-		"Details": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+		"UIName": "Obliterator",
+		"Id": "chassisdef_omega_SHP-OB",
+		"Name": "Obliterator",
+		"Details": "Designed as the ultimate final word in fixed position defense, the Omega was all too effective at its job. However, there's nothing that the arenas of Solaris VII can't twist to their own ends, the Omega included, and this Omega has found new life in the arenas. Equipped with a quartet of brutal Sniper Cannons, the Obliterator is more than capable of decimating anything it can see. 7 tons of CASE II protected ammo is enough for most arena combats.",
 		"Icon": "uixTxrIcon_omega"
 	},
-	"VariantName": "SHP-X4",
+	"VariantName": "SHP-OB",
 	"ChassisTags": {
 		"items": [
 			"SuperHeavyMech",
@@ -46,8 +46,8 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Superheavy Prototype",
-	"YangsThoughts": "The heaviest known BattleMech in existence, the Omega is a secretive experimental superheavy siege mech designed by the Word of Blake after endless iteration on the old Matar designs from the Amaris Civil War. Armed with an absurd level of firepower and armor, the Omega is the final word in BattleMech development. However, that firepower and armor comes at a cost: the Omega is extremely slow even by assault mech standards and has difficulty traversing long distances. Still, the Word of Blake has dedicated extreme resources to the Omega's development so further breakthroughs seem likely.",
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "Designed as the ultimate final word in fixed position defense, the Omega was all too effective at its job. However, there's nothing that the arenas of Solaris VII can't twist to their own ends, the Omega included, and this Omega has found new life in the arenas. Equipped with a quartet of brutal Sniper Cannons, the Obliterator is more than capable of decimating anything it can see. 7 tons of CASE II protected ammo is enough for most arena combats.",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
 	"HardpointDataDefID": "hardpointdatadef_omega",
@@ -148,10 +148,6 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Superweapon",
 					"Omni": false
 				}
@@ -197,10 +193,6 @@
 				},
 				{
 					"WeaponMountID": "Artillery",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
