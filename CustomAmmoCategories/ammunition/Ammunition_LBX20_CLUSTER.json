@@ -18,7 +18,7 @@
 	"AIBattleValue": 60,
 	"Instability": -22,
 	"ShotsWhenFired": 0,
-	"ProjectilesPerShot": 20,
+	"ProjectilesPerShot": 19,
 	"HeatGenerated": 0,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
