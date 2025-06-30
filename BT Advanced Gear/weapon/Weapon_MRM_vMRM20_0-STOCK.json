@@ -4,13 +4,13 @@
 			"CategoryID": "w/m/s/mrm"
 		},
 		"BonusDescriptions": [
-				"vMRM",
-				"vMRMBase",
-				"vMRMDmg",
-				"vMRMAcc",
-				"vMRMHeat",
-				"MissileHealth: 1"
-			]
+			"vMRM",
+			"vMRMBase",
+			"vMRMDmg: 2, +8, -1",
+			"vMRMAcc: +2, 2, 4",
+			"vMRMHeat: 8, 1",
+			"MissileHealth: 1"
+		]
 	},
 	"Category": "Missile",
 	"Type": "LRM",
@@ -43,7 +43,7 @@
 	"MissileHealth": 1,
 	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
 	"Description": {
-		"Cost": 225000,
+		"Cost": 315000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "Skobel",
@@ -76,7 +76,7 @@
 			"UIName": "Dmg",
 			"isBaseMode": false,
 			"DamagePerShot": 2,
-			"HeatGenerated": 15,
+			"HeatGenerated": 8,
 			"AccuracyModifier": 1
 		},
 		{
@@ -84,15 +84,14 @@
 			"UIName": "Acc",
 			"isBaseMode": false,
 			"DamagePerShot": -2,
-			"HeatGenerated": 8,
+			"HeatGenerated": 4,
 			"AccuracyModifier": -2
 		},
 		{
 			"Id": "lv4",
 			"UIName": "Heat",
-			"DamagePerShot": -2,
-			"HeatGenerated": -8,
-			"AccuracyModifier": 1
+			"DamagePerShot": -1,
+			"HeatGenerated": -8
 		}
 	],
 	"statusEffects": [],

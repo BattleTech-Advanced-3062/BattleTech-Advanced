@@ -1,0 +1,301 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Omega",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Omega",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		}
+	],
+	"Description": {
+		"Cost": 25000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Obliterator",
+		"Id": "chassisdef_omega_SHP-OB",
+		"Name": "Obliterator",
+		"Details": "Designed as the ultimate final word in fixed position defense, the Omega was all too effective at its job. However, there's nothing that the arenas of Solaris VII can't twist to their own ends, the Omega included, and this Omega has found new life in the arenas. Equipped with a quartet of brutal Sniper Cannons, the Obliterator is more than capable of decimating anything it can see. 7 tons of CASE II protected ammo is enough for most arena combats.",
+		"Icon": "uixTxrIcon_omega"
+	},
+	"VariantName": "SHP-OB",
+	"ChassisTags": {
+		"items": [
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Superheavy Gladiator",
+	"YangsThoughts": "Designed as the ultimate final word in fixed position defense, the Omega was all too effective at its job. However, there's nothing that the arenas of Solaris VII can't twist to their own ends, the Omega included, and this Omega has found new life in the arenas. Equipped with a quartet of brutal Sniper Cannons, the Obliterator is more than capable of decimating anything it can see. 7 tons of CASE II protected ammo is enough for most arena combats.",
+	"MovementCapDefID": "movedef_annihilator_ANH-1A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_omega",
+	"PrefabIdentifier": "chrprfmech_omegabase-001",
+	"PrefabBase": "omega",
+	"Tonnage": 150,
+	"InitialTonnage": 15,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10206000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 290,
+	"MaxJumpjets": 20,
+	"Stability": 250,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 38,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 150,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 150,
+	"DFAInstability": 75,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 420,
+			"MaxRearArmor": 210,
+			"InternalStructure": 210
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": -1
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

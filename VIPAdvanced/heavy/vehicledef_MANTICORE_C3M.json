@@ -1,19 +1,19 @@
 {
 	"Version": 1,
 	"Description": {
-		"Id": "vehicledef_MANTICORE_C3M",
-		"Name": "Command Manticore",
-		"Details": "",
-		"Icon": "Manticore",
-		"Cost": 993,
+		"Cost": 750000,
 		"Rarity": 0,
-		"Purchasable": false
+		"Purchasable": false,
+		"UIName": "Manticore Heavy Tank (Command)",
+		"Id": "vehicledef_MANTICORE_C3M",
+		"Name": "Manticore (Command)",
+		"Details": "The Manticore is one of the best-designed and most powerful tanks ever created, built to combat BattleMechs in support of infantry formations. Although the Manticore mounts a variety of weapons to handle a variety of combat roles and ranges, and is heavily armored for a vehicle of its weight, it is not equipped to deal with the raw firepower of super-heavy vehicles such as the Demolisher or the Behemoth.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       220     30\n<b>Left</b>         190     30\n<b>Right</b>       190     30\n<b>Rear</b>        130     30\n<b>Turret</b>      210     30\n\n<b>Total</b>      940    150\n",
+		"Icon": "Manticore"
 	},
 	"ChassisID": "vehiclechassisdef_MANTICORE_C3M",
 	"VehicleTags": {
 		"items": [
-			"unit_noncontrollableTank",
-			"NOSALVAGE",
+			"unit_controllableTank",
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_heavy",

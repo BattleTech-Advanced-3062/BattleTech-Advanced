@@ -1,0 +1,292 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Monster",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_HardenedCockpit_Monster",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		}
+	],
+	"Description": {
+		"Cost": 35741070,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Monster",
+		"Id": "chassisdef_monster_MNST-5R",
+		"Name": "Monster",
+		"Details": "The heaviest known BattleMech in existence, the Monster is a secretive experimental superheavy siege mech designed by House Steiner after endless iteration and some covert knowledge 'transfers' from ComStar concerning Amaris's Matar design. Armed with a ludicrous amount of weaponry and armor, the Monster lives up to its name. However, the Monster is absurdly slow and largely unable to defend itself against being swarmed by lighter elements. Armed with a quartet each of Heavy Gauss Rifles and Medium Lasers (a token nod to close-range defense), the Monster is more than capable of decimating anything it can get a target lock against.",
+		"Icon": "uixTxrIcon_monster"
+	},
+	"VariantName": "MNST-5R",
+	"ChassisTags": {
+		"items": [
+			"mr-resize-1.06-1.06-1.06",
+			"SuperHeavyMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Superheavy Prototype",
+	"YangsThoughts": "The heaviest known BattleMech in existence, the Monster is a secretive experimental superheavy siege mech designed by House Steiner after endless iteration and some covert knowledge 'transfers' from ComStar concerning Amaris's Matar design. Armed with a ludicrous amount of weaponry and armor, the Monster lives up to its name. However, the Monster is absurdly slow and largely unable to defend itself against being swarmed by lighter elements. Armed with a quartet each of Heavy Gauss Rifles and Medium Lasers (a token nod to close-range defense), the Monster is more than capable of decimating anything it can get a target lock against.",
+	"MovementCapDefID": "movedef_annihilator_ANH-1A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_monster",
+	"PrefabIdentifier": "chrprfmech_monsterbase-001",
+	"PrefabBase": "monster",
+	"Tonnage": 150,
+	"InitialTonnage": 15,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10206000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 290,
+	"MaxJumpjets": 20,
+	"Stability": 250,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 38,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 150,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 150,
+	"DFAInstability": 75,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 420,
+			"MaxRearArmor": 210,
+			"InternalStructure": 210
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14.5,
+			"z": 0
+		},
+		{
+			"x": 4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": -4,
+			"y": 15,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": -1
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

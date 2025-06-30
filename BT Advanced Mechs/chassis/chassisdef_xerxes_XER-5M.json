@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Xerxes",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -117,17 +124,17 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 210,
+			"MaxArmor": 230,
 			"MaxRearArmor": -1,
-			"InternalStructure": 110
+			"InternalStructure": 115
 		},
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 255,
-			"MaxRearArmor": 120,
+			"MaxArmor": 270,
+			"MaxRearArmor": 135,
 			"InternalStructure": 135
 		},
 		{
@@ -152,17 +159,17 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 330,
-			"MaxRearArmor": 150,
-			"InternalStructure": 195
+			"MaxArmor": 380,
+			"MaxRearArmor": 190,
+			"InternalStructure": 190
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 255,
-			"MaxRearArmor": 120,
+			"MaxArmor": 270,
+			"MaxRearArmor": 135,
 			"InternalStructure": 135
 		},
 		{
@@ -191,9 +198,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 210,
+			"MaxArmor": 230,
 			"MaxRearArmor": -1,
-			"InternalStructure": 110
+			"InternalStructure": 115
 		},
 		{
 			"Location": "LeftLeg",

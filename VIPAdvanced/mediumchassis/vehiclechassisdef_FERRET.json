@@ -4,13 +4,14 @@
 		"MoveClamp": 0.5
 	},
 	"Description": {
-		"Id": "vehiclechassisdef_FERRET",
-		"Name": "Ferret",
-		"Details": "",
-		"Icon": "Manticore",
 		"Cost": 450000,
 		"Rarity": 0,
-		"Purchasable": false
+		"Purchasable": false,
+		"UIName": "Ferret Hover Tank",
+		"Id": "vehiclechassisdef_FERRET",
+		"Name": "Ferret",
+		"Details": "The Ferret is a medium hovertank developed by a mercenary commander in need of a fast, effective, skirmisher. The Ferret served its purpose well and proceeded to find its way into other mercenary commands.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       180     25\n<b>Left</b>         150     25\n<b>Right</b>       150     25\n<b>Rear</b>         120     25\n<b>Turret</b>      115     25\n\n<b>Total</b>      715    125\n",
+		"Icon": "Drillson"
 	},
 	"MovementCapDefID": "movedef_9-14cv",
 	"PathingCapDefID": "pathingdef_medium_hover",

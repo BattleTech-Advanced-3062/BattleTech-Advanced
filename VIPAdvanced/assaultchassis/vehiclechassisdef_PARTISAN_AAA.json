@@ -1,15 +1,23 @@
 {
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Partisan",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"CustomParts": []
 	},
 	"Description": {
-		"Id": "vehiclechassisdef_PARTISAN_AAA",
-		"Name": "Partisan",
-		"Details": "",
-		"Icon": "Partisan",
 		"Cost": 1000000,
 		"Rarity": 4,
-		"Purchasable": false
+		"Purchasable": false,
+		"UIName": "Partisan Air Defense Tank",
+		"Id": "vehiclechassisdef_PARTISAN_AAA",
+		"Name": "Partisan Air Defense Tank",
+		"Details": "Kallon Industries, famous for designing some of the most popular anti-aircraft\u00a0'Mechs\u00a0in the\u00a0Inner Sphere, designed the\u00a0Partisan\u00a0to bring those same capabilities onto a cheaper, more easily produced vehicle.  While slow and lightly armored, its role tends to keep it in rearward locations, where this is less of a liability. The Partisan's four turret-mounted Autocannons are supplied with several tons of airbursting shells that are optimized for destroying aircraft. Additionally, it carries twin\u00a0Machine Guns\u00a0for defence against infantry.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       175     40\n<b>Left</b>          130     40\n<b>Right</b>        130     40\n<b>Rear</b>         105     40\n<b>Turret</b>      175     40\n\n<b>Total</b>      715    200\n",
+		"Icon": "Partisan"
 	},
 	"MovementCapDefID": "movedef_3-5cv",
 	"PathingCapDefID": "pathingdef_assault_tracked",

@@ -27,7 +27,7 @@
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 3,
 	"DamageVariance": 0,
-	"HeatDamage": 50,
+	"HeatDamage": 35,
 	"AccuracyModifier": 2,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,

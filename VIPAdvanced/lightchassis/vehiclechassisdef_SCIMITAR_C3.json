@@ -1,17 +1,25 @@
 {
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Scimitar",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"MoveCost": "Hover",
 		"MoveClamp": 0.5,
 		"CustomParts": []
 	},
 	"Description": {
-		"Id": "vehiclechassisdef_SCIMITAR_C3",
-		"Name": "Scimitar",
-		"Details": "",
-		"Icon": "Scimitar",
 		"Cost": 250000,
 		"Rarity": 0,
-		"Purchasable": false
+		"Purchasable": false,
+		"UIName": "Scimitar (RAC2)",
+		"Id": "vehiclechassisdef_SCIMITAR_C3",
+		"Name": "Scimitar (RAC2)",
+		"Details": "The Scimitar Medium Hover Tank is very similar to the Saracen. Following the success of that combat vehicle, Scarborough Limited designed another pair of tanks with the same chassis to capitalize on sales. Their plan was successful, and Scarborough had another hit on their hands, five years after the release of the Saracen.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 8/12 Hex: 240/360 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       150     20\n<b>Left</b>          125     20\n<b>Right</b>        125     20\n<b>Rear</b>         100     20\n<b>Turret</b>      125     20\n\n<b>Total</b>      625    100\n",
+		"Icon": "Scimitar"
 	},
 	"MovementCapDefID": "movedef_8-12cv",
 	"PathingCapDefID": "pathingdef_light_hover",

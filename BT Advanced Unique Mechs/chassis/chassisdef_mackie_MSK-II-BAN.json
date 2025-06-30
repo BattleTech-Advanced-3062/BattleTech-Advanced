@@ -1,0 +1,291 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MackieII",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 9900000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Bannerlord",
+		"Id": "chassisdef_mackie_MSK-II-BAN",
+		"Name": "Bannerlord",
+		"Details": "The Mackie was the first BattleMech and the Mackie II carried on its legacy so it was only natural that as the Mackie eventually came to the arenas so too did the Mackie II. This variant, the Bannerlord, represents the Mackie II's successes on the gameworld Solaris VII and is a powerful weapon. Armed with a cutting-edge Hegemony-sourced HISC Hyper Laser, as well as two each Clan-grade LRM-20s and Inner Sphere-grade Large and Medium Lasers, the Bannerlord waves the flag of the Terran Hegemony in the arenas for all to see. 20 double heat sinks along with other advanced heat management gear keep it all relatively well cooled.",
+		"Icon": "uixTxrIcon_mackie"
+	},
+	"MovementCapDefID": "movedef_mackie-9H",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_t74mackie",
+	"PrefabIdentifier": "chrprfmech_t74mackiebase-001",
+	"PrefabBase": "t74mackie",
+	"Tonnage": 105,
+	"InitialTonnage": 10.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 1892000,
+	"Heatsinks": 0,
+	"TopSpeed": 65,
+	"TurnRadius": 120,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 100,
+	"MeleeInstability": 50,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 100,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 100,
+	"DFAInstability": 50,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 220,
+			"MaxRearArmor": 110,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 330,
+			"MaxRearArmor": 165,
+			"InternalStructure": 165
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 220,
+			"MaxRearArmor": 110,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 220,
+			"MaxRearArmor": -1,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 220,
+			"MaxRearArmor": -1,
+			"InternalStructure": 110
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": -1.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 1.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "MSK-II-BAN",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitLowerLeft",
+			"SuperHeavyMech",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "The First BattleMech Gladiator Reimagined",
+	"YangsThoughts": "The Mackie was the first BattleMech and the Mackie II carried on its legacy so it was only natural that as the Mackie eventually came to the arenas so too did the Mackie II. This variant, the Bannerlord, represents the Mackie II's successes on the gameworld Solaris VII and is a powerful weapon. Armed with a cutting-edge Hegemony-sourced HISC Hyper Laser, as well as two each Clan-grade LRM-20s and Inner Sphere-grade Large and Medium Lasers, the Bannerlord waves the flag of the Terran Hegemony in the arenas for all to see. 20 double heat sinks along with other advanced heat management gear keep it all relatively well cooled.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_Flagbearer_MackieII",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_Quirk_Searchlight_Mackie",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -43,19 +43,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
-			"CurrentArmor": 75,
+			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 30,
-			"AssignedArmor": 75,
+			"CurrentInternalStructure": 24,
+			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 420,
+			"CurrentArmor": 360,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 200,
-			"AssignedArmor": 420,
+			"CurrentInternalStructure": 205,
+			"AssignedArmor": 360,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -63,7 +63,7 @@
 			"Location": "LeftTorso",
 			"CurrentArmor": 340,
 			"CurrentRearArmor": 130,
-			"CurrentInternalStructure": 200,
+			"CurrentInternalStructure": 205,
 			"AssignedArmor": 340,
 			"AssignedRearArmor": 130
 		},
@@ -72,7 +72,7 @@
 			"Location": "CenterTorso",
 			"CurrentArmor": 400,
 			"CurrentRearArmor": 175,
-			"CurrentInternalStructure": 300,
+			"CurrentInternalStructure": 260,
 			"AssignedArmor": 400,
 			"AssignedRearArmor": 175
 		},
@@ -81,35 +81,35 @@
 			"Location": "RightTorso",
 			"CurrentArmor": 340,
 			"CurrentRearArmor": 130,
-			"CurrentInternalStructure": 200,
+			"CurrentInternalStructure": 205,
 			"AssignedArmor": 340,
 			"AssignedRearArmor": 130
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 420,
+			"CurrentArmor": 360,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 200,
-			"AssignedArmor": 420,
+			"CurrentInternalStructure": 205,
+			"AssignedArmor": 360,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 420,
+			"CurrentArmor": 360,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 200,
-			"AssignedArmor": 420,
+			"CurrentInternalStructure": 205,
+			"AssignedArmor": 360,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 420,
+			"CurrentArmor": 360,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 200,
-			"AssignedArmor": 420,
+			"CurrentInternalStructure": 205,
+			"AssignedArmor": 360,
 			"AssignedRearArmor": -1
 		}
 	],

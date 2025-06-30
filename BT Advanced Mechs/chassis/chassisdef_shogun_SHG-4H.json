@@ -1,0 +1,283 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Shogun",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 8400000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Shogun",
+		"Id": "chassisdef_shogun_SHG-4H",
+		"Name": "Shogun",
+		"Details": "After decades of struggles, Wolf's Dragoons finally managed to make a contract in the 3040s with the reborn Terran Hegemony in order to bring the Shogun back into production. After several decades of production of the original variants, the Hegemony eventually produced this, the SHG-3H. Built on a 255-rated Light Fusion Engine (supplied by the Dragoons) and equipped with both DHS and jump jets, the -3H uses a similar loadout to the standard Shogun: two LRM racks, 20s this time, and an ER PPC for ranged fire while two Medium Pulse Lasers cover the close ranges. The SHG-3H was a rapid hit and entered service both with the THAF and the Dragoons.",
+		"Icon": "uixTxrIcon_shogun"
+	},
+	"MovementCapDefID": "movedef_stalker_STK-3F",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_shogun",
+	"PrefabIdentifier": "chrprfmech_shogunbase-001",
+	"PrefabBase": "shogun",
+	"Tonnage": 85,
+	"InitialTonnage": 8.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 8821000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 85,
+	"MeleeInstability": 40,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 85,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 85,
+	"DFAInstability": 40,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 270,
+			"MaxRearArmor": 135,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 180,
+			"MaxRearArmor": -1,
+			"InternalStructure": 90
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -3.5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "SHG-4H",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Rare Fire Support",
+	"YangsThoughts": "After decades of struggles, Wolf's Dragoons finally managed to make a contract in the 3040s with the reborn Terran Hegemony in order to bring the Shogun back into production. After several decades of production of the original variants, the Hegemony eventually produced this, the SHG-4H. Built on a 255-rated Light Fusion Engine (supplied by the Dragoons) and equipped with both DHS and jump jets, the -4H replicates the original's loadout using an ER PPC and four MML racks, two 9-tube and two 7-tube. Seven total tons of CASE protected ammunition keeps the mech well protected. The SHG-4H was a rapid hit and entered service both with the THAF and the Dragoons.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Gear_Quirk_Reinforced_Legs_Shogun",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "Gear_Quirk_Reinforced_Legs_Shogun",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

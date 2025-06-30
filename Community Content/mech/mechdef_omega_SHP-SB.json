@@ -45,7 +45,7 @@
 			"Location": "LeftArm",
 			"CurrentArmor": 250,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 125,
+			"CurrentInternalStructure": 135,
 			"AssignedArmor": 250,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
@@ -54,7 +54,7 @@
 			"Location": "LeftTorso",
 			"CurrentArmor": 300,
 			"CurrentRearArmor": 120,
-			"CurrentInternalStructure": 160,
+			"CurrentInternalStructure": 155,
 			"AssignedArmor": 300,
 			"AssignedRearArmor": 120,
 			"DamageLevel": "Functional"
@@ -62,17 +62,17 @@
 		{
 			"Location": "CenterTorso",
 			"CurrentArmor": 350,
-			"CurrentRearArmor": 140,
-			"CurrentInternalStructure": 230,
+			"CurrentRearArmor": 137,
+			"CurrentInternalStructure": 210,
 			"AssignedArmor": 350,
-			"AssignedRearArmor": 140,
+			"AssignedRearArmor": 137,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "RightTorso",
 			"CurrentArmor": 300,
 			"CurrentRearArmor": 120,
-			"CurrentInternalStructure": 160,
+			"CurrentInternalStructure": 155,
 			"AssignedArmor": 300,
 			"AssignedRearArmor": 120,
 			"DamageLevel": "Functional"
@@ -81,26 +81,26 @@
 			"Location": "RightArm",
 			"CurrentArmor": 250,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 125,
+			"CurrentInternalStructure": 135,
 			"AssignedArmor": 250,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "LeftLeg",
-			"CurrentArmor": 285,
+			"CurrentArmor": 280,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 160,
-			"AssignedArmor": 285,
+			"CurrentInternalStructure": 155,
+			"AssignedArmor": 280,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"Location": "RightLeg",
-			"CurrentArmor": 285,
+			"CurrentArmor": 280,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 160,
-			"AssignedArmor": 285,
+			"CurrentInternalStructure": 155,
+			"AssignedArmor": 280,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
 		}
@@ -446,6 +446,24 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": 0,
+			"SimGameUID": "",
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": 0,
+			"SimGameUID": "",
+			"hasPrefabName": false,
+			"DamageLevel": "Functional"
+		},
+		{
+			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_HeatSink_Prototype_Double",
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": 0,

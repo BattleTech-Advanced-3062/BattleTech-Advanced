@@ -4,13 +4,13 @@
 			"CategoryID": "w/m/s/mrm"
 		},
 		"BonusDescriptions": [
-				"vMRM",
-				"vMRMBase",
-				"vMRMDmg",
-				"vMRMAcc",
-				"vMRMHeat",
-				"MissileHealth: 1"
-			]
+			"vMRM",
+			"vMRMBase",
+			"vMRMDmg: 2, +15, -1",
+			"vMRMAcc: +2, 2, 8",
+			"vMRMHeat: 15, 1",
+			"MissileHealth: 1"
+		]
 	},
 	"Category": "Missile",
 	"Type": "LRM",
@@ -43,7 +43,7 @@
 	"MissileHealth": 1,
 	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
 	"Description": {
-		"Cost": 435000,
+		"Cost": 650000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "Shigunga",
@@ -76,7 +76,7 @@
 			"UIName": "Dmg",
 			"isBaseMode": false,
 			"DamagePerShot": 2,
-			"HeatGenerated": 31,
+			"HeatGenerated": 15,
 			"AccuracyModifier": 1
 		},
 		{
@@ -84,15 +84,14 @@
 			"UIName": "Acc",
 			"isBaseMode": false,
 			"DamagePerShot": -2,
-			"HeatGenerated": 16,
+			"HeatGenerated": 8,
 			"AccuracyModifier": -2
 		},
 		{
 			"Id": "lv4",
 			"UIName": "Heat",
-			"DamagePerShot": -2,
-			"HeatGenerated": -16,
-			"AccuracyModifier": 1
+			"DamagePerShot": -1,
+			"HeatGenerated": -15
 		}
 	],
 	"statusEffects": [],

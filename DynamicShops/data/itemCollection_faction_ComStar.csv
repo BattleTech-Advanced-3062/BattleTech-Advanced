@@ -41,6 +41,8 @@ mechdef_tolson_TOL-4N,Mech,1,1
 mechdef_hunchback_HBK-2CS4C,Mech,1,1
 mechdef_striker_STC-2G,Mech,1,1
 mechdef_banshee_BNC-3G,Mech,1,1
+mechdef_matar_SAM-RS,Mech,1,1
+mechdef_matar_SAM-CS,Mech,1,1
 vehicledef_CHEVALIER,Mech,0,10
 emod_kit_dhs,HeatSink,0,1
 Gear_HeatSink_Generic_Double,HeatSink,0,1

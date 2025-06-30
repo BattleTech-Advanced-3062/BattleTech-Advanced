@@ -484,8 +484,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech",
-						"lance_type_fire"
+						"lance_type_mech"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -541,15 +540,10 @@
 							"EncounterObjectGuid": "e3e34fc2-c664-42ab-920b-6002c058ac55"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitType": "Mech",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_assault",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
@@ -578,15 +572,10 @@
 							"EncounterObjectGuid": "ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitType": "Mech",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_medium",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
@@ -615,15 +604,10 @@
 							"EncounterObjectGuid": "f46b3021-803a-41ed-87e0-1b8cb86663b8"
 						},
 						"customUnitName": null,
-						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitType": "Mech",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"{CUR_TEAM.faction}",
-								"unit_vehicle",
-								"unit_medium",
-								"unit_lance_vanguard"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/EncounterTags"
 						},
 						"unitExcludedTagSet": {
