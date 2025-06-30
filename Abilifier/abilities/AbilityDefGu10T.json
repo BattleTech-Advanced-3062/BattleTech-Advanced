@@ -127,6 +127,34 @@
 		},
 		{
 			"durationData": {
+				"duration": 1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": true,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-HullDownRun",
+				"Name": "Hull Down Jump",
+				"Details": "No jumping when Hull Down",
+				"Icon": "hypersonic-bolt"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.01",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
 				"duration": 3,
 				"ticksOnActivations": true,
 				"useActivationsOfTarget": true,
