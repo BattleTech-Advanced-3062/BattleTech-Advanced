@@ -832,8 +832,7 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_vehicle",
-						"lance_type_support"
+						"AssetSecurity"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -860,14 +859,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -898,14 +892,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -936,14 +925,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
@@ -974,14 +958,9 @@
 						"customUnitName": "",
 						"customHeraldryDefId": "",
 						"unitType": "Vehicle",
-						"unitDefId": "Tagged",
+						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [
-								"unit_carrier",
-								"unit_vehicle",
-								"unit_heavy",
-								"{CUR_TEAM.faction}"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {

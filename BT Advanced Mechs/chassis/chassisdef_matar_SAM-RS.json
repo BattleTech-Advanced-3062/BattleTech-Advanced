@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Matar",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 7800000,
 		"Rarity": 4,
@@ -72,9 +79,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 45,
+			"MaxArmor": 60,
 			"MaxRearArmor": -1,
-			"InternalStructure": 16
+			"InternalStructure": 24
 		},
 		{
 			"Location": "LeftArm",
@@ -98,9 +105,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 170,
+			"MaxArmor": 190,
 			"MaxRearArmor": -1,
-			"InternalStructure": 90
+			"InternalStructure": 95
 		},
 		{
 			"Location": "LeftTorso",
@@ -132,8 +139,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 210,
-			"MaxRearArmor": 105,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
 			"InternalStructure": 115
 		},
 		{
@@ -146,8 +153,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 320,
-			"MaxRearArmor": 160,
+			"MaxArmor": 340,
+			"MaxRearArmor": 170,
 			"InternalStructure": 170
 		},
 		{
@@ -176,12 +183,16 @@
 				{
 					"WeaponMountID": "Artillery",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 210,
-			"MaxRearArmor": 105,
+			"MaxArmor": 230,
+			"MaxRearArmor": 115,
 			"InternalStructure": 115
 		},
 		{
@@ -206,16 +217,16 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 170,
+			"MaxArmor": 190,
 			"MaxRearArmor": -1,
-			"InternalStructure": 90
+			"InternalStructure": 95
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 210,
+			"MaxArmor": 230,
 			"MaxRearArmor": -1,
 			"InternalStructure": 115
 		},
@@ -224,7 +235,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 210,
+			"MaxArmor": 230,
 			"MaxRearArmor": -1,
 			"InternalStructure": 115
 		}

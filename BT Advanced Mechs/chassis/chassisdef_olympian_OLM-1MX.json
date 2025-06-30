@@ -98,9 +98,9 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 190,
+			"MaxArmor": 210,
 			"MaxRearArmor": -1,
-			"InternalStructure": 100
+			"InternalStructure": 105
 		},
 		{
 			"Location": "LeftTorso",
@@ -120,13 +120,17 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 230,
-			"MaxRearArmor": 115,
-			"InternalStructure": 115
+			"MaxArmor": 250,
+			"MaxRearArmor": 125,
+			"InternalStructure": 125
 		},
 		{
 			"Location": "CenterTorso",
@@ -150,9 +154,9 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 22,
-			"MaxArmor": 320,
-			"MaxRearArmor": 150,
-			"InternalStructure": 155
+			"MaxArmor": 360,
+			"MaxRearArmor": 180,
+			"InternalStructure": 180
 		},
 		{
 			"Location": "RightTorso",
@@ -172,13 +176,17 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 18,
-			"MaxArmor": 230,
-			"MaxRearArmor": 115,
-			"InternalStructure": 115
+			"MaxArmor": 250,
+			"MaxRearArmor": 125,
+			"InternalStructure": 125
 		},
 		{
 			"Location": "RightArm",
@@ -198,31 +206,35 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 13,
-			"MaxArmor": 190,
+			"MaxArmor": 210,
 			"MaxRearArmor": -1,
-			"InternalStructure": 100
+			"InternalStructure": 105
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 240,
+			"MaxArmor": 250,
 			"MaxRearArmor": -1,
-			"InternalStructure": 120
+			"InternalStructure": 125
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 240,
+			"MaxArmor": 250,
 			"MaxRearArmor": -1,
-			"InternalStructure": 120
+			"InternalStructure": 125
 		}
 	],
 	"LOSSourcePositions": [

@@ -5,6 +5,7 @@
 			"unit_rarity_1",
 			"unit_mech",
 			"unit_assault",
+			"unit_superheavy",
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"Cameron",
@@ -33,10 +34,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
-			"CurrentArmor": 45,
+			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 16,
-			"AssignedArmor": 45,
+			"CurrentInternalStructure": 24,
+			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -61,10 +62,10 @@
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
 			"CurrentArmor": 320,
-			"CurrentRearArmor": 135,
+			"CurrentRearArmor": 120,
 			"CurrentInternalStructure": 165,
 			"AssignedArmor": 320,
-			"AssignedRearArmor": 135
+			"AssignedRearArmor": 120
 		},
 		{
 			"DamageLevel": "Functional",

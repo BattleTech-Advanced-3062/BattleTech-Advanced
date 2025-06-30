@@ -1,0 +1,48 @@
+{
+	"Description": {
+		"Id": "pilot_bd_autumn",
+		"Name": "Artemis",
+		"FirstName": "Heather",
+		"LastName": "Karlson",
+		"Callsign": "Artemis",
+		"Gender": "Female",
+		"Faction": "AuriganRestoration",
+		"Age": "31",
+		"Details": "Heather Karlson was born on the near paradise world of Wildwood in the Magistracy of Canopus to a middle class family. Growing up, Heather adored the outdoors and did a lot of camping and hiking when she was not working on the family vineyard. Later, she pursued higher education expecting to go into the Magistracy Medical Corps but found it so miserable that she switched to Natural Resource Conservation.\r\n\r\nAlways wanting to help and wanting to preserve the beauty of nature she grew up with, Heather joined the Wildwood rangers and conservation corps after graduation. She spent her early years patrolling and stewarding all of the different biomes on Wildwood, whether it be in patrol vehicles or working with with Forestry mechs. Skirmishes did happen with pirate or Marian raiders looking to steal C-Bills, wine, pharmaceuticals, and food but for the most part, her life was uneventful. She was happy but there was a wanting sense of adventure off planet.\r\n\r\nIt wasn't long until mercenary units rotated through Wildwood and Heather instantly became enamored with the lifestyle. She thought if she could go on the offensive against the enemies of the Magistracy, the better off her home would be, so, turning in her badge and rifle, Karlson was determined to start a new adventure.\r\n\r\nHeather is a happy go lucky but naive person when it comes to interstellar politics but wants to see the best in everyone. She hopes her honesty and commitment makes her a valuable part of the team. Before she left, she grabbed an unopened bottle of Wildwood 2950 and a potted Wildwood Iris as a reminder of home.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_autumn"
+	},
+	"BaseGunnery": "3",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_pro05_tanesha",
+	"abilityDefNames": [
+		"TraitDefHealthAddOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_magistracy",
+			"pilot_officer",
+			"name_autumn",
+			"pilot_athletic",
+			"pilot_dependable",
+			"pilot_honest"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

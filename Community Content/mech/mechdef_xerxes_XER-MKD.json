@@ -59,7 +59,7 @@
 			"Location": "LeftArm",
 			"CurrentArmor": 210,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 110,
+			"CurrentInternalStructure": 115,
 			"AssignedArmor": 210,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"
@@ -77,7 +77,7 @@
 			"Location": "CenterTorso",
 			"CurrentArmor": 330,
 			"CurrentRearArmor": 150,
-			"CurrentInternalStructure": 195,
+			"CurrentInternalStructure": 190,
 			"AssignedArmor": 330,
 			"AssignedRearArmor": 150,
 			"DamageLevel": "Functional"
@@ -95,7 +95,7 @@
 			"Location": "RightArm",
 			"CurrentArmor": 210,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 110,
+			"CurrentInternalStructure": 115,
 			"AssignedArmor": 210,
 			"AssignedRearArmor": -1,
 			"DamageLevel": "Functional"

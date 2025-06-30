@@ -2,7 +2,7 @@
 	"ID": "faction_AuriganPirates",
 	"Name": "the local pirate organization",
 	"ShortName": "the pirates",
-	"Demonym": "pirate",
+	"Demonym": "Pirate",
 	"Government": "gang",
 	"Allies": [
 		"Tortuga",

@@ -4,7 +4,7 @@
 			"unit_mech",
 			"unit_assault",
 			"unit_release",
-			"unit_rarity_1",
+			"unit_rarity_2",
 			"unit_lance_support",
 			"unit_role_sniper",
 			"CGBThetaGalaxy",
@@ -27,7 +27,7 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Hyperion",
+		"UIName": "Hyperion HYP-1",
 		"Id": "mechdef_hyperion_HYP-1",
 		"Name": "Hyperion",
 		"Details": "A purely experimental weapons platform, the Hyperion Superheavy BattleMech was designed in concert by a number of members of various Clan scientist castes. Somehow, using the cutting edge science available to them, the Clan scientists managed to produce a viable superheavy chassis, the first since the Matar centuries before. Like that ancient design, the Hyperion uses a combo of energy and gauss weapons, specifically a pair each of Clan-spec ER PPCs and Heavy Large Lasers, while a pair of IS-spec Heavy Gauss Rifles back them up. The Hyperion's 375 rated experimental XXL Engine keep it moving a respectable speed and the nearly maxed armor keep it in the thick of things no matter what.",
@@ -39,10 +39,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "Head",
-			"CurrentArmor": 45,
+			"CurrentArmor": 60,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 16,
-			"AssignedArmor": 45,
+			"CurrentInternalStructure": 24,
+			"AssignedArmor": 60,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -50,7 +50,7 @@
 			"Location": "LeftArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 90,
+			"CurrentInternalStructure": 110,
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
@@ -59,17 +59,17 @@
 			"Location": "LeftTorso",
 			"CurrentArmor": 160,
 			"CurrentRearArmor": 75,
-			"CurrentInternalStructure": 115,
+			"CurrentInternalStructure": 130,
 			"AssignedArmor": 160,
 			"AssignedRearArmor": 75
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 245,
+			"CurrentArmor": 240,
 			"CurrentRearArmor": 80,
-			"CurrentInternalStructure": 165,
-			"AssignedArmor": 245,
+			"CurrentInternalStructure": 185,
+			"AssignedArmor": 240,
 			"AssignedRearArmor": 80
 		},
 		{
@@ -77,7 +77,7 @@
 			"Location": "RightTorso",
 			"CurrentArmor": 160,
 			"CurrentRearArmor": 75,
-			"CurrentInternalStructure": 115,
+			"CurrentInternalStructure": 130,
 			"AssignedArmor": 160,
 			"AssignedRearArmor": 75
 		},
@@ -86,26 +86,26 @@
 			"Location": "RightArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 90,
+			"CurrentInternalStructure": 110,
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 210,
+			"CurrentArmor": 205,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 115,
-			"AssignedArmor": 210,
+			"CurrentInternalStructure": 130,
+			"AssignedArmor": 205,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 210,
+			"CurrentArmor": 205,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 115,
-			"AssignedArmor": 210,
+			"CurrentInternalStructure": 130,
+			"AssignedArmor": 205,
 			"AssignedRearArmor": -1
 		}
 	],

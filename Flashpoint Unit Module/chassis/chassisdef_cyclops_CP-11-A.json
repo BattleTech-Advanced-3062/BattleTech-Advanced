@@ -10,7 +10,7 @@
 	"DFASelfDamage": 100,
 	"DFAToHitModifier": 0,
 	"Description": {
-		"Cost": 10200000,
+		"Cost": 14600000,
 		"Details": "A common modification of the Cyclops that uses some rediscovered Star League technology, the 11-A was introduced in 3045 and replaces the massive Autocannon/20 for a Gauss Rifle with two tons of ammo. Although doing slightly less damage it has a much larger effective range.",
 		"Icon": "uixTxrIcon_cyclops",
 		"Id": "chassisdef_cyclops_CP-11-A",
@@ -222,6 +222,17 @@
 	"StockRole": "Command & Fire Support",
 	"YangsThoughts": "A common modification of the Cyclops that uses some rediscovered Star League technology, the 11-A was introduced in 3045 and replaces the massive Autocannon/20 for a Gauss Rifle with two tons of ammo. Although doing slightly less damage it has a much larger effective range.",
 	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
 		{
 			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Quirk_Cowl_Cyclops",

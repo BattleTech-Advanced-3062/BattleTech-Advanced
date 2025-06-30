@@ -1,19 +1,19 @@
 {
 	"Version": 1,
 	"Description": {
+		"Cost": 1200000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "TBM5 Carrier",
 		"Id": "vehicledef_CARRIER_TBM5",
 		"Name": "TBM5 Carrier",
-		"Details": "",
-		"Icon": "LRMcarrier",
-		"Cost": 993,
-		"Rarity": 0,
-		"Purchasable": false
+		"Details": "Not designed for traditional combat, the Carrier is a force multiplier. Deadly at mid to short ranged combat, the Carrier is armed with a mix of heavy weapons tailored for mech busting.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        80     30\n<b>Left</b>          75     30\n<b>Right</b>        75     30\n<b>Rear</b>         80     30\n\n<b>Total</b>      310    120\n",
+		"Icon": "LRMcarrier"
 	},
 	"ChassisID": "vehiclechassisdef_CARRIER_TBM5",
 	"VehicleTags": {
 		"items": [
-			"unit_noncontrollableTank",
-			"NOSALVAGE",
+			"unit_controllableTank",
 			"mr-resize-1.50",
 			"unit_vehicle",
 			"unit_heavy",
