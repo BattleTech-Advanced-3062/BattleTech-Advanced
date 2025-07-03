@@ -2015,6 +2015,20 @@
 			"FallbackUIColor": "WolfGray",
 			"Icon": "MissileHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_LRM"
+		},
+		{
+			"ID": 6144,
+			"Name": "ULTIMA",
+			"FriendlyName": "ULTIMA",
+			"IsBallistic": true,
+			"IsMissile": false,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Ballistic",
+			"FallbackUIColor": null,
+			"Icon": "BallisticHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		}
 	]
 }
