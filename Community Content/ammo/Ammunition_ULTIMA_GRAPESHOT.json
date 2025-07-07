@@ -1,0 +1,30 @@
+{
+	"Description": {
+		"Id": "Ammunition_ULTIMA_GRAPESHOT",
+		"Name": "Ultima Grapeshot",
+		"UIName": "Grape",
+		"Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "ULTIMA",
+	"DamageMultiplier": 1,
+	"AIBattleValue": 60,
+	"DamagePerShot": -90.0,
+	"Instability": -40,
+	"AOECapable": true,
+	"AOERange": 60,
+	"AOEDamage": 60,
+	"AOEInstability": 30,
+	"ShotsWhenFired": 0,
+	"ProjectilesPerShot": 6,
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"HitGenerator": "Cluster"
+}

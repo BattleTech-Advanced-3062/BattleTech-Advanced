@@ -1,0 +1,28 @@
+{
+	"Description": {
+		"Id": "Ammunition_ULTIMA_CANISTERSHOT",
+		"Name": "Ultima Canistershot",
+		"UIName": "Canister",
+		"Details": "Small caliber ammunition designed for long range fire in an AC/2.",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "ULTIMA",
+	"AccuracyModifier": -1,
+	"EvasivePipsIgnored": 1,
+	"CriticalChanceMultiplier": 0.5,
+	"DamageMultiplier": 1,
+	"AIBattleValue": 60,
+	"Instability": -60,
+	"ShotsWhenFired": 0,
+	"ProjectilesPerShot": 40,
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1,
+	"HitGenerator": "Cluster"
+}
