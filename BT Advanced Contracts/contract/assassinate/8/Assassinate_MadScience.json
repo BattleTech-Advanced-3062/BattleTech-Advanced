@@ -15,18 +15,9 @@
 	"salvagePotential": 12,
 	"requirementList": [
 		{
-			"Scope": "StarSystem",
-			"RequirementTags": {
-				"items": [],
-				"tagSetSourceFile": ""
-			},
-			"ExclusionTags": {
-				"items": [],
-				"tagSetSourceFile": ""
-			},
 			"RequirementComparisons": [
 				{
-					"obj": "Target.IsOwner",
+					"obj": "Target.ComStar",
 					"op": "Equal",
 					"val": 1,
 					"valueConstant": null
