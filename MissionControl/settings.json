@@ -274,7 +274,7 @@
 			},
 			{
 				"MapId": "mapGeneral_powerStructure_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.5
+				"IncreaseBoundarySizeByPercentage": 0.6
 			},
 			{
 				"MapId": "mapGeneral_paupersCanyon_aWst",
