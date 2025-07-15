@@ -279,6 +279,10 @@
 			{
 				"MapId": "mapGeneral_paupersCanyon_aWst",
 				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_crimsonValley_bMars",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},
