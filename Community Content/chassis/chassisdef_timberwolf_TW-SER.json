@@ -1,0 +1,342 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Timberwolf",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_myomer_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_375",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_cxl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_clanferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_cooling_5",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_cdhs",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"Description": {
+		"Cost": 13946796,
+		"Rarity": 6,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Seraph",
+		"Id": "chassisdef_timberwolf_TW-SER",
+		"Name": "Seraph",
+		"Details": "Much like its namesake, the Timber Wolf - Seraph is a variant that appears to have traveled much of known space, accumulating components and scars in equal measure. Mounting a fairly traditionally Clanner mix of LRMs and ER beam weapons, this unit provides extra advantage to the pilot with advanced C3I, Angel ECM, and an updated targeting system.",
+		"Icon": "uixTxrIcon_madcat"
+	},
+	"MovementCapDefID": "movedef_timberwolf",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_madcat",
+	"PrefabIdentifier": "chrprfmech_madcatbase-001",
+	"PrefabBase": "madcat",
+	"Tonnage": 75,
+	"InitialTonnage": 7.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 8144000,
+	"Heatsinks": 0,
+	"TopSpeed": 76,
+	"TurnRadius": 180,
+	"MaxJumpjets": 8,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 65,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 65,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 65,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 125,
+			"MaxRearArmor": 35,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 180,
+			"MaxRearArmor": 50,
+			"InternalStructure": 115
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 125,
+			"MaxRearArmor": 35,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 11.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 11.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "TW-SER",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"ClanMech",
+			"HeroMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Much like its namesake, the Timber Wolf - Seraph is a variant that appears to have traveled much of known space, accumulating components and scars in equal measure. Mounting a fairly traditionally Clanner mix of LRMs and ER beam weapons, this unit provides extra advantage to the pilot with advanced C3I, Angel ECM, and an updated targeting system.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

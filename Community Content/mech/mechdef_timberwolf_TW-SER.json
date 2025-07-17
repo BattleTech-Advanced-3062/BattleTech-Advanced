@@ -1,0 +1,407 @@
+{
+	"MechTags": {
+		"items": [
+			"unit_release",
+			"unit_mech",
+			"unit_heavy",
+			"unit_ready",
+			"unit_lance_support",
+			"unit_role_sniper",
+			"unit_gladiator",
+			"NOSALVAGE",
+			"unit_legal",
+			"unit_indirectFire",
+			"unit_bracket_high"
+		],
+		"tagSetSourceFile": ""
+	},
+	"ChassisID": "chassisdef_timberwolf_TW-SER",
+	"HeraldryID": null,
+	"Description": {
+		"Cost": 2789359,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": null,
+		"Model": null,
+		"UIName": "Seraph TW-SER",
+		"Id": "mechdef_timberwolf_TW-SER",
+		"Name": "Seraph",
+		"Details": "Much like its namesake, the Timber Wolf - Seraph is a variant that appears to have traveled much of known space, accumulating components and scars in equal measure. Mounting a fairly traditionally Clanner mix of LRMs and ER beam weapons, this unit provides extra advantage to the pilot with advanced C3I, Angel ECM, and an updated targeting system.",
+		"Icon": "uixTxrIcon_madcat"
+	},
+	"simGameMechPartCost": 2789359,
+	"Version": 1,
+	"Locations": [
+		{
+			"DamageLevel": "Functional",
+			"Location": "Head",
+			"CurrentArmor": 45,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 16,
+			"AssignedArmor": 45,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftArm",
+			"CurrentArmor": 120,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 120,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftTorso",
+			"CurrentArmor": 125,
+			"CurrentRearArmor": 35,
+			"CurrentInternalStructure": 80,
+			"AssignedArmor": 125,
+			"AssignedRearArmor": 35
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "CenterTorso",
+			"CurrentArmor": 177,
+			"CurrentRearArmor": 50,
+			"CurrentInternalStructure": 115,
+			"AssignedArmor": 177,
+			"AssignedRearArmor": 50
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightTorso",
+			"CurrentArmor": 125,
+			"CurrentRearArmor": 35,
+			"CurrentInternalStructure": 80,
+			"AssignedArmor": 125,
+			"AssignedRearArmor": 35
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightArm",
+			"CurrentArmor": 120,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 60,
+			"AssignedArmor": 120,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "LeftLeg",
+			"CurrentArmor": 160,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 80,
+			"AssignedArmor": 160,
+			"AssignedRearArmor": -1
+		},
+		{
+			"DamageLevel": "Functional",
+			"Location": "RightLeg",
+			"CurrentArmor": 160,
+			"CurrentRearArmor": -1,
+			"CurrentInternalStructure": 80,
+			"AssignedArmor": 160,
+			"AssignedRearArmor": -1
+		}
+	],
+	"inventory": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_CalledShot",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_arm_part_shoulder",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_arm_part_upper",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_shoulder",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_upper",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_arm_part_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_leg_hip",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_leg_upper",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_leg_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_leg_foot",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_leg_hip",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_leg_upper",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_leg_lower",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_leg_foot",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_LRM_LRM15_CLAN",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_FTL_LRM",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_C3i",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Angel_ECM",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	]
+}

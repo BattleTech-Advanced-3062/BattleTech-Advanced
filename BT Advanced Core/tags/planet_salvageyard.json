@@ -1,0 +1,7 @@
+{
+	"Name" : "planet_salvageyard",
+	"Important" : false,
+	"PlayerVisible" : true,
+	"FriendlyName" : "Salvage Yard",
+	"Description" : "This planet is home to one or more major salvage yards that produce BattleMech salvage from across the Inner Sphere."
+}
