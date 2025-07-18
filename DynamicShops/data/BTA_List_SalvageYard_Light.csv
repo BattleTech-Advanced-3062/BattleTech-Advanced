@@ -14,8 +14,9 @@ mechdef_locustiic_LCT-IIC-1,MechPart,1,5
 mechdef_mistlynx_MLX-PRIME,MechPart,1,5
 mechdef_piranha_PIR-1,MechPart,1,5
 mechdef_urbanmech_UM-IIC,MechPart,1,5
-mechdef_blaze_BLZ-3D
-mechdef_cheetah_CHE-4F
-mechdef_locustii_LCT-2-1V
-mechdef_peregrine_PGR-1N
-mechdef_stingerii_STG-2-3R
+mechdef_blaze_BLZ-3D,MechPart,1,4
+mechdef_cheetah_CHE-4F,MechPart,1,4
+mechdef_locustii_LCT-2-1V,MechPart,1,4
+mechdef_peregrine_PGR-1N,MechPart,1,4
+mechdef_stingerii_STG-2-3R,MechPart,1,4
+
