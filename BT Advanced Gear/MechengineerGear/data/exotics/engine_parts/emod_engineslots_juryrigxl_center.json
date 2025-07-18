@@ -11,7 +11,7 @@
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "1.2 * [[Chassis.Tonnage]] / 20",
-				emod_engineslots_ICE_center
+				"CBillCost": "2500 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
 			}
 		},
 		"Flags": [
