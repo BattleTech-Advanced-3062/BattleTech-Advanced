@@ -1,3 +1,16 @@
 BTA_List_SalvageYard_Light,,,
 BTA_List_SalvageYard_Ultralight,Reference,2,6
-XXXX,MechPart,4,6
+mechdef_adder_ADR-Prime,MechPart,1,5
+mechdef_arcticcheetah_PRIME,MechPart,1,5
+mechdef_cephalus_CEP-PRIME,MechPart,1,5
+mechdef_cougar_CGR-Prime,MechPart,1,5
+mechdef_devil_TZ-1,MechPart,1,5
+mechdef_firemoth_FM-PRIME,MechPart,1,5
+mechdef_howler_HOW-1,MechPart,1,5
+mechdef_incubus_1,MechPart,1,5
+mechdef_jenner_JR7-IIC,MechPart,1,5
+mechdef_kitfox_PRIME,MechPart,1,5
+mechdef_locustiic_LCT-IIC-1,MechPart,1,5
+mechdef_mistlynx_MLX-PRIME,MechPart,1,5
+mechdef_piranha_PIR-1,MechPart,1,5
+mechdef_urbanmech_UM-IIC,MechPart,1,5
