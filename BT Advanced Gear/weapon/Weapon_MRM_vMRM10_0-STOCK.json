@@ -1,4 +1,5 @@
-{
+,
+			"WeaponAttachmentCompatible: LRM FCS"{
 	"Custom": {
 		"Category": {
 			"CategoryID": "w/m/s/mrm"
@@ -9,7 +10,8 @@
 			"vMRMDmg: 2, +5, -1",
 			"vMRMAcc: +2, 2, 2",
 			"vMRMHeat: 5, 1",
-			"MissileHealth: 1"
+			"MissileHealth: 1",
+			"WeaponAttachmentCompatible: LRM FCS"
 		]
 	},
 	"Category": "Missile",
