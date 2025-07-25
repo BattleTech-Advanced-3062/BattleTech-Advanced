@@ -14,7 +14,8 @@
 			"planet_factory_restricted": "restricted factory world",
 			"planet_industry_electronics": "electronics",
 			"planet_industry_chemicals": "chemicals",
-			"planet_salvageyard": "salvage yard"
+			"planet_salvageyard": "salvage yard",
+			"planet_other_blackmarket": "black market"
 		}
 	}
 }
