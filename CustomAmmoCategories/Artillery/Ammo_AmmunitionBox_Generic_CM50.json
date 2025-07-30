@@ -23,7 +23,7 @@
 			"AmmoCount: 1"
 		],
 		"AmmoCost": {
-			"PerUnitCost": 90000
+			"PerUnitCost": 400000
 		}
 	},
 	"AmmoID": "Ammunition_CM50",
