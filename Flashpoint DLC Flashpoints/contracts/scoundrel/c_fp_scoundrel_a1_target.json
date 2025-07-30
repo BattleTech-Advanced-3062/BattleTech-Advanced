@@ -3133,6 +3133,6 @@
 		"teamLeaderCastDefId": "castDef_TeamLeader_Current",
 		"lanceOverrideList": []
 	},
-	"contractType": "INVALID_UNSET",
+	"contractType": "FireMission",
 	"contractTypeID": "FireMission"
 }

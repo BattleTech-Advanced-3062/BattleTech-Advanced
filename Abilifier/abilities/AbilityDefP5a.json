@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "AbilityDefP5a",
 		"Name": "PHANTOM",
-		"Details": "ACTION: Blur your mech's sensor signature such that you gain +2 evasive charges from movement for two turns. 3 turn cooldown, does not end the turn. <b><color=#099ff2>Costs 20 Resolve to use!</color></b>",
+		"Details": "ACTION: Blur your mech's sensor signature such that you gain +1 evasive charge after moving and +1 evasive charge from your movement for two turns. 3 turn cooldown, does not end the turn. <b><color=#099ff2>Costs 20 Resolve to use!</color></b>",
 		"Icon": "lv_static"
 	},
 	"DisplayParams": "ShowInMWTRay",
@@ -31,13 +31,13 @@
 			"Description": {
 				"Id": "StatusEffect-PhantasmMaxEvasion",
 				"Name": "EVASIVE MOVE",
-				"Details": "This unit can have up to 2 extra evasive charges from movement.",
+				"Details": "This unit can have up to 1 extra evasive charges from movement.",
 				"Icon": "lv_static"
 			},
 			"statisticData": {
 				"statName": "MaxEvasivePips",
 				"operation": "Int_Add",
-				"modValue": "2",
+				"modValue": "1",
 				"modType": "System.Int32"
 			},
 			"nature": "Buff"
@@ -61,13 +61,13 @@
 			"Description": {
 				"Id": "StatusEffect-PhantasmEvasionGained",
 				"Name": "EVASIVE MOVE",
-				"Details": "This unit generates 2 extra EVASIVE charges from movement actions.",
+				"Details": "This unit generates 1 extra EVASIVE charges from movement actions.",
 				"Icon": "lv_static"
 			},
 			"statisticData": {
 				"statName": "EvasivePipsGainedAdditional",
 				"operation": "Int_Add",
-				"modValue": "2",
+				"modValue": "1",
 				"modType": "System.Int32"
 			},
 			"nature": "Buff"

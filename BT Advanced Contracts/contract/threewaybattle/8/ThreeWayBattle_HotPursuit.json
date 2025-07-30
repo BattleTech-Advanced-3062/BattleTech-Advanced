@@ -5559,6 +5559,6 @@
 			}
 		]
 	},
-	"contractType": "INVALID_UNSET",
+	"contractType": "ThreeWayBattle",
 	"contractTypeID": "ThreeWayBattle"
 }

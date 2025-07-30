@@ -1,0 +1,323 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Caesar",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 7872000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Brutus",
+		"Id": "chassisdef_caesar_CES-BR",
+		"Name": "Brutus",
+		"Details": "The Caesar proved an adept if unexciting BattleMech for open combat, but never let it be said that an unexciting report card stopped a 'Mech from making a splash in the Solaris VII arenas. Some enterprising 'Mech jockey took a salvaged Caesar and built this, the Brutus, presumably to stab other Caesars in the back. For a loadout, Brutus carries a hell of a dagger: 22 Medium Lasers, nothing more and nothing less. A battery of Clan heat sinks and advanced cooling tools try in vain to keep it all chilled while a 280-rated XL engine provides the spare tonnage for the warload. Brutus might not be complicated but it sure was popular in the arenas.",
+		"Icon": "uixTxrIcon_caesar"
+	},
+	"MovementCapDefID": "movedef_cataphract_CTF-1X",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_caesar",
+	"PrefabIdentifier": "chrprfmech_caesarbase-001",
+	"PrefabBase": "caesar",
+	"Tonnage": 70,
+	"InitialTonnage": 7,
+	"weightClass": "HEAVY",
+	"BattleValue": 6577000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 75,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 220,
+			"MaxRearArmor": 110,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Quirk_HyperExtendingActuators_Caesar",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Quirk_HyperExtendingActuators_Caesar",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"VariantName": "CES-BR",
+	"ChassisTags": {
+		"items": [
+			"HeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Caesar proved an adept if unexciting BattleMech for open combat, but never let it be said that an unexciting report card stopped a 'Mech from making a splash in the Solaris VII arenas. Some enterprising 'Mech jockey took a salvaged Caesar and built this, the Brutus, presumably to stab other Caesars in the back. For a loadout, Brutus carries a hell of a dagger: 22 Medium Lasers, nothing more and nothing less. A battery of Clan heat sinks and advanced cooling tools try in vain to keep it all chilled while a 280-rated XL engine provides the spare tonnage for the warload. Brutus might not be complicated but it sure was popular in the arenas.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

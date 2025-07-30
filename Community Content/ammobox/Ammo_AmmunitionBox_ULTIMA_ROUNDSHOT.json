@@ -1,0 +1,55 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/s/su/superweapon"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 150,
+			"StabilityDamagePerAmmo": 80
+		},
+		"BonusDescriptions": [
+				"CostPerShot: 1200",
+				"AmmoCount: 4"
+			],
+		"AmmoCost": {
+			"PerUnitCost": 1200
+		}
+	},
+	"AmmoID": "Ammunition_ULTIMA_ROUNDSHOT",
+	"Capacity": 4,
+	"Description": {
+		"Cost": 60000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "ULTIMAROUNDSHOT",
+		"UIName": "Ammo ULTIMA ROUNDSHOT",
+		"Id": "Ammo_AmmunitionBox_ULTIMA_ROUNDSHOT",
+		"Name": "ULTIMA ROUNDSHOT",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

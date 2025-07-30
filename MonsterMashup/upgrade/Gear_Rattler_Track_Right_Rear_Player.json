@@ -13,7 +13,12 @@
 			"PilotDefId": "pilot_rattler_turret",
 			"AttachPoint": "turret_attach_track_right_rear",
 			"LinkInitiative": true
-		}
+		},
+		"Flags": [
+			"ignore_damage",
+			"default",
+			"no_salvage"
+		]
 	},
 	"StatName": null,
 	"RelativeModifier": 0,

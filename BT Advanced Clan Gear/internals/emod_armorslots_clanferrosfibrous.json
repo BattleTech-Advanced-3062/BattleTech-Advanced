@@ -4,7 +4,7 @@
 		"WorkOrderCosts": {
 			"Install": {
 				"TechCost": "1.5 * [[Chassis.Tonnage]] / 15",
-				"CBillCost": "1500 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
 			}
 		},
 		"Category": [

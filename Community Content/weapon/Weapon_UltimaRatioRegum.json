@@ -1,0 +1,81 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"BonusDescriptions": [
+				"WpnRecoil: 6",
+				"LBX",
+				"WeaponAttachmentCompatible: Superweapon FCS"
+			]
+	},
+	"Category": "Superweapon",
+	"Type": "Autocannon",
+	"WeaponSubType": "LB20X",
+	"MinRange": 0,
+	"MaxRange": 480,
+	"RangeSplit": [
+		120,
+		240,
+		360
+	],
+	"AmmoCategory": "ULTIMA",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 27,
+	"Damage": 150,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 6,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 6,
+	"Instability": 80,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
+	"Description": {
+		"Cost": 1324000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Periphery Armory, Inc.",
+		"Model": "Dardanelles",
+		"UIName": "Ultima Ratio Regum",
+		"Id": "Weapon_UltimaRatioRegum",
+		"Name": "Ultima Ratio Regum",
+		"Details": "Developed by Lubalin Ballistics for the Terran Hegemony, the LB-X Autocannon was a derivative of the standard and relatively primitive Autocannon design. The LB-X Autocannon series is capable of firing either cluster or slug ammunition, giving them a unique flexibility that made the weapon quite popular.\n\n <b><color=#ffcc00>Uses LBX20 Ammo.</color></b>",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC20",
+	"BattleValue": 0,
+	"InventorySize": 11,
+	"Tonnage": 17,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"component_type_lostech",
+			"range_standard",
+			"SuperweaponFCSSupported-Standard",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

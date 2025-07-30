@@ -9,7 +9,8 @@
 			"vMRMDmg: 2, +8, -1",
 			"vMRMAcc: +2, 2, 4",
 			"vMRMHeat: 8, 1",
-			"MissileHealth: 1"
+			"MissileHealth: 1",
+			"WeaponAttachmentCompatible: LRM FCS"
 		]
 	},
 	"Category": "Missile",
