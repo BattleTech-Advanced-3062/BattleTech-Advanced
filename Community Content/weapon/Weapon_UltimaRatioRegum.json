@@ -11,7 +11,7 @@
 				"WeaponAttachmentCompatible: Superweapon FCS"
 			]
 	},
-	"Category": "Superweapon",
+	"weaponCategoryID": "Superweapon",
 	"Type": "Autocannon",
 	"WeaponSubType": "LB20X",
 	"MinRange": 0,
