@@ -8,7 +8,7 @@
 		"BonusDescriptions": [
 			"WpnAccuracy: +1",
 			"PipsIgnored: +1",
-			"Clustering: 2",
+			"Clustering: +100%",
 			"Streak",
 			"InternalAmmo: 4",
 			"MissileHealth: 3",
