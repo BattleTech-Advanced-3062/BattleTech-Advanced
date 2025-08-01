@@ -6,13 +6,13 @@
 			}
 		],
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"PipsIgnored: +1",
-				"Clustering: 2",
-				"Streak",
-				"MissileHealth: 3",
-				"WeaponAttachmentCompatible: SRM FCS"
-			]
+			"WpnAccuracy: +1",
+			"PipsIgnored: +1",
+			"Clustering: +100%",
+			"Streak",
+			"MissileHealth: 3",
+			"WeaponAttachmentCompatible: SRM FCS"
+		]
 	},
 	"Category": "Missile",
 	"Type": "SRM",
