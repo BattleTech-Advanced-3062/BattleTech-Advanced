@@ -126,11 +126,5 @@
 			"tag": "planet_other_capital"
 		},
 		"items": "BTA_List_Super_Fights"
-	},
-	{
-		"conditions": {
-			"tag": "planet_salvageyard"
-		},
-		"items": "BTA_List_SalvageYard"
 	}
 ]

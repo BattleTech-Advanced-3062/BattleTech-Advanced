@@ -1,0 +1,16 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_salvageyard",
+			"dateCondition": "3060-12-31T00:00:00Z, !3063-01-01T00:00:00Z"
+		},
+		"items": "3061_BTA_List_SalvageYard"
+	},
+	{
+		"conditions": {
+			"tag": "planet_salvageyard",
+			"dateCondition": "3062-12-31T00:00:00Z"
+		},
+		"items": "BTA_List_SalvageYard"
+	}
+]
