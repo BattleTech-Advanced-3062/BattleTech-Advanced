@@ -1,4 +1,4 @@
-name: Wiki Update Demo
+name: Wiki Automation
 run-name: Pushing Updates to BTA Wiki
 on:
     push:
