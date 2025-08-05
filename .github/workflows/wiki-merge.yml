@@ -17,8 +17,13 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
+            - name: Check state of directories again
+              run: |
+                  pwd
+                  ls -la bta
+                  ls -la wiki-gen
             - name: Enable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
