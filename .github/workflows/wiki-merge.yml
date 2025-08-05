@@ -20,6 +20,8 @@ jobs:
                 repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
             - name: Check state of directories
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
               run: |
                   echo "printing working directory"
                   pwd
