@@ -21,9 +21,16 @@ jobs:
                 path: wiki-gen
             - name: Check state of directories
               run: |
+                  echo "printing working directory"
                   pwd
+                  echo "ls'ing working directory"
+                  ls -la
+                  echo "ls'ing bta directory"
                   ls -la bta
+                  echo "ls'ing wiki-gen directory"
                   ls -la wiki-gen
+                  echo "printing WIKI_PASS"
+                  echo $WIKI_PASS
             - name: Enable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
