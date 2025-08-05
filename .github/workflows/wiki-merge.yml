@@ -19,7 +19,7 @@ jobs:
               with:
                 repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
-            - name: Check state of directories again
+            - name: Check state of directories
               run: |
                   pwd
                   ls -la bta
