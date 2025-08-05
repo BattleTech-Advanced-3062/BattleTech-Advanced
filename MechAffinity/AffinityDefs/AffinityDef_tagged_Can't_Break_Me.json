@@ -4,7 +4,8 @@
   "affinityData": {
     "tag": "Affinity_FR_Cataphract",
     "chassisNames": [
-      "chrPrfMech_cataphractBase-001_70"
+      "chrPrfMech_cataphractBase-001_70",
+      "Caesar_70"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -13,12 +14,12 @@
         "id": "Can't_Break_Me",
         "missionsRequired": 10,
         "levelName": "Can't Break Me",
-        "decription": "Scorch's skill with his Cataphract grants him increased critical damage resistance, making crits 35% less likely against him.",
+        "decription": "Scorch's skill with his Cataphract or Caesar grants him increased critical damage resistance, making crits 35% less likely against him.",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Scorch takes 35% less crits against him when he's in his Cataphract.",
+              "Details": "Scorch takes 35% less crits against him when he's in his Cataphract or Caesar.",
               "Icon": "dragon-shield",
               "Id": "StatusEffect-Affinity-ScorchCataphract",
               "Name": "Scorch Affinity Cataphract Crit Resist"

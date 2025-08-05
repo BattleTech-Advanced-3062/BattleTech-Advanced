@@ -3,8 +3,8 @@
 		"Color": "Gold",
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "[[Chassis.Tonnage]]/7",
-				"CBillCost": "250 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 50"
+				"TechCost": "2 * [[Chassis.Tonnage]] / 30",
+				"CBillCost": "500 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
 			}
 		},
 		"Weights": {

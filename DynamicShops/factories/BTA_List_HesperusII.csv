@@ -67,6 +67,7 @@ mechdef_foxfire_FXR-4R,Mech,1,10
 mechdef_foxfire_FXR-5R,Mech,1,10
 mechdef_foxfire_FXR-6R,Mech,1,10
 mechdef_foxfire_FXR-7R,Mech,1,10
+mechdef_caesar_CES-4S,Mech,1,10
 vehicledef_HUNTER,Mech,1,10
 vehicledef_MANTICORE,Mech,1,10
 vehicledef_ROMMEL_RT,Mech,1,10

@@ -1,0 +1,297 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Ironclad",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 10800000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Ironclad",
+		"Id": "chassisdef_ironclad_IC-151",
+		"Name": "Ironclad",
+		"Details": "Originally built to provide cheap armor and firepower in a superheavy chassis for the Periphery, the IC-151 eschews such cost effectivenss to mount four of the pirate designed Ultima Ratio Regum. These mammoth cannons give the Ironclad a devastating broadside, as long as it can get into range. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_ironclad"
+	},
+	"MovementCapDefID": "movedef_atlas_AS7-D",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_cuironclad",
+	"PrefabIdentifier": "chrprfmech_cuironcladbase-001",
+	"PrefabBase": "cuironclad",
+	"Tonnage": 150,
+	"InitialTonnage": 10,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10581000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 110,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 110,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 110,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 420,
+			"MaxRearArmor": 210,
+			"InternalStructure": 210
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 310,
+			"MaxRearArmor": 155,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 270,
+			"MaxRearArmor": -1,
+			"InternalStructure": 135
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 310,
+			"MaxRearArmor": -1,
+			"InternalStructure": 155
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Ironclad",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "IC-151",
+	"ChassisTags": {
+		"items": [
+			"OmniMech",
+			"AssaultMech",
+			"SuperHeavyMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Broadside Superheavy",
+	"YangsThoughts": "Originally built to provide cheap armor and firepower in a superheavy chassis for the Periphery, the IC-151 eschews such cost effectivenss to mount four of the pirate designed Ultima Ratio Regum. These mammoth cannons give the Ironclad a devastating broadside, as long as it can get into range. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

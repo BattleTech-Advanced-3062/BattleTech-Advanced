@@ -76,11 +76,7 @@
 		{
 			"Id": "Artillery",
 			"UIName": "Arty",
-			"isBaseMode": true,
-			"IsArtillery": true,
-			"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
-			"ArtilleryReticleRadius" : 120,
-			"ArtilleryReticleText": "Arrow IV"
+			"isBaseMode": true
 		},
 		{
 			"Id": "Guided",

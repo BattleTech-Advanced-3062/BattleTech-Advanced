@@ -1,19 +1,19 @@
 {
 	"Custom": {
 		"BonusDescriptions": [
-				"CoolingSystemSDHS"
-			],
+			"CoolingSystemSDHS"
+		],
 		"Cooling": {
 			"HeatSinkDefId": "Gear_HeatSink_Generic_SanctuaryWorlds"
 		},
 		"WorkOrderCosts": {
 			"Default": {
-				"TechCost": "0",
-				"CBillCost": "0"
+				"TechCost": "[[Chassis.Tonnage]] / 5",
+				"CBillCost": "10 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 10"
 			},
 			"Install": {
 				"TechCost": "0.4 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40",
-				"CBillCost": "2000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+				"CBillCost": "3000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
 			}
 		},
         "Category": [

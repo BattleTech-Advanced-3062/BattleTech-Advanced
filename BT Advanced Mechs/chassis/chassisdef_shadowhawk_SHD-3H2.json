@@ -15,7 +15,7 @@
 		"UIName": "Shadow Hawk",
 		"Id": "chassisdef_shadowhawk_SHD-3H2",
 		"Name": "Shadow Hawk",
-		"Details": "The Shadow Hawk SHD-3H is mostly lost to history but this, the SHD-3H2 is even more forgotten. A rare spin-off variant of the -3H, the -3H2 is the true anti-insurgency mech the -3H should have been all along. Retaining the loadout of the -3H, the -3H2 down-engines the mech to a core 220 in order to mount a trio of SRM-4s and a pair of Small Lasers for extra firepower. The SRMs can call on two tons of ammo and it was common practice for the -3H2 to carry inferno munitions. The SHD-3H2 was rare even in the Star League era and is vanishingly rare in the modern era, appearing only in the arms of ComStar and the Word of Blake.",
+		"Details": "The Shadow Hawk SHD-3H is mostly lost to history but this, the SHD-3H2 is even more forgotten. A rare spin-off variant of the -3H, the -3H2 is the true anti-insurgency mech the -3H should have been all along. Retaining the loadout of the -3H, the -3H2 down-engines the mech to a core 220 in order to mount a trio of SRM-4s and a pair of Small Lasers for extra firepower. In a strange choice, the 'Mech also carries two single-shot Vehicular Grenade Launchers. The SHD-3H2 was rare even in the Star League era and is vanishingly rare in the modern era, appearing only in the arms of ComStar and the Word of Blake.",
 		"Icon": "uixTxrIcon_shadowhawk"
 	},
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",
@@ -98,7 +98,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -131,6 +131,10 @@
 				},
 				{
 					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -239,7 +243,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher & Cavalry",
-	"YangsThoughts": "The Shadow Hawk SHD-3H is mostly lost to history but this, the SHD-3H2 is even more forgotten. A rare spin-off variant of the -3H, the -3H2 is the true anti-insurgency mech the -3H should have been all along. Retaining the loadout of the -3H, the -3H2 down-engines the mech to a core 220 in order to mount a trio of SRM-4s and a pair of Small Lasers for extra firepower. The SRMs can call on two tons of ammo and it was common practice for the -3H2 to carry inferno munitions. The SHD-3H2 was rare even in the Star League era and is vanishingly rare in the modern era, appearing only in the arms of ComStar and the Word of Blake.",
+	"YangsThoughts": "The Shadow Hawk SHD-3H is mostly lost to history but this, the SHD-3H2 is even more forgotten. A rare spin-off variant of the -3H, the -3H2 is the true anti-insurgency mech the -3H should have been all along. Retaining the loadout of the -3H, the -3H2 down-engines the mech to a core 220 in order to mount a trio of SRM-4s and a pair of Small Lasers for extra firepower. In a strange choice, the 'Mech also carries two single-shot Vehicular Grenade Launchers. The SHD-3H2 was rare even in the Star League era and is vanishingly rare in the modern era, appearing only in the arms of ComStar and the Word of Blake.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

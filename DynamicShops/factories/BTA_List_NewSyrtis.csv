@@ -1,6 +1,7 @@
 BTA_List_NewSyrtis,,,
 emod_engine_225,HeatSink,0,10
-emod_engine_265,HeatSink,0,10
+emod_engine_265,HeatSink,0,
+emod_engine_280,HeatSink,0,10
 emod_engineslots_xl_center,HeatSink,0,10
 Gear_JumpJet_Generic_Standard,JumpJet,0,10
 emod_armorslots_ferrosfibrous,Upgrade,0,10
@@ -19,3 +20,5 @@ Weapon_MachineGun_MachineGun_0-STOCK,Weapon,0,10
 Ammo_AmmunitionBox_Generic_GAUSS,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_MAGSHOT,AmmunitionBox,0,10
 vehicledef_FULCRUM_1,Mech,1,10
+mechdef_caesar_CES-3S,Mech,1,10
+mechdef_caesar_CES-4R,Mech,1,10

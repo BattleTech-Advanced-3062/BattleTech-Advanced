@@ -20,6 +20,7 @@
 	"ArtilleryReticleColor": { "C":"#FF0000", "I": 1.5 },
 	"ArtilleryReticleRadius" : 100,
 	"ArtilleryReticleText": "Thumper",
+	"AOECapable": true,
 	"AOERange": 100,
 	"AOEDamage": 60,
 	"AOEInstability": 90,

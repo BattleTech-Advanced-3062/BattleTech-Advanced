@@ -11,8 +11,8 @@
 		},
 		"WorkOrderCosts": {
 			"Install": {
-				"TechCost": "1.15 * [[Chassis.Tonnage]] / 15",
-				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 40"
+				"TechCost": "1.5 * [[Chassis.Tonnage]] / 20",
+				"CBillCost": "750 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
 			}
 		},
 		"Category": [
@@ -34,7 +34,7 @@
 	"RelativeModifier": 0,
 	"AbsoluteModifier": 0,
 	"Description": {
-		"Cost": 60000,
+		"Cost": 250000,
 		"Rarity": 2,
 		"Purchasable": true,
 		"Manufacturer": "Arc Royal",

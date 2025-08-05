@@ -20,6 +20,7 @@ mechdef_munin_MN-1B,Mech,0,1
 mechdef_munin_MN-1M,Mech,0,1
 mechdef_munin_MN-1S,Mech,0,1
 vehicledef_REDKITE,Mech,0,1
+vehicledef_HGSCORPION,Mech,0,1
 vehicledef_UNNSVIN,Mech,0,1
 vehicledef_UNNSVIN_BALLISTIC,Mech,0,1
 vehicledef_UNNSVIN_MISSILE,Mech,0,1

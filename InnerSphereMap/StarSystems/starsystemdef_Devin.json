@@ -23,7 +23,8 @@
 			"planet_industry_mining",
 			"planet_other_starleague",
 			"planet_other_ruins",
-			"planet_faction_clanjadefalcon"
+			"planet_faction_clanjadefalcon",
+			"planet_salvageyard"
 		],
 		"tagSetSourceFile": ""
 	},
