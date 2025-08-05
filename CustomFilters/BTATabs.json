@@ -244,7 +244,6 @@
 						"w/s/l/x-pulse",
 						"w/s/l/vspl",
 						"w/s/l/coil",
-						"w/s/t/hpg",
 						"w/e/l/slance",
 						"w/e/l/selec",
 						"w/e/l/smodal"
@@ -262,6 +261,7 @@
 						"Weapon"
 					],
 					"Categories": [
+						"w/s/t/hpg",
 						"w/s/su/superweapon"
 					],
 					"NotCategories": [
@@ -278,21 +278,6 @@
 					],
 					"Categories": [
 						"w/m/t/bomb"
-					],
-					"NotCategories": [
-						"notused"
-					]
-				}
-			},
-			{
-				"Icon": "battle-amor-suit",
-				"Tooltip": "Battle Armor Weapons",
-				"Filter": {
-					"ComponentTypes": [
-						"Weapon"
-					],
-					"Categories": [
-						"BAWeapon"
 					],
 					"NotCategories": [
 						"notused"
@@ -942,8 +927,7 @@
 						"CombatShield",
 						"Handhold",
 						"HarJel",
-						"BlueShield",
-						"BACombatShield"
+						"BlueShield"
 					],
 					"NotCategories": [
 						"Armor",

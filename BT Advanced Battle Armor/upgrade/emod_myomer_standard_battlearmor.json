@@ -6,7 +6,8 @@
 		"Color": "DarkGray",
 		"Flags": [
 			"ignore_damage",
-			"default"
+			"default",
+			"no_salvage"
 		]
 	},
 	"Description": {
