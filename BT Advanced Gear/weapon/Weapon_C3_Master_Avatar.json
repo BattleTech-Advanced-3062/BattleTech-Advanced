@@ -76,9 +76,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Tanadi",
 		"Model": "C3 Master Unit",
-		"UIName": "C3 Master Avatar",
+		"UIName": "C3 Master Avatar (Alpha)",
 		"Id": "Weapon_C3_Master_Avatar",
-		"Name": "Unique Avatar C3 Master",
+		"Name": "Unique Avatar C3 Master (Alpha)",
 		"Details": "Acting as the core of a C3 Network, the C3 Master unit provides incredible coordination efforts for C3-equipped units, including increased resolve generation and evasion ignore for weapon attacks. It also functions as a super-powered targeting laser system, allowing for coordinated designation of targets. C3 Masters coordinate with other C3 units to provide targeting data for all units linked into the network, though Master units are not strictly necessary for the network to function even if they do provide the best benefits to units in the network.",
 		"Icon": "mesh-network"
 	},

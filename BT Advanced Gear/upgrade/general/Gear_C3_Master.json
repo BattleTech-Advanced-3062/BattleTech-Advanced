@@ -22,9 +22,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Tanadi",
 		"Model": "C3 Master Circuitry",
-		"UIName": "C3M Circuitry",
+		"UIName": "C3M Circuitry (Alpha)",
 		"Id": "Gear_C3_Master",
-		"Name": "C3 Network Master Circuitry",
+		"Name": "C3 Network Master Circuitry (Alpha)",
 		"Details": "This is special circuitry linked to the main C3 Master unit, effectively being a more powerful C3 Slave unit that the Master uses to direct connected slave units. Without this circuitry, the C3 Master is disconnected from its C3 network. The main Master unit provides other, more powerful, benefits and shunts off the C3 connection to this circuitry, making it vital to maintaining connection.",
 		"Icon": "mesh-network"
 	},
@@ -74,13 +74,13 @@
 					"Description": {
 						"Id": "C3Master_Network_Grant",
 						"Name": "C3 Network Engaged",
-						"Details": "PASSIVE: This unit is part of a C3 Network.",
+						"Details": "PASSIVE: This unit is part of a C3 Network on the Alpha Channel.",
 						"Icon": "mesh-network"
 					},
 					"statisticData": {
 						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
 						"operation": "Float_Add",
-						"modValue": "1",
+						"modValue": "3",
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
@@ -168,7 +168,7 @@
 			"statisticData": {
 				"statName": "ADD_ENCOUNTER_TAG_C3_Network",
 				"operation": "Float_Add",
-				"modValue": "1",
+				"modValue": "4",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

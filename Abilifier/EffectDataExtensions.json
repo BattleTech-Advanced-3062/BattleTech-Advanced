@@ -29,6 +29,26 @@
 			}
 		}
 	},
+	"C3Master_Network_Overwhelm": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Master"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Slave"
+				]
+			}
+		}
+	},
 	"StatusEffect_ECM-VRPP-Jamming": {
 		"TargetCollectionsForSearch": {
 			"Component": {
