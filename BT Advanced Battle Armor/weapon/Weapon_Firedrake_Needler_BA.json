@@ -3,13 +3,19 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"PipsIgnored: 3",
-				"AntiBA: 25%"
-			]
+			"WpnAccuracy: +1",
+			"PipsIgnored: 3",
+			"AntiBA: 25%"
+		],
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "MachineGun",

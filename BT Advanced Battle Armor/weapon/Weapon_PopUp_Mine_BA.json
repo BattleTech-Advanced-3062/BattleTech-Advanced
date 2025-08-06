@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"ComponentExplosion": {
@@ -11,7 +14,7 @@
 		},
 		"Flags": [
 			"not_broken",
-				"no_salvage"
+			"no_salvage"
 		],
 		"InternalAmmoTonnage": {
             "InternalAmmoTons": 1.0

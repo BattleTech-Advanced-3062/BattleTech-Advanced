@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"BonusDescriptions": [
@@ -16,7 +19,10 @@
         },
 		"AmmoCost": {
 			"PerUnitCost": 35
-		}
+		},
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "LRM",

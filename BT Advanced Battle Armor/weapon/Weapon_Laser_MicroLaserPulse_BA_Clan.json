@@ -3,12 +3,18 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"BonusDescriptions": [
-				"WpnAccuracy: +2",
-				"PipsIgnored: 4"
-			]
+			"WpnAccuracy: +2",
+			"PipsIgnored: 4"
+		],
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "Laser",
