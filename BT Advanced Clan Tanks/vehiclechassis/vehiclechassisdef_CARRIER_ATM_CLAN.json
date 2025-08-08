@@ -4,7 +4,7 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_CARRIER_ATM_CLAN",
-		"Name": "Carrier (C)",
+		"Name": "ATM Carrier (C)",
 		"Details": "",
 		"Icon": "LRMcarrier",
 		"Cost": 1000000,

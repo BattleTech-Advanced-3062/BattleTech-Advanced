@@ -17,7 +17,7 @@
         "Purchasable": false,
         "UIName": "SRM Carrier (WoB)",
         "Id": "vehiclechassisdef_CARRIER_SRM_WoB",
-        "Name": "Carrier",
+        "Name": "SRM Carrier (WoB)",
         "Details": "An even more radical upgrade produced by the Word of Blake, it utilizes a Light Fusion Engine to boost the speed and armor of the carrier, while still retaining enough weight to add a C3i unit, TAG, a Guardian ECM suite and a switch to Streak SRM-4 launchers.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 4/6 Hex: 102/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>        100     30\n<b>Left</b>          70     30\n<b>Right</b>        70     30\n<b>Rear</b>         55     30\n<b>Turret</b>         60     30\n\n<b>Total</b>      355    120\n",
         "Icon": "SRMcarrier"
     },
