@@ -4,7 +4,7 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_CARRIER_LRM_2_CLAN",
-		"Name": "Carrier (C)",
+		"Name": "LRM Carrier v2 (C)",
 		"Details": "",
 		"Icon": "LRMcarrier",
 		"Cost": 1000000,
