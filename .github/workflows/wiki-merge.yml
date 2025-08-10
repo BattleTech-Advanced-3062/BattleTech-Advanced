@@ -12,7 +12,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Enable Cloudflare API workaround
               env:
@@ -32,7 +32,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Run Faction automation
               env:
@@ -53,7 +53,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Run Factory automation
               env:
@@ -74,7 +74,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Run Pilot automation
               env:
@@ -95,7 +95,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Run vehicle automation
               env:
@@ -134,7 +134,7 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'amidatelion/bta-wiki-automation'
+                repository: 'BattleTech-Advanced/bta-wiki-automation'
                 path: wiki-gen
             - name: Disable Cloudflare API workaround
               env:
