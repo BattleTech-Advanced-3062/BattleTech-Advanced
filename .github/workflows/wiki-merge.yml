@@ -1,12 +1,27 @@
-name: Wiki Update Demo
-run-name: Pushing Updates to BTA Wiki
+name: Wiki Automation
+run-name: Updating the wiki
 on:
     push:
       branches:
         - wiki
 jobs:
-    post-to-wiki:
-        name: Post Updates to Wiki
+    cloudflare-pass-enable:
+        name: Enable Cloudflare Workaround
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
+            - name: Enable Cloudflare API workaround
+              env:
+                CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py enable
+    faction-update:
+        needs: cloudflare-pass-enable
+        name: Post Faction Info to Wiki
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
@@ -17,37 +32,110 @@ jobs:
             - name: Check out automation code
               uses: actions/checkout@v4
               with:
-                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                repository: 'amidatelion/bta-wiki-automation'
                 path: wiki-gen
-            - name: Enable Cloudflare API workaround
-              env:
-                CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-              run: |
-                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py enable
             - name: Run Faction automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factionRenderer.py
+    factory-update:
+        needs: cloudflare-pass-enable
+        name: Post Factory Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
             - name: Run Factory automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factoryRenderer.py
+    pilot-update:
+        needs: cloudflare-pass-enable
+        name: Post Pilot Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
             - name: Run Pilot automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/pilotRenderer.py
+    vehicle-update:
+        needs: cloudflare-pass-enable
+        name: Post Vehicle Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
             - name: Run vehicle automation
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/vehicleRenderer.py
+    import-game-info-to-wiki:
+        needs: cloudflare-pass-enable
+        name: Uploading game info to wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Export info
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                echo "Downloading importer"
+                TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
+                wget https://github.com/BattleTech-Advanced-3062/bta-wiki-import/releases/download/${TAG}/bta-wiki-import_linux_amd64.tar.gz
+                tar xvf bta-wiki-import_linux_amd64.tar.gz
+                mkdir path-to-wikitext
+                ./bta-wiki-import export ./bta/ ./path-to-wikitext/
+                ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
+    cloudflare-pass-disable:
+        if: ${{ always() }}
+        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki]
+        name: Disable Cloudflare Workaround
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/bta-wiki-automation'
+                path: wiki-gen
             - name: Disable Cloudflare API workaround
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
