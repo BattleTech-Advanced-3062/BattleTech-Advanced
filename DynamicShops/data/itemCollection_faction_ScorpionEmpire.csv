@@ -3,8 +3,8 @@ mechdef_stonerhino_STR-1,Mech,0,10
 mechdef_cazador_CZD-1,Mech,0,10
 mechdef_sunspider_SNS_PRIME,Mech,0,10
 mechdef_warhawk_PRIME,Mech,0,10
-mechdef_ba_gnome,Mech,0,10
-mechdef_ba_elemental,Mech,0,10
+Gear_Airdrop_Beacon_BA_Gnome,Upgrade,0,10
+Gear_Airdrop_Beacon_BA_Elemental,Upgrade,0,10,Upgrade,0,10
 mechdef_surtur_SUR-T1,Mech,0,1
 mechdef_surtur_SUR-T2,Mech,0,1
 mechdef_surtur_SUR-X1,Mech,0,1
@@ -57,7 +57,6 @@ Ammo_AmmunitionBox_Copperhead_Thumper,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_Thumper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Shaped_Thumper_Cannon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_Thumper_Cannon,AmmunitionBox,0,1
-Gear_Contract_BattleArmor_Elemental_Clans,Upgrade,0,10
 Gear_Contract_Mech_Mackie_Hanse,Upgrade,0,1
 Gear_Strafing_Run,Upgrade,0,1
 Gear_HeatSink_Prototype_Double,HeatSink,0,1

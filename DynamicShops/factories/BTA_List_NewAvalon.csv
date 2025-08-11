@@ -30,7 +30,7 @@ Ammo_AmmunitionBox_Rotary_AC2,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Rotary_AC5,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_MAGSHOT,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Streak_SRM,AmmunitionBox,0,10
-mechdef_ba_infiltratormkii,Mech,1,10
+Gear_Airdrop_Beacon_BA_InfiltratorMkII,Upgrade,1,10
 mechdef_locust_LCT-3D,Mech,1,10
 mechdef_locust_LCT-5M,Mech,1,10
 mechdef_wasp_WSP-1D,Mech,1,10

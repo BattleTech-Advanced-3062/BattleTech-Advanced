@@ -19,7 +19,7 @@ mechdef_mauler_MAL-2K,Mech,1,10
 mechdef_kiso_K-3N-KR3,Mech,1,10
 mechdef_kiso_K-3N-KR4,Mech,1,10
 mechdef_kiso_K-3N-KRHQ,Mech,1,10
-mechdef_ba_raiden,Mech,1,10
+Gear_Airdrop_Beacon_BA_Raiden,Upgrade,1,10
 vehicledef_BEHEMOTH,Mech,1,10
 vehicledef_DEMOLISHER,Mech,1,10
 vehicledef_SCHREK,Mech,1,10
