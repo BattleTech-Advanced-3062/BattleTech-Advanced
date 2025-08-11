@@ -4,7 +4,7 @@
 	},
 	"Description": {
 		"Id": "vehiclechassisdef_CARRIER_Inferno",
-		"Name": "Carrier",
+		"Name": "Inferno SRM Carrier",
 		"Details": "",
 		"Icon": "SRMcarrier",
 		"Cost": 750000,
