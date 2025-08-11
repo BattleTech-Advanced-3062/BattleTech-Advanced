@@ -108,7 +108,8 @@
 		"SearchAndRescue",
 		"JwNetOverride",
 		"VMMWSGC",
-		"JwTweaks"
+		"JwTweaks",
+		"SwordOfRestoration"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

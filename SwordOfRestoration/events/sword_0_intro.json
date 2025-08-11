@@ -1,0 +1,53 @@
+{
+	"EventType": "UNSELECTABLE",
+	"Description": {
+		"Id": "sword_0_intro",
+		"Name": "MercNews Broadcast",
+		"Details": "AURIGAN COALITION SUCCESSION: TENSION IN THE HIGH HOUSE!\r\n\n\n[[DM.BaseDescriptionDefs[LoreHighLordTamatiArano],High Lord Tamati Arano II]] is dead, leaving the [[DM.BaseDescriptionDefs[LoreAuriganCoalition],Aurigan Coalition]] leaderless. Official sources confirm that he and his wife were killed in an accident yesterday, leaving Kamea Arano as the only heir. Less official sources also indicate growing tension within the palace, as Lord Santiago Espinosa and Lady Kamea wrangle for power. With tensions high in this region of the periphery, MercNews is on the scene, bringing you the latest.\r\n\n\nDarius interrupts your news reading to say that your old mentor, Raju Montgomery is on the line with a job offer.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Raju with a job? Let's go. (Begin the Sword of Restoration campaign)"
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Troubles in the Coalition",
+						"Details": "After reaching out to him, Darius has more details on the contract. Raju Montgomery would like you to be one of [[DM.BaseDescriptionDefs[LoreKameaArano],Lady Kamea Arano's]] honor guards on the day of her coronation, taking place on [[DM.BaseDescriptionDefs[LoreCoromodir],Coromodir]] shortly.\r\n\nHe worries that internal politics will be a danger to his charge, and wants a trusted outsider to help ensure her safety."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": { "items": ["WIIC_begin_campaign Sword of Restoration"] },
+							"RemovedTags": {}
+						}
+					]
+				}
+			]
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "No thank you. (Pass on the campaign)"
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "MercNews Broadcast",
+						"Details": "BREAKING NEWS: AURIGAN SUCCESSION BLOODY!\r\n\r\nSources inside the Aurigan Coalition report that, concerned with her Lord Santiago Espinosa's possible treachery and continual disrespect towards his protege, Raju Montgomery drew a laser pistol during council this morning and killed him. While Raju Montgomery awaits trial in prison, Lady Kamea Arano has ascended to the throne of the Aurigan Coalition without challenge."
+					},
+					"Weight": 100,
+					"Results": []
+				}
+			]
+		}
+	]
+}

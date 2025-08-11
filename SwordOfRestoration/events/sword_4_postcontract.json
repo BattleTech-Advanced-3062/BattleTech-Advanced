@@ -1,0 +1,45 @@
+{
+	"Description": {
+		"Id": "sword_4_postcontract",
+		"Name": "Tragedy in the Icebox",
+		"Details": "Military chatter fills the comms, horror and exhaustion dominating. Lady Arano eventually arrives at the Leopard to discuss what her troops found down here on Weldry.\r\n\r\nDr. Murad seems crestfallen - given her history, it's likely she hasn't seen many battlefields up close before. Certainly not concentration camps like the Directorate was running. \"What are we going to do, Commander? We can't just turn our backs on this.",
+		"Icon": "uixTxrSpot_SumireStarMap.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Invite her aboard. Let's see what they've found",
+				"Details": "Let's see what they've found down there.",
+			},
+			"ResultSets": [{
+				"Description": {
+					"Id": "outcome_0_0",
+					"Name": "The Restoration",
+					"Details": "Darius looks about to begin a conversaton, but Lord Madeira cuts it off. \"Let's wait for Lady Arano to get back from the surface. She should be here for the discussion.\"",
+				},
+				"Weight": 100,
+				"Results": [{
+					"Scope": "Company",
+					"AddedTags": {"items": [
+						"WIIC_give_starsystemdef_Weldry_to_AuriganRestoration",
+						"WIIC_AuriganRestoration_attacks_starsystemdef_Bringdam",
+						"WIIC_AuriganRestoration_attacks_starsystemdef_Ichlangis",
+						"WIIC_AuriganRestoration_attacks_starsystemdef_Fjaldr",
+						"WIIC_AuriganRestoration_attacks_starsystemdef_RyansFate"
+					]},
+					"RemovedTags": {},
+					"Actions": [{
+						"Type": "System_PlayVideo",
+						"value": "4A-mastiff.bk2"
+					}]
+				}]
+			}]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

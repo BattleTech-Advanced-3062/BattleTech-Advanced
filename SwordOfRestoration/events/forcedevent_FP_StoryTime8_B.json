@@ -1,0 +1,169 @@
+{
+	"Description": {
+		"Id": "forcedevent_FP_StoryTime8_B",
+		"Name": "The Challenge",
+		"Details": "\"Did it work?\" Farah asks nervously as the Leopard lifts off.\r\n\n\nSumire is too focused on shaking the pursuing aerospace fighters to pay more than cursory attention to anything else. \"Look outside and see for yourself.\"",
+		"Icon": "uixTxrSpot_DailyBriefing.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {},
+		"ExclusionTags": {},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [],
+	"AdditionalObjects": [],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Look out the window.",
+				"Details": "Cinamatic and debriefing",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "The Challenge",
+						"Details": "Back aboard the <i>Argo</i>, you find Lady Arano on the viewscreen in conference with her other commanders - from what you gather, the fight seem to be a bloody one, but grinding towards victory.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Aea_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Artru_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Bringdam_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Coromodir_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Enkra_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Fjaldr_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Gangtok_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Guldra_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Heliat_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Ichlangis_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Itrom_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Katinka_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Mangzhangdian_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Mechdur_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Panzyr_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Qalzi_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_RegisRoost_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_RyansFate_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Smithon_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Tyrlon_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Umgard_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Weldry_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Zangul_to_AuriganRestoration"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {},
+							"Stats": [],
+							"Actions": [
+								{
+									"Type": "System_PlayVideo",
+									"value": "8-crash.bk2",
+									"valueConstant": null
+								},
+								{
+									"Type": "System_StartConversation",
+									"value": "StoryTime8-TheChallange",
+									"additionalValues": [
+										"THE CHALLENGE",
+										"In Orbit - Coromodir"
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {},
+				"ExclusionTags": {},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Just get us home. (Skip cutscene and conversation)",
+				"Details": "Skip cutscene and debriefing",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "The Challenge",
+						"Details": "Back aboard the <i>Argo</i>, you find Lady Arano on the viewscreen in conference with her other commanders - from what you gather, the fight seem to be a bloody one, but grinding towards victory. Lord Espinosa calls in order to surrender - but his daughter won't stand down.\r\n\n\nYou're going to have to kill Victoria to end this.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Aea_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Artru_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Bringdam_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Coromodir_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Enkra_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Fjaldr_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Gangtok_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Guldra_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Heliat_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Ichlangis_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Itrom_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Katinka_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Mangzhangdian_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Mechdur_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Panzyr_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Qalzi_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_RegisRoost_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_RyansFate_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Smithon_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Tyrlon_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Umgard_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Weldry_to_AuriganRestoration",
+									"WIIC_give_starsystemdef_Zangul_to_AuriganRestoration"
+								],
+								"tagSetSourceFile": ""
+							},
+							"RemovedTags": {},
+							"Stats": [],
+							"Actions": [],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {},
+				"ExclusionTags": {},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

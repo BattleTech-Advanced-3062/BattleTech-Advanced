@@ -1,0 +1,19 @@
+{
+  "Name": "SwordOfRestoration",
+  "Enabled": true,
+  "Version": "0.1.0",
+  "Author": "BlueWinds",
+  "DependsOn": [
+    "Timeline",
+    "WarTechIIC"
+  ],
+  "CustomResourceTypes": [],
+  "Manifest": [
+    { "Type": "ContractOverride", "Path": "contracts" },
+    { "Type": "Campaign", "Path": "campaigns" },
+    { "Type": "ItemCollectionDef", "Path": "itemCollections" },
+    { "Type": "ForcedTimelineEvent", "Path": "forcedEvents", "AddToDB": true },
+    { "Type": "SimGameConversations", "Path": "simGameConversations" },
+    { "Type": "SimGameEventDef", "Path": "events" }
+  ]
+}
