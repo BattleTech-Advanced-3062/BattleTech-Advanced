@@ -17,9 +17,6 @@ mechdef_pulverizer_PUL-3R,Mech,1,10
 Gear_Airdrop_Beacon_BA_Elemental,Upgrade,0,10,Upgrade,0,10
 BTAClan_Weapons_Rare,Reference,3,10
 BTA_Ammo_Rare_Clan,Reference,2,10
-Weapon_Laser_SmallLaserER_BA_Clan,Weapon,0,10
-Weapon_SRM_SRM2_BA_Clan,Weapon,0,10
-Weapon_Avenger_Shotgun_BA_Clans,Weapon,0,10
 Weapon_Laser_SmallLaserER_CLAN,Weapon,0,10
 Weapon_Laser_MediumLaserER_CLAN,Weapon,0,10
 Weapon_Laser_LargeLaserER_CLAN,Weapon,0,10
