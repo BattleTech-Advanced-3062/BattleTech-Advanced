@@ -5011,9 +5011,9 @@
 		},
 		{
 			"Bonus": "BAMounts",
-			"Short": "BA Mountable",
-			"Long": "Battle Armor Mounting Points",
-			"Full": "This piece of equipment permits the equipped unit to serve as a mount for Battle Armor squads."
+			"Short": "BA Compatible",
+			"Long": "Battle Armor Compatible",
+			"Full": "This piece of equipment permits the unit to carry Battle Armor squads via the appropriate equippable items."
 		},
 		{
 			"Bonus": "AntiBA",

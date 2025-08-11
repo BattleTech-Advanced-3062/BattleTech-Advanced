@@ -5,7 +5,7 @@
                 "CategoryID": "Airdrop"
             },
 			{
-                "CategoryID": "BAAirdrop"
+                "CategoryID": "BADeployment"
             }
         ],
         "BonusDescriptions": [
@@ -64,7 +64,7 @@
     "ComponentTags": {
         "items": [
             "component_type_stock",
-			"BAAirdrop"
+			"BADeployment"
         ],
         "tagSetSourceFile": ""
     }

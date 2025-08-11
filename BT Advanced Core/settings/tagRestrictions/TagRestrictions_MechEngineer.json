@@ -732,6 +732,12 @@
 			"IncompatibleTags": [
 				"ArtemisTTS"
 			]
+		},
+		{
+			"Tag": "BADeployment",
+			"RequiredTags": [
+				"BACompatible"
+			]
 		}
 	]
 }
