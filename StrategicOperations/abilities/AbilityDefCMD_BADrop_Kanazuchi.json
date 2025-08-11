@@ -1,0 +1,23 @@
+{
+	"Description": {
+		"Id": "AbilityDefCMD_BADrop_Kanazuchi",
+		"Name": "BATTLE ARMOR (KANAZUCHI)",
+		"Details": "DEPLOYS A KANAZUCHI BATTLE ARMOR SQUAD ALLIED CONTROL.\r\n\r\n <b><color=#099ff2>Costs 15 Resolve to use!</color></b>\r\n\r\n <b><color=#15df37>Can only call in one squad per contract!</color></b>\r\n\r\n <b><color=#e11919>Costs 10000 C-Bills per use!</color></b>",
+		"Icon": "battle-amor-suit"
+	},
+	"ActivationTime": "CommandAbility",
+	"Resource": "CommandAbility",
+	"ActivationCooldown": 2,
+	"NumberOfUses": 1,
+	"specialRules": "SpawnTurret",
+	"Targeting": "CommandSpawnPosition",
+	"ActorResource": "mechdef_ba_kanazuchi",
+	"StringParam1": "Battle Armor Deployment Unavailable",
+	"StringParam2": "Contract_BattleArmor",
+	"FloatParam1": 50,
+	"FloatParam2": 50,
+	"IntParam2": 90,
+	"ResolveCost": 15,
+	"CBillCost": 10000,
+	"CMDPilotOverride": "pilot_bd_BAdefault"
+}

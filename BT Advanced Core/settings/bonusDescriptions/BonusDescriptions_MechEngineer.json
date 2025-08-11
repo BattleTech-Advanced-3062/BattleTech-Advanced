@@ -4783,9 +4783,9 @@
 		},
 		{
 			"Bonus": "AirdropBA",
-			"Short": "Battle Armor Airdrop",
-			"Long": "Battle Armor Airdrop",
-			"Full": "This equipment's airdropped unit is a squad of battle armor. The default airdropped squad is an Inner Sphere Standard BA squad, but contracts can be purchased to allow other, more advanced, units to be dropped instead."
+			"Short": "Equipped Battle Armor",
+			"Long": "Equipped Battle Armor",
+			"Full": "This equipment's represents a squad of Battle Armor deployed with the carrying unit. The default equipped squad depends on what piece of equipment is installed, with different equipment representing different squads. Each piece of equipment allows deployment of 1 squad of Battle Armor during a mission."
 		},
 		{
 			"Bonus": "AirdropCount",
@@ -4798,6 +4798,18 @@
 			"Short": "Airdrop Range",
 			"Long": "Airdrop Range",
 			"Full": "Airdrops from this equipment must happen within {0} meters of the unit calling in the airdrop."
+		},
+		{
+			"Bonus": "AirdropBACount",
+			"Short": "Number of Battle Armor",
+			"Long": "Number of Battle Armor",
+			"Full": "This equipment allows for {0} Battle Armor squad to be released per deployment."
+		},
+		{
+			"Bonus": "AirdropBARange",
+			"Short": "Battle Armor Range",
+			"Long": "Battle Armor Range",
+			"Full": "Battle Armor from this equipment must be deployed within {0} meters of the unit carrying this equipment."
 		},
 		{
 			"Bonus": "Strafe",

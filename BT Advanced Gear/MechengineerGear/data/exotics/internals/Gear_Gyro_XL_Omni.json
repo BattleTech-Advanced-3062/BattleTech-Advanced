@@ -11,25 +11,10 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]] / 10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.2"
-			}
-		},
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
 			"GyroStab: 40",
 			"GyroWeight: -30%"
-		],
-		"DecoratorComponent":[
-			{
-				"Text":"BA",               
-				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
-			}
 		],
 		"Flags": [
 			"not_broken",

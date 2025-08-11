@@ -11,14 +11,6 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
-		"DecoratorComponent":[
-			{
-				"Text":"BA",               
-				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
-			}
-		],
 		"Flags": [
 			"not_broken",
 			"no_salvage",
@@ -27,7 +19,6 @@
 		],
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
 			"StructureTPCost: -50%",
 			"StructureCBCost: +25%",
 			"GyroStab: 50"
