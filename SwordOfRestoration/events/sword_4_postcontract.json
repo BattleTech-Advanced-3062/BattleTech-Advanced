@@ -12,31 +12,39 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "Invite her aboard. Let's see what they've found",
-				"Details": "Let's see what they've found down there.",
+				"Details": "Let's see what they've found down there."
 			},
-			"ResultSets": [{
-				"Description": {
-					"Id": "outcome_0_0",
-					"Name": "The Restoration",
-					"Details": "Darius looks about to begin a conversaton, but Lord Madeira cuts it off. \"Let's wait for Lady Arano to get back from the surface. She should be here for the discussion.\"",
-				},
-				"Weight": 100,
-				"Results": [{
-					"Scope": "Company",
-					"AddedTags": {"items": [
-						"WIIC_give_starsystemdef_Weldry_to_AuriganRestoration",
-						"WIIC_AuriganRestoration_attacks_starsystemdef_Bringdam",
-						"WIIC_AuriganRestoration_attacks_starsystemdef_Ichlangis",
-						"WIIC_AuriganRestoration_attacks_starsystemdef_Fjaldr",
-						"WIIC_AuriganRestoration_attacks_starsystemdef_RyansFate"
-					]},
-					"RemovedTags": {},
-					"Actions": [{
-						"Type": "System_PlayVideo",
-						"value": "4A-mastiff.bk2"
-					}]
-				}]
-			}]
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "The Restoration",
+						"Details": "Darius looks about to begin a conversaton, but Lord Madeira cuts it off. \"Let's wait for Lady Arano to get back from the surface. She should be here for the discussion.\""
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {
+								"items": [
+									"WIIC_give_starsystemdef_Weldry_to_AuriganRestoration",
+									"WIIC_AuriganRestoration_attacks_starsystemdef_Bringdam",
+									"WIIC_AuriganRestoration_attacks_starsystemdef_Ichlangis",
+									"WIIC_AuriganRestoration_attacks_starsystemdef_Fjaldr",
+									"WIIC_AuriganRestoration_attacks_starsystemdef_RyansFate"
+								]
+							},
+							"RemovedTags": {},
+							"Actions": [
+								{
+									"Type": "System_PlayVideo",
+									"value": "4A-mastiff.bk2"
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	],
 	"PublishState": "PUBLISHED",
