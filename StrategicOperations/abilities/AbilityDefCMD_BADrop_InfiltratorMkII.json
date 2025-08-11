@@ -18,6 +18,6 @@
 	"FloatParam2": 50,
 	"IntParam2": 90,
 	"ResolveCost": 15,
-	"CBillCost": 10000,
+	"CBillCost": 20000,
 	"CMDPilotOverride": "pilot_bd_BAdefault"
 }

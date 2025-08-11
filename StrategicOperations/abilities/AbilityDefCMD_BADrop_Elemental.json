@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "AbilityDefCMD_BADrop_Elemental",
 		"Name": "BATTLE ARMOR (ELEMENTAL)",
-		"Details": "DEPLOYS AN ELEMENTAL BATTLE ARMOR SQUAD ALLIED CONTROL.\r\n\r\n <b><color=#099ff2>Costs 15 Resolve to use!</color></b>\r\n\r\n <b><color=#15df37>Can only call in one squad per contract!</color></b>\r\n\r\n <b><color=#e11919>Costs 10000 C-Bills per use!</color></b>",
+		"Details": "DEPLOYS AN ELEMENTAL BATTLE ARMOR SQUAD ALLIED CONTROL.\r\n\r\n <b><color=#099ff2>Costs 15 Resolve to use!</color></b>\r\n\r\n <b><color=#15df37>Can only call in one squad per contract!</color></b>\r\n\r\n <b><color=#e11919>Costs 50000 C-Bills per use!</color></b>",
 		"Icon": "battle-amor-suit"
 	},
 	"ActivationTime": "CommandAbility",
@@ -18,6 +18,6 @@
 	"FloatParam2": 50,
 	"IntParam2": 90,
 	"ResolveCost": 15,
-	"CBillCost": 10000,
+	"CBillCost": 50000,
 	"CMDPilotOverride": "pilot_bd_BAdefault"
 }

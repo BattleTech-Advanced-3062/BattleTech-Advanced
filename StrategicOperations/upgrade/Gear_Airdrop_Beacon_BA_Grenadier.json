@@ -11,7 +11,7 @@
         "BonusDescriptions": [
             "AirdropBA",
             "AbilityResolveCost: 15",
-            "AbilityCBillCost: 10000",
+            "AbilityCBillCost: 30000",
             "AirdropBACount: 1",
             "AirdropBARange: 90"
         ]
