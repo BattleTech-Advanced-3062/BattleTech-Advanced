@@ -236,6 +236,9 @@
 					],
 					"Categories": [
 						"C3Master",
+						"C3MasterBeta",
+						"C3MasterGamma",
+						"C3MasterDelta",
 						"w/s/t/tag",
 						"w/s/l/laser",
 						"w/s/l/pulse",
@@ -244,6 +247,7 @@
 						"w/s/l/x-pulse",
 						"w/s/l/vspl",
 						"w/s/l/coil",
+						"w/s/t/hpg",
 						"w/e/l/slance",
 						"w/e/l/selec",
 						"w/e/l/smodal"
@@ -261,7 +265,6 @@
 						"Weapon"
 					],
 					"Categories": [
-						"w/s/t/hpg",
 						"w/s/su/superweapon"
 					],
 					"NotCategories": [
@@ -278,6 +281,21 @@
 					],
 					"Categories": [
 						"w/m/t/bomb"
+					],
+					"NotCategories": [
+						"notused"
+					]
+				}
+			},
+			{
+				"Icon": "battle-amor-suit",
+				"Tooltip": "Battle Armor Weapons",
+				"Filter": {
+					"ComponentTypes": [
+						"Weapon"
+					],
+					"Categories": [
+						"BAWeapon"
 					],
 					"NotCategories": [
 						"notused"
@@ -817,6 +835,9 @@
 						"ECM",
 						"Probe",
 						"C3Slave",
+						"C3SlaveBeta",
+						"C3SlaveGamma",
+						"C3SlaveDelta",
 						"C3i",
 						"NullSig",
 						"CLPS",
@@ -927,7 +948,8 @@
 						"CombatShield",
 						"Handhold",
 						"HarJel",
-						"BlueShield"
+						"BlueShield",
+						"BACombatShield"
 					],
 					"NotCategories": [
 						"Armor",

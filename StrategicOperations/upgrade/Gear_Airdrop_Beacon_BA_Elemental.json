@@ -8,6 +8,14 @@
                 "CategoryID": "BADeployment"
             }
         ],
+		"DecoratorComponent":[
+			{
+				"Text":"BA",               
+				"Color":"#00a2c9",      
+				"Icon":"battle-amor-suit",       
+				"Importance": 1
+			}
+		],
         "BonusDescriptions": [
             "AirdropBA",
             "AbilityResolveCost: 15",

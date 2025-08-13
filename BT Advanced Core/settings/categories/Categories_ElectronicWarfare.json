@@ -30,7 +30,49 @@
 		},
 		{
 			"Name": "C3Master",
-			"displayName": "C3 Master",
+			"displayName": "C3 Master (Alpha)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3MasterBeta",
+			"displayName": "C3 Master (Beta)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3MasterGamma",
+			"displayName": "C3 Master (Gamma)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3MasterDelta",
+			"displayName": "C3 Master (Delta)",
 			"BaseLimits": [
 				{
 				  "Min": 0,
@@ -44,7 +86,49 @@
 		},
 		{
 			"Name": "C3Slave",
-			"displayName": "C3 Slave",
+			"displayName": "C3 Slave (Alpha)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3SlaveBeta",
+			"displayName": "C3 Slave (Beta)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3SlaveGamma",
+			"displayName": "C3 Slave (Gamma)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3SlaveDelta",
+			"displayName": "C3 Slave (Delta)",
 			"BaseLimits": [
 				{
 				  "Min": 0,

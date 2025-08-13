@@ -2,7 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "C3Master"
+				"CategoryID": "C3MasterBeta"
 			},
 			{
 				"CategoryID": "w/s/t/tag"
@@ -11,7 +11,7 @@
 		"DecoratorComponent":[
 			{
 				"Text":"C3M",               
-				"Color":"#ff1616",      
+				"Color":"#16ffff",      
 				"Icon":"mesh-network",       
 				"Importance": 10
 			}
@@ -19,7 +19,7 @@
 		"Linked": {
 			"Links": [
 				{
-					"ComponentDefId": "Gear_C3_Master",
+					"ComponentDefId": "Gear_C3_Master_Beta",
 					"Location": "CenterTorso",
 					"ComponentDefType": "Upgrade"
 				}
@@ -30,7 +30,7 @@
 			"C3Master",
 			"C3UnitCount",
 			"C3ECMWeakness",
-			"C3Channel: Alpha",
+			"C3Channel: Beta",
 			"C3MResolve: 120, +2",
 			"C3MEvasion: 120, +1",
 			"TAG: 50%",
@@ -75,9 +75,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Tanadi",
 		"Model": "C3 Master Unit",
-		"UIName": "C3 Master (Alpha)",
-		"Id": "Weapon_C3_Master",
-		"Name": "C3 Master (Alpha)",
+		"UIName": "C3 Master (Beta)",
+		"Id": "Weapon_C3_Master_Beta",
+		"Name": "C3 Master (Beta)",
 		"Details": "Acting as the core of a C3 Network, the C3 Master unit provides incredible coordination efforts for C3-equipped units, including increased resolve generation and evasion ignore for weapon attacks. It also functions as a super-powered targeting laser system, allowing for coordinated designation of targets. C3 Masters coordinate with other C3 units to provide targeting data for all units linked into the network, though Master units are not strictly necessary for the network to function even if they do provide the best benefits to units in the network.",
 		"Icon": "mesh-network"
 	},
@@ -105,7 +105,7 @@
 			"EnemyStealthAffection": "None",
 			"IsPositiveToAlly": true,
 			"IsNegativeToEnemy": true,
-			"neededTags": [ "C3_Network" ],
+			"neededTags": [ "C3_Network_Beta" ],
 			"ownerVFX": [],
 			"targetVFX": [],
 			"removeOwnerVFX": [],
@@ -134,7 +134,7 @@
 					"Description": {
 						"Id": "StatusEffect-C3MasterEvaIgn",
 						"Name": "C3 Master Evasion ignore",
-						"Details": "Provides +1 evasion ignore for all C3-equipped units in the radius.",
+						"Details": "Provides +1 evasion ignore for all Beta-channel C3-equipped units in the radius.",
 						"Icon": "mesh-network"
 					},
 					"nature": "Buff",
@@ -160,7 +160,7 @@
 			"EnemyStealthAffection": "None",
 			"IsPositiveToAlly": true,
 			"IsNegativeToEnemy": false,
-			"neededTags": [ "C3_Network" ],
+			"neededTags": [ "C3_Network_Beta" ],
 			"ownerVFX": [],
 			"targetVFX": [],
 			"removeOwnerVFX": [],
@@ -191,7 +191,7 @@
 					"Description": {
 						"Id": "StatusEffect-C3MasterResolve",
 						"Name": "C3 Master Resolve",
-						"Details": "Provides a +2 bonus to Resolve for all C3-equipped units in the radius.",
+						"Details": "Provides a +2 bonus to Resolve for all Beta-channel C3-equipped units in the radius.",
 						"Icon": "mesh-network"
 					},
 					"nature": "Buff",
