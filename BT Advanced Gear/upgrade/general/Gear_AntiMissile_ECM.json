@@ -179,7 +179,7 @@
 					"statisticData": {
 						"statName": "ADD_ENCOUNTER_TAG_C3_Network",
 						"operation": "Float_Add",
-						"modValue": "-2",
+						"modValue": "-20",
 						"modType": "System.Single"
 					},
 					"nature": "Buff"

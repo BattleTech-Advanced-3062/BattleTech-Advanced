@@ -28,6 +28,7 @@
 		"BonusDescriptions": [
 			"C3",
 			"C3Master",
+			"C3UnitCount",
 			"C3ECMWeakness",
 			"C3Channel: Delta",
 			"C3MResolve: 120, +2",

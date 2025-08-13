@@ -1779,13 +1779,13 @@
 			"Bonus": "C3Slave",
 			"Short": "C3 Slave",
 			"Long": "C3 Slave",
-			"Full": "C3 Network Slave Unit - Connects unit to a C3 network, allowing it to share sensor data with other C3-equipped units. Does not function without the presence of a C3 Master in the network."
+			"Full": "C3 Network Slave Unit - Connects unit to a C3 network, allowing it to share sensor data with other C3-equipped units on the same channel. Does not function without the presence of a C3 Master in the network."
 		},
 		{
 			"Bonus": "C3Master",
 			"Short": "C3 Master",
 			"Long": "C3 Master",
-			"Full": "C3 Network Master Unit - Controls and generates a C3 network. Without a C3 Master, the C3 Network does not function. C3 networks allow C3-equipped units to share sensor data."
+			"Full": "C3 Network Master Unit - Controls and generates a C3 network. Without a C3 Master, the C3 Network does not function. C3 networks allow C3-equipped units on the same channel to share sensor data."
 		},
 		{
 			"Bonus": "C3",
@@ -1798,6 +1798,12 @@
 			"Short": "C3 Channel",
 			"Long": "C3 Channel",
 			"Full": "C3 Networks operate on channels. C3 slaves and masters must share a channel in order to be compatible with one another. This C3 equipment is on the {0} channel and only works with other C3 components on the same channel."
+		},
+		{
+			"Bonus": "C3UnitCount",
+			"Short": "C3 Unit Count",
+			"Long": "C3 Unit Count",
+			"Full": "C3 Networks are unit count limited. A single C3 Master can only support 3 Slaves connected to it. A C3 Network can have up to two Masters, both of which must be mounted on the same 'Mech. In a double Master network, the network can support up to 6 Slaves. Exceeding these unit limits will cause the network to collapse entirely, rendering it non-functional."
 		},
 		{
 			"Bonus": "C3MResolve",
@@ -1821,13 +1827,13 @@
 			"Bonus": "C3iUnit",
 			"Short": "C3i Unit",
 			"Long": "C3i Unit",
-			"Full": "Improved C3 Network Unit - Connects unit to a C3i network, allowing it to share sensor data with other C3i-equipped units"
+			"Full": "Improved C3 Network Unit - Connects unit to a C3i network, allowing it to share sensor data with other C3i-equipped units."
 		},
 		{
 			"Bonus": "C3i",
 			"Short": "C3i Network",
 			"Long": "C3i Network",
-			"Full": "C3i Networks provide all C3i-equipped units with the best possible range accuracy to enemy targets based on the closest C3i-equipped unit in the network to the target."
+			"Full": "C3i Networks provide all C3i-equipped units with the best possible range accuracy to enemy targets based on the closest C3i-equipped unit in the network to the target. C3i networks do not have any unit count limitations and can support a network of any size."
 		},
 		{
 			"Bonus": "C3iResolve",
