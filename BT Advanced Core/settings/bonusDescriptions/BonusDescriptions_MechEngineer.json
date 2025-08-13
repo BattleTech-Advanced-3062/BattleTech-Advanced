@@ -1791,7 +1791,13 @@
 			"Bonus": "C3",
 			"Short": "C3 Network",
 			"Long": "C3 Network",
-			"Full": "C3 Networks provide all C3-equipped units with the best possible range accuracy to enemy targets based on the closest C3-equipped unit in the network to the target."
+			"Full": "C3 Networks provide all C3-equipped units on the same C3 channel with the best possible range accuracy to enemy targets based on the closest C3-equipped unit in the network to the target."
+		},
+		{
+			"Bonus": "C3Channel",
+			"Short": "C3 Channel",
+			"Long": "C3 Channel",
+			"Full": "C3 Networks operate on channels. C3 slaves and masters must share a channel in order to be compatible with one another. This C3 equipment is on the {0} channel and only works with other C3 components on the same channel."
 		},
 		{
 			"Bonus": "C3MResolve",
@@ -4783,9 +4789,9 @@
 		},
 		{
 			"Bonus": "AirdropBA",
-			"Short": "Equipped Battle Armor",
-			"Long": "Equipped Battle Armor",
-			"Full": "This equipment's represents a squad of Battle Armor deployed with the carrying unit. The default equipped squad depends on what piece of equipment is installed, with different equipment representing different squads. Each piece of equipment allows deployment of 1 squad of Battle Armor during a mission."
+			"Short": "Battle Armor Airdrop",
+			"Long": "Battle Armor Airdrop",
+			"Full": "This equipment's airdropped unit is a squad of battle armor. The default airdropped squad is an Inner Sphere Standard BA squad, but contracts can be purchased to allow other, more advanced, units to be dropped instead."
 		},
 		{
 			"Bonus": "AirdropCount",
@@ -4798,18 +4804,6 @@
 			"Short": "Airdrop Range",
 			"Long": "Airdrop Range",
 			"Full": "Airdrops from this equipment must happen within {0} meters of the unit calling in the airdrop."
-		},
-		{
-			"Bonus": "AirdropBACount",
-			"Short": "Number of Battle Armor",
-			"Long": "Number of Battle Armor",
-			"Full": "This equipment allows for {0} Battle Armor squad to be released per deployment."
-		},
-		{
-			"Bonus": "AirdropBARange",
-			"Short": "Battle Armor Range",
-			"Long": "Battle Armor Range",
-			"Full": "Battle Armor from this equipment must be deployed within {0} meters of the unit carrying this equipment."
 		},
 		{
 			"Bonus": "Strafe",
@@ -5011,9 +5005,9 @@
 		},
 		{
 			"Bonus": "BAMounts",
-			"Short": "BA Compatible",
-			"Long": "Battle Armor Compatible",
-			"Full": "This piece of equipment permits the unit to carry Battle Armor squads via the appropriate equippable items."
+			"Short": "BA Mountable",
+			"Long": "Battle Armor Mounting Points",
+			"Full": "This piece of equipment permits the equipped unit to serve as a mount for Battle Armor squads."
 		},
 		{
 			"Bonus": "AntiBA",
