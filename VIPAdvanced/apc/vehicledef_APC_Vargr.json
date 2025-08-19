@@ -414,13 +414,6 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Tank_InfantryCompartment",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Gear_Wheeled_Right",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Right",
@@ -459,13 +452,6 @@
 			"ComponentDefID": "emod_armorslots_standard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1
-		},
-		{
-			"MountedLocation": "Rear",
-			"ComponentDefID": "Tank_BattleArmorFiringPorts",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
 		}
 	]
 }

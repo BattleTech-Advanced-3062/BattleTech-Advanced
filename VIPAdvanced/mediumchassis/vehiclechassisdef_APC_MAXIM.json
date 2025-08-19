@@ -5,12 +5,7 @@
 			"Exclude": false,
 			"Include": true
 		},
-		"CustomWeights": [
-			{
-				"ComponentDefID": "Tank_InfantryCompartment",
-				"Tonnage": 3
-			}
-		]
+		"CustomWeights": []
 	},
 	"CustomParts": {
 		"MoveCost": "Hover",
