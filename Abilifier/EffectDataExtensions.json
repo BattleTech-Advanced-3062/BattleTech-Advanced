@@ -199,6 +199,56 @@
 			}
 		}
 	},
+	"C3Master_Network_Grant_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterEpsilon"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Overwhelm_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterEpsilon"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
 	"StatusEffect_ECM-VRPP-Jamming": {
 		"TargetCollectionsForSearch": {
 			"Component": {

@@ -85,6 +85,20 @@
 			}
 		},
 		{
+			"Name": "C3MasterEpsilon",
+			"displayName": "C3 Master (Epsilon)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
 			"Name": "C3Slave",
 			"displayName": "C3 Slave (Alpha)",
 			"BaseLimits": [
@@ -129,6 +143,20 @@
 		{
 			"Name": "C3SlaveDelta",
 			"displayName": "C3 Slave (Delta)",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 1
+				}
+			],
+			"DefaultCustoms": {
+				"InventorySorter": "2",
+				"Sorter": 1000
+			}
+		},
+		{
+			"Name": "C3SlaveEpsilon",
+			"displayName": "C3 Slave (Epsilon)",
 			"BaseLimits": [
 				{
 				  "Min": 0,

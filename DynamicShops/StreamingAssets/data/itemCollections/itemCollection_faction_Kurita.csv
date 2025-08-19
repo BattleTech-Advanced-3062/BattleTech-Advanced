@@ -38,6 +38,8 @@ Weapon_C3_Master_Gamma,Weapon,0,1
 Gear_C3_Gamma,Upgrade,0,1
 Weapon_C3_Master_Delta,Weapon,0,1
 Gear_C3_Delta,Upgrade,0,1
+Weapon_C3_Master_Epsilon,Weapon,0,1
+Gear_C3_Epsilon,Upgrade,0,1
 vehicledef_TEPPO,Mech,1,1
 Gear_Contract_Tank_Tokugawa_Kurita,Upgrade,0,1
 Gear_Contract_Mech_DragonFire_Kurita,Upgrade,0,1
