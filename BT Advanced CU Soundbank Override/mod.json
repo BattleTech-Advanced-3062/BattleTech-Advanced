@@ -1,6 +1,7 @@
 {
   "Name": "BTA CAB-CU Soundbank Override",
   "Enabled": true,
+  "Hidden": true,
   "Version": "2",
   "Author": "bloodydoves",	
   "DependsOn":[

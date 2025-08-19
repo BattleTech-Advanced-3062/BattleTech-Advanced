@@ -1,6 +1,7 @@
 {
 	"Name": "CleverGirl",
 	"Enabled": true,
+	"Hidden": true,
 	"Version": "2.3.0",
 	"Description": "Provides little nudges for the AI",
 	"Author": "IceRaptor",

@@ -1,6 +1,7 @@
 {
 	"Name": "BTA Debug",
 	"Enabled": true,
+	"Hidden": true,
 	"Description": "BTA's Debug",
 	"Author": "LadyAlekto",
 	"Website": "",
