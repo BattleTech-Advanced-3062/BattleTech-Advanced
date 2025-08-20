@@ -1,6 +1,7 @@
 {
     "Name": "SizeMatters",
     "Enabled": true,
+    "Hidden": true,
     "Version": "0.2.2.1",
     "Description": "Provides attack modifiers based upon difference in unit sizes",
     "Author": "IceRaptor",

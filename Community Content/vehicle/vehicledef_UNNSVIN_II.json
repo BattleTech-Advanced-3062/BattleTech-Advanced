@@ -180,13 +180,6 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Tank_BattleArmorBay",
-			"ComponentDefType": "Upgrade",
-			"MountedLocation": "Turret",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional"
-		},
-		{
 			"ComponentDefID": "Gear_C3_Master",
 			"ComponentDefType": "Upgrade",
 			"MountedLocation": "Rear",

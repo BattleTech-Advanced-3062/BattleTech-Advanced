@@ -2,6 +2,7 @@
 	"Name": "CustomLocalSettings",
 	"Version": "0.0.1",
 	"Enabled": true,
+	"Hidden": true,
 	"Author": "KMiSSioN",
 	"DLL": "CustomLocalSettings.dll",
 	"DLLEntryPoint": "CustomSettings.Core.Init",
