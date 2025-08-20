@@ -1,6 +1,7 @@
 {
 	"Name": "BT Advanced Quad Mechs",
 	"Enabled": true,
+	"Hidden": true,
 	"Version": "2",
 	"Author": "bloodydoves",
 	"DependsOn": [

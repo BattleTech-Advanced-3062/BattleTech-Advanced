@@ -1,6 +1,7 @@
 {
   "Name": "VMMWSGC",
   "Enabled": true,
+  "Hidden": true,
   "Version": "1.1.1",
   "Description": "Empties the Battletech Private Working Set",
   "Author": "0x1d7",
