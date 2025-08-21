@@ -11,6 +11,14 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
+		"DecoratorComponent":[
+			{
+				"Text":"O",               
+				"Color":"#00a2c9",      
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
+			}
+		],
 		"Flags": [
 			"not_broken",
 			"no_salvage",
@@ -19,7 +27,6 @@
 		],
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
 			"GyroStab: 50"
 		]
 	},
