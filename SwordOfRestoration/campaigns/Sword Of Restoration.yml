@@ -48,7 +48,7 @@ nodes:
         header: BETRAYAL AND DEBT
         subheader: In Orbit - Úr Cruinne
     - wait:
-        days: 7
+        days: 21
     - goto: CaptureTheScheria
 
   CaptureTheScheria:
@@ -132,6 +132,8 @@ nodes:
         characters:
           Alexander: true
     - reward: Sword_Reward_Basic
+    - wait:
+        days: 9
     - goto: LiberationOfPanzyr
 
   LiberationOfPanzyr:
@@ -166,6 +168,8 @@ nodes:
           Kamea: true
           Alexander: true
     - reward: Sword_Reward_Basic
+    - wait:
+        days: 14
     - goto: SmithonAttack
 
   SmithonAttack:
@@ -223,7 +227,7 @@ nodes:
           Alexander: true
     - wait:
         days: 30
-        workOrder: Wait for Farah's codebreaker
+        workOrder: Wait for Farah's coodebreaker
         sprite: uixTxrLogo_SelfEmployed_Farah
     - popup:
         title: Code Breaker
@@ -319,6 +323,8 @@ nodes:
         characters:
           Kamea: true
           Alexander: true
+    - wait:
+        days: 6
     - goto: AttackItrom
 
   AttackItrom:
@@ -360,6 +366,8 @@ nodes:
           Kamea: true
           Alexander: true
     - reward: Sword_Reward_Basic
+    - wait:
+        days: 10
     - goto: DefendPanzyr
 
   DefendPanzyr:
@@ -416,6 +424,8 @@ nodes:
         characters:
           Kamea: true
     - reward: Sword_Reward_Hard
+    - wait:
+        days: 21
     - goto: AttackTyrlon
 
   AttackTyrlon:
