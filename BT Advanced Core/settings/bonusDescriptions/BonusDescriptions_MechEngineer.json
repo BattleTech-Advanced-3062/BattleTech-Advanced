@@ -4866,6 +4866,18 @@
 			"Full": "The Aerospace Fighter provided by this contract fields the following weapon as its main weaponry: {0}."
 		},
 		{
+			"Bonus": "BASquad",
+			"Short": "Battle Armor Squad",
+			"Long": "Battle Armor Squad",
+			"Full": "This equipment represents a squad of attached {0} Battle Armor. They can be called in during missions by using the ability this equipment grants the carrying unit. Called in BA are under AI control and fight as best they're able."
+		},
+		{
+			"Bonus": "RequiresOmni",
+			"Short": "Requires OmniMech",
+			"Long": "Requires OmniMech",
+			"Full": "This equipment can only be equipped to an OmniMech."
+		},
+		{
 			"Bonus": "Dissipation",
 			"Short": "{0} Dissipation",
 			"Long": "{0} Heat Dissipation",

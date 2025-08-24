@@ -17,7 +17,8 @@
 			}
 		],
         "BonusDescriptions": [
-            "AirdropBA",
+            "BASquad",
+            "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 40000",
             "AirdropBACount: 1",
