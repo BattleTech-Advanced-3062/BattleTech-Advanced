@@ -16,7 +16,7 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_icarusii_ICR-1R",
+	"ChassisID": "chassisdef_icarusii_ICR-2R",
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 693450,
@@ -24,10 +24,10 @@
 		"Purchasable": false,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Icarus II ICR-1R",
-		"Id": "mechdef_icarusii_ICR-1R",
+		"UIName": "Icarus II ICR-2R",
+		"Id": "mechdef_icarusii_ICR-2R",
 		"Name": "Icarus II",
-		"Details": "The Icarus II is a mostly forgotten mech, but mostly is not entirely. In the late 3050s this, the ICR-1R, hit the market with little fanfare. The -1R attempts to turn the slow and overgunned Icarus II into a more traditional mech of its tonnage by speeding it up significantly. The -1R does over 90km/h and brings its LB-5X Autocannon and 3 Medium Pulse Lasers to bear with swiftness. Its 6 jump jets and adequate armor give it staying power on the modern battlefield. However, to get this performance, a XL Engine was required, making the -1R somewhat fragile.",
+		"Details": "AFter the reintroduction of the Icarus II to the FWLM in the 3050s, the brass demanded new variants to fill multiple mission roles. Accordingly, Corean Enterprises produced the ICR-2R, a basic refit of the earlier ICR-1R that refocuses on the Icarus II's original role of carrying a large weapon for its size. Armed with a LB-10X Autocannon, the ICR-2R can smash anything it can catch to pieces and thanks to a 240-rated XL engine and 6 jump jets, that's pretty much anything at all. Two ER Medium Lasers provide ammo-free firepower though with two tons of ammo it's unlikely the -2R runs out of ammo anytime soon.",
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
@@ -424,7 +424,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Autocannon_LB5XAC",
+			"ComponentDefID": "Weapon_Autocannon_LB10XAC",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -433,18 +433,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_SmallLaser_0-STOCK",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC5",
+			"ComponentDefID": "Ammo_AmmunitionBox_LBX_CLUSTER_AC10",
 			"SimGameUID": "",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -453,8 +443,28 @@
 			"hasPrefabName": false
 		},
 		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_LBX_SLUG_AC10",
+			"SimGameUID": "",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_case",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -464,17 +474,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

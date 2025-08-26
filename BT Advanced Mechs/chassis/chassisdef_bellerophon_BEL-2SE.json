@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Bellerophon",
-		"Id": "chassisdef_bellerophon_BEL-3Q",
+		"Id": "chassisdef_bellerophon_BEL-2SE",
 		"Name": "Bellerophon",
-		"Details": "Built by House Steiner as a testbed for newly developed PPC variants such as the Heavy and Light PPCs, the BEL-3Q found more acceptance with front-line units for its plentiful energy weapon mounts than it did for the PPCs. Armed with a paltry-looking loadout for a heavy, the Heavy PPC and quintet of Light PPCs proved capable if the Bellerophon could manage range effectively, though the relatively slow speed made that difficult most of the time. Additionally, the XL Engine and only 11.5 tons of armor made the mech fragile while the 15 DHS struggled to keep the mech cooled in most circumstances.",
+		"Details": "After the Bellerophon's resurrection in the 3030s and the resurgence of technological advancement in the 3050s, the Lyran Commonwealth returned once again to the Bellerophon and upgraded it again for the modern battlefield, resulting in the BEL-2SE. Armed with twin ER Large Lasers and MML-7s, the -2SE is a dangerous opponent at any range. An XL 300-rated engine ensures the Bellerophon can catch anything it needs to catch while 13 DHS keep it all well cooled and Ferro-Fibrous armor keeps it well protected.",
 		"Icon": "uixTxrIcon_bellerophon"
 	},
 	"MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -60,11 +60,19 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				}
 			],
@@ -78,15 +86,15 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -114,15 +122,15 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -135,10 +143,6 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -217,7 +221,7 @@
 			"z": 0
 		}
 	],
-	"VariantName": "BEL-3Q",
+	"VariantName": "BEL-2SE",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
@@ -227,11 +231,11 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Resurrected Early Mech",
-	"YangsThoughts": "Built by House Steiner as a testbed for newly developed PPC variants such as the Heavy and Light PPCs, the BEL-3Q found more acceptance with front-line units for its plentiful energy weapon mounts than it did for the PPCs. Armed with a paltry-looking loadout for a heavy, the Heavy PPC and quintet of Light PPCs proved capable if the Bellerophon could manage range effectively, though the relatively slow speed made that difficult most of the time. Additionally, the XL Engine and only 11.5 tons of armor made the mech fragile while the 15 DHS struggled to keep the mech cooled in most circumstances.",
+	"YangsThoughts": "After the Bellerophon's resurrection in the 3030s and the resurgence of technological advancement in the 3050s, the Lyran Commonwealth returned once again to the Bellerophon and upgraded it again for the modern battlefield, resulting in the BEL-2SE. Armed with twin ER Large Lasers and MML-7s, the -2SE is a dangerous opponent at any range. An XL 300-rated engine ensures the Bellerophon can catch anything it needs to catch while 13 DHS keep it all well cooled and Ferro-Fibrous armor keeps it well protected.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefID": "emod_structureslots_standard",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
