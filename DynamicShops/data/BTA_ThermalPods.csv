@@ -1,5 +1,7 @@
 BTA_ThermalPods,,,
 Gear_Overcharge_Pod,HeatSink,2,3
+Gear_Reduction_Pod,HeatSink,2,3
+Gear_SpeedUp_Pod,HeatSink,2,3
 Gear_Weapon_Coolant_Artillery,HeatSink,2,2
 Gear_Weapon_Coolant_Ballistic,HeatSink,2,3
 Gear_Weapon_Coolant_Energy,HeatSink,2,3
