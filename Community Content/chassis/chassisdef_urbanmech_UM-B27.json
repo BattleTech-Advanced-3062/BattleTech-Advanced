@@ -18,7 +18,7 @@
 		"UIName": "UrbanMech",
 		"Id": "chassisdef_urbanmech_UM-B27",
 		"Name": "UrbanMech",
-		"Details": "From The Secret Lab Of Doctor Science, this custom Urbanmech has space for two entire Battle Armor squads, with firing ports, inside the Right Torso. It has a Core 060 for power as well as a Light AC/5 and Small Laser for 'firepower'. It's really there just for the Battle Armor Bay. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "From The Secret Lab Of Doctor Science, this custom Urbanmech has two entire Battle Armor squads, with firing ports, inside the Right Torso. It has a Core 060 for movement as well as a Light AC/5 and Small Laser for 'firepower'. It's really there just for the Battle Armor. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_urbanmech"
 	},
 	"MovementCapDefID": "movedef_urbanmech_UM-R60",
@@ -112,7 +112,29 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "BattleArmor",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BattleArmor",
+					"Omni": false				
+				},
+				{
+					"WeaponMountID": "BattleArmor",
+					"Omni": false				
+				},
+				{
+					"WeaponMountID": "BattleArmor",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BattleArmor",
+					"Omni": false
+				}
+
+			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 70,
@@ -231,21 +253,58 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_MechBattleArmorBay",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
+			"ComponentDefID": "Weapon_PPC_Support_B27",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
 			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
+			"prefabName": null,
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_MechBattleArmorFiringPorts",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
+			"ComponentDefID": "Weapon_Laser_SmallLaser_B27",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
 			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_Heavy_Recoilless_B27",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_SRM_SRM4_Heavy_B27",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_LBX_AC_B27",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	],
 	"VariantName": "UM-B27",
