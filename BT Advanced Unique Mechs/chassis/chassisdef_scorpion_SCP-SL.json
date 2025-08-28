@@ -33,7 +33,7 @@
 		"UIName": "The Slayer",
 		"Id": "chassisdef_scorpion_SCP-SL",
 		"Name": "The Slayer",
-		"Details": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as five tubes worth of Piercing SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
+		"Details": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as ten tubes worth of Tandem-filled SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
 		"Icon": "uixTxrIcon_scorpion"
 	},
 	"MovementCapDefID": "movedef_griffin_GRF-1N",
@@ -233,7 +233,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as five tubes worth of Piercing SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
+	"YangsThoughts": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as ten tubes worth of Tandem-filled SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

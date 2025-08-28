@@ -263,7 +263,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Weapon_SRM_SRM6_1-Irian",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional"
@@ -284,21 +284,14 @@
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Pierce_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Pierce_SRM",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional"
-		},
-		{
-			"MountedLocation": "Front",
-			"ComponentDefID": "Ammo_AmmunitionBox_Pierce_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

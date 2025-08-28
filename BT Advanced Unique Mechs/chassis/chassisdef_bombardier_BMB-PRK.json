@@ -8,7 +8,7 @@
 		"UIName": "The Prick",
 		"Id": "chassisdef_bombardier_BMB-PRK",
 		"Name": "The Prick",
-		"Details": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of Piercing SRM-3s that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
+		"Details": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of SRM-6s with Tandem ammo that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
 		"Icon": "uixTxrIcon_bombardier"
 	},
 	"MovementCapDefID": "movedef_crusader_CRD-3R",
@@ -214,7 +214,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "That Jackass's Mech",
-	"YangsThoughts": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of Piercing SRM-3s that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
+	"YangsThoughts": "This mech is a living nightmare, made by a diseased mind with no regard for goodness or sanity. Only an evil man could come up with this but here it is. The Prick, as it's called, carries a MRM-30 but it hardly matters. The real reason this mech is loathed in the arenas is the quartet of SRM-6s with Tandem ammo that it carries and that have carried it to dozens of victories. Nobody likes facing it, nobody thought it should exist, but here it is anyway, a curse from an uncaring god on an undeserving world.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
