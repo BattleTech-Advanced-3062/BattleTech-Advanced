@@ -5,7 +5,7 @@
 		"Details": "lorem ipsum",
 		"Icon": "uixTxrSpot_Flashpoint.png"
 	},
-	"Weight": 10,
+	"Weight": 200,
 	"InternalName": "tournament",
 	"PublishState": "PUBLISHED",
 	"Difficulty": 4,
@@ -14,7 +14,7 @@
 		"Scope": "StarSystem",
 		"RequirementTags": {
 			"items": [
-				"planet_name_zhaomaon(cluff'sstand3130+)"
+				"planet_name_cluffsstand"
 			],
 			"tagSetSourceFile": "Tags/PlanetNameTags"
 		},
