@@ -26,8 +26,8 @@
 			"ArmorCBCost": 1.35
 		},
 		"Flags": [
-				"not_broken",
-				"no_salvage"
+			"not_broken",
+			"no_salvage"
 		],
 		"BonusDescriptions": [
 				"Defense: +2",

@@ -1,0 +1,80 @@
+{
+    "Custom": {
+        "Category": [
+            {
+                "CategoryID": "Airdrop"
+            },
+			{
+                "CategoryID": "BADeployment"
+            }
+        ],
+		"DecoratorComponent":[
+			{
+				"Text":"BA",               
+				"Color":"#00a2c9",      
+				"Icon":"battle-amor-suit",       
+				"Importance": 1
+			}
+		],
+        "BonusDescriptions": [
+            "BASquad",
+            "RequiresOmni",
+            "AbilityResolveCost: 15",
+            "AbilityCBillCost: 40000",
+            "AirdropBACount: 1",
+            "AirdropBARange: 90"
+        ]
+    },
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 1000000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Gravity Industries",
+        "Model": "Hanger On",
+        "UIName": "Battle Armor Squad (Ravager)",
+        "Id": "Gear_Airdrop_Beacon_BA_Ravager",
+        "Name": "Battle Armor Squad (Ravager)",
+        "Details": "This piece of equipment represents a squad of Ravager Battle Armor that have been deployed onto this unit. They can be summoned mid-mission via the ability this piece of equipment grants. This equipment provides only one squad and the type of squad cannot be changed.\r\n\r\n <b><color=#099ff2>ONLY USABLE ONCE PER MISSION, HAS A VERY SHORT RANGE AND CONSUMES YOUR TURN TO DEPLOY.</color></b>",
+        "Icon": "battle-amor-suit"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 0,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "targetingData": {
+                "effectTriggerType": "OnActivation",
+                "effectTargetType": "Creator",
+                "showInStatusPanel": true
+            },
+            "effectType": "ActiveAbility",
+            "Description": {
+                "Id": "Airdrop_Beacon_BA_Ravager",
+                "Name": "Battle Armor Squad",
+                "Details": "Activated ability (uses Firing action). Releases a squad of Ravager Battle Armor.",
+                "Icon": "battle-amor-suit"
+            },
+            "activeAbilityEffectData": {
+                "abilityName": "AbilityDefCMD_BADrop_Ravager"
+            }
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+			"BADeployment"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -28,7 +28,9 @@
 		"BonusDescriptions": [
 			"C3",
 			"C3Master",
+			"C3UnitCount",
 			"C3ECMWeakness",
+			"C3Channel: Alpha",
 			"C3MResolve: 120, +2",
 			"C3MEvasion: 120, +1",
 			"TAG: 50%",
@@ -73,9 +75,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Tanadi",
 		"Model": "C3 Master Unit",
-		"UIName": "C3 Master",
+		"UIName": "C3 Master (Alpha)",
 		"Id": "Weapon_C3_Master",
-		"Name": "C3 Master",
+		"Name": "C3 Master (Alpha)",
 		"Details": "Acting as the core of a C3 Network, the C3 Master unit provides incredible coordination efforts for C3-equipped units, including increased resolve generation and evasion ignore for weapon attacks. It also functions as a super-powered targeting laser system, allowing for coordinated designation of targets. C3 Masters coordinate with other C3 units to provide targeting data for all units linked into the network, though Master units are not strictly necessary for the network to function even if they do provide the best benefits to units in the network.",
 		"Icon": "mesh-network"
 	},

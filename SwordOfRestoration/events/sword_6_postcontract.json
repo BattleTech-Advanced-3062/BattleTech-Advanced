@@ -1,0 +1,44 @@
+{
+	"Description": {
+		"Id": "sword_6_postcontract",
+		"Name": "Ambush",
+		"Details": "Sumire is worried, though she hides it well, catching you as soon as the drop is complete, while the MechWarriors are still disembarking. \"Commander, I've identified that ship I warned you about. It's Taurian, and they don't sound happy.\"",
+		"Icon": "uixTxrSpot_IncomingTransimission.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Get Lady Arano on the line",
+				"Details": ""
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Family Reunion",
+						"Details": "Alexander catches you privately for a few moments. \"Thank you for your assistance in the matter, Commander. And I don't just mean on the battlefield, impressive as your victories have been.\"\r\n\nThe rest of the command staff wait for you in the conference room."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {},
+							"RemovedTags": {},
+							"Actions": [{
+								"Type": "System_PlayVideo",
+								"value": "6A-ambush.bk2"
+							}]
+						}
+					]
+				}
+			]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

@@ -3,12 +3,10 @@
 		"Category": [
 			{
 				"CategoryID": "w/m/s/srm"
+			},
+			{
+				"CategoryID": "notused"
 			}
-		],
-		"BonusDescriptions": [
-			"MissileHealth: 1",
-			"Clustering: 50%",
-			"WeaponAttachmentCompatible: SRM FCS"
 		]
 	},
 	"Category": "Missile",
@@ -49,10 +47,10 @@
 		"Purchasable": true,
 		"Manufacturer": "Holly",
 		"Model": "Short-Range Missile Launcher",
-		"UIName": "Precision SRM6",
+		"UIName": "DEPRECATED",
 		"Id": "Weapon_SRM_SRM6_1-Holly",
-		"Name": "Precision SRM6",
-		"Details": "This rack of SRMs has been reconfigured for maximum tactical precision, virtually guaranteeing that every missile strikes the same location on the target. However, to do this, they had their damage heavily reduced, making them a worse damaging option than standard SRMs. The SRM6 is the largest rack of SRMs, seeing use on many combat units throughout the ages.",
+		"Name": "DEPRECATED",
+		"Details": "THIS PIECE OF EQUIPMENT IS DEPRECATED AND SHOULD BE SOLD IMMEDIATELY AS IT HAS NO MECHANICAL UTILITY.",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
 	"BonusValueA": "Fires in Melee",

@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"ComponentExplosion": {
@@ -22,7 +25,10 @@
         },
 		"AmmoCost": {
 			"PerUnitCost": 30
-		}
+		},
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "Autocannon",

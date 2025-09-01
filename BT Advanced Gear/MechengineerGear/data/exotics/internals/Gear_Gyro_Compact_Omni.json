@@ -11,18 +11,12 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]] / 10",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.05"
-			}
-		},
 		"DecoratorComponent":[
 			{
-				"Text":"BA",               
+				"Text":"O",               
 				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
 			}
 		],
 		"Flags": [
@@ -32,7 +26,6 @@
 		],
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
 			"GyroStab: 50",
 			"GyroWeight: +40%"
 		],
@@ -47,8 +40,8 @@
 		"Cost": 900000,
 		"Rarity": 4,
 		"Purchasable": true,
-		"Manufacturer": "Gabriel",
-		"Model": "Lucifer",
+		"Manufacturer": "Little Timmy",
+		"Model": "Micro-Machine",
 		"UIName": "Gyro Compact Omni",
 		"Id": "Gear_Gyro_Compact_Omni",
 		"Name": "Compact Omni Gyro",
@@ -82,7 +75,7 @@
 			"Description": {
 				"Id": "CompactGyro",
 				"Name": "Steadier 'Mech",
-				"Details": "UNSTEADY threshold increased to 60",
+				"Details": "UNSTEADY threshold increased to 50",
 				"Icon": "uixSvgIcon_action_evasivemove"
 			},
 			"statisticData": {
@@ -92,36 +85,12 @@
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-getHasBattleArmorMounts",
-				"Name": "getHasBattleArmorMounts",
-				"Details": "getHasBattleArmorMounts",
-				"Icon": "uixSvgIcon_ability_precisionstrike"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "HasBattleArmorMounts",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			}
 		}
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock"
+			"component_type_stock",
+			"BACompatible"
 		],
 		"tagSetSourceFile": ""
 	}

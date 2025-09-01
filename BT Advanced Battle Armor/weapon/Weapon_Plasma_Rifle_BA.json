@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"BonusDescriptions": [
@@ -19,7 +22,10 @@
         },
 		"AmmoCost": {
 			"PerUnitCost": 75
-		}
+		},
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "Flamer",

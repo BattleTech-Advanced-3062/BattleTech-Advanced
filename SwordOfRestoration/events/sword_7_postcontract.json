@@ -1,0 +1,44 @@
+{
+	"Description": {
+		"Id": "sword_7_postcontract",
+		"Name": "Capture",
+		"Details": "Sumire pulls you aside as the MechWarriors debark. \"I have the transmission from the Directorate ready, Commander. Lady Espinosa sent us a video of what they did to Alexander. Nothing of value in there, and it will just upset Lady Arano more. We should delete it.\"",
+		"Icon": "uixTxrSpot_IncomingTransimission.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "We'll do her no favors hiding what she already knows.",
+				"Details": "Cinamatic and debriefing"
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Capture",
+						"Details": "Farah works as quickly as she can to unpack the archive while a distraught Kamea composes herself for the debriefing."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {},
+							"RemovedTags": {},
+							"Actions": [{
+								"Type": "System_PlayVideo",
+								"value": "7-capture.bk2",
+								"valueConstant": null
+							}]
+						}
+					]
+				}
+			]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

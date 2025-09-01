@@ -3,12 +3,18 @@
 		"Category": [
 			{
 				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"BonusDescriptions": [
-				"PPCDEBUFF: 1",
-				"PipsIgnored: 1"
-			]
+			"PPCDEBUFF: 1",
+			"PipsIgnored: 1"
+		],
+		"Flags": [
+			"no_salvage"
+		]
 	},
 	"weaponCategoryID": "BattleArmor",
 	"Type": "PPC",

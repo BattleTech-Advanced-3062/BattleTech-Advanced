@@ -1,6 +1,7 @@
 {
 	"Name": "PerformanceFixes",
 	"Enabled": true,
+	"Hidden": true,
 	"Author": "CptMoore, NotooShabby",
 	"DLL": "RogueTechPerfFixes.dll",
 	"DLLEntryPoint": "RogueTechPerfFixes.Mod.Init",

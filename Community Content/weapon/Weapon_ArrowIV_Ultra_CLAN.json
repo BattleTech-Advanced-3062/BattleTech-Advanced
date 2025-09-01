@@ -13,6 +13,7 @@
 			"ArtilleryAttack",
 			"ArtilleryDetails",
 			"NonArtilleryWeapons",
+			"GuidedArtilleryAttack",
 			"NoFireInMelee",
 			"AMSImmune",
 			"WeaponAttachmentCompatible: Artillery FCS"
@@ -77,14 +78,28 @@
 	"CriticalComponent": false,
 	"Modes": [
 		{
-			"Id": "x1",
-			"UIName": "x1",
-			"isBaseMode": false
+			"Id": "Arty x1",
+			"UIName": "Arty x1",
+			"isBaseMode": true
 		},
 		{
-			"Id": "x2",
-			"UIName": "x2",
+			"Id": "Arty x2",
+			"UIName": "Arty x2",
 			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 35
+		},
+		{
+			"Id": "Guided x1",
+			"UIName": "Guided x1",
+			"isBaseMode": false,
+			"AmmoCategory": "ArrowIVHoming"
+		},
+		{
+			"Id": "Guided x2",
+			"UIName": "Guided x2",
+			"isBaseMode": false,
+			"AmmoCategory": "ArrowIVHoming",
 			"ShotsWhenFired": 1,
 			"HeatGenerated": 35
 		}

@@ -29,6 +29,226 @@
 			}
 		}
 	},
+	"C3Master_Network_Overwhelm": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Master"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3Slave"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Grant_Beta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveBeta"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus_Beta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveBeta"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus_Beta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterBeta"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Overwhelm_Beta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterBeta"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm_Beta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveBeta"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Grant_Gamma": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveGamma"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus_Gamma": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveGamma"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus_Gamma": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterGamma"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Overwhelm_Gamma": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterGamma"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm_Gamma": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveGamma"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Grant_Delta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveDelta"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus_Delta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveDelta"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus_Delta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterDelta"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Overwhelm_Delta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterDelta"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm_Delta": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveDelta"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Grant_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
+	"C3_Network_Master_Bonus_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
+	"C3_Network_Slave_Bonus_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterEpsilon"
+				]
+			}
+		}
+	},
+	"C3Master_Network_Overwhelm_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3MasterEpsilon"
+				]
+			}
+		}
+	},
+	"C3Slave_Network_Overwhelm_Epsilon": {
+		"TargetCollectionsForSearch": {
+			"Component": {
+				"MustMatchAll": false,
+				"TargetCollectionTagMatch": [
+					"C3SlaveEpsilon"
+				]
+			}
+		}
+	},
 	"StatusEffect_ECM-VRPP-Jamming": {
 		"TargetCollectionsForSearch": {
 			"Component": {

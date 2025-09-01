@@ -11,18 +11,12 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
-		"WorkOrderCosts": {
-			"Install": {
-				"TechCost": "[[Chassis.Tonnage]] / 8",
-				"CBillCost": "[[Chassis.Tonnage]] * 1.4"
-			}
-		},
 		"DecoratorComponent":[
 			{
-				"Text":"BA",               
+				"Text":"O",               
 				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
 			}
 		],
 		"Flags": [
@@ -32,7 +26,6 @@
 		],
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
 			"StabDamageTaken: -40%",
 			"DamageReduction: 10%",
 			"GyroStab: 60",
@@ -49,8 +42,8 @@
 		"Cost": 600000,
 		"Rarity": 4,
 		"Purchasable": true,
-		"Manufacturer": "Gabriel",
-		"Model": "Lucifer",
+		"Manufacturer": "Shugenja Industries",
+		"Model": "Brick Shithouse",
 		"UIName": "Gyro Heavy Duty Omni",
 		"Id": "Gear_Gyro_Heavy_Duty_Omni",
 		"Name": "Heavy Duty Omni Gyro",
@@ -144,36 +137,12 @@
 				"modValue": "0.9",
 				"modType": "System.Single"
 			}
-		},
-		{
-			"durationData": {
-				"duration": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-getHasBattleArmorMounts",
-				"Name": "getHasBattleArmorMounts",
-				"Details": "getHasBattleArmorMounts",
-				"Icon": "uixSvgIcon_ability_precisionstrike"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "HasBattleArmorMounts",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			}
 		}
 	],
 	"ComponentTags": {
 		"items": [
-			"component_type_stock"
+			"component_type_stock",
+			"BACompatible"
 		],
 		"tagSetSourceFile": ""
 	}

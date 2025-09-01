@@ -25,7 +25,7 @@
 		"UIName": "Juggernaut JG-R9X2",
 		"Id": "mechdef_juggernaut_JG-R9X2",
 		"Name": "Juggernaut",
-		"Details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut. The JG-R9X2 is a weird and wild variant of the chassis, developed for close-range arena combat. Armed with a trio of Large Variable-Speed Pulse Lasers as well as 18 total tubes of Precision SRMs, the JG-R9X2 decimates its foes with precisely aimed weapons fire. 17 DHS and a powerful Exchanger keep it all frosty while two tons of CASE II protected SRM ammo ensure the guns keep on firing.",
+		"Details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut. The JG-R9X2 is a weird and wild variant of the chassis, developed for close-range arena combat. Armed with a trio of Large Variable-Speed Pulse Lasers as well as 18 total tubes of SRMs, the JG-R9X2 decimates its foes with precisely aimed weapons fire. 17 DHS and a powerful Exchanger keep it all frosty while two tons of CASE II protected SRM ammo ensure the guns keep on firing.",
 		"Icon": "uixTxrIcon_juggernaut"
 	},
 	"simGameMechPartCost": 1480000,
@@ -380,7 +380,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -391,7 +391,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
@@ -413,7 +413,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -424,7 +424,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
@@ -512,7 +512,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_SRM_SRM2_1-Holly",
+			"ComponentDefID": "Weapon_SRM_SRM2_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,

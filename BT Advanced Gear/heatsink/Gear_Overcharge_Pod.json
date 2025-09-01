@@ -14,7 +14,7 @@
 			"Activatable",
 			"ActivatableUses: 1",
 			"ActiveHeatPerTurn: +30%",
-			"ActiveWeaponDamage: +15%",
+			"ActiveWeaponDamage: +20%",
 			"CPBoom: 90"
 		],
 		"ActivatableComponent": {
@@ -53,7 +53,7 @@
 					"Description": {
 						"Id": "OverchargePod_Heat",
 						"Name": "Overcharge Pod",
-						"Details": "The Overcharge Pod has been activated, increasing weapon heat generated this turn by 30% but also increasing weapon damage dealt by 15% for this turn.",
+						"Details": "The Overcharge Pod has been activated, increasing weapon heat generated this turn by 30% but also increasing weapon damage dealt by 20% for this turn.",
 						"Icon": "fire-shield"
 					},
 					"statisticData": {
@@ -79,12 +79,12 @@
 					"Description": {
 						"Id": "OverchargePod_Damage",
 						"Name": "Overcharge Pod Damage",
-						"Details": "The Overcharge Pod has been activated, increasing weapon heat generated this turn by 30% but also increasing weapon damage dealt by 15% for this turn.",
+						"Details": "The Overcharge Pod has been activated, increasing weapon heat generated this turn by 30% but also increasing weapon damage dealt by 20% for this turn.",
 						"Icon": "fire-shield"
 					},
 					"statisticData": {
 						"modType": "System.Single",
-						"modValue": "1.15",
+						"modValue": "1.2",
 						"operation": "Float_Multiply",
 						"statName": "DamagePerShot"
 					},

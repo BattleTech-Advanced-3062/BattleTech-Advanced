@@ -46,24 +46,6 @@
 			]
 		},
 		{
-			"Tag": "StealthArmor",
-			"RequiredTags": [
-				"StealthCompatible"
-			],
-			"IncompatibleTags": [
-				"ModularArmor",
-				"ModularRearArmor",
-				"C3i",
-				"DroneNetwork",
-				"C3Master",
-				"C3Slave",
-				"NullSig",
-				"CLPS",
-				"BlueShield",
-				"StealthIncompatible"
-			]
-		},
-		{
 			"Tag": "ImprovedJJ",
 			"IncompatibleTags": [
 				"StandardJJ",
@@ -421,8 +403,38 @@
 			]
 		},
 		{
-			"Tag": "C3Slave",
+			"Tag": "C3Master",
 			"IncompatibleTags": [
+				"C3Slave",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3MasterBeta",
+			"IncompatibleTags": [
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveBeta",
+				"C3Slave",
 				"C3Master",
 				"C3i",
 				"DroneNetwork",
@@ -435,9 +447,171 @@
 			]
 		},
 		{
-			"Tag": "C3Master",
+			"Tag": "C3MasterGamma",
 			"IncompatibleTags": [
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveGamma",
+				"C3MasterBeta",
+				"C3SlaveBeta",
 				"C3Slave",
+				"C3Master",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3MasterDelta",
+			"IncompatibleTags": [
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3SlaveDelta",
+				"C3MasterGamma",
+				"C3SlaveGamma",
+				"C3MasterBeta",
+				"C3SlaveBeta",
+				"C3Slave",
+				"C3Master",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3MasterEpsilon",
+			"IncompatibleTags": [
+				"C3SlaveEpsilon",
+				"C3MasterDelta",
+				"C3SlaveDelta",
+				"C3MasterGamma",
+				"C3SlaveGamma",
+				"C3MasterBeta",
+				"C3SlaveBeta",
+				"C3Slave",
+				"C3Master",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3Slave",
+			"IncompatibleTags": [
+				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3SlaveBeta",
+			"IncompatibleTags": [
+				"C3Master",
+				"C3Slave",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3SlaveGamma",
+			"IncompatibleTags": [
+				"C3Master",
+				"C3Slave",
+				"C3MasterBeta",
+				"C3SlaveBeta",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3SlaveDelta",
+			"IncompatibleTags": [
+				"C3Master",
+				"C3Slave",
+				"C3MasterBeta",
+				"C3SlaveBeta",
+				"C3MasterGamma",
+				"C3SlaveGamma",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"C3i",
+				"DroneNetwork",
+				"NullSig",
+				"CLPS",
+				"StealthArmor",
+				"LeagueNetFocalNode",
+				"LeagueNetSupportNode",
+				"ProtoMech"
+			]
+		},
+		{
+			"Tag": "C3SlaveEpsilon",
+			"IncompatibleTags": [
+				"C3Master",
+				"C3Slave",
+				"C3MasterBeta",
+				"C3SlaveBeta",
+				"C3MasterGamma",
+				"C3SlaveGamma",
+				"C3MasterDelta",
+				"C3SlaveDelta",
+				"C3MasterEpsilon",
 				"C3i",
 				"DroneNetwork",
 				"NullSig",
@@ -453,6 +627,14 @@
 			"IncompatibleTags": [
 				"C3Slave",
 				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
 				"DroneNetwork",
 				"LeagueNetFocalNode",
 				"LeagueNetSupportNode",
@@ -465,6 +647,14 @@
 				"C3i",
 				"C3Slave",
 				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
 				"DroneNetwork",
 				"ECM",
 				"ProtoMech",
@@ -478,11 +668,45 @@
 				"C3i",
 				"C3Slave",
 				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
 				"DroneNetwork",
 				"ECM",
 				"ProtoMech",
 				"StealthArmor",
 				"BlueShield"
+			]
+		},
+		{
+			"Tag": "StealthArmor",
+			"RequiredTags": [
+				"StealthCompatible"
+			],
+			"IncompatibleTags": [
+				"ModularArmor",
+				"ModularRearArmor",
+				"C3i",
+				"DroneNetwork",
+				"C3Master",
+				"C3Slave",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
+				"NullSig",
+				"CLPS",
+				"BlueShield",
+				"StealthIncompatible"
 			]
 		},
 		{
@@ -689,6 +913,14 @@
 				"LeagueNetSupportNode",
 				"C3Slave",
 				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
 				"C3i",
 				"ProtoMech"
 			]
@@ -699,6 +931,14 @@
 				"LeagueNetFocalNode",
 				"C3Slave",
 				"C3Master",
+				"C3SlaveBeta",
+				"C3MasterBeta",
+				"C3SlaveGamma",
+				"C3MasterGamma",
+				"C3SlaveDelta",
+				"C3MasterDelta",
+				"C3SlaveEpsilon",
+				"C3MasterEpsilon",
 				"C3i",
 				"ProtoMech"
 			]
@@ -731,6 +971,12 @@
 			"Tag": "NoArtemis",
 			"IncompatibleTags": [
 				"ArtemisTTS"
+			]
+		},
+		{
+			"Tag": "BADeployment",
+			"RequiredTags": [
+				"BACompatible"
 			]
 		}
 	]

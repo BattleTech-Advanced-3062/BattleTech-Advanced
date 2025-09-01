@@ -2,12 +2,6 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "BAWeapon"
-			},
-			{
-				"CategoryID": "BAGear"
-			},
-			{
 				"CategoryID": "StealthCompatible"
 			}
 		],

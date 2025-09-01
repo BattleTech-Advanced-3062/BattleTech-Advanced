@@ -27,6 +27,6 @@ mechdef_barghest_BGS-3T,Mech,1,10
 mechdef_wolfhound_WLF-3S,Mech,1,10
 mechdef_bushwacker_BSW-L1,Mech,1,10
 mechdef_crusader_CRD-8S,Mech,1,10
-mechdef_ba_infiltratormkii,Mech,1,10
-mechdef_ba_is_standard,Mech,1,10
-mechdef_ba_rottweiler,Mech,1,10
+Gear_Airdrop_Beacon_BA_InfiltratorMkII,Upgrade,1,10
+Gear_Airdrop_Beacon_BA_IS_Standard,Upgrade,1,10
+Gear_Airdrop_Beacon_BA_Rottweiler,Upgrade,1,10

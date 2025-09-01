@@ -1,0 +1,499 @@
+name: Sword of Restoration
+beginsAt: starsystemdef_Coromodir
+nodes:
+  Start:
+    - video: 1A-prologue.bk2
+    - goto: Coronation
+
+  # A place to send them back that won't replay the start of campaign cutscene if they fail the first mission,
+  Coronation:
+    - fakeFlashpoint:
+        name: Arano Restoration
+        employer: AuriganRestoration
+        employerPortrait: castDef_DariusDefault
+        target: AuriganDirectorate
+        difficulty: 2
+        at: starsystemdef_Coromodir
+        description: Your old mentor, Raju, has invited you to be one of [[DM.BaseDescriptionDefs[LoreKameaArano],Lady Kamea Arano's]] honor guards on the day of her coronation. Travel to [[DM.BaseDescriptionDefs[LoreCoromodir],Coromodir]] to meet with him. The [[DM.BaseDescriptionDefs[LoreAuriganCoalition],Aurigan Coalition]] will supply you with a mech for use in her procession, a venerable Shadowhawk that has been with the Aurigan Royal Guard for decades.
+    - video: 1B-betrayal.bk2
+    - contract:
+        id: Sword_1_Coronation
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: Coronation
+        withinDays: 0
+    - video: 1C-coup.bk2
+    - event:
+        id: sword_1_post_coronation
+    - wait:
+        days: 14
+    - goto: RoughCustomers
+
+  RoughCustomers:
+    - fakeFlashpoint:
+        name: Arano Restoration - Rough Customers
+        employer: Unknown
+        employerPortrait: castDef_SE02_EmployerDefault
+        target: MajestyMetals
+        at: starsystemdef_UrCruinne
+        difficulty: 2
+        description: The Independent Prospectors' League needs your help, Commander. Two months ago, a fleet of corporate DropShips from Majesty Metals & Manufacturing touched down on Ur Cruinne. They jumped our claim, pushed us off of our own mining platforms, and killed our people. We need your help to make things right - and Director Espinoza owes us a favor. Help us out and we can get you off his kill-list.
+    - contract:
+        id: Sword_2_ThreeYearsLater
+        employer: SelfEmployed
+        target: MercenaryReviewBoard
+        onFailGoto: RoughCustomers
+    - conversation:
+        id: StoryTime2-RentToOwn
+        header: BETRAYAL AND DEBT
+        subheader: In Orbit - Úr Cruinne
+    - wait:
+        days: 21
+    - goto: CaptureTheScheria
+
+  CaptureTheScheria:
+    - fakeFlashpoint:
+        name: Arano Restoration - Capture the Scheria
+        employer: MagistracyCentrella
+        employerPortrait: castDef_CentrellaDefault
+        target: AuriganPirates
+        at: starsystemdef_Alloway
+        difficulty: 3
+        description: |
+          Travel to the outskirts of the system and dock with the JumpShip you find waiting there. It will carry you to Axylus, the pirate moon where a ship named the <i>Scheria</i> crash-landed centuries ago.
+
+          Further details on the job will be provided upon your arrival.
+    - popup:
+        title: Axylus
+        sprite: guiTxrPort_Sumire_default_utr
+        message: |
+          Commander, I'm setting a course for Lady Centrella's JumpShip. It's strange, though... this moon it's taking us to, Axylus, doesn't appear on any of my maps. Which leads me to wonder: where, exactly, are we going, and how do they intend to get us there?
+    - conversation:
+        id: StoryTime3a-Axylus
+        header: SEVERAL HOURS LATER
+        subheader: Uncharted Space
+    - contract:
+        id: Sword_3_Axylus
+        employer: AuriganRestoration
+        target: AuriganPirates
+        withinDays: 0
+        onFailGoto: CaptureTheScheria
+    - video: 3-argo.bk2
+    - conversation:
+        id: StoryTime3b-InExile
+        header: IN EXILE
+        subheader: High Orbit - Alloway
+        characters:
+          Kamea: true
+          Alexander: true
+    - reward: Sword_Reward_Axylus
+    - wait:
+        days: 14
+    - goto: LiberationOfWeldry
+
+  LiberationOfWeldry:
+    - fakeFlashpoint:
+        name: Arano Restoration - Liberation of Weldry
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Weldry
+        difficulty: 4
+        description: |
+          This is it... our first strike against my uncle's Directorate. Our first step toward justice. While I lead the Restoration Army against Weldry's primary spaceport, you will launch a sneak attack against the Icebox and liberate it. I know that you can do this, {COMMANDER.Callsign}.
+
+          <i>We</i> can do this. Together.
+    - conversation:
+        id: StoryTime4a-FirstStrike
+        header: FIRST STRIKE
+        subheader: In Orbit - Weldry
+        characters:
+          Kamea: true
+          Alexander: true
+    - contract:
+        id: Sword_4_LiberationOfWeldry
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        postContractEvent: sword_4_postcontract
+        withinDays: 7
+        onFailGoto: LiberationOfWeldry
+    - conversation:
+        id: StoryTime4a-Restoration
+        header: THE ARANO RESTORATION
+        subheader: The Icebox - Weldry
+        characters:
+          Kamea: true
+          Alexander: true
+    - video: 4B-revolution.bk2
+    - conversation:
+        id: StoryTime4a-HaveShipWillTravel
+        header: HAVE SHIP, WILL TRAVEL
+        subheader: In Orbit - Weldry
+        characters:
+          Alexander: true
+    - reward: Sword_Reward_Basic
+    - wait:
+        days: 9
+    - goto: LiberationOfPanzyr
+
+  LiberationOfPanzyr:
+    - fakeFlashpoint:
+        name: Arano Restoration - Attack Panzyr
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Panzyr
+        difficulty: 5
+        description: |
+          Proceed to Panzyr, where you will assist the Restoration Army's efforts to liberate House Decimis.
+
+          Restoration Army intel suggests that a lance built with long-range fire capabilities could prove advantageous on this drop. Further details will be provided upon your arrival.
+    - conversation:
+        id: StoryTime4b-Perdition
+        header: PERDITION
+        subheader: In Orbit - Panzyr
+        characters:
+          Alexander: true
+    - contract:
+        id: Sword_4_AttackPanzyr
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: LiberationOfPanzyr
+        withinDays: 0
+    - conversation:
+        id: StoryTime4b-Anomaly
+        header: ANOMALY
+        subheader: The Rimward Frontier
+        characters:
+          Kamea: true
+          Alexander: true
+    - reward: Sword_Reward_Basic
+    - wait:
+        days: 14
+    - goto: SmithonAttack
+
+  SmithonAttack:
+    - fakeFlashpoint:
+        name: Arano Restoration - Attack Smithon
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Smithon
+        difficulty: 3
+        description: |
+          The Restoration Army is engaged in a battle of attrition against Directorate forces, and our ground forces need resupply if they're going to prevail. To that end, I'm sending you to capture a Directorate munitions dump. Eliminate their defenses and prevent them from getting away with the munitions; our support staff will handle the rest.
+    - contract:
+        id: Sword_5_AttackSmithon
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: SmithonAttack
+        withinDays: 7
+    - conversation:
+        id: StoryTime5-BlackBox
+        header: BLACK BOX
+        subheader: In Orbit - Smithon
+        characters:
+          Kamea: true
+          Alexander: true
+    - conversation:
+        id: StoryTime5-Anvelt
+        header: ANVELT
+        subheader: In Orbit - First Moon of Smithon
+        characters:
+          Kamea: true
+          Alexander: true
+    - goto: SmithonAttack2
+
+  SmithonAttack2:
+    - contract:
+        id: Sword_5_ServedCold
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: SmithonAttack2
+        postContractEvent: sword_5_postcontract
+    - conversation:
+        id: StoryTime5-FamilyReunion
+        header: IN EXILE
+        subheader: High Orbit - Alloway
+        characters:
+          Kamea: true
+          Alexander: true
+    - conversation:
+        id: StoryTime5-MendingFences
+        header: MENDING FENCES
+        subheader: In Orbit - Anvelt
+        characters:
+          Kamea: true
+          Alexander: true
+    - wait:
+        days: 30
+        workOrder: Wait for Farah's coodebreaker
+        sprite: uixTxrLogo_SelfEmployed_Farah
+    - popup:
+        title: Code Breaker
+        sprite: uixTxrLogo_SelfEmployed_Farah
+        message: |
+          Commander, the codebreaker has finished running. I'll gather everyone so we can see what all this fuss was about.
+    - conversation:
+        id: StoryTime5-UnearthedSecrets
+        header: UNEARTHED SECRETS
+        subheader: The Rimward Frontier
+        characters:
+          Alexander: true
+    - goto: RaisingTheDead
+
+  RaisingTheDead:
+    - fakeFlashpoint:
+        name: Arano Restoration - Raising the Dead
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Artru
+        difficulty: 7
+        description: |
+          Castle Nautilus is somewhere down there, on Artru, buried deep in the ice. Dr. Murad thinks that we'll find an entrance at the coordinates she's provided. We're going to drop, make our way to the entrance, and force our way inside... and see what there is to see.
+    - conversation:
+        id: StoryTime6-GraveRobbing
+        header: GRAVE ROBBING
+        subheader: In Orbit - Artru
+        characters:
+          Alexander: true
+          Kamea: true
+    - contract:
+        id: Sword_6_TreasureTrove
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: RaisingTheDead
+        withinDays: 0
+        postContractEvent: sword_6_postcontract
+    - conversation:
+        id: StoryTime6-DeadInSpace
+        header: DEAD IN SPACE
+        subheader: In Orbit - Artru
+        characters:
+          Farah: false
+          Yang: false
+          Alexander: true
+    - contract:
+        id: Sword_6a_Escape
+        employer: AuriganRestoration
+        target: TaurianConcordat
+        onFailGoto: RaisingTheDead
+        immediate: true
+        postContractEvent: sword_6a_postcontract
+    - conversation:
+        id: StoryTime6-DamageReport
+        header: DAMAGE REPORT
+        subheader: In Orbit - Artru
+        characters:
+          Kamea: true
+          Alexander: true
+    - reward: Sword_Reward_Artru
+    - wait:
+        days: 5
+    - goto: SmithonDefense
+
+  SmithonDefense:
+    - fakeFlashpoint:
+        name: Arano Restoration - War Council
+        employer: AuriganRestoration
+        employerPortrait: castDef_MadeiraDefault
+        target: TaurianConcordat
+        at: starsystemdef_Smithon
+        difficulty: 6
+        description: |
+          With the Taurians entering the war, our tactics are going to have to change. Lady Centrella and Lady Arano are waiting for us at Smithon to discuss our next steps.
+    - conversation:
+        id: StoryTime6b-WarCouncil
+        header: WAR COUNCIL
+        subheader: In Orbit - Smithon
+        characters:
+          Kamea: true
+          Alexander: true
+    - contract:
+        id: Sword_6b_SmithonDefense
+        employer: AuriganRestoration
+        target: TaurianConcordat
+        onFailGoto: SmithonDefense
+        withinDays: 4
+    - conversation:
+        id: StoryTime6b-PathForward
+        header: THE PATH FORWARD
+        subheader: In Orbit - Smithon
+        characters:
+          Kamea: true
+          Alexander: true
+    - wait:
+        days: 6
+    - goto: AttackItrom
+
+  AttackItrom:
+    - fakeFlashpoint:
+        name: Arano Restoration - Attack Itrom
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Itrom
+        difficulty: 6
+        description: |
+          The Directorate has taken possession of Itrom's largest processor and refinery, and is attempting to loot the attached silos of rare and valuable minerals. We want you to claim them for the Restoration instead. The materials that they mine on Itrom are worth a fortune, and it will be better to have it in our hands than the Directorate's.
+    - contract:
+        id: Sword_6c_ItromAttack
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: AttackItrom
+    - conversation:
+        id: StoryTime6c-Revelations
+        header: REVELATIONS
+        subheader: In Orbit - Itrom
+        characters:
+          Kamea: true
+          Alexander: true
+    - goto: DefendItrom
+
+  DefendItrom:
+    - contract:
+        id: Sword_6c2_ItromDefense
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: DefendItrom
+        withinDays: 3
+    - conversation:
+        id: StoryTime6c-Departure
+        header: DEPARTURE
+        subheader: In Orbit - Itrom
+        characters:
+          Kamea: true
+          Alexander: true
+    - reward: Sword_Reward_Basic
+    - wait:
+        days: 10
+    - goto: DefendPanzyr
+
+  DefendPanzyr:
+    - fakeFlashpoint:
+        name: Arano Restoration - Defend Panzyr
+        employer: AuriganRestoration
+        employerPortrait: castDef_DariusDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Panzyr
+        difficulty: 6
+        description: |
+          Lady Arano's contract to repel the Taurian assault on Panzyr is ready for review in the Command Center. We should follow up when you think we're ready.
+    - contract:
+        id: Sword_6d_PanzyrDefense
+        employer: AuriganRestoration
+        target: TaurianConcordat
+        onFailGoto: DefendPanzyr
+    - conversation:
+        id: StoryTime6d-Message
+        header: MESSAGE
+        subheader: In Orbit - Panzyr
+        characters:
+          Kamea: true
+    - reward: Sword_Reward_Basic
+    - goto: GunboatDiplomacy
+
+  GunboatDiplomacy:
+    - fakeFlashpoint:
+        name: Arano Restoration - Extraction
+        employer: AuriganRestoration
+        employerPortrait: castDef_DariusDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Guldra
+        difficulty: 7
+        description: |
+          Lady Arano's contract to recover Lord Madeira and the evidence he's gathered is ready for us on Guldra. We should follow up when we're able.
+    - conversation:
+        id: StoryTime7-DeadDrop
+        header: DEAD DROP
+        subheader: In Orbit - Guldra
+        characters:
+          Kamea: true
+    - contract:
+        id: Sword_7_GunboatDiplomacy
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: GunboatDiplomacy
+        withinDays: 0
+        postContractEvent: sword_7_postcontract
+    - conversation:
+        id: StoryTime7-InsurancePolicy
+        header: INSURANCE POLICY
+        subheader: In Orbit - Guldra
+        characters:
+          Kamea: true
+    - reward: Sword_Reward_Hard
+    - wait:
+        days: 21
+    - goto: AttackTyrlon
+
+  AttackTyrlon:
+    - fakeFlashpoint:
+        name: Arano Restoration - Attack Tyrlon
+        employer: AuriganRestoration
+        employerPortrait: castDef_DariusDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Tyrlon
+        difficulty: 7
+        description: |
+          Lady Arano's contract to liberate House Parata and deal with Espinosa's DropShip fleet is ready for review in the Command Center. We should follow up when we're ready.
+    - contract:
+        id: Sword_7b_TyrlonAttack
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: AttackTyrlon
+    - conversation:
+        id: StoryTime7b-Armistice
+        header: ARMISTICE
+        subheader: In Orbit - Tyrlon
+        characters:
+          Kamea: true
+    - reward: Sword_Reward_Hard
+    - goto: PointOfNoReturn
+
+  PointOfNoReturn:
+    - fakeFlashpoint:
+        name: Arano Restoration - Point of No Return
+        employer: AuriganRestoration
+        employerPortrait: castDef_KameaDefault
+        target: AuriganDirectorate
+        at: starsystemdef_Coromodir
+        difficulty: 9
+        description: |
+          This mission represents a point of no return, Commander. Resistance will be significant, and our forces will be committed once we begin the assault. [[DM.BaseDescriptionDefs[LoreConsecutiveDrops],We should be prepared to field multiple fully-equipped lances.]]
+    - conversation:
+        id: StoryTime8-Parlay
+        header: PARLAY
+        subheader: In Orbit - Coromodir
+        characters:
+          Kamea: true
+    - video: 7-hostage.bk2
+    - conversation:
+        id: StoryTime8-DesperationPlay
+        header: DESPERATION PLAY
+        subheader: In Orbit - Coromodir
+    - contract:
+        id: Sword_8_Locura
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: PointOfNoReturn
+        withinDays: 0
+        postContractEvent: sword_8_postcontract
+    - conversation:
+        id: StoryTime8-TheChallange
+        header: THE CHALLENGE
+        subheader: In Orbit - Coromodir
+    - contract:
+        id: Sword_8b_Downfall
+        employer: AuriganRestoration
+        target: AuriganDirectorate
+        onFailGoto: PointOfNoReturn
+        immediate: true
+    - video: 9-finale.bk2
+    - conversation:
+        id: StoryTime8-Epilogue
+        header: EPILOGUE
+        subheader: In Orbit - Coromodir
+    - reward: Sword_Reward_End
+    - goto: Exit

@@ -1,6 +1,7 @@
 {
     "Name": "SizeMatters",
     "Enabled": true,
+    "Hidden": true,
     "Version": "0.2.2.1",
     "Description": "Provides attack modifiers based upon difference in unit sizes",
     "Author": "IceRaptor",
@@ -14,8 +15,8 @@
         "Debug" : true,
         "Trace" : false,
 
-        "TonnageDivisor" : 15.0,
-        "TonnageCap" : 100.0,
+        "TonnageDivisor" : 20.0,
+        "TonnageCap" : 150.0,
         "ModifierCap" : 5,
 
         "VirtualTonnage" : {
@@ -24,7 +25,7 @@
             "HeavyTurret" : 80.0,
             "DefaultTurret" : 100.0,
 
-            "Building" : 60.0
+            "Building" : 80.0
         },
 
         "StatisticsToAddPerTon" : {

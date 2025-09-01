@@ -1,0 +1,169 @@
+{
+	"Custom": {
+		"VAssemblyVariant": {
+			"PrefabID": "Ontos",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"CustomParts": {
+		"CustomParts": []
+	},
+	"Description": {
+		"Cost": 1200000,
+		"Rarity": 0,
+		"Purchasable": false,
+		"UIName": "Ontos (The Jackson)",
+		"Id": "vehiclechassisdef_ONTOS_JACKSON",
+		"Name": "Ontos (The Jackson)",
+		"Details": "The vehicle that would eventually be called the Ontos started out as the first of three prototypes created by Grumman Amalgamated designers. While all three performed adequately, the Ontos was chosen due to to the fact that its main armament never needed to be reloaded in a protracted engagement. This variant, dubbed The Jackson by its designers, uses the rugged Ontos frame for point defense, employing three AMS systems to cover itself and allies. For firepower it carries 2 LRM-10s, 2 Rocket Launcher-15s, and a Large Binary Laser.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       460     50\n<b>Left</b>         360     50\n<b>Right</b>       360     50\n<b>Rear</b>        255     50\n<b>Turret</b>      355     50\n\n<b>Total</b>      1790    250\n",
+		"Icon": "Ontos"
+	},
+	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
+	"MovementCapDefID": "movedef_3-5cv",
+	"PathingCapDefID": "pathingdef_assault_tracked",
+	"HardpointDataDefID": "hardpointdatadef_ontos3039",
+	"PrefabIdentifier": "chrprfvhcl_ontos3039",
+	"PrefabBase": "ontos3039",
+	"Tonnage": 95,
+	"weightClass": "ASSAULT",
+	"BattleValue": 7000000,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"movementType": "Tracked",
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 3.5,
+			"z": -0.5
+		},
+		{
+			"x": 0,
+			"y": 1.5,
+			"z": 4.5
+		},
+		{
+			"x": -2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"z": -4.5
+		}
+	],
+	"Locations": [
+		{
+			"Location": "Front",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "Left",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 175,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "Right",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 175,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "Rear",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 170,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "Turret",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 0,
+			"MaxArmor": 200,
+			"InternalStructure": 50
+		}
+	]
+}
