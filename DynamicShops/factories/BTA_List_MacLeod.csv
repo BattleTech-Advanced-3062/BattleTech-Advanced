@@ -5,4 +5,4 @@ Gear_JumpJet_Generic_Standard,JumpJet,0,10
 mechdef_clint_CLNT-3-3T,Mech,1,10
 mechdef_stinger_STG-5R,Mech,1,10
 mechdef_stinger_STG-5T,Mech,1,10
-mechdef_ba_asterion,Mech,1,10
+Gear_Airdrop_Beacon_BA_Asterion,Upgrade,0,1

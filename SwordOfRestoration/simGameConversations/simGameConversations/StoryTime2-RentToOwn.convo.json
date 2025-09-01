@@ -1,0 +1,1548 @@
+{
+  "idRef": {
+    "id": "StoryTime2-RentToOwn"
+  },
+  "ui_name": "StoryTime2-RentToOwn",
+  "nodes": [
+    {
+      "idRef": {
+        "id": "9cd18c14ec563e799d63f6eb"
+      },
+      "index": 0,
+      "text": "You need to start finding us better clients, Darius. I mean it.\n\nWe can't keep working for nobodies at the ass end of the frontier forever. We only got paid for that last contract by robbing our employer at gunpoint.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 1,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c97985300f72c29d18fb44c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-BeginMusic-GC_111_RENT_TO_OWN",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Set BattleTech Fade",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "",
+                "call_value": {
+                  "functionName": "Get Preset Value (int)",
+                  "args": [
+                    {
+                      "int_value": 0,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "SimGameFadeValues",
+                      "call_value": null,
+                      "variableref_value": null
+                    },
+                    {
+                      "int_value": 1,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "",
+                      "call_value": null,
+                      "variableref_value": null
+                    }
+                  ]
+                },
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Fade In, Audio Event: GConv-BeginMusic-GC_111_RENT_TO_OWN"
+    },
+    {
+      "idRef": {
+        "id": "9c791cb35a533bdf32977198"
+      },
+      "index": 1,
+      "text": "I'm fully aware of our financial situation, Meyer. But I can't just conjure up new clients out of thin air.\n\n{COMMANDER.FirstName}, do me a solid and back me up on this.",
+      "branches": [
+        {
+          "responseText": "Is this why you all made me your Commander? So I could break up fights and review financial reports?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce912bcbbfa9ab263201b4e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "If we're really that hard up for cash, we need to stop talking and start doing something about it.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 23,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c96412b0880af66a49c7d09"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "No thanks, Darius… I didn't take command of this outfit to settle arguments.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c40c05f9c5ffcd8146bf709"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c3c4d7231db66aff58c322b"
+      },
+      "index": 2,
+      "text": "Damn right it is. It isn't like any of us wanted the job.\n\nDarius, could you walk us through the details of this trouble we're in? It might help if you broke things down point by point.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c7812f687694428ff15759d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c7644389b14e6fa5901fa7f"
+      },
+      "index": 3,
+      "text": "Sure thing, Yang.\n\nPoint one, Meyer's right—we got cheated. Nearly every [[DM.BaseDescriptionDefs[LoreCBill],C-Bill]] we made on that last drop went to the [[DM.BaseDescriptionDefs[LoreMercenaryReviewBoard],Mercenary Review Board]] contesting our client's report we turned on them.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 25,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c219e1e4f00460b4cbbb3ce"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c0754ef9df55ff8f4c9ddfe"
+      },
+      "index": 4,
+      "text": "",
+      "branches": [
+        {
+          "responseText": "Okay, so we're in a bad spot. What are we gonna do about it?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c272e82623e1f6d40c70b7e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": "Hub"
+    },
+    {
+      "idRef": {
+        "id": "9c684d0862711258612734a1"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c0b1c0bef19b77fd789ca47"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cc6c44dc2f063f99882aea1"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c519dd01004b5d79d013b17"
+      },
+      "index": 8,
+      "text": "I don't see what else we <i>can</i> do, {COMMANDER.FirstName}. I'm already serving up every legitimate contract I can find.\n\nUnless you want me to sidestep the [[DM.BaseDescriptionDefs[LoreMercenaryReviewBoard],Mercenary Review Board]] entirely, we're basically out of options.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c967e3b859b35255ed25583"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c0446bd52b7e63546208420"
+      },
+      "index": 9,
+      "text": "Go around the MRB? No thanks.\n\nTaking an uncertified job is a great way to wind up with a knife in your back.",
+      "branches": [
+        {
+          "responseText": "We just got betrayed on a Board-certified contract, Yang. How much worse could it get?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 10,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c58f590b3ea69f12ea49b81"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "We're already taking a lot of risks out here. I don't want to compound them unless I absolutely have to.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 21,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c0d3740818cdeb7ab3673dd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "It doesn't sound like such a bad idea to me. \"No guts, no galaxy,\" right?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 22,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd9d16d09cf1c809824c2ca"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cf37615f909536ceff3c76f"
+      },
+      "index": 10,
+      "text": "Plenty. What happened down there was an exception, Boss. With uncertified jobs, it's the rule.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c7a6671baae739aca9da55d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cc47ea54acc58964c452c7e"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c7754eccb618fd52c22fa7a"
+      },
+      "index": 12,
+      "text": "Look, Darius… Meyer's right. We need to start earning some real money, and we need to do it soon. It's only a matter of time before something breaks down that I can't fix with duct tape and good intentions.",
+      "branches": [
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Accident]</color> My family was killed in a JumpShip accident. \"Deferred maintenance\" was identified as the cause. I won't let that happen to us.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_accident",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd91f3a117535b1e8741ec3"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Bankruptcy]</color> I've seen the damage that bankruptcy can do firsthand. That isn't going to happen to this crew.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_bankrupt",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c623eb400bd4184bd7e7c89"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Betrayed]</color> I'm no stranger to betrayal, Yang—I lost my family to someone I thought of as a friend. That doesn't change the fact that we need money.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_betrayed",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 17,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9caca93e5f3cb9569f4f40"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Exiled]</color> I had to work a few uncertified jobs after I was… ah… \"asked to leave\" my home system. It's risky, but it's better than going hungry.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_exile",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 18,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c0319e314e52d3cde8fcd9e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Loner]</color> If I were afraid of taking risks, I never would've left that gilded cage my parents called a home. We're gonna have to be just as bold.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_loner",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce218300fb3036c5251a027"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "Desperate times, people. Darius, you know what you need to do.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 20,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ceed8c1ba8de92e82279a3c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "At the end of the day, I'd rather go down fighting than wind up broke.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 20,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c66dc9ca0bc2920d4b4a334"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce181b3a38f3f63f75075b4"
+      },
+      "index": 13,
+      "text": "You know what that means, Darius. And as much as the implications scare me, I've gotta agree.\n\nUncertified employers can be dangerous, and all… but they ain't got nothin' on entropy and neglect.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cf8bf6e612c5875f30dfff6"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ca5d99bbdfbd798f7661348"
+      },
+      "index": 14,
+      "text": "It's settled, then. I'll start digging for contracts outside of the MRB system.\n\nWho knows? Maybe it'll work out for the best. It isn't like we've got all that much to lose.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9ffa2f85ed64a904a63dba"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce512e9651aaf6e5b0504c9"
+      },
+      "index": 15,
+      "text": "In the meantime, we need to find another paying job, and our prospects in this system have completely dried up.\n\nI'd recommend booking travel to a neighboring system and seeing what the Review Board has for us. With any luck, we'll find enough work to keep going until something better rolls in.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Audio Event: GC_END"
+    },
+    {
+      "idRef": {
+        "id": "9c2afc188b8d397fc869fba4"
+      },
+      "index": 16,
+      "text": "You hear that, Darius? The voice of experience speaks.\n\nGoing around the MRB <i>might</i> kill us, sure. So might a thousand other things. But going broke? That'll destroy this company—guaranteed.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ccb67de4d5407d0ce8c412a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cc41b016f34e5df3fa3c75f"
+      },
+      "index": 17,
+      "text": "Yeah, Boss… much as I hate to say it, I agree with you. We need to sidestep the MRB.\n\nGuess I'd better get mentally prepared for that knife in the back, huh?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c72aabfd7fdb2513c57d211"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c13005c907bcac68f939fe6"
+      },
+      "index": 18,
+      "text": "You hear that, Darius? The voice of experience speaks.\n\nGoing around the MRB <i>might</i> kill us, sure. So might a thousand other things. But I'd rather die trying than give up and accept the inevitable.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c841edbd29a513d26c03a6c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9caed7ef57118795784aa38d"
+      },
+      "index": 19,
+      "text": "You hear that, Darius? The voice of experience speaks.\n\nGoing around the MRB <i>might</i> kill us, sure. So might a thousand other things. We're mercenaries—taking risks is our business. But we need to get paid.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce9854da5cf71df3ce4c76c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c744ed4454dd11e1e805b07"
+      },
+      "index": 20,
+      "text": "Your call, {COMMANDER.FirstName}. I'll start digging for contracts outside of the MRB system.\n\nWho knows? Maybe we'll get lucky. It isn't like we've got all that much to lose.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c26f350ed395d3cb1be64b4"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ceaece93a15409bda3b1da6"
+      },
+      "index": 21,
+      "text": "Amen to that.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc599b4cf94b4a6f83cdf71"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c7123b268d844f6112201da"
+      },
+      "index": 22,
+      "text": "Can't say I'm excited about inviting that kind of trouble… but you're the boss.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c08cc811bfbcf29fbc1836c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c44f20b984802c0dde067cb"
+      },
+      "index": 23,
+      "text": "Hey, you'll hear no arguments from me—when we made you our Commander, we all agreed to follow your lead.\n\nDarius, could you walk us through the details of this trouble we're in? It might help if you broke things down point by point.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c2e7131950f3aef27e06243"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1c8c916cfee75183881cd3"
+      },
+      "index": 24,
+      "text": "'Course not. We <i>made you</i> our Commander because you've got a knack for leading us out of tight spots. Like this one, for example.\n\nDarius, could you walk us through the details of this trouble we're in? It might help if you broke things down point by point.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c4e31af052ae2e80ea5cd44"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c21c8dd11afa170b27cd399"
+      },
+      "index": 34,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c100d3685ab29e638d4d853"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c652d056af91504c13289be"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c97007816d55d26e49f1a4b"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c3ef1832607bdd65ba4711a"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce30aabc5677c8852054949"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c54cbc8ae5b1b09fa5c9333"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cd67938ae14e7f71005fe27"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1b0063577d0890e715b8f9"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c26f838bac711f01c7610be"
+      },
+      "index": 25,
+      "text": "Point two, this planet is a dead zone for mercenary work. There are clients, but they're all terrible. That's just a fact.\n\n…And that's it. There are no other points.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9af5cd040a040a2d622d48"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c45a9c6664cd605db4ba340"
+      },
+      "index": 25,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    }
+  ],
+  "roots": [
+    {
+      "responseText": "",
+      "conditions": null,
+      "actions": null,
+      "nextNodeIndex": 0,
+      "hideIfUnavailable": false,
+      "onlyOnce": false,
+      "idRef": {
+        "id": "9c1a313122fda7bc839e18b2"
+      },
+      "inputBypass": false,
+      "auxiliaryLink": false,
+      "comment": ""
+    }
+  ],
+  "default_speaker_id": "",
+  "default_speaker_override": null,
+  "persistent_conversation": false,
+  "speaker_override_id": ""
+}

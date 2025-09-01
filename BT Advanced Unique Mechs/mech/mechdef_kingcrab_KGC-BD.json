@@ -23,7 +23,7 @@
 		"UIName": "King Crab KGC-BD",
 		"Id": "mechdef_kingcrab_KGC-BD",
 		"Name": "King Crab",
-		"Details": "A personalized design driven by the pilot callsign of bloodydoves, the KGC-BD is a highly customized King Crab that exists to punish enemies merely for existing in the same battlezone as it does. The primary weapons are a pair of massive Rotary Gauss Rifles. Backing them up and providing incredible damage potential are a Piercing Large Pulse Laser and six Piercing SRM tubes. A Clan-spec ECM gives protection while an advanced TTS provides accuracy for the gauss rifles.",
+		"Details": "A personalized design driven by the pilot callsign of bloodydoves, the KGC-BD is a highly customized King Crab that exists to punish enemies merely for existing in the same battlezone as it does. The primary weapons are a pair of massive Rotary Gauss Rifles. Backing them up and providing incredible damage potential are a Piercing Large Pulse Laser and twelve Tandem-equipped SRM tubes. A Clan-spec ECM gives protection while an advanced TTS provides accuracy for the gauss rifles.",
 		"Icon": "uixTxrIcon_kingcrab"
 	},
 	"simGameMechPartCost": 1270000,
@@ -389,7 +389,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM6_1-Irian",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -400,7 +400,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM6_1-Irian",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
@@ -411,7 +411,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Pierce_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,

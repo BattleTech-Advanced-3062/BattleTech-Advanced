@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
 			}
 		],
 		"ComponentExplosion": {

@@ -28,7 +28,7 @@
 		"UIName": "The Slayer SCP-SL",
 		"Id": "mechdef_scorpion_SCP-SL",
 		"Name": "The Slayer",
-		"Details": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as five tubes worth of Piercing SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
+		"Details": "Named after its pilot's habit of shooting opponents when they're down, The Slayer is a brutal short-range combatant that rarely leaves survivors much less salvage. Armed with an Ultra AC/20 as well as ten tubes worth of Tandem-filled SRMs, The Slayer packs an incredible punch into a Scorpion's small frame. Somehow it also manages to keep the high Scorpion ground speed, though it pays for it with a lack of good armor protection. Still, the 'Mech has a long string of successes in the arenas so it clearly is doing something right.",
 		"Icon": "uixTxrIcon_scorpion"
 	},
 	"simGameMechPartCost": 630000,
@@ -207,7 +207,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_SRM_SRM6_1-Irian",
+			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -218,7 +218,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_SRM_SRM4_1-Irian",
+			"ComponentDefID": "Weapon_SRM_SRM4_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -229,7 +229,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Pierce_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_Tandem_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,

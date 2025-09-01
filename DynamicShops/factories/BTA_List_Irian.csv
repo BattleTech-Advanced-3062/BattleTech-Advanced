@@ -45,8 +45,8 @@ mechdef_owens_OW-1-Prime,Mech,1,10
 mechdef_trebuchet_TBT-7M,Mech,1,10
 mechdef_albatross_ALB-3U,Mech,1,10
 mechdef_albatross_ALB-4U,Mech,1,10
-mechdef_ba_is_standard,Mech,1,10
-mechdef_ba_phalanx,Mech,1,10
+Gear_Airdrop_Beacon_BA_IS_Standard,Upgrade,1,10
+Gear_Airdrop_Beacon_BA_Phalanx,Upgrade,1,10
 vehicledef_GALLEON,Mech,1,10
 vehicledef_HARASSER,Mech,1,10
 vehicledef_MAINGAUCHE,Mech,1,10

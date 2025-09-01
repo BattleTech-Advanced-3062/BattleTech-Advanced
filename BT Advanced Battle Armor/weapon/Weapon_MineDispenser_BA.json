@@ -6,11 +6,14 @@
 			},
 			{
 				"CategoryID": "NeverMelee"
+			},
+			{
+				"CategoryID": "notused"
 			}
 		],
 		"Flags": [
 			"not_broken",
-				"no_salvage"
+			"no_salvage"
 		],
 		"BonusDescriptions": [
 				"Airburst: 4, 100",

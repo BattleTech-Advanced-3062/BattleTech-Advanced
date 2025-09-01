@@ -13,10 +13,10 @@
 		],
 		"DecoratorComponent":[
 			{
-				"Text":"BA",               
+				"Text":"O",               
 				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
 			}
 		],
 		"Flags": [
@@ -27,9 +27,6 @@
 		],
 		"BonusDescriptions": [
 			"Omni",
-			"BAMounts",
-			"StructureTPCost: -50%",
-			"StructureCBCost: +25%",
 			"GyroStab: 50"
 		]
 	},
@@ -37,7 +34,7 @@
 		"Cost": 0,
 		"Rarity": 99,
 		"Purchasable": false,
-		"Manufacturer": "Clan",
+		"Manufacturer": "GENERIC",
 		"Model": "Standard",
 		"UIName": "OmniMech",
 		"Id": "Gear_Gyro_Omnimech",
@@ -81,37 +78,13 @@
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-getHasBattleArmorMounts",
-				"Name": "getHasBattleArmorMounts",
-				"Details": "getHasBattleArmorMounts",
-				"Icon": "uixSvgIcon_ability_precisionstrike"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "HasBattleArmorMounts",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			}
 		}
 	],
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_stock"
+			"component_type_stock",
+			"BACompatible"
 		],
 		"tagSetSourceFile": ""
 	}

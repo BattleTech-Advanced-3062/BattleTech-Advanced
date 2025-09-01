@@ -1,0 +1,1281 @@
+{
+  "idRef": {
+    "id": "StoryTime6b-WarCouncil"
+  },
+  "ui_name": "StoryTime6b-WarCouncil",
+  "nodes": [
+    {
+      "idRef": {
+        "id": "9c1369dbb2c1c9b909f7fc66"
+      },
+      "index": 0,
+      "text": "Ana Maria. I summoned you here to discuss long-term strategy, but we have a crisis to address. You've seen my uncle's broadcast—what Ostergaard did to Lord Karosas. What his soldiers are <i>still</i> doing to the people of Smithon below us.\n\nI am honor bound to ride to their defense.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 1,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8a7e2c3a07c13a2fb858c4"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Set BattleTech Fade",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "",
+                "call_value": {
+                  "functionName": "Get Preset Value (int)",
+                  "args": [
+                    {
+                      "int_value": 0,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "SimGameFadeValues",
+                      "call_value": null,
+                      "variableref_value": null
+                    },
+                    {
+                      "int_value": 1,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "",
+                      "call_value": null,
+                      "variableref_value": null
+                    }
+                  ]
+                },
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-BeginMusic-GC_411_WAR_COUNCIL",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Set BattleTech Viewscreen Image",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "centrella",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Fade In, GC_411_WAR_COUNCIL, Set Viewscreen: Centrella"
+    },
+    {
+      "idRef": {
+        "id": "9ca8737614b98f084aa14159"
+      },
+      "index": 1,
+      "text": "Kamea… you've got much bigger things to worry about than Smithon. I won't mince words: your cause is very nearly lost.\n\nWith only a small fraction of their fleet, the [[DM.Factions[faction_TaurianConcordat],Taurians]] have you dramatically outgunned. Given the chance, the <i>Iberia</i> alone could break your army in two.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8e18849b0600412603362d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c9c84a1a069aec91a6b48da"
+      },
+      "index": 2,
+      "text": "",
+      "branches": [
+        {
+          "responseText": "Why are the Taurians fighting for the Directorate? Do you have any concrete answers?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3bb94e560732b253a32208"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "If Commodore Ostergaard wants to hurt us, he has to find us. The Reach is a big place.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3d83fd712c624ce9f1e05a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Ancestry: Taurian Concordat]</color> You're talking about my people, Lady Centrella. I know full well what we're up against, so let's talk about how we're going to win this.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_ancestry_taurian",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb5556cb1abff920832c3d1"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        },
+        {
+          "responseText": "We fought against the Taurians on Artru. We know what we're up against, so let's talk about how we're going to win this.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_ancestry_taurian",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1338d9cb16f3f44d13ecda"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": "Background: Not from TC"
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": "Hub"
+    },
+    {
+      "idRef": {
+        "id": "9ca7215ce964c57d5f365a71"
+      },
+      "index": 3,
+      "text": "If you're looking for proof, I can't help you. But I can tell you what I think is behind all of this: the [[DM.BaseDescriptionDefs[LorePerditionMassacre],Perdition Massacre]].\n\nI believe that [[DM.BaseDescriptionDefs[LoreHouseDavion],House Davion]]'s attack on the Concordat created an opportunity for Espinosa. And unfortunately for us, I believe that he has taken it.",
+      "branches": [
+        {
+          "responseText": "What opportunity? Spell it out for me.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9f3a172e24f28eaaebca9a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "You think that Espinosa offered them his support against the Federated Suns.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 7,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c23c7dc2ada0db705e9cd7a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c2ba24eb4de97c0cd66fb93"
+      },
+      "index": 4,
+      "text": "Protector Calderon believes that a Davion invasion of the Taurian Concordat is imminent. In the Directorate, he sees a convenient pawn, and a buffer to protect a poorly-defended stretch of the Concordat's border.\n\nIf the Directorate's weapons have been coming from the Taurians, I imagine they've had an agreement in place for some time.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c957898518f28e0a9aecd02"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cd287428725fb9225c47145"
+      },
+      "index": 5,
+      "text": "Yeah… that timing makes sense. By arming the Directorate, Calderon would be fortifying his own border against invasion.\n\nWhen Espinosa learned about Castle Nautilus, he must've used it as a bargaining chip to get the Taurians into the war on his side.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 6,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9f990e5443499b72de0c28"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c541782c2c61296c6501ecf"
+      },
+      "index": 6,
+      "text": "In a limited intervention, but yes. Calderon would've leaped at the chance to claim an [[DM.BaseDescriptionDefs[LoreSLDF],SLDF]] armory… with a major war imminent, the capture of a fully-stocked [[DM.BaseDescriptionDefs[LoreOutpostCastle],Outpost Castle]] could've provided the Taurians with a tremendous advantage.\n\nBut you destroyed the armory, and killed their soldiers… and, apparently, destroyed one of their DropShips on Anvelt. I suspect that your problems with the Taurian Concordat have only just begun.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cff677b77866da82ef51577"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c6a91dfd970e1b475cf1ac8"
+      },
+      "index": 7,
+      "text": "In a manner of speaking, yes. Protector Calderon believes that a Davion invasion of the Taurian Concordat is imminent. In the Directorate, he sees a convenient pawn, and a buffer to protect a poorly-defended stretch of the Concordat's border.\n\nIf the Directorate's weapons have been coming from the Taurian Concordat, I imagine that they've had a secret agreement in place for some time.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c043d77479e39894f196aaf"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb92aca7b8eba5e0b78e4d3"
+      },
+      "index": 8,
+      "text": "Of course it is. That's why Taurian BattleMechs are sacking Smithon, even as we speak. He's trying to lure Lady Arano <i>to</i> him.\n\nIt's a deliberate provocation, Kamea. You must realize that.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c5bd61590d135bb14dbe068"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c9676a3e41c08dbf2b30980"
+      },
+      "index": 9,
+      "text": "Not through direct confrontation. If you let Ostergaard bait you into attacking him on Smithon, you will die—as will Lady Arano.\n\nThis isn't hyperbole, Kamea. <i>You will die</i> if you take the field against him. And your Restoration will perish with you.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 10,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c44749a7a2f129bb7fae088"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c855c3d6270dc81114b9a17"
+      },
+      "index": 10,
+      "text": "What would you counsel me to do, then? Nothing?\n\nWould you have me sit on my hands while a Taurian butcher <i>murders</i> the people I've sworn to protect?!",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 11,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c787e38053cb06944162d82"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cbab51e051d304f456b1c77"
+      },
+      "index": 11,
+      "text": "I would advise you to lead your army wisely, and to stay out of battles you cannot win.\n\nKamea, listen to me. There is <i>still hope</i>. But you won't find it on the battlefield.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8f5876b55ec02c7ea48c0b"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c43398bb83954237024ef48"
+      },
+      "index": 12,
+      "text": "The alliance between the Taurians and the Directorate is tenuous—far more so than they would have you believe.\n\n[[DM.BaseDescriptionDefs[LoreThomasCalderon],Protector Calderon]] knows what kind of man your uncle is. We could turn allies into enemies if we play our cards right.",
+      "branches": [
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Betrayed]</color> Calderon is supposed to be a sharp guy. It doesn't take a genius to see that trusting a usurper is a dangerous move.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_betrayed",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c72436131ea55ad0fbd54e1"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "If that's true, why would he join forces with Espinosa in the first place?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 23,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb4eaafb462dcf65ac0be76"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "As a long term goal, I'm all for it. But what do you recommend that we do in the short term?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 25,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c77f3d22a2ea2487812ff16"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c79977e8781766d51ba86a8"
+      },
+      "index": 13,
+      "text": "No, it doesn't. And even as we speak, my agents are digging for information that will open a rift between our enemies. For what it's worth, I am <i>confident</i> that they will find it.\n\nBut none of this will mean <i>anything</i> if you let Ostergaard goad you into a suicidal charge. So I beg you: ignore him. <i>Stay away.</i>",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c752b08838d9553c979ac19"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ca06d1347da71de4149a4ca"
+      },
+      "index": 14,
+      "text": "She can't do that, Lady Centrella. If you'd been here before we liberated this system… if you'd seen the things we've seen… you'd know better than to ask.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c84cf24cdc6df221237b045"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c94ce9ffffc8cd9e753ac71"
+      },
+      "index": 15,
+      "text": "I appreciate your advice, Ana Maria. But were I to follow it, the Aurigan people would lose faith in me, and they'd be right to do so.\n\nI owe it to them to be better than that. And so, I will fight… but not in the way that our enemies expect.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3b0214d34964f7807e4230"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c6d9f607bc56801fe10af05"
+      },
+      "index": 16,
+      "text": "Tell me what you mean.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 17,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c2d7cfe6b45492fdfd1064e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cef6f434194312d95f79faa"
+      },
+      "index": 17,
+      "text": "Ostergaard expects me to deploy my army against his forces on Smithon… to lead from the front, as I have in our battles with the Directorate. You've convinced me that this is a risk I cannot take. And so, if he expects me to come at him with a hammer, I will use a scalpel instead.\n\nI trust that your company is up to the task, {COMMANDER.Callsign}?",
+      "branches": [
+        {
+          "responseText": "If the price is right? Sure. I'll be your scalpel.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 18,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb52273f30b97fa2f9346ea"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "My company—alone—against a Taurian assault force. It'll be an adventure, Lady Arano.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 21,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce02eda95a5368900db5e30"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "Do I have a choice?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 22,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3677a7c2b273b595511e18"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c2454e136792e682060797b"
+      },
+      "index": 18,
+      "text": "There you have it, Ana Maria. That's my answer.\n\nI won't take the field myself, and I won't redirect my army… but I'll be damned if I let Ostergaard's troops slaughter my people without a fight.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cfc0759391af8d3b18bcc20"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cfb336d3ea31b713841c6d9"
+      },
+      "index": 19,
+      "text": "Your mercenaries have been one of your key advantages in this war, Kamea. By doing this, you're putting them at grave risk… but if your heart is set on returning to Smithon, I am powerless to stop you.\n\nInstead, I'll wish you good luck and take my leave—I'll be in touch when my agents know more. But please, Kamea… <i>stay safe</i>. I don't know if I can stabilize the Reach without you.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 20,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c145d5a26a37f7cf0377cbd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c008659a80cfd8874e1d41f"
+      },
+      "index": 20,
+      "text": "I won't let Ostergaard kill me, Ana Maria. I promise.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1c91060c3dab9d4e19ab13"
+      },
+      "index": 21,
+      "text": "That it will. And I'll be guiding you on the comms every step of the way.\n\nYou have my answer, Ana Maria. I won't take the field myself, and I won't redirect my army… but I'll be damned if I let Ostergaard's troops slaughter my people without a fight.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c95bf2f172c97eef7656bc2"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb5fe28a9a97913ece7a228"
+      },
+      "index": 22,
+      "text": "None of us do, {COMMANDER.Callsign}. The Taurians have taken the luxury of choice away from us.\n\nYou have my answer, Ana Maria. I won't take the field myself, and I won't redirect my army… but I'll be damned if I let Ostergaard's troops slaughter my people without a fight.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c35bc6433668439d63f2714"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c3c531e42a710004fc39a64"
+      },
+      "index": 23,
+      "text": "His nation is teetering on the brink of war with the Federated Suns, Commander {COMMANDER.LastName}. And for all the Concordat's bravado, it would certainly lose such a conflict.\n\nGiven the circumstances, is it really so surprising that he'd accept an offer of friendship? If open warfare <i>does</i> erupt, he's going to need all the help he can get.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c85c7ff499afbc4127579db"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1600a795c95d4107747bea"
+      },
+      "index": 24,
+      "text": "As I said, I am sure that we <i>can</i> turn this situation to our advantage. Even as we speak, my agents are digging for information that will open a rift between our enemies, and I am <i>confident</i> that they will find it.\n\nBut, Kamea… none of this will mean <i>anything</i> if you let Ostergaard goad you into a suicidal charge. So I beg you: ignore him. <i>Stay away.</i>",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3863ec700d4667a4be1e2e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c096fb78da4f184788a7b9a"
+      },
+      "index": 25,
+      "text": "In a word? Nothing. Don't engage them. Just stay away.\n\nEven as we speak, my agents are digging for information that will open a rift between our enemies. And I am <i>confident</i> that they will find it. But Kamea… none of this will mean <i>anything</i> if you let Ostergaard goad you into a suicidal charge. And make no mistake, that <i>is</i> what they're doing.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce63bba2286de88367502e4"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97d11623035ac14005365",
+      "actions": null,
+      "comment": ""
+    }
+  ],
+  "roots": [
+    {
+      "responseText": "",
+      "conditions": null,
+      "actions": null,
+      "nextNodeIndex": 0,
+      "hideIfUnavailable": false,
+      "onlyOnce": false,
+      "idRef": {
+        "id": "9ca254ac2b1ac48cdace7b6f"
+      },
+      "inputBypass": false,
+      "auxiliaryLink": false,
+      "comment": ""
+    }
+  ],
+  "default_speaker_id": "",
+  "default_speaker_override": null,
+  "persistent_conversation": false,
+  "speaker_override_id": ""
+}

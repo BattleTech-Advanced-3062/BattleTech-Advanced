@@ -26,11 +26,9 @@ vehicledef_UNNSVIN_BALLISTIC,Mech,0,1
 vehicledef_UNNSVIN_MISSILE,Mech,0,1
 vehicledef_TAGDRONE,Mech,0,1
 vehicledef_VTOLDRONE,Mech,0,1
-mechdef_ba_krupp,Mech,0,1
-Weapon_Medium_Recoilless_BA,Weapon,0,1
+Gear_Airdrop_Beacon_BA_Krupp,Upgrade,0,1
 Gear_Attachment_AutocannonFCS,Upgrade,0,1
 Gear_Attachment_PPCFCS,Upgrade,0,1
 Gear_Contract_Mech_Gunslinger_FRR,Upgrade,0,1
-Gear_Contract_BattleArmor_Krupp_Rasalhague,Upgrade,0,1
 emod_kit_dhs,HeatSink,0,1
 Gear_HeatSink_Generic_Double,HeatSink,0,1

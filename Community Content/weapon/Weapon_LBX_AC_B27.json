@@ -1,0 +1,97 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 12,
+			"StabilityDamage": 8
+		},
+		"BonusDescriptions": [
+				"PipsIgnored: 2",
+				"WeaponBoom: 12",
+				"WpnCrits: 25%",
+				"InternalAmmo: 6",
+				"CostPerShot: 30",
+				"LBX"
+			],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.5
+        },
+		"AmmoCost": {
+			"PerUnitCost": 30
+		},
+		"Flags": [
+			"no_salvage"
+		]
+	},
+	"weaponCategoryID": "BattleArmor",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 0,
+	"MaxRange": 240,
+	"RangeSplit": [
+		60,
+		120,
+		180
+	],
+	"AmmoCategory": "Flamer",
+	"StartingAmmoCapacity": 10,
+	"HeatGenerated": 0,
+	"Damage": 8,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 2,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1.25,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 4,
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_LB10X",
+	"Description": {
+		"Cost": 10000,
+		"Rarity": 20,
+		"Purchasable": true,
+		"Manufacturer": "Alphard Arms",
+		"Model": "Recoilless Rifle",
+		"UIName": "B27 LB-X AC",
+		"Id": "Weapon_LBX_AC_B27",
+		"Name": "B27 LB-X Autocannon",
+		"Details": "The B27's BA carry twin LB-X ACs that fire a cluster of 4 shots each, with 6 rounds worth of ammo endurance",
+		"Icon": "battle-amor-suit"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme"
+		],
+		"tagSetSourceFile": ""
+	}
+}

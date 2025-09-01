@@ -2,7 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
-			"unit_rarity_3",
+			"unit_rarity_5",
 			"unit_mech",
 			"unit_heavy",
 			"unit_ready",
@@ -28,7 +28,7 @@
 		"UIName": "Bellerophon BEL-3Q",
 		"Id": "mechdef_bellerophon_BEL-3Q",
 		"Name": "Bellerophon",
-		"Details": "Built by House Steiner as a testbed for the experimental Variable-Speed Pulse Lasers, the BEL-3Q found more acceptance with front-line units for its plentiful energy weapon mounts than it did for the VSPLs. Armed with a paltry-looking loadout for a heavy, the Large VSPL and 4 Medium VSPLs proved capable if the Bellerophon could close range effectively, though the relatively slow speed made that difficult most of the time. Additionally, the XL Engine and only 11.5 tons of armor made the mech fragile while the 15 DHS struggled to keep the mech cooled in most circumstances.",
+		"Details": "Built by House Steiner as a testbed for newly developed PPC variants such as the Heavy and Light PPCs, the BEL-3Q found more acceptance with front-line units for its plentiful energy weapon mounts than it did for the PPCs. Armed with a paltry-looking loadout for a heavy, the Heavy PPC and quintet of Light PPCs proved capable if the Bellerophon could manage range effectively, though the relatively slow speed made that difficult most of the time. Additionally, the XL Engine and only 11.5 tons of armor made the mech fragile while the 15 DHS struggled to keep the mech cooled in most circumstances.",
 		"Icon": "uixTxrIcon_bellerophon"
 	},
 	"simGameMechPartCost": 630000,
@@ -372,7 +372,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_MediumLaserVSPL_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_Light_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -383,7 +383,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserVSPL_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_Light_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
@@ -394,7 +394,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserVSPL_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_Light_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
@@ -405,7 +405,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserVSPL_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_Light_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": -1,
@@ -416,10 +416,21 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Laser_LargeLaserVSPL_0-STOCK",
+			"ComponentDefID": "Weapon_PPC_Heavy_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Weapon_PPC_Light_0-STOCK",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

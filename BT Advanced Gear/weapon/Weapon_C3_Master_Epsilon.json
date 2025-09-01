@@ -1,0 +1,331 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "C3MasterEpsilon"
+			},
+			{
+				"CategoryID": "w/s/t/tag"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"C3M",               
+				"Color":"#1616ff",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_C3_Master_Epsilon",
+					"Location": "CenterTorso",
+					"ComponentDefType": "Upgrade"
+				}
+			]
+		},
+		"BonusDescriptions": [
+			"C3",
+			"C3Master",
+			"C3UnitCount",
+			"C3ECMWeakness",
+			"C3Channel: Epsilon",
+			"C3MResolve: 120, +2",
+			"C3MEvasion: 120, +1",
+			"TAG: 50%",
+			"TAGSemiGuided",
+			"EvasionIgnored: 3",
+			"WeaponAttachmentCompatible: TAG FCS",
+			"C3MasterReserved: 1"
+		]
+	},
+	"Category": "AntiPersonnel",
+	"Type": "Laser",
+	"WeaponSubType": "SmallLaserER",
+	"MinRange": 0,
+	"MaxRange": 570,
+	"RangeSplit": [
+		210,
+		360,
+		510
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 0,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 3,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_LaserER_Small",
+	"Description": {
+		"Cost": 1250000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Tanadi",
+		"Model": "C3 Master Unit",
+		"UIName": "C3 Master (Epsilon)",
+		"Id": "Weapon_C3_Master_Epsilon",
+		"Name": "C3 Master (Epsilon)",
+		"Details": "Acting as the core of a C3 Network, the C3 Master unit provides incredible coordination efforts for C3-equipped units, including increased resolve generation and evasion ignore for weapon attacks. It also functions as a super-powered targeting laser system, allowing for coordinated designation of targets. C3 Masters coordinate with other C3 units to provide targeting data for all units linked into the network, though Master units are not strictly necessary for the network to function even if they do provide the best benefits to units in the network.",
+		"Icon": "mesh-network"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 3,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_C3M_EvaIgnore",
+			"Name": "C3M Evasion Ignore",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": true,
+			"neededTags": [ "C3_Network_Epsilon" ],
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-C3MasterEvaIgn",
+						"Name": "C3 Master Evasion ignore",
+						"Details": "Provides +1 evasion ignore for all Epsilon-channel C3-equipped units in the radius.",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "EvasivePipsIgnored",
+						"operation": "Float_Add",
+						"modValue": "1.0",
+						"modType": "System.Single",
+						"targetCollection": "Weapon"
+					}
+				}
+			]
+		},
+		{
+			"Id": "Gear_C3M_Resolve",
+			"Name": "C3M Resolve",
+			"ReticleColor": "#1a91ea",
+			"Range": 120,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": true,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"neededTags": [ "C3_Network_Epsilon" ],
+			"ownerVFX": [],
+			"targetVFX": [],
+			"removeOwnerVFX": [],
+			"removeTargetVFX": [],
+			"ownerSFX": [],
+			"targetSFX": [],
+			"removeOwnerSFX": [],
+			"removeTargetSFX": [],
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"triggerLimit": 0,
+						"extendDurationOnTrigger": 0,
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect-C3MasterResolve",
+						"Name": "C3 Master Resolve",
+						"Details": "Provides a +2 bonus to Resolve for all Epsilon-channel C3-equipped units in the radius.",
+						"Icon": "mesh-network"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "resolveRoundBaseMod",
+						"operation": "Float_Add",
+						"modValue": "2",
+						"modType": "System.Single"
+					}
+				}
+			]
+		}
+	],
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-Effect",
+				"Name": "Target Acquired",
+				"Details": "This target was TAG'ed. Target takes 50% more AoE damage and is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "CACAoEDamageMult",
+				"operation": "Float_Multiply",
+				"modValue": "1.50",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TAG-SemiGuidedEffect",
+				"Name": "Semi-Guided Acquired",
+				"Details": "This target was TAG'ed. Target is marked for incoming semi-guided ammunition.",
+				"Icon": "target-laser"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_TargetAcquired",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			},
+			"tagData": {
+				"tagList": [
+					"lv-tag-effect"
+				]
+			}
+		},
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 0,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "NotSet",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false,
+				"hideApplicationFloatie": true
+			},
+			"effectType": "VFXEffect",
+			"Description": {
+				"Id": "StatusEffect-TAG-IndicatorVFX",
+				"Name": "TAG MARKED",
+				"Details": "Visual indicator of the TAG effect",
+				"Icon": "uixSvgIcon_status_sensorsImpaired"
+			},
+			"nature": "Debuff",
+			"vfxData": {
+				"vfxName": "vfxPrfPrtl_TAGmarker_loop",
+				"attachToImpactPoint": true,
+				"location": -1,
+				"isAttached": true,
+				"facesAttacker": false,
+				"isOneShot": false,
+				"duration": -1.0
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_long",
+			"lv-shares-sensors",
+			"TAGFCSSupported",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

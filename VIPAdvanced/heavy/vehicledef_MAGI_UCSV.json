@@ -133,20 +133,6 @@
             "DamageLevel": "Functional"
         },
         {
-            "ComponentDefID": "Tank_BattleArmorBay",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Rear",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
-            "ComponentDefID": "Tank_BattleArmorFiringPorts",
-            "ComponentDefType": "Upgrade",
-            "MountedLocation": "Rear",
-            "HardpointSlot": 1,
-            "DamageLevel": "Functional"
-        },
-        {
             "ComponentDefID": "Tank_CASE",
             "ComponentDefType": "Upgrade",
             "MountedLocation": "Rear",

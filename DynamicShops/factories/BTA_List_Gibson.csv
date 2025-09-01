@@ -22,6 +22,6 @@ mechdef_anvil_ANV-5M,Mech,1,10
 mechdef_anvil_ANV-3R,Mech,1,10
 mechdef_anvil_ANV-5Q,Mech,1,10
 mechdef_mercury_MCY-102,Mech,1,10
-mechdef_ba_is_standard,Mech,1,10
-mechdef_ba_phalanx,Mech,1,10
+Gear_Airdrop_Beacon_BA_IS_Standard,Upgrade,1,10
+Gear_Airdrop_Beacon_BA_Phalanx,Upgrade,1,10
 Gear_Rattler_Fight,Upgrade,1,10

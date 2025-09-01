@@ -1,0 +1,1002 @@
+{
+  "idRef": {
+    "id": "StoryTime8-DesperationPlay"
+  },
+  "ui_name": "StoryTime8-DesperationPlay",
+  "nodes": [
+    {
+      "idRef": {
+        "id": "9c26ce0a65e602d88bcfa0aa"
+      },
+      "index": 0,
+      "text": "Well, Boss. Things are looking pretty grim, I've gotta say.\n\nBut hey… at least we've figured out what Espinosa's secret weapon is.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 1,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd1e4b57791c31247519e84"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Set BattleTech Fade",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "",
+                "call_value": {
+                  "functionName": "Get Preset Value (int)",
+                  "args": [
+                    {
+                      "int_value": 0,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "SimGameFadeValues",
+                      "call_value": null,
+                      "variableref_value": null
+                    },
+                    {
+                      "int_value": 1,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "",
+                      "call_value": null,
+                      "variableref_value": null
+                    }
+                  ]
+                },
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-BeginMusic-GC_512_DESPERATION_PLAY",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Set BattleTech Viewscreen Image",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "kamea",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Fade In, GC_512_DESPERATION_PLAY, Set Viewscreen: Kamea"
+    },
+    {
+      "idRef": {
+        "id": "9ca83ad4e588eedb4706e311"
+      },
+      "index": 1,
+      "text": "Thanks for that ray of sunshine, Yang.\n\nDid any of you see the wall behind Ostergaard? There were burn marks, bullet holes… what looked like small arms fire. His sailors must've tried to seize the bridge.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8769763eb2a3c5da5be661"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ccae2bf92ec7f5aa5f2c229"
+      },
+      "index": 2,
+      "text": "If there was a mutiny attempt on the <i>Iberia</i>, it failed. And as unhinged as Ostergaard may have sounded, he was right. We can't withdraw our troops without the Directorate cutting them to ribbons, and we can't stop a Fortress-class DropShip.\n\n…At least, not through conventional means.",
+      "branches": [
+        {
+          "responseText": "Then we'll have to be unconventional.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8b7cc1fcca86eca8c7b14d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "You're about to give us an incredibly sketchy job, aren't you? I'm getting that feeling.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 18,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9f2e9f7412a7d981d90f31"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "Tell us what you're thinking.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 21,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cbe87b9f0da4ff5917e5193"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c656c80f391ef16e348bf84"
+      },
+      "index": 3,
+      "text": "That's right.\n\nAnd that's why we're going to use the [[DM.BaseDescriptionDefs[LoreLocura],Locura]].",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce7721c50c6ca3584083d81"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c4a9b29fcd7cca65121b9be"
+      },
+      "index": 4,
+      "text": "Nuh-uh. No way.\n\nLady Arano, that code <i>completely screwed us</i> at Castle Nautilus. It nearly detonated our fuel tanks! It's too dangerous to go tinkering around with, we can't—",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cefcefa35deec2dd07f0414"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce3220d82985d1e3c9fd6f4"
+      },
+      "index": 5,
+      "text": "We don't have a choice, Sumire. It's the closest thing we have to a weapon that could destroy that ship.\n\nIf I were wrong about this, Farah would've told us by now. Tell them, Doctor… we can do this. Can't we?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 6,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c82a5d237635072a1f1eab1"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c8f573388cf5d273b886263"
+      },
+      "index": 6,
+      "text": "Yes… I think we can. Even if it doesn't destroy the <i>Iberia</i>, it'll cripple her long enough to take her out of the fight. But that code is a science experiment, not a weapon.\n\nI think that I can modify it into one, but there will be risks involved, and I can't offer any guarantees.",
+      "branches": [
+        {
+          "responseText": "<color=#85DBF6FF>[Origin: Accident]</color> This job has been full of surprises. Can't say I ever thought I'd be <i>trying</i> to make a ship full of people crash and burn.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_youth_accident",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 7,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c0284351a5033372af8a3bd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "There are never any guarantees in this life, Doctor. Just do your best.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc0b48dcd7a57d324004c32"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "I can't say I'm in love with this idea, but I haven't heard any alternatives.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c63f14c9bf96a9031798c6e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "If we don't do this, Ostergaard wipes the Restoration Army out with impunity. We can't let that happen.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cfa58cb28d178c6d23f28b1"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cfd0d771ca881c6e0a5619f"
+      },
+      "index": 7,
+      "text": "Yes, Commander… yet here we are. I suppose I'll go ahead and get started.\n\nWe're still going to need a way to get the code onto Ostergaard's ship. I'd suggest taking over a ground-based communications array… something on a network that the <i>Iberia</i>'s computer trusts.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c748cc5b51fbc4a8d225d63"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c2047db97e0a1b0ee6b2461"
+      },
+      "index": 8,
+      "text": "I'd imagined you'd feel that way. I'll go ahead and get started.\n\nWe're still going to need a way to get the code onto Ostergaard's ship. I'd suggest taking over a ground-based communications array… something on a network that the <i>Iberia</i>'s computer trusts.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd98dc18a84052f68097fd8"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cff420006d423604e3d5db2"
+      },
+      "index": 9,
+      "text": "There's a Directorate comm station on Lyris, the throne world's second moon. It was the system's primary communications hub during my father's reign, and my uncle uses it for the same purpose now.\n\nYou could use it to transmit the Locura, then destroy it—the control tower is automated, so there shouldn't be any collateral damage. You'd be killing two birds with one stone.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 10,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc0d948bb7d0e4fa2138390"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c97e104315e094de82bc5df"
+      },
+      "index": 10,
+      "text": "I like how you think. I'll rig the explosives.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 11,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb90dc0f4711d9e1d307abd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c208af097579cbc32170881"
+      },
+      "index": 11,
+      "text": "We're likely to encounter heavy resistance when we touch down. I'll see if I can find an engineering solution to help us deal with it… maybe my team could seize control of their turrets, make them fight for us for a change.\n\nYou should probably try to bring a jump-capable lance if you can, Commander. Comm arrays like the one on Lyris tend to be housed on elevated platforms, with lots of ramps and choke points.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ca7996d820dcc1bab9dc140"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cff7b6cfbe900ffc6f10c65"
+      },
+      "index": 12,
+      "text": "Thank you, Doctor. We're hinging everything on this plan's success—it is vital that Ostergaard's attention remains fixed on me and the Restoration Army, to the exclusion of your operation on Lyris. And so, I will give him something to to focus on.\n\nI'm accelerating our offensive. We're marching on the Directorate's final stronghold—Cordia City. The capital of Coromodir.",
+      "branches": [
+        {
+          "responseText": "If anything will keep him focused on you, that will. We'll do our part.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c74b5754ff0d5ac660f6d46"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "It'll look like you're overextending yourselves. That's good—he'll be eager to punish you for it.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c5e66bc3a9d6dae82d5fddc"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce9511975fdf118cbb9c6ac"
+      },
+      "index": 13,
+      "text": "Damn right we will. We'll rendezvous with Lady Arano on Coromodir when the job is done.\n\nWe've got a job to do, people… and it'll be the biggest challenge we've ever taken on. So put on your war faces and follow the Commander's lead. We've got a DropShip to crash.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cf37df4c5bd7dbef72cdb06"
+      },
+      "index": 14,
+      "text": "Give 'em hell, Lady Arano. We'll rendezvous with you on Coromodir when the job is done.\n\nWe've got a job to do, people… and it'll be the biggest challenge we've ever taken on. So put on your war faces and follow the Commander's lead. We've got a DropShip to crash.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c94e6938fb2fa0a61c6ea6b"
+      },
+      "index": 15,
+      "text": "That's because there aren't any. Look, Lady Arano is right—she and her army are <i>righteously</i> shafted if the <i>Iberia</i> makes planetfall.\n\nYou wanna tell me I'm wrong, Meyer? Because if you know something about this situation that I don't, I'd <i>love</i> to hear it.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cddfeb40db0d760dca4efef"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce80fae8b1bd99bcd32f282"
+      },
+      "index": 16,
+      "text": "You're not wrong.\n\n…This sucks. But yeah… the alternative is worse.\n\nWe're gonna have to try it and hope for the best.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 17,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c35eccbcba67b2fa5a234d2"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c2f0568fbfec2f8802e32ab"
+      },
+      "index": 17,
+      "text": "It sounds like we're all on the same page. I'll go ahead and get started.\n\nWe're still going to need a way to get the code onto Ostergaard's ship. I'd suggest taking over a ground-based communications array… something on a network that the <i>Iberia</i>'s computer trusts.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c105861ba5a9020f5f002eb"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c2bc403491e75b4fe162781"
+      },
+      "index": 18,
+      "text": "Your instincts are as sharp as ever, {COMMANDER.Callsign}. You're going to bring down the <i>Iberia</i>.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cbc08bfdc20b40648bdb76a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cd2f0fdee25f82c22f1fa81"
+      },
+      "index": 19,
+      "text": "Um. How, exactly? The <i>Argo</i> isn't exactly a [[DM.BaseDescriptionDefs[LoreWarShip],WarShip]]. She doesn't even carry any weapons.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 20,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c2d148035ba2de1d3b678e8"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c43c68036b516508e064a38"
+      },
+      "index": 20,
+      "text": "No. But she <i>is</i> carrying something that can bring down a DropShip. It very nearly destroyed the <i>Argo</i>, if memory serves.\n\nWe're going to use the [[DM.BaseDescriptionDefs[LoreLocura],Locura]].",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd4e220bd970d5fba7d1f72"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb946cea60e03fa4a66a054"
+      },
+      "index": 21,
+      "text": "The <i>Iberia</i> may outclass us, but we can still attack.\n\nWe're going to use the [[DM.BaseDescriptionDefs[LoreLocura],Locura]].",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c14ccfd1d117bb59d7e623e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "5a6aa41a623035a020000e2a",
+      "actions": null,
+      "comment": ""
+    }
+  ],
+  "roots": [
+    {
+      "responseText": "",
+      "conditions": null,
+      "actions": null,
+      "nextNodeIndex": 0,
+      "hideIfUnavailable": false,
+      "onlyOnce": false,
+      "idRef": {
+        "id": "9c432df96ed6bf2e1bfce2f0"
+      },
+      "inputBypass": false,
+      "auxiliaryLink": false,
+      "comment": ""
+    }
+  ],
+  "default_speaker_id": "",
+  "default_speaker_override": null,
+  "persistent_conversation": false,
+  "speaker_override_id": ""
+}

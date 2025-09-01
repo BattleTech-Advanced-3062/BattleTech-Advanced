@@ -16,7 +16,7 @@
 		"Purchasable": false,
 		"UIName": "DRM Carrier",
 		"Id": "vehiclechassisdef_CARRIER_DRM",
-		"Name": "Carrier",
+		"Name": "DRM Carrier",
 		"Details": "tanklol",
 		"Icon": "LRMcarrier"
 	},

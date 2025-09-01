@@ -1,0 +1,980 @@
+{
+  "idRef": {
+    "id": "StoryTime4a-FirstStrike"
+  },
+  "ui_name": "StoryTime4a-FirstStrike",
+  "nodes": [
+    {
+      "idRef": {
+        "id": "9c1bb20b9612efa2770feb29"
+      },
+      "index": 0,
+      "text": "Weldry. One of the most notorious hellholes in the [[DM.BaseDescriptionDefs[LoreAuriganReach],Aurigan Reach]].\n\nEverything about this place is hostile to human life. And for the past three years, Espinosa has used it as a dumping ground for his political enemies.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 1,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c24e3d7afddae04b45f1a6d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Set BattleTech Fade",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "",
+                "call_value": {
+                  "functionName": "Get Preset Value (int)",
+                  "args": [
+                    {
+                      "int_value": 0,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "SimGameFadeValues",
+                      "call_value": null,
+                      "variableref_value": null
+                    },
+                    {
+                      "int_value": 1,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "",
+                      "call_value": null,
+                      "variableref_value": null
+                    }
+                  ]
+                },
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-BeginMusic-GC_220_FIRST_STRIKE",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Audio Event: GC_220_FIRST_STRIKE, Fade In"
+    },
+    {
+      "idRef": {
+        "id": "9c7bef8869f9129113ad54dd"
+      },
+      "index": 1,
+      "text": "The Directorate has a prison complex on the planet's surface. The inmates call it the Icebox.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c107e2dcd560c5017003f98"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce9f7fafee892d84520c875"
+      },
+      "index": 2,
+      "text": "[The image of an imposing structure appears on your viewscreen. It has the solid, heavy walls that you've come to associate with [[DM.Factions[faction_TaurianConcordat],Taurian]] architecture.]",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c88af1467f7e8ffc0b4d0ea"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59f8f0296230359c2100082c",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Set BattleTech Viewscreen Image",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "weldry",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c38544076112d254c2c640b"
+      },
+      "index": 3,
+      "text": "It's a holding facility for political prisoners, including high-value hostages. Members of the Founding Families—spouses, sons, and daughters.\n\nIf we liberate the prison and set them free, we break Espinosa's leverage over the [[DM.BaseDescriptionDefs[LoreFoundingHouses],Founding Houses]]. The political map will change overnight.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd7e707dc1b9234f7dc9b19"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce5aa3638ad92d331448207"
+      },
+      "index": 4,
+      "text": "We don't know what the Directorate has been doing to our people in there, but we have to set them free. Not just for political gain, but because they're <i>our people</i>.\n\nAnd we need your help to do it.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c0e75a7213ea9d6c03c2490"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cd13cb71041231591a2d8c6"
+      },
+      "index": 5,
+      "text": "",
+      "branches": [
+        {
+          "responseText": "Aren't the Founding Lords and Ladies supposed to be powerless figureheads?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 6,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c12ce6ca1b8ff7ae5facd56"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "I need to know what I'm about to send my lance into. What makes Weldry so inhospitable?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc5cf1aaa24304f544d5770"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "You've got an army. What do you need us for?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce25dbe834ae32c551335ee"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": "Hub"
+    },
+    {
+      "idRef": {
+        "id": "9c0daf2e1a9e616aa4410474"
+      },
+      "index": 6,
+      "text": "There are different kinds of power, {COMMANDER.Callsign}. The Founding Houses may be anemic in terms of martial strength, but their words still carry weight in the Aurigan Reach.\n\nIf they rally behind us, the people who love them will follow. Governments have been toppled with less.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 7,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c7575c5c0df6bd4d0f090dc"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c0fd55065d2033b01b05501"
+      },
+      "index": 7,
+      "text": "My uncle has hard-line supporters everywhere—their ranks have swelled in the absence of strong opposition. But the remaining members of the [[DM.BaseDescriptionDefs[LoreFoundingCouncil],Founding Council]] will rally their people against the Directorate if given the chance.\n\nBy freeing Weldry, we will <i>give</i> them that chance.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cee524a9040a60fa479d7b0"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c7bb0bfb0c0077550dae13f"
+      },
+      "index": 8,
+      "text": "Everything, from the subzero climate to the inedible vegetation. The whole planet is infested with bloodsucking insects… the swarms can stretch for miles.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c33cc7c4339e8f04fdaaa86"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cdc3852ce2e687f77fb95de"
+      },
+      "index": 9,
+      "text": "You're shittin' me.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 10,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c26e258c285ac79ec3fa905"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c16828e55876a70fcc41b12"
+      },
+      "index": 10,
+      "text": "I'm afraid not. They're called Branson's Mosquitoes.\n\nImagine a colonial biting fly the size of your thumb. They serve as carriers for harmful bacteria.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 11,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ccb0e762cf4e49bdb68c5b4"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c73ad94e0819873025d64af"
+      },
+      "index": 11,
+      "text": "And you're dropping infantry there? On purpose?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c6b4d5123ca6cdfe01462f6"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1238a4bce385629f75d991"
+      },
+      "index": 12,
+      "text": "The army will be safe. Population centers like the Icebox use ultrasonics to keep the swarms at bay.\n\nBut I thank you for your concern, Mr. Virtanen.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c0f8350755c69fb6a09a52b"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c15aa15690ce3bdf390838a"
+      },
+      "index": 13,
+      "text": "Subtle, decisive action. I will lead the army in an all-out assault on the Directorate's primary spaceport. After I've drawn their attention, you will sneak in, attack the Icebox, and liberate it.\n\nWe'll set my uncle's hostages free and put the Founding Families in our debt, all in one fell swoop.",
+      "branches": [
+        {
+          "responseText": "<color=#85DBF6FF>[Background: Inner Sphere Mercenary]</color> Reminds me of a supply raid I went on in the Inner Sphere. That was a good plan, too… right up until we made contact with the enemy.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_career_mercenary",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc41f0f7afea72b22efc684"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "<color=#85DBF6FF>[Background: Aurigan Soldier]</color> Reminds me of a lightning raid I went on for your father's military. That was a good plan, too… right up until we made contact with the enemy.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_career_soldier",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c7dda8a5cba19c1dc70f542"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        },
+        {
+          "responseText": "In my experience, operations of this scale rarely go according to plan.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_career_mercenary",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              },
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_career_soldier",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ca273af0dce7509464dba0d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": "BG: Not IS Merc Not AC Soldier"
+        },
+        {
+          "responseText": "Understood. My lance is ready to drop.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cf68c75f3aafd46819d099d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c61ec8ce7c673d5c8493415"
+      },
+      "index": 14,
+      "text": "I do understand what you're saying, {COMMANDER.Callsign}. And the chaos of the battlefield is one of the major reasons why I need you on this drop.\n\nYou and Mastiff improvised on Coromodir, and you got me through the coup alive. I'll be counting on you to use that same adaptability on Weldry, should the need arise.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb2f4e0a11890ec02ee66fd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c9854d9165423f370eb4542"
+      },
+      "index": 15,
+      "text": "I know, {COMMANDER.Callsign}. And that is one of the major reasons why I need you on this drop.\n\nYou adapted to the chaos of the battlefield on Coromodir. I'll be counting on you to do the same here.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c15361bab1230952a0d1f05"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce84578a99112452a04d887"
+      },
+      "index": 16,
+      "text": "I'll remain in radio contact with you after we hit the ground.\n\nGood hunting, {COMMANDER.Callsign}. Give my uncle's troops the hell that they have earned. After the Directorate presence on the planet has been crushed and the Icebox has been liberated, we'll regroup to celebrate our victory.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Audio Event: GC_END"
+    }
+  ],
+  "roots": [
+    {
+      "responseText": "",
+      "conditions": null,
+      "actions": null,
+      "nextNodeIndex": 0,
+      "hideIfUnavailable": false,
+      "onlyOnce": false,
+      "idRef": {
+        "id": "9c6654de82c02b075a18db52"
+      },
+      "inputBypass": false,
+      "auxiliaryLink": false,
+      "comment": ""
+    }
+  ],
+  "default_speaker_id": "",
+  "default_speaker_override": null,
+  "persistent_conversation": false,
+  "speaker_override_id": ""
+}

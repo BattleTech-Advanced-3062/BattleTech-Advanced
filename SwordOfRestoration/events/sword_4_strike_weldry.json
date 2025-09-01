@@ -1,0 +1,44 @@
+{
+	"Description": {
+		"Id": "sword_4_strike_weldry",
+		"Name": "The Liberation of Weldry",
+		"Details": "",
+		"Icon": "uixTxrSpot_DailyBriefing.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Name": "Continue"
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Name": "The Aurigan Directorate",
+						"Details": "\"We found Sir Raju's 'Mech. It was completely cored out. Nobody survives a hit like that.\"\r\n\n\n\"Things aren't looking so hot around here, what with the coup and all. [[DM.BaseDescriptionDefs[LoreHouseEspinosa],House Espinosa]]'s Directorate is the new de facto government of the [[DM.BaseDescriptionDefs[LoreAuriganReach],Aurigan Reach]]. I'm sorry we couldn't do more. A lot of good people died today, and I have a feeling this is only the beginning. We'd better make ourselves scarce in these parts and lay low for a while."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {},
+							"RemovedTags": {},
+							"Actions": [
+								{
+									"Type": "System_SimGameCharacterVisible",
+									"value": false,
+									"additionalValues": [
+										"Kamea",
+										"Alexander"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"EventType": "UNSELECTABLE"
+}

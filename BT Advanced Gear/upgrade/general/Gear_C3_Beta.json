@@ -1,0 +1,226 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "C3SlaveBeta"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"Sl",               
+				"Color":"#16ffff",      
+				"Icon":"mesh-network",       
+				"Importance": 10
+			}
+		],
+		"BonusDescriptions": [
+			"C3",
+			"C3Slave",
+			"C3ECMWeakness",
+			"C3Channel: Beta",
+			"Sensors: +3%",
+			"Sight: +3%"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 100000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Tanadi",
+		"Model": "C3 Slave Unit",
+		"UIName": "C3 Slave (Beta)",
+		"Id": "Gear_C3_Beta",
+		"Name": "C3 Network Slave (Beta)",
+		"Details": "The C3 Slave Unit is the second part of a C3 Network. Weighing a single ton and carried by a member of a lance or company, the C3 Slave serves to connect the carrying unit into a C3 network, as well as providing a minor sensor and sight bonus to the carrying unit.",
+		"Icon": "mesh-network"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Auras": [
+		{
+			"Id": "Gear_C3_Slave_Aura_Beta",
+			"Name": "C3 Network",
+			"ReticleColor": "#00f0ff",
+			"Range": 8000,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"HideOnNotSelected": true,
+			"FloatieAtEndOfMove": false,
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SensorRange",
+						"Name": "C3M Probe",
+						"Details": "Increased Sight/Sensors",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"abilifierId": "C3_Network_Slave_Bonus_Beta",
+						"statName": "SensorDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.005",
+						"modType": "System.Single"
+					}
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AlliesWithinRange",
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "SpottingRange",
+						"Name": "SPOTTING DISTANCE INCREASED",
+						"Details": "Increases spotting distance by 50m.",
+						"Icon": "uixSvgIcon_equipment_Cockpit"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"abilifierId": "C3_Network_Slave_Bonus_Beta",
+						"statName": "SpotterDistanceMultiplier",
+						"operation": "Float_Multiply",
+						"modValue": "1.005",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"Id": "Gear_C3__Slave_MasterOverwhelm_Beta",
+			"Name": "C3 Network Overwhelm",
+			"ReticleColor": "#00f0ff",
+			"Range": 8000,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"HideOnNotSelected": true,
+			"FloatieAtEndOfMove": false,
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3Master_Network_Overwhelm_Beta",
+						"Name": "C3 Network Disengaged",
+						"Details": "PASSIVE: This C3 Master is connected to [AMT] C3 Slaves on the same channel. If [AMT] is -4 or more, the network has been overwhelmed and has failed.",
+						"Icon": "crowned-explosion"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Beta",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		},
+		{
+			"Id": "Gear_C3__Slave_SlaveOverwhelm_Beta",
+			"Name": "C3 Network Overwhelm",
+			"ReticleColor": "#00f0ff",
+			"Range": 8000,
+			"RemoveOnSensorLock": false,
+			"State": "Persistent",
+			"ApplySelf": false,
+			"AllyStealthAffection": "None",
+			"EnemyStealthAffection": "None",
+			"HideOnNotSelected": true,
+			"FloatieAtEndOfMove": false,
+			"IsPositiveToAlly": true,
+			"IsNegativeToEnemy": false,
+			"statusEffects": [
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "AlliesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "C3Slave_Network_Overwhelm_Beta",
+						"Name": "C3 Network Disengaged",
+						"Details": "PASSIVE: This C3 Slave is connected to [AMT] other C3 Slaves on the same channel. If [AMT] is -3 or more, the C3 network has been overwhelmed and has failed.",
+						"Icon": "crowned-explosion"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Beta",
+						"operation": "Float_Add",
+						"modValue": "-1",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				}
+			]
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"lv-shares-sensors",
+			"C3SlaveBeta"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -30,9 +30,9 @@
 			"ChancePerActor": 0.05,
 			"SearchRadius": 250.0,
 			"AmbushWeights": [
-				"BattleArmor",
 				"Infantry",
 				"Infantry",
+				"Mech",
 				"Mech",
 				"Vehicle",
 				"Vehicle"

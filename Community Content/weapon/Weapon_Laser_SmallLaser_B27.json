@@ -1,0 +1,79 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "BAWeapon"
+			},
+			{
+				"CategoryID": "notused"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnAccuracy: +1",
+			"PipsIgnored: 3"
+		],
+		"Flags": [
+			"no_salvage"
+		]
+	},
+	"weaponCategoryID": "BattleArmor",
+	"Type": "Laser",
+	"WeaponSubType": "SmallLaser",
+	"MinRange": 0,
+	"MaxRange": 90,
+	"RangeSplit": [
+		30,
+		60,
+		90
+	],
+	"AmmoCategory": "NotSet",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 0,
+	"Damage": 6,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 3,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 0,
+	"ShotsWhenFired": 2,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 0,
+	"Instability": 0,
+	"WeaponEffectID": "WeaponEffect-Weapon_Laser_Small",
+	"Description": {
+		"Cost": 10000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Martell",
+		"Model": "Small Laser",
+		"UIName": "B27 S Laser",
+		"Id": "Weapon_Laser_SmallLaser_B27",
+		"Name": "B27 S Laser",
+		"Details": "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.  This represents two small lasers carried by the B27's crew.",
+		"Icon": "battle-amor-suit"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "Laser",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_close"
+		],
+		"tagSetSourceFile": ""
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"TargetID": "CareerDifficultySettings",
+	"Instructions": [
+		{
+			"JSONPath": "$.difficultyList[?(@.ID== 'diff_startingplanet')].Options",
+			"Action": "ArrayAdd",
+			"Value": {
+				"ID": "diff_C3",
+				"Name": "C3",
+				"TelemetryEventDesc": "",
+				"DifficultyValue": -0.5,
+				"CareerScoreModifier": 0.0,
+				"DifficultyConstants": [
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingSystems",
+						"ConstantValue": "Salford"
+					},
+					{
+						"ConstantType": "CareerMode",
+						"ConstantName": "StartingRandomMechLists",
+						"ConstantValue": "itemCollection_Mechs_Generic_C3_Light,itemCollection_Mechs_Generic_C3_Light,itemCollection_Mechs_Generic_C3_Medium,itemCollection_Mechs_Generic_C3_Master,itemCollection_Mechs_Generic_C3_Tank"
+					}
+				]
+			}
+		}
+	]
+}

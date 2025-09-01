@@ -1,0 +1,1470 @@
+{
+  "idRef": {
+    "id": "StoryTime4b-Anomaly"
+  },
+  "ui_name": "StoryTime4b-Anomaly",
+  "nodes": [
+    {
+      "idRef": {
+        "id": "9c30c065819cf82f37f52a3e"
+      },
+      "index": 0,
+      "text": "We've done it, {COMMANDER.Callsign}. Thanks to your efforts, the Restoration Army has broken the Directorate's hold on Panzyr.\n\nLord Pierre-Louis Decimis has already pledged his House and his systems to my service. The Restoration is growing, just as we'd hoped it would.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 1,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1d01a57d4043625c9b85de"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Set BattleTech Fade",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "",
+                "call_value": {
+                  "functionName": "Get Preset Value (int)",
+                  "args": [
+                    {
+                      "int_value": 0,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "SimGameFadeValues",
+                      "call_value": null,
+                      "variableref_value": null
+                    },
+                    {
+                      "int_value": 1,
+                      "bool_value": false,
+                      "float_value": 0.0,
+                      "string_value": "",
+                      "call_value": null,
+                      "variableref_value": null
+                    }
+                  ]
+                },
+                "variableref_value": null
+              }
+            ]
+          },
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-BeginMusic-GC_320_ANOMALY",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": "Fade In, GC_320_ANOMALY"
+    },
+    {
+      "idRef": {
+        "id": "9ca03a3f1d1758e10b08e76c"
+      },
+      "index": 1,
+      "text": "And with his support, you gain territory, soldiers, and a bolstered supply chain. Not a bad deal for you, Lady Arano.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 2,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8658d7cbb78c2d3deb1d47"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cbf7f75100861fcf5bafa5e"
+      },
+      "index": 2,
+      "text": "Or for [[DM.BaseDescriptionDefs[LoreHouseDecimis],House Decimis]]. The Directorate took a scorched-earth approach to Panzyr's farmland. Without our ongoing support, the people here would starve.\n\nI am not my uncle, Darius. The Restoration gives as much as it takes.",
+      "branches": [
+        {
+          "responseText": "That's commendable, Lady Arano. But it may not be sustainable.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 3,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c16fbc6c3a8b7cfaa4ed7d5"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "It isn't like you have much choice. Letting them starve would be terrible PR.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 29,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c5d7da5ab8cdb60beffd5bb"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "And your people will love you for it.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 30,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd8b032c2f0ed5fb8b3e552"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "That's why we're with you and not the Directorate.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 32,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c145746aebbed6f09f07a3c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c24ae13da4e1029c599b48d"
+      },
+      "index": 3,
+      "text": "I'm fully aware that war has a price, {COMMANDER.Callsign}. And I expect that price to escalate.\n\nBut for now, I can afford to help these people. And so I will—and to hell with the cost.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3e8ac90835550a5bf50ce5"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c24ae6104f7d5f53bfeadb7"
+      },
+      "index": 4,
+      "text": "It's a victory, to be sure. But we're still a long way from Coromodir, and Director Espinosa has only just begun to marshal his forces.\n\nThings are going to get a lot more difficult as we push forward, toward Smithon. The Directorate's military capabilities appear to be way out of line with our initial estimates… somehow, they've gained access to weapons and BattleMechs that are totally foreign to the [[DM.BaseDescriptionDefs[LoreAuriganReach],Aurigan Reach]].",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 5,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c615764f306192129fcb4f9"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cf035bab085cbcfab6a7328"
+      },
+      "index": 5,
+      "text": "Where do you think all this hardware is coming from?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 6,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ce940f9e3105a7484ae418e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c4dc14c88a3a1f0a837d243"
+      },
+      "index": 6,
+      "text": "We don't know. [[DM.BaseDescriptionDefs[LoreHouseEspinosa],House Espinosa]] has always had contacts in the [[DM.BaseDescriptionDefs[LoreInnerSphere],Inner Sphere]]… Lady Victoria's personal BattleMech is a prototype model that's almost impossible to find outside the [[DM.Factions[faction_Kurita],Draconis Combine]]. But this radical new military buildup is something else entirely.\n\nWherever these weapons are coming from, it's a recent development—and a troubling one.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 7,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc6a17c44151bd3a5a72fdd"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ceb7d78f5d07ba8ad3b16db"
+      },
+      "index": 7,
+      "text": "Hey, Lord Madeira… I'm, uh, sorry to interrupt… but there's something here that you may want to see. Actually, you may all want to see this.\n\nI've found something… strange… in our cargo bay.",
+      "branches": [
+        {
+          "responseText": "Why don't I like the sound of that?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 8,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb800715ce1e1d00a34ce55"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "I'm gonna need some clarification on that, Doctor.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 11,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8adef0102b7e31b7a7f05e"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "We've owned the <i>Argo</i> for years. How are you just finding this now?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 12,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c2eed2aa6328d107ce98e45"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c134159216b9a61090d6117"
+      },
+      "index": 8,
+      "text": "Because your head is in the right place. \"I found something weird on the ancient ship\" is what spacers say in horror movies—usually right before everyone starts dying.\n\nBack me up on this, Darius. What was the one you made me watch the other day, with the drones that started eating people?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 9,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ceb31572429305671d875c0"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c8d0ce84293cbcca9e27687"
+      },
+      "index": 9,
+      "text": "Count Harutomo De Sorrentelli's <i>These Gears Are Teeth</i>. It's a great film, but that's <i>all</i> it is. It's make-believe, Meyer.\n\nDoctor Murad, please tell us what you <i>actually</i> found.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 10,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c383b37fbdc1a3f228a8346"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cf5c92e801c54d223238044"
+      },
+      "index": 10,
+      "text": "Well… I appear to have stumbled onto an encrypted data archive. One of the techs mistook it for spare parts when we were stripping the <i>Scheria</i> before Lady Arano sold it to the Magistocracy.\n\nThat's just my best guess, mind you. [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]]-era encryption software isn't really my area of expertise.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c7b4a3e38b7f6f54f2664c8"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c18dc391acb18c8aa438385"
+      },
+      "index": 11,
+      "text": "Well… I appear to have stumbled onto an encrypted data archive. One of the techs mistook it for spare parts when we were stripping the <i>Scheria</i> before Lady Arano sold it to the Magistocracy.\n\nThat's just my best guess, mind you. [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]]-era encryption software isn't really my area of expertise.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1fc503a0fd1ccacdc53d8f"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb8f6605b71bf889cc02a5d"
+      },
+      "index": 12,
+      "text": "One of the techs mistook it for spare parts when we were stripping the <i>Scheria</i> before Lady Arano sold it to the Magistocracy.\n\nIt looks like an encrypted data archive. That's just my best guess, mind you… [[DM.BaseDescriptionDefs[LoreStarLeague],Star League]]-era encryption software isn't really my area of expertise.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 13,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb9a229fc112eb8023df64c"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b98a97623035ac140056c6",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb63a465cb8c43f516583ad"
+      },
+      "index": 13,
+      "text": "My father spent years trying to figure out how to get the <i>Scheria</i> back to Aurigan space in one piece. He was obsessed with this ship—he felt that it was <i>important</i> somehow. And now… this.\n\nI want that archive opened, Dr. Murad. I need to know what's inside.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 14,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cb5c2edf0225698f1f7586a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c39e0b2176f20d91f53de8a"
+      },
+      "index": 14,
+      "text": "With all due respect, Lady Arano, whatever's on that drive was sealed away for a reason.\n\nI've heard enough stories about [[DM.BaseDescriptionDefs[LoreLosTech],LosTech]] treasure hunting to know that it's a bad idea. So why don't we just leave well enough alone?",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 15,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8c966e516224c040422227"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3a06230355c18000067",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c80e2b514690cc6c0f77d50"
+      },
+      "index": 15,
+      "text": "Because this archive could contain something of value. And because, as I previously mentioned, I have a personal connection with this ship.\n\nI believe that this discovery is <i>meant</i> to lead us somewhere, and I intend to follow it.",
+      "branches": [
+        {
+          "responseText": "<color=#85DBF6FF>[Ancestry: Rimward Periphery]</color> You don't need to convince us, Lady Arano. You're the rightful High Lady of the Aurigan Reach, and our client to boot.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 1,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_ancestry_periphery",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 16,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cbb6cb395788695724cbd9b"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "It's a Star League—era data archive. Of course we should try and open it.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 18,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cc3d2bc6959f5db18a89690"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "We shouldn't let this distract us. Superstition isn't a valid leadership strategy.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 20,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cede48ff6efa60b53dcf50b"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "Lady Arano is our client, Meyer. If she wants to check this thing out, then that's what we're gonna do.",
+          "conditions": {
+            "ops": [
+              {
+                "functionName": "Evaluate Tag for Commander",
+                "args": [
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Get Preset Value (int)",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "HasOrHasNot",
+                          "call_value": null,
+                          "variableref_value": null
+                        },
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  },
+                  {
+                    "int_value": 0,
+                    "bool_value": false,
+                    "float_value": 0.0,
+                    "string_value": "",
+                    "call_value": {
+                      "functionName": "Tag From String",
+                      "args": [
+                        {
+                          "int_value": 0,
+                          "bool_value": false,
+                          "float_value": 0.0,
+                          "string_value": "commander_ancestry_periphery",
+                          "call_value": null,
+                          "variableref_value": null
+                        }
+                      ]
+                    },
+                    "variableref_value": null
+                  }
+                ]
+              }
+            ]
+          },
+          "actions": null,
+          "nextNodeIndex": 22,
+          "hideIfUnavailable": true,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9238573cd1c3bbb2d7f2c2"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": "BG: Not RWP"
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c821d32466d949c5943316f"
+      },
+      "index": 16,
+      "text": "The Commander's right, Meyer. If Lady Arano wants to go investigate this thing, then that's what we're gonna do. It isn't our job to talk her out of it.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 17,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c629ce8491693acee019903"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ccd873ea888b284621bda36"
+      },
+      "index": 17,
+      "text": "Thankfully, we can follow this lead and pursue our campaign against the Directorate at the same time. The liberation of House Karosas on Smithon is already the Restoration's next objective, and Lord Simon Karosas was [[DM.BaseDescriptionDefs[LoreHighLordTamatiArano],High Lord Tamat]]'s chief technologist.\n\nSecuring the help we need will cost us nothing that we weren't already planning to pay.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cfebb820ef845f74128a716"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c1d8b2bc7a07afd6ea2f117"
+      },
+      "index": 18,
+      "text": "Damn right we should. You don't just leave money on the table—anyone could tell you that.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 19,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c5e31d7c2df1f4271ca5259"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f36230355c1800006a",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c625bd1dc83d27155d8b4aa"
+      },
+      "index": 19,
+      "text": "Thankfully, we can follow this lead and pursue our campaign against the Directorate at the same time. The liberation of House Karosas on Smithon is already the Restoration's next objective, and Lord Simon Karosas was [[DM.BaseDescriptionDefs[LoreHighLordTamatiArano],High Lord Tamati]]'s chief technologist.\n\nSecuring the help we need will cost us nothing that we weren't already planning to pay.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 23,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c214e4b9c393fb33cb6d2de"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ca697970f782514715ac3cc"
+      },
+      "index": 20,
+      "text": "It won't be a distraction, Commander {COMMANDER.LastName}. We can follow this lead and pursue our campaign against the Directorate at the same time.\n\nThe liberation of House Karosas on Smithon is already the Restoration's next objective, and Lord Simon Karosas was [[DM.BaseDescriptionDefs[LoreHighLordTamatiArano],High Lord Tamati]]'s chief technologist. Securing the help we need will cost us nothing we weren't already going to pay.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 21,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cfdf597d5b8501713f4ea4b"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59b97f45623035ac140054ca",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c66a6ebe969b95b89a523bd"
+      },
+      "index": 21,
+      "text": "It's possible that you're right, {COMMANDER.Callsign}—this could all be superstitious nonsense. But... I cannot help seeing the hand of fate at work here.\n\nMastiff taught me to pay heed to my intuition, and that is what I intend to do.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9cd9ff75eee5fb795938b9e9"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c3a5d6dbf4efbe571facc06"
+      },
+      "index": 22,
+      "text": "That is what I want, yes. And thankfully, we can follow this lead and pursue our campaign against the Directorate at the same time.\n\nThe liberation of House Karosas on Smithon is already the Restoration's next objective, and Lord Simon Karosas was my father's chief technologist. Securing the help we need will cost us nothing that we weren't already planning to pay.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 23,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1774e48b07d5f13a787b73"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cb1d49eb904679a8476eff1"
+      },
+      "index": 23,
+      "text": "Perhaps this is all just a coincidence, Ms. Meyer... but I cannot help seeing the hand of fate at work here.\n\nMastiff taught me to pay heed to my intuition, and that is what I intend to do.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c4a923a6f0420d01ba6199d"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9cc3d9256a64aad79a7534bf"
+      },
+      "index": 24,
+      "text": "",
+      "branches": [
+        {
+          "responseText": "Tell me more about Lord Karosas.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 25,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c33ac828b7eb8376a04e04a"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "Why do you think this Lord Karosas will be able to open our archive?",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 26,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1d7570e510f8a660629799"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        },
+        {
+          "responseText": "That's the plan, then. After we liberate Smithon, we'll have an audience with Lord Karosas.",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 27,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c9750248d3192179f8b36b1"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": "QuestionHub"
+    },
+    {
+      "idRef": {
+        "id": "9c52ac90a08283fe3d653b88"
+      },
+      "index": 25,
+      "text": "He's a hard man who doesn't suffer fools gladly. That said, he's also quite brilliant—a noble with the mind of a scholar.\n\nHis adult children, Otto and Lina, were much the same. Difficult at times, to be sure, but fierce allies to House Arano.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c3c41236f849dd4d56b6501"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce1eecde7a7bdf3d4e345db"
+      },
+      "index": 26,
+      "text": "Because he knows LosTech better than anyone in the Reach. In the days of my father's reign, whenever scraps of forgotten technology were discovered in the Reach, they'd be taken to Smithon for cataloging and study.\n\nIf there are answers to be found, we'll find them with him.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 24,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c8b09aa34144493b815cdbf"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c43e1e4a5b39047312677cc"
+      },
+      "index": 27,
+      "text": "Yes, {COMMANDER.Callsign}. And shortly thereafter, we will see if my father's intuition about the <i>Scheria</i> was justified.\n\nAs before, I will contact you when we're ready to move on Smithon. For now, I'll take my leave of you… I have nobles to placate and an army to rally. And you have your own contracts to pursue, I'm sure.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 28,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c589ee58b3631f2605eb3a6"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": false,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ca7e18a426d2472f04edcf3"
+      },
+      "index": 28,
+      "text": "Yes, we do, Lady Arano. We're keeping busy, just as you asked us to.\n\nYou all heard her—we've got some time before the next leg of the Restoration's offensive, and our client wants us to make the most of it. Time is money, so let's get back to work.",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "598cd3f26230355c18000069",
+      "actions": {
+        "ops": [
+          {
+            "functionName": "Play BattleTech Audio Event",
+            "args": [
+              {
+                "int_value": 0,
+                "bool_value": false,
+                "float_value": 0.0,
+                "string_value": "GConv-LastDialogueBranchMusic",
+                "call_value": null,
+                "variableref_value": null
+              }
+            ]
+          }
+        ]
+      },
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c379585727ec17aabfc52be"
+      },
+      "index": 29,
+      "text": "From a strictly pragmatic point of view, that's true. But I would help these people whether anyone was watching or not.\n\nThis is what I'm fighting for, {COMMANDER.Callsign}—pragmatism be damned.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c1abe8c91ccbb54545e1a82"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c7549361a8a7abb4d3734d1"
+      },
+      "index": 30,
+      "text": "That's for them to decide. Either way, I'll continue feeding them for as long as they need it.\n\nI meant what I said when we liberated Weldry. These people are my responsibility, and I will help them, no matter the cost.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9c045d10c7ad0037cfe5cc97"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9c9e75d7ce7864099b14c969"
+      },
+      "index": -1,
+      "text": "",
+      "branches": [],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "",
+      "actions": null,
+      "comment": ""
+    },
+    {
+      "idRef": {
+        "id": "9ce09887d0afa499d6d0817f"
+      },
+      "index": 32,
+      "text": "And the fact that you care is in turn is why you're on my payroll, rather than a less principled company.\n\nI meant what I said when we liberated Weldry. I'll continue feeding them for as long as they need it. These people are my responsibility, and I will help them, no matter the cost.",
+      "branches": [
+        {
+          "responseText": "",
+          "conditions": null,
+          "actions": null,
+          "nextNodeIndex": 4,
+          "hideIfUnavailable": false,
+          "onlyOnce": false,
+          "idRef": {
+            "id": "9ca413f44186cbfa37288482"
+          },
+          "inputBypass": false,
+          "auxiliaryLink": true,
+          "comment": ""
+        }
+      ],
+      "nodeType": 1,
+      "truthValue": false,
+      "autoFollowBranchDelay": 1,
+      "inputMaxLength": 0,
+      "sourceTopicRef": null,
+      "subjectTopicRefs": [],
+      "sourceInSceneRef": null,
+      "sourceWithTagInScene": "",
+      "override_speaker": null,
+      "speaker_override_id": "59baac916230356416000354",
+      "actions": null,
+      "comment": ""
+    }
+  ],
+  "roots": [
+    {
+      "responseText": "",
+      "conditions": null,
+      "actions": null,
+      "nextNodeIndex": 0,
+      "hideIfUnavailable": false,
+      "onlyOnce": false,
+      "idRef": {
+        "id": "9cc0cfa542b2df67e886cd93"
+      },
+      "inputBypass": false,
+      "auxiliaryLink": false,
+      "comment": ""
+    }
+  ],
+  "default_speaker_id": "",
+  "default_speaker_override": null,
+  "persistent_conversation": false,
+  "speaker_override_id": ""
+}

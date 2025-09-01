@@ -29,7 +29,7 @@ mechdef_perseus_P1-Prime,Mech,1,10
 mechdef_orion_ON2-M,Mech,1,10
 mechdef_hunchback_HBK-4P,Mech,1,10
 mechdef_hunchback_HBK-6N,Mech,1,10
-mechdef_ba_is_standard,Mech,1,10
+Gear_Airdrop_Beacon_BA_IS_Standard,Upgrade,1,10
 vehicledef_APC_HeavyWheeled_LRM,Mech,1,10
 vehicledef_APC_Alsvin,Mech,1,10
 vehicledef_SCORPION_MKII,Mech,1,10
