@@ -118,7 +118,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                echo "Downloading importer"
+                echo "Downloading bta-wiki-import"
                 TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
                 wget https://github.com/BattleTech-Advanced-3062-3062/bta-wiki-import/releases/download/${TAG}/bta-wiki-import_linux_amd64.tar.gz
                 tar xvf bta-wiki-import_linux_amd64.tar.gz
