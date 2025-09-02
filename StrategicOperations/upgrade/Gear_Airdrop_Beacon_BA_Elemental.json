@@ -17,7 +17,7 @@
 			}
 		],
         "BonusDescriptions": [
-            "BASquad",
+            "BASquad: Elemental",
             "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 50000",

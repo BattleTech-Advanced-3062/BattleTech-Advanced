@@ -17,7 +17,7 @@
 			}
 		],
         "BonusDescriptions": [
-            "BASquad",
+            "BASquad: Dragoon",
             "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 20000",
