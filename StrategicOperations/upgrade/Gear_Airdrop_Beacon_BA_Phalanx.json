@@ -17,7 +17,7 @@
 			}
 		],
         "BonusDescriptions": [
-            "BASquad",
+            "BASquad: Phalanx",
             "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 20000",
