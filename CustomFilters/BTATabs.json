@@ -287,21 +287,6 @@
 						"notused"
 					]
 				}
-			},
-			{
-				"Icon": "battle-amor-suit",
-				"Tooltip": "Battle Armor Weapons",
-				"Filter": {
-					"ComponentTypes": [
-						"Weapon"
-					],
-					"Categories": [
-						"BAWeapon"
-					],
-					"NotCategories": [
-						"notused"
-					]
-				}
 			}
 		]
 	},

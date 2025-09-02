@@ -17,7 +17,7 @@
 			}
 		],
         "BonusDescriptions": [
-            "BASquad",
+            "BASquad: Grenadier",
             "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 30000",

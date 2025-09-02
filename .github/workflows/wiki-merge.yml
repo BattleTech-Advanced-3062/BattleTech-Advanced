@@ -18,7 +18,7 @@ jobs:
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/toggleCloudflareApi.py enable
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py enable
     faction-update:
         needs: cloudflare-pass-enable
         name: Post Faction Info to Wiki
@@ -39,7 +39,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/factionRenderer.py
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factionRenderer.py
     factory-update:
         needs: cloudflare-pass-enable
         name: Post Factory Info to Wiki
@@ -60,7 +60,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/factoryRenderer.py
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/factoryRenderer.py
     pilot-update:
         needs: cloudflare-pass-enable
         name: Post Pilot Info to Wiki
@@ -81,7 +81,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/pilotRenderer.py
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/pilotRenderer.py
     vehicle-update:
         needs: cloudflare-pass-enable
         name: Post Vehicle Info to Wiki
@@ -102,7 +102,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/vehicleRenderer.py
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/vehicleRenderer.py
     import-game-info-to-wiki:
         needs: cloudflare-pass-enable
         name: Uploading game info to wiki
@@ -118,8 +118,8 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                echo "Downloading importer"
-                TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
+                echo "Downloading bta-wiki-import"
+                TAG=$(curl -s https://api.github.com/repos/BattleTech-Advanced-3062/bta-wiki-import/releases/latest | jq -r '.tag_name')
                 wget https://github.com/BattleTech-Advanced-3062-3062/bta-wiki-import/releases/download/${TAG}/bta-wiki-import_linux_amd64.tar.gz
                 tar xvf bta-wiki-import_linux_amd64.tar.gz
                 mkdir path-to-wikitext
@@ -140,4 +140,4 @@ jobs:
               env:
                 CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced-3062/BattleTech-Advanced-3062/wiki-gen/src/toggleCloudflareApi.py disable
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/toggleCloudflareApi.py disable
