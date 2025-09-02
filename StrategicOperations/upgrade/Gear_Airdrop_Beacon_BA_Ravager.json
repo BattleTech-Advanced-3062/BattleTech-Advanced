@@ -17,7 +17,7 @@
 			}
 		],
         "BonusDescriptions": [
-            "BASquad",
+            "BASquad: Ravager",
             "RequiresOmni",
             "AbilityResolveCost: 15",
             "AbilityCBillCost: 40000",
