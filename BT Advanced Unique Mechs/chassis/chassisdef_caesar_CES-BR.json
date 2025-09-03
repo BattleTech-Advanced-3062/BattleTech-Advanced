@@ -311,7 +311,8 @@
 	"VariantName": "CES-BR",
 	"ChassisTags": {
 		"items": [
-			"HeavyMech"
+			"HeavyMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
