@@ -1929,8 +1929,8 @@
     }
   ],
   "overrideAutoCompleteDialogueId": null,
-  "disableNegotations": true,
-  "disableLanceConfiguration": true,
+  "disableNegotations": false,
+  "disableLanceConfiguration": false,
   "disableCancelButton": true,
   "disableAfterAction": false,
   "contractRewardOverride": 180000,

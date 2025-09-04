@@ -1158,7 +1158,7 @@
         }
     ],
     "overrideAutoCompleteDialogueId": "1c0cc7ed-7e9a-4e37-be6b-e82cf444f5d8",
-    "disableNegotations": true,
+    "disableNegotations": false,
     "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
