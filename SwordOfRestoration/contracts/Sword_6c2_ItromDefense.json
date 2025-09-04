@@ -1306,7 +1306,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,
