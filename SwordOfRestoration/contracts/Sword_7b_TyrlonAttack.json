@@ -26,7 +26,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Tyrlon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "RestorationTylron",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
