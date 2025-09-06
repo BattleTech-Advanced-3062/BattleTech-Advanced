@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "AbilityDefGu5T",
 		"Name": "ANGLED ARMOR",
-		"Details": "PASSIVE: This tank is being piloted by a defensive mastermind. Their skill behind the wheel grants the tank additional hit defense, as they know how best to angle the tank's armor for maximum effectiveness.",
+		"Details": "PASSIVE: This tank is being piloted by a defensive mastermind. Their skill behind the wheel grants the tank +2 additional hit defense, as they know how best to angle the tank's armor for maximum effectiveness.",
 		"Icon": "battle-tank"
 	},
 	"DisplayParams": "ShowInMWTRay",

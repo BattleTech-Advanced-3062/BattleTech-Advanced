@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Smithon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "RestorationSmithonAttack",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

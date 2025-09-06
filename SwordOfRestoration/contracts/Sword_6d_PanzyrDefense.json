@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Panzyr_Defense",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "RestorationPanzyrDefense",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

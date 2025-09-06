@@ -14,7 +14,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Itrom_Defense",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 6,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

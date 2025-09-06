@@ -15,7 +15,7 @@
     "OnContractFailureResults": [],
     "contractType": "Story_7_GunboatDiplomacy",
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 12,
+    "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": -1,
     "mechMinTonnages": [
