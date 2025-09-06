@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "AbilityDefP5a",
 		"Name": "PHANTOM",
-		"Details": "ACTION: Blur your mech's sensor signature such that you gain +2 evasive charges from your movement for two turns. 3 turn cooldown, does not end the turn. <b><color=#099ff2>Costs 15 Resolve to use!</color></b>",
+		"Details": "ACTION: Blur your mech's sensor signature such that you gain +2 evasive charges from all movement for two turns. 3 turn cooldown, does not end the turn. <b><color=#099ff2>Costs 15 Resolve to use!</color></b>",
 		"Icon": "lv_static"
 	},
 	"DisplayParams": "ShowInMWTRay",
@@ -35,7 +35,7 @@
 				"Icon": "lv_static"
 			},
 			"statisticData": {
-				"statName": "MaxEvasivePips",
+				"statName": "EvasivePipsGainedAdditional",
 				"operation": "Int_Add",
 				"modValue": "2",
 				"modType": "System.Int32"
