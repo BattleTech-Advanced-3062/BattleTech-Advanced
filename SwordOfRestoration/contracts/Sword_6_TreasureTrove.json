@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_6A_TreasureTrove",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission6",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -1230,7 +1230,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

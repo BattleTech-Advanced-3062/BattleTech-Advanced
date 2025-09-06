@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_2_ThreeYearsLater",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 6,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission2",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -585,7 +585,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": true,
 	"disableAfterAction": false,

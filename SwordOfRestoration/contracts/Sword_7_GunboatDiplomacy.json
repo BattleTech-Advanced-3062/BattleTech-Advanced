@@ -15,7 +15,7 @@
     "OnContractFailureResults": [],
     "contractType": "Story_7_GunboatDiplomacy",
     "encounterPlayStyle": "SinglePlayer",
-    "maxNumberOfPlayerUnits": 12,
+    "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
     "lanceMaxTonnage": -1,
     "mechMinTonnages": [
@@ -1158,8 +1158,8 @@
         }
     ],
     "overrideAutoCompleteDialogueId": "1c0cc7ed-7e9a-4e37-be6b-e82cf444f5d8",
-    "disableNegotations": true,
-    "disableLanceConfiguration": false,
+    "disableNegotations": false,
+	  "disableLanceConfiguration": false,
     "disableCancelButton": false,
     "disableAfterAction": false,
     "contractRewardOverride": 4966000,

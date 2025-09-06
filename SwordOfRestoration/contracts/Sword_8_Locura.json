@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_8_Locura",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission8",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -870,7 +870,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": true,
 	"disableAfterAction": false,

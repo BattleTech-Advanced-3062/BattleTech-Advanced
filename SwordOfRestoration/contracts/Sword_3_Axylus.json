@@ -31,7 +31,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_3_Axylus",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission3",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -909,7 +909,7 @@
 		}
 	],
 	"overrideAutoCompleteDialogueId": null,
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

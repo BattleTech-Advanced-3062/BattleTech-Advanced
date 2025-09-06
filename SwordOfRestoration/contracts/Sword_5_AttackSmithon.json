@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Smithon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "RestorationSmithonAttack",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -881,7 +881,7 @@
 		}
 	],
 	"overrideAutoCompleteDialogueId": null,
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

@@ -26,7 +26,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_4_LiberationOfWeldry",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission4",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -683,7 +683,7 @@
 		}
 	],
 	"overrideAutoCompleteDialogueId": null,
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

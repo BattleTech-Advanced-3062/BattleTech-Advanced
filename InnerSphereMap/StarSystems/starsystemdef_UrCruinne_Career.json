@@ -29,7 +29,8 @@
 		"highlandsSpring",
 		"highlandsFall",
 		"polarFrozen",
-		"tundraFrozen"
+		"tundraFrozen",
+		"badlandsParched"
 	],
 	"MapRequiredTags": {
 		"items": [],

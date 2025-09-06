@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Chameleon",
-		"Id": "chassisdef_chameleon_CLN-7W",
-		"Name": "Chameleon",
-		"Details": "The Chameleon -7W is an updated model released by Mountain Wolf BattleMechs to make aging 'Mech more competitive on the modern battlefield. Trading the lighter weapons for thicker armor and a swap to Double Heat Sinks increases its endurance, while the Large Laser in the Right Arm has been upgraded to an extended range model, and the Medium Laser in the Left Arm was traded for a pulse laser.",
+		"UIName": "Q-Mech",
+		"Id": "chassisdef_chameleon_CLN-QM",
+		"Name": "Q-Mech",
+		"Details": "Inspired by rumors of the so-called 'Academy Assassin', MechWarrior Andrew Hackard built this, the Chameleon Q-Mech, for the Solaris VII arenas. The Q-Mech, named that for an obscure military term from old Terra, looks just like a normal Chameleon, complete with decoy weapon mounts. However, when it opens fire the truth comes out as its Heavy PPC and trio of Clan-grade Heavy Medium Lasers obliterate whatever it is facing. An Angel ECM helps keep the designe protected from prying eyes and an advanced Targeting Computer ensures the weapons hit without issue. The Q-Mech proved popular and found great success in the arenas.",
 		"Icon": "uixTxrIcon_chameleon"
 	},
 	"MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -73,6 +73,10 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -101,7 +105,12 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 160,
@@ -138,7 +147,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -211,15 +220,16 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "CLN-7W",
+	"VariantName": "CLN-QM",
 	"ChassisTags": {
 		"items": [
-			"MediumMech"
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Heavy Scout",
-	"YangsThoughts": "The Chameleon -7W is an updated model released by Mountain Wolf BattleMechs to make aging 'Mech more competitive on the modern battlefield. Trading the lighter weapons for thicker armor and a swap to Double Heat Sinks increases its endurance, while the Large Laser in the Right Arm has been upgraded to an extended range model, and the Medium Laser in the Left Arm was traded for a pulse laser.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Inspired by rumors of the so-called 'Academy Assassin', MechWarrior Andrew Hackard built this, the Chameleon Q-Mech, for the Solaris VII arenas. The Q-Mech, named that for an obscure military term from old Terra, looks just like a normal Chameleon, complete with decoy weapon mounts. However, when it opens fire the truth comes out as its Heavy PPC and trio of Clan-grade Heavy Medium Lasers obliterate whatever it is facing. An Angel ECM helps keep the designe protected from prying eyes and an advanced Targeting Computer ensures the weapons hit without issue. The Q-Mech proved popular and found great success in the arenas.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -234,7 +244,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
