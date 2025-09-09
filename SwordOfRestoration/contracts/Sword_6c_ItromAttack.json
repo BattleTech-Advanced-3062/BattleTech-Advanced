@@ -22,7 +22,7 @@
 		"Actions": []
 	}],
 	"OnContractFailureResults": [],
-	"contractType": "Itrom_Attack",
+	"contractTypeID": "Itrom_Attack",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "RestorationItrom",

@@ -12,7 +12,7 @@
 	"requirementList": [],
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
-	"contractType": "Itrom_Defense",
+	"contractTypeID": "Itrom_Defense",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "",

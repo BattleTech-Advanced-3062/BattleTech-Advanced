@@ -13,7 +13,7 @@
 	"requirementList": [],
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
-	"contractType": "Smithon_Attack",
+	"contractTypeID": "Smithon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 6,
 	"mapMood": "RestorationSmithonAttack",
