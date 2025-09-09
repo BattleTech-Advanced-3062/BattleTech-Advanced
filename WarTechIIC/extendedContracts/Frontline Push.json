@@ -30,7 +30,10 @@
 		"",
 		"",
 		"CrushingResistance",
-		"PaymentDelivered"
+		"PaymentDelivered",
+		"",
+		"",
+		"InvasionBegins"
 	],
 	"entries": {
 		"InitialSkirmish": {
@@ -44,7 +47,7 @@
 		"CapturingTheBase": {
 			"contractChance": 1,
 			"workOrder": "Taking the Initial Enemy Base",
-			"contract": [ "CaptureBase_PullingLinchpins" ],
+			"contract": [ "CaptureBase_SurveillanceOutpost" ],
 			"declinePenalty": "BreakContract",
 			"ignoreContractRequirements": true,
 			"contractMessage": "Ok, Commander, we've got our LZ, now it's time to capture an enemy base to set up our command post. Expect resistance."
@@ -52,7 +55,7 @@
 		"HoldingTheBase": {
 			"contractChance": 1,
 			"workOrder": "Enemy Counter-Attack",
-			"contract": [ "DefendBase_Automation" ],
+			"contract": [ "DefendBase_TitanAttack" ],
 			"declinePenalty": "BreakContract",
 			"ignoreContractRequirements": true,
 			"contractMessage": "Commander, we've received word from our advance scouts of a large enemy counter-attack against our command post. Get out there and hold the line!"
@@ -73,6 +76,11 @@
 				"5": "BTA_standard_Major_Loot_EC",
 				"8": "BTA_standard_Superior_Loot_EC"
 			}
+		},
+		"InvasionBegins": {
+			"popupTitle": "The Invasion Begins",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
+			"triggerEvent": [ "bd_event_TriggerInvasion" ]
 		}
   }
 }
