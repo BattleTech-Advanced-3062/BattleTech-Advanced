@@ -1,0 +1,112 @@
+{
+    "Description" : {
+        "Id" : "bd_event_TriggerInvasion",
+        "Name" : "The Invasion Begins",
+		"Details" : "After a long few days, Darius calls you to the bridge.  \"Commander, thanks to our efforts here at [[TGT_SYSTEM,{TGT_SYSTEM.Name}]], our employer has successfully taken a beachhead and is beginning a full-scale invasion. Our rep has offered us further work in the invasion, if you're interested. I've pulled up the appropriate contract in the Command Center, take a look and see if you're interested. I'm sure our employer will be thrilled to have us sticking around for the main event.\"",
+        "Icon" : "uixTxrSpot_DailyBriefing.png"
+    },
+    "Scope" : "Company",
+    "Weight" : 0,
+    "Requirements" : {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "",
+                "items" : []
+            },
+            "RequirementComparisons" : [ ]
+        },
+    "AdditionalRequirements" : [
+        {
+            "Scope" : "StarSystem",
+            "RequirementTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : []
+            },
+            "ExclusionTags" : {
+                "tagSetSourceFile" : "Tags/PlanetTags",
+                "items" : [
+                    "planet_pop_none"
+                ]
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "AdditionalObjects" : [],
+    "Options" : [
+        {
+            "Description" : {
+                "Id" : "outcome_0",
+                "Name" : "Acknowledged.",
+                "Details" : "",
+                "Icon" : null
+            },
+            "RequirementList" : [
+                {
+                    "Scope" : "Company",
+                    "RequirementTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "ExclusionTags" : {
+                        "tagSetSourceFile" : "",
+                        "items" : []
+                    },
+                    "RequirementComparisons" : []
+                }
+            ],
+            "ResultSets" : [
+                {
+                    "Description" : {
+                        "Id" : "outcome_0_0",
+                        "Name" : "Invasion begins.",
+                        "Details" : "You think for a moment before responding. \"Understood, Darius. I'll talk to Yang about our forces, see if we're prepped to support the full invasion or not.\"\r\n\r\n\"Aye, aye, Commander.\"",
+                        "Icon" : null
+                    },
+                    "Weight" : 100,
+                    "Results" : [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"WIIC_{faction}_attacks_HERE"
+								]
+							},
+							"RemovedTags": {},
+							"Stats": [],
+							"Actions": [],
+							"ForceEvents": [],
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+                }
+            ],
+            "Requirements" : {
+                "Scope" : "Company",
+                "RequirementTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "ExclusionTags" : {
+                    "tagSetSourceFile" : "",
+                    "items" : []
+                },
+                "RequirementComparisons" : []
+            }
+        }
+    ],
+    "PublishState" : "PUBLISHED",
+    "ValidationState" : "UNTESTED",
+    "EventType" : "NORMAL",
+    "OneTimeEvent" : true,
+    "Tags" : {
+        "tagSetSourceFile" : "tags/EventTags",
+        "items" : []
+    }
+}

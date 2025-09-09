@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "Lord Karosas challenged my authority, and he was right to do so. His daughter died in my name. We're going to do what we can to earn his help and support. That means destroying the <i>Newgrange</i>, a smuggling ship that has been running weapons to the Directorate. I'll be your voice on the comms for this drop, {COMMANDER.Callsign}... let's get this done.",
+	"shortDescription": "Lord Karosas challenged my authority, and he was right to do so. His daughter died in my name. We're going to do what we can to earn his help and support. That means destroying the <i>Newgrange</i>, a smuggling ship that has been running weapons to the Directorate. I'll be your voice on the comms for this drop, {COMMANDER.Callsign}... let's get this done.\n\n <b><color=#e51717>ALLOWS UP TO 6 UNITS</color></b>",
 	"longDescription": "Keep your eyes open for the <i>Newgrange</i>'s security detail, and be ready for a fight when it arrives. I'll be rooting for you from here.",
 	"salvagePotential": 28,
 	"requirementList": [],
@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_5_ServedCold",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 6,
 	"mapMood": "Mission5",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

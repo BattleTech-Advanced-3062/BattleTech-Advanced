@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "Under Ostergaard's orders, the Taurians are attacking our famine relief effort on Panzyr. If they succeed, mass starvation will follow. They're trying to bait me into redirecting the main army and taking the field myself... but I can't let them do that. If our people are to survive, you will have to save them.",
+	"shortDescription": "Under Ostergaard's orders, the Taurians are attacking our famine relief effort on Panzyr. If they succeed, mass starvation will follow. They're trying to bait me into redirecting the main army and taking the field myself... but I can't let them do that. If our people are to survive, you will have to save them.\n\n <b><color=#e51717>ALLOWS UP TO 8 UNITS</color></b>",
 	"longDescription": "We had to deal with hunger back home, on Nassau Heights. Stealing food from starving people is low, even for a monster like Ostergaard.",
 	"salvagePotential": 30,
 	"requirementList": [],
@@ -15,7 +15,7 @@
 	"OnContractFailureResults": [],
 	"contractType": "Panzyr_Defense",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "RestorationPanzyrDefense",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
