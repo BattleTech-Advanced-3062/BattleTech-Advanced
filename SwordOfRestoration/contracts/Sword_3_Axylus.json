@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "A self-appointed bandit queen has taken possession of the <i>Scheria</i>, a derelict DropShip and relic of the Star League era similar to your Argo. We believe that it belongs in more suitable hands... namely, ours. You will drop on Axylus, shut down the pirates' antiaircraft capabilities, and hold out while our engineers bring the <i>Scheria</i> back to life.",
+	"shortDescription": "A self-appointed bandit queen has taken possession of the <i>Scheria</i>, a derelict DropShip and relic of the Star League era similar to your Argo. We believe that it belongs in more suitable hands... namely, ours. You will drop on Axylus, shut down the pirates' antiaircraft capabilities, and hold out while our engineers bring the <i>Scheria</i> back to life.\n\n <b><color=#e51717>ALLOWS UP TO 6 UNITS</color></b>",
 	"longDescription": "This seems straightforward enough... but be careful, {COMMANDER.FirstName}. We don't know for sure what you're going to find on that moon, and we've had enough surprises already.",
 	"salvagePotential": 24,
 	"requirementList": [],
@@ -31,7 +31,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_3_Axylus",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 6,
 	"mapMood": "Mission3",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
