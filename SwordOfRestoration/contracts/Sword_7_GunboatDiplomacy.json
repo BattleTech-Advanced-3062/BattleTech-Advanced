@@ -13,7 +13,7 @@
     "requirementList": [],
     "OnContractSuccessResults": [],
     "OnContractFailureResults": [],
-    "contractType": "Story_7_GunboatDiplomacy",
+    "contractTypeID": "Story_7_GunboatDiplomacy",
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 8,
     "lanceMinTonnage": -1,

@@ -13,7 +13,7 @@
 	"requirementList": [],
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
-	"contractType": "Panzyr_Attack",
+	"contractTypeID": "Panzyr_Attack",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 6,
 	"mapMood": "RestorationPanzyrAttack",

@@ -13,7 +13,7 @@
 	"requirementList": [],
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
-	"contractType": "Story_9_Downfall",
+	"contractTypeID": "Story_9_Downfall",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 4,
 	"mapMood": "Mission9",
