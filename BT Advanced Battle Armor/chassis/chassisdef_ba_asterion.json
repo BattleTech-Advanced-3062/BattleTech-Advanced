@@ -33,8 +33,8 @@
 	"MovementCapDefID": "movedef_wasp_WSP-1A",
 	"PathingCapDefID": "pathingdef_light",
 	"HardpointDataDefID": "hardpointdatadef_hunchback",
-    "PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
-    "PrefabBase": "hunchback",
+	"PrefabIdentifier": "chrPrfMech_hunchbackBase-001",
+	"PrefabBase": "hunchback",
 	"Tonnage": 4,
 	"InitialTonnage": 0,
 	"weightClass": "LIGHT",
@@ -228,7 +228,8 @@
 	"ChassisTags": {
 		"items": [
 			"ProtoMech",
-			"OmniMech"
+			"OmniMech",
+			"BLACKLISTED"
 		],
 		"tagSetSourceFile": ""
 	},
