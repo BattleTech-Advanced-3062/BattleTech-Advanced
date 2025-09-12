@@ -24,7 +24,7 @@
 		}
 	],
 	"OnContractFailureResults": [],
-	"contractType": "Tyrlon_Attack",
+	"contractTypeID": "Tyrlon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
 	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "RestorationTylron",
