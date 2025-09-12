@@ -74,7 +74,7 @@
 							"AddedTags": {
 								"tagSetSourceFile": "",
 								"items": [
-									"WIIC_{faction}_attacks_HERE"
+									"WIIC_WIICEMPLOYER_attacks_HERE"
 								]
 							},
 							"RemovedTags": {},

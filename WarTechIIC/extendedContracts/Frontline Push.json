@@ -11,7 +11,7 @@
             }
         }
     ],
-	"weight": 0,
+	"weight": 1,
 	"spawnLocation": "NearbyEnemy",
 	"employer": ["Any"],
 	"target": ["SystemOwner"],
@@ -79,7 +79,7 @@
 		},
 		"InvasionBegins": {
 			"popupTitle": "The Invasion Begins",
-			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
 			"triggerEvent": [ "bd_event_TriggerInvasion" ]
 		}
   }
