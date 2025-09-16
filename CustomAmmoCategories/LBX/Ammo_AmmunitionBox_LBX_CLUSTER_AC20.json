@@ -31,10 +31,10 @@
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "Generic",
-		"Model": "LBX20CLUSTER",
-		"UIName": "Ammo LBX/20 CLUSTER",
+		"Model": "LB-20XCLUSTER",
+		"UIName": "Ammo LB-20X CLUSTER",
 		"Id": "Ammo_AmmunitionBox_LBX_CLUSTER_AC20",
-		"Name": "LBX20 Cluster Ammo",
+		"Name": "LB-20X Cluster Ammo",
 		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
 		"Icon": "uixSvgIcon_ammoBox_Ballistic"
 	},
