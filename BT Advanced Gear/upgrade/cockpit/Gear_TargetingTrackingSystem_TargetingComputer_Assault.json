@@ -59,7 +59,7 @@
 			"Description": {
 				"Id": "TarCompAssault-AccuracyBoost",
 				"Name": "Assault Targeting Computer Accuracy Boost",
-				"Details": "Weapon attacks gain +2 Accuracy and ignore 2 accuracy.",
+				"Details": "Weapon attacks gain +2 Accuracy and ignore 2 Evasion.",
 				"Icon": "AdvancedTC"
 			},
 			"nature": "Buff",
