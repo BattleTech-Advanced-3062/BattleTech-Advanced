@@ -59,7 +59,7 @@
 			"Description": {
 				"Id": "TarCompMedium-AccuracyBoost",
 				"Name": "Medium Targeting Computer Accuracy Boost",
-				"Details": "Weapon attacks gain +1 Accuracy and ignore 1 accuracy.",
+				"Details": "Weapon attacks gain +1 Accuracy and ignore 1 Evasion.",
 				"Icon": "AdvancedTC"
 			},
 			"nature": "Buff",

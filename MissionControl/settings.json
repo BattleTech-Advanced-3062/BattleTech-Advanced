@@ -262,7 +262,7 @@
 			},
 			{
 				"MapId": "mapGeneral_capitolHill_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.4
+				"IncreaseBoundarySizeByPercentage": 0.5
 			},
 			{
 				"MapId": "mapGeneral_escarpmentValley_vLow",
@@ -274,7 +274,7 @@
 			},
 			{
 				"MapId": "mapGeneral_powerStructure_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.6
+				"IncreaseBoundarySizeByPercentage": 0.7
 			},
 			{
 				"MapId": "mapGeneral_paupersCanyon_aWst",
