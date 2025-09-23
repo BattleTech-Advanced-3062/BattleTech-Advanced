@@ -262,7 +262,7 @@
 			},
 			{
 				"MapId": "mapGeneral_capitolHill_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.5
+				"IncreaseBoundarySizeByPercentage": 0.6
 			},
 			{
 				"MapId": "mapGeneral_escarpmentValley_vLow",
