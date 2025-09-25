@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Cossack",
+			"PrefabID": "Fireball",
 			"Exclude": false,
 			"Include": true
 		}
@@ -12,17 +12,17 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Cossack",
-		"Id": "chassisdef_cossack_C-SK2",
-		"Name": "Cossack",
-		"Details": "The Cossack was named for the mercenary unit Khorsakov's Cossacks in honor of their faithful service to the St. Ives Compact. However, the 'Mech is a compromise design, originally intended as a super-fast scout it eventually morphed into a relatively slow but heavily armored light trooper 'Mech. Powered with a 120-rated XL engine and built with an Endo-Steel skeleton, the Cossack's ground speed is low for its weight but it has 6 jump jets to keep mobile. For firepower, it carries a MML-5 with both SRM and LRM ammunition as well as a Medium Pulse Laser, more than enough to defend itself against other light mechs.",
-		"Icon": "uixTxrIcon_cossack"
+		"UIName": "eXtraFast",
+		"Id": "chassisdef_fireball_ALM-XF",
+		"Name": "eXtraFast",
+		"Details": "Developed by Eduardo Vincetto, the Fireball ALM-XF (known colloqually as the eXtraFast according to Vincetto) is one of the fastest 'Mechs ever produced. Powered by an incredible 320-rated XXL engine and enhanced by a unique combination of MASC and Supercharger technologies, the eXtraFast is unbelievably fast. However, that speed comes at a cost as it has almost no firepower to speak of, just a pair of Clan-grade ER Small Lasers. Still, with such incredible speed, firepower is definitely the secondary concern for eXtraFast.",
+		"Icon": "uixTxrIcon_fireball"
 	},
 	"MovementCapDefID": "movedef_stinger_STG-3R",
 	"PathingCapDefID": "pathingdef_light",
-	"HardpointDataDefID": "hardpointdatadef_cossack",
-	"PrefabIdentifier": "chrprfmech_cossackbase-001",
-	"PrefabBase": "cossack",
+	"HardpointDataDefID": "hardpointdatadef_fireball",
+	"PrefabIdentifier": "chrprfmech_fireballbase-001",
+	"PrefabBase": "fireball",
 	"Tonnage": 20,
 	"InitialTonnage": 2,
 	"weightClass": "LIGHT",
@@ -65,16 +65,7 @@
 		},
 		{
 			"Location": "LeftArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 30,
@@ -101,12 +92,7 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Missile",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 60,
@@ -133,12 +119,7 @@
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 30,
@@ -208,19 +189,21 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "C-SK2",
+	"VariantName": "ALM-XF",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"IgnoreEngineLimit",
+			"LightMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Patriotic Scout",
-	"YangsThoughts": "The Cossack was named for the mercenary unit Khorsakov's Cossacks in honor of their faithful service to the St. Ives Compact. However, the 'Mech is a compromise design, originally intended as a super-fast scout it eventually morphed into a relatively slow but heavily armored light trooper 'Mech. Powered with a 120-rated XL engine and built with an Endo-Steel skeleton, the Cossack's ground speed is low for its weight but it has 6 jump jets to keep mobile. For firepower, it carries a MML-5 with both SRM and LRM ammunition as well as a Medium Pulse Laser, more than enough to defend itself against other light mechs.",
+	"StockRole": "eXtraFast Gladiator",
+	"YangsThoughts": "Developed by Eduardo Vincetto, the Fireball ALM-XF (known colloqually as the eXtraFast according to Vincetto) is one of the fastest 'Mechs ever produced. Powered by an incredible 320-rated XXL engine and enhanced by a unique combination of MASC and Supercharger technologies, the eXtraFast is unbelievably fast. However, that speed comes at a cost as it has almost no firepower to speak of, just a pair of Clan-grade ER Small Lasers. Still, with such incredible speed, firepower is definitely the secondary concern for eXtraFast.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_360Twist_Cossack",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Fireball",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -239,10 +222,31 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_MASC",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_Quirk_Supercharger_Fireball",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
 		}
 	],
 	"CustomParts": {
-		"FiringArc": 360,
 		"CustomParts": []
 	}
 }

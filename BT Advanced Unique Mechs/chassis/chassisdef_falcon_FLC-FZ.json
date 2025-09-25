@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Falcon",
-		"Id": "chassisdef_falcon_FLC-4P",
-		"Name": "Falcon",
-		"Details": "Originally developed as an anti-infantry and Bug Hunter 'Mech, the Falcon is a highly popular light recon and skirmisher 'Mech. Originally developed as a field upgrade before becoming Blackwell's standard production model, the 4P Falcon carries a light arsenal that is primarily based around energy weapons. While the two Small Lasers were retained, the original Medium Laser was swapped for a short-ranged but highly accurate Medium Pulse Laser. Finally, for protection from missiles, the machine guns were dropped for a Anti-Missile System and a single ton of ammunition.",
+		"UIName": "Frennzy",
+		"Id": "chassisdef_falcon_FLC-FZ",
+		"Name": "Frennzy",
+		"Details": "While all indications are that Maurice Frenn of the Wolf's Dragoons Gamma Regiment drove a stock-standard Falcon, somehow the rumor mill of Solaris VII decided he drove a Clantech-modified one instead. This Falcon, nicknamed the Frennzy in Frenn's honor, is supposedly that very Falcon. Built on a 210-rated XL engine and clan in Clan-grade Ferro-Lamellor armor, the Frennzy easily brings 14 Clan SRM tubes to bear on its enemies thanks to 7 jump jets. For ammo-free firepower it carries two ER Medium Lasers, oddly of Inner Sphere manufacture. Frennzy may not be accurate to the real man's 'Mech but it sure is impressive nonetheless.",
 		"Icon": "uixTxrIcon_falcon"
 	},
 	"MovementCapDefID": "movedef_javelin_JVN-10F",
@@ -71,6 +71,10 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
@@ -85,7 +89,7 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -97,7 +101,12 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 100,
@@ -108,7 +117,7 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -121,6 +130,10 @@
 		{
 			"Location": "RightArm",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -199,10 +212,11 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "FLC-4P",
+	"VariantName": "FLC-FZ",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -220,7 +234,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -228,8 +242,8 @@
 			"hasPrefabName": true
 		}
 	],
-	"StockRole": "Bughunter",
-	"YangsThoughts": "Originally developed as an anti-infantry and Bug Hunter 'Mech, the Falcon is a highly popular light recon and skirmisher 'Mech. Originally developed as a field upgrade before becoming Blackwell's standard production model, the 4P Falcon carries a light arsenal that is primarily based around energy weapons. While the two Small Lasers were retained, the original Medium Laser was swapped for a short-ranged but highly accurate Medium Pulse Laser. Finally, for protection from missiles, the machine guns were dropped for a Anti-Missile System and a single ton of ammunition.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "While all indications are that Maurice Frenn of the Wolf's Dragoons Gamma Regiment drove a stock-standard Falcon, somehow the rumor mill of Solaris VII decided he drove a Clantech-modified one instead. This Falcon, nicknamed the Frennzy in Frenn's honor, is supposedly that very Falcon. Built on a 210-rated XL engine and clan in Clan-grade Ferro-Lamellor armor, the Frennzy easily brings 14 Clan SRM tubes to bear on its enemies thanks to 7 jump jets. For ammo-free firepower it carries two ER Medium Lasers, oddly of Inner Sphere manufacture. Frennzy may not be accurate to the real man's 'Mech but it sure is impressive nonetheless.",
 	"CustomParts": {
 		"CustomParts": []
 	}

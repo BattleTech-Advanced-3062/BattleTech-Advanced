@@ -1,32 +1,32 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Falcon",
+			"PrefabID": "Cossack",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"Description": {
-		"Cost": 1900000,
-		"Rarity": 0,
+		"Cost": 1600000,
+		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Falcon",
-		"Id": "chassisdef_falcon_FLC-4P",
-		"Name": "Falcon",
-		"Details": "Originally developed as an anti-infantry and Bug Hunter 'Mech, the Falcon is a highly popular light recon and skirmisher 'Mech. Originally developed as a field upgrade before becoming Blackwell's standard production model, the 4P Falcon carries a light arsenal that is primarily based around energy weapons. While the two Small Lasers were retained, the original Medium Laser was swapped for a short-ranged but highly accurate Medium Pulse Laser. Finally, for protection from missiles, the machine guns were dropped for a Anti-Missile System and a single ton of ammunition.",
-		"Icon": "uixTxrIcon_falcon"
+		"UIName": "Wackadoodle",
+		"Id": "chassisdef_cossack_C-SK1-WD",
+		"Name": "Wackadoodle",
+		"Details": "The Cossack is a little-known and little-loved chassis but even the strangest 'Mechs can find a home in the arenas of the gameworlds. This is one such example, nicknamed Wackadoodle for its unusual loadout of mixed exotic Small Lasers. The 160-rated XL engine and eight jump jets gives Wackadoodle plenty of speed to move around its enemies. Wackadoodle isn't the most successful arena design but even the weirdos get a win now and then.",
+		"Icon": "uixTxrIcon_cossack"
 	},
-	"MovementCapDefID": "movedef_javelin_JVN-10F",
+	"MovementCapDefID": "movedef_stinger_STG-3R",
 	"PathingCapDefID": "pathingdef_light",
-	"HardpointDataDefID": "hardpointdatadef_falcon",
-	"PrefabIdentifier": "chrprfmech_falconbase-001",
-	"PrefabBase": "falcon",
-	"Tonnage": 30,
-	"InitialTonnage": 3,
+	"HardpointDataDefID": "hardpointdatadef_cossack",
+	"PrefabIdentifier": "chrprfmech_cossackbase-001",
+	"PrefabBase": "cossack",
+	"Tonnage": 20,
+	"InitialTonnage": 2,
 	"weightClass": "LIGHT",
-	"BattleValue": 1892000,
+	"BattleValue": 1642000,
 	"Heatsinks": 0,
 	"TopSpeed": 85,
 	"TurnRadius": 90,
@@ -46,12 +46,12 @@
 	"Signature": 0,
 	"Radius": 4,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 40,
+	"MeleeDamage": 30,
 	"MeleeInstability": 10,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 40,
+	"DFADamage": 30,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 40,
+	"DFASelfDamage": 30,
 	"DFAInstability": 10,
 	"Locations": [
 		{
@@ -71,58 +71,21 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 50,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
-			"InternalStructure": 25
+			"InternalStructure": 15
 		},
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 70,
-			"MaxRearArmor": 35,
-			"InternalStructure": 35
-		},
-		{
-			"Location": "CenterTorso",
-			"Hardpoints": [],
-			"Tonnage": 0,
-			"InventorySlots": 17,
-			"MaxArmor": 100,
-			"MaxRearArmor": 50,
-			"InternalStructure": 50
-		},
-		{
-			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
-			"Tonnage": 0,
-			"InventorySlots": 12,
-			"MaxArmor": 70,
-			"MaxRearArmor": 35,
-			"InternalStructure": 35
-		},
-		{
-			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -133,26 +96,76 @@
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 50,
-			"MaxRearArmor": -1,
+			"MaxRearArmor": 25,
 			"InternalStructure": 25
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 60,
+			"MaxRearArmor": 30,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
 		},
 		{
 			"Location": "LeftLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 70,
+			"MaxArmor": 40,
 			"MaxRearArmor": -1,
-			"InternalStructure": 35
+			"InternalStructure": 20
 		},
 		{
 			"Location": "RightLeg",
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 70,
+			"MaxArmor": 40,
 			"MaxRearArmor": -1,
-			"InternalStructure": 35
+			"InternalStructure": 20
 		}
 	],
 	"LOSSourcePositions": [
@@ -199,17 +212,20 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "FLC-4P",
+	"VariantName": "C-SK1-WD",
 	"ChassisTags": {
 		"items": [
-			"LightMech"
+			"LightMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Cossack is a little-known and little-loved chassis but even the strangest 'Mechs can find a home in the arenas of the gameworlds. This is one such example, nicknamed Wackadoodle for its unusual loadout of mixed exotic Small Lasers. The 160-rated XL engine and eight jump jets gives Wackadoodle plenty of speed to move around its enemies. Wackadoodle isn't the most successful arena design but even the weirdos get a win now and then.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_NarrowProfile_Falcon",
+			"ComponentDefID": "Gear_Quirk_360Twist_Cossack",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -220,17 +236,18 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
 		}
 	],
-	"StockRole": "Bughunter",
-	"YangsThoughts": "Originally developed as an anti-infantry and Bug Hunter 'Mech, the Falcon is a highly popular light recon and skirmisher 'Mech. Originally developed as a field upgrade before becoming Blackwell's standard production model, the 4P Falcon carries a light arsenal that is primarily based around energy weapons. While the two Small Lasers were retained, the original Medium Laser was swapped for a short-ranged but highly accurate Medium Pulse Laser. Finally, for protection from missiles, the machine guns were dropped for a Anti-Missile System and a single ton of ammunition.",
 	"CustomParts": {
+		"FiringArc": 360,
 		"CustomParts": []
 	}
 }
