@@ -15,7 +15,7 @@
 	"localizeName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "sprite/guiTxrPort_DuncanFisher.dds"
+		"portraitAssetPath": "../../Mods/BT Advanced Contracts/sprite/guiTxrPort_DuncanFisher.png"
 	},
 	"emotePotraitList": []
 }
