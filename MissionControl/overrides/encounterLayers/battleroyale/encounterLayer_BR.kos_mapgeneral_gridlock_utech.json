@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_gridLock_uTech.799b8f6d-ff98-4ee7-ad2b-47078d371930",
+	"MapID": "mapGeneral_gridLock_uTech",
+	"Name": "encMC_BattleRoyal_gridLock",
+	"FriendlyName": "BR - Grid Lock - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "799b8f6d-ff98-4ee7-ad2b-47078d371930",
+	"TagSetID": "mapGeneral_gridLock_uTech.799b8f6d-ff98-4ee7-ad2b-47078d371930",
+	"IncludeInBuild": "1"
+}
