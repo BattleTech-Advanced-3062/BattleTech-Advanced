@@ -15,7 +15,7 @@
 		"UIName": "Shugo",
 		"Id": "chassisdef_hatamotochi_HTM-SG",
 		"Name": "Shugo",
-		"Details": "Originally given as a gift to Sorenson's Sabres commander Daniel Sorenson by Coordinator of the Draconis Combine Takashi Kurita, this Hatamoto-Chi has seen many modifications over its lifespan. Nicknamed Shugo, it now carries twin LB-10X Autocannons and twin Streak SRM-6s, as well as a C3 Master computer. It is slower than other Hatamotos but the use of Endo-Steel construction ensures the armor remains thick.",
+		"Details": "Originally given as a gift to Sorenson's Sabres commander Daniel Sorenson by Coordinator of the Draconis Combine Takashi Kurita, this Hatamoto-Chi has seen many modifications over its lifespan. Nicknamed Shugo, it now carries twin LB-10X Autocannons and twin Streak SRM-6s. It is slower than other Hatamotos but the use of Endo-Steel construction ensures the armor remains thick while a Heavy Duty Gyro provides extra defense in the thick of arena combat.",
 		"Icon": "uixTxrIcon_hatamotochi"
 	},
 	"MovementCapDefID": "movedef_hatamotochi_HTM-27T",
@@ -221,7 +221,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "Originally given as a gift to Sorenson's Sabres commander Daniel Sorenson by Coordinator of the Draconis Combine Takashi Kurita, this Hatamoto-Chi has seen many modifications over its lifespan. Nicknamed Shugo, it now carries twin LB-10X Autocannons and twin Streak SRM-6s, as well as a C3 Master computer. It is slower than other Hatamotos but the use of Endo-Steel construction ensures the armor remains thick.",
+	"YangsThoughts": "Originally given as a gift to Sorenson's Sabres commander Daniel Sorenson by Coordinator of the Draconis Combine Takashi Kurita, this Hatamoto-Chi has seen many modifications over its lifespan. Nicknamed Shugo, it now carries twin LB-10X Autocannons and twin Streak SRM-6s. It is slower than other Hatamotos but the use of Endo-Steel construction ensures the armor remains thick while a Heavy Duty Gyro provides extra defense in the thick of arena combat.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
