@@ -8,7 +8,7 @@
 		"UIName": "Ghillie",
 		"Id": "chassisdef_enforcer_ENF-GH",
 		"Name": "Ghillie",
-		"Details": "Based on Daniel Waylen's personal Enforcer, the Ghillie enhances the sniper nature of his custom variant with the addition of a Guardian ECM Suite. Armed with a Gauss Rifle in the right arm with two Medium Lasers in the left arm and a Small Laser in the left torso, the Ghillie is equipped with an XL 250 engine and five Jump Jets. Ten Double Heat Sinks keep the 'Mech cool.",
+		"Details": "Based on Daniel Waylen's personal Enforcer, the Ghillie enhances the sniper nature of his custom variant with the addition of a Guardian ECM Suite and Stealth Armor. Armed with a Gauss Rifle in the right arm with two Medium Lasers in the left arm and a Small Laser in the left torso, the Ghillie is equipped with an XL 250 engine and five Jump Jets. Ten Double Heat Sinks keep the 'Mech cool.",
 		"Icon": "uixTxrIcon_enforcer"
 	},
 	"MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -120,6 +120,10 @@
 				{
 					"WeaponMountID": "Ballistic",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -202,7 +206,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "Based on Daniel Waylen's personal Enforcer, the Ghillie enhances the sniper nature of his custom variant with the addition of a Guardian ECM Suite. Armed with a Gauss Rifle in the right arm with two Medium Lasers in the left arm and a Small Laser in the left torso, the Ghillie is equipped with an XL 250 engine and five Jump Jets. Ten Double Heat Sinks keep the 'Mech cool.",
+	"YangsThoughts": "Based on Daniel Waylen's personal Enforcer, the Ghillie enhances the sniper nature of his custom variant with the addition of a Guardian ECM Suite and Stealth Armor. Armed with a Gauss Rifle in the right arm with two Medium Lasers in the left arm and a Small Laser in the left torso, the Ghillie is equipped with an XL 250 engine and five Jump Jets. Ten Double Heat Sinks keep the 'Mech cool.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
@@ -217,7 +221,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

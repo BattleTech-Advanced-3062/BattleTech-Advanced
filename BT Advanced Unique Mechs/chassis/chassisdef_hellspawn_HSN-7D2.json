@@ -8,7 +8,7 @@
 		"UIName": "Paralyzer",
 		"Id": "chassisdef_hellspawn_HSN-7D2",
 		"Name": "Paralyzer",
-		"Details": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and twelve Double Heat Sinks sinks enhanced by a trio of Coolant Pods allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
+		"Details": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and fifteen Double Heat Sinks sinks allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
 		"Icon": "uixTxrIcon_hellspawn"
 	},
 	"MovementCapDefID": "movedef_hellspawn_HSN-7D",
@@ -211,7 +211,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and twelve Double Heat Sinks sinks enhanced by a trio of Coolant Pods allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
+	"YangsThoughts": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and fifteen Double Heat Sinks sinks allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

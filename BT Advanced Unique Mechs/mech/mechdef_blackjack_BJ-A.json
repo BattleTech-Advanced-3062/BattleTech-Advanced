@@ -36,7 +36,7 @@
 		"UIName": "The Arrow BJ-A",
 		"Id": "mechdef_blackjack_BJ-A",
 		"Name": "The Arrow",
-		"Details": "An interpretation of Michael Ubodo's original Blackjack, The Arrow is armed with a trio of Machine Guns in each arm supplied with a ton of ammo, supported by a Medium Laser in each side torso and a Large Pulse Laser mounted in the center torso. Mounting a 235 standard engine, the 'Mech is clad in Ferro-Fibrous armor on an Endo Steel frame, carrying eleven Double Heat Sinks and just two Jump Jets.",
+		"Details": "An interpretation of Michael Ubodo's original Blackjack, The Arrow is armed with a trio of Machine Guns in each arm supplied with three tons of ammo, supported by a Medium Laser in each side torso and a Large Pulse Laser mounted in the center torso. Mounting a 225 light fusion engine, the 'Mech is clad in plenty of armor with an Endo Steel frame, carrying eleven Double Heat Sinks and five Jump Jets.",
 		"Icon": "uixTxrIcon_blackjack"
 	},
 	"simGameMechPartCost": 440000,
@@ -118,7 +118,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_ferrosfibrous",
+			"ComponentDefID": "emod_armorslots_standard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
@@ -127,7 +127,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engine_235",
+			"ComponentDefID": "emod_engine_225",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -171,7 +171,29 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_engineslots_std_center",
+			"ComponentDefID": "emod_engineslots_light_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size2",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size2",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
@@ -336,7 +358,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Tracer_MG",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -347,9 +369,20 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Tracer_MG",
+			"ComponentDefID": "Ammo_AmmunitionBox_AP_MG",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Attachment_MG_Array",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -413,6 +446,17 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -428,6 +472,17 @@
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -457,9 +512,31 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_JumpJet_Generic_Standard",
+			"SimGameUID": null,
+			"ComponentDefType": "JumpJet",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_MG_Array",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
