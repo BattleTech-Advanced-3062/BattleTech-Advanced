@@ -3,7 +3,7 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_hornetbase-001_20",
+      "Hornet_20",
       "chrPrfMech_commandoBase-001_25",
       "UrbanMech_30",
       "Urbie-LAM_30",
@@ -31,7 +31,7 @@
 	  "chrprfmech_wasplegacybase-001_25",
 	  "chrprfmech_stingerlegacybase-001_25",
 	  "Disrupter_35",
-	  "chrprfmech_wightbase-001_35",
+	  "Wight_35",
 	  "Erinyes_50",
 	  "MuninLAM_45",
 	  "Cherub_15",

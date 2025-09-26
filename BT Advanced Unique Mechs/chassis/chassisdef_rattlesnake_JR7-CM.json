@@ -1,0 +1,248 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Rattlesnake",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 3300000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Cottonmouth",
+		"Id": "chassisdef_rattlesnake_JR7-CMCM",
+		"Name": "Cottonmouth",
+		"Details": "The Rattlesnake wasn't a design that ever had a future in the arenas of Solaris VII, it's just too niche and limited. That fact didn't stop people from trying to make the Rattlesnake work in the arenas anyways, giving birth to Cottonmouth. Armed with a pair of ER Medium Lasers and a trio of Piercing Medium Pulse Lasers, Cottonmouth is refreshingly conventional. That has also led to it being rather unpopular but still it has garnered some limited fanbase.",
+		"Icon": "uixTxrIcon_rattlesnake"
+	},
+	"MovementCapDefID": "movedef_jenner_JR7-D",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_genericlight1",
+	"PrefabIdentifier": "chrprfmech_genericlight1base-001",
+	"PrefabBase": "genericlight1",
+	"Tonnage": 35,
+	"InitialTonnage": 3.5,
+	"weightClass": "LIGHT",
+	"BattleValue": 3762000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 35,
+	"MeleeInstability": 15,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 35,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 35,
+	"DFAInstability": 15,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": 40,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 10,
+			"z": 0.5
+		},
+		{
+			"x": -3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": 3,
+			"y": 9,
+			"z": -0.5
+		},
+		{
+			"x": -2.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 2.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "JR7-CM",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Rattlesnake wasn't a design that ever had a future in the arenas of Solaris VII, it's just too niche and limited. That fact didn't stop people from trying to make the Rattlesnake work in the arenas anyways, giving birth to Cottonmouth. Armed with a pair of ER Medium Lasers and a trio of Piercing Medium Pulse Lasers, Cottonmouth is refreshingly conventional. That has also led to it being rather unpopular but still it has garnered some limited fanbase.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Jenner",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -232,7 +232,7 @@
 	"VariantName": "BLR-1G-RC",
 	"ChassisTags": {
 		"items": [
-			"AssaultMech"
+			"AssaultMech",
 			"HeroMech"
 		],
 		"tagSetSourceFile": ""
