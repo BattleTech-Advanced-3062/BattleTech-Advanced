@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Starslayer",
-		"Id": "chassisdef_starslayer_STY-3D",
-		"Name": "Starslayer",
-		"Details": "The 3D variant of the Starslayer is intended to allow the 'Mech to better engage an enemy at long ranges. This is accomplished by removing one of the Large Lasers, the SRM-4 launcher, and the Small Laser. These are replaced with an additional Medium Laser and an ER PPC that can hit a target accurately at six hundred and ninety meters as well as one additional double heat sink to deal with the extra heat from the ER PPC.",
+		"UIName": "Izingar",
+		"Id": "chassisdef_starslayer_STY-IZ",
+		"Name": "Izingar",
+		"Details": "A fairly conventional yet highly effective design, Izingar is a simple gladiator for the Solaris arenas. Armed with twin Large X-Pulse Lasers and a Streak SRM-4, Izingar's firepower is acceptable and its speed is high thanks to a 300-rated XL engine with six jump jets. With nearly maxed Ferro-Fibrous armor for the frame, Izingar is not an easy target to bring down.",
 		"Icon": "uixTxrIcon_starslayer"
 	},
 	"MovementCapDefID": "movedef_enforcer_ENF-4R",
@@ -211,16 +211,17 @@
 			"z": 2.5
 		}
 	],
-	"VariantName": "STY-3D",
+	"VariantName": "STY-IZ",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
-			"MediumMech"
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Skirmisher",
-	"YangsThoughts": "The 3D variant of the Starslayer is intended to allow the 'Mech to better engage an enemy at long ranges. This is accomplished by removing one of the Large Lasers, the SRM-4 launcher, and the Small Laser. These are replaced with an additional Medium Laser and an ER PPC that can hit a target accurately at six hundred and ninety meters as well as one additional double heat sink to deal with the extra heat from the ER PPC.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "A fairly conventional yet highly effective design, Izingar is a simple gladiator for the Solaris arenas. Armed with twin Large X-Pulse Lasers and a Streak SRM-4, Izingar's firepower is acceptable and its speed is high thanks to a 300-rated XL engine with six jump jets. With nearly maxed Ferro-Fibrous armor for the frame, Izingar is not an easy target to bring down.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

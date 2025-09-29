@@ -1,28 +1,28 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Mushu",
+			"PrefabID": "Wyvern",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"Description": {
-		"Cost": 3800000,
+		"Cost": 4254000,
 		"Rarity": 2,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Mushu",
-		"Id": "chassisdef_mushu_MHU-2R",
-		"Name": "Mushu",
-		"Details": "The Mushu holds a place of distinction: it is one of the very rare chassis to be built with a compact engine and a unique compact gyro as standard equipment. Additionally, the Mushu is the first home-grown design of the Aurigan Reach and was put into production shortly before their disastrous civil war. The Mushu MHU-2R is the stock variant and uses its space for a center-line Light Gauss Rifle, sourced from manufacturers in the Free Worlds League. Backing the long-range gauss rifle are a battery of Small Lasers for up close work.",
-		"Icon": "uixTxrIcon_mushu"
+		"UIName": "Rocketeer",
+		"Id": "chassisdef_wyvern_WVE-RKT",
+		"Name": "Rocketeer",
+		"Details": "Named for what hopefully are obvious reasons, Rocketeer is a simple and clean design. Powered by the same reliable 180-rated XL engine as other Wyverns, Rocketeer uses the free weight from the engine and Endo-Steel bones for 100 Reloading Rocket Launcher tubes. Outside of the rockets, Rocketeer only has a single Snub-Nose PPC but that's usually all it needs after it gets off two volleys of heavy rocket fire. 10 DHS, an advanced heat exchanger, and a heat bank all struggle to keep the heat contained though the heat does solve itself eventually with the expenditure of the rockets.",
+		"Icon": "uixTxrIcon_wyvern"
 	},
 	"MovementCapDefID": "movedef_vindicator_VND-1R",
 	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_mushu",
-	"PrefabIdentifier": "chrprfmech_mushubase-001",
-	"PrefabBase": "mushu",
+	"HardpointDataDefID": "hardpointdatadef_wyvern",
+	"PrefabIdentifier": "chrprfmech_wyvernbase-001",
+	"PrefabBase": "wyvern",
 	"Tonnage": 45,
 	"InitialTonnage": 4.5,
 	"weightClass": "MEDIUM",
@@ -56,7 +56,12 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -66,10 +71,6 @@
 		{
 			"Location": "LeftArm",
 			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
@@ -85,7 +86,7 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -99,16 +100,8 @@
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": true
-				},
-				{
 					"WeaponMountID": "Missile",
-					"Omni": true
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -121,7 +114,15 @@
 			"Location": "RightTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -135,7 +136,15 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
@@ -212,21 +221,20 @@
 			"z": 0
 		}
 	],
-	"VariantName": "MHU-2R",
+	"VariantName": "WVE-RKT",
 	"ChassisTags": {
 		"items": [
-			"ArmLimitUpperRight",
-			"ArmLimitUpperLeft",
-			"MediumMech"
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Walking Gun Platform",
-	"YangsThoughts": "The Mushu holds a place of distinction: it is one of the very rare chassis to be built with a compact engine and a unique compact gyro as standard equipment. Additionally, the Mushu is the first home-grown design of the Aurigan Reach and was put into production shortly before their disastrous civil war. The Mushu MHU-2R is the stock variant and uses its space for a center-line Light Gauss Rifle, sourced from manufacturers in the Free Worlds League. Backing the long-range gauss rifle are a battery of Small Lasers for up close work.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Named for what hopefully are obvious reasons, Rocketeer is a simple and clean design. Powered by the same reliable 180-rated XL engine as other Wyverns, Rocketeer uses the free weight from the engine and Endo-Steel bones for 100 Reloading Rocket Launcher tubes. Outside of the rockets, Rocketeer only has a single Snub-Nose PPC but that's usually all it needs after it gets off two volleys of heavy rocket fire. 10 DHS, an advanced heat exchanger, and a heat bank all struggle to keep the heat contained though the heat does solve itself eventually with the expenditure of the rockets.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_SuperCompactGyro_Mushu",
+			"ComponentDefID": "Gear_Quirk_Rugged_Wyvern",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -237,12 +245,14 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
+			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": "",
-			"hasPrefabName": true
+			"hasPrefabName": false
 		}
 	],
 	"CustomParts": {

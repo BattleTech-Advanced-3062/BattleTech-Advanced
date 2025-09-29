@@ -1,28 +1,31 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Swordsman",
+			"PrefabID": "Sentinel",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"Description": {
-		"Cost": 3467250,
+		"Cost": 3435960,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Swordsman",
-		"Id": "chassisdef_swordsman_SWD-2",
-		"Name": "Swordsman",
-		"Details": "The Swordsman was an early Federated Suns medium-class BattleMech which was originally built in 2463 as House Davion's third in-house BattleMech design. The design was tainted by heavy use in the Davion Civil War of 2525-2540. Eventually, production ended and the design was relegated to the dustbin of history. However, in the 3060s, the mech was put back into production by House Davion to supplement their forces in the FedCom Civil War. The SWD-2 is the stock production design, mounting heavy armor and firepower for the tonnage: 7.5 tons of armor and a grab-bag mix of guns including an AC/5, LRM-5, SRM-4, two Medium Lasers, and a Small Laser.",
-		"Icon": "uixTxrIcon_swordsman"
+		"UIName": "Screwball",
+		"Id": "chassisdef_sentinel_STN-SB",
+		"Name": "Screwball",
+		"Details": "Named after the Sentinel used by ComStar Demi-Precentor Charlotte Massimb, Screwball is definitely not the 'Mech she drives but it is an intimidating sight nonetheless. Screwball is built around its eary Clan-grade Improved AC/20, a weapon more than capable of smashing anything to bits in a few well-aimed shots. Backing up the primary gun is a simple ER Medium Laser and Rocket Launcher-10 combo. Screwball's decent ground speed and moderate armor keep it decently protected while the AC does its bloody work.",
+		"Icon": "uixTxrIcon_sentinel"
 	},
-	"MovementCapDefID": "movedef_icarusii_ICR-1S",
-	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_swd",
-	"PrefabIdentifier": "chrprfmech_swdbase-001",
-	"PrefabBase": "swd",
+	"VariantName": "STN-SB",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Named after the Sentinel used by ComStar Demi-Precentor Charlotte Massimb, Screwball is definitely not the 'Mech she drives but it is an intimidating sight nonetheless. Screwball is built around its eary Clan-grade Improved AC/20, a weapon more than capable of smashing anything to bits in a few well-aimed shots. Backing up the primary gun is a simple ER Medium Laser and Rocket Launcher-10 combo. Screwball's decent ground speed and moderate armor keep it decently protected while the AC does its bloody work.",
+	"PrefabIdentifier": "chrprfmech_sentinelbase-001",
+	"PrefabBase": "sentinel",
+	"MovementCapDefID": "movedef_clint_CLNT-2-3T",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_sentinel",
 	"Tonnage": 40,
 	"InitialTonnage": 4,
 	"weightClass": "MEDIUM",
@@ -47,15 +50,16 @@
 	"Radius": 5,
 	"PunchesWithLeftArm": false,
 	"EngageRangeModifier": 0,
-	"MeleeDamage": 50,
-	"MeleeInstability": 25,
+	"MeleeDamage": 45,
+	"MeleeInstability": 20,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 50,
+	"DFADamage": 45,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 50,
-	"DFAInstability": 25,
+	"DFASelfDamage": 45,
+	"DFAInstability": 20,
 	"ChassisTags": {
 		"items": [
+			"ArmLimitUpperLeft",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""
@@ -109,12 +113,7 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 1,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -125,7 +124,11 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
 					"Omni": false
 				},
 				{
@@ -143,11 +146,15 @@
 			"Location": "LeftTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Ballistic",
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -174,7 +181,15 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -186,16 +201,7 @@
 		},
 		{
 			"Location": "RightArm",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 60,
@@ -221,24 +227,21 @@
 			"InternalStructure": 50
 		}
 	],
-	"VariantName": "SWD-2",
-	"StockRole": "Age of War Trooper",
-	"YangsThoughts": "The Swordsman was an early Federated Suns medium-class BattleMech which was originally built in 2463 as House Davion's third in-house BattleMech design. The design was tainted by heavy use in the Davion Civil War of 2525-2540. Eventually, production ended and the design was relegated to the dustbin of history. However, in the 3060s, the mech was put back into production by House Davion to supplement their forces in the FedCom Civil War. The SWD-2 is the stock production design, mounting heavy armor and firepower for the tonnage: 7.5 tons of armor and a grab-bag mix of guns including an AC/5, LRM-5, SRM-4, two Medium Lasers, and a Small Laser.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Sentinel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
-			"prefabName": "",
+			"prefabName": null,
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedCoolingJacket_Swordsman",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

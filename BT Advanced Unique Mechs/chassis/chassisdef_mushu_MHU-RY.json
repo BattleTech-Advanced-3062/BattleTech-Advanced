@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Mushu",
-		"Id": "chassisdef_mushu_MHU-2R",
-		"Name": "Mushu",
-		"Details": "The Mushu holds a place of distinction: it is one of the very rare chassis to be built with a compact engine and a unique compact gyro as standard equipment. Additionally, the Mushu is the first home-grown design of the Aurigan Reach and was put into production shortly before their disastrous civil war. The Mushu MHU-2R is the stock variant and uses its space for a center-line Light Gauss Rifle, sourced from manufacturers in the Free Worlds League. Backing the long-range gauss rifle are a battery of Small Lasers for up close work.",
+		"UIName": "Murphy",
+		"Id": "chassisdef_mushu_MHU-RY",
+		"Name": "Murphy",
+		"Details": "Developed by the Aurigan Reach as a homegrown military solution, the Mushu quickly found applications outside of that minor Periphery realm. One such application was in the arenas of the gameworld Solaris VII. The Mushu's modular center torso weapon mounts proved adaptable to the weird and wild weapons of the arenas and so Murphy the Mushu came to be. Armed with a Thumper Cannon in the center torso and two tons of ammo protected in the head thanks to a Small Cockpit, Murphy relentlessly brings his Law to his opponents.",
 		"Icon": "uixTxrIcon_mushu"
 	},
 	"MovementCapDefID": "movedef_vindicator_VND-1R",
@@ -212,17 +212,18 @@
 			"z": 0
 		}
 	],
-	"VariantName": "MHU-2R",
+	"VariantName": "MHU-RY",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
-			"MediumMech"
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Walking Gun Platform",
-	"YangsThoughts": "The Mushu holds a place of distinction: it is one of the very rare chassis to be built with a compact engine and a unique compact gyro as standard equipment. Additionally, the Mushu is the first home-grown design of the Aurigan Reach and was put into production shortly before their disastrous civil war. The Mushu MHU-2R is the stock variant and uses its space for a center-line Light Gauss Rifle, sourced from manufacturers in the Free Worlds League. Backing the long-range gauss rifle are a battery of Small Lasers for up close work.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Developed by the Aurigan Reach as a homegrown military solution, the Mushu quickly found applications outside of that minor Periphery realm. One such application was in the arenas of the gameworld Solaris VII. The Mushu's modular center torso weapon mounts proved adaptable to the weird and wild weapons of the arenas and so Murphy the Mushu came to be. Armed with a Thumper Cannon in the center torso and two tons of ammo protected in the head thanks to a Small Cockpit, Murphy relentlessly brings his Law to his opponents.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -237,7 +238,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

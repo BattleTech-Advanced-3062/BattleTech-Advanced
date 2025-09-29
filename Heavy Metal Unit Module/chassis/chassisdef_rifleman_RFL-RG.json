@@ -1,37 +1,37 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Starslayer",
+			"PrefabID": "Rifleman50",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"Description": {
-		"Cost": 4654000,
+		"Cost": 5900000,
 		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Starslayer",
-		"Id": "chassisdef_starslayer_STY-3D",
-		"Name": "Starslayer",
-		"Details": "The 3D variant of the Starslayer is intended to allow the 'Mech to better engage an enemy at long ranges. This is accomplished by removing one of the Large Lasers, the SRM-4 launcher, and the Small Laser. These are replaced with an additional Medium Laser and an ER PPC that can hit a target accurately at six hundred and ninety meters as well as one additional double heat sink to deal with the extra heat from the ER PPC.",
-		"Icon": "uixTxrIcon_starslayer"
+		"UIName": "Raygun",
+		"Id": "chassisdef_rifleman_RFL-RG",
+		"Name": "Raygun",
+		"Details": "Definitely one of the stranger chassis to make an appearance in the arenas, Raygun is a 50 ton Rifleman from the early days of BattleMech design, before the Rifleman was eventually upgraded to the heavy weight class as a 60 tonner. Raygun is a supermodern take on the original all-energy 50 tonner design, built on a 250-rated light fusion engine and an Endo-Steel frame with specialized Steady-Eye Myomers for bonus accuracy. For firepower it carries a simple quartet of laser weapons, Medium VSPLs specifically. 13 DHS keep it all chilly and thick armor keeps Raygun in any fight.",
+		"Icon": "uixTxrIcon_rifleman"
 	},
-	"MovementCapDefID": "movedef_enforcer_ENF-4R",
+	"MovementCapDefID": "movedef_rifleman_RFL-3N",
 	"PathingCapDefID": "pathingdef_medium",
-	"HardpointDataDefID": "hardpointdatadef_starslayer",
-	"PrefabIdentifier": "chrprfmech_starslayerbase-001",
-	"PrefabBase": "starslayer",
+	"HardpointDataDefID": "hardpointdatadef_rifleman",
+	"PrefabIdentifier": "chrPrfMech_riflemanBase-001",
+	"PrefabBase": "rifleman",
 	"Tonnage": 50,
 	"InitialTonnage": 5,
 	"weightClass": "MEDIUM",
-	"BattleValue": 4596000,
+	"BattleValue": 5514000,
 	"Heatsinks": 0,
 	"TopSpeed": 120,
 	"TurnRadius": 90,
 	"MaxJumpjets": 30,
-	"Stability": 130,
+	"Stability": 160,
 	"StabilityDefenses": [
 		0,
 		0,
@@ -44,19 +44,32 @@
 	"VisibilityMultiplier": 1,
 	"SensorRangeMultiplier": 1,
 	"Signature": 0,
-	"Radius": 5,
+	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 55,
+	"MeleeDamage": 50,
 	"MeleeInstability": 25,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 55,
+	"DFADamage": 50,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 55,
+	"DFASelfDamage": 50,
 	"DFAInstability": 25,
 	"Locations": [
 		{
 			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -66,15 +79,6 @@
 					"Omni": false
 				}
 			],
-			"Tonnage": 0,
-			"InventorySlots": 6,
-			"MaxArmor": 45,
-			"MaxRearArmor": -1,
-			"InternalStructure": 16
-		},
-		{
-			"Location": "LeftArm",
-			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 80,
@@ -90,10 +94,6 @@
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -138,6 +138,10 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
@@ -170,61 +174,64 @@
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 15,
-			"z": 0
+			"y": 14,
+			"z": 0.5
 		},
 		{
-			"x": 4,
-			"y": 14,
-			"z": 0
+			"x": 4.5,
+			"y": 13,
+			"z": -0.5
 		},
 		{
-			"x": -4,
-			"y": 14,
-			"z": 0
+			"x": -4.5,
+			"y": 13,
+			"z": -0.5
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 15,
-			"z": 0
+			"y": 14,
+			"z": 0.5
 		},
 		{
-			"x": 4,
-			"y": 14,
-			"z": 0
+			"x": 4.5,
+			"y": 13,
+			"z": -0.5
 		},
 		{
-			"x": -4,
-			"y": 14,
-			"z": 0
+			"x": -4.5,
+			"y": 13,
+			"z": -0.5
 		},
 		{
 			"x": 2.5,
-			"y": 6,
-			"z": 2.5
+			"y": 5,
+			"z": 1.25
 		},
 		{
 			"x": -2.5,
-			"y": 6,
-			"z": 2.5
+			"y": 5,
+			"z": 1.25
 		}
 	],
-	"VariantName": "STY-3D",
+	"VariantName": "RFL-RG",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
-			"MediumMech"
+			"ArmLimitUpperLeft",
+			"mr-resize-0.8-0.8-0.8",
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Skirmisher",
-	"YangsThoughts": "The 3D variant of the Starslayer is intended to allow the 'Mech to better engage an enemy at long ranges. This is accomplished by removing one of the Large Lasers, the SRM-4 launcher, and the Small Laser. These are replaced with an additional Medium Laser and an ER PPC that can hit a target accurately at six hundred and ninety meters as well as one additional double heat sink to deal with the extra heat from the ER PPC.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Definitely one of the stranger chassis to make an appearance in the arenas, Raygun is a 50 ton Rifleman from the early days of BattleMech design, before the Rifleman was eventually upgraded to the heavy weight class as a 60 tonner. Raygun is a supermodern take on the original all-energy 50 tonner design, built on a 250-rated light fusion engine and an Endo-Steel frame with specialized Steady-Eye Myomers for bonus accuracy. For firepower it carries a simple quartet of laser weapons, Medium VSPLs specifically. 13 DHS keep it all chilly and thick armor keeps Raygun in any fight.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_Rugged_Starslayer",
+			"ComponentDefID": "emod_structureslots_endosteel",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -234,14 +241,14 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_AntiAirTargeting_Rifleman",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
-			"prefabName": "",
+			"prefabName": null,
 			"hasPrefabName": false
 		}
 	],
