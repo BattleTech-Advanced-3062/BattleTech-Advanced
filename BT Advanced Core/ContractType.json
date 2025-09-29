@@ -835,8 +835,8 @@
 		},
 		{
 			"ID": 7001,
-			"Name": "BattleRoyal",
-			"FriendlyName": "Battle Royal",
+			"Name": "BattleRoyale",
+			"FriendlyName": "Battle Royale",
 			"Version": 0,
 			"IsSinglePlayerProcedural": true,
 			"IsStory": false,
