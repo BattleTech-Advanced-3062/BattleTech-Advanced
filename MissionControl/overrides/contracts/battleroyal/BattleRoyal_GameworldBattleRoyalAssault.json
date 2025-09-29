@@ -1,6 +1,6 @@
 {
 	"ID": "BattleRoyal_GameworldBattleRoyalAssault",
-	"contractName": "Gameworld Battle Royal: Assault Mech Class",
+	"contractName": "Gameworld Battle Royale: Assault Mech Class",
 	"contractDisplayStyle": "BaseCampaignNormal",
 	"difficulty": 10,
 	"difficultyUIModifier": 0,

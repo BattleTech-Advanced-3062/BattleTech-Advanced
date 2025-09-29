@@ -1,6 +1,6 @@
 {
 	"ID": "BattleRoyal_GameworldBattleRoyalHeavy",
-	"contractName": "Gameworld Battle Royal: Heavy Mech Class",
+	"contractName": "Gameworld Battle Royale: Heavy Mech Class",
 	"contractDisplayStyle": "BaseCampaignNormal",
 	"difficulty": 10,
 	"difficultyUIModifier": 0,
