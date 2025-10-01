@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapStory_StoryEncounter9_vHigh.dff33fa2-b51d-4e52-a2da-7737c865f421",
+  "MapID": "mapStory_StoryEncounter9_vHigh",
+  "Name": "encMC_BattleRoyal_Arena",
+  "FriendlyName": "Battle Royal - Arena 01",
+  "Description": "Player must defeat all",
+  "BattleValue": "0",
+  "ContractTypeID": "7001",
+  "EncounterLayerGUID": "dff33fa2-b51d-4e52-a2da-7737c865f421",
+  "TagSetID": "mapStory_StoryEncounter9_vHigh.dff33fa2-b51d-4e52-a2da-7737c865f421",
+  "IncludeInBuild": "1"
+}

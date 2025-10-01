@@ -43,7 +43,7 @@
 	"ChassisID": "chassisdef_commando_COM-1A",
 	"HeraldryID": null,
 	"Description": {
-		"Cost": 450000,
+		"Cost": 1450000,
 		"Rarity": 1,
 		"Purchasable": true,
 		"Manufacturer": null,

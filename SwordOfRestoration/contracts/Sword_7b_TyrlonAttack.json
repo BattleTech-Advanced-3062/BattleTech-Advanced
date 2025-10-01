@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "This is it, {COMMANDER.Callsign}-the Directorate's last stronghold on our way to Coromodir. We're going to liberate this system and set House Parata free. I have an invasion fleet en route to take the spaceport in a surprise attack, but the shipyard's gun batteries are going to be a problem. You need to take them off-line before our ships arrive.",
+	"shortDescription": "This is it, {COMMANDER.Callsign}-the Directorate's last stronghold on our way to Coromodir. We're going to liberate this system and set House Parata free. I have an invasion fleet en route to take the spaceport in a surprise attack, but the shipyard's gun batteries are going to be a problem. You need to take them off-line before our ships arrive.\n\n <b><color=#e51717>ALLOWS UP TO 8 UNITS</color></b>",
 	"longDescription": "Most of Espinosa's DropShip fleet is grounded on Tyrlon right now. If we take this system from them, there'll be nothing left between us and the throne world!",
 	"salvagePotential": 34,
 	"requirementList": [],
@@ -24,9 +24,9 @@
 		}
 	],
 	"OnContractFailureResults": [],
-	"contractType": "Tyrlon_Attack",
+	"contractTypeID": "Tyrlon_Attack",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "RestorationTylron",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [

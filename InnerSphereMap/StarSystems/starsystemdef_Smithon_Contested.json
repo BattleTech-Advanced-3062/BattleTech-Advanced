@@ -27,7 +27,8 @@
 	"SupportedBiomes": [
 		"desertParched",
 		"badlandsParched",
-		"polarFrozen"
+		"polarFrozen",
+		"martianVacuum"
 	],
 	"MapRequiredTags": {
 		"items": [],

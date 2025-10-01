@@ -137,7 +137,7 @@
 		},
 		{
 		  "MountedLocation": "Rear",
-		  "ComponentDefID": "Gear_Airdrop_Beacon_BA_IS_Standard",
+		  "ComponentDefID": "Gear_Airdrop_Beacon_BA_Krupp",
 		  "ComponentDefType": "Upgrade",
 		  "HardpointSlot": -1,
 		  "DamageLevel": "Functional"

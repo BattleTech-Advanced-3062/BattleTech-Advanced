@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_boulderField_vLow.6d8fb445-a0f8-4264-a24e-8b18146eee8d",
+	"MapID": "mapGeneral_boulderField_vLow",
+	"Name": "encMC_BattleRoyal_boulderField",
+	"FriendlyName": "BR - ARENA - Boulder Field - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "6d8fb445-a0f8-4264-a24e-8b18146eee8d",
+	"TagSetID": "mapGeneral_boulderField_vLow.6d8fb445-a0f8-4264-a24e-8b18146eee8d",
+	"IncludeInBuild": "1"
+}

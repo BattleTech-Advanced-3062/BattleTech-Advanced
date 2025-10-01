@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapArena_RockyCraters_bMoon.bfdb18e1-fd49-4d17-927a-012f19012969",
+	"MapID": "mapArena_RockyCraters_bMoon",
+	"Name": "encMC_BattleRoyal_RockyCraters",
+	"FriendlyName": "BR - ARENA - Rocky Crater",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "bfdb18e1-fd49-4d17-927a-012f19012969",
+	"TagSetID": "mapArena_RockyCraters_bMoon.bfdb18e1-fd49-4d17-927a-012f19012969",
+	"IncludeInBuild": "1"
+}

@@ -216,7 +216,8 @@
 	"ChassisTags": {
 		"items": [
 			"ProtoMech",
-			"OmniMech"
+			"OmniMech",
+			"BLACKLISTED"
 		],
 		"tagSetSourceFile": ""
 	},

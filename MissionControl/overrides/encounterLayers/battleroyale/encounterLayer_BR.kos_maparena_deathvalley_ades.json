@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapArena_deathValley_aDes.7490a48c-3194-4bc3-beee-a130c35eb109",
+	"MapID": "mapArena_deathValley_aDes",
+	"Name": "encMC_BattleRoyal_deathValley",
+	"FriendlyName": "BR - ARENA - Death Valley - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "7490a48c-3194-4bc3-beee-a130c35eb109",
+	"TagSetID": "mapArena_deathValley_aDes.7490a48c-3194-4bc3-beee-a130c35eb109",
+	"IncludeInBuild": "1"
+}

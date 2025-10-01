@@ -22,7 +22,8 @@
 		],
 		"BonusDescriptions": [
 				"IsSensorsA",
-				"AntiAirEvasion: +3"
+				"AntiAirEvasion: +3",
+				"Accuracy: +1"
 			]
 	},
 	"StatName": null,
@@ -34,10 +35,10 @@
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
 		"Model": "JagerMech",
-		"UIName": "JagerMech Anti-Air Targeting",
+		"UIName": "JagerMech Superior Targeting",
 		"Id": "Gear_Quirk_AntiAirTargeting_JagerMech",
-		"Name": "JagerMech Anti-Air Targeting",
-		"Details": "This piece of gear represents the JagerMech's inherent Anti-Air Targeting quirk. This gives the JagerMech bonus evasion ignore against aerial units such as VTOLs and Land-Air Mechs.",
+		"Name": "JagerMech Superior Targeting",
+		"Details": "This piece of gear represents the JagerMech's inherent Superior Targeting quirk. This gives the JagerMech bonus evasion ignore against aerial units such as VTOLs and Land-Air Mechs as well as a small bonus to hit ground-bound units.",
 		"Icon": "uixSvgIcon_equipment_Rangefinder"
 	},
 	"BonusValueA": "",
@@ -128,6 +129,33 @@
 				"modType": "System.Boolean"
 			},
 			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "TargetingComputer",
+				"Name": "Targeting Computer",
+				"Details": "Improved overall accuracy.",
+				"Icon": "uixSvgIcon_ability_precisionstrike"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "AccuracyModifier",
+				"operation": "Float_Add",
+				"modValue": "-1.0",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
+			}
 		}
 	],
 	"ComponentTags": {

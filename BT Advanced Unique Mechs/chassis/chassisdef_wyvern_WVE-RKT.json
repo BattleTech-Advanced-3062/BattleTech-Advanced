@@ -1,0 +1,261 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Wyvern",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 4254000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Rocketeer",
+		"Id": "chassisdef_wyvern_WVE-RKT",
+		"Name": "Rocketeer",
+		"Details": "Named for what hopefully are obvious reasons, Rocketeer is a simple and clean design. Powered by the same reliable 180-rated XL engine as other Wyverns, Rocketeer uses the free weight from the engine and Endo-Steel bones for 100 Reloading Rocket Launcher tubes. Outside of the rockets, Rocketeer only has a single Snub-Nose PPC but that's usually all it needs after it gets off two volleys of heavy rocket fire. 10 DHS, an advanced heat exchanger, and a heat bank all struggle to keep the heat contained though the heat does solve itself eventually with the expenditure of the rockets.",
+		"Icon": "uixTxrIcon_wyvern"
+	},
+	"MovementCapDefID": "movedef_vindicator_VND-1R",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_wyvern",
+	"PrefabIdentifier": "chrprfmech_wyvernbase-001",
+	"PrefabBase": "wyvern",
+	"Tonnage": 45,
+	"InitialTonnage": 4.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 4252000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 50,
+	"MeleeInstability": 25,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 50,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 50,
+	"DFAInstability": 25,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 55,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "WVE-RKT",
+	"ChassisTags": {
+		"items": [
+			"MediumMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Named for what hopefully are obvious reasons, Rocketeer is a simple and clean design. Powered by the same reliable 180-rated XL engine as other Wyverns, Rocketeer uses the free weight from the engine and Endo-Steel bones for 100 Reloading Rocket Launcher tubes. Outside of the rockets, Rocketeer only has a single Snub-Nose PPC but that's usually all it needs after it gets off two volleys of heavy rocket fire. 10 DHS, an advanced heat exchanger, and a heat bank all struggle to keep the heat contained though the heat does solve itself eventually with the expenditure of the rockets.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Wyvern",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

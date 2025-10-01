@@ -53,6 +53,14 @@
 		{
 			"Type": "Sprite",
 			"Path": "sprite"
+		},
+		{
+			"Type": "ConversationContent",
+			"Path": "conversations"
+		},
+		{
+			"Type": "DialogBucketDef",
+			"Path": "conversationBuckets"
 		}
 	]
 }

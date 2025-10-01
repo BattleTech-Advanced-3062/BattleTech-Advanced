@@ -4,7 +4,8 @@
   "affinityData": {
     "tag": "Affinity_LA_Bushie",
     "chassisNames": [
-      "chrprfmech_bushwackerbase-001_55"
+      "Bushwacker_55",
+      "Gauntlet_55"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
@@ -13,12 +14,12 @@
         "id": "Little_Purple_Tank",
         "missionsRequired": 10,
         "levelName": "Little Purple Tank",
-        "decription": "Hellion gains 20% damage reduction in her Bushwacker at all times.",
+        "decription": "Hellion gains 20% damage reduction in her Bushwacker or Gauntlet at all times.",
         "affinities": [],
         "effectData": [
           {
             "Description": {
-              "Details": "Hellion gains 20% damage reduction in her Bushwacker at all times.",
+              "Details": "Hellion gains 20% damage reduction in her Bushwacker or Gauntlet at all times.",
               "Icon": "layeredarmor",
               "Id": "StatusEffect-Affinity-LABushie",
               "Name": "Hellion Affinity Damage Reduction Boost"

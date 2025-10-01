@@ -1,0 +1,244 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hermes",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 3000000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Little Wing",
+		"Id": "chassisdef_hermes_HER-LW",
+		"Name": "Little Wing",
+		"Details": "The Hermes is a much maligned chassis, often only used begrudgingly, but nothing evens the playing field like a great success rate in the arenas of Solaris VII and Little Wing is doing its part for Hermes pilots everywhere. Built on a large amount of weight-saving technologies (Heavy Ferro-Fibrous armor, Endo-Steel structure, an XL Gyro, and a 270-rated XL engine), Little Wing puts all this weight to use with a MASC system for boosted speed and a Targeting Computer enhanced set of three Piercing Medium Pulse Lasers. While it doesn't do the most damage ever, it does consistent structure damage and always threatens a lucky hit to the engine or ammunition, meaning Little Wing is always dangerous.",
+		"Icon": "uixTxrIcon_hermes"
+	},
+	"MovementCapDefID": "movedef_hussar",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_hermes",
+	"PrefabIdentifier": "chrprfmech_hermesbase-001",
+	"PrefabBase": "hermes",
+	"Tonnage": 30,
+	"InitialTonnage": 3,
+	"weightClass": "LIGHT",
+	"BattleValue": 3610000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 8,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 40,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 40,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 12,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 12,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 6,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 6,
+			"z": 0
+		}
+	],
+	"VariantName": "HER-LW",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitLowerLeft",
+			"LightMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Hermes is a much maligned chassis, often only used begrudgingly, but nothing evens the playing field like a great success rate in the arenas of Solaris VII and Little Wing is doing its part for Hermes pilots everywhere. Built on a large amount of weight-saving technologies (Heavy Ferro-Fibrous armor, Endo-Steel structure, an XL Gyro, and a 270-rated XL engine), Little Wing puts all this weight to use with a MASC system for boosted speed and a Targeting Computer enhanced set of three Piercing Medium Pulse Lasers. While it doesn't do the most damage ever, it does consistent structure damage and always threatens a lucky hit to the engine or ammunition, meaning Little Wing is always dangerous.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedCommunications_Hermes",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}
