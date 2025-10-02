@@ -144,6 +144,126 @@
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Beta",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Beta",
+						"operation": "Float_Add",
+						"modValue": "-20",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Gamma",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Gamma",
+						"operation": "Float_Add",
+						"modValue": "-20",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Delta",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Delta",
+						"operation": "Float_Add",
+						"modValue": "-20",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
+				},
+				{
+					"durationData": {
+						"duration": -1,
+						"stackLimit": -1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"specialRules": "NotSet",
+						"effectTargetType": "EnemiesWithinRange",
+						"range": 0.0,
+						"forcePathRebuild": false,
+						"forceVisRebuild": false,
+						"showInTargetPreview": false,
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Epsilon",
+						"Name": "C3 Enemy Jamming",
+						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Icon": "circuitry"
+					},
+					"statisticData": {
+						"statName": "ADD_ENCOUNTER_TAG_C3_Network_Epsilon",
+						"operation": "Float_Add",
+						"modValue": "-20",
+						"modType": "System.Single"
+					},
+					"nature": "Buff"
 				}
 			]
 		},
