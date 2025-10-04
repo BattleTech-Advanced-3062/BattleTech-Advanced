@@ -5,9 +5,7 @@
 				"CategoryID": "Handhold"
 			}
 		],
-		"BonusDescriptions": [
-				"BAMounts"
-			],
+		"BonusDescriptions": [],
 		"Flags": [
 				"default",
 				"not_broken",
@@ -28,7 +26,7 @@
 		"UIName": "Lift Hoist",
 		"Id": "Gear_DigKing_LiftHoist",
 		"Name": "Lift Hoist",
-		"Details": "This is an industrial-scale lift hoist, intended for installation on IndustrialMechs to facilitate their normal functions. However, in times of need the lift hoist can be repurposed as an ad-hoc method to carry around infantry units such as Battle Armor. Though slow and not very effective, the lift hoist still manages to get the job done.",
+		"Details": "This is an industrial-scale lift hoist, intended for installation on IndustrialMechs to facilitate their normal functions. However, in times of need the lift hoist can be repurposed as an ad-hoc method to carry around infantry units such as Battle Armor. Though slow and not very effective, the lift hoist still manages to get the job done.\r\n\r\n <b><color=#099ff2>No longer capable of carrying BA, description is left as flavor text.</color></b>",
 		"Icon": "cargo-crate"
 	},
 	"BonusValueA": "",
