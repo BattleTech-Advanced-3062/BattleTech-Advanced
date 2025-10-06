@@ -19,7 +19,7 @@
 		"UIName": "Blood Kit",
 		"Id": "chassisdef_arcticwolf_ACW-BK",
 		"Name": "Blood Kit",
-		"Details": "A customized variant of the standard Arctic Wolf, the Blood Kit carries an ER Large and ER Medium Laser each arm, supported by a Heavy Machine Gun in each side torso and a center torso mounted Streak SRM-6 launcher. Mounting four jump jets, the Blood Kit carries an extra double sink and single ton of ammunition for each weapon type.",
+		"Details": "A customized variant of the standard Arctic Wolf, the Blood Kit carries an ER Large and ER Medium Laser each arm, supported by a Heavy Machine Gun in each side torso and a center torso mounted Streak SRM-6 launcher. The Blood Kit carries an extra double sink and single ton of ammunition for each weapon type.",
 		"Icon": "uixTxrIcon_arcticwolf"
 	},
 	"MovementCapDefID": "movedef_clint_CLNT-2-3T",
@@ -230,7 +230,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "A customized variant of the standard Arctic Wolf, the Blood Kit carries an ER Large and ER Medium Laser each arm, supported by a Heavy Machine Gun in each side torso and a center torso mounted Streak SRM-6 launcher. Mounting four jump jets, the Blood Kit carries an extra double sink and single ton of ammunition for each weapon type.",
+	"YangsThoughts": "A customized variant of the standard Arctic Wolf, the Blood Kit carries an ER Large and ER Medium Laser each arm, supported by a Heavy Machine Gun in each side torso and a center torso mounted Streak SRM-6 launcher. The Blood Kit carries an extra double sink and single ton of ammunition for each weapon type.",
 	"CustomParts": {
 		"CustomParts": []
 	}

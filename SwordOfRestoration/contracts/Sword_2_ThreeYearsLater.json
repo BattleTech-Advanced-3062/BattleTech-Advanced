@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "The Independent Prospectors' League needs your help, Commander. Two months ago, a fleet of corporate DropShips from Majesty Metals & Manufacturing touched down on Ur Cruinne. They jumped our claim, pushed us off of our own mining platforms, and killed our people. We need your help to make things right.",
+	"shortDescription": "The Independent Prospectors' League needs your help, Commander. Two months ago, a fleet of corporate DropShips from Majesty Metals & Manufacturing touched down on Ur Cruinne. They jumped our claim, pushed us off of our own mining platforms, and killed our people. We need your help to make things right.\n\n <b><color=#e51717>ALLOWS UP TO 6 UNITS</color></b>",
 	"longDescription": "The IPL may not be a high-profile client, but they have contacts and have promised they can get us off Espinoza's killlist if we help them out.",
 	"salvagePotential": 0,
 	"requirementList": [],
@@ -585,7 +585,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": true,
 	"disableAfterAction": false,

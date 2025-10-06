@@ -1,0 +1,30 @@
+{
+	"Item": "Gear_BattleRoyal_Light",
+	"AllowInInventory": false,
+	"Requirements": [],
+	"Results": [
+		{
+			"Scope": "Company",
+			"Stats": null,
+			"Actions": [
+				{
+					"Type": "System_AddContract",
+					"value": "BattleRoyal_GameworldBattleRoyalLight",
+					"valueConstant": null,
+					"additionalValues": [
+						"SolarisVIIMercLeague",
+						"SelfEmployed",
+						null,
+						null,
+						null,
+						null,
+						"8",
+						null
+					]
+				}
+			],
+			"TemporaryResult": false,
+			"ResultDuration": 0
+		}
+	]
+}

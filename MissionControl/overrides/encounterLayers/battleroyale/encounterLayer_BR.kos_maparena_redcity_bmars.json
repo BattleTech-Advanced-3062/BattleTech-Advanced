@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapArena_redCity_bMars.f260c5b4-f466-4af7-92f5-ca084d1231fa",
+	"MapID": "mapArena_redCity_bMars",
+	"Name": "encMC_BattleRoyal_redCity",
+	"FriendlyName": "BR - ARENA - The Red City - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "f260c5b4-f466-4af7-92f5-ca084d1231fa",
+	"TagSetID": "mapArena_redCity_bMars.f260c5b4-f466-4af7-92f5-ca084d1231fa",
+	"IncludeInBuild": "1"
+}

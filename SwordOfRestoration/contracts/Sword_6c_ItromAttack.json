@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "The Directorate has taken possession of Itrom's largest processor and refinery, and is attempting to loot the attached silos of rare and valuable minerals. We want you to claim them for the Restoration instead.",
+	"shortDescription": "The Directorate has taken possession of Itrom's largest processor and refinery, and is attempting to loot the attached silos of rare and valuable minerals. We want you to claim them for the Restoration instead.\n\n <b><color=#e51717>ALLOWS UP TO 8 UNITS</color></b>",
 	"longDescription": "The stuff that they mine on Itrom is worth a small fortune on the black market. Better to have it in our hands than the Directorate's.",
 	"salvagePotential": 24,
 	"requirementList": [],
@@ -22,9 +22,9 @@
 		"Actions": []
 	}],
 	"OnContractFailureResults": [],
-	"contractType": "Itrom_Attack",
+	"contractTypeID": "Itrom_Attack",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "RestorationItrom",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -1189,7 +1189,7 @@
 		}
 	],
 	"overrideAutoCompleteDialogueId": "50880b34-383d-4def-9783-ac77afcde247",
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

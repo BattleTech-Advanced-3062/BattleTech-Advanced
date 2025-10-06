@@ -27,7 +27,7 @@
 	"SpotterDistanceMultiplier": 1.25,
 	"VisibilityMultiplier": 0.9,
 	"SensorRangeMultiplier": 1.25,
-	"Signature": -0.25,
+	"Signature": 0,
 	"Radius": 4,
 	"LOSSourcePositions": [
 		{

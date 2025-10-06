@@ -6,15 +6,15 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "I can't believe we're going back to Itrom voluntarily. But the Taurians are on the attack again, and it's our job to stop them. If we don't, a bunch of civilians will pay the price.",
+	"shortDescription": "I can't believe we're going back to Itrom voluntarily. But the Taurians are on the attack again, and it's our job to stop them. If we don't, a bunch of civilians will pay the price.\n\n <b><color=#e51717>ALLOWS UP TO 8 UNITS</color></b>",
 	"longDescription": "Proceed to Itrom to protect its people from the Taurians. The latest intel recommends a lance that balances speed and firepower, but can deal with Itrom's searing heat. Further details will be provided upon your arrival.",
 	"salvagePotential": 20,
 	"requirementList": [],
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
-	"contractType": "Itrom_Defense",
+	"contractTypeID": "Itrom_Defense",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 6,
+	"maxNumberOfPlayerUnits": 8,
 	"mapMood": "",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -1306,7 +1306,7 @@
 			]
 		}
 	],
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

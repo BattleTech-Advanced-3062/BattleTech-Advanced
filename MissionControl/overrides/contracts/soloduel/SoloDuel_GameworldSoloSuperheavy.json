@@ -118,13 +118,13 @@
 	"lanceMinTonnage": -1,
 	"lanceMaxTonnage": -1,
 	"mechMinTonnages": [
-		80,
+		105,
 		-1,
 		-1,
 		-1
 	],
 	"mechMaxTonnages": [
-		150,
+		200,
 		-1,
 		-1,
 		-1

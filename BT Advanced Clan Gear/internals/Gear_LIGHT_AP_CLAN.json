@@ -6,10 +6,11 @@
 			}
 		],
 		"BonusDescriptions": [
-				"Sensors: +10%",
-				"Sight: +10%",
-				"ProbeBubble: 100"
-			]
+			"Sensors: +10%",
+			"Sight: +10%",
+			"ProbeHeat: 40",
+			"ProbeBubble: 100"
+		]
 	},
 	"StatName": null,
 	"RelativeModifier": 0,

@@ -62,7 +62,15 @@
 			"Assassinate_JohannsJaegers",
 			"DuoDuel_MaxRevenge1",
 			"Rescue_MaxRevenge",
-			"SimpleBattle_BTAThrowdown"
+			"SimpleBattle_BTAThrowdown",
+			"BattleRoyal_TheRoyalRumble",
+			"BattleRoyal_EnterThunderdome",
+			"BattleRoyal_GameworldBattleRoyalAssault",
+			"BattleRoyal_GameworldBattleRoyalHeavy",
+			"BattleRoyal_GameworldBattleRoyalLight",
+			"BattleRoyal_GameworldBattleRoyalMedium",
+			"BattleRoyal_GameworldBattleRoyalSuperHeavy",
+			"BattleRoyal_GameworldBattleRoyalUltralight"
 		],
 		"OpforReplacementConfig": {
 			"BaseReplaceChance": 0.4,

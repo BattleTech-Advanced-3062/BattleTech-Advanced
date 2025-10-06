@@ -38,7 +38,7 @@
 		"UIName": "Paralyzer HSN-7D2",
 		"Id": "mechdef_hellspawn_HSN-7D2",
 		"Name": "Paralyzer",
-		"Details": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and twelve Double Heat Sinks sinks enhanced by a trio of Coolant Pods allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
+		"Details": "This Hero 'Mech is a take on the Hellspawn piloted by Greta Halperin. It has been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser has been replaced with a pair of ER Medium Lasers. The torso mounted pulse laser was dropped entirely for two ER Small Lasers and fifteen Double Heat Sinks sinks allow the pilot to alpha strike repeatedly until the target has been destroyed, while switching the Guardian for an advanced Angel ECM Suite prevides increased protection.",
 		"Icon": "uixTxrIcon_hellspawn"
 	},
 	"simGameMechPartCost": 490000,
@@ -425,11 +425,11 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Coolant_Pod_x3",
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -437,10 +437,10 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -503,6 +503,28 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

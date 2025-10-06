@@ -7,7 +7,7 @@
 	"weight": 1,
 	"scope": "STANDARD",
 	"finalDifficulty": 0,
-	"shortDescription": "This is it... our first strike against my uncle's Directorate. Our first step toward justice. While I lead the Restoration Army against Weldry's primary spaceport, you will launch a sneak attack against the Icebox and liberate it. I know that you can do this, {COMMANDER.Callsign}.\n\n<i>We</i> can do this. Together.",
+	"shortDescription": "This is it... our first strike against my uncle's Directorate. Our first step toward justice. While I lead the Restoration Army against Weldry's primary spaceport, you will launch a sneak attack against the Icebox and liberate it. I know that you can do this, {COMMANDER.Callsign}.\n\n<i>We</i> can do this. Together.\n\n <b><color=#e51717>ALLOWS UP TO 6 UNITS</color></b>",
 	"longDescription": "Hard to believe we're going to war against the Directorate. I don't know about you, but from my perspective, it's long overdue. Make 'em pay for what they took from us. Make it hurt.",
 	"salvagePotential": 28,
 	"requirementList": [],
@@ -26,7 +26,7 @@
 	"OnContractFailureResults": [],
 	"contractTypeID": "Story_4_LiberationOfWeldry",
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 8,
+	"maxNumberOfPlayerUnits": 6,
 	"mapMood": "Mission4",
 	"startingFogOfWarVisibility": "Surveyed",
 	"contractObjectiveList": [
@@ -683,7 +683,7 @@
 		}
 	],
 	"overrideAutoCompleteDialogueId": null,
-	"disableNegotations": true,
+	"disableNegotations": false,
 	"disableLanceConfiguration": false,
 	"disableCancelButton": false,
 	"disableAfterAction": false,

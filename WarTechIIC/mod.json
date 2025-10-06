@@ -27,6 +27,11 @@
 		{
 			"Type": "Campaign",
 			"Path": "campaigns"
+		},
+		{
+			"Type": "SimGameEventDef",
+			"Path": "events",
+			"AddToDB": true
 		}
 	],
 	"Logs": {

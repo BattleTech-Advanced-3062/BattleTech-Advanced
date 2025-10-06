@@ -50,9 +50,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Luballin Ballistics",
 		"Model": "Heavy Autocannon",
-		"UIName": "LB-10X",
+		"UIName": "LB-10X AC",
 		"Id": "Weapon_Autocannon_LB10XAC",
-		"Name": "LB-10X",
+		"Name": "LB-10X AC",
 		"Details": "Developed by Lubalin Ballistics for the Terran Hegemony, the LB-X Autocannon was a derivative of the standard and relatively primitive Autocannon design. The LB-X Autocannon series is capable of firing either cluster or slug ammunition, giving them a unique flexibility that made the weapon quite popular.\n\n <b><color=#ffcc00>Uses LBX10 Ammo.</color></b>",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},

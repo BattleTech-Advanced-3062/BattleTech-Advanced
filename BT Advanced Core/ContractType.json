@@ -815,6 +815,40 @@
 			"Illustration": "uixTxrSpot_rescueContract",
 			"Icon": "uixSvgIcon_contract_Recovery",
 			"IsPublished": true
+		},
+		{
+			"ID": 7000,
+			"Name": "EnjoyTheView",
+			"FriendlyName": "Enjoy The View",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_battleContract",
+			"Icon": "uixSvgIcon_contract_Battle",
+			"IsPublished": true
+		},
+		{
+			"ID": 7001,
+			"Name": "BattleRoyale",
+			"FriendlyName": "Battle Royale",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_battleContract",
+			"Icon": "uixSvgIcon_contract_Battle",
+			"IsPublished": true
 		}
 	]
 }

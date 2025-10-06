@@ -29,7 +29,8 @@
 		"lowlandsSpring",
 		"desertParched",
 		"badlandsParched",
-		"jungleTropical"
+		"jungleTropical",
+		"lunarVacuum"
 	],
 	"MapRequiredTags": {
 		"items": [],
