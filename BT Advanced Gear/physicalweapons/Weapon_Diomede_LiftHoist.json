@@ -8,7 +8,6 @@
 		"BonusDescriptions": [
 			"PhysWeapDamageBonus: 15%",
 			"PhysWeapStabBonus: 15%",
-			"BAMounts",
 			"WordsWords: Leave This Weapon Disabled!!"
 		],
 		"Flags": [
@@ -57,7 +56,7 @@
 		"UIName": "Lift Hoist",
 		"Id": "Weapon_Diomede_LiftHoist",
 		"Name": "Lift Hoist",
-		"Details": "This is a construction tool, a Lift Hoist, designed for the Diomede ConstructionMech. Lift Hoists are exactly that: they're cranes, meant to pick up and carry things around. The Diomede generally uses its lift hoists during the course of its construction work, but on rare occasion it can make use of them to attack someone with. Lift hoists are not particularly effective weapons, but they make do in an emergency. Additionally, the lift hoist permits the carrying of Battle Armor in a pinch, though that is usually a desperation move.",
+		"Details": "This is a construction tool, a Lift Hoist, designed for the Diomede ConstructionMech. Lift Hoists are exactly that: they're cranes, meant to pick up and carry things around. The Diomede generally uses its lift hoists during the course of its construction work, but on rare occasion it can make use of them to attack someone with. Lift hoists are not particularly effective weapons, but they make do in an emergency. Additionally, the lift hoist permits the carrying of Battle Armor in a pinch, though that is usually a desperation move.\r\n\r\n <b><color=#099ff2>No longer capable of carrying BA, description is left as flavor text.</color></b>",
 		"Icon": "cargo-crate"
 	},
 	"BonusValueA": "",
