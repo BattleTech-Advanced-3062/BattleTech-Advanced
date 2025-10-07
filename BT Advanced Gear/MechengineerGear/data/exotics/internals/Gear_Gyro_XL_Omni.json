@@ -109,6 +109,7 @@
 				"operation": "Set",
 				"modValue": "true",
 				"modType": "System.Boolean"
+			}
 		}
 	],
 	"ComponentTags": {
