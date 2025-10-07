@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_boggyRocks_vLow.66bcb886-d412-489d-bc6d-fce252fb967a",
+	"MapID": "mapGeneral_boggyRocks_vLow",
+	"Name": "encMC_BattleRoyal_boggyRocks",
+	"FriendlyName": "BR - Boggy Rocks - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "66bcb886-d412-489d-bc6d-fce252fb967a",
+	"TagSetID": "mapGeneral_boggyRocks_vLow.66bcb886-d412-489d-bc6d-fce252fb967a",
+	"IncludeInBuild": "1"
+}

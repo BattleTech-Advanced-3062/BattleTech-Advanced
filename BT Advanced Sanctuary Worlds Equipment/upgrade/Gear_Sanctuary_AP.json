@@ -8,6 +8,7 @@
         "BonusDescriptions": [
                 "Sensors: +30%",
                 "Sight: +30%",
+				"ProbeHeat: 35",
 				"ProbeBubble: 350"
             ]
     },

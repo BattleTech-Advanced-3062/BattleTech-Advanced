@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapArena_splitRiver_iTnd.c47228a4-9b3b-4c9d-a9c0-d8aa5c34e9d1",
+	"MapID": "mapArena_splitRiver_iTnd",
+	"Name": "encMC_BattleRoyal_splitRiver",
+	"FriendlyName": "BR - ARENA - Split River",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "c47228a4-9b3b-4c9d-a9c0-d8aa5c34e9d1",
+	"TagSetID": "mapArena_splitRiver_iTnd.c47228a4-9b3b-4c9d-a9c0-d8aa5c34e9d1",
+	"IncludeInBuild": "1"
+}

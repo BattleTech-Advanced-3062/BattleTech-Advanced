@@ -3164,9 +3164,7 @@
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
-							"items": [
-								"spawn_poorly_maintained_50"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "",
@@ -3199,9 +3197,7 @@
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
-							"items": [
-								"spawn_poorly_maintained_50"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "",
@@ -3940,9 +3936,7 @@
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
-							"items": [
-								"spawn_poorly_maintained_50"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
@@ -3975,9 +3969,7 @@
 							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
-							"items": [
-								"spawn_poorly_maintained_50"
-							],
+							"items": [],
 							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",

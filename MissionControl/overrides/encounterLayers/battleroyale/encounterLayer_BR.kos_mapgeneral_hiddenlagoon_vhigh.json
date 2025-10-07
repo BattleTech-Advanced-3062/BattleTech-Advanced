@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_hiddenLagoon_vHigh.ea237500-db6b-4417-9171-fe63886dc85f",
+	"MapID": "mapGeneral_hiddenLagoon_vHigh",
+	"Name": "encMC_BattleRoyal_hiddenLagoon",
+	"FriendlyName": "BR - Hidden Lagoon - Bloodydoves",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "ea237500-db6b-4417-9171-fe63886dc85f",
+	"TagSetID": "mapGeneral_hiddenLagoon_vHigh.ea237500-db6b-4417-9171-fe63886dc85f",
+	"IncludeInBuild": "1"
+}

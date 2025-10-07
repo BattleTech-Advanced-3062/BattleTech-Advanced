@@ -8,7 +8,7 @@
 		"UIName": "DarkDeath",
 		"Id": "chassisdef_assassin_ASN-DD",
 		"Name": "DarkDeath",
-		"Details": "While all indications are that Dale Sandstrom piloted a standard ASN-21 variant, this reproduction of his DarkDeath is built around an 280 XL Engine and an Endo Steel chassis and is armed with an Autocannon/2 in the right arm, twin LRM-5s in the right torso and a pair of Medium Lasers split between the head and left torso. Retaining the ASN-21's seven jump jets, this version's heat sinks are also upgraded to double strength version. Though carrying only a single ton of autocannon and LRM reloads limits it field endurance, the DarkDeath mounts a Guardian ECM Suite to help ensure the fight is on its terms.",
+		"Details": "While all indications are that Dale Sandstrom piloted a standard ASN-21 variant, this reproduction of his DarkDeath is built around an 280 XL Engine and an Endo Steel chassis and is armed with a Light AC/5 in the right arm, an MML-5 in the right torso, and two Piercing Medium Pulse Lasers split between the head and left torso. Retaining the ASN-21's seven jump jets, this version's heat sinks are also upgraded to double strength version. Though carrying only a single ton of autocannon and one and a half tons for the MML limits its field endurance, the DarkDeath's speed ensures the fight is always on its terms.",
 		"Icon": "uixTxrIcon_assassin"
 	},
 	"MovementCapDefID": "movedef_assassin_ASN-21",
@@ -206,7 +206,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Gladiator",
-	"YangsThoughts": "While all indications are that Dale Sandstrom piloted a standard ASN-21 variant, this reproduction of his DarkDeath is built around an 280 XL Engine and an Endo Steel chassis and is armed with an Autocannon/2 in the right arm, twin LRM-5s in the right torso and a pair of Medium Lasers split between the head and left torso. Retaining the ASN-21's seven jump jets, this version's heat sinks are also upgraded to double strength version. Though carrying only a single ton of autocannon and LRM reloads limits it field endurance, the DarkDeath mounts a Guardian ECM Suite to help ensure the fight is on its terms.",
+	"YangsThoughts": "While all indications are that Dale Sandstrom piloted a standard ASN-21 variant, this reproduction of his DarkDeath is built around an 280 XL Engine and an Endo Steel chassis and is armed with a Light AC/5 in the right arm, an MML-5 in the right torso, and two Piercing Medium Pulse Lasers split between the head and left torso. Retaining the ASN-21's seven jump jets, this version's heat sinks are also upgraded to double strength version. Though carrying only a single ton of autocannon and one and a half tons for the MML limits its field endurance, the DarkDeath's speed ensures the fight is always on its terms.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

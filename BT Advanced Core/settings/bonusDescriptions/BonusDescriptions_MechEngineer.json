@@ -979,6 +979,12 @@
 			"Full": "{0} radius of the Probe Bubble"
 		},
 		{
+			"Bonus": "ProbeHeat",
+			"Short": "Heat",
+			"Long": "{0} Probe Heat",
+			"Full": "Using the Probe generates {0} heat for the user"
+		},
+		{
 			"Bonus": "ProbePower",
 			"Short": "Strength",
 			"Long": "Probe Strength",

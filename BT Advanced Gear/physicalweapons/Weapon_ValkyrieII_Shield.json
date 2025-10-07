@@ -104,7 +104,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "90",
+				"modValue": "80",
 				"modType": "System.Single"
 			}
 		},

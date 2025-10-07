@@ -1,0 +1,237 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hornet",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1800000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Grudge",
+		"Id": "chassisdef_hornet_HNT-GR",
+		"Name": "Grudge",
+		"Details": "Bug 'Mech pilots often carry a chip on their shoulder, usually related to the disrespect that bug 'Mechs often receive from other MechWarriors. Clearly, this Hornet's pilot was one such pilot since they named their ride after their feelings on the matter. Grudge might be small but don't let its size fool you, it packs a wallop. Powered by a 160-rated XL engine and clad in Clan-grade Ferro-Fibrous armor, Grudge carries a terrifying Reloading Rocket Launcher 40 into battle. To back up the missiles are a trio of ER Lasers, two Medium and one Small. Grudge may be tiny but it'll flatten you for disrespecting it for even a moment.",
+		"Icon": "uixTxrIcon_hornet"
+	},
+	"MovementCapDefID": "movedef_hornet",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_hornet",
+	"PrefabIdentifier": "chrprfmech_hornetbase-001",
+	"PrefabBase": "hornet",
+	"Tonnage": 20,
+	"InitialTonnage": 2,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 210,
+	"TurnRadius": 90,
+	"MaxJumpjets": 8,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 20,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 20,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 20,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 60,
+			"MaxRearArmor": 30,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 40,
+			"MaxRearArmor": -1,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 40,
+			"MaxRearArmor": -1,
+			"InternalStructure": 20
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 8,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 8,
+			"z": -1
+		},
+		{
+			"x": -2,
+			"y": 8,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 8,
+			"z": 0
+		},
+		{
+			"x": 2,
+			"y": 8,
+			"z": -1
+		},
+		{
+			"x": -2,
+			"y": 8,
+			"z": -1
+		},
+		{
+			"x": 1.5,
+			"y": 3,
+			"z": 0
+		},
+		{
+			"x": -1.5,
+			"y": 3,
+			"z": 0
+		}
+	],
+	"VariantName": "HNT-GR",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Bug 'Mech pilots often carry a chip on their shoulder, usually related to the disrespect that bug 'Mechs often receive from other MechWarriors. Clearly, this Hornet's pilot was one such pilot since they named their ride after their feelings on the matter. Grudge might be small but don't let its size fool you, it packs a wallop. Powered by a 160-rated XL engine and clad in Clan-grade Ferro-Fibrous armor, Grudge carries a terrifying Reloading Rocket Launcher 40 into battle. To back up the missiles are a trio of ER Lasers, two Medium and one Small. Grudge may be tiny but it'll flatten you for disrespecting it for even a moment.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Hornet",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -1,0 +1,242 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Nyx",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1794160,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "The Tick",
+		"Id": "chassisdef_nyxprototype_NX-TK",
+		"Name": "The Tick",
+		"Details": "The Nyx is still just a prototype as of this record and yet, somehow, some of them have found their way to the gameworld of Solaris VII. This is one such example, nicknamed The Tick, and shows off what makes the Nyx such a powerful design: that 300-rated XL engine which gives it incredible speed. While the armaments are nothing to write home about (two Medium VSPLs and a Reloading Rocket Launcher 15), that speed guarantees they're always in the best position to fire. The Tick always can dictate range to its enemy and thus control the flow of combat. It might not have the most guns or armor but it wins fights anyways, all based on that absurd speed.",
+		"Icon": "uixTxrIcon_nyxprototype"
+	},
+	"MovementCapDefID": "movedef_spider_SDR-5V",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_genericlight3",
+	"PrefabIdentifier": "chrprfmech_genericlight3base-001",
+	"PrefabBase": "genericlight3",
+	"Tonnage": 30,
+	"InitialTonnage": 3,
+	"weightClass": "LIGHT",
+	"BattleValue": 3907000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 40,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 40,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 40,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": -1,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
+			"MaxRearArmor": -1,
+			"InternalStructure": 35
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 11,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 10.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 11,
+			"z": 0
+		},
+		{
+			"x": -2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 10.5,
+			"z": -0.5
+		},
+		{
+			"x": -2,
+			"y": 4,
+			"z": 0.5
+		},
+		{
+			"x": 2,
+			"y": 4,
+			"z": 0.5
+		}
+	],
+	"VariantName": "NX-TK",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"LightMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Nyx is still just a prototype as of this record and yet, somehow, some of them have found their way to the gameworld of Solaris VII. This is one such example, nicknamed The Tick, and shows off what makes the Nyx such a powerful design: that 300-rated XL engine which gives it incredible speed. While the armaments are nothing to write home about (two Medium VSPLs and a Reloading Rocket Launcher 15), that speed guarantees they're always in the best position to fire. The Tick always can dictate range to its enemy and thus control the flow of combat. It might not have the most guns or armor but it wins fights anyways, all based on that absurd speed.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Nyx",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

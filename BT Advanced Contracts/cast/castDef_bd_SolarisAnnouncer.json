@@ -1,0 +1,21 @@
+{
+	"id": "castDef_bd_SolarisAnnouncer",
+	"internalName": "bd_SolarisAnnouncer",
+	"firstName": "Duncan",
+	"lastName": "Fisher",
+	"callsign": "",
+	"rank": "",
+	"gender": "Male",
+	"factionID": "Steiner",
+	"sgCharType": "UNSET",
+	"showRank": false,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"localizeName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Contracts/sprite/guiTxrPort_DuncanFisher.png"
+	},
+	"emotePotraitList": []
+}

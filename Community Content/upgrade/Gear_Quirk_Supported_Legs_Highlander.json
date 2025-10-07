@@ -1,0 +1,214 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "LegHip"
+      },
+      {
+        "CategoryID": "Quirk"
+      }
+    ],
+    "BonusDescriptions": [
+        "ModularArmor: +20",
+        "Reinforced: +20",
+        "DFADamageBonus: +15%",
+        "DFAAcc: +2",
+        "DFASelfStabDamage: 15%",
+		"DFASelfDamage: 15%",
+		"KnockdownImmunity"
+      ],
+    "Flags": [
+        "ignore_shutdown",
+        "not_broken",
+		"no_salvage",
+		"ignore_damage"
+    ]
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 510000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Quirk",
+    "Model": "Highlander",
+    "UIName": "Highlander Supported Legs",
+    "Id": "Gear_Quirk_Supported_Legs_Highlander",
+    "Name": "Highlander Supported Legs",
+    "Details": "This gear represents the Highlander's inherent Supported Legs quirk. This gives the Highlander slightly improved Death From Above attacks, including bonus damage, bonus accuracy, and reduced self-damage during DFAs.",
+    "Icon": "quake-stomp"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Legs",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderDFADmg",
+				"Name": "DFAs Massively Buffed",
+				"Details": "DFA attacks deal 30% more damage, gain +3 accuracy, and ignore 50% of Self-Damage and Self-Stability Damage.",
+				"Icon": "quake-stomp"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderDFASelfStabDmg",
+				"Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+				"Details": "DFA attacks deal [AMT] less damage to the attacker.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Attacker_Instability_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "0.85",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderDFASelfDmg",
+				"Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+				"Details": "DFA attacks deal [AMT] less damage to the attacker.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Attacker_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "0.85",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderDFAAcc",
+				"Name": "DFA SELF-INFLICTED DAMAGE DECREASED",
+				"Details": "DFA attacks deal [AMT] less damage to the attacker.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderReinforcedArmor-{location}",
+				"Name": "Bonus Leg Armor",
+				"Details": "The Highlander has substantial bonus armor and structure in its legs.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "{location}.Armor",
+				"operation": "Float_Add",
+				"modValue": "20",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Quirk_HighlanderReinforcedStructure-{location}",
+				"Name": "Bonus Leg Structure",
+				"Details": "DFA attacks deal [AMT] less damage to the attacker.",
+				"Icon": "uixSvgIcon_equipment_ActuatorLeg"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "{location}.Structure",
+				"operation": "Float_Add",
+				"modValue": "20",
+				"modType": "System.Single"
+			}
+		}
+  ],
+  "ComponentTags": {
+    "items": [
+      "ignore_shutdown",
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -10,7 +10,8 @@
 		],
 		"BonusDescriptions": [
 				"Sensors: +20%",
-				"Defense: +2"
+				"Defense: +2",
+				"ProbeHeat: 50"
 			],
 		"Flags": [
 				"no_salvage"
