@@ -43,7 +43,123 @@
 			"statisticData": {
 				"statName": "ADD_ENCOUNTER_TAG_C3_Network",
 				"operation": "Float_Add",
-				"modValue": "-2",
+				"modValue": "-20",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-NARC-C3-Scrambling-Beta",
+				"Name": "Network Scrmbling",
+				"Details": "This unit has been hit with an iNarc ECM pod and has been disconnected from any C3, C3i, or Drone Networks it may have been attached to.",
+				"Icon": "UixSvgIcon_designMask_electricalField"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_C3_Network_Beta",
+				"operation": "Float_Add",
+				"modValue": "-20",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-NARC-C3-Scrambling-Gamma",
+				"Name": "Network Scrmbling",
+				"Details": "This unit has been hit with an iNarc ECM pod and has been disconnected from any C3, C3i, or Drone Networks it may have been attached to.",
+				"Icon": "UixSvgIcon_designMask_electricalField"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_C3_Network_Gamma",
+				"operation": "Float_Add",
+				"modValue": "-20",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-NARC-C3-Scrambling-Delta",
+				"Name": "Network Scrmbling",
+				"Details": "This unit has been hit with an iNarc ECM pod and has been disconnected from any C3, C3i, or Drone Networks it may have been attached to.",
+				"Icon": "UixSvgIcon_designMask_electricalField"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_C3_Network_Delta",
+				"operation": "Float_Add",
+				"modValue": "-20",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-NARC-C3-Scrambling-Epsilon",
+				"Name": "Network Scrmbling",
+				"Details": "This unit has been hit with an iNarc ECM pod and has been disconnected from any C3, C3i, or Drone Networks it may have been attached to.",
+				"Icon": "UixSvgIcon_designMask_electricalField"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"statName": "ADD_ENCOUNTER_TAG_C3_Network_Epsilon",
+				"operation": "Float_Add",
+				"modValue": "-20",
 				"modType": "System.Single"
 			}
 		},
@@ -72,7 +188,7 @@
 			"statisticData": {
 				"statName": "ADD_ENCOUNTER_TAG_C3i_Network",
 				"operation": "Float_Add",
-				"modValue": "-2",
+				"modValue": "-20",
 				"modType": "System.Single"
 			}
 		},
@@ -101,7 +217,7 @@
 			"statisticData": {
 				"statName": "ADD_ENCOUNTER_TAG_Drone_Network",
 				"operation": "Float_Add",
-				"modValue": "-2",
+				"modValue": "-20",
 				"modType": "System.Single"
 			}
 		},
