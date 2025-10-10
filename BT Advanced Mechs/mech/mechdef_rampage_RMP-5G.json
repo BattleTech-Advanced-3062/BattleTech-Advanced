@@ -28,7 +28,7 @@
 		"UIName": "Rampage RMP-5G",
 		"Id": "mechdef_rampage_RMP-5G",
 		"Name": "Rampage",
-		"Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic for its military, the Rim Worlds Army. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as ruler of the Star League. The RMP-5G was upgraded to celebrate his great victory and uses a LB-10X Autocannon, LRM-10 with Artemis VI, triple Streak SRM-2s, twin Medium lasers, and a Flamer to cow his enemies into submission. Despite the frame's rather severe publicity issues, it was successful enough to remain in service for centuries after Amaris's fall and the rise of House Helius.",
+		"Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic for its military, the Rim Worlds Army. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as ruler of the Star League. The RMP-5G was upgraded to celebrate his great victory and uses a LB-10X Autocannon, LRM-10 with Artemis IV, triple Streak SRM-2s, twin Medium lasers, and a Flamer to cow his enemies into submission. Despite the frame's rather severe publicity issues, it was successful enough to remain in service for centuries after Amaris's fall and the rise of House Helius.",
 		"Icon": "uixTxrIcon_rampage"
 	},
 	"simGameMechPartCost": 1130000,
