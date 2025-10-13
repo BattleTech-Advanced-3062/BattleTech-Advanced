@@ -109,7 +109,8 @@
 		"JwNetOverride",
 		"VMMWSGC",
 		"JwTweaks",
-		"SwordOfRestoration"
+		"SwordOfRestoration",
+		"HeraldryPicker"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

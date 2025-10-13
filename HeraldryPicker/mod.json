@@ -1,0 +1,14 @@
+{
+  "Name": "HeraldryPicker",
+  "Enabled": true,
+  "Version": "1.1.0",
+  
+  "Description": "Allows players to browse and select from all available paint schemes, while also adding color ID names to the customization swatches for quick identification.",
+  "Author": "Kierk",
+  
+  "DLL": "HeraldryPicker.dll",
+  "DLLEntryPoint": "HeraldryPicker.Main.Init",
+  "Settings": {
+    "ShowColorNameOnEachSwatch": true
+  }
+}
