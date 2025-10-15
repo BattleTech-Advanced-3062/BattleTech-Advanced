@@ -159,7 +159,8 @@
 			{
 				"ContractBlacklist": [
 					"DuoDuel",
-					"SoloDuel"
+					"SoloDuel",
+					"BattleRoyale"
 				],
 				"AbilityDefID": "AbilityDefCMD_Strafe_AI",
 				"FactionIDs": [
