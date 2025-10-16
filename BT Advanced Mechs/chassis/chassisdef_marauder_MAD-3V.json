@@ -8,7 +8,7 @@
 		"UIName": "Marauder",
 		"Id": "chassisdef_marauder_MAD-3V",
 		"Name": "Marauder",
-		"Details": "Developed during the late Third Succession War as components for BattleMechs began to grow scarce and needs pushed designs into strange spaces, the MAD-3V is a Marader MAD-3R mated to the 225-rated fusion engine from the Von Luckner tank, which was more plentiful than the Marauder's own 300-rated engine at this time. Slowing the design down gave the engineers enough free tonnage to upgrade the -3R's AC/5 to a full-scale AC/20 (also salvaged from the Von Luckner). Of course, the limited speed made bringing it to bear difficult but if the MAD-3V could reach close range, it proved a devastating design.",
+		"Details": "Developed during the late Third Succession War as components for BattleMechs began to grow scarce and needs pushed designs into strange spaces, the MAD-3V is a Marauder MAD-3R mated to the 225-rated fusion engine from the Von Luckner tank, which was more plentiful than the Marauder's own 300-rated engine at this time. Slowing the design down gave the engineers enough free tonnage to upgrade the -3R's AC/5 to a full-scale AC/20 (also salvaged from the Von Luckner). Of course, the limited speed made bringing it to bear difficult but if the MAD-3V could reach close range, it proved a devastating design.",
 		"Icon": "uixTxrIcon_marauder"
 	},
 	"MovementCapDefID": "movedef_marauder_MAD-3R",
