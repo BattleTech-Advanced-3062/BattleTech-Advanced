@@ -13,13 +13,13 @@
 			"StabilityDamagePerAmmo": 3
 		},
 		"BonusDescriptions": [
-				"AreaOfEffect: 50",
-				"AreaOfEffectDmg: 3",
-				"MortarDamage: -1",
-				"WpnAccuracy: +1",
-				"CostPerShot: 100",
-				"AmmoCount: 20"
-			],
+			"AreaOfEffect: 50",
+			"AreaOfEffectDmg: 3",
+			"WpnAccuracy: -3",
+			"SemiGuidedMortar: +6",
+			"CostPerShot: 100",
+			"AmmoCount: 20"
+		],
 		"AmmoCost": {
 			"PerUnitCost": 100
 		}
@@ -32,10 +32,10 @@
 		"Purchasable": true,
 		"Manufacturer": "Generic",
 		"Model": "Mortar",
-		"UIName": "Ammo Mortar Guided [Half]",
+		"UIName": "Ammo Mortar Semi-Guided [Half]",
 		"Id": "Ammo_AmmunitionBox_Guided_Mortar_half",
 		"Name": "Mortar Ammo",
-		"Details": "Semi Guided Mortar Shells trade a bit of Damage potential for Superior Accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 20 shots.",
+		"Details": "Semi-Guided Mortar Shells trade a bit of Damage potential for Superior Accuracy. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 20 shots.",
 		"Icon": "mor-tar-ammo"
 	},
 	"BonusValueA": "",

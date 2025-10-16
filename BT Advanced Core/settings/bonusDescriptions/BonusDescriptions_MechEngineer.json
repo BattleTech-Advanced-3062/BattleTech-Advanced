@@ -5592,6 +5592,12 @@
 			"Full": "Semi-Guided LRMs gain a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
 		},
 		{
+			"Bonus": "SemiGuidedMortar",
+			"Short": "Semi-Guided Mortar",
+			"Long": "Semi-Guided Mortar",
+			"Full": "Semi-Guided Mortars gain a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+		},
+		{
 			"Bonus": "GuidedArtillery",
 			"Short": "Guided Artillery",
 			"Long": "Guided Artillery",

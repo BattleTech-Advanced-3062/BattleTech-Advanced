@@ -16,10 +16,14 @@
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
-	"DamagePerShot": -1.0,
+	"DamagePerShot": 0,
 	"AOECapable": true,
 	"AOERange": 50,
 	"AOEDamage": 3,
 	"AlwaysIndirectVisuals": true,
-	"AccuracyModifier": -1.0
+	"AccuracyModifier": 3,
+	"ChassisTagsAccuracyModifiers":{
+		"TargetAcquired": -6
+	}
+}
 }
