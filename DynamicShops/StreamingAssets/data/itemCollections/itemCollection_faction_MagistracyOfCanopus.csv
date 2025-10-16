@@ -15,3 +15,8 @@ Gear_Contract_Mech_ShadowHawk_Canopian,Upgrade,0,1
 Gear_Contract_Tank_Merkava_VIII_Canopian,Upgrade,0,1
 emod_kit_dhs,HeatSink,0,1
 Gear_HeatSink_Generic_Double,HeatSink,0,1
+Gear_Weapon_Coolant_Artillery,HeatSink,0,1
+Gear_Weapon_Coolant_Ballistic,HeatSink,0,1
+Gear_Weapon_Coolant_Energy,HeatSink,0,1
+Gear_Weapon_Coolant_Missile,HeatSink,0,1
+Gear_Weapon_Coolant_Superweapon,HeatSink,0,1
