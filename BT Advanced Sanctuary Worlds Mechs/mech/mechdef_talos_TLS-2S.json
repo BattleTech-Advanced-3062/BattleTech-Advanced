@@ -118,16 +118,6 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_sancstandard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_200",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

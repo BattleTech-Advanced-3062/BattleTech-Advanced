@@ -135,7 +135,7 @@
 					]
 				},
 				{
-					"UnitType": "SacntuaryMech",
+					"UnitType": "SanctuaryMech",
 					"Defaults": [
 						{
 							"Location": "CenterTorso",
