@@ -264,7 +264,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_armorslots_sancstandard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",

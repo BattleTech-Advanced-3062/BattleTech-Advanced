@@ -118,7 +118,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
+			"ComponentDefID": "emod_armorslots_sancstandard",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
