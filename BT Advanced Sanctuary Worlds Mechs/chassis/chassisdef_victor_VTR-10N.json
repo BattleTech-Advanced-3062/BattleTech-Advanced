@@ -202,6 +202,7 @@
 	"VariantName": "VTR-10N",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"AssaultMech"
 		],

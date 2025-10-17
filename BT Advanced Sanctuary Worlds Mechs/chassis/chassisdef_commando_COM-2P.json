@@ -194,6 +194,7 @@
 	"VariantName": "COM-2P",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

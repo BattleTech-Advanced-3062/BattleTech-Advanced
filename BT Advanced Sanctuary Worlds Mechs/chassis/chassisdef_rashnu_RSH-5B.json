@@ -211,6 +211,7 @@
 	"VariantName": "RSH-5B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"

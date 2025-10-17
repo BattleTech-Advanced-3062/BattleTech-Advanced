@@ -8,9 +8,14 @@
 				"SHIELD: 3"
 			],
 		"Color": "Gold",
-		"Category" : { 
-			"CategoryID" : "Armor" 
-		},
+		"Category": [
+			{
+				"CategoryID": "Armor"
+			},
+			{
+				"CategoryID": "SanctuaryArmor"
+			}
+		],
 		"CASE": {
 			"AllLocations": true,
 			"MaximumDamage": 3

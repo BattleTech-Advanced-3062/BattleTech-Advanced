@@ -200,6 +200,7 @@
 	"VariantName": "FS10-V",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"LightMech"

@@ -206,6 +206,7 @@
 	"VariantName": "TRN-6L",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

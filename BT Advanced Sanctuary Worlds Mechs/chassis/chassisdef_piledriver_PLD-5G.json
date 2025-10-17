@@ -219,6 +219,7 @@
 	"VariantName": "PLD-5G",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

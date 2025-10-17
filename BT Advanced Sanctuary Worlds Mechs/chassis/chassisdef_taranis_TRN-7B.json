@@ -206,6 +206,7 @@
 	"VariantName": "TRN-7B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

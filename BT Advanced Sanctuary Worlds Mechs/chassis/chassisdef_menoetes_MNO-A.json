@@ -276,6 +276,7 @@
 	"VariantName": "MNO-A",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""

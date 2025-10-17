@@ -230,6 +230,7 @@
 	"VariantName": "BLZ-3X",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"

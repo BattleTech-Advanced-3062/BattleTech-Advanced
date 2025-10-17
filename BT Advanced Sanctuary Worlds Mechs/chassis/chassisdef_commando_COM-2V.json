@@ -194,6 +194,7 @@
 	"VariantName": "COM-2V",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

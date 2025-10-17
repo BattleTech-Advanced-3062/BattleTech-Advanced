@@ -307,6 +307,7 @@
 	"VariantName": "BNC-4S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""

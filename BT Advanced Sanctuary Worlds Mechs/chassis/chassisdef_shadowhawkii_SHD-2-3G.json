@@ -212,6 +212,7 @@
 	"VariantName": "SHD-2-3G",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

@@ -203,6 +203,7 @@
 	"VariantName": "CHE-5F",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"IgnoreEngineLimit",
 			"LightMech"
 		],

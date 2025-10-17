@@ -245,6 +245,7 @@
 	"VariantName": "LTH-B3",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

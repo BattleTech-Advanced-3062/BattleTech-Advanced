@@ -133,6 +133,16 @@
 							"Type": "Upgrade"
 						}
 					]
+				},
+				{
+					"UnitType": "SacntuaryMech",
+					"Defaults": [
+						{
+							"Location": "CenterTorso",
+							"DefID": "emod_armorslots_sancstandard",
+							"Type": "Upgrade"
+						}
+					]
 				}
 			]
 		},

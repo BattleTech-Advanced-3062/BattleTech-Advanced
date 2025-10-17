@@ -190,6 +190,7 @@
 	"VariantName": "WSP-2-1A",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

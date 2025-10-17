@@ -215,6 +215,7 @@
 	"VariantName": "COE-H5",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech",
