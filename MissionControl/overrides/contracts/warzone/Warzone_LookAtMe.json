@@ -11,7 +11,7 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "<b>Note: An ally lance spawns only after the main objectives' completed.\n<i>Delete this line</i></b>\n\r\nCommander, a battalion sporting {TEAM_TAR.FactionDef.Name}'s colors are operating covertly in {TGT_SYSTEM.Name}.  Your mission: draw their focus, hold them in place while we close their escape.  Disrupt, disable, and buy us time --- extraction to follow.",
+	"shortDescription": "Commander, a battalion sporting {TEAM_TAR.FactionDef.Name}'s colors are operating covertly in {TGT_SYSTEM.Name}.  Your mission: draw their focus, hold them in place while we close their escape.  Disrupt, disable, and buy us time --- extraction to follow. We will send an allied force to support your evac as soon as you draw enough enemy attention.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
 	"longDescription": "Being paid to get chased and shot at? Not ideal.  Fingers crossed for some extra bonuses",
 	"salvagePotential": 30,
 	"requirementList": [

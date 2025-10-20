@@ -11,8 +11,8 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "<b>Note: This will spawn 1 ally lance at start of mission.\n<i>Delete this line</i></b>\n\r\nEven though we've had some wins in other parts of the {TEAM_EMP.FactionDef.Demonym} region, {TEAM_TAR.FactionDef.Name}'s stepping up their game.  Right now, several units have arrived at {TGT_SYSTEM.Name}, and it's looking like it might fall into their hands.  Your job is to back up the {TEAM_EMP.FactionDef.Name}'s lance and hold the line for as long as you can.  Reinforcements are on the way, but we need to buy some time.",
-	"longDescription": "Hold the line for as long as you can until reinforcements arrive",
+	"shortDescription": "Even though we've had some wins in other parts of the {TEAM_EMP.FactionDef.Demonym} region, {TEAM_TAR.FactionDef.Name}'s stepping up their game.  Right now, several units have arrived at {TGT_SYSTEM.Name}, and it's looking like it might fall into their hands.  Your job is to back up the {TEAM_EMP.FactionDef.Name}'s lance and hold the line for as long as you can.  Reinforcements are on the way, but we need to buy some time.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
+	"longDescription": "Hold the line for as long as you can!",
 	"salvagePotential": 30,
 	"requirementList": [
 		{

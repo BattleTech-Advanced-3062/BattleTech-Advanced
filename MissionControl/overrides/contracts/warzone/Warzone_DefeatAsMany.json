@@ -11,8 +11,8 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "<b>Note: This will not spawn any ally lance.  To spawn ally lance, set 1 of the three chunks' (Chunk_Employer_Lance_01, 02, or 03) 'enableChunkFromContract' to true; set only 1 Employer Chunk to true, else it would conflict with the CnotractBuild triggers.\n<i>Delete this line</i></b>\n\r\n{TEAM_TAR.FactionDef.Name} have been pushing into this region, so there are big bounties out on them. Take out as many as you can --- the more you drop, the bigger your payout.",
-	"longDescription": "This is a straight-up brawl.  Take down units as much you can.",
+	"shortDescription": "{TEAM_TAR.FactionDef.Name} have been pushing into this region, so there are big bounties out on them. Take out as many as you can --- the more you drop, the bigger your payout.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
+	"longDescription": "This is a straight-up brawl and we're on our own for this one. Stay frosty, Commander.",
 	"salvagePotential": 30,
 	"requirementList": [
 		{
