@@ -864,7 +864,7 @@
 			"UsesSecondScaledStructureValues": false,
 			"ContractRewardMultiplier": 1,
 			"Illustration": "uixTxrSpot_battleContract",
-			"Icon": "uixSvgIcon_contract_Battle",
+			"Icon": "uixSvgIcon_contract_Assassinate",
 			"IsPublished": true
 		}
 	]
