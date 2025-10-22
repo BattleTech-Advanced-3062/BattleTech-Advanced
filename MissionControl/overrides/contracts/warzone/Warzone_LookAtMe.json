@@ -1115,11 +1115,16 @@
 				"name": "Employer_Lance_01",
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_battle",
+						"lance_type_notallvehicles"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -1271,11 +1276,16 @@
 				"name": "Employer_Lance_02",
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_battle",
+						"lance_type_notallvehicles"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -1427,11 +1437,16 @@
 				"name": "Employer_Lance_03",
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_battle",
+						"lance_type_notallvehicles"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -1595,12 +1610,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_battle",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -1753,12 +1771,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_support",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -1911,12 +1932,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_fire",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2069,12 +2093,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_battle",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2238,12 +2265,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_battle",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2396,12 +2426,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_fire",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2565,12 +2598,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_battle",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2723,12 +2759,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
-						"lance_type_mech"
+						"lance_type_support",
+						"lance_type_notallvehicles"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -2892,12 +2931,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
+						"lance_type_battle",
 						"lance_type_mech"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
@@ -3050,12 +3092,15 @@
 				"lanceDefId": "Tagged",
 				"lanceTagSet": {
 					"items": [
+						"lance_type_battle",
 						"lance_type_mech"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": [
+						"lance_type_gladiator"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
