@@ -218,6 +218,7 @@
 	"VariantName": "RFL-4N",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech"

@@ -269,6 +269,7 @@
 	"VariantName": "ARC-3S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""
