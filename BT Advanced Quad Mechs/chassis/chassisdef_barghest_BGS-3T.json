@@ -107,7 +107,15 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Energy",
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Ballistic",
           "Omni": false
         }
       ],
@@ -130,7 +138,11 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Energy",
           "Omni": false
         },
         {
@@ -139,6 +151,10 @@
         },
         {
           "WeaponMountID": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMountID": "Missile",
           "Omni": false
         }
       ],

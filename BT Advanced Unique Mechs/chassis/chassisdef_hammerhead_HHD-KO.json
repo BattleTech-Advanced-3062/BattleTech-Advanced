@@ -23,10 +23,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Hammerhead",
-		"Id": "chassisdef_hammerhead_HHD-1",
-		"Name": "Hammerhead",
-		"Details": "Created by the Diamond Sharks and intended for use as an indestructible shock trooper in combat, the Hammerhead is a bit of an odd duck, even by Clan standards. Not particularly fast for its size nor very well armed, the Hammerhead is notable for its unusual Hardened Armor and Actuator Enhancement System, both sourced from the Wolf's Dragoons and both providing extreme durability and stability in combat. For weapons, the Hammerhead can call upon a Large Pulse Laser, a Streak SRM-6, and an ER Medium Laser, all no-frills weapons that the standard DHS can handle with ease.",
+		"UIName": "Mako",
+		"Id": "chassisdef_hammerhead_HHD-KO",
+		"Name": "Mako",
+		"Details": "An extreme rarity on the battlefield, the Hammerhead is almost only ever seen in sales showfloors being demonstrated by the Diamond Sharks. However, sometimes someone actually buys one and puts it to work, such as this 'Mech, nicknamed after a different shark, the mako shark. Mako keeps the Hammerhead's normal Inner Sphere-spec Hardened Armor but upgrades the weaponry thanks to a Clan-grade XXL engine and an XL Gyro. The weapon load has been fully replaced with 8 Improved SRM tubes and two Improved Large Lasers, complete with Laser Insulators to help manage the heat load. Additionally, Mako carries a Clan-grade MASC system for unexpected speed in the arenas.",
 		"Icon": "uixTxrIcon_hammerhead"
 	},
 	"MovementCapDefID": "movedef_shadowcat",
@@ -93,6 +93,10 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -104,6 +108,10 @@
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -209,16 +217,17 @@
 			"z": 0.5
 		}
 	],
-	"VariantName": "HHD-1",
+	"VariantName": "HHD-KO",
 	"ChassisTags": {
 		"items": [
 			"ClanMech",
-			"MediumMech"
+			"MediumMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Shock Trooper",
-	"YangsThoughts": "Created by the Diamond Sharks and intended for use as an indestructible shock trooper in combat, the Hammerhead is a bit of an odd duck, even by Clan standards. Not particularly fast for its size nor very well armed, the Hammerhead is notable for its unusual Hardened Armor and Actuator Enhancement System, both sourced from the Wolf's Dragoons and both providing extreme durability and stability in combat. For weapons, the Hammerhead can call upon a Large Pulse Laser, a Streak SRM-6, and an ER Medium Laser, all no-frills weapons that the standard DHS can handle with ease.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "An extreme rarity on the battlefield, the Hammerhead is almost only ever seen in sales showfloors being demonstrated by the Diamond Sharks. However, sometimes someone actually buys one and puts it to work, such as this 'Mech, nicknamed after a different shark, the mako shark. Mako keeps the Hammerhead's normal Inner Sphere-spec Hardened Armor but upgrades the weaponry thanks to a Clan-grade XXL engine and an XL Gyro. The weapon load has been fully replaced with 8 Improved SRM tubes and two Improved Large Lasers, complete with Laser Insulators to help manage the heat load. Additionally, Mako carries a Clan-grade MASC system for unexpected speed in the arenas.",
 	"CustomParts": {
 		"CustomParts": []
 	}

@@ -30,10 +30,10 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Barghest",
-    "Id": "chassisdef_barghest_BGS-1T",
-    "Name": "Barghest",
-    "Details": "Katherine Steiner-Davion decided during her reign over the Lyran Alliance that she wanted a four legged BattleMech that would evoke fear in its enemies in a similar vein to the classic Atlas and Banshee designs. To do this, the Barghest is built on an Earthwerk GRF Quad chassis that supports a Magna 350 XL engine that saves weight and allows the 'Mech to carry a heavy weapons payload. The 1T carries a pair of ER Large Lasers for ranged punch while up-close it carries a mighty LB-20X Autocannon with both standard and cluster ammunition.",
+    "UIName": "Nessus",
+    "Id": "chassisdef_barghest_BGS-NS",
+    "Name": "Nessus",
+    "Details": "The Barghest is a staple of the Lyran Commonwealth Armed Forces and is a pride of the nation. Of course, with a pedigree like that it was inevitable that it eventually showed up in the gameworld arenas on Solaris VII, a world in Lyran custody. Nessus, as this design is called, is a powerful if unconventional take on the Barghest. Whereas most Barghests rely on heavy ballistics, Nessus instead leans into heavy missile weapons with twin MRM-30s, backed up by a quartet of Piercing Medium Pulse Lasers for extra precision in the arenas. To pay for the warload's weight, Nessus has an XL Engine and Endo-Steel bones.",
     "Icon": "uixTxrIcon_barghest"
   },
   "MovementCapDefID": "movedef_warhammer_WHM-6R",
@@ -115,7 +115,7 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -146,11 +146,11 @@
           "Omni": false
         },
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "AntiPersonnel",
           "Omni": false
         },
         {
-          "WeaponMountID": "Ballistic",
+          "WeaponMountID": "Missile",
           "Omni": false
         },
         {
@@ -246,17 +246,18 @@
       "z": 1
     }
   ],
-  "VariantName": "BGS-1T",
+  "VariantName": "BGS-NS",
   "ChassisTags": {
     "items": [
-      "QuadMech",
-      "mr-resize-0.85",
-			"HeavyMech"
+		"QuadMech",
+		"mr-resize-0.85",
+		"HeavyMech",
+		"HeroMech"
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Assault",
-  "YangsThoughts": "Katherine Steiner-Davion decided during her reign over the Lyran Alliance that she wanted a four legged BattleMech that would evoke fear in its enemies in a similar vein to the classic Atlas and Banshee designs. To do this, the Barghest is built on an Earthwerk GRF Quad chassis that supports a Magna 350 XL engine that saves weight and allows the 'Mech to carry a heavy weapons payload. The 1T carries a pair of ER Large Lasers for ranged punch while up-close it carries a mighty LB-20X Autocannon with both standard and cluster ammunition.",
+  "StockRole": "Gladiator",
+  "YangsThoughts": "The Barghest is a staple of the Lyran Commonwealth Armed Forces and is a pride of the nation. Of course, with a pedigree like that it was inevitable that it eventually showed up in the gameworld arenas on Solaris VII, a world in Lyran custody. Nessus, as this design is called, is a powerful if unconventional take on the Barghest. Whereas most Barghests rely on heavy ballistics, Nessus instead leans into heavy missile weapons with twin MRM-30s, backed up by a quartet of Piercing Medium Pulse Lasers for extra precision in the arenas. To pay for the warload's weight, Nessus has an XL Engine and Endo-Steel bones.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
@@ -296,7 +297,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "emod_structureslots_standard",
+      "ComponentDefID": "emod_structureslots_endosteel",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
