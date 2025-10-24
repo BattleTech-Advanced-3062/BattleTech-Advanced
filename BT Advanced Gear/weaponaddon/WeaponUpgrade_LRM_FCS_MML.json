@@ -9,10 +9,6 @@
 			"Id": "LRM",
 			"UIName": "FCS LRM",
 			"AccuracyModifier": -1.0
-		},
-		{
-			"Id": "SRM",
-			"UIName": "SRM"
 		}
 	]
 }

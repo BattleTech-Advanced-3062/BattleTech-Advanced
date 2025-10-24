@@ -11,10 +11,6 @@
 			"AccuracyModifier": -1.0
 		},
 		{
-			"Id": "SRM",
-			"UIName": "SRM"
-		},
-		{
 			"Id": "ATM",
 			"UIName": "FCS ATM",
 			"AccuracyModifier": -1.0
