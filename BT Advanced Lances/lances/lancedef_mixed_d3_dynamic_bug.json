@@ -1,0 +1,145 @@
+{
+	"Description": {
+		"Id": "lancedef_mixed_d3_dynamic_bug",
+		"Name": "Dynamic Dif 3 Bug Mech",
+		"Details": "",
+		"Icon": "",
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Difficulty": 3,
+	"LanceTags": {
+		"items": [
+			"lance_type_light",
+			"lance_type_bug"
+		],
+		"tagSetSourceFile": "Tags/LanceTags"
+	},
+	"LanceUnits": [
+		{
+			"unitType": "Vehicle",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"unitTagSet": {
+				"items": [
+					"unit_bug",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [
+					"pilot_npc_d3"
+				],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"unitTagSet": {
+				"items": [
+					"unit_bug",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [
+					"pilot_npc_d3"
+				],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		},
+		{
+			"unitType": "Vehicle",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"unitTagSet": {
+				"items": [
+					"unit_bug",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [
+					"pilot_npc_d3"
+				],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"unitTagSet": {
+				"items": [
+					"unit_bug",
+					"unit_mech",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
+				],
+				"tagSetSourceFile": "Tags/UnitTags"
+			},
+			"pilotTagSet": {
+				"items": [
+					"pilot_npc_d3"
+				],
+				"tagSetSourceFile": "Tags/PilotTags"
+			},
+			"excludedPilotTagSet": {
+				"items": null,
+				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		}
+	]
+}
