@@ -18,7 +18,7 @@
 	},
 	"LanceUnits": [
 		{
-			"unitType": "Vehicle",
+			"unitType": "Mech",
 			"unitId": "Tagged",
 			"pilotId": "Tagged",
 			"unitTagSet": {
@@ -80,7 +80,7 @@
 			}
 		},
 		{
-			"unitType": "Vehicle",
+			"unitType": "Mech",
 			"unitId": "Tagged",
 			"pilotId": "Tagged",
 			"unitTagSet": {
