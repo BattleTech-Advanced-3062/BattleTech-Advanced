@@ -318,7 +318,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_Target_Ally_Lance_01",
+			"Name": "Chunk_Target_Lance_03",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "d80f360d-2bac-43d5-945f-93fd3abc5316",
@@ -326,7 +326,7 @@
 			"ControlledByContract": true,
 			"Children": [
 				{
-					"Name": "Spawner_Target_Ally_Lance_01",
+					"Name": "Spawner_Target_Lance_03",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -357,13 +357,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_Target_Ally_Lance_01",
+					"Name": "Objective_Defeat_Target_Lance_03",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "3e34b36f-3b8d-4f38-8936-8e3aff4daab0",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy Target_Ally_Lance_01",
+					"Title": "Destroy Target_Lance_03",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": true,
@@ -372,7 +372,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_HostileToAll_Lance_01",
+			"Name": "Chunk_Target_Lance_04",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "62f3ed89-c6a4-46cd-98cb-fff5aa3e1349",
@@ -386,7 +386,7 @@
 			],
 			"Children": [
 				{
-					"Name": "Spawner_HostileToAll_Lance_01",
+					"Name": "Spawner_Target_Lance_04",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -417,13 +417,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_HostileToAll_Lance_01",
+					"Name": "Objective_Defeat_Target_Lance_04",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "848503f7-f13b-4315-9e3a-df65e2c34068",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy HostileToAll_Lance_01",
+					"Title": "Destroy Target_Lance_04",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -432,7 +432,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_NeutralToAll_Lance_01",
+			"Name": "Chunk_Target_Lance_05",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "5fe8d56f-5fd7-48ab-be13-4ab85c3d2e6d",
@@ -440,7 +440,7 @@
 			"ControlledByContract": true,
 			"Children": [
 				{
-					"Name": "Spawner_NeutralToAll_Lance_01",
+					"Name": "Spawner_Target_Lance_05",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -471,13 +471,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_NeutralToAll_Lance_01",
+					"Name": "Objective_Defeat_Target_Lance_05",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "a0933e16-ba04-4b52-8393-70a27a308ce3",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy NeutralToAll_Lance_01",
+					"Title": "Destroy Target_Lance_05",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -486,7 +486,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_Target_Lance_03",
+			"Name": "Chunk_Target_Lance_06",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "cad9052b-e000-40f4-84eb-e71208016d2a",
@@ -500,7 +500,7 @@
 			],
 			"Children": [
 				{
-					"Name": "Spawner_Target_Lance_03",
+					"Name": "Spawner_Target_Lance_06",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -537,7 +537,7 @@
 					"Description": "",
 					"Guid": "1679155e-4729-4afd-a3ff-2d507f0ac193",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy Target_Lance_03",
+					"Title": "Destroy Target_Lance_06",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -546,7 +546,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_Target_Ally_Lance_02",
+			"Name": "Chunk_Target_Lance_07",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "cd932d7c-f618-47e3-8d28-6eab092aac26",
@@ -560,7 +560,7 @@
 			],
 			"Children": [
 				{
-					"Name": "Spawner_Target_Ally_Lance_02",
+					"Name": "Spawner_Target_Lance_07",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -591,13 +591,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_Target_Ally_Lance_02",
+					"Name": "Objective_Defeat_Target_Lance_07",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "a8e48a4a-7b4f-49d2-87c5-9855ea7bb985",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy Target_Ally_Lance_02",
+					"Title": "Destroy Target_Lance_07",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -606,7 +606,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_HostileToAll_Lance_02",
+			"Name": "Chunk_Target_Lance_08",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "edd2276b-e17f-48c0-a682-44ca5f1c81e9",
@@ -620,7 +620,7 @@
 			],
 			"Children": [
 				{
-					"Name": "Spawner_HostileToAll_Lance_02",
+					"Name": "Spawner_Target_Lance_08",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -651,13 +651,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_HostileToAll_Lance_02",
+					"Name": "Objective_Defeat_Target_Lance_08",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "075bded3-501c-4180-b4e3-a423a5564f0a",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy HostileToAll_Lance_02",
+					"Title": "Destroy Target_Lance_08",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -666,7 +666,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_NeutralToAll_Lance_02",
+			"Name": "Chunk_Target_Lance_09",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "b644069d-98af-4967-a697-bcf3287fef24",
@@ -680,7 +680,7 @@
 			],
 			"Children": [
 				{
-					"Name": "Spawner_NeutralToAll_Lance_02",
+					"Name": "Spawner_Target_Lance_09",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -711,13 +711,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_NeutralToAll_Lance_02",
+					"Name": "Objective_Defeat_Target_Lance_09",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "26f0e3d9-3390-480e-bbaa-680f3d45cd0f",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy NeutralToAll_Lance_02",
+					"Title": "Destroy Target_Lance_09",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -726,7 +726,7 @@
 			]
 		},
 		{
-			"Name": "Chunk_Target_Lance_04",
+			"Name": "Chunk_Target_Lance_10",
 			"Type": "Chunk",
 			"SubType": "Container",
 			"Guid": "839c526a-c0aa-4b63-90da-27f7c02c8f54",
@@ -734,7 +734,7 @@
 			"ControlledByContract": true,
 			"Children": [
 				{
-					"Name": "Spawner_Target_Lance_04",
+					"Name": "Spawner_Target_Lance_10",
 					"Type": "Spawner",
 					"SubType": "SimpleLance",
 					"Description": "",
@@ -765,13 +765,13 @@
 					]
 				},
 				{
-					"Name": "Objective_Defeat_Target_Lance_04",
+					"Name": "Objective_Defeat_Target_Lance_10",
 					"Type": "Objective",
 					"SubType": "DestroyLance",
 					"Description": "",
 					"Guid": "8a090681-8a73-4b8c-841e-f9a1f71f2bce",
 					"ContractObjectiveGuid": "73275787-720a-4c33-9f20-953b1bbf48bd",
-					"Title": "Destroy Target_Lance_04",
+					"Title": "Destroy Target_Lance_10",
 					"Priority": 1,
 					"DisplayToUser": true,
 					"IsPrimaryObjective": false,
@@ -1173,7 +1173,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_Target_Ally_Lance_01",
+			"Name": "Trigger_Spawn_Target_Lance_03",
 			"TriggerOn": "OnDialogueComplete",
 			"Description": "",
 			"Conditionals": [
@@ -1208,7 +1208,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_HostileToAll_Lance_01",
+			"Name": "Trigger_Spawn_Target_Lance_04",
 			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
@@ -1228,7 +1228,7 @@
 			],
 			"Results": [
 			//	{
-			//		"Name": "TimerCounter_Spawn_HostileToAll_Lance_01",
+			//		"Name": "TimerCounter_Spawn_Target_Lance_04",
 			//		"Type": "Delay",
 			//		"Description": "1 round after Objective passed",
 			//		"Rounds": 1,
@@ -1260,7 +1260,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_NeutralToAll_Lance_01",
+			"Name": "Trigger_Spawn_Target_Lance_05",
 			"TriggerOn": "OnDialogueComplete",
 			"Description": "",
 			"Conditionals": [
@@ -1295,7 +1295,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_Target_Lance_03",
+			"Name": "Trigger_Spawn_Target_Lance_06",
 			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
@@ -1315,7 +1315,7 @@
 			],
 			"Results": [
 			//	{
-			//		"Name": "TimerCounter_Spawn_Target_Lance_03",
+			//		"Name": "TimerCounter_Spawn_Target_Lance_06",
 			//		"Type": "Delay",
 			//		"Description": "1 round after Objective passed",
 			//		"Rounds": 1,
@@ -1347,7 +1347,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_Target_Ally_Lance_02",
+			"Name": "Trigger_Spawn_Target_Lance_07",
 			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
@@ -1359,7 +1359,7 @@
 			],
 			"Results": [
 			//	{
-			//		"Name": "TimerCounter_Spawn_Target_Ally_Lance_02",
+			//		"Name": "TimerCounter_Spawn_Target_Lance_07",
 			//		"Type": "Delay",
 			//		"Description": "1 round after Objective passed",
 			//		"Rounds": 1,
@@ -1391,7 +1391,7 @@
 			//]
 		},
 		{
-			"Name": "Trigger_Spawn_HostileToAll_Lance_02",
+			"Name": "Trigger_Spawn_Target_Lance_08",
 			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
@@ -1403,7 +1403,7 @@
 			],
 			"Results": [
 			//	{
-			//		"Name": "TimerCounter_Spawn_HostileToAll_Lance_02",
+			//		"Name": "TimerCounter_Spawn_Target_Lance_08",
 			//		"Type": "Delay",
 			//		"Description": "1 round after Objective passed",
 			//		"Rounds": 1,
@@ -1435,7 +1435,7 @@
 			//]
 		},
 		{
-			"Name": "Trigger_Spawn_NeutralToAll_Lance_02",
+			"Name": "Trigger_Spawn_Target_Lance_09",
 			"TriggerOn": "OnDialogueComplete",
 			"Description": "",
 			"Conditionals": [
@@ -1470,7 +1470,7 @@
 			]
 		},
 		{
-			"Name": "Trigger_Spawn_Target_Lance_04",
+			"Name": "Trigger_Spawn_Target_Lance_10",
 			"TriggerOn": "OnDialogueComplete",
 			"Description": "",
 			"Conditionals": [

@@ -111,7 +111,7 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Target_Ally_Lance_01')].Children[?(@.Name == 'Spawner_Target_Ally_Lance_01')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_03')].Children[?(@.Name == 'Spawner_Target_Lance_03')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": -432.0, "y": 202.29, "z": 290.98 } },
@@ -126,7 +126,7 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_HostileToAll_Lance_01')].Children[?(@.Name == 'Spawner_HostileToAll_Lance_01')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_04')].Children[?(@.Name == 'Spawner_Target_Lance_04')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": -372.0, "y": 149.29, "z": -685.89 } },
@@ -141,7 +141,7 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_NeutralToAll_Lance_01')].Children[?(@.Name == 'Spawner_NeutralToAll_Lance_01')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_05')].Children[?(@.Name == 'Spawner_Target_Lance_05')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": 348.0, "y": 130.06, "z": -935.31 } },
@@ -156,7 +156,7 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_03')].Children[?(@.Name == 'Spawner_Target_Lance_03')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_06')].Children[?(@.Name == 'Spawner_Target_Lance_06')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": 132.0, "y": 130.06, "z": 478.04 } },
@@ -171,7 +171,7 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Target_Ally_Lance_02')].Children[?(@.Name == 'Spawner_Target_Ally_Lance_02')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_07')].Children[?(@.Name == 'Spawner_Target_Lance_07')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": -432.0, "y": 202.29, "z": 290.98 } },
@@ -186,46 +186,46 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_HostileToAll_Lance_02')].Children[?(@.Name == 'Spawner_HostileToAll_Lance_02')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_08')].Children[?(@.Name == 'Spawner_Target_Lance_08')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": -372.0, "y": 149.29, "z": -685.89 } },
 				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 43.0, "z": 0.0 } },
 				"SpawnPointPositions": {
-					"aa8b1087-4ca2-491a-b3ed-addafc2410f3": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"23f34901-6a35-446d-80f6-fd482c9ea33d": { "x": -12.0, "y": 7.79, "z": 20.79 },
-					"8631b020-835a-4eb6-bdd5-4f256386addd": { "x": 12.0, "y": 3.23, "z": 20.79 },
-					"7a892125-be02-4399-a4d5-73edd73daaa7": { "x": 0.0, "y": 8.83, "z": 41.57 }
+					"785f8449-8866-4428-b21d-d5bb8948b898": { "x": 0.0, "y": 0.0, "z": 0.0 },
+					"50f7c4f6-f1b1-4812-a429-c9a28ea3e235": { "x": -12.0, "y": 7.79, "z": 20.79 },
+					"19f04425-43d4-4803-be9e-2d1d9bfc180e": { "x": 12.0, "y": 3.23, "z": 20.79 },
+					"973788e1-b3a8-4e39-8c9c-a93fad9465a6": { "x": 0.0, "y": 8.83, "z": 41.57 }
 				},
 				"SpawnPointRotations": {}, "MountOn": {}
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_NeutralToAll_Lance_02')].Children[?(@.Name == 'Spawner_NeutralToAll_Lance_02')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_09')].Children[?(@.Name == 'Spawner_Target_Lance_09')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": 348.0, "y": 130.06, "z": -935.31 } },
 				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 2.0, "z": 0.0 } },
 				"SpawnPointPositions": {
-					"785f8449-8866-4428-b21d-d5bb8948b898": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"50f7c4f6-f1b1-4812-a429-c9a28ea3e235": { "x": -12.0, "y": 0.0, "z": 20.79 },
-					"19f04425-43d4-4803-be9e-2d1d9bfc180e": { "x": 12.0, "y": 0.0, "z": 20.79 },
-					"973788e1-b3a8-4e39-8c9c-a93fad9465a6": { "x": 0.0, "y": 0.0, "z": 41.57 }
+					"aa8b1087-4ca2-491a-b3ed-addafc2410f3": { "x": 0.0, "y": 0.0, "z": 0.0 },
+					"23f34901-6a35-446d-80f6-fd482c9ea33d": { "x": -12.0, "y": 0.0, "z": 20.79 },
+					"8631b020-835a-4eb6-bdd5-4f256386addd": { "x": 12.0, "y": 0.0, "z": 20.79 },
+					"7a892125-be02-4399-a4d5-73edd73daaa7": { "x": 0.0, "y": 0.0, "z": 41.57 }
 				},
 				"SpawnPointRotations": {}, "MountOn": {}
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_04')].Children[?(@.Name == 'Spawner_Target_Lance_04')]",
+			"Path": "Chunks[?(@.Name == 'Chunk_Target_Lance_10')].Children[?(@.Name == 'Spawner_Target_Lance_10')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"Position": { "Type": "World", "Value": { "x": 132.0, "y": 130.06, "z": 478.04 } },
 				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 173.0, "z": 0.0 } },
 				"SpawnPointPositions": {
-					"aa8b1087-4ca2-491a-b3ed-addafc2410f3": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"23f34901-6a35-446d-80f6-fd482c9ea33d": { "x": 24.0, "y": 0.0, "z": 20.03 },
-					"8631b020-835a-4eb6-bdd5-4f256386addd": { "x": -12.0, "y": 0.0, "z": 20.78 },
-					"7a892125-be02-4399-a4d5-73edd73daaa7": { "x": 12.0, "y": 0.0, "z": -20.78 }
+					"8f480493-d463-4a42-b62e-58a3856bef4b": { "x": 0.0, "y": 0.0, "z": 0.0 },
+					"8c30f2e1-048a-4cba-853d-1eea826eaa7d": { "x": 24.0, "y": 0.0, "z": 20.03 },
+					"f1a0df31-518e-412c-824f-0be207dcdc51": { "x": -12.0, "y": 0.0, "z": 20.78 },
+					"d96eefad-131b-4b51-94c3-168b708758c3": { "x": 12.0, "y": 0.0, "z": -20.78 }
 				},
 				"SpawnPointRotations": {}, "MountOn": {}
 			}
