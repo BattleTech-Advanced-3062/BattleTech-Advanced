@@ -42,7 +42,8 @@
       "EDM Arid Sunset Foggy": 3,
       "EDM Arid Night Clear": 5,
       "EDM Arid Night Foggy": 3,
-      "EDM Arid Dust Storm": 2
+      "EDM Arid Dust Storm": 2,
+	  "EDM Volcanic Eruption": 1
     },
     "highlandsSpring": {
       "VerdantAfternoonCloudy": 5,
@@ -52,8 +53,7 @@
       "EDM Verdant Day Rainy": 4,
       "EDM Verdant Day Windy": 5,
       "EDM Verdant Night Foggy": 2,
-      "EDM Verdant Sunset Foggy": 3,
-	  "EDM Volcanic Eruption": 1
+      "EDM Verdant Sunset Foggy": 3
     },
     "highlandsFall": {
       "VerdantAfternoonCloudy": 3,
@@ -63,8 +63,7 @@
       "EDM Verdant Day Rainy": 5,
       "EDM Verdant Day Windy": 5,
       "EDM Verdant Sunset Foggy": 3,
-      "EDM Verdant Night Foggy": 4,
-	  "EDM Volcanic Eruption": 1
+      "EDM Verdant Night Foggy": 4
     },
     "lowlandsSpring": {
       "VerdantAfternoonCloudy": 5,
@@ -74,8 +73,7 @@
       "EDM Verdant Day Rainy": 4,
       "EDM Verdant Day Windy": 5,
       "EDM Verdant Night Foggy": 2,
-      "EDM Verdant Sunset Foggy": 3,
-	  "EDM Volcanic Eruption": 1
+      "EDM Verdant Sunset Foggy": 3
     },
     "lowlandsFall": {
       "VerdantAfternoonCloudy": 3,
@@ -85,8 +83,7 @@
       "EDM Verdant Day Rainy": 5,
       "EDM Verdant Day Windy": 5,
       "EDM Verdant Sunset Foggy": 3,
-      "EDM Verdant Night Foggy": 4,
-	  "EDM Volcanic Eruption": 1
+      "EDM Verdant Night Foggy": 4
     },
     "lowlandsCoastal": {
       "VerdantAfternoonCloudy": 2,
