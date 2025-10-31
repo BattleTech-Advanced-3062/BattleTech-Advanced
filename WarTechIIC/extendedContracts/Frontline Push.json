@@ -30,10 +30,10 @@
 		"",
 		"",
 		"CrushingResistance",
-		"PaymentDelivered",
 		"",
 		"",
-		"InvasionBegins"
+		"InvasionBegins",
+		"PaymentDelivered"
 	],
 	"entries": {
 		"InitialSkirmish": {
@@ -68,6 +68,11 @@
 			"ignoreContractRequirements": true,
 			"contractMessage": "We've identified the source of the recent counter-attack that you held off. Time to break their assault once and for all. Destroy that base, Commander."
 		},
+		"InvasionBegins": {
+			"popupTitle": "The Invasion Begins",
+			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
+			"triggerEvent": [ "bd_event_TriggerInvasion" ]
+		},
 		"PaymentDelivered": {
 			"popupTitle": "Payment for Our Work on {TGT_SYSTEM.Name}",
 			"popupMessage": "Looks like {TEAM_EMP.FactionDef.ShortName} has delivered our payment, Commander {COMMANDER.LastName}. Looks pretty comphrensive, Darius is already compiling a report for you.",
@@ -76,11 +81,6 @@
 				"5": "BTA_standard_Major_Loot_EC",
 				"8": "BTA_standard_Superior_Loot_EC"
 			}
-		},
-		"InvasionBegins": {
-			"popupTitle": "The Invasion Begins",
-			"popupMessage": "{TEAM_EMP.FactionDef.ShortName} has begun the full-scale invasion of this planet, Commander {COMMANDER.LastName}. We don't have to get involved but we're already here so it's at least worth considering.",
-			"triggerEvent": [ "bd_event_TriggerInvasion" ]
 		}
   }
 }

@@ -12,3 +12,9 @@ emod_armorslots_reactive,Upgrade,0,1
 emod_armorslots_hardened,Upgrade,0,1
 emod_armorslots_heavyferrosfibrous,Upgrade,0,1
 emod_armorslots_lightferrosfibrous,Upgrade,0,1
+Gear_Coolant_Pod,HeatSink,0,10
+Gear_Coolant_Pod_x2,HeatSink,0,10
+Gear_Coolant_Pod_x3,HeatSink,0,10
+Gear_Coolant_Pod_x4,HeatSink,0,10
+Gear_Coolant_Pod_x5,HeatSink,0,10
+Gear_Coolant_Pod_x6,HeatSink,0,10

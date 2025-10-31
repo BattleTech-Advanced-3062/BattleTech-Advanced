@@ -252,6 +252,7 @@
 	"VariantName": "HBK-2-6B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

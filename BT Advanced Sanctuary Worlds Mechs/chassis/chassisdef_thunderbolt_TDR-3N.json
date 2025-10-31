@@ -211,6 +211,7 @@
 	"VariantName": "TDR-3N",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""

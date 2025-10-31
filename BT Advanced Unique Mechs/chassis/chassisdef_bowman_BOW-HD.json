@@ -1,0 +1,254 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Bowman",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"Description": {
+		"Cost": 9237800,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "The Hood",
+		"Id": "chassisdef_bowman_BOW-HD",
+		"Name": "The Hood",
+		"Details": "Named after a famous archer from old Terran fairy tales (somebody named Canary Hood or somesuch other nonsensical name), The Hood is quite a gladiator. This customized Bowman drops the artillery of its base model, instead choosing to lean on a pair of Clan-grade Streak LRM-20 launchers for precise and highly damaging firepower. However, should the respectable four tons of ammunition somehow run dry, The Hood can call upon an advanced ER Large Pulse Laser, creatively borrowed from Clan Wolf's arsenal. The Hood's record may be short but each match was a victory, leading to a great respect for the design in the arenas.",
+		"Icon": "uixTxrIcon_bowman"
+	},
+	"MovementCapDefID": "movedef_blackknight_BL-6-KNT",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_bowman",
+	"PrefabIdentifier": "chrprfmech_bowmanbase-001",
+	"PrefabBase": "bowman",
+	"Tonnage": 70,
+	"InitialTonnage": 7,
+	"weightClass": "HEAVY",
+	"BattleValue": 6577000,
+	"Heatsinks": 0,
+	"TopSpeed": 64,
+	"TurnRadius": 90,
+	"MaxJumpjets": 99,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 60,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 40,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 175,
+			"MaxRearArmor": 55,
+			"InternalStructure": 110
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": 40,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 110,
+			"MaxRearArmor": -1,
+			"InternalStructure": 55
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 16,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 18,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 16,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 6,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 6,
+			"z": 0
+		}
+	],
+	"VariantName": "BOW-HD",
+	"ChassisTags": {
+		"items": [
+			"ClanMech",
+			"ArmLimitUpperRight",
+			"HeavyMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Named after a famous archer from old Terran fairy tales (somebody named Canary Hood or somesuch other nonsensical name), The Hood is quite a gladiator. This customized Bowman drops the artillery of its base model, instead choosing to lean on a pair of Clan-grade Streak LRM-20 launchers for precise and highly damaging firepower. However, should the respectable four tons of ammunition somehow run dry, The Hood can call upon an advanced ER Large Pulse Laser, creatively borrowed from Clan Wolf's arsenal. The Hood's record may be short but each match was a victory, leading to a great respect for the design in the arenas.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

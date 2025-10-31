@@ -211,6 +211,7 @@
 	"VariantName": "DV-10A",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",

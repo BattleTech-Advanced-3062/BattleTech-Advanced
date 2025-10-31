@@ -5,6 +5,10 @@ Weapon_MachineGun_MachineGun_1-VMI,Weapon,0,1
 Weapon_MachineGun_MachineGun_1-Brigadier,Weapon,0,1
 Weapon_SRM_SRM_NARC,Weapon,0,1
 Weapon_Flamer_AOEHeavyFlamer_0-STOCK,Weapon,0,1
+Weapon_Flamer_SpotWelder_0-STOCK
+Weapon_FluidGun_FluidGun_0-STOCK
+Weapon_FluidGun_Sprayer_0-STOCK
+Weapon_Rivet_RivetGun_0-STOCK
 Ammo_AmmunitionBox_Narc_Beacon,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Narc_Explosive,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Narc_Haywire,AmmunitionBox,0,1
@@ -12,6 +16,12 @@ Ammo_AmmunitionBox_AP_MG,AmmunitionBox,0,1
 Ammo_AmmunitionBox_HE_MG,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Tracer_MG,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_HeavyFlamer,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Generic_Rivet,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Corrosive_Fluid,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Cryo_Fluid,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Inferno_Fluid,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Oil_Fluid,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Paint_Fluid,AmmunitionBox,0,1
 mechdef_hazard_HZD-2C,Mech,0,1
 mechdef_hazard_HZD-3C,Mech,0,1
 mechdef_hazardii_HZD-2-3M,Mech,0,1
@@ -19,6 +29,8 @@ mechdef_roughneck_RGH-1A,Mech,0,1
 mechdef_roughneck_RGH-1B,Mech,0,1
 mechdef_roughneck_RGH-1C,Mech,0,1
 mechdef_roughneck_RGH-3A,Mech,0,1
+mechdef_diomede_D-M3D-3,Mech,0,1
+mechdef_diomede_D-M3D-4,Mech,0,1
 Gear_Attachment_MGFCS,Upgrade,0,1
 Gear_Attachment_MG_Array,Upgrade,0,10
 Gear_Contract_Mech_Hazard_Circinian,Upgrade,0,1

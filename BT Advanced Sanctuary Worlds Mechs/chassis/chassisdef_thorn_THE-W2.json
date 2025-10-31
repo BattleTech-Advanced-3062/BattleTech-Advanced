@@ -198,6 +198,7 @@
 	"VariantName": "THE-W2",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"ArmLimitUpperRight",
 			"LightMech"

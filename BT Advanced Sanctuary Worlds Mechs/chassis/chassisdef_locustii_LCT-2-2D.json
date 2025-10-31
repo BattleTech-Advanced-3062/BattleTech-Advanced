@@ -194,6 +194,7 @@
 	"VariantName": "LCT-2-2D",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"

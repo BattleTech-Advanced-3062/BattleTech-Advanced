@@ -8,7 +8,7 @@
 		"UIName": "Thunderbolt",
 		"Id": "chassisdef_thunderbolt_TDR-6L",
 		"Name": "Thunderbolt",
-		"Details": "Highly similar to the Thunderbolt TDR-5L, a Capellan Confederation variant from the early Succession Wars before technology declined, the TDR-6L differs only in its head slot configuration. While regular Thunderbolts come with a highly effective cockpit configuration that allows multi-target tracking easily, the -6L instead comes with an improved cooling system to better manage its weapons heat. Otherwise, the -6L is the same as the -5L.",
+		"Details": "Highly similar to the Thunderbolt TDR-5L, a Capellan Confederation variant from the early Succession Wars before technology declined, the TDR-6L differs only in its head slot configuration. While regular Thunderbolts come with a highly effective cockpit configuration that allows multi-target tracking easily, the -6L instead comes with an improved cooling system to better manage its weapons heat. Otherwise, the -6L is the same as the -5L.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_thunderbolt"
 	},
 	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
@@ -244,7 +244,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Skirmisher & Brawler",
-	"YangsThoughts": "Highly similar to the Thunderbolt TDR-5L, a Capellan Confederation variant from the early Succession Wars before technology declined, the TDR-6L differs only in its head slot configuration. While regular Thunderbolts come with a highly effective cockpit configuration that allows multi-target tracking easily, the -6L instead comes with an improved cooling system to better manage its weapons heat. Otherwise, the -6L is the same as the -5L.",
+	"YangsThoughts": "Highly similar to the Thunderbolt TDR-5L, a Capellan Confederation variant from the early Succession Wars before technology declined, the TDR-6L differs only in its head slot configuration. While regular Thunderbolts come with a highly effective cockpit configuration that allows multi-target tracking easily, the -6L instead comes with an improved cooling system to better manage its weapons heat. Otherwise, the -6L is the same as the -5L.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

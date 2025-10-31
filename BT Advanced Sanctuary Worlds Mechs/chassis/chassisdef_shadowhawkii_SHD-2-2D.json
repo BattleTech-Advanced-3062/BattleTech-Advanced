@@ -212,6 +212,7 @@
 	"VariantName": "SHD-2-2D",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

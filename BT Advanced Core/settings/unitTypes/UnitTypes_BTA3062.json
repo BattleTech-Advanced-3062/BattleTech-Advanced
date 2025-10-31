@@ -2,6 +2,7 @@
 	"Settings" : [
 		{ "Name" : "RoyalMech", "RequiredTags" : [ "RoyalMech" ] },
 		{ "Name" : "ClanMech", "RequiredTags" : [ "ClanMech" ] },
+		{ "Name" : "SanctuaryMech", "RequiredTags" : [ "SanctuaryMech" ] },
 		{ "Name" : "IndustrialMech", "RequiredTags" : [ "IndustrialMech" ] },
 		{ "Name" : "PrimitiveMech", "RequiredTags" : [ "PrimitiveMech" ] },
 		{ "Name" : "LandAirMech", "RequiredTags" : [ "LandAirMech" ] },

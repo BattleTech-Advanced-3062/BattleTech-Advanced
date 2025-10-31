@@ -219,6 +219,7 @@
 	"VariantName": "MGA-R3",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
 		],

@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapArena_AlpineRiver_iGlc.2cef0650-3a19-4e7c-8216-1cb5b200fd6b",
+	"MapID": "mapArena_AlpineRiver_iGlc",
+	"Name": "encMC_Warzone_AlpineRiver",
+	"FriendlyName": "WZ - ARENA - Alpine River",
+	"Description": "Defeat all enemies and then some",
+	"BattleValue": "0",
+	"ContractTypeID": "7003",
+	"EncounterLayerGUID": "2cef0650-3a19-4e7c-8216-1cb5b200fd6b",
+	"TagSetID": "mapArena_AlpineRiver_iGlc.2cef0650-3a19-4e7c-8216-1cb5b200fd6b",
+	"IncludeInBuild": "1"
+}

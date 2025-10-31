@@ -218,6 +218,7 @@
 	"VariantName": "SCP-4N",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"QuadMech",
 			"MediumMech"
 		],

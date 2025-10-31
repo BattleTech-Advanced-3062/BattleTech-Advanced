@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "MapStory_StoryEncounter8_vHigh.a6230e7c-24de-4fbe-ad12-98c1208e23d5",
+	"MapID": "MapStory_StoryEncounter8_vHigh",
+	"Name": "encMC_BattleRoyal_StoryEncounter8_vHigh",
+	"FriendlyName": "BR - Story Encounter 8 LOCURA - Pappy",
+	"Description": "Player must defeat all",
+	"BattleValue": "0",
+	"ContractTypeID": "7001",
+	"EncounterLayerGUID": "a6230e7c-24de-4fbe-ad12-98c1208e23d5",
+	"TagSetID": "MapStory_StoryEncounter8_vHigh.a6230e7c-24de-4fbe-ad12-98c1208e23d5",
+	"IncludeInBuild": "1"
+}

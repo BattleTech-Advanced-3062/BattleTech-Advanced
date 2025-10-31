@@ -258,6 +258,7 @@
 	"VariantName": "PGR-2V",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

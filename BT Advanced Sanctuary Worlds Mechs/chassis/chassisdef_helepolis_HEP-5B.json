@@ -200,6 +200,7 @@
 	"VariantName": "HEP-5B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech"

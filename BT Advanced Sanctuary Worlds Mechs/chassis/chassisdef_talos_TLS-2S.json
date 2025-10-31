@@ -49,6 +49,7 @@
 	"DFAInstability": 25,
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
 		],

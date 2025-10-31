@@ -4,7 +4,7 @@
 			"MaximumDamage": 3
 		},
 		"Category" : { 
-			"CategoryID" : "CASE" 
+			"CategoryID" : "SHIELD" 
 		},
 		"WorkOrderCosts": {
 			"Install": {
@@ -17,7 +17,8 @@
 			"not_broken"
 		],
 		"BonusDescriptions": [
-			"SHIELD: 3"
+			"SHIELD: 3",
+			"WordsWords: Requires Sanctuary Armor"
 		]
 	},
     "Description" : {

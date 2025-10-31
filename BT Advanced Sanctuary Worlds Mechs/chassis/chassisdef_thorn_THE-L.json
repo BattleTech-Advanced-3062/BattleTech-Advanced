@@ -198,6 +198,7 @@
 	"VariantName": "THE-L",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"ArmLimitUpperRight",
 			"LightMech"

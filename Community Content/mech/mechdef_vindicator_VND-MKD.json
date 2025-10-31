@@ -3,7 +3,7 @@
 		"items": [
 			"unit_jumpOK",
 			"unit_release",
-			"unit_rarity_2",
+			"unit_rarity_1",
 			"unit_mech",
 			"unit_medium",
 			"unit_lance_support",
@@ -25,7 +25,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",

@@ -677,6 +677,7 @@
 						"Armor",
 						"CASE",
 						"CASE2",
+						"SHIELD",
 						"ModularArmor"
 					],
 					"NotCategories": [
@@ -740,6 +741,7 @@
 				"Armor",
 				"CASE",
 				"CASE2",
+				"SHIELD",
 				"ModularArmor",
 				"Avionics",
 				"LandingGear",

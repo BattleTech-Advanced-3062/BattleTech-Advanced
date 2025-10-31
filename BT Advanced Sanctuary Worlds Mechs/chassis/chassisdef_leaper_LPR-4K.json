@@ -201,6 +201,7 @@
 	"VariantName": "LPR-4K",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"MediumMech"
