@@ -208,6 +208,7 @@
 	"VariantName": "EMP-5B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

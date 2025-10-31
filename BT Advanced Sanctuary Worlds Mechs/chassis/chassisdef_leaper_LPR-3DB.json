@@ -201,6 +201,7 @@
 	"VariantName": "LPR-3DB",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"MediumMech"

@@ -212,6 +212,7 @@
 	"VariantName": "HEP-5J",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerLeft",
 			"ArmLimitUpperRight",
 			"HeavyMech"

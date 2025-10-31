@@ -210,6 +210,7 @@
 	"VariantName": "KNT-3G",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""

@@ -296,7 +296,8 @@
 		"ManualDeployForbidContractTypes": [
 			"Blackout",
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyale"
 		],
 		"ConvoyMaxDistFromOther": 400,
 		"ConvoyMaxDistFromPlayer": 400,

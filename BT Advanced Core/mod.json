@@ -1,7 +1,7 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "19.4.1",
+	"Version": "19.5",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
 		{
@@ -109,7 +109,8 @@
 		"JwNetOverride",
 		"VMMWSGC",
 		"JwTweaks",
-		"SwordOfRestoration"
+		"SwordOfRestoration",
+		"HeraldryPicker"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

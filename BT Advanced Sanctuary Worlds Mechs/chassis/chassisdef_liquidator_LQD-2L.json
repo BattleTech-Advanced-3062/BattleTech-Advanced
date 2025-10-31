@@ -198,6 +198,7 @@
 	"VariantName": "LQD-2L",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
 		],

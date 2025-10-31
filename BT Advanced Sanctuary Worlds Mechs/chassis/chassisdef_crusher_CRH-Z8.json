@@ -267,6 +267,7 @@
 	"VariantName": "CRH-Z8",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperLeft",
 			"AssaultMech"
 		],

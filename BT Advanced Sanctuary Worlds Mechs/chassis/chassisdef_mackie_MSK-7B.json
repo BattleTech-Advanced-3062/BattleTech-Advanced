@@ -222,6 +222,7 @@
 	"VariantName": "MSK-7B",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperLeft",
 			"ArmLimitLowerRight",
 			"AssaultMech"

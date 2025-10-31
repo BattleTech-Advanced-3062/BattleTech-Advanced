@@ -4806,6 +4806,18 @@
 			"Full": "This equipment's airdropped unit is a squad of battle armor. The default airdropped squad is an Inner Sphere Standard BA squad, but contracts can be purchased to allow other, more advanced, units to be dropped instead."
 		},
 		{
+			"Bonus": "AirdropBACount",
+			"Short": "Battle Armor Airdrop",
+			"Long": "Battle Armor Airdrop",
+			"Full": "This equipment allows the deployment of {0} squads of battle armor."
+		},
+		{
+			"Bonus": "AirdropBARange",
+			"Short": "BA Airdrop Range",
+			"Long": "BA Airdrop Range",
+			"Full": "This equipment allows the deployment of battle armor at a range of {0} meters."
+		},
+		{
 			"Bonus": "AirdropCount",
 			"Short": "Number of Airdrops",
 			"Long": "Number of Airdrops",
@@ -5590,6 +5602,12 @@
 			"Short": "Semi-Guided LRM",
 			"Long": "Semi-Guided LRM",
 			"Full": "Semi-Guided LRMs gain a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
+		},
+		{
+			"Bonus": "SemiGuidedMortar",
+			"Short": "Semi-Guided Mortar",
+			"Long": "Semi-Guided Mortar",
+			"Full": "Semi-Guided Mortars gain a {0} accuracy bonus against designated targets, such as those painted by TAG weapons."
 		},
 		{
 			"Bonus": "GuidedArtillery",

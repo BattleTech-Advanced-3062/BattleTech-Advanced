@@ -215,6 +215,7 @@
 	"VariantName": "MSK-8A",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperLeft",
 			"ArmLimitLowerRight",
 			"AssaultMech"

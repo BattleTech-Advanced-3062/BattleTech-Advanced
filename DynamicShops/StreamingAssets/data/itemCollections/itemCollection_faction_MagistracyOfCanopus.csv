@@ -7,6 +7,8 @@ Gear_Cockpit_Ceres_Metals_Hardened,Upgrade,0,1
 Gear_Cockpit_Majesty_M_M_MagestrixAlpha,Upgrade,0,1
 Gear_Cockpit_StarCorps_Advanced,Upgrade,0,1
 Gear_Cockpit_TorsoDNI,Upgrade,0,1
+Gear_LWM,Upgrade,0,1
+Gear_TSM,Upgrade,0,1
 Weapon_Autocannon_LAC2_0-STOCK,Weapon,0,1
 Weapon_Autocannon_LAC5_0-STOCK,Weapon,0,1
 Gear_Airdrop_Beacon_BA_Theseus,Upgrade,0,1
@@ -15,3 +17,8 @@ Gear_Contract_Mech_ShadowHawk_Canopian,Upgrade,0,1
 Gear_Contract_Tank_Merkava_VIII_Canopian,Upgrade,0,1
 emod_kit_dhs,HeatSink,0,1
 Gear_HeatSink_Generic_Double,HeatSink,0,1
+Gear_Weapon_Coolant_Artillery,HeatSink,0,1
+Gear_Weapon_Coolant_Ballistic,HeatSink,0,1
+Gear_Weapon_Coolant_Energy,HeatSink,0,1
+Gear_Weapon_Coolant_Missile,HeatSink,0,1
+Gear_Weapon_Coolant_Superweapon,HeatSink,0,1

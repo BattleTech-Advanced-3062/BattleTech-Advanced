@@ -207,6 +207,7 @@
 	"VariantName": "TP-3R",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"

@@ -298,6 +298,7 @@
 	"VariantName": "LBD-4S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"MediumMech"

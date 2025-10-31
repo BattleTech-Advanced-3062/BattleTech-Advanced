@@ -5,9 +5,14 @@
 				"ReservedSlots: 10"
 			],
 		"Color": "Gold",
-		"Category" : { 
-			"CategoryID" : "Armor" 
-		},
+		"Category": [
+			{
+				"CategoryID": "Armor"
+			},
+			{
+				"CategoryID": "SanctuaryArmor"
+			}
+		],
 		"DynamicSlots": {
             "ReservedSlots": 10,
             "BackgroundColor": "GoldHalf",

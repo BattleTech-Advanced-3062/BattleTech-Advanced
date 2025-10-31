@@ -189,6 +189,7 @@
 	"VariantName": "STG-2-4R",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"LightMech"
 		],

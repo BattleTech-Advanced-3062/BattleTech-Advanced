@@ -199,6 +199,7 @@
 	"VariantName": "ARP-3J",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

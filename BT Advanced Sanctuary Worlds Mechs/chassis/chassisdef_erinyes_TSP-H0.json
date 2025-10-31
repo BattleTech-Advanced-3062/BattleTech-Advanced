@@ -215,6 +215,7 @@
 	"VariantName": "TSP-H0",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
 		],

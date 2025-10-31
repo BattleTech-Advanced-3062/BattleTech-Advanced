@@ -197,6 +197,7 @@
 	"VariantName": "PXI-1",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""
