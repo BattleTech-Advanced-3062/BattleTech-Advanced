@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "3063-06-07",
 		"Name": "MercNews Broadcast",
-		"Details": "CALDERON'S HEIR REVEALED ON TAURUS!\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: In a surprise announcement, Taurian Baron Cham Kithrong declared his regency for Erik Martens-Calderon, the illegitimate son of [[DM.BaseDescriptionDefs[LoreJeffCalderon],Jeffrey Calderon]] and a mercenary warrior in his employ. The current Protector of the [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]], Grover Shraplen, has so far not responded to Baron Kithrong's demands that he step down in favor of a regency council for the young Erik.",
+		"Details": "CALDERON'S HEIR REVEALED ON TAURUS!\r\n\n\nTaurus, [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]]: In a surprise announcement, Taurian Baron Cham Kithrong declared his regency for Erik Martens-Calderon, the illegitimate son of [[DM.BaseDescriptionDefs[LoreJeffCalderon],Jeffrey Calderon]] and a mercenary warrior in his employ. The current Protector of the [[DM.Factions[faction_TaurianConcordat],Taurian Concordat]], Grover Shraplen, has so far not responded to Baron Kithrong's demands that he step down in favor of a regency council for the young Erik.\"\r\n\n\nWould you like to know more?",
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",
