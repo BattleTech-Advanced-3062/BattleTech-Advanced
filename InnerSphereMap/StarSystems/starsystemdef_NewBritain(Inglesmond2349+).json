@@ -26,6 +26,8 @@
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
+		"highlandsSpring",
+		"highlandsFall",
 		"lowlandsCoastal",
 		"badlandsParched"
 	],
