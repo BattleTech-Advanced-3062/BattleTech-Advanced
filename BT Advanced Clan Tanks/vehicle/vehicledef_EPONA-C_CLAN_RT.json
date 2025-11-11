@@ -85,7 +85,7 @@
 	],
 	"inventory": [
 		{
-			"ComponentDefID": "Weapon_Laser_TAG",
+			"ComponentDefID": "Weapon_Laser_TAG_CLAN",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Front",
 			"HardpointSlot": 0,

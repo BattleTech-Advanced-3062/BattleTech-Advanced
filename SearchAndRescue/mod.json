@@ -24,12 +24,22 @@
 			"DuoDuel_GameworldDuoHeavy",
 			"DuoDuel_GameworldDuoLight",
 			"DuoDuel_GameworldDuoMedium",
+			"DuoDuel_GameworldDuoSuperheavy",
 			"DuoDuel_GameworldDuoUltralight",
 			"SoloDuel_GameworldSoloAssault",
 			"SoloDuel_GameworldSoloHeavy",
 			"SoloDuel_GameworldSoloLight",
 			"SoloDuel_GameworldSoloMedium",
-			"SoloDuel_GameworldSoloUltralight"
+			"SoloDuel_GameworldSoloSuperheavy",
+			"SoloDuel_GameworldSoloUltralight",
+			"BattleRoyal_EnterThunderdome",
+			"BattleRoyal_TheRoyalRumble",
+			"BattleRoyal_GameworldBattleRoyalAssault",
+			"BattleRoyal_GameworldBattleRoyalHeavy",
+			"BattleRoyal_GameworldBattleRoyalLight",
+			"BattleRoyal_GameworldBattleRoyalMedium",
+			"BattleRoyal_GameworldBattleRoyalSuperHeavy",
+			"BattleRoyal_GameworldBattleRoyalUltralight"
 		],
 		"RecoveryContractIDs": [
 			"Rescue_SAR_IntelligenceAgent_Hard",

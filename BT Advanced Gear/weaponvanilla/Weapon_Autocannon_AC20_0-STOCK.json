@@ -37,7 +37,7 @@
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 4,
-	"Instability": 60,
+	"Instability": 45,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
 	"Description": {
 		"Cost": 180000,
