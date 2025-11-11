@@ -18,14 +18,13 @@
 	"ChassisTags": {
 		"items": [
 			"BLACKLISTED",
-			"noautofix",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "",
 	"YangsThoughts": "",
-	"VariantName": "CN9-A",
+	"VariantName": "CN9-TD",
 	"PrefabIdentifier": "chrPrfMech_centurionBase-001",
 	"PrefabBase": "centurion",
 	"Tonnage": 50,
