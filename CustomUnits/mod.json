@@ -299,7 +299,7 @@
 			"DuoDuel",
 			"BattleRoyale"
 		],
-		"ConvoyMaxDistFromOther": 400,
+		"ConvoyMaxDistFromOther": 600,
 		"ConvoyMaxDistFromPlayer": 400,
 		"ConvoyMaxDistFromRoute": 120,
 		"overallDeploySize": 8,
