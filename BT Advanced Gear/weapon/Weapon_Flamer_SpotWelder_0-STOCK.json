@@ -1,13 +1,13 @@
 {
 	"Custom": {
-		"Category": {
+		"Category": [
 			{
 				"CategoryID": "w/a/o/industrial"
 			},
 			{
 				"CategoryID": "SpotWelder"
 			}
-		},
+		],
 		"BonusDescriptions": [
 			"OHDamage: 100%",
 			"AntiBA: 100%",
