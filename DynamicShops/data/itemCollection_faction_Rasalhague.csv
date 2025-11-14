@@ -9,6 +9,8 @@ Weapon_Bomb_Bay_Inferno,Weapon,0,1
 Weapon_Bomb_Bay_FuelAir,Weapon,0,1
 Weapon_Bomb_Bay_FASCAM,Weapon,0,1
 Weapon_Bomb_Bay_Rocket_Pod,Weapon,0,1
+Weapon_Pod_PodA,Weapon,0,1
+Weapon_Pod_PodM,Weapon,0,1
 Ammo_AmmunitionBox_LBX_CLUSTER_AC10,AmmunitionBox,0,1
 Ammo_AmmunitionBox_LBX_SLUG_AC10,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Ultra_AC5,AmmunitionBox,0,1
@@ -30,5 +32,6 @@ Gear_Airdrop_Beacon_BA_Krupp,Upgrade,0,1
 Gear_Attachment_AutocannonFCS,Upgrade,0,1
 Gear_Attachment_PPCFCS,Upgrade,0,1
 Gear_Contract_Mech_Gunslinger_FRR,Upgrade,0,1
+Gear_B_Pod,Upgrade,0,1
 emod_kit_dhs,HeatSink,0,1
 Gear_HeatSink_Generic_Double,HeatSink,0,1

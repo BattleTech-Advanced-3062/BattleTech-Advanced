@@ -212,6 +212,7 @@
 	"VariantName": "OSR-3S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

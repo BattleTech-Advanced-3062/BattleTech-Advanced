@@ -218,6 +218,7 @@
 	"VariantName": "WHM-5H",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

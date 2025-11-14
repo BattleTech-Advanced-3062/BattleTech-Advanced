@@ -15,7 +15,7 @@
 		"UIName": "Highlander",
 		"Id": "chassisdef_highlander_HGN-735",
 		"Name": "Highlander",
-		"Details": "The HGN-735 is highly similar to the HGN-734, carrying the same hard-hitting close-range payload and thick armor that the Highlander is known for. However, in an unusual turn of events, the HGN-735 has a somewhat weaker leg assembly compared to other Highlanders. While initially seeming to be worse at the Highlander's famous Death From Above attacks, the HGN-735 is used by discerning pilots who enjoy heavy customization of their rides.",
+		"Details": "The HGN-735 is highly similar to the HGN-734, carrying the same hard-hitting close-range payload and thick armor that the Highlander is known for. However, in an unusual turn of events, the HGN-735 has a somewhat weaker leg assembly compared to other Highlanders. While initially seeming to be worse at the Highlander's famous Death From Above attacks, the HGN-735 is used by discerning pilots who enjoy heavy customization of their rides.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_highlander"
 	},
 	"MovementCapDefID": "movedef_highlander_HGN-733",
@@ -249,7 +249,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Ranged Assault & Heavy Cavalry",
-	"YangsThoughts": "The HGN-735 is highly similar to the HGN-734, carrying the same hard-hitting close-range payload and thick armor that the Highlander is known for. However, in an unusual turn of events, the HGN-735 has a somewhat weaker leg assembly compared to other Highlanders. While initially seeming to be worse at the Highlander's famous Death From Above attacks, the HGN-735 is used by discerning pilots who enjoy heavy customization of their rides.",
+	"YangsThoughts": "The HGN-735 is highly similar to the HGN-734, carrying the same hard-hitting close-range payload and thick armor that the Highlander is known for. However, in an unusual turn of events, the HGN-735 has a somewhat weaker leg assembly compared to other Highlanders. While initially seeming to be worse at the Highlander's famous Death From Above attacks, the HGN-735 is used by discerning pilots who enjoy heavy customization of their rides.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

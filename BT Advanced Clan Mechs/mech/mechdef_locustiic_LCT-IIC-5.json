@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_release",
+			"unit_bug",
 			"unit_rarity_4",
 			"unit_mech",
 			"unit_light",
@@ -12,6 +13,14 @@
 			"KindraaSainze",
 			"KindraaFaradayTanaga",
 			"KindraaMickKreese",
+			"ClanWolf",
+			"ClanGoliathScorpion",
+			"ScorpionEmpire",
+			"ClanSnowRaven",
+			"ClanJadeFalcon",
+			"ClanGhostBear",
+			"ClanNovaCat",
+			"ClanDiamondShark",
 			"CGBThetaGalaxy",
 			"CSRDeltaGalaxy",
 			"CJFIotaGalaxy",

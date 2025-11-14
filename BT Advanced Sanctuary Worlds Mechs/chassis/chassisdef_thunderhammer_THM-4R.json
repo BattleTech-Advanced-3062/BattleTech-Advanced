@@ -216,6 +216,7 @@
 	"VariantName": "THM-4R",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

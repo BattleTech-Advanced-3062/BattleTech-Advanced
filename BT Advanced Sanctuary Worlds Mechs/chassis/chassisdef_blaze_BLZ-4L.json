@@ -234,6 +234,7 @@
 	"VariantName": "BLZ-4L",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"

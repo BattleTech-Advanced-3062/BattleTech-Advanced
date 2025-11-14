@@ -207,6 +207,7 @@
 	"VariantName": "RSH-4V",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"

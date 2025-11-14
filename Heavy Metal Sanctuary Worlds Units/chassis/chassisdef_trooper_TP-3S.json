@@ -211,6 +211,7 @@
 	"VariantName": "TP-3S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"IgnoreEngineLimit",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",

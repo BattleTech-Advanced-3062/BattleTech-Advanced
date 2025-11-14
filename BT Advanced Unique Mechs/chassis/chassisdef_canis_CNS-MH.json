@@ -1,0 +1,245 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Canis",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 17506940,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Smasher",
+		"Id": "chassisdef_canis_CNS-MH",
+		"Name": "Smasher",
+		"Details": "Developed by a MechWarrior with a bit of an obsession with dealing incredible damage at extended ranges, Smasher is a heavily modified Canis BattleMech. The Canis is a rare sight on the battlefield, being a rare second-line Clan design and so Smasher usually takes its opponents by surprise. Of course, they don't have long to be surprised since Smasher's four Gauss Rifles do a good job at ending enemies before they can even blink. An XL Gyro, Clan XXL Engine, Endo-Steel, and Ferro-Fibrous all give enough tonnage for the mammoth guns. However, Smasher still has just enough tonnage for a trio of jump jets to give the mech unexpected mobility.",
+		"Icon": "uixTxrIcon_canis"
+	},
+	"MovementCapDefID": "movedef_warhammer_WHM-IIC",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_canis",
+	"PrefabIdentifier": "chrprfmech_canisbase-001",
+	"PrefabBase": "canis",
+	"Tonnage": 80,
+	"InitialTonnage": 8,
+	"weightClass": "ASSAULT",
+	"BattleValue": 6577000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 99,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 70,
+	"MeleeInstability": 20,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 70,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 70,
+	"DFAInstability": 20,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 50,
+			"InternalStructure": 85
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 185,
+			"MaxRearArmor": 65,
+			"InternalStructure": 125
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 50,
+			"InternalStructure": 85
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 170,
+			"MaxRearArmor": -1,
+			"InternalStructure": 85
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 170,
+			"MaxRearArmor": -1,
+			"InternalStructure": 85
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 14,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "CNS-MH",
+	"ChassisTags": {
+		"items": [
+			"ClanMech",
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
+			"AssaultMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Developed by a MechWarrior with a bit of an obsession with dealing incredible damage at extended ranges, Smasher is a heavily modified Canis BattleMech. The Canis is a rare sight on the battlefield, being a rare second-line Clan design and so Smasher usually takes its opponents by surprise. Of course, they don't have long to be surprised since Smasher's four Gauss Rifles do a good job at ending enemies before they can even blink. An XL Gyro, Clan XXL Engine, Endo-Steel, and Ferro-Fibrous all give enough tonnage for the mammoth guns. However, Smasher still has just enough tonnage for a trio of jump jets to give the mech unexpected mobility.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_clanendosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

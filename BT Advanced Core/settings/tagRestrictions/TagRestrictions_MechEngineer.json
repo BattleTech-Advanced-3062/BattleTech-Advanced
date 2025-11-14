@@ -46,6 +46,16 @@
 			]
 		},
 		{
+			"Tag": "SHIELD",
+			"RequiredTags": [
+				"SanctuaryArmor"
+			],
+			"IncompatibleTags": [
+				"CASE",
+				"CASE2"
+			]
+		},
+		{
 			"Tag": "ImprovedJJ",
 			"IncompatibleTags": [
 				"StandardJJ",

@@ -211,6 +211,7 @@
 	"VariantName": "SPF-11G",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""

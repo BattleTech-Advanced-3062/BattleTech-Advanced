@@ -252,6 +252,7 @@
 	"VariantName": "PGR-1N",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

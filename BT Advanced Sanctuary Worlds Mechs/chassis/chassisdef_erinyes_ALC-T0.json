@@ -215,6 +215,7 @@
 	"VariantName": "ALC-T0",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
 		],

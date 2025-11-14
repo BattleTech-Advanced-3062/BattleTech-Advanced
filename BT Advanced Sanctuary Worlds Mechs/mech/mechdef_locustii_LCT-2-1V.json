@@ -4,6 +4,7 @@
 			"unit_generic",
 			"unit_bracket_low",
 			"unit_release",
+			"unit_bug",
 			"unit_rarity_7",
 			"unit_mech",
 			"unit_light",
@@ -109,15 +110,6 @@
 		}
 	],
 	"inventory": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_armorslots_standard",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "emod_engine_200",

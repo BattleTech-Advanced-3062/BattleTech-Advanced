@@ -211,6 +211,7 @@
 	"VariantName": "URN-10S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

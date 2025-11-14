@@ -216,6 +216,7 @@
 	"VariantName": "EMB-8S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"

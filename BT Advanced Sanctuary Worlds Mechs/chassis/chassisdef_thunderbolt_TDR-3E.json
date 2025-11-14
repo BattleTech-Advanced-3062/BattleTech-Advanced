@@ -207,6 +207,7 @@
 	"VariantName": "TDR-3E",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""

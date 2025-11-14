@@ -1,16 +1,21 @@
 {
 	"Custom": {
 		"BonusDescriptions": [
-				"ArmorFactor: -5%",
-				"BallisticDamageReduction: 20%",
-				"MissileDamageReduction: 20%",
-				"ReservedSlots: 8",
-				"SHIELD: 3"
-			],
+			"ArmorFactor: -5%",
+			"BallisticDamageReduction: 20%",
+			"MissileDamageReduction: 20%",
+			"ReservedSlots: 8",
+			"SHIELD: 3"
+		],
 		"Color": "Gold",
-		"Category" : { 
-			"CategoryID" : "Armor" 
-		},
+		"Category": [
+			{
+				"CategoryID": "Armor"
+			},
+			{
+				"CategoryID": "SanctuaryArmor"
+			}
+		],
 		"CASE": {
 			"AllLocations": true,
 			"MaximumDamage": 3

@@ -267,6 +267,7 @@
 	"VariantName": "CRH-Y4",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperLeft",
 			"AssaultMech"
 		],

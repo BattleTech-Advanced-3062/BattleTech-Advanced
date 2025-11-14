@@ -199,6 +199,7 @@
 	"VariantName": "TR-S-6",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitLowerLeft",
 			"LightMech"
 		],

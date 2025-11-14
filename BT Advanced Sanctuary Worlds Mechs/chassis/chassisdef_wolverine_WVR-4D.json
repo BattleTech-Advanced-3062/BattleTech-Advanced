@@ -199,6 +199,7 @@
 	"VariantName": "WVR-4D",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

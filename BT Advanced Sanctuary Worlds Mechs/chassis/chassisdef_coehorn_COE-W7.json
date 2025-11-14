@@ -220,6 +220,7 @@
 	"VariantName": "COE-W7",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech",

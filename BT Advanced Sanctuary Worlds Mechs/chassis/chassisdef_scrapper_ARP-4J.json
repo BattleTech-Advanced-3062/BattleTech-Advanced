@@ -199,6 +199,7 @@
 	"VariantName": "ARP-4J",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

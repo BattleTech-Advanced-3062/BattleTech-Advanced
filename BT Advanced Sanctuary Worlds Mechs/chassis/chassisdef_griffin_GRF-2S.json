@@ -207,6 +207,7 @@
 	"VariantName": "GRF-2S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

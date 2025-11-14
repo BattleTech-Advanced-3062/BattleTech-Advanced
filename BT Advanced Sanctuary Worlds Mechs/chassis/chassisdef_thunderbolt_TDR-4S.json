@@ -207,6 +207,7 @@
 	"VariantName": "TDR-4S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""

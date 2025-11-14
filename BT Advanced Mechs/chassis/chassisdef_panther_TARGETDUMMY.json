@@ -18,14 +18,13 @@
 	"ChassisTags": {
 		"items": [
 			"BLACKLISTED",
-			"noautofix",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "",
 	"YangsThoughts": "",
-	"VariantName": "PNT-9R",
+	"VariantName": "PNT-TD",
 	"PrefabIdentifier": "chrPrfMech_pantherBase-001",
 	"PrefabBase": "panther",
 	"Tonnage": 35,

@@ -36,7 +36,7 @@
 		"UIName": "Champion CHP C",
 		"Id": "mechdef_champion_CHP_C",
 		"Name": "Champion",
-		"Details": "The Champion fared poorly during the Succession Wars but those Champions that went with Kerensky on the Exodus Road fared better than their IS cousins. The Clans retained the 'Mech and even refit many of their Champions to a new Clantech standard. The so-called Champion CHP C mounts all Clan technology and is built on a 300-rated XL engine with Ferro-Fibrous armor and 5 jump jets for maneuverability. For weaponry, it carries a LB-10X Autocannon, 2 Medium Pulse Lasers, 2 ER Medium Lasers, 2 Small Pulse Lasers, and a SRM-6 with Artemis IV guidance.",
+		"Details": "The Champion fared poorly during the Succession Wars but those Champions that went with Kerensky on the Exodus Road fared better than their IS cousins. The Clans retained the 'Mech and even rebuilt many of their Champions to a new Clantech standard. The so-called Champion CHP C mounts all Clan technology and is built on a 300-rated XL engine with Ferro-Fibrous armor and 5 jump jets for maneuverability. For weaponry, it carries a LB-10X Autocannon, 2 Medium Pulse Lasers, 2 ER Medium Lasers, 2 Small Pulse Lasers, and a SRM-6 with Artemis IV guidance.",
 		"Icon": "uixTxrIcon_champion"
 	},
 	"simGameMechPartCost": 690000,

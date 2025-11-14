@@ -189,6 +189,7 @@
 	"VariantName": "STG-2-3S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"OmniMech",
 			"LightMech"
 		],

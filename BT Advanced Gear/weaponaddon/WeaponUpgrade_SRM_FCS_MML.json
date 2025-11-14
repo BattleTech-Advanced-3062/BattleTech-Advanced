@@ -6,10 +6,6 @@
 	],
 	"modes": [
 		{
-			"Id": "LRM",
-			"UIName": "LRM"
-		},
-		{
 			"Id": "SRM",
 			"UIName": "FCS SRM",
 			"EvasivePipsIgnored": 1,

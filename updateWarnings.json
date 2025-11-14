@@ -1,9 +1,0 @@
-{
-    "notifications": [
-        {
-            "affectsVersion": "18.0",
-            "allowBackout": true,
-            "notification": "This patch will be a save breaker, you will need to start a new career after updating to this release.\n\nIF YOU WISH TO KEEP YOUR CURRENT CAREER, PRESS \"BACK OUT\" TO CANCEL THIS UPDATE."
-        }
-    ]
-}

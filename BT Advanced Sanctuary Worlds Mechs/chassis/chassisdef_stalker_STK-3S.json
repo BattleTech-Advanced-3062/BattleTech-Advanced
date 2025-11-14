@@ -211,6 +211,7 @@
 	"VariantName": "STK-3S",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"

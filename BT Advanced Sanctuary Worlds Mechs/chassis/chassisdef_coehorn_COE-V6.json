@@ -215,6 +215,7 @@
 	"VariantName": "COE-V6",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech",

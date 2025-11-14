@@ -296,9 +296,10 @@
 		"ManualDeployForbidContractTypes": [
 			"Blackout",
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyale"
 		],
-		"ConvoyMaxDistFromOther": 400,
+		"ConvoyMaxDistFromOther": 900,
 		"ConvoyMaxDistFromPlayer": 400,
 		"ConvoyMaxDistFromRoute": 120,
 		"overallDeploySize": 8,
@@ -1441,7 +1442,7 @@
 			{
 				"PrefabIdentifier": "AC5",
 				"HardpointCandidates": {
-					"ac5": 0.8,
+					"ac5": 1.0,
 					"ac": 0.9,
 					"ac10": 1.0,
 					"ac2": 0.8,

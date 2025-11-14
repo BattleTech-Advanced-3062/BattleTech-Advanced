@@ -212,6 +212,7 @@
 	"VariantName": "CPLT-S4",
 	"ChassisTags": {
 		"items": [
+			"SanctuaryMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech"
