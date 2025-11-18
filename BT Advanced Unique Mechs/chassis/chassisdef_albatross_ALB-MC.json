@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Albatross",
-		"Id": "chassisdef_albatross_ALB-3U",
-		"Name": "Albatross",
-		"Details": "The Albatross was designed by the Free Worlds League in 3053 with an eye toward a possible future conflict with the then advancing Clans. Powered by a 380-rated XL engine and armed with an absolute grab-bag of weapons, the Albatross is good at any range against any foe. For long range, a LRM-15 and ER Large Laser do the heavy lifting. At medium ranges, a Large Pulse Laser and a LB-10X Autocannon provide heft. Up close a SRM-6 and paired Medium Lasers ward off enemies. CASE protects the ammo bins and 14 double heat sinks strain to keep it all frosty.",
+		"UIName": "Mariner's Curse",
+		"Id": "chassisdef_albatross_ALB-MC",
+		"Name": "Mariner's Curse",
+		"Details": "The Mariner's Curse is piloted by Taylor Pendleton and serviced by his brother Samuel. The brothers are the proteges of Sir Coleridge, a former Knight of the Inner Sphere who was killed in an exhibition match by a pilot in the service of Iron Sea Acquisitions (a merchant company with a fondness for funding underground gladiators). When an Iron Sea Executioner-B killed Sir Coleridge, his Albatross was recovered by the Pendleton brothers and the vendetta began. After an extensive rebuild, the Mariner's Curse set out to eliminate Iron Sea's gladiatorial aspirations and eliminate it did. Stealing components from each Iron Sea gladiator defeated (all by cockpit destruction), the Mariner's Curse evolved into a brutal arena design. With Iron Sea defeated and forced out of the arena business, the brothers began traveling between the game worlds, bringing their signature brutal style and the Mariner's Curse with them. Mariner's Curse carries a Clan-tech UAC/20 and two Clan-tech SRM-4s for primary firepower. For backup it carries a pair of exotic Medium Pulse Lasers and a trio of similarly exotic Medium Lasers.",
 		"Icon": "uixTxrIcon_albatross"
 	},
 	"MovementCapDefID": "movedef_banshee_BNC-3S",
@@ -71,6 +71,10 @@
 					"Omni": false
 				},
 				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
@@ -84,6 +88,10 @@
 		{
 			"Location": "LeftTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -111,6 +119,10 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
@@ -239,9 +251,10 @@
 			"hasPrefabName": false
 		}
 	],
-	"VariantName": "ALB-3U",
+	"VariantName": "ALB-MC",
 	"ChassisTags": {
 		"items": [
+			"HeroMech",
 			"OmniMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
@@ -249,8 +262,8 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Assault Trooper",
-	"YangsThoughts": "The Albatross was designed by the Free Worlds League in 3053 with an eye toward a possible future conflict with the then advancing Clans. Powered by a 380-rated XL engine and armed with an absolute grab-bag of weapons, the Albatross is good at any range against any foe. For long range, a LRM-15 and ER Large Laser do the heavy lifting. At medium ranges, a Large Pulse Laser and a LB-10X Autocannon provide heft. Up close a SRM-6 and paired Medium Lasers ward off enemies. CASE protects the ammo bins and 14 double heat sinks strain to keep it all frosty.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "The Mariner's Curse is piloted by Taylor Pendleton and serviced by his brother Samuel. The brothers are the proteges of Sir Coleridge, a former Knight of the Inner Sphere who was killed in an exhibition match by a pilot in the service of Iron Sea Acquisitions (a merchant company with a fondness for funding underground gladiators). When an Iron Sea Executioner-B killed Sir Coleridge, his Albatross was recovered by the Pendleton brothers and the vendetta began. After an extensive rebuild, the Mariner's Curse set out to eliminate Iron Sea's gladiatorial aspirations and eliminate it did. Stealing components from each Iron Sea gladiator defeated (all by cockpit destruction), the Mariner's Curse evolved into a brutal arena design. With Iron Sea defeated and forced out of the arena business, the brothers began traveling between the game worlds, bringing their signature brutal style and the Mariner's Curse with them. Mariner's Curse carries a Clan-tech UAC/20 and two Clan-tech SRM-4s for primary firepower. For backup it carries a pair of exotic Medium Pulse Lasers and a trio of similarly exotic Medium Lasers.",
 	"CustomParts": {
 		"CustomParts": []
 	}

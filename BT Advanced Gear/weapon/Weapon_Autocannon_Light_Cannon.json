@@ -58,6 +58,7 @@
 	"ImprovedBallistic": true,
 	"BallisticDamagePerPallet": true,
 	"AlternateDamageCalc": true,
+	"HitGenerator": "Cluster",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 50000,
