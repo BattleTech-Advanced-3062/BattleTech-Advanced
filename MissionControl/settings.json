@@ -14,7 +14,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"OrganizedRetreat"
 		]
 	},
 	"HotDropProtection": {
@@ -85,9 +86,21 @@
 		"AutofillType": "RespectEmpty",
 		"AutofillUnitCopyType": "RandomInLance",
 		"AutofillStartingFromContractDifficulty": 3,
-		"ExcludeContractTypes": [
-			"SoloDuel",
-			"DuoDuel"
+		"IncludeContractTypes": [
+			"AmbushConvoy",
+			"Assassinate",
+			"CaptureBase",
+			"CaptureEscort",
+			"DefendBase",
+			"DestroyBase",
+			"Rescue",
+			"SimpleBattle",
+			"ThreeWayBattle",
+			"FireMission",
+			"AttackDefend",
+			"Blackout",
+			"Warzone",
+			"OrganizedRetreat"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"
@@ -282,10 +295,6 @@
 			},
 			{
 				"MapId": "mapGeneral_crimsonValley_bMars",
-				"IncreaseBoundarySizeByPercentage": 0.5
-			},
-			{
-				"MapId": "mapGeneral_taigaRiver_iTnd",
 				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
