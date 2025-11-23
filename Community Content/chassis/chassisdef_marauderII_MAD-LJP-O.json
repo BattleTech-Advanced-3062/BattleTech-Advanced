@@ -235,7 +235,8 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"AssaultMech"
+			"AssaultMech",
+			"OmniMech"
 		],
 		"tagSetSourceFile": ""
 	},
