@@ -866,6 +866,57 @@
 			"Illustration": "uixTxrSpot_battleContract",
 			"Icon": "uixSvgIcon_contract_Assassinate",
 			"IsPublished": true
+		},
+		{
+			"ID": 17001,
+			"Name": "BattleRoyaleV2",
+			"FriendlyName": "Battle Royale",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_battleContract",
+			"Icon": "uixSvgIcon_contract_Battle",
+			"IsPublished": true
+		},
+		{
+			"ID": 17002,
+			"Name": "OrganizedRetreat",
+			"FriendlyName": "Organized Retreat",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_defendBaseContract",
+			"Icon": "uixSvgIcon_contract_DefendBase",
+			"IsPublished": true
+		},
+		{
+			"ID": 17003,
+			"Name": "WarzoneV2",
+			"FriendlyName": "Warzone",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_battleContract",
+			"Icon": "uixSvgIcon_contract_Assassinate",
+			"IsPublished": true
 		}
 	]
 }

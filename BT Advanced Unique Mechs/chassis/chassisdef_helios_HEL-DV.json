@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Helios",
-		"Id": "chassisdef_helios_HEL-4A",
-		"Name": "Helios",
-		"Details": "Originally produced as a bodyguard unit for the St. Ives Compact military, the Helios was also produced under contract by Ceres Metals for ComStar and eventually found its way out into the wider Inner Sphere as a reliable, simple, bodyguard mech. A top speed of 64 kph combined with quad Jump Jets gives it moderate mobility for its assault mech charges. A more energy weapon dependent version of the Helios, the 4A strips all of the 'Mech's weapons and adds two tons of armor. It has an ER PPC as its primary weapon backed up by two Medium Lasers and an MRM-20 launcher.",
+		"UIName": "Deliverance",
+		"Id": "chassisdef_helios_HEL-DV",
+		"Name": "Deliverance",
+		"Details": "Named for what it brings to its enemies in the arenas, Deliverance is a powerful arena brawler. Built around a RWR-sourced Mercy rapid fire autocannon, Deliverance pours out so much firepower that little can withstand the barrage. A pair of SRM-2s with Acid ammunition and a pair of Medium Lasers play second-fiddle to the superweapon.",
 		"Icon": "uixTxrIcon_helios"
 	},
 	"MovementCapDefID": "movedef_rifleman_RFL-3N",
@@ -56,12 +56,7 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -71,6 +66,10 @@
 		{
 			"Location": "LeftArm",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -98,7 +97,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -125,7 +124,7 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Missile",
 					"Omni": false
 				}
 			],
@@ -139,11 +138,7 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Superweapon",
 					"Omni": false
 				},
 				{
@@ -220,17 +215,18 @@
 			"z": 1.25
 		}
 	],
-	"VariantName": "HEL-4A",
+	"VariantName": "HEL-DV",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"HeavyMech"
+			"HeavyMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Assault Bodyguard",
-	"YangsThoughts": "Originally produced as a bodyguard unit for the St. Ives Compact military, the Helios was also produced under contract by Ceres Metals for ComStar and eventually found its way out into the wider Inner Sphere as a reliable, simple, bodyguard mech. A top speed of 64 kph combined with quad Jump Jets gives it moderate mobility for its assault mech charges. A more energy weapon dependent version of the Helios, the 4A strips all of the 'Mech's weapons and adds two tons of armor. It has an ER PPC as its primary weapon backed up by two Medium Lasers and an MRM-20 launcher.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Named for what it brings to its enemies in the arenas, Deliverance is a powerful arena brawler. Built around a RWR-sourced Mercy rapid fire autocannon, Deliverance pours out so much firepower that little can withstand the barrage. A pair of SRM-2s with Acid ammunition and a pair of Medium Lasers play second-fiddle to the superweapon.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -245,7 +241,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefID": "emod_structureslots_composite",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
