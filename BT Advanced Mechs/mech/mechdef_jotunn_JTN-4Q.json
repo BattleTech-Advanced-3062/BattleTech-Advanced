@@ -1,4 +1,5 @@
-{
+
+			"unit_artillery",{
 	"MechTags": {
 		"items": [
 			"unit_generic",
@@ -87,6 +88,7 @@
 			"RazorbackMercs",
 			"SelfEmployed",
 			"FlakJackals",
+			"unit_artillery",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
