@@ -88,20 +88,6 @@
 			"isBaseMode": true,
 			"ShotsWhenFired": 1,
 			"HeatGenerated": 35
-		},
-		{
-			"Id": "Guided x1",
-			"UIName": "Guided x1",
-			"isBaseMode": false,
-			"AmmoCategory": "ArrowIVHoming"
-		},
-		{
-			"Id": "Guided x2",
-			"UIName": "Guided x2",
-			"isBaseMode": false,
-			"AmmoCategory": "ArrowIVHoming",
-			"ShotsWhenFired": 1,
-			"HeatGenerated": 35
 		}
 	],
 	"statusEffects": [],
