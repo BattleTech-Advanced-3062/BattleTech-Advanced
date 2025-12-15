@@ -14,9 +14,6 @@
 				"autorepair"
 		],
 		"BonusDescriptions": [
-				"MotiveSystemCrit",
-				"VitalComponent",
-				"RotorDurability: x2, x4",
 				"DamageTaken: -5%",
 				"EvaMax: +1",
 				"EvaPips: +1",
@@ -32,18 +29,6 @@
 				[
 					"CriticalEffect-VehicleMotiveCruiseVTOLReinforcedCrit2",
 					"CriticalEffect-VehicleMotiveFlankVTOLReinforcedCrit2"
-				],
-				[
-					"CriticalEffect-VehicleMotiveCruiseVTOLReinforcedCrit3",
-					"CriticalEffect-VehicleMotiveFlankVTOLReinforcedCrit3"
-				],
-				[
-					"CriticalEffect-VehicleMotiveCruiseVTOLReinforcedCrit4",
-					"CriticalEffect-VehicleMotiveFlankVTOLReinforcedCrit4"
-				],
-				[
-					"CriticalEffect-VehicleMotiveCruiseVTOLReinforcedCrit5",
-					"CriticalEffect-VehicleMotiveFlankVTOLReinforcedCrit5"
 				]
 			],
 			"OnDestroyedEffectIDs": [],

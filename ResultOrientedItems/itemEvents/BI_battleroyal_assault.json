@@ -9,7 +9,7 @@
 			"Actions": [
 				{
 					"Type": "System_AddContract",
-					"value": "BattleRoyal_GameworldBattleRoyalAssault",
+					"value": "BattleRoyalev2_GameworldBattleRoyalAssault",
 					"valueConstant": null,
 					"additionalValues": [
 						"SolarisVIIMercLeague",

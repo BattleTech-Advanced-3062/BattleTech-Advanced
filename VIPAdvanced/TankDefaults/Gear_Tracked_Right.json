@@ -31,8 +31,6 @@
 		  ]
 		},
 		"BonusDescriptions": [
-				"TrackedMotive",
-				"MotiveSystemCrit",
 				"CritRes: -10%"
 			]
 	},
