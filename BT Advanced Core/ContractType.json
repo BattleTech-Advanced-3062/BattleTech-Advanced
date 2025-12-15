@@ -851,6 +851,23 @@
 			"IsPublished": true
 		},
 		{
+			"ID": 7002,
+			"Name": "DefendBaseRetreat",
+			"FriendlyName": "Defend Base (Alternate)",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_defendBaseContract",
+			"Icon": "uixSvgIcon_contract_DefendBase",
+			"IsPublished": true
+		},
+		{
 			"ID": 7003,
 			"Name": "Warzone",
 			"FriendlyName": "Warzone",
@@ -864,7 +881,7 @@
 			"UsesSecondScaledStructureValues": false,
 			"ContractRewardMultiplier": 1,
 			"Illustration": "uixTxrSpot_battleContract",
-			"Icon": "uixSvgIcon_contract_Assassinate",
+			"Icon": "uixSvgIcon_contract_Battle",
 			"IsPublished": true
 		},
 		{
@@ -916,6 +933,40 @@
 			"ContractRewardMultiplier": 1,
 			"Illustration": "uixTxrSpot_battleContract",
 			"Icon": "uixSvgIcon_contract_Assassinate",
+			"IsPublished": true
+		},
+		{
+			"ID": 17006,
+			"Name": "CaptureDefend",
+			"FriendlyName": "Capture Base (Alt)",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1,
+			"Illustration": "uixTxrSpot_captureBaseContract",
+			"Icon": "uixSvgIcon_contract_CaptureBase",
+			"IsPublished": true
+		},
+		{
+			"ID": 17007,
+			"Name": "DefenceInDepth",
+			"FriendlyName": "Defend Base (Alt)",
+			"Version": 0,
+			"IsSinglePlayerProcedural": true,
+			"IsStory": false,
+			"IsRestoration": false,
+			"CustomMusic": null,
+			"IsMultiplayer": false,
+			"UsesFury": false,
+			"UsesSecondScaledStructureValues": false,
+			"ContractRewardMultiplier": 1.2,
+			"Illustration": "uixTxrSpot_defendBaseContract",
+			"Icon": "uixSvgIcon_contract_DefendBase",
 			"IsPublished": true
 		}
 	]
