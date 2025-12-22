@@ -1,0 +1,7 @@
+{
+  "Name": "Quirk_Junkyard_Dog",
+  "Important": false,
+  "PlayerVisible": true,
+  "FriendlyName": "Junkyard Dog",
+  "Description": "Adds 1 priority and 2 random picks for salvage allocation (priority pick maxed at 7)\nCosts additional ¢150000 pilot upkeep"
+}

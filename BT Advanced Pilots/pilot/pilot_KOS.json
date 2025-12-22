@@ -1,0 +1,47 @@
+{
+	"Description": {
+		"Id": "pilot_KOS",
+		"Name": "KOS",
+		"FirstName": "Kepler",
+		"LastName": "Copernicus",
+		"Callsign": "KOS",
+		"Gender": "Male",
+		"Faction": "MagistracyOfCanopus",
+		"Age": "50",
+		"Details": "He's a quiet regular at salvage and junk yards, often seen wandering rows of rusted metal and forgotten machines.  With a sharp eye for value, he has a knack for salvaging parts others overlook, turning scraps into something useful again.  Beyond that talent, and a card carrying Magistocracy, little is known about him --- where he comes from, what he's building, or why he prefers to stay in the background remains a mystery.\r\n\r\n <b><color=#099ff2>SPECIAL PASSIVE ABILITY: INCREASES YOUR SALVAGE PICKS BUT COSTS 150,000 CBILLS MORE IN MONTHLY UPKEEP</color></b>",
+		"Icon": "Male_Rank3_6"
+	},
+	"BaseGunnery": "3",
+	"BonusGunnery": 0,
+	"BasePiloting": "3",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "3",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_bear01",
+	"abilityDefNames": [],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_disgraced",
+			"pilot_mechwarrior",
+			"name_KOS",
+			"pilot_magistracy",
+			"pilot_tech",
+			"Quirk_Junkyard_Dog",
+			"pilot_btateam"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}
