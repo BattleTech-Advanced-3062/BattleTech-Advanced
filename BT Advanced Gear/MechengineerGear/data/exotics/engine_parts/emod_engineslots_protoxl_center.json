@@ -47,7 +47,7 @@
 		"Purchasable": false,
 		"Manufacturer": "Periphery Armory, Inc.",
 		"Model": "Recovered Prototype",
-		"UIName": "Engine Prototype XL",
+		"UIName": "Engine Proto XL",
 		"Id": "emod_engineslots_protoxl_center",
 		"Name": "Prototype XL Engine",
 		"Details": "During the technology revival of the 3050s many technologies were rediscovered and put back into wide production. Among these was the Extra-Light Engine. However, the reactor shielding was complex on the XL and was beyond the capacity of many smaller manufacturers to make. Because of this issue, some smaller manufacturers put very early prototype engine designs into production instead due to ease of construction. These prototype XL engines were flawed and created extraneous waste heat, unlike the later perfected models, but were cheaper and easier to produce and install, meaning they found acceptance in Periphery militaries despite these limitations.",
