@@ -1,0 +1,124 @@
+{
+  "ID": "wiic_facility_defence",
+  "contractName": "Facility Defence",
+  "difficulty": 1000,
+  "finalDifficulty": 1000,
+  "shortDescription": "We have a contract from {TEAM_EMP.FactionDef.Name} - they would like to hire us to help defend their facilities on {TGT_SYSTEM.name} over the coming weeks. According to reports, {TEAM_TAR.FactionDef.Demonym} forces are planning to attack their facilities on-planet and their own defending forces are stretched too thin to cover all their facilities planetside, so they need us to fill in the gaps.\n\nThis is an extended contract, will last 14 days, and will prevent us from taking other contracts for the duration.",
+  "longDescription": "If we accept this contract we'll be in for the duration, Commander. This one is probably going to be fairly busy, with limited downtime between deployments. The representative also mentioned a possible revenge strike towards the end of the contract, so be ready to go on the attack.",
+  "salvagePotential": 0,
+  "requirementList": [],
+  "OnContractSuccessResults": [],
+  "OnContractFailureResults": [],
+  "contractType": "TravelOnly",
+  "contractDisplayStyle": "BaseCampaignNormal",
+  "encounterPlayStyle": "SinglePlayer",
+  "maxNumberOfPlayerUnits": 4,
+  "mapMood": null,
+  "startingFogOfWarVisibility": "Surveyed",
+  "contractObjectiveList": [],
+  "objectiveList": [],
+  "chunkList": [],
+  "dialogueList": [],
+  "disableNegotations": true,
+  "disableLanceConfiguration": true,
+  "disableCancelButton": true,
+  "contractRewardOverride": 30000,
+  "travelOnly": true,
+  "useTravelCostPenalty": false,
+  "usesExpiration": false,
+  "expirationTimeOverride": 0,
+  "negotiatedSalary": 1,
+  "negotiatedSalvage": 0,
+  "player1Team": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "bf40fd39-ccf9-47c4-94a6-061809681140",
+      "teamName": "Player 1",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "player2Team": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "757173dd-b4e1-4bb5-9bee-d78e623cc867",
+      "teamName": "Player 2",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "employerTeam": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
+      "teamName": "Employer",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "targetTeam": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "be77cadd-e245-4240-a93e-b99cc98902a5",
+      "teamName": "Target",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "targetsAllyTeam": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
+      "teamName": "Target's Ally",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "neutralToAllTeam": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "61612bb3-abf9-4586-952a-0559fa9dcd75",
+      "teamName": "Neutral to All",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "hostileToAllTeam": {
+      "encounterLayerData": {
+          "EncounterObjectGuid": null
+      },
+      "teamGuid": "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
+      "teamName": "Hostile to All",
+      "faction": "INVALID_UNSET",
+      "teamLeaderCastDefId": "castDef_TeamLeader_Current",
+      "lanceOverrideList": [
+
+      ],
+      "GenerateTeamComplete": null
+  },
+  "GenerateUnitsComplete": null
+}

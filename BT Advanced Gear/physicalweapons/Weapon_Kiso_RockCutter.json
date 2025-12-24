@@ -239,38 +239,6 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-RockCutterAcc",
-				"Name": "Rock Cutter Base Accuracy",
-				"Details": "Rock Cutters suffer a -2 accuracy penalty on their attacks.",
-				"Icon": "circular-sawblade"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "CBTBE_Physical_Weapon_Attack_Mod",
-				"operation": "Int_Add",
-				"modValue": "2",
-				"modType": "System.Int32"
-			}
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
 				"Id": "StatusEffect-RockCutterCanPhysical",
 				"Name": "Rock Cutter Can Physical",
 				"Details": "The Kiso's Rock Cutter can be used as a physical weapon, despite being a quad.",

@@ -121,7 +121,7 @@
 			"DamageLevel": "Functional"
 		},
 		{
-			"ComponentDefID": "Weapon_Laser_TAG",
+			"ComponentDefID": "Weapon_Laser_TAG_CLAN",
 			"ComponentDefType": "Weapon",
 			"MountedLocation": "Turret",
 			"HardpointSlot": 4,

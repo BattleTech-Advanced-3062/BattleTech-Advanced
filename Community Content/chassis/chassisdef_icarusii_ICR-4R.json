@@ -6,9 +6,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Icarus II",
-		"Id": "chassisdef_icarusii_ICR-2R",
+		"Id": "chassisdef_icarusii_ICR-4R",
 		"Name": "Icarus II",
-		"Details": "A limited run variant, the Icarus II ICR-2R carries a newly developed Light Autocannon/20 into combat as the primary weapon. However, due to the weight of the weapon, it has limited ammunition and few backup weapons, only carrying two Medium Lasers for defense once the AC runs dry. A 200-rated XL Engine powers the mech to a relatively low 84 kph while four jump jets give added mobility.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Details": "A limited run variant, the Icarus II ICR-4R carries a newly developed Light Autocannon/20 into combat as the primary weapon. However, due to the weight of the weapon, it has limited ammunition and few backup weapons, only carrying two Medium Lasers for defense once the AC runs dry. A 200-rated XL Engine powers the mech to a relatively low 84 kph while four jump jets give added mobility.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"MovementCapDefID": "movedef_icarusii_ICR-1S",
@@ -206,9 +206,9 @@
 			"InternalStructure": 50
 		}
 	],
-	"VariantName": "ICR-2R",
+	"VariantName": "ICR-4R",
 	"StockRole": "Age of War Striker",
-	"YangsThoughts": "A limited run variant, the Icarus II ICR-2R carries a newly developed Light Autocannon/20 into combat as the primary weapon. However, due to the weight of the weapon, it has limited ammunition and few backup weapons, only carrying two Medium Lasers for defense once the AC runs dry. A 200-rated XL Engine powers the mech to a relatively low 84 kph while four jump jets give added mobility.",
+	"YangsThoughts": "A limited run variant, the Icarus II ICR-4R carries a newly developed Light Autocannon/20 into combat as the primary weapon. However, due to the weight of the weapon, it has limited ammunition and few backup weapons, only carrying two Medium Lasers for defense once the AC runs dry. A 200-rated XL Engine powers the mech to a relatively low 84 kph while four jump jets give added mobility.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

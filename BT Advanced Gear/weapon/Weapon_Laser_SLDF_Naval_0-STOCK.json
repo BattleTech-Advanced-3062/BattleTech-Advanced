@@ -8,9 +8,6 @@
 				"CategoryID": "notused"
 			}
 		],
-		"BonusDescriptions": [
-			"SubCap"
-		],
 		"Flags": [
 			"no_salvage",
 			"not_broken"

@@ -12,7 +12,7 @@
 			}
 		],
 		"BonusDescriptions": [
-				"DEPRECIATED"
+				"DEPRECATED"
 			]
 	},
 	"Category": "Ballistic",
@@ -49,10 +49,10 @@
 		"Purchasable": true,
 		"Manufacturer": "Defiance",
 		"Model": "Heavy Autocannon",
-		"UIName": "DEPRECIATED",
+		"UIName": "DEPRECATED",
 		"Id": "Weapon_Autocannon_AC10_1-Defiance",
-		"Name": "DEPRECIATED",
-		"Details": "This equipment is depreciated and will not function. Remove it from your mechs and sell it at first opportunity.",
+		"Name": "DEPRECATED",
+		"Details": "This equipment is DEPRECATED and will not function. Remove it from your mechs and sell it at first opportunity.",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "AoE",

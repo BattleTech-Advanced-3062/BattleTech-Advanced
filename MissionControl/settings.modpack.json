@@ -27,7 +27,10 @@
 			"Itrom_Defense",
 			"Tyrlon_Attack",
 			"AmbushConvoy",
-			"AttackDefend"
+			"AttackDefend",
+			"BattleRoyaleV2",
+			"OrganizedRetreat",
+			"WarzoneV2"
 		]
 	},
 	"HotDropProtection": {
@@ -62,7 +65,8 @@
 			"Itrom_Defense",
 			"Tyrlon_Attack",
 			"AmbushConvoy",
-			"AttackDefend"
+			"AttackDefend",
+			"BattleRoyaleV2"
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",
@@ -72,7 +76,8 @@
 			"Assassinate",
 			"CaptureEscort",
 			"Rescue",
-			"AttackDefend"
+			"AttackDefend",
+			"OrganizedRetreat"
 		],
 		"UseElites": false
 	},
@@ -233,7 +238,8 @@
 			"Panzyr_Defense",
 			"Itrom_Attack",
 			"Itrom_Defense",
-			"Tyrlon_Attack"
+			"Tyrlon_Attack",
+			"BattleRoyaleV2"
 		]
 	},
 	"IncreaseBoundarySizeByPercentage": 0.7,

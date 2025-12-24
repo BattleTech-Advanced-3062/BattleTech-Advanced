@@ -23,10 +23,9 @@
 			"no_salvage"
 		],
 		"BonusDescriptions": [
-				"CASE",
-				"ArmorTPCost: 10%",
-				"ArmorCBCost: 15%"
-			]
+			"ArmorTPCost: 10%",
+			"ArmorCBCost: 15%"
+		]
 	},
 	"Description": {
 		"Cost": 0,

@@ -1,0 +1,21 @@
+{
+    "id": "pilotQuirkDef_Junkyard_Dog",
+    "tag": "Quirk_Junkyard_Dog",
+    "quirkName": "Junkyard Dog",
+    "description": "",
+    "effectData": [],
+    "quirkEffects": [
+        {
+            "type": "AdditionalSalvage",
+            "modifier": 2,
+            "secondaryModifier": 1,
+            "affectedIds": []
+        },
+        {
+            "type": "PilotCostFactor",
+            "modifier": 0,
+            "secondaryModifier": 150000,
+            "affectedIds": []
+        }
+    ]
+}

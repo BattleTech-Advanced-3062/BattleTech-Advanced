@@ -1,13 +1,19 @@
 {
 	"Custom": {
-		"Category": {
-			"CategoryID": "w/a/o/industrial"
-		},
+		"Category": [
+			{
+				"CategoryID": "w/a/o/industrial"
+			},
+			{
+				"CategoryID": "SpotWelder"
+			}
+		],
 		"BonusDescriptions": [
 			"OHDamage: 100%",
 			"AntiBA: 100%",
 			"WpnAccuracy: -2",
-			"PipsIgnored: 2"
+			"PipsIgnored: 2",
+			"WordsWords: You may only mount a maximum of 2 Spot Welders to any individual unit."
 		]
 	},
 	"Category": "AntiPersonnel",

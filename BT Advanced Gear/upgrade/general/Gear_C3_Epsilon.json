@@ -153,8 +153,8 @@
 					"effectType": "StatisticEffect",
 					"Description": {
 						"Id": "C3Master_Network_Overwhelm_Epsilon",
-						"Name": "C3 Network Disengaged",
-						"Details": "PASSIVE: This C3 Master is connected to [AMT] C3 Slaves on the same channel. If [AMT] is -4 or more, the network has been overwhelmed and has failed.",
+						"Name": "C3 Network Status",
+						"Details": "PASSIVE: This C3 Master is connected to [AMT]- C3 Slaves on the same channel. If [AMT]- is -4- or more and this is a single master network, the network has been overwhelmed and has failed. If it is [AMT]- is -7- or more and this is a double master network, the network has been overwhelmed and has failed.",
 						"Icon": "crowned-explosion"
 					},
 					"statisticData": {
@@ -200,8 +200,8 @@
 					"effectType": "StatisticEffect",
 					"Description": {
 						"Id": "C3Slave_Network_Overwhelm_Epsilon",
-						"Name": "C3 Network Disengaged",
-						"Details": "PASSIVE: This C3 Slave is connected to [AMT] other C3 Slaves on the same channel. If [AMT] is -3 or more, the C3 network has been overwhelmed and has failed.",
+						"Name": "C3 Network Status",
+						"Details": "PASSIVE: This C3 Slave is connected to [AMT]- other C3 Slaves on the same channel. If [AMT]- is -3- or more and this is a single master network, the C3 network has been overwhelmed and has failed. If [AMT]- is -6- or more and this is a double master network, the network has been overwhelmed and has failed.",
 						"Icon": "crowned-explosion"
 					},
 					"statisticData": {

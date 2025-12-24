@@ -662,6 +662,21 @@
 			}
 		},
 		{
+			"Name": "SpotWelder",
+			"DisplayName": "Spot Welder",
+			"BaseLimits": [
+				{
+				  "Min": 0,
+				  "Max": 2
+				}
+			],
+			
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "891"
+			}
+		},
+		{
 			"Name": "w/s/su/superweapon",
 			"DisplayName": "Superweapon",
 			"DefaultCustoms": {

@@ -79,12 +79,6 @@
 			"Id": "Artillery",
 			"UIName": "Arty",
 			"isBaseMode": true
-		},
-		{
-			"Id": "Guided",
-			"UIName": "Guided",
-			"isBaseMode": false,
-			"AmmoCategory": "ThumperCopperhead"
 		}
 	],
 	"ComponentTags": {

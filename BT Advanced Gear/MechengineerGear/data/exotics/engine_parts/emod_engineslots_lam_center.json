@@ -47,7 +47,7 @@
 		"Purchasable": false,
 		"Manufacturer": "Allied Aerospace",
 		"Model": "Valkyrie",
-		"UIName": "Engine (LAM)",
+		"UIName": "Engine LAM",
 		"Id": "emod_engineslots_lam_center",
 		"Name": "Land Air Mech Engine",
 		"Details": "Originally conceived during the Star League era, the Land-Air 'Mech (or LAM) is a hybrid military unit capable of transforming between BattleMech and Aerospace Fighter forms. <b><color=#0066ff>Reserves 2 Slots</color></b>",

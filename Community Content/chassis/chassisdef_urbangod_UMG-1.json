@@ -1,0 +1,299 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+		  "PrefabID": "UrbanGod",
+		  "Exclude": false,
+		  "Include": true
+		},
+		 "ChassisDefaults": []
+	},
+	"Description": {
+		"Cost": 35000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "UrbanGod",
+		"Id": "chassisdef_urbangod_UMG-1",
+		"Name": "UrbanGod",
+		"Details": "Look, up there! It's an UrbanMech! No, it's a god! No, it's the UrbanGod! Praise be to UrbanGod!. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_urbanmech"
+	},
+	"MovementCapDefID": "movedef_annihilator_ANH-1A",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_urbie",
+	"PrefabIdentifier": "chrprfmech_urbiebase-001",
+	"PrefabBase": "urbie",
+	"Tonnage": 200,
+	"InitialTonnage": 20,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10581000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 110,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 110,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 110,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 60,
+			"MaxRearArmor": -1,
+			"InternalStructure": 24
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 360,
+			"MaxRearArmor": -1,
+			"InternalStructure": 205
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 360,
+			"MaxRearArmor": 180,
+			"InternalStructure": 205
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 22,
+			"MaxArmor": 470,
+			"MaxRearArmor": 235,
+			"InternalStructure": 260
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 18,
+			"MaxArmor": 360,
+			"MaxRearArmor": 180,
+			"InternalStructure": 205
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 13,
+			"MaxArmor": 360,
+			"MaxRearArmor": -1,
+			"InternalStructure": 205
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 360,
+			"MaxRearArmor": -1,
+			"InternalStructure": 205
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 360,
+			"MaxRearArmor": -1,
+			"InternalStructure": 205
+		}
+	],
+	"LOSSourcePositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		}
+		],
+	"LOSTargetPositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": 2.5,
+		  "y": 5,
+		  "z": 1
+		},
+		{
+		  "x": -2.5,
+		  "y": 5,
+		  "z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "UMG-1",
+	"ChassisTags": {
+		"items": [
+			"SuperHeavyMech",
+			"mr-resize-2.0-2.0-2.0",
+			"ArmLimitUpperRight",
+			"ArmLimitUpperLeft",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "6.5 Urbies In A Trenchcoat",
+	"YangsThoughts": "Look, up there! It's an UrbanMech! No, it's a god! No, it's the UrbanGod! Praise be to UrbanGod!. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>"
+}

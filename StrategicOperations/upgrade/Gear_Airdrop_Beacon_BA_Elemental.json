@@ -66,7 +66,7 @@
                 "Icon": "battle-amor-suit"
             },
             "activeAbilityEffectData": {
-                "abilityName": "AbilityDefCMD_BADrop_Achilles"
+                "abilityName": "AbilityDefCMD_BADrop_Elemental"
             }
         }
     ],

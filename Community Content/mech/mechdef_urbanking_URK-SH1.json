@@ -21,6 +21,7 @@
 			"ai_surrounded_normal",
 			"unit_superheavy",
 			"Ignore_SelfKnockdown",
+			"unit_artillery",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""
