@@ -681,7 +681,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "{{MC.If.Encounter.HasTag.dialogue_1} AND {MC.If.Encounter.HasNoTag.dialogue_2}}Big thanks to the EMP experts, really top-notch work.",
+					"words": "{{MC.If.Encounter.HasTag.dialogue_1} AND {MC.If.Encounter.HasNoTag.dialogue_2}}Big thanks to the {TEAM_EMP.FactionDef.Demonym} experts, really top-notch work.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -731,7 +731,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Can you believe it?  We were only meant to hold them off, and yet you've taken out every TGT force. That's one for the books, boss --- fantastic work!",
+					"words": "Can you believe it?  We were only meant to hold them off, and yet you've taken out every {TEAM_TAR.FactionDef.Demonym} force. That's one for the books, boss --- fantastic work!",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
