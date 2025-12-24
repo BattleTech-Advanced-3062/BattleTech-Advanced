@@ -1,0 +1,53 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Nuck",
+		"Name": "Nuck",
+		"FirstName": "Bubba",
+		"LastName": "Denver",
+		"Callsign": "Nuck",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "21",
+		"Details": "Bubba was born and raised in a small backwater town called Slocan on the frozen planet of Hammer. Hammer is situated on the outskirts of the Free World League's territory. Slocan is a resource rich economy benefitting primarily from the nearby Germanium mines. It was the type of town that if you didn't know it was there, you would likely miss it all together. But those who did live there were so close that it bordered on the lines of encroachment. Bubba was born into a large family who mostly either lived in Slocan or in one of the neighboring settlements.\r\n\r\nBubba's mother was a talented teacher, specializing in teaching the more troubled teens and young adults in the community. She did this with great success and pride. Her only true failure is that she could never find common ground or the words to reach one of the most sever cases in the area, her eldest son Bubba. His father on the other hand had an entirely different angle of attack when it came to getting across to the troubled youth. He felt the best course of action to gain the young man's attention and obedience came in the form of a wrench or a power tool being thrown at his head. That coupled with some choice words of encouragement always did the trick. However during Bubba's time in Slocan, he did spend many hours in the family Mech garage learning the tricks of the trade. This  would lead to some unique after hour opportunities!\r\n\r\nSense the ripe age of 12 Bubba had realized that the family garage laid just far enough out of town that nobody would notice him slipping away into the night. Armed with stolen launch codes to one or more of the mechs sitting in the service yard waiting for their owners to retrieve them. This presented the young man with the opportunity to get to know the machines intricately inside and out. It was during these midnight joy rides that he realized he was destined for more then just mining or Mech Tech'ing locally like the rest of the community. He knew then he was meant to be dodging live rounds and to be shot up like a bullseye on the target range for a living!\r\n\r\nUpon turning 16 and after one particularly vicious exchange of words between mom, dad and Bubba, the up and coming self taught mech pilot escaped into the night. Before leaving the warmth of his childhood home for the final time, he was able to upload the launch codes for a recently repaired Centurion CN9-D. He high tailed it all night and into the next evening, until he reached the nearest Space Port. Noticing a rather shot up mercenary lance boarding a Leopard class Jumpship, he then was able to strike a bargain with it's XO. With the help of Bubba's shiny new stolen Centurion his life as a Mech Warrior was underway.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_Nuck"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "5",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_bear01",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefRefireReduceOne",
+		"AbilityDefG5a",
+		"TraitDefSprintIncrease10",
+		"AbilityDefP5"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_tech",
+			"name_Nuck",
+			"pilot_brave",
+			"pilot_marik",
+			"pilot_criminal"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

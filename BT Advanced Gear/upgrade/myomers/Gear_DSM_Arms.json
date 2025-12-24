@@ -6,6 +6,9 @@
 			},
 			{
 				"CategoryID": "Myomer"
+			},
+			{
+				"CategoryID": "NonQuad"
 			}
 		],
 		"Flags": [
@@ -18,6 +21,7 @@
 			"HeatGenerated: +25%",
 			"PunchDamageBonus: +75%",
 			"PhysWeapDamageBonus: +75%",
+			"NonQuad",
 			"Dynamic: 7"
 		],
 		"DynamicSlots": {

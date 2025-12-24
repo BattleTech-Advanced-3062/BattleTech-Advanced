@@ -14,7 +14,10 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2",
+			"OrganizedRetreat",
+			"WarzoneV2"
 		]
 	},
 	"HotDropProtection": {
@@ -23,7 +26,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"GuardOnHotDrop": false,
 		"EvasionPipsOnHotDrop": 6,
@@ -37,7 +41,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"IsPrimaryObjectiveIn": [
 			"SimpleBattle",
@@ -45,7 +50,8 @@
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",
-			"FireMission"
+			"FireMission",
+			"OrganizedRetreat"
 		],
 		"HideObjective": true,
 		"ShowObjectiveOnLanceDetected": true,
@@ -85,9 +91,22 @@
 		"AutofillType": "RespectEmpty",
 		"AutofillUnitCopyType": "RandomInLance",
 		"AutofillStartingFromContractDifficulty": 3,
-		"ExcludeContractTypes": [
-			"SoloDuel",
-			"DuoDuel"
+		"IncludeContractTypes": [
+			"AmbushConvoy",
+			"Assassinate",
+			"CaptureBase",
+			"CaptureEscort",
+			"DefendBase",
+			"DestroyBase",
+			"Rescue",
+			"SimpleBattle",
+			"ThreeWayBattle",
+			"FireMission",
+			"AttackDefend",
+			"Blackout",
+			"Warzone",
+			"OrganizedRetreat",
+			"WarzoneV2"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"
@@ -110,7 +129,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"IncreaseBoundarySizeByPercentage": 0.3,
 		"Overrides": [
@@ -292,7 +312,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"MinDistanceForZone": 50,
 		"MaxDistanceForZone": 175,

@@ -41,7 +41,7 @@
 			"Category_MaximumReached": "Unit cannot install more {0} in {4}",
 			"Category_Mixed": "Mech can have only one type of {0}",
 			"Category_ValidateMinimum": "MISSING {0}: This unit must mount at least {1} in {5}",
-			"Category_ValidateMaximum": "EXCESS {0}: This mech can't mount more then {1} in {5}",
+			"Category_ValidateMaximum": "EXCESS {0}: This mech can't mount more than {1} in {5}",
 			"Category_ValidateMixed": "WRONG {0}: Mech can have only one type of {0}",
 			"Base_LocationDestroyed": "Cannot add {0} to {1}: The location is Destroyed.",
 			"Base_AddWrongLocation": "Cannot add {0} to {1}: Component is not permitted in this location.",

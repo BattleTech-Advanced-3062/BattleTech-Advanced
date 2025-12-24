@@ -25,14 +25,13 @@
 	"ChassisTags": {
 		"items": [
 			"BLACKLISTED",
-			"noautofix",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "",
 	"YangsThoughts": "",
-	"VariantName": "UM-R60",
+	"VariantName": "UM-TD",
 	"PrefabIdentifier": "chrPrfMech_urbanmechBase-001",
 	"PrefabBase": "urbanmech",
 	"Tonnage": 30,

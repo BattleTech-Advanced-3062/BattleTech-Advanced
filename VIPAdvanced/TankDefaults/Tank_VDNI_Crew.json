@@ -32,13 +32,8 @@
 			"DeathMethod": "PilotKilled"
 		},
 		"BonusDescriptions": [
-				"VitalComponent",
 				"Resolve: +1",
 				"IsCockpit",
-				"AccuracyER: +2",
-				"AccuracyLR: +2",
-				"AccuracyMR: +1",
-				"AccuracyMin: +2",
 				"Recoil: -1",
 				"EvasionIgnore: +1",
 				"CalledShot: 20%",

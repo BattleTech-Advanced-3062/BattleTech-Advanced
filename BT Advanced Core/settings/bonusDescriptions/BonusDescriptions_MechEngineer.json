@@ -5328,6 +5328,12 @@
 			"Full": "This is a Webb Targeting Computer. Webb TCs provide a variety of weapon attachments to the 'Mech when equipped. These attachments provide a modest accuracy bonus for any attached weapon and are compatible with any and all forms of weaponry."
 		},
 		{
+			"Bonus": "RequiresAttachment",
+			"Short": "Requires Attachment",
+			"Long": "Requires Weapon Attachment",
+			"Full": "This ammunition requires a specific weapon attachment be attached to the weapon the ammo is for, specifically the {0} attachment."
+		},
+		{
 			"Bonus": "WeaponAttachmentCompatible",
 			"Short": "Weapon Attachment Compatibility",
 			"Long": "Weapon Attachment Compatibility",

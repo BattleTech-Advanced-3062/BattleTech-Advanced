@@ -12,6 +12,7 @@
 			"CalderonProtectorate",
 			"TaurianConcordat",
 			"TaurianGuard",
+			"unit_artillery",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""

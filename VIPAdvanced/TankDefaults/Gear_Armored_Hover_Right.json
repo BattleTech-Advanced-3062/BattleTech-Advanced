@@ -14,9 +14,6 @@
 				"autorepair"
 		],
 		"BonusDescriptions": [
-				"HoverMotive",
-				"MotiveSystemCrit",
-				"ArmoredMotive",
 				"DamageTaken: -5%",
 				"CritRes: 20%"
 			]

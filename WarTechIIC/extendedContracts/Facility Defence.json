@@ -1,0 +1,88 @@
+{
+	"name": "Facility Defence",
+	"requirementList": [
+        {
+            "Scope": "StarSystem",
+			"RequirementComparisons": [],
+			"RequirementTags": {},
+            "ExclusionTags": {
+                "items": [ "planet_other_empty" ],
+                "tagSetSourceFile": ""
+            }
+        }
+    ],
+	"weight": 1,
+	"spawnLocation": "OwnSystem",
+	"employer": [ "Any" ],
+	"target": [ "NearbyEnemy" ],
+	"hireContract": "wiic_facility_defence",
+	"availableFor": [20, 35],
+	"travelContracts": true,
+	"blockOtherContracts": true,
+	"schedule": [
+		"",
+		"",
+		"FacilityDefence1",
+		"",
+		"",
+		"FacilityDefence2",
+		"",
+		"",
+		"FacilityEvacuation",
+		"",
+		"",
+		"Assassination",
+		"",
+		"PaymentDelivered"
+	],
+	"entries": {
+		"FacilityDefence1": {
+			"contractChance": 1,
+			"workOrder": "Defence Required",
+			"allowedContractTypes": [ 11 ],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 1.1,
+			"contractBonusSalvage": -10,
+			"ignoreContractRequirements": true,
+			"contractMessage": "The first facility needs defending, Commander, let's get to it."
+		},
+		"FacilityDefence2": {
+			"contractChance": 1,
+			"workOrder": "Defence Required",
+			"allowedContractTypes": [ 11 ],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 1.1,
+			"ignoreContractRequirements": true,
+			"contractMessage": "The second facility needs defending, Commander, let's get to it."
+		},
+		"FacilityEvacuation": {
+			"contractChance": 1,
+			"workOrder": "Defend Evacuating Personnel",
+			"allowedContractTypes": [ 17002 ],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 1.3,
+			"contractBonusSalvage": -20,
+			"ignoreContractRequirements": true,
+			"contractMessage": "We have to defend the last facility while personnel evacuate. Stay frosty, Commander, this might be hairy."
+		},
+		"Assassination": {
+			"contractChance": 1,
+			"workOrder": "Take Out Enemy Leader",
+			"allowedContractTypes": [ 10 ],
+			"declinePenalty": "BreakContract",
+			"contractPayoutMultiplier": 1.5,
+			"contractBonusSalvage": -60,
+			"ignoreContractRequirements": true,
+			"contractMessage": "Time to go take out the enemy's leadership. We won't have time to salvage much, it's a quick in-and-out assassination job. Prepare accordingly, Commander."
+		},
+		"PaymentDelivered": {
+			"popupTitle": "Payment for Services Rendered, Commander {COMMANDER.LastName}",
+			"popupMessage": "Looks like {TEAM_EMP.FactionDef.ShortName} has delivered our payment, Commander {COMMANDER.LastName}. Looks like a solid payday, Yang's already going through it down in the MechBay.",
+			"rewardByDifficulty": {
+				"2": "BTA_standard_Minor_Loot_EC",
+				"5": "BTA_standard_Major_Loot_EC",
+				"8": "BTA_standard_Superior_Loot_EC"
+			}
+		}
+  }
+}
