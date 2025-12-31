@@ -17,6 +17,7 @@
 			"DuoDuel",
 			"BattleRoyaleV2",
 			"OrganizedRetreat",
+			"DefenceInDepth",
 			"WarzoneV2"
 		]
 	},
@@ -106,6 +107,7 @@
 			"Blackout",
 			"Warzone",
 			"OrganizedRetreat",
+			"DefenceInDepth",
 			"WarzoneV2"
 		],
 		"SkipWhenTaggedWithAny": [
