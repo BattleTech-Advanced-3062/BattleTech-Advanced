@@ -1,8 +1,8 @@
 {
-	"ID": "OrganizedRetreat_BeOurShield",
-	"contractName": "Be Our Shield",
+	"ID": "OrganizedRetreat_BreakingWorse",
+	"contractName": "Breaking Worse",
 	"contractDisplayStyle": "BaseCampaignNormal",
-	"difficulty": 5,
+	"difficulty": 2,
 	"difficultyUIModifier": 0,
 	"weight": 3,
 	"scope": "STANDARD",
@@ -11,9 +11,9 @@
 	"missionSuccessStatementOverride": null,
 	"badFaithStatementOverride": null,
 	"goodFaithStatementOverride": null,
-	"shortDescription": "The {TEAM_EMP.FactionDef.Demonym}'s agents are using this installation as their forward base.  They were discovered by the {TEAM_TAR.FactionDef.Demonym}'s intelligence and has deployed a substantial force to eliminate them. Lacking military power to mount a defense, the agents are falling back. Assist them in conducting a safe evacuation.",
-	"longDescription": "Taking fire for them isn't desirable, but it's how we earn our keep.",
-	"salvagePotential": 16,
+	"shortDescription": "Our employer has been cooking up some extremely questionable <i>science</i>.  Unfortunately, they forgot one tiny detail: they don't actually have permission to do any of it here.\n\r\nDespite repeated calls by the {TEAM_TAR.FactionDef.Demonym} authorities, they kept right on bubbling their beakers and poking their mysterious gizmos. Now, they're being evicted forcefully.\n\r\nOur mission? Give them a little breathing room to grab all their <i>scientific</i> doohickeys, pack up their suspiciously dubious supplies, and evacuate the place.",
+	"longDescription": "Hopefully they keep that stuff to themselves, so we don't get involved.",
+	"salvagePotential": 12,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",
@@ -60,7 +60,7 @@
 			"contractObjective": {
 				"EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
 			},
-			"title": "Hold the installation during evac prep and cover the convoys during their escape",
+			"title": "<i>Scientists</i> escape",
 			"description": "",
 			"isPrimary": true,
 			"forPlayer": "Player1",
@@ -98,7 +98,7 @@
 			"objective": {
 				"EncounterObjectGuid": "67b973aa-d770-4be7-bfee-36b516bc4699"
 			},
-			"title": "Protect the base structures",
+			"title": "Defend the <i>laboratories</i>",
 			"description": "",
 			"isPrimary": false,
 			"OnSuccessResults": [],
@@ -240,7 +240,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Onsite intelligence reports that enemy forces have breached our garrison perimeter.  We are under contract to defend the facilities while evacuation preparations are in progress.",
+					"words": "The <i>scientists</i> are busy packing and loading the vehicles with their gear.  The lab structures must be protected until all of them and their gear and supplies are on their way.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -256,7 +256,7 @@
 					"revealRadius": -1
 				},
 				{
-					"words": "{TEAM_EMP.FactionDef.Demonym}'s still have limited defensive systems online, but they won't last long.",
+					"words": "They've set up some base defenses, but I doubt they'll seriously stop the enemy.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -281,7 +281,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "That'd do it.  Due to time constraints we're limited in what we salvage.",
+					"words": "That'd do it.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -381,7 +381,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "First group of convoys is ready to roll.",
+					"words": "First convoy is ready to roll.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -406,7 +406,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Convoy evacuation point is here.",
+					"words": "Bring the scientists' here.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -431,7 +431,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Second wave inbound --- hold positions and defend at all costs!",
+					"words": "They're onto us, Commander!",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -456,7 +456,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "All remaining evacuees are aboard; ensure their safe extraction.",
+					"words": "We've left the non-essentials behind.  We're ready when you are.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -481,23 +481,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Commander, holding the base is no longer a priority --- it's a lost cause.  Focus all efforts on defending the convoys.",
-					"wordsColor": {
-						"r": 1,
-						"g": 1,
-						"b": 1,
-						"a": 1
-					},
-					"selectedCastDefId": "castDef_TeamLeader_Employer",
-					"emote": "Default",
-					"audioName": "NONE",
-					"cameraFocusGuid": "21a03616-c88b-4edd-a9a9-b4dd54b46d6c",
-					"cameraDistance": "Far",
-					"cameraHeight": "High",
-					"revealRadius": -1
-				},
-				{
-					"words": "You heard them, boss.  Do your thing.",
+					"words": "Let's forget about defending the lab and focus on the safety of the convoys.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
@@ -507,7 +491,7 @@
 					"selectedCastDefId": "castDef_DariusDefault",
 					"emote": "Default",
 					"audioName": "NONE",
-					"cameraFocusGuid": "",
+					"cameraFocusGuid": "21a03616-c88b-4edd-a9a9-b4dd54b46d6c",
 					"cameraDistance": "Far",
 					"cameraHeight": "High",
 					"revealRadius": -1
@@ -522,14 +506,14 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Flankers!  Enemy closing in; cover the evacuees with everything you've got!",
+					"words": "Detecting enemy hostiles en route to the convoy.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
 						"b": 1,
 						"a": 1
 					},
-					"selectedCastDefId": "castDef_TeamLeader_Employer",
+					"selectedCastDefId": "castDef_DariusDefault",
 					"emote": "Default",
 					"audioName": "NONE",
 					"cameraFocusGuid": "a7944fc0-efe6-44e4-a5fc-b32fb14dbb3b",
@@ -547,14 +531,14 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Second group of flankers on position!  Ensure the evacuees remain safe!",
+					"words": "More hostiles trying to intercept the retreating vechiles.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
 						"b": 1,
 						"a": 1
 					},
-					"selectedCastDefId": "castDef_TeamLeader_Employer",
+					"selectedCastDefId": "castDef_DariusDefault",
 					"emote": "Default",
 					"audioName": "NONE",
 					"cameraFocusGuid": "4d39e72c-4f99-4cc6-8fe0-d4d18cad0063",
@@ -697,7 +681,7 @@
 			"overrideDialogueBucketId": "",
 			"dialogueContent": [
 				{
-					"words": "Well done, Commander.  Enemy units in the area have been eliminated.  Evacuation can proceed before further reinforcements arrive.",
+					"words": "Excellent job, Commander.  All hostile units in area has been neutralized.  We'd be able to evacuate before they additional enemy reinforcements arrive.",
 					"wordsColor": {
 						"r": 1,
 						"g": 1,
