@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "{TEAM_EMP.FactionDef.Demonym}'s area in {TGT_SYSTEM.Name} just got hit with a surprise attack, and right now, the only thing standing in the way is a single lance.  Our main forces are too far out to help in time, so we're calling on anyone willing to step up and lend a hand.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
 	"longDescription": "Hopefully we'll not be surprised as our employers.",
-	"salvagePotential": 30,
+	"salvagePotential": 24,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",
