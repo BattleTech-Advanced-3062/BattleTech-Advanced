@@ -6,7 +6,7 @@
 		"UIName": "Rattler Mobile Fortress",
 		"Id": "vehiclechassisdef_RATTLER_FORTRESS_PLAYER",
 		"Name": "Rattler Mobile Fortress",
-		"Details": "It's the Rattler. It's a fortress the size of a dropship and it carries enough firepower to level a city in one volley. You fought one, you know how dangerous it can be, and now we're deploying on somehow. Enjoy, Commander, you earned it.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 1/2 Hex: 30/60 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       10000     850\n<b>Left</b>         10000     850\n<b>Right</b>       10000     850\n<b>Rear</b>        10000     850\n<b>Turret</b>      10000     850\n\n<b>Total</b>      50000    4250\n",
+		"Details": "It's the Rattler. It's a fortress the size of a dropship and it carries enough firepower to level a city in one volley. You fought one, you know how dangerous it can be, and now we're deploying one somehow. Enjoy, Commander, you earned it.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 1/2 Hex: 30/60 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       10000     850\n<b>Left</b>         10000     850\n<b>Right</b>       10000     850\n<b>Rear</b>        10000     850\n<b>Turret</b>      10000     850\n\n<b>Total</b>      50000    4250\n",
 		"Icon": "Rattler"
 	},
   "CustomParts": {
