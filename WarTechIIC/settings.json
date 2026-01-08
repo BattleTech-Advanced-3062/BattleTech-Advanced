@@ -56,6 +56,7 @@
   "maxExtendedContractDistance": 150,
   "distanceFactor": 75,
   "aggression": {
+    "Outworld": 0.25,
     "ClanNovaCat": 1.5,
     "ClanFireMandrill": 1.75,
     "Ives": 2.0
@@ -120,6 +121,7 @@
     "Circinus": 21,
     "WordOfBlake": 25,
     "SanctuaryAlliance": 21,
+    "Outworld": 10,
     "Cameron": 26
   },
   "defenseStrength": {
@@ -130,7 +132,7 @@
     "Circinus": 12,
     "TaurianConcordat": 17,
     "Rim": 16,
-    "Outworld": 19,
+    "Outworld": 30,
     "Ives": 21,
     "WordOfBlake": 25,
     "RimWorldsRepublic": 26,

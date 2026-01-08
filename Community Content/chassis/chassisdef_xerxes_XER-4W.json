@@ -68,7 +68,7 @@
 		"UIName": "Xerxes",
 		"Id": "chassisdef_xerxes_XER-4W",
 		"Name": "Xerxes",
-		"Details": "Reverse-engineered based on a captured Capellan XER-4S, the XER-4W is a dedicated artillery mech armed with prototype Ultra Arrow IV launchers able to fire twice as fast as the standard launcher, the prototype is also equipped with experimental heat sinking equipment and improved simultaneous multi-target capabilities based on captured Clan technology. The lack of medium and short-range weaponry makes the design dependent on spotters working alongside the XER-4W, but the design compensates it with the overwhelming amount of artillery firepower it can field.",
+		"Details": "Reverse-engineered based on a captured Capellan XER-4S, the XER-4W is a dedicated artillery mech armed with prototype Ultra Arrow IV launchers able to fire twice as fast as the standard launcher, the prototype is also equipped with experimental heat sinking equipment and improved simultaneous multi-target capabilities based on captured Clan technology. The lack of medium and short-range weaponry makes the design dependent on spotters working alongside the XER-4W, but the design compensates it with the overwhelming amount of artillery firepower it can field.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_xerxes"
 	},
 	"VariantName": "XER-4W",
@@ -82,7 +82,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Superheavy Missile Boat",
-	"YangsThoughts": "Reverse-engineered based on a captured Capellan XER-4S, the XER-4W is a dedicated artillery mech armed with prototype Ultra Arrow IV launchers able to fire twice as fast as the standard launcher, the prototype is also equipped with experimental heat sinking equipment and improved simultaneous multi-target capabilities based on captured Clan technology. The lack of medium and short-range weaponry makes the design dependent on spotters working alongside the XER-4W, but the design compensates it with the overwhelming amount of artillery firepower it can field.",
+	"YangsThoughts": "Reverse-engineered based on a captured Capellan XER-4S, the XER-4W is a dedicated artillery mech armed with prototype Ultra Arrow IV launchers able to fire twice as fast as the standard launcher, the prototype is also equipped with experimental heat sinking equipment and improved simultaneous multi-target capabilities based on captured Clan technology. The lack of medium and short-range weaponry makes the design dependent on spotters working alongside the XER-4W, but the design compensates it with the overwhelming amount of artillery firepower it can field.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 	"MovementCapDefID": "movedef_annihilator_ANH-1A",
 	"PathingCapDefID": "pathingdef_assault",
 	"HardpointDataDefID": "hardpointdatadef_genericsh1",

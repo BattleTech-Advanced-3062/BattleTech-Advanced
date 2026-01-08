@@ -6,8 +6,8 @@
 			}
 		],
 		"BonusDescriptions": [
-			"WpnRecoil: 2",
-			"WeaponJAMMultiple3Stage: 20%, 30%, 40%",
+			"WpnRecoil: 3",
+			"WeaponJAMMultiple3Stage: 10%, 20%, 30%",
 			"VariableBurstCount: 6",
 			"WeaponAttachmentCompatible: Autocannon FCS"
 		]
@@ -24,8 +24,8 @@
 	],
 	"AmmoCategory": "RAC5",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 10,
-	"Damage": 35,
+	"HeatGenerated": 13,
+	"Damage": 49,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
@@ -35,24 +35,27 @@
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
 	"IndirectFireCapable": false,
-	"RefireModifier": 2,
+	"RefireModifier": 3,
 	"ShotsWhenFired": 1,
 	"ProjectilesPerShot": 1,
-	"AttackRecoil": 2,
-	"Instability": 10,
-	"FireDelayMultiplier": 1,
-	"ProjectileSpeedMultiplier": 2.5,
+	"AttackRecoil": 3,
+	"Instability": 8,
+	"FireTerrainChance": 0,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
-		"Cost": 970000,
-		"Rarity": 4,
+		"Cost": 551000,
+		"Rarity": 0,
 		"Purchasable": true,
-		"Manufacturer": "Mydron",
+		"Manufacturer": "CLAN",
 		"Model": "RAC5",
-		"UIName": "Rotary AC/5",
-		"Id": "Weapon_Autocannon_RAC5_0-Mydron",
-		"Name": "RAC/5",
-		"Details": "The Rotary Autocannon/5 is an attempt to make a revolver autocannon. It can spin off up to 6 shots in one burst, though it risks jamming and being worthless for a time in doing so. Still, it can produce incredible damage in short bursts. \n\n <b><color=#ffcc00>Uses RAC5 Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Ammocount/Damage value during battle to switch firing mode</color> </b>",
+		"UIName": "Rotary AC/5 (C)",
+		"Id": "Weapon_Autocannon_AC5_RAC_CLAN",
+		"Name": "RAC/5 (C)",
+		"Details": "The Rotary Autocannon/5 is an attempt to make a revolver autocannon. It can spin off up to 6 shots in one burst, though it risks jamming and being worthless for a time in doing so. Still, it can produce incredible damage in short bursts. This is the Clan take on the concept, which is very similar to the Inner Sphere version with minor statistical differences, despite the superior material science of the Clans. \n\n <b><color=#ffcc00>Uses RAC5 Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Ammocount/Damage value during battle to switch firing mode</color> </b>",
 		"Icon": "uixSvgIcon_weapon_Ballistic"
 	},
 	"BonusValueA": "",
@@ -61,11 +64,10 @@
 	"ComponentSubType": "Weapon",
 	"PrefabIdentifier": "AC5",
 	"BattleValue": 0,
-	"InventorySize": 5,
+	"InventorySize": 7,
 	"Tonnage": 10,
 	"AllowedLocations": "All",
 	"DisallowedLocations": "All",
-	"ImprovedBallistic": true,
 	"CriticalComponent": false,
 	"Modes": [
 		{
@@ -96,7 +98,7 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 3,
 			"RefireModifier": 2,
-			"FlatJammingChance": 0.2,
+			"FlatJammingChance": 0.1,
 			"HeatGenerated": 30
 		},
 		{
@@ -105,7 +107,7 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 4,
 			"RefireModifier": 2,
-			"FlatJammingChance": 0.3,
+			"FlatJammingChance": 0.2,
 			"HeatGenerated": 40
 		},
 		{
@@ -114,15 +116,17 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 5,
 			"RefireModifier": 3,
-			"FlatJammingChance": 0.4,
+			"FlatJammingChance": 0.3,
 			"HeatGenerated": 50
 		}
 	],
 	"statusEffects": [],
 	"ComponentTags": {
 		"items": [
+			"OmniRestriction.{location}",
 			"component_type_stock",
-			"range_long",
+			"component_type_lostech",
+			"range_very-long",
 			"AutocannonFCSSupported-Rotary",
 			"WebbTCSupported-RotaryAC"
 		],
