@@ -202,7 +202,10 @@
   "defaultAttackReward": "BTA_standard_Major_Loot",
   "defaultRaidReward": "BTA_standard_Major_Loot",
   "customContractEnums": [
-    10002
+    10002,
+	17002,
+	17003,
+	17007
   ],
   "saveFolder": "../../BTASaves"
 }

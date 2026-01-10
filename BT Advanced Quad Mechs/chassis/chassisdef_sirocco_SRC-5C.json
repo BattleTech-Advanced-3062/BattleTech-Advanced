@@ -259,7 +259,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Gyro_360Twist_Sirocco",
+      "ComponentDefID": "Gear_Gyro_Quad",
       "SimGameUID": "",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,

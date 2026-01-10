@@ -302,10 +302,6 @@
 				{
 					"WeaponMountID": "BombBay",
 					"Omni": false
-				},
-				{
-					"WeaponMountID": "BombBay",
-					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -328,10 +324,6 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "BombBay",
 					"Omni": false
 				},
 				{

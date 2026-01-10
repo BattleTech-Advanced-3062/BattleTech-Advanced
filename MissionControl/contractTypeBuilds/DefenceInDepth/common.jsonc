@@ -1946,10 +1946,11 @@
 							"Guid": "ea4ce042-3b40-4b12-af22-6ab326d12d2c",
 							"Status": "Success"
 						},
-						{
-							"Guid": "c2b71e9d-6d6a-4c51-b317-79a53a556858",
-							"Status": "Success"
-						},
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "c2b71e9d-6d6a-4c51-b317-79a53a556858",
+						//	"Status": "Success"
+						//},
 						{
 							"Guid": "0093c92b-8b4e-413f-ab83-e90080bdbe44",
 							"Status": "Success"
@@ -1962,10 +1963,11 @@
 							"Guid": "5816098c-fe5e-43ad-ab68-bde0f8d0dfd1",
 							"Status": "Success"
 						},
-						{
-							"Guid": "8fdd88f8-98c1-45bc-a2d2-5fd12553f904",
-							"Status": "Success"
-						},
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "8fdd88f8-98c1-45bc-a2d2-5fd12553f904",
+						//	"Status": "Success"
+						//},
 						{
 							"Guid": "7ffe7baa-aca9-458b-acb9-ef7c886e62ef",
 							"Status": "Success"
@@ -1981,11 +1983,12 @@
 						{
 							"Guid": "6170b182-d097-4a2d-ba8e-f25977106497",
 							"Status": "Success"
-						},
-						{
-							"Guid": "0cfbd35e-a65a-46c7-ba32-48e5adcc3872",
-							"Status": "Success"
 						}
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "0cfbd35e-a65a-46c7-ba32-48e5adcc3872",
+						//	"Status": "Success"
+						//}
 					]
     			}
 			],

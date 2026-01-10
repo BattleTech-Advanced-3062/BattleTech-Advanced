@@ -397,6 +397,129 @@
         			"Status": "Success"
     			}
 			]
+		},
+		{
+			"Path": "Triggers[?(@.Name == 'Trigger_Defend_Alpha_Base')].Results",
+			"Action": "Replace",
+			"Value": [
+    			{
+					"Name": "Complete_Objective_Defend_Alpha_Base_01",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "220f38d3-1da7-4e1d-8ad9-ea2260aac990",
+      				"CompletionType": "Succeed"
+    			},
+    			{
+					"Name": "Activate_Chunk_Defend_Alpha_Base",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "97078321-16d4-47b7-92b0-9bbc2f12e123",
+      				"Status": "Active"
+    			},
+    			{
+					"Name": "Activate_Chunk_Target_Lance_04",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "ca19cb2c-07e1-43a0-9b73-ed387ba0de5a",
+      				"Status": "Active"
+    			}
+			]
+		},
+		{
+			"Path": "Triggers[?(@.Name == 'Trigger_AutoComplete')].Conditionals",
+			"Action": "Replace",
+			"Value": [
+				{
+        			"Type": "ObjectiveStatusesConditional",
+					"Statuses": [
+						{
+							"Guid": "441e4360-9a2c-46df-a140-6c9497129d0d",
+							"Status": "Success"
+						},
+						{
+							"Guid": "ea4ce042-3b40-4b12-af22-6ab326d12d2c",
+							"Status": "Success"
+						},
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "c2b71e9d-6d6a-4c51-b317-79a53a556858",
+						//	"Status": "Success"
+						//},
+						////This is a 2-base map, this lance won't spawn
+						//{
+						//	"Guid": "0093c92b-8b4e-413f-ab83-e90080bdbe44",
+						//	"Status": "Success"
+						//},
+						//This is a 2-base map, this lance won't spawn
+						//{
+						//	"Guid": "7b4e9d84-4d93-43bb-a42f-1647ab66d17c",
+						//	"Status": "Success"
+						//},
+						//This is a 2-base map, this lance won't spawn
+						//{
+						//	"Guid": "5816098c-fe5e-43ad-ab68-bde0f8d0dfd1",
+						//	"Status": "Success"
+						//},
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "8fdd88f8-98c1-45bc-a2d2-5fd12553f904",
+						//	"Status": "Success"
+						//},
+						{
+							"Guid": "7ffe7baa-aca9-458b-acb9-ef7c886e62ef",
+							"Status": "Success"
+						},
+						{
+							"Guid": "db423e83-8828-4d45-aa9f-bd41bcefda37",
+							"Status": "Success"
+						},
+						{
+							"Guid": "3eee4c9d-ad0f-494d-b6f2-804d6da24215",
+							"Status": "Success"
+						},
+						{
+							"Guid": "6170b182-d097-4a2d-ba8e-f25977106497",
+							"Status": "Success"
+						}
+						//This is contract-controlled, if chunk's not enabled will not meet condition
+						//{
+						//	"Guid": "0cfbd35e-a65a-46c7-ba32-48e5adcc3872",
+						//	"Status": "Success"
+						//}
+					]
+    			}
+			]
+		},
+		{
+			"Path": "Triggers[?(@.Name == 'Trigger_AutoComplete')].Results",
+			"Action": "Replace",
+			"Value": [
+    			{
+					"Name": "Complete_Objective_Defend_Charlie_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "4f80e1f6-bc4d-4502-b4e0-a8ca8a5a3f61",
+      				"CompletionType": "Succeed"
+    			},
+				{
+					"Type": "Dialogue",
+					"DialogueGuid": "e8a5d081-6749-4167-98dc-05471014ed78"
+				},
+    			{
+					"Name": "Complete_Objective_Occupy_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "0ae86b4f-0444-44d2-b254-e6235dc039de",
+      				"CompletionType": "Succeed"
+    			},
+    			{
+					"Name": "Complete_Objective_Defend1_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "220f38d3-1da7-4e1d-8ad9-ea2260aac990",
+      				"CompletionType": "Succeed"
+    			},
+    			{
+					"Name": "Complete_Objective_Defend_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "11c09aa2-9855-476e-bd60-5d621f45db9d",
+      				"CompletionType": "Succeed"
+    			}
+			]
 		}
 	]
 }

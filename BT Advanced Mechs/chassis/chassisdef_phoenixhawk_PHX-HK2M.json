@@ -283,6 +283,10 @@
 				{
 					"WeaponMountID": "BombBay",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -309,6 +313,10 @@
 				},
 				{
 					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "BombBay",
 					"Omni": false
 				},
 				{
