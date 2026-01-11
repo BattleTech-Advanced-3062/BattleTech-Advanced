@@ -1,0 +1,296 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+		  "PrefabID": "Xanthos",
+		  "Exclude": false,
+		  "Include": true
+		},
+		 "ChassisDefaults": []
+	},
+	"CustomParts": {
+		"MeleeWeaponOverride": {
+		  "DefaultWeapon": "Weapon_MeleeAttackEx"
+		},
+		"FiringArc": 360,
+		"Unaffected": {
+		  "DesignMasks": "false",
+		  "Pathing": "false",
+		  "Fire": "false",
+		  "Landmines": "false"
+		},
+		"ArmsCountedAsLegs": true,
+		"MoveCostModPerBiome": {
+		  "DesignMaskBiomeMartianVacuum": 1.0,
+		  "DesignMaskBiomeLunarVacuum": 1.0
+		}
+	},
+	"Description": {
+		"Cost": 9000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Xanthos",
+		"Id": "chassisdef_xanthos_XNT-7O",
+		"Name": "Xanthos",
+		"Details": "Originally developed before the Star League was founded, the Xanthos is the original QuadMech, predating even the Scorpion and Goliath. The Xanthos is an assault-weight quadruped BattleMech with a storied history. In the 3060s, several advanced Capellan models hit the battlefield, including the XNT-7O. The -7O is built on the same rugged 300-rated fusion engine as earlier models and leans hard into the Xanthos's assault 'Mech heritage to carry heavy firepower, in this case a pair of Gauss Rifles, backed up by four ER Medium Lasers and a Light PPC. Three tons of Gauss ammo keeps the guns firing while 15 DHS keeps the heat well managed.",
+		"Icon": "uixTxrIcon_xanthos"
+	},
+	"MovementCapDefID": "movedef_atlas_AS7-D",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_cuxanthos",
+	"PrefabIdentifier": "chrprfmech_cuxanthosbase-001",
+	"PrefabBase": "cuxanthos",
+	"Tonnage": 100,
+	"InitialTonnage": 10,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10581000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 110,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 110,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 110,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 19,
+			"MaxArmor": 320,
+			"MaxRearArmor": 160,
+			"InternalStructure": 160
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		}
+	],
+	"LOSSourcePositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		}
+		],
+	"LOSTargetPositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": 2.5,
+		  "y": 5,
+		  "z": 1
+		},
+		{
+		  "x": -2.5,
+		  "y": 5,
+		  "z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Quad",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "XNT-7O",
+	"ChassisTags": {
+		"items": [
+			"QuadMech",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "The Original QuadMech Reimagined",
+	"YangsThoughts": "Originally developed before the Star League was founded, the Xanthos is the original QuadMech, predating even the Scorpion and Goliath. The Xanthos is an assault-weight quadruped BattleMech with a storied history. In the 3060s, several advanced Capellan models hit the battlefield, including the XNT-7O. The -7O is built on the same rugged 300-rated fusion engine as earlier models and leans hard into the Xanthos's assault 'Mech heritage to carry heavy firepower, in this case a pair of Gauss Rifles, backed up by four ER Medium Lasers and a Light PPC. Three tons of Gauss ammo keeps the guns firing while 15 DHS keeps the heat well managed."
+}

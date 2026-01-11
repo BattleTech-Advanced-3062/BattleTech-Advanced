@@ -1,0 +1,293 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+		  "PrefabID": "Xanthos",
+		  "Exclude": false,
+		  "Include": true
+		},
+		 "ChassisDefaults": []
+	},
+	"CustomParts": {
+		"MeleeWeaponOverride": {
+		  "DefaultWeapon": "Weapon_MeleeAttackEx"
+		},
+		"FiringArc": 360,
+		"Unaffected": {
+		  "DesignMasks": "false",
+		  "Pathing": "false",
+		  "Fire": "false",
+		  "Landmines": "false"
+		},
+		"ArmsCountedAsLegs": true,
+		"MoveCostModPerBiome": {
+		  "DesignMaskBiomeMartianVacuum": 1.0,
+		  "DesignMaskBiomeLunarVacuum": 1.0
+		}
+	},
+	"Description": {
+		"Cost": 9000000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Kingslayer",
+		"Id": "chassisdef_xanthos_XNT-KS",
+		"Name": "Kingslayer",
+		"Details": "Piloted by a freelance mercenary named Lena Brice, Kingslayer is a Xanthos that has been modified for the kind of brute-force assault jobs that Brice usually engaged in. How Kingslayer came to leave Brice's ownership and enter the Solaris VII arenas is unclear, yet here it is. Kingslayer is built around a simple yet effective 300-rated fusion engine and carries twin LB-20X Autocannons for primary firepower. For backup weaponry it carries a trio of centerline ER Medium Lasers and 20 back mounted rocket launcher tubes. Four tons of CASE II protected ammo is more than enough for the arenas while 13 DHS and an advanced heat bank keep it all chilly.",
+		"Icon": "uixTxrIcon_xanthos"
+	},
+	"MovementCapDefID": "movedef_atlas_AS7-D",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_cuxanthos",
+	"PrefabIdentifier": "chrprfmech_cuxanthosbase-001",
+	"PrefabBase": "cuxanthos",
+	"Tonnage": 100,
+	"InitialTonnage": 10,
+	"weightClass": "ASSAULT",
+	"BattleValue": 10581000,
+	"Heatsinks": 0,
+	"TopSpeed": 60,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 110,
+	"MeleeInstability": 55,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 110,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 110,
+	"DFAInstability": 55,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 19,
+			"MaxArmor": 320,
+			"MaxRearArmor": 160,
+			"InternalStructure": 160
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 14,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 210,
+			"MaxRearArmor": -1,
+			"InternalStructure": 105
+		}
+	],
+	"LOSSourcePositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		}
+		],
+	"LOSTargetPositions": [
+		{
+		  "x": 0,
+		  "y": 15,
+		  "z": 1
+		},
+		{
+		  "x": 4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": -4,
+		  "y": 14,
+		  "z": 0
+		},
+		{
+		  "x": 2.5,
+		  "y": 5,
+		  "z": 1
+		},
+		{
+		  "x": -2.5,
+		  "y": 5,
+		  "z": 1
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Gyro_Quad",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"IsFixed": true,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "XNT-KS",
+	"ChassisTags": {
+		"items": [
+			"HeroMech",
+			"QuadMech",
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Piloted by a freelance mercenary named Lena Brice, Kingslayer is a Xanthos that has been modified for the kind of brute-force assault jobs that Brice usually engaged in. How Kingslayer came to leave Brice's ownership and enter the Solaris VII arenas is unclear, yet here it is. Kingslayer is built around a simple yet effective 300-rated fusion engine and carries twin LB-20X Autocannons for primary firepower. For backup weaponry it carries a trio of centerline ER Medium Lasers and 20 back mounted rocket launcher tubes. Four tons of CASE II protected ammo is more than enough for the arenas while 13 DHS and an advanced heat bank keep it all chilly."
+}
