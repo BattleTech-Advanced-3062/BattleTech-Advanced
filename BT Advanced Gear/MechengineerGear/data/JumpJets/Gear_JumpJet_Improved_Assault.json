@@ -6,14 +6,14 @@
 			}
 		],
 		"BonusDescriptions": [
-				"JumpCapacity: 1.25",
+				"JumpCapacity: 1.1",
 				"JumpHeat: 1.75",
 				"MinWeightJJ: 90",
 				"MaxWeightJJ: 100",
 				"MaxCountJJ: 1.6"
 			]
 	},
-	"JumpCapacity": 1.25,
+	"JumpCapacity": 1.1,
 	"MinTonnage": 90,
 	"MaxTonnage": 100,
 	"Description": {

@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "The {TEAM_EMP.FactionDef.Demonym}'s manufacturing facility on {TGT_SYSTEM.name} is being challenged by {TEAM_TAR.FactionDef.Demonym}'s forces as they alledge it is a cover for military personnel and units. Diplomatic efforts have failed and a military strike is on their way as we speak. The site will be abandoned but all perosnnel must evacuate safely. Your mission is to ensure their secure extraction.",
+    "shortDescription": "The {TEAM_EMP.FactionDef.Demonym}'s manufacturing facility on {TGT_SYSTEM.name} is being challenged by {TEAM_TAR.FactionDef.Demonym}'s forces as they alledge it is a cover for military personnel and units. Diplomatic efforts have failed and a military strike is on their way as we speak. The site will be abandoned but all personnel must evacuate safely. Your mission is to ensure their secure extraction.",
     "longDescription": "This is just a normal day of political and military maneuvering in the Inner Sphere, meaning it's a good payday for us.",
     "salvagePotential": 18,
     "requirementList": [
