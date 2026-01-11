@@ -24,7 +24,7 @@
 	],
 	"AmmoCategory": "RAC5",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 13,
+	"HeatGenerated": 14,
 	"Damage": 40,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
@@ -82,7 +82,7 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 1,
 			"RefireModifier": 1,
-			"HeatGenerated": 10
+			"HeatGenerated": 14
 		},
 		{
 			"Id": "x3",
@@ -90,7 +90,7 @@
 			"isBaseMode": true,
 			"ShotsWhenFired": 2,
 			"RefireModifier": 1,
-			"HeatGenerated": 20
+			"HeatGenerated": 28
 		},
 		{
 			"Id": "x4",
@@ -99,7 +99,7 @@
 			"ShotsWhenFired": 3,
 			"RefireModifier": 2,
 			"FlatJammingChance": 0.1,
-			"HeatGenerated": 30
+			"HeatGenerated": 42
 		},
 		{
 			"Id": "x5",
@@ -108,7 +108,7 @@
 			"ShotsWhenFired": 4,
 			"RefireModifier": 2,
 			"FlatJammingChance": 0.2,
-			"HeatGenerated": 40
+			"HeatGenerated": 56
 		},
 		{
 			"Id": "x6",
@@ -117,7 +117,7 @@
 			"ShotsWhenFired": 5,
 			"RefireModifier": 3,
 			"FlatJammingChance": 0.3,
-			"HeatGenerated": 50
+			"HeatGenerated": 70
 		}
 	],
 	"statusEffects": [],
