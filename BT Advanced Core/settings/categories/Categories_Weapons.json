@@ -79,8 +79,8 @@
 			}
 		},
 		{
-			"Name": "w/a/a/rifle",
-			"DisplayName": "Rifle",
+			"Name": "w/a/a/peripheryac",
+			"DisplayName": "Periphery AutoCannon",
 			"DefaultCustoms": {
 				"Sorter": 995,
 				"InventorySorter": "95"
@@ -135,7 +135,7 @@
 			}
 		},
 		{
-			"Name": "w/a/g/sb",
+			"Name": "w/a/g/silverbullet",
 			"DisplayName": "Silver Bullet Gauss",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -491,6 +491,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "700"
+			}
+		},
+		{
+			"Name": "w/a/o/artillerycannon",
+			"DisplayName": "Tube Artillery Cannon",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "701"
 			}
 		},
 		{
