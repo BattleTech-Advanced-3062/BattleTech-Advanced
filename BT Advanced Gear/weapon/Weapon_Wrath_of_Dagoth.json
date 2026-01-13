@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "Cockpit"
+			},
+			{
+				"CategoryID": "w/s/su/superweapon"
 			}
 		],
 		"BonusDescriptions": [

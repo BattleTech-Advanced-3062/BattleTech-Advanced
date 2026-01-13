@@ -103,6 +103,14 @@
 			}
 		},
 		{
+			"Name": "w/a/a/pac",
+			"DisplayName": "ProtoMech AutoCannon",
+			"DefaultCustoms": {
+				"Sorter": 995,
+				"InventorySorter": "98"
+			}
+		},
+		{
 			"Name": "w/a/o/bombard",
 			"DisplayName": "Bombard Cannon",
 			"DefaultCustoms": {
@@ -398,7 +406,7 @@
 			}
 		},
 		{
-			"Name": "w/s/t/narc",
+			"Name": "w/m/s/narc",
 			"DisplayName": "NARC",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -454,6 +462,14 @@
 			}
 		},
 		{
+			"Name": "w/m/l/gyrojet",
+			"DisplayName": "Gyrojet",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "616"
+			}
+		},
+		{
 			"Name": "w/m/t/vrm",
 			"DisplayName": "Variable-Range Missiles",
 			"DefaultCustoms": {
@@ -499,6 +515,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "701"
+			}
+		},
+		{
+			"Name": "w/a/o/howitzer",
+			"DisplayName": "Howitzer",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "702"
 			}
 		},
 		{
@@ -579,6 +603,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "835"
+			}
+		},
+		{
+			"Name": "w/s/l/binary",
+			"DisplayName": "Small Binary Laser",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "836"
 			}
 		},
 		{
@@ -714,6 +746,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "1100"
+			}
+		},
+		{
+			"Name": "w/m/t/cruisemissile",
+			"DisplayName": "Cruise Missile",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "1105"
 			}
 		},
 		{
