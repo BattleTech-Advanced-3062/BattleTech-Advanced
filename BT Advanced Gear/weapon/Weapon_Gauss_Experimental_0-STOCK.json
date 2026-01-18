@@ -45,7 +45,7 @@
 	"AmmoCategory": "SUGAUSS",
 	"StartingAmmoCapacity": 0,
 	"HeatGenerated": 30,
-	"Damage": 150,
+	"Damage": 120,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 1,

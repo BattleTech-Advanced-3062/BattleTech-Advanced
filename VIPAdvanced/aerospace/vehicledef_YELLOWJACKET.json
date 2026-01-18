@@ -8,9 +8,10 @@
             "unit_lance_support",
             "unit_advanced",
             "unit_bracket_med",
-            "unit_controllableTank",
-			  "NoBiome_lunarVacuum",
-			  "NoBiome_martianVacuum",
+			"unit_noncontrollableTank",
+			"NOSALVAGE",
+			"NoBiome_lunarVacuum",
+			"NoBiome_martianVacuum",
             "unit_noconvoy"
         ],
         "tagSetSourceFile": ""

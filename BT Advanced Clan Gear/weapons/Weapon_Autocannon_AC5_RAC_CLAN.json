@@ -1,0 +1,135 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/rac"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 3",
+			"WeaponJAMMultiple3Stage: 10%, 20%, 30%",
+			"VariableBurstCount: 6",
+			"WeaponAttachmentCompatible: Autocannon FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "RAC5",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 14,
+	"Damage": 40,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 3,
+	"Instability": 8,
+	"FireTerrainChance": 0,
+	"DisableClustering": false,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+	"AlternateDamageCalc": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
+	"Description": {
+		"Cost": 551000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "CLAN",
+		"Model": "RAC5",
+		"UIName": "Rotary AC/5 (C)",
+		"Id": "Weapon_Autocannon_AC5_RAC_CLAN",
+		"Name": "RAC/5 (C)",
+		"Details": "The Rotary Autocannon/5 is an attempt to make a revolver autocannon. It can spin off up to 6 shots in one burst, though it risks jamming and being worthless for a time in doing so. Still, it can produce incredible damage in short bursts. This is the Clan take on the concept, which is very similar to the Inner Sphere version with minor statistical differences, despite the superior material science of the Clans. \n\n <b><color=#ffcc00>Uses RAC5 Ammo.</color></b> \n\n <b><color=#00ffff>Left Click on Ammocount/Damage value during battle to switch firing mode</color> </b>",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "AC5",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 10,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 14
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": true,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 1,
+			"HeatGenerated": 28
+		},
+		{
+			"Id": "x4",
+			"UIName": "x4",
+			"isBaseMode": false,
+			"ShotsWhenFired": 3,
+			"RefireModifier": 2,
+			"FlatJammingChance": 0.1,
+			"HeatGenerated": 42
+		},
+		{
+			"Id": "x5",
+			"UIName": "x5",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"RefireModifier": 2,
+			"FlatJammingChance": 0.2,
+			"HeatGenerated": 56
+		},
+		{
+			"Id": "x6",
+			"UIName": "x6",
+			"isBaseMode": false,
+			"ShotsWhenFired": 5,
+			"RefireModifier": 3,
+			"FlatJammingChance": 0.3,
+			"HeatGenerated": 70
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"OmniRestriction.{location}",
+			"component_type_stock",
+			"component_type_lostech",
+			"range_very-long",
+			"AutocannonFCSSupported-Rotary",
+			"WebbTCSupported-RotaryAC"
+		],
+		"tagSetSourceFile": ""
+	}
+}

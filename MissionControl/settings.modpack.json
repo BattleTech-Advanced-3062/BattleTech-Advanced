@@ -67,7 +67,10 @@
 			"Tyrlon_Attack",
 			"AmbushConvoy",
 			"AttackDefend",
-			"BattleRoyaleV2"
+			"BattleRoyaleV2",
+			"DefenceInDepth",
+			"WarzoneV2",
+			"OrganizedRetreat"
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",

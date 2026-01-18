@@ -25,7 +25,7 @@
 						"w/a/a/rac",
 						"w/a/a/uac",
 						"w/a/a/lbx",
-						"w/a/a/rifle",
+						"w/a/a/peripheryac",
 						"w/a/a/mg",
 						"w/a/a/gatling",
 						"w/a/a/taser",
@@ -48,7 +48,7 @@
 						"w/a/g/gaussrifle",
 						"w/a/g/lgaussrifle",
 						"w/a/g/hgaussrifle",
-						"w/a/g/sb",
+						"w/a/g/silverbullet",
 						"w/a/g/hag",
 						"w/a/g/massdriver",
 						"w/a/g/railgun"
@@ -85,6 +85,7 @@
 					"Categories": [
 						"w/m/t/arrowiv",
 						"w/a/o/artillery",
+						"w/a/o/artillerycannon",
 						"w/m/t/cruisemissile",
 						"w/a/o/howitzer",
 						"w/m/t/sirocco"

@@ -1,5 +1,10 @@
 {
 	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
 		"BonusDescriptions": [
 			"TaserStrength: 75%",
 			"WpnCooldown: 2"
