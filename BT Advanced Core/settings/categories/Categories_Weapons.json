@@ -246,7 +246,7 @@
 			}
 		},
 		{
-			"Name": "w/e/l/llance",
+			"Name": "w/e/l/lance",
 			"DisplayName": "Lance",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -651,6 +651,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "860"
+			}
+		},
+		{
+			"Name": "w/a/a/mg",
+			"DisplayName": "Heavy Machine Gun",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "861"
 			}
 		},
 		{

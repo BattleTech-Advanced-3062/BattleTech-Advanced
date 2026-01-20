@@ -1,5 +1,10 @@
 {
 	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/l/elec"
+			}
+		],
 		"BonusDescriptions": [
 			"WpnAccuracy: +2",
 			"TaserStrength: 75%",
