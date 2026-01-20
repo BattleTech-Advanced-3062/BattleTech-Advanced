@@ -118,8 +118,7 @@
 			"AssignedRearArmor": -1
 		}
 	],
-	"inventory": [
-		,
+	"inventory": 
 		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_shoulder",
