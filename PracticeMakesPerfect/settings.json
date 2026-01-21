@@ -1504,7 +1504,7 @@
 			"MissionSpecName": "Capture Base: Turrets Syndrome",
 			"missionsRequired": 12,
 			"contractTypeID": "CaptureBase",
-			"description": "This pilot deals 10% extra damage to turrets.",
+			"description": "This pilot deals 20% extra damage to turrets.",
 			"AdvTargetInfoUnits": [
 				"Turret"
 			],
@@ -1520,7 +1520,7 @@
 					"Description": {
 						"Id": "CB_TS_DMG_Passive",
 						"Name": "Turret Damage Increased",
-						"Details": "This pilot deals 10% extra damage to turrets.",
+						"Details": "This pilot deals 20% extra damage to turrets.",
 						"Icon": "turret"
 					},
 					"nature": "Buff",
@@ -1547,14 +1547,14 @@
 					"Description": {
 						"Id": "CB_TS_DMG",
 						"Name": "Turret Damage Increased",
-						"Details": "This pilot deals 10% extra damage to turrets.",
+						"Details": "This pilot deals 20% extra damage to turrets.",
 						"Icon": "turret"
 					},
 					"nature": "Buff",
 					"statisticData": {
 						"statName": "DamagePerShot",
 						"operation": "Float_Multiply",
-						"modValue": "1.1",
+						"modValue": "1.2",
 						"modType": "System.Single",
 						"additionalRules": "NotSet",
 						"targetCollection": "Weapon",
@@ -2040,6 +2040,260 @@
 			"description": "They didn't used to pay us enough for this. Well... now they do.",
 			"cashMult": 0.75,
 			"effectDataJO": []
+		},
+		{
+			"MissionSpecID": "BR_Chaos",
+			"MissionSpecName": "Battle Royale: King of Chaos",
+			"missionsRequired": 12,
+			"contractTypeID": "BattleRoyaleV2",
+			"description": "Other forces in Battle Royales deal 10% increased damage to each other.",
+			"AdvTargetInfoUnits": [
+				"NotPlayer"
+			],
+			"effectDataJO": [
+				{
+					"durationData": {},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "3W_DMG_Passive",
+						"Name": "Battle Royale Damage",
+						"Details": "Other forces in Battle Royales deal 10% increased damage to eachother.",
+						"Icon": "chaos"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "dummyOpForStat",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					}
+				},
+				{
+					"durationData": {
+						"duration": 1,
+						"ticksOnEndOfRound": true,
+						"useActivationsOfTarget": true,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "OnWeaponFire",
+						"effectTargetType": "AllEnemies",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "3W_DMG",
+						"Name": "Damage Increased",
+						"Details": "Other forces in Battle Royales deal 10% increased damage to eachother.",
+						"Icon": "chaos"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "DamagePerShot",
+						"operation": "Float_Multiply",
+						"modValue": "1.1",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					}
+				}
+			]
+		},
+		{
+			"MissionSpecID": "WZ_Endless",
+			"MissionSpecName": "Warzone: Endless Warfare",
+			"missionsRequired": 12,
+			"contractTypeID": "WarzoneV2",
+			"description": "This pilot is a specialist in dealing with the extended conflict of a Warzone contract and gains 10% increased damage reduction and 10% damage dealt during one.",
+			"AdvTargetInfoUnits": [],
+			"effectDataJO": [
+				{
+					"durationData": {},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "WZ_DMG",
+						"Name": "Warzone: Endless Warfare",
+						"Details": "This pilot is a specialist in dealing with the extended conflict of a Warzone contract and gains 10% increased damage reduction and 10% damage dealt during one.",
+						"Icon": "lv_eye-target"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "DamagePerShot",
+						"operation": "Float_Multiply",
+						"modValue": "1.1",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					}
+				},
+				{
+					"durationData": {
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "WZ_DR",
+						"Name": "Warzone: Endless Warfare DR",
+						"Details": "This pilot is a specialist in dealing with the extended conflict of a Warzone contract and gains 10% increased damage reduction and 10% damage dealt during one.",
+						"Icon": "lv_eye-target"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Multiply",
+						"modValue": "0.9",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"MissionSpecID": "OR_Protection",
+			"MissionSpecName": "Organized Retreat: Shielding Rules",
+			"missionsRequired": 12,
+			"contractTypeID": "OrganizedRetreat",
+			"description": "This pilot is an expert at escorting other units and keeping them out of harm's way. Allied vehicles take 20% less damage.",
+			"AdvTargetInfoUnits": [
+				"Vehicle"
+			],
+			"effectDataJO": [
+				{
+					"durationData": {},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "OR_Buffer_Stat",
+						"Name": "Organized Retreat: Convoy Damage Resistance",
+						"Details": "This pilot is an expert at escorting other units and keeping them out of harm's way. Allied vehicles take 20% less damage.",
+						"Icon": "battle-tank"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "dummyOpForStat",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					}
+				},
+				{
+					"durationData": {
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "AllAllies",
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "OR_DR",
+						"Name": "Organized Retreat: Convoy Resistance",
+						"Details": "This pilot is an expert as escorting other units and keeping them out of harms way. Allied vehicles take 20% less damage.",
+						"Icon": "battle-tank"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "DamageReductionMultiplierAll",
+						"operation": "Float_Multiply",
+						"modValue": "0.8",
+						"modType": "System.Single"
+					}
+				}
+			]
+		},
+		{
+			"MissionSpecID": "DID_Wall",
+			"MissionSpecName": "Defence in Depth: Wall of Steel",
+			"missionsRequired": 12,
+			"contractTypeID": "DefenceInDepth",
+			"description": "This pilot is specialized in extended defensive operations such Defence in Depth contracts and provides an extra 15% damage reduction for buildings.",
+			"AdvTargetInfoUnits": [
+				"Building"
+			],
+			"effectDataJO": [
+				{
+					"durationData": {},
+					"targetingData": {
+						"effectTriggerType": "Passive",
+						"effectTargetType": "Creator",
+						"showInStatusPanel": true
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "DID_DR_Passive",
+						"Name": "Defence in Depth: Damage Decreased",
+						"Details": "Friendly building damage reduced by 15%.",
+						"Icon": "thick-wall"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "dummyOpForStat",
+						"operation": "Set",
+						"modValue": "true",
+						"modType": "System.Boolean"
+					}
+				},
+				{
+					"durationData": {
+						"duration": 1,
+						"ticksOnEndOfRound": true,
+						"useActivationsOfTarget": true,
+						"stackLimit": 1
+					},
+					"targetingData": {
+						"effectTriggerType": "OnWeaponFire",
+						"effectTargetType": "AllEnemies",
+						"showInStatusPanel": false
+					},
+					"effectType": "StatisticEffect",
+					"Description": {
+						"Id": "DID_DR",
+						"Name": "Defence in Depth: Damage Decreased",
+						"Details": "Friendly building damage reduced by 15%.",
+						"Icon": "thick-wall"
+					},
+					"nature": "Buff",
+					"statisticData": {
+						"statName": "DamagePerShot",
+						"operation": "Float_Multiply",
+						"modValue": "0.85",
+						"modType": "System.Single",
+						"additionalRules": "NotSet",
+						"targetCollection": "Weapon",
+						"targetWeaponCategory": "NotSet",
+						"targetWeaponType": "NotSet",
+						"targetAmmoCategory": "NotSet",
+						"targetWeaponSubType": "NotSet"
+					}
+				}
+			]
 		}
 	],
 	"OpForDefaultList": [
