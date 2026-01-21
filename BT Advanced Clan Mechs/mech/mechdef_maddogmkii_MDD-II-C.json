@@ -119,7 +119,6 @@
 		}
 	],
 	"inventory": [
-		,
 		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "emod_arm_part_shoulder",
