@@ -11,7 +11,12 @@
 			"StructureFactor": 0.25
 		},
 		"Category": {
-			"CategoryID": "Structure"
+			{
+				"CategoryID": "Structure"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 8,

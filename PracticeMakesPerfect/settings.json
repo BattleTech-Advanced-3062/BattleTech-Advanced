@@ -225,7 +225,7 @@
 		},
 		{
 			"OpForSpecID": "TC_Oppressor",
-			"OpForSpecName": "Taurian Concordat: Oppressor of Freedom",
+			"OpForSpecName": "Taurian Concordat and Calderon Protectorate: Oppressor of Freedom",
 			"killsRequired": 12,
 			"factionID": "TaurianConcordat",
 			"applyToFaction": [

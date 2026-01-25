@@ -9,7 +9,12 @@
 			"ArmorFactor": 3
 		},
 		"Category": {
-			"CategoryID": "Armor"
+			{
+				"CategoryID": "Armor"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
 		},
 		"DynamicSlots": {
 			"ReservedSlots": 8,

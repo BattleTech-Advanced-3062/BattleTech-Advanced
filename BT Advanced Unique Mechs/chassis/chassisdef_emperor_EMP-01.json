@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Merciless",
-		"Id": "chassisdef_emperor_EMP-MC",
-		"Name": "Merciless",
-		"Details": "Named after the sobriquet for an ancient Terran emperor, the Merciless is exactly that. Armed with an exceedingly simple loadout of two each Snub-Nose PPCs and Silver Bullet Gauss Rifles, the Merciless brutalizes anything it can catch, and thanks to the range on the gauss rifles, that's pretty much anything. Treat it right, or it'll show you no mercy.",
+		"UIName": "E6A-0001",
+		"Id": "chassisdef_emperor_EMP-01",
+		"Name": "E6A-0001",
+		"Details": "The Emperor is one of the earliest advanced-technology assault BattleMechs but this one is the first of its kind. The EMP-6A was introduced in 2612 and the first model ever produced, unit number -0001, sat lost and forgotten in a warehouse in the Periphery for centuries until being found by a Goliath Scorpion Seeker named Nerran. Nerran retrofitted the 'Mech and restored it to operation, driving it in many trials and battles. How it came to Solaris VII and now your hands is unknown, but here it is. E6A-0001 carries the arm-mounted Large Laser and LB-10X Autocannon of its birth but the rest of the weapons have been replaced by an Inner Sphere ER PPC and a Clan-grade Gauss Rifle. It carries 14 double heat sinks and the jump jets the Emperor is famous for.",
 		"Icon": "uixTxrIcon_emperor"
 	},
 	"MovementCapDefID": "movedef_emperor_EMP-6A",
@@ -85,7 +85,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 12,
+			"InventorySlots": 13,
 			"MaxArmor": 150,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
@@ -99,6 +99,10 @@
 				},
 				{
 					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -127,6 +131,10 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -152,7 +160,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 12,
+			"InventorySlots": 13,
 			"MaxArmor": 150,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
@@ -220,18 +228,18 @@
 			"z": 1
 		}
 	],
-	"VariantName": "EMP-MC",
+	"VariantName": "EMP-01",
 	"ChassisTags": {
 		"items": [
-			"HeroMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
-			"AssaultMech"
+			"AssaultMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Gladiator",
-	"YangsThoughts": "Named after the sobriquet for an ancient Terran emperor, the Merciless is exactly that. Armed with an exceedingly simple loadout of two each Snub-Nose PPCs and Silver Bullet Gauss Rifles, the Merciless brutalizes anything it can catch, and thanks to the range on the gauss rifles, that's pretty much anything. Treat it right, or it'll show you no mercy.",
+	"StockRole": "Nerran's Pride and Joy",
+	"YangsThoughts": "The Emperor is one of the earliest advanced-technology assault BattleMechs but this one is the first of its kind. The EMP-6A was introduced in 2612 and the first model ever produced, unit number -0001, sat lost and forgotten in a warehouse in the Periphery for centuries until being found by a Goliath Scorpion Seeker named Nerran. Nerran retrofitted the 'Mech and restored it to operation, driving it in many trials and battles. How it came to Solaris VII and now your hands is unknown, but here it is. E6A-0001 carries the arm-mounted Large Laser and LB-10X Autocannon of its birth but the rest of the weapons have been replaced by an Inner Sphere ER PPC and a Clan-grade Gauss Rifle. It carries 14 double heat sinks and the jump jets the Emperor is famous for.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
@@ -254,6 +262,26 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_Emperor_CoolingJacket",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true,
+			"TargetComponentGUID":"target_Laser_1"
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_Emperor_CoolingJacket",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true,
+			"TargetComponentGUID":"target_Laser_2"
 		}
 	],
 	"CustomParts": {
