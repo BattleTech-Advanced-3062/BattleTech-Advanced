@@ -6,12 +6,11 @@
 			}
 		],
 		"BonusDescriptions": [
-				"PPCDEBUFF: 1",
-				"PipsIgnored: 1",
-				"WpnCrits: +25%",
-				"WeaponAttachmentCompatible: PPC Capacitor",
-				"WeaponAttachmentCompatible: PPC FCS"
-			]
+			"PPCDEBUFF: 1",
+			"PipsIgnored: 1",
+			"WpnCrits: +25%",
+			"WeaponAttachmentCompatible: PPC FCS"
+		]
 	},
 	"Category": "Energy",
 	"Type": "PPC",
@@ -123,8 +122,6 @@
 		"items": [
 			"component_type_stock",
 			"range_very-long",
-			"PPCCapacitorAttachable.{location}",
-			"PPCCapacitorSupported",
 			"PPCFCSSupported-Standard",
 			"WebbTCSupported-SingleShot"
 		],
