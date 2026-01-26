@@ -1,6 +1,9 @@
 itemCollection_systemStores_MechParts_Magistracy_Light,,,
 mechdef_locust_LCT-3V,Mech,1,8
 mechdef_wasp_WSP-1W,Mech,1,7
+mechdef_ferdelance_FDL-2E,Mech,1,6
+mechdef_ferdelance_FDL-3U,Mech,1,6
+mechdef_ferdelance_FDL-6E,Mech,1,6
 mechdef_shadowhawk_SHD-5M,Mech,1,4
 mechdef_wyvern_WVE-6N,Mech,1,5
 mechdef_vindicator_VND-2MC,Mech,1,4

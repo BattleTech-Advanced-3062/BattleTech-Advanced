@@ -1,6 +1,7 @@
 BTA_PPC,,,
-Weapon_PPC_PPC_SNUBNOSE,Weapon,1,1
-Weapon_PPC_PPCER_0-STOCK,Weapon,2,2
-Weapon_PPC_PPCER_1-MagnaFirestar,Weapon,1,1
-Weapon_PPC_Heavy_0-STOCK,Weapon,2,2
-Weapon_PPC_Light_0-STOCK,Weapon,2,2
+Weapon_PPC_PPC_SNUBNOSE,Weapon,1,3
+Weapon_PPC_PPCER_0-STOCK,Weapon,2,4
+Weapon_PPC_PPCER_1-MagnaFirestar,Weapon,1,2
+Weapon_PPC_Heavy_0-STOCK,Weapon,1,3
+Weapon_PPC_Light_0-STOCK,Weapon,2,3
+Weapon_PPC_UltraLight_0-STOCK,Weapon,2,1
