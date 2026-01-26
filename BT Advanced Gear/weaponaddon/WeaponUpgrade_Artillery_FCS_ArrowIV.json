@@ -42,13 +42,6 @@
 					}
 				}
 			]
-		},
-		{
-			"Id": "Guided",
-			"UIName": "FCS Homing",
-			"Name": "FCS Homing",
-			"EvasivePipsIgnored": 1,
-			"AccuracyModifier": -2.0
 		}
 	]
 }
