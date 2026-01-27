@@ -22,12 +22,12 @@
 	"weaponCategoryID": "Artillery",
 	"Type": "Autocannon",
 	"WeaponSubType": "LRM10",
-	"MinRange": 100,
-	"MaxRange": 1440,
+	"MinRange": 90,
+	"MaxRange": 1200,
 	"RangeSplit": [
-		360,
-		720,
-		1080
+		280,
+		600,
+		1050
 	],
 	"AmmoCategory": "Thumper",
 	"StartingAmmoCapacity": 0,

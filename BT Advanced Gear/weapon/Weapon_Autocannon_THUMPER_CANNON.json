@@ -20,11 +20,11 @@
 	"Type": "Autocannon",
 	"WeaponSubType": "AC20",
 	"MinRange": 60,
-	"MaxRange": 540,
+	"MaxRange": 570,
 	"RangeSplit": [
 		120,
 		270,
-		350
+		420
 	],
 	"AmmoCategory": "ThumperCannon",
 	"StartingAmmoCapacity": 0,

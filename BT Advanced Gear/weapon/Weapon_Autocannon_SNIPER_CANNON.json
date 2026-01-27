@@ -20,11 +20,11 @@
 	"Type": "Autocannon",
 	"WeaponSubType": "AC20",
 	"MinRange": 90,
-	"MaxRange": 600,
+	"MaxRange": 660,
 	"RangeSplit": [
-		150,
-		300,
-		450
+		210,
+		360,
+		510
 	],
 	"AmmoCategory": "SniperCannon",
 	"StartingAmmoCapacity": 0,
@@ -45,7 +45,7 @@
 	"AMSImmune": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC10_Single",
 	"Description": {
-		"Cost": 1650000,
+		"Cost": 1250000,
 		"Rarity": 0,
 		"Purchasable": true,
 		"Manufacturer": "GM",

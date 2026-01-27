@@ -22,12 +22,12 @@
 	"weaponCategoryID": "Artillery",
 	"Type": "Autocannon",
 	"WeaponSubType": "LRM10",
-	"MinRange": 200,
-	"MaxRange": 1560,
+	"MinRange": 210,
+	"MaxRange": 1680,
 	"RangeSplit": [
-		360,
-		780,
-		1200
+		440,
+		760,
+		1250
 	],
 	"AmmoCategory": "LongTom",
 	"StartingAmmoCapacity": 0,

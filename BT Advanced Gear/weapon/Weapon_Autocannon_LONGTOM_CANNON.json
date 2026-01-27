@@ -20,11 +20,11 @@
 	"Type": "Autocannon",
 	"WeaponSubType": "AC20",
 	"MinRange": 120,
-	"MaxRange": 780,
+	"MaxRange": 740,
 	"RangeSplit": [
-		180,
-		390,
-		600
+		300,
+		480,
+		660
 	],
 	"AmmoCategory": "LongTomCannon",
 	"StartingAmmoCapacity": 0,
@@ -45,7 +45,7 @@
 	"AMSImmune": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC20_Single",
 	"Description": {
-		"Cost": 2100000,
+		"Cost": 1650000,
 		"Rarity": 10,
 		"Purchasable": true,
 		"Manufacturer": "Armstrong Industries",

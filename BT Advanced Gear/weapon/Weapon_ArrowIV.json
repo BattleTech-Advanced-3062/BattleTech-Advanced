@@ -22,7 +22,7 @@
 	"weaponCategoryID": "Artillery",
 	"Type": "LRM",
 	"WeaponSubType": "LRM20",
-	"MinRange": 120,
+	"MinRange": 60,
 	"MaxRange": 960,
 	"RangeSplit": [
 		240,

@@ -7,8 +7,8 @@
 		}
 	},
 	"CustomParts": {
-		"FiringArc": 360
-	},
+		"CustomParts": []
+	}
 	"Description": {
 		"Cost": 1900000,
 		"Rarity": 0,
