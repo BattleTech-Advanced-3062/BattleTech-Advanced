@@ -8,14 +8,14 @@
 		"ArmorStructureChanges": {
 			"ArmorFactor": 3
 		},
-		"Category": {
+		"Category": [
 			{
 				"CategoryID": "Armor"
 			},
 			{
 				"CategoryID": "Quirk"
 			}
-		},
+		],
 		"DynamicSlots": {
 			"ReservedSlots": 8,
 			"BackgroundColor": "GoldHalf",
