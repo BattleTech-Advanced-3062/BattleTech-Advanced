@@ -21,6 +21,7 @@
 	"OverheatedDamageMultiplier": 1.75,
 	"TrooperSquadDamageModifier": 2,
 	"DamageVariance": -10,
+	"FireTerrainChance": 1,
 	"FireDurationWithoutForest": 4,
 	"FireTerrainStrength": 20,
 	"FireTerrainCellRadius": 10,
