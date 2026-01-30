@@ -193,6 +193,14 @@
 			}
 		},
 		{
+			"Name": "a/m/s/atom",
+			"DisplayName": "Atom Smasher Ammo",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "508"
+			}
+		},
+		{
 			"Name": "a/s/t/narc",
 			"DisplayName": "NARC Beacons",
 			"DefaultCustoms": {

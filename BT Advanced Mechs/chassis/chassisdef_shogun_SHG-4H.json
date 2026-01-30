@@ -15,7 +15,7 @@
 		"UIName": "Shogun",
 		"Id": "chassisdef_shogun_SHG-4H",
 		"Name": "Shogun",
-		"Details": "After decades of struggles, Wolf's Dragoons finally managed to make a contract in the 3040s with the reborn Terran Hegemony in order to bring the Shogun back into production. After several decades of production of the original variants, the Hegemony eventually produced this, the SHG-3H. Built on a 255-rated Light Fusion Engine (supplied by the Dragoons) and equipped with both DHS and jump jets, the -3H uses a similar loadout to the standard Shogun: two LRM racks, 20s this time, and an ER PPC for ranged fire while two Medium Pulse Lasers cover the close ranges. The SHG-3H was a rapid hit and entered service both with the THAF and the Dragoons.",
+		"Details": "After decades of struggles, Wolf's Dragoons finally managed to make a contract in the 3040s with the reborn Terran Hegemony in order to bring the Shogun back into production. After several decades of production of the original variants, the Hegemony eventually produced this, the SHG-4H. Built on a 255-rated Light Fusion Engine (supplied by the Dragoons) and equipped with both DHS and jump jets, the -4H replicates the original's loadout using an ER PPC and four MML racks, two 9-tube and two 7-tube. Seven total tons of CASE protected ammunition keeps the mech well protected. The SHG-4H was a rapid hit and entered service both with the THAF and the Dragoons.",
 		"Icon": "uixTxrIcon_shogun"
 	},
 	"MovementCapDefID": "movedef_stalker_STK-3F",

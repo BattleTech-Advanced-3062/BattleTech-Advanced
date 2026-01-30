@@ -1,0 +1,14 @@
+{
+    "Name": "FactoryUI",
+    "Enabled": true,
+    "Version": "1.1.0",
+    "Description": "Adds Custom Info Panel, Factory Production UI panels, and Factory Shop tab to the star system view",
+    "Author": "GNWars Team",
+    "Website": "",
+    "Contact": "",
+    "DLL": "FactoryUI.dll",
+    "DLLEntryPoint": "FactoryUI.FactoryUI.Init",
+    "DependsOn": ["CustomShops", "DynamicShops"],
+    "ConflictsWith": [],
+    "Settings": {}
+}

@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "{TGT_SYSTEM.Name} is under attack --- invaders are here to take everything.  The {TEAM_EMP.FactionDef.Demonym} forces are holding but starting to break.  We need every able hand on the frontline now.  Any help you can offer will mean the world to us.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
 	"longDescription": "Front lines, Commander --- and there's serious cash on the table for taking these guys down.  Just remember: don't get dead before you collect.",
-	"salvagePotential": 30,
+	"salvagePotential": 24,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",

@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "Fierce fighting has erupted in {TGT_SYSTEM.Name}, and our defenses won't hold without immediate support.  We're contracting anyone who can get boots on the ground now.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
 	"longDescription": "Someone's in serious trouble --- and they need our help now.",
-	"salvagePotential": 30,
+	"salvagePotential": 24,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",

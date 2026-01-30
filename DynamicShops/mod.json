@@ -100,10 +100,6 @@
 			"Path": "data"
 		},
 		{
-			"Type": "ItemCollectionDef",
-			"Path": "factories"
-		},
-		{
 			"Type": "DShopDef",
 			"Path": "sshops"
 		},

@@ -8,6 +8,7 @@ BTA_Ammo_Rare,Reference,4,4
 BTA_Upgrades_Solaris,Reference,3,2
 BTA_JumpJetsSpecial,Reference,4,2
 BTA_XPulseLaser,Reference,2,2
+BTA_PPC,Reference,2,2
 BTA_List_Solaris_Mechs,Reference,8,2
 Gear_Contract_Mech_Bombard_SolarisVII,Upgrade,0,1
 Gear_Contract_Mech_Juggernaut_SolarisVII,Upgrade,0,1

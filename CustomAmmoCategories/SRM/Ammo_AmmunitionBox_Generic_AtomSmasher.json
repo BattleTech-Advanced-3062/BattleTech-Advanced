@@ -2,10 +2,7 @@
 	"Custom": {
 		"Category": [
 			{
-				"CategoryID": "a/m/s/srm"
-			},
-			{
-				"CategoryID": "NoArtemisSRM"
+				"CategoryID": "a/m/s/atom"
 			}
 		],
 		"Flags": [

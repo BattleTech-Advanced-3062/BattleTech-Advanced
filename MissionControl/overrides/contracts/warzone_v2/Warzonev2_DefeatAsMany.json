@@ -13,7 +13,7 @@
 	"goodFaithStatementOverride": null,
 	"shortDescription": "{TEAM_TAR.FactionDef.Name} have been pushing into this region, so there are big bounties out on them. Take out as many as you can --- the more you drop, the bigger your payout.\n\n <b><color=#e51717>Warzones can be extremely long, come prepared for extended combat!</color></b>",
 	"longDescription": "This is a straight-up brawl and we're on our own for this one. Stay frosty, Commander.",
-	"salvagePotential": 30,
+	"salvagePotential": 24,
 	"requirementList": [
 		{
 			"Scope": "StarSystem",
