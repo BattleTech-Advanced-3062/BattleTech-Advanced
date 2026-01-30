@@ -42,7 +42,8 @@
 			"SuperHeavyMech",
 			"mr-resize-1.1-1.1-1.1",
 			"ArmLimitLowerRight",
-			"AssaultMech"
+			"AssaultMech",
+			"HeroMech"
 		],
 		"tagSetSourceFile": ""
 	},

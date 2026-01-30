@@ -79,8 +79,8 @@
 			}
 		},
 		{
-			"Name": "w/a/a/rifle",
-			"DisplayName": "Rifle",
+			"Name": "w/a/a/peripheryac",
+			"DisplayName": "Periphery AutoCannon",
 			"DefaultCustoms": {
 				"Sorter": 995,
 				"InventorySorter": "95"
@@ -100,6 +100,14 @@
 			"DefaultCustoms": {
 				"Sorter": 995,
 				"InventorySorter": "97"
+			}
+		},
+		{
+			"Name": "w/a/a/pac",
+			"DisplayName": "ProtoMech AutoCannon",
+			"DefaultCustoms": {
+				"Sorter": 995,
+				"InventorySorter": "98"
 			}
 		},
 		{
@@ -135,7 +143,7 @@
 			}
 		},
 		{
-			"Name": "w/a/g/sb",
+			"Name": "w/a/g/silverbullet",
 			"DisplayName": "Silver Bullet Gauss",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -238,7 +246,7 @@
 			}
 		},
 		{
-			"Name": "w/e/l/llance",
+			"Name": "w/e/l/lance",
 			"DisplayName": "Lance",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -398,7 +406,7 @@
 			}
 		},
 		{
-			"Name": "w/s/t/narc",
+			"Name": "w/m/s/narc",
 			"DisplayName": "NARC",
 			"DefaultCustoms": {
 				"Sorter": 1000,
@@ -454,6 +462,14 @@
 			}
 		},
 		{
+			"Name": "w/m/l/gyrojet",
+			"DisplayName": "Gyrojet",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "616"
+			}
+		},
+		{
 			"Name": "w/m/t/vrm",
 			"DisplayName": "Variable-Range Missiles",
 			"DefaultCustoms": {
@@ -491,6 +507,22 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "700"
+			}
+		},
+		{
+			"Name": "w/a/o/artillerycannon",
+			"DisplayName": "Tube Artillery Cannon",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "701"
+			}
+		},
+		{
+			"Name": "w/a/o/howitzer",
+			"DisplayName": "Howitzer",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "702"
 			}
 		},
 		{
@@ -574,6 +606,14 @@
 			}
 		},
 		{
+			"Name": "w/s/l/binary",
+			"DisplayName": "Small Binary Laser",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "836"
+			}
+		},
+		{
 			"Name": "w/e/p/flamer",
 			"DisplayName": "Flamer",
 			"DefaultCustoms": {
@@ -611,6 +651,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "860"
+			}
+		},
+		{
+			"Name": "w/a/a/mg",
+			"DisplayName": "Heavy Machine Gun",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "861"
 			}
 		},
 		{
@@ -706,6 +754,14 @@
 			"DefaultCustoms": {
 				"Sorter": 1000,
 				"InventorySorter": "1100"
+			}
+		},
+		{
+			"Name": "w/m/t/cruisemissile",
+			"DisplayName": "Cruise Missile",
+			"DefaultCustoms": {
+				"Sorter": 1000,
+				"InventorySorter": "1105"
 			}
 		},
 		{

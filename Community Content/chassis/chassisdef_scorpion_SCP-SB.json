@@ -1,29 +1,29 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-      "PrefabID": "Scorpion",
-      "Exclude": false,
-      "Include": true
-    },
-     "ChassisDefaults": []
+			"PrefabID": "Scorpion",
+			"Exclude": false,
+			"Include": true
+		},
+		"ChassisDefaults": []
 	},
 	"CustomParts": {
 		"MeleeWeaponOverride": {
-		  "DefaultWeapon": "Weapon_MeleeAttackEx"
+			"DefaultWeapon": "Weapon_MeleeAttackEx"
 		},
 		"FiringArc": 360,
 		"Unaffected": {
-		  "DesignMasks": "false",
-		  "Pathing": "false",
-		  "Fire": "false",
-		  "Landmines": "false"
+			"DesignMasks": "false",
+			"Pathing": "false",
+			"Fire": "false",
+			"Landmines": "false"
 		},
 		"ArmsCountedAsLegs": true,
 		"MoveCostModPerBiome": {
-		  "DesignMaskBiomeMartianVacuum": 1.0,
-		  "DesignMaskBiomeLunarVacuum": 1.0
+			"DesignMaskBiomeMartianVacuum": 1.0,
+			"DesignMaskBiomeLunarVacuum": 1.0
 		}
-    },
+	},
 	"Description": {
 		"Cost": 5200000,
 		"Rarity": 1,
@@ -218,7 +218,8 @@
 	"VariantName": "SCP-SB",
 	"ChassisTags": {
 		"items": [
-			"QuadMech"
+			"QuadMech",
+			"MediumMech"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -10,9 +10,14 @@
 		"Weights": {
 			"StructureFactor": 0.25
 		},
-		"Category": {
-			"CategoryID": "Structure"
-		},
+		"Category": [
+			{
+				"CategoryID": "Structure"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
 		"DynamicSlots": {
 			"ReservedSlots": 8,
 			"BackgroundColor": "OrangeHalf",

@@ -191,5 +191,12 @@
 			"tag": "planet_name_tongatapu"
 		},
 		"items": "BTA_List_Tongatapu"
+	},
+	{
+		"name": "Regulus",
+		"conditions": {
+			"tag": "planet_name_regulus"
+		},
+		"items": "BTA_List_Regulus"
 	}
 ]
