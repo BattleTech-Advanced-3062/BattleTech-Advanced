@@ -24,7 +24,7 @@
 	],
 	"AmmoCategory": "RAC5",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 14,
+	"HeatGenerated": 13,
 	"Damage": 40,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
@@ -40,11 +40,8 @@
 	"ProjectilesPerShot": 1,
 	"AttackRecoil": 3,
 	"Instability": 8,
-	"FireTerrainChance": 0,
-	"DisableClustering": false,
-	"ImprovedBallistic": true,
-	"BallisticDamagePerPallet": true,
-	"AlternateDamageCalc": true,
+	"FireDelayMultiplier": 1,
+	"ProjectileSpeedMultiplier": 2.5,
 	"WeaponEffectID": "WeaponEffect-Weapon_AC5",
 	"Description": {
 		"Cost": 551000,
@@ -82,7 +79,7 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 1,
 			"RefireModifier": 1,
-			"HeatGenerated": 14
+			"HeatGenerated": 13
 		},
 		{
 			"Id": "x3",
@@ -90,7 +87,7 @@
 			"isBaseMode": true,
 			"ShotsWhenFired": 2,
 			"RefireModifier": 1,
-			"HeatGenerated": 28
+			"HeatGenerated": 26
 		},
 		{
 			"Id": "x4",
@@ -99,7 +96,7 @@
 			"ShotsWhenFired": 3,
 			"RefireModifier": 2,
 			"FlatJammingChance": 0.1,
-			"HeatGenerated": 42
+			"HeatGenerated": 39
 		},
 		{
 			"Id": "x5",
@@ -108,7 +105,7 @@
 			"ShotsWhenFired": 4,
 			"RefireModifier": 2,
 			"FlatJammingChance": 0.2,
-			"HeatGenerated": 56
+			"HeatGenerated": 52
 		},
 		{
 			"Id": "x6",
@@ -117,7 +114,7 @@
 			"ShotsWhenFired": 5,
 			"RefireModifier": 3,
 			"FlatJammingChance": 0.3,
-			"HeatGenerated": 70
+			"HeatGenerated": 65
 		}
 	],
 	"statusEffects": [],
