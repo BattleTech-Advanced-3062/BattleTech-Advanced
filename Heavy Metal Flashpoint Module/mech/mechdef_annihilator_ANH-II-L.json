@@ -1,6 +1,7 @@
 {
 	"MechTags": {
 		"items": [
+			"unit_innerspheremech",
 			"BLACKLISTED",
 			"unit_flashpoint",
 			"unit_legal"

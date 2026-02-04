@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_heavy",
 			"unit_jump_OK",
 			"unit_lance_tank",

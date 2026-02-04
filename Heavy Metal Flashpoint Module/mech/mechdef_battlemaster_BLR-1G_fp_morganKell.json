@@ -1,6 +1,7 @@
 {
 	"MechTags": {
 		"items": [
+			"unit_innerspheremech",
 			"unit_flashpoint",
 			"NOSALVAGE",
 			"BLACKLISTED"
