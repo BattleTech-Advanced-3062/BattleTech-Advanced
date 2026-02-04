@@ -3,6 +3,7 @@
 	"MechTags": {
 		"items": [
 			"unit_flashpoint",
+			"unit_innerspheremech",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""

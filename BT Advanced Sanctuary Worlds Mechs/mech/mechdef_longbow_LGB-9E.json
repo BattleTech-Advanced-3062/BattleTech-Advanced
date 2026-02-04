@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_sanctuarymech",
 			"unit_assault",
 			"unit_indirectFire",
 			"unit_lance_assassin",

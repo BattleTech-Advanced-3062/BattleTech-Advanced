@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_sanctuarymech",
 			"unit_medium",
 			"unit_jumpOK",
 			"unit_lance_assassin",

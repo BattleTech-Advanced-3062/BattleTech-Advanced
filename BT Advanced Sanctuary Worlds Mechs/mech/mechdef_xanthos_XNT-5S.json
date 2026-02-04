@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_sanctuarymech",
 			"unit_quad",
 			"Ignore_SelfKnockdown",
 			"unit_assault",
@@ -29,7 +30,7 @@
 		"UIName": "Xanthos XNT-5S",
 		"Id": "mechdef_xanthos_XNT-5S",
 		"Name": "Xanthos",
-		"Details": "Originally developed before the Star League was founded, the Xanthos is the original QuadMech, predating even the Scorpion and Goliath. Though the Xanthos was forgotten for centuries in the Inner Sphere, the Sanctuary never forgot the design and carried it with them on their exodus. In the Sanctuary Worlds the Xanthos gained new life as an assault bruiser and spawned many variants, including the XNT-5S. The -5S a dedicated sniper with some unexpected speed thanks to its 300-rated Dense Fusion Engine. For firepower, the -5S carries a spinal mounted Gamma Cannon and each side torso carries a NPV, Medium Electro-Laser, and Twin-Linked Small Laser. 18 DHS keep it well cooled.",
+		"Details": "Originally developed before the Star League was founded, the Xanthos is the original QuadMech, predating even the Scorpion and Goliath. Though the Xanthos was forgotten for centuries in the Inner Sphere, the Sanctuary never forgot the design and carried it with them on their exodus. In the Sanctuary Worlds the Xanthos gained new life as an assault bruiser and spawned many variants, including the XNT-5S. The -5S a dedicated sniper with some unexpected speed thanks to its 300-rated Dense Fusion Engine. For firepower, the -5S carries a spinal mounted Gamma Cannon and each side torso carries a NPC, Medium Electro-Laser, and Twin-Linked Small Laser. 18 DHS keep it well cooled.",
 		"Icon": "uixTxrIcon_xanthos"
 	},
 	"simGameMechPartCost": 1300000,

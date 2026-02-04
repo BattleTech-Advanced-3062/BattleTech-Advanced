@@ -4,6 +4,7 @@
 		"items": [
 			"unit_dlc",
 			"BLACKLISTED",
+			"unit_innerspheremech",
 			"unit_medium"
 		],
 		"tagSetSourceFile": ""

@@ -3,6 +3,7 @@
 		"items": [
 			"unit_release",
 			"unit_mechtool",
+			"unit_clanmech",
 			"ai_melee_low",
 			"ai_dfa_low",
 			"NOSALVAGE",
