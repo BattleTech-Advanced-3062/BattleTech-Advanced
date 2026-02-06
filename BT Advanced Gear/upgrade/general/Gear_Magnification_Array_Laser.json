@@ -49,8 +49,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "MaxBallisticRange",
-				"Name": "Max Ballistic Range",
+				"Id": "MaxLaserRange",
+				"Name": "Max Laser Range",
 				"Details": "Increased sensors range",
 				"Icon": "uixSvgIcon_equipment_Cockpit"
 			},
