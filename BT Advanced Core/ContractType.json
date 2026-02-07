@@ -717,7 +717,7 @@
 		{
 			"ID": 52,
 			"Name": "ThreeWayBattle",
-			"FriendlyName": "Battle",
+			"FriendlyName": "3-Way Battle",
 			"Version": 0,
 			"IsSinglePlayerProcedural": true,
 			"IsStory": false,
