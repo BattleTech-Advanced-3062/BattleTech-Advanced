@@ -12,10 +12,10 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Excalibur",
-		"Id": "chassisdef_excalibur_EXC-D1",
-		"Name": "Excalibur",
-		"Details": "ComStar was not the only group to make use of the Excalibur. The Word of Blake took many with them during their schism and apparently put them through their own refit program, resulting in the EXC-D1. The -D1 is built on the same 350-rated XL engine and Endo-Steel frame as the EXC-CS but takes a very different approach to firepower. It is armed with a Rotary AC/5, Streak SRM-6, and two ER Medium Lasers, all tied into a targeting computer for maximum accuracy. A C3i unit ensures the Excalibur can link up with its forcemates easily enough and 5 jump jets give the mech unexpected maneuverability.",
+		"UIName": "Fisher King",
+		"Id": "chassisdef_excalibur_EXC-FK",
+		"Name": "Fisher King",
+		"Details": "Some call him Lucan Marshal. Some call him Syr Wulf. All know his 'Mech, the Fisher King. While the pilot is enigmatic and reserved outside of the arena, inside of it he's a terror, smashing through opponents with Fisher King's mix of high tech and Periphery equipment. In addition to Fisher King's Sword, the heavily modified Excalibur also carries a Medium Cannon (with ammo feed), a RL-20 (again with ammo feed), a MRM-10, and a Snub-Nose PPC to round it out. Fisher King's armor is Periphery-spec Light Plating and the myomer is enhanced with Prototype TSM but the design gets it done in the arenas to a backdrop of a roaring crowd, so clearly Syr Wulf/Lucan Marshal is doing something right.",
 		"Icon": "uixTxrIcon_excalibur"
 	},
 	"MovementCapDefID": "movedef_grasshopper_GHR-5H",
@@ -56,12 +56,7 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -77,10 +72,6 @@
 				},
 				{
 					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -104,6 +95,10 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
@@ -123,16 +118,7 @@
 		},
 		{
 			"Location": "RightTorso",
-			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				}
-			],
+			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 150,
@@ -148,6 +134,10 @@
 				},
 				{
 					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				},
 				{
@@ -228,15 +218,16 @@
 			"z": 0
 		}
 	],
-	"VariantName": "EXC-D1",
+	"VariantName": "EXC-FK",
 	"ChassisTags": {
 		"items": [
+			"HeroMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Star League Sniper",
-	"YangsThoughts": "ComStar was not the only group to make use of the Excalibur. The Word of Blake took many with them during their schism and apparently put them through their own refit program, resulting in the EXC-D1. The -D1 is built on the same 350-rated XL engine and Endo-Steel frame as the EXC-CS but takes a very different approach to firepower. It is armed with a Rotary AC/5, Streak SRM-6, and two ER Medium Lasers, all tied into a targeting computer for maximum accuracy. A C3i unit ensures the Excalibur can link up with its forcemates easily enough and 5 jump jets give the mech unexpected maneuverability.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Some call him Lucan Marshal. Some call him Syr Wulf. All know his 'Mech, the Fisher King. While the pilot is enigmatic and reserved outside of the arena, inside of it he's a terror, smashing through opponents with Fisher King's mix of high tech and Periphery equipment. In addition to Fisher King's Sword, the heavily modified Excalibur also carries a Medium Cannon (with ammo feed), a RL-20 (again with ammo feed), a MRM-10, and a Snub-Nose PPC to round it out. Fisher King's armor is Periphery-spec Light Plating and the myomer is enhanced with Prototype TSM but the design gets it done in the arenas to a backdrop of a roaring crowd, so clearly Syr Wulf/Lucan Marshal is doing something right.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
@@ -251,7 +242,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefID": "emod_structureslots_standard",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional",
