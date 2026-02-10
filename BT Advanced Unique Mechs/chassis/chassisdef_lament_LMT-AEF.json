@@ -1,32 +1,32 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "Excalibur",
+			"PrefabID": "Lament",
 			"Exclude": false,
 			"Include": true
 		}
 	},
 	"Description": {
-		"Cost": 7100000,
-		"Rarity": 4,
+		"Cost": 6200000,
+		"Rarity": 3,
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "Excalibur",
-		"Id": "chassisdef_excalibur_EXC-D1",
-		"Name": "Excalibur",
-		"Details": "ComStar was not the only group to make use of the Excalibur. The Word of Blake took many with them during their schism and apparently put them through their own refit program, resulting in the EXC-D1. The -D1 is built on the same 350-rated XL engine and Endo-Steel frame as the EXC-CS but takes a very different approach to firepower. It is armed with a Rotary AC/5, Streak SRM-6, and two ER Medium Lasers, all tied into a targeting computer for maximum accuracy. A C3i unit ensures the Excalibur can link up with its forcemates easily enough and 5 jump jets give the mech unexpected maneuverability.",
-		"Icon": "uixTxrIcon_excalibur"
+		"UIName": "Acta Est Fabula",
+		"Id": "chassisdef_lament_LMT-AEF",
+		"Name": "Acta Est Fabula",
+		"Details": "Owned and operated by a Canopian noble named Melie Larkell, Acta Est Fabula is a blunt instrument meant to drive for victory in the best way possible: a straight line. Larkell might have been too aggressive for the business world, the acting stage, and even for the military, but that level of raw aggression and dedication to victory served her very well in the arenas of Solaris VII where Acta Est Fabula has been quite a hit. While it is armed with twin Snub-Nose PPCs and an exotic ER Medium Laser variant, the design is truly built around charging right into opponents with a TSM-enhanced Lance in the right arm. The weapons are secondary to the Lance hits and when the Lance hits, victory isn't far behind. Given Larkell's record in the arenas, it seems she might just be onto something.",
+		"Icon": "uixTxrIcon_lament"
 	},
-	"MovementCapDefID": "movedef_grasshopper_GHR-5H",
+	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
 	"PathingCapDefID": "pathingdef_heavy",
-	"HardpointDataDefID": "hardpointdatadef_excalibur",
-	"PrefabIdentifier": "chrprfmech_excaliburbase-001",
-	"PrefabBase": "excalibur",
-	"Tonnage": 70,
-	"InitialTonnage": 7,
+	"HardpointDataDefID": "hardpointdatadef_lament",
+	"PrefabIdentifier": "chrprfmech_lamentbase-001",
+	"PrefabBase": "lament",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
 	"weightClass": "HEAVY",
-	"BattleValue": 7602000,
+	"BattleValue": 6057000,
 	"Heatsinks": 0,
 	"TopSpeed": 120,
 	"TurnRadius": 90,
@@ -46,19 +46,19 @@
 	"Signature": 0,
 	"Radius": 8,
 	"PunchesWithLeftArm": false,
-	"MeleeDamage": 80,
-	"MeleeInstability": 40,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
 	"MeleeToHitModifier": 0,
-	"DFADamage": 80,
+	"DFADamage": 75,
 	"DFAToHitModifier": 0,
-	"DFASelfDamage": 80,
-	"DFAInstability": 40,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
 	"Locations": [
 		{
 			"Location": "Head",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "AntiPersonnel",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -76,19 +76,15 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
+			"MaxArmor": 100,
 			"MaxRearArmor": -1,
-			"InternalStructure": 55
+			"InternalStructure": 50
 		},
 		{
 			"Location": "LeftTorso",
@@ -98,11 +94,11 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Energy",
 					"Omni": false
 				}
 			],
@@ -114,16 +110,25 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 220,
-			"MaxRearArmor": 110,
-			"InternalStructure": 110
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
 		},
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -143,27 +148,15 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "Ballistic",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "MeleeWeapon",
 					"Omni": false
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 14,
-			"MaxArmor": 110,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
 			"MaxRearArmor": -1,
-			"InternalStructure": 55
+			"InternalStructure": 50
 		},
 		{
 			"Location": "LeftLeg",
@@ -187,34 +180,34 @@
 	"LOSSourcePositions": [
 		{
 			"x": 0,
-			"y": 18,
-			"z": 0
+			"y": 14,
+			"z": 1
 		},
 		{
 			"x": 4,
-			"y": 17,
+			"y": 13,
 			"z": 0
 		},
 		{
 			"x": -4,
-			"y": 17,
+			"y": 13,
 			"z": 0
 		}
 	],
 	"LOSTargetPositions": [
 		{
 			"x": 0,
-			"y": 18,
-			"z": 0
+			"y": 14,
+			"z": 1
 		},
 		{
 			"x": 4,
-			"y": 17,
+			"y": 13,
 			"z": 0
 		},
 		{
 			"x": -4,
-			"y": 17,
+			"y": 13,
 			"z": 0
 		},
 		{
@@ -228,19 +221,21 @@
 			"z": 0
 		}
 	],
-	"VariantName": "EXC-D1",
+	"VariantName": "LMT-AEF",
 	"ChassisTags": {
 		"items": [
+			"ArmLimitLowerLeft",
+			"HeroMech",
 			"HeavyMech"
 		],
 		"tagSetSourceFile": ""
 	},
-	"StockRole": "Star League Sniper",
-	"YangsThoughts": "ComStar was not the only group to make use of the Excalibur. The Word of Blake took many with them during their schism and apparently put them through their own refit program, resulting in the EXC-D1. The -D1 is built on the same 350-rated XL engine and Endo-Steel frame as the EXC-CS but takes a very different approach to firepower. It is armed with a Rotary AC/5, Streak SRM-6, and two ER Medium Lasers, all tied into a targeting computer for maximum accuracy. A C3i unit ensures the Excalibur can link up with its forcemates easily enough and 5 jump jets give the mech unexpected maneuverability.",
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Owned and operated by a Canopian noble named Melie Larkell, Acta Est Fabula is a blunt instrument meant to drive for victory in the best way possible: a straight line. Larkell might have been too aggressive for the business world, the acting stage, and even for the military, but that level of raw aggression and dedication to victory served her very well in the arenas of Solaris VII where Acta Est Fabula has been quite a hit. While it is armed with twin Snub-Nose PPCs and an exotic ER Medium Laser variant, the design is truly built around charging right into opponents with a TSM-enhanced Lance in the right arm. The weapons are secondary to the Lance hits and when the Lance hits, victory isn't far behind. Given Larkell's record in the arenas, it seems she might just be onto something.",
 	"FixedEquipment": [
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Quirk_EasytoPilot_Excalibur",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_MultiTrac_Lament",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -248,15 +243,6 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_endosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -271,29 +257,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "emod_arm_part_hand",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Shield_Hand_Medium",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Excalibur_SwordShield",
+			"ComponentDefID": "Weapon_Lament_Lance",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -301,6 +265,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		}
 	],
 	"CustomParts": {
