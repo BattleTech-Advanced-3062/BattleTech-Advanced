@@ -14,9 +14,9 @@
 		},
 		"BonusDescriptions": [
 			"Haywire",
-			"ImpAccuracy: 2",
-			"ImpMove: 15%",
-			"ImpHeatSink: 20%",
+			"ImpAccuracyiNarc: 2",
+			"ImpMoveiNarc: 15%",
+			"ImpHeatSinkiNarc: 20%",
 			"iNarcPermanence",
 			"CostPerShot: 3000",
 			"AmmoCount: 5"
@@ -36,7 +36,7 @@
 		"UIName": "Ammo iNarc Haywire",
 		"Id": "Ammo_AmmunitionBox_Narc_Haywire_Improved",
 		"Name": "iNarc Haywire Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type.Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 5 shots.",
 		"Icon": "missile-pod-ammo"
 	},
 	"BonusValueA": "",
