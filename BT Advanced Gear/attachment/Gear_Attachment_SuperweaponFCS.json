@@ -5,6 +5,7 @@
 			"autoTarget": true,
 			"WeaponAddonIds": [
 				"WeaponUpgrade_Superweapon_FCS",
+				"WeaponUpgrade_Superweapon_FCS_Escatos",
 				"WeaponUpgrade_Superweapon_FCS_Rotary",
 				"WeaponUpgrade_Superweapon_FCS_VSPL",
 				"WeaponUpgrade_Superweapon_FCS_COIL"

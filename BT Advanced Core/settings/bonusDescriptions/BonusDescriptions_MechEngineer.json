@@ -1728,10 +1728,22 @@
 			"Full": "Target has {0} impaired Movement for 2 Turns"
 		},
 		{
+			"Bonus": "ImpMoveiNarc",
+			"Short": "Impair Move",
+			"Long": "Impair Movement",
+			"Full": "Target has {0} impaired Movement permanently"
+		},
+		{
 			"Bonus": "ImpAccuracy",
 			"Short": "Impair Acc",
 			"Long": "Impair Accuracy",
 			"Full": "Target has {0} impaired Accuracy for 2 Turns"
+		},
+		{
+			"Bonus": "ImpAccuracyiNarc",
+			"Short": "Impair Acc",
+			"Long": "Impair Accuracy",
+			"Full": "Target has {0} impaired Accuracy permanently"
 		},
 		{
 			"Bonus": "ImpSight",
@@ -1756,6 +1768,12 @@
 			"Short": "Impair HS",
 			"Long": "Impair Heatsinks",
 			"Full": "Target has {0} impaired Heat Sinks for 2 Turns"
+		},
+		{
+			"Bonus": "ImpHeatSinkiNarc",
+			"Short": "Impair HS",
+			"Long": "Impair Heatsinks",
+			"Full": "Target has {0} impaired Heat Sinks permanently"
 		},
 		{
 			"Bonus": "Tacticon",
