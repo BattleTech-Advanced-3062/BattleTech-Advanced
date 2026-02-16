@@ -128,7 +128,7 @@
 			"Description": {
 				"Id": "AbilityDefPPC",
 				"Name": "SENSORS IMPAIRED",
-				"Details": "2 Difficulty to all of this unit's attacks.",
+				"Details": "+2 Difficulty to all of this unit's attacks.",
 				"Icon": "uixSvgIcon_status_sensorsImpaired"
 			},
 			"nature": "Debuff",
