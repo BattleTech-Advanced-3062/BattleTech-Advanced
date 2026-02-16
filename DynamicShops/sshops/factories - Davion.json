@@ -149,5 +149,12 @@
 			"tag": "planet_name_novayazemlya"
 		},
 		"items": "BTA_List_NovayaZemlya"
+	},
+	{
+		"name": "Shawnee",
+		"conditions": {
+			"tag": "planet_name_shawnee"
+		},
+		"items": "BTA_List_Shawnee"
 	}
 ]
