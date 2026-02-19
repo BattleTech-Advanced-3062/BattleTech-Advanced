@@ -28,7 +28,7 @@
 				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 157.0, "z": 0.0 } },
 				"SpawnPointPositions": {
 					"ec9d2280-ca9a-4d90-8a20-963d8a4c0a39": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"5df48a48-1840-49b0-84e9-126847053afa": { "x": 56.0, "y": 0.0, "z": 0.0 }
+					"5df48a48-1840-49b0-84e9-126847053afa": { "x": -336.0, "y": 0.0, "z": 169.75 }
 				},
 				"SpawnPointRotations": {}, "MountOn": {}
 			}
@@ -41,7 +41,7 @@
 				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 348.0, "z": 0.0 } },
 				"SpawnPointPositions": {
 					"6cd3107e-0f9d-4809-ab8c-fb30faf4cd80": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"14c58a13-96a6-4f91-a1e5-47b5d02b81d1": { "x": -84.0, "y": 0.0, "z": -97.0 }
+					"14c58a13-96a6-4f91-a1e5-47b5d02b81d1": { "x": -112.0, "y": 0.0, "z": 242.5 }
 				},
 				"SpawnPointRotations": {}, "MountOn": {}
 			}
