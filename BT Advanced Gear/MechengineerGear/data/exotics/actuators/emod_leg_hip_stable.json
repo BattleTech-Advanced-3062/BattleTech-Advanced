@@ -4,7 +4,7 @@
 			"CategoryID": "LegHip"
 		},
 		"BonusDescriptions": [
-			"RunSpeed: +0.025"
+			"StabDamageTaken: -0.025%"
 		],
 		"Flags": [
 			"no_salvage",
