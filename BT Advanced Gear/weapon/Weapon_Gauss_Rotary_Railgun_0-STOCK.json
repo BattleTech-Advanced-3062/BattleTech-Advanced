@@ -1,0 +1,143 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 300,
+			"StabilityDamage": 40
+		},
+		"BonusDescriptions": [
+			"Knockdown",
+			"KnockdownChance: 285%",
+			"NoFireInMelee",
+			"WpnCooldown: 2",
+			"WpnAccuracy: +2",
+			"WeaponBoom: 300",
+			"LocationRestricted: Torsos Only",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		],
+		"Flags": [
+			"no_salvage"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "Gauss",
+	"WeaponSubType": "Gauss",
+	"MinRange": 120,
+	"MaxRange": 1560,
+	"RangeSplit": [
+		360,
+		780,
+		1200
+	],
+	"AmmoCategory": "SUGAUSS",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 30,
+	"Damage": 175,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": -2,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"RefireModifier": 4,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 5,
+	"Instability": 40,
+	"Cooldown": 2,
+	"IndirectFireCapable": false,
+	"ProjectileSpeedMultiplier": 3,
+	"ImprovedBallistic": true,
+	"WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+	"Description": {
+		"Cost": 5000000,
+		"Rarity": 20,
+		"Purchasable": false,
+		"Manufacturer": "Escatos",
+		"Model": "Electro-Magnetic Revolving Railgun",
+		"UIName": "Escatos Rotary Railgun",
+		"Id": "Weapon_Gauss_Rotary_Railgun_0-STOCK",
+		"Name": "Escatos Rotary Railgun",
+		"Details": "Developed for the Apocalypse SuperHeavy BattleMech by the 331st Royal BattleMech Division, the Escatos Rotary Railgun is the final word in destructive 'Mech-based weapons technology. Essentially a trio of smaller, lighter, railguns attached into a singular weapon, the Escatos is unbeliievably destructive and is about as powerful as a 'Mech-carried weapon can possibly be without being a nuclear weapon. Even then, proponents of the weapon say it gives the Davy Crockett a run for its money and they may well be correct with the level of devastation the Escatos can put out. \n\n <b><color=#ffcc00>Uses Superweapon Gauss Ammo.</color></b> \n\n <b><color=#099ff2>VOLATILE!</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "railgun",
+	"BattleValue": 0,
+	"InventorySize": 14,
+	"Tonnage": 30,
+	"AllowedLocations": "LeftTorso,RightTorso,CenterTorso",
+	"DisallowedLocations": "LeftArm,RightArm",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnWeaponFire",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "WeaponEffect-SelfknockdownCheck_OnFire",
+				"Name": "self knockdown check",
+				"Details": "self knockdown check.",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"statisticData": {
+				"statName": "SelfknockdownCheck_OnFire",
+				"operation": "Float_Add",
+				"modValue": "2.85",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": false,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": true,
+			"ShotsWhenFired": 1,
+			"HeatGenerated": 30
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 1,
+			"HeatGenerated": 60
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"WebbTCSupported-MG",
+			"SuperweaponFCSSupported-Escatos"
+		],
+		"tagSetSourceFile": ""
+	}
+}
