@@ -261,21 +261,6 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Turrets_Alpha_Base')].Children[?(@.Name == 'Spawner_Turrets_Alpha_Base')]",
-			"Action": "ObjectMerge",
-			"Value": {
-				"Position": { "Type": "World", "Value": { "x": -300.0, "y": 297.56, "z": 525.0 } },
-				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 0.0, "z": 0.0 } },
-				"SpawnPointPositions": {
-					"6826832c-83d5-4287-b349-33008dc1fac5": { "x": 0.0, "y": 0.0, "z": 0.0 },
-					"0329e03f-9d9c-4a5d-99df-ccdb6afe2bb5": { "x": 264.0, "y": 3.1, "z": -337.94 },
-					"e76ef06a-bd08-4c83-85f3-d8863acb3956": { "x": -162.0, "y": 2.06, "z": -500.76 },
-					"0044f994-2b5b-4185-a7d6-dc3f50f561ba": { "x": -50.0, "y": 0.02, "z": -209.77 }
-				},
-				"SpawnPointRotations": {}, "MountOn": {}
-			}
-		},
-		{
 			"Path": "Chunks[?(@.Name == 'Chunk_Turrets_Charlie_Base')].Children[?(@.Name == 'Spawner_Turrets_Charlie_Base')]",
 			"Action": "ObjectMerge",
 			"Value": {
@@ -319,15 +304,6 @@
 			}
 		},
 		{
-			"Path": "Chunks[?(@.Name == 'Chunk_Occupy_Alpha_Base')].Children[?(@.Name == 'Region_Occupy_Alpha_Base')]",
-			"Action": "ObjectMerge",
-			"Value": {
-				"Position": { "Type": "World", "Value": { "x": -252.0, "y": 255.35, "z": 311.76 } },
-				"Rotation": { "Type": "World", "Value": { "x": 0.0, "y": 0.0, "z": 0.0 } },
-				"Radius": 400
-			}
-		},
-		{
 			"Path": "Chunks[?(@.Name == 'Chunk_Occupy_Charlie_Base')].Children[?(@.Name == 'Region_Occupy_Charlie_Base')]",
 			"Action": "ObjectMerge",
 			"Value": {
@@ -338,13 +314,6 @@
 		},
 		{			
 			"Path": "Triggers[?(@.Name == 'Trigger_Tag_Bravo_Base')].Results[?(@.Name == 'TagBuildingsInRegion')]",
-			"Action": "ObjectMerge",
-			"Value": {
-				"NumberOfUnits": 4
-			}
-		},
-		{
-			"Path": "Triggers[?(@.Name == 'Trigger_Occupy_Tag_Alpha_Base')].Results[?(@.Name == 'TagBuildingsInRegion')]",
 			"Action": "ObjectMerge",
 			"Value": {
 				"NumberOfUnits": 4
@@ -399,9 +368,39 @@
 			]
 		},
 		{
+			"Path": "Triggers[?(@.Name == 'Trigger_Spawn_Target_Lance_05')].Results",
+			"Action": "Replace",
+			"Value": [
+    			{
+					"Name": "DONOT_Activate_Chunk_Target_Lance_05",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "99999853-b45f-4f30-85c3-3febcbdd7521",
+      				"Status": "Inactive"
+    			}
+			]
+		},
+		{
 			"Path": "Triggers[?(@.Name == 'Trigger_Defend_Alpha_Base')].Results",
 			"Action": "Replace",
 			"Value": [
+    			{
+					"Name": "Activate_Chunk_Occupy_Alpha_Base",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "a412910b-e8a7-4c5f-8f6f-4e80d4c68668",
+      				"Status": "Active"
+    			},
+    			{
+					"Name": "Activate_Chunk_Defend_Alpha_Base_01",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "99999853-b45f-4f30-85c3-3febcbdd7521",
+      				"Status": "Active"
+    			},
+    			{
+					"Name": "Activate_Chunk_Defend_Alpha_Base",
+      				"Type": "SetStatus",
+      				"EncounterGuid": "97078321-16d4-47b7-92b0-9bbc2f12e123",
+      				"Status": "Inactive"
+    			},
     			{
 					"Name": "Complete_Objective_Defend_Alpha_Base_01",
       				"Type": "CompleteObjective",
@@ -409,16 +408,16 @@
       				"CompletionType": "Succeed"
     			},
     			{
-					"Name": "Activate_Chunk_Defend_Alpha_Base",
-      				"Type": "SetStatus",
-      				"EncounterGuid": "97078321-16d4-47b7-92b0-9bbc2f12e123",
-      				"Status": "Active"
+					"Name": "Complete_Objective_Occupy_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "0ae86b4f-0444-44d2-b254-e6235dc039de",
+      				"CompletionType": "Succeed"
     			},
     			{
-					"Name": "Activate_Chunk_Target_Lance_04",
-      				"Type": "SetStatus",
-      				"EncounterGuid": "ca19cb2c-07e1-43a0-9b73-ed387ba0de5a",
-      				"Status": "Active"
+					"Name": "Complete_Objective_Defend_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "11c09aa2-9855-476e-bd60-5d621f45db9d",
+      				"CompletionType": "Succeed"
     			}
 			]
 		},
@@ -437,31 +436,6 @@
 							"Guid": "ea4ce042-3b40-4b12-af22-6ab326d12d2c",
 							"Status": "Success"
 						},
-						//This is contract-controlled, if chunk's not enabled will not meet condition
-						//{
-						//	"Guid": "c2b71e9d-6d6a-4c51-b317-79a53a556858",
-						//	"Status": "Success"
-						//},
-						////This is a 2-base map, this lance won't spawn
-						//{
-						//	"Guid": "0093c92b-8b4e-413f-ab83-e90080bdbe44",
-						//	"Status": "Success"
-						//},
-						//This is a 2-base map, this lance won't spawn
-						//{
-						//	"Guid": "7b4e9d84-4d93-43bb-a42f-1647ab66d17c",
-						//	"Status": "Success"
-						//},
-						//This is a 2-base map, this lance won't spawn
-						//{
-						//	"Guid": "5816098c-fe5e-43ad-ab68-bde0f8d0dfd1",
-						//	"Status": "Success"
-						//},
-						//This is contract-controlled, if chunk's not enabled will not meet condition
-						//{
-						//	"Guid": "8fdd88f8-98c1-45bc-a2d2-5fd12553f904",
-						//	"Status": "Success"
-						//},
 						{
 							"Guid": "7ffe7baa-aca9-458b-acb9-ef7c886e62ef",
 							"Status": "Success"
@@ -478,11 +452,6 @@
 							"Guid": "6170b182-d097-4a2d-ba8e-f25977106497",
 							"Status": "Success"
 						}
-						//This is contract-controlled, if chunk's not enabled will not meet condition
-						//{
-						//	"Guid": "0cfbd35e-a65a-46c7-ba32-48e5adcc3872",
-						//	"Status": "Success"
-						//}
 					]
     			}
 			]
