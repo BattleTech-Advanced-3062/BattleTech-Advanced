@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_heavy",
 			"unit_lance_assassin",
 			"unit_role_brawler",

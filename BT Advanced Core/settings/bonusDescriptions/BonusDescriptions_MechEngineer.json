@@ -5626,6 +5626,18 @@
 			"Short": "SCM",
 			"Long": "Super-Cooled Myomer",
 			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 2 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
-		}
+		},
+		{
+            "Bonus": "SetReservedSlotsFullBody",
+            "Short": "Reserves set slots",
+            "Long": "Reserves RA {0}, RL {1}, RT {2}, CT {3}, LT {4}, LL {5}, LA {6}",
+            "Full": "This equipment reserves {0} slots in the Right Arm, {1} in the Right Leg, {2} in the Right Torso, {3} in the Center Torso, {4} in the Left Torso, {5} in the Left Leg, and {6} in the Left Arm."
+        },
+		{
+            "Bonus": "SetReservedSlotsLegs",
+            "Short": "Reserves set slots",
+            "Long": "Reserves RL {0}, LL {1}",
+            "Full": "This equipment reserves {0} slots in the Right Leg and {1} in the Left Leg."
+        }
 	]
 }

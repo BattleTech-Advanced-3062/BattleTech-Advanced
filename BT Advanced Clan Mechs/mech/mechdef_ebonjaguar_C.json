@@ -4,6 +4,7 @@
 			"unit_release",
 			"unit_rarity_5",
 			"unit_mech",
+			"unit_clanmech",
 			"unit_heavy",
 			"unit_ready",
 			"unit_lance_support",
@@ -23,7 +24,8 @@
 			"ClanGhostBear",
 			"ClanNovaCat",
 			"ClanDiamondShark",
-			"1stSwordOfLight_unit_rarity_1",
+			"1stSwordOfLight",
+			"RTS_1stSwordOfLight_unit_rarity_-4",
 			"unit_legal",
 			"unit_bracket_med"
 		],

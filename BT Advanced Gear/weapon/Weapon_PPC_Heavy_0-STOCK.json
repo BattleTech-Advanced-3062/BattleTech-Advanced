@@ -94,7 +94,7 @@
 			"Description": {
 				"Id": "AbilityDefPPC",
 				"Name": "SENSORS IMPAIRED",
-				"Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+				"Details": "+3 Difficulty to all of this unit's attacks until its next activation.",
 				"Icon": "uixSvgIcon_status_sensorsImpaired"
 			},
 			"nature": "Debuff",

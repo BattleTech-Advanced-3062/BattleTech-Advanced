@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_medium",
 			"unit_role_scout",
 			"unit_release",

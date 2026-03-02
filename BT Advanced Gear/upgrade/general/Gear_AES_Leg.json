@@ -12,7 +12,7 @@
 			"GyroStab: 50",
 			"StabDamageTaken: -15%",
 			"NonQuad",
-			"LinkedSlots: 2",
+			"SetReservedSlotsLegs: 0, 2",
 			"WordsWords: Incompatible with MASC, TSM, or Targeting Computers"
 		],
 		"Weights": {

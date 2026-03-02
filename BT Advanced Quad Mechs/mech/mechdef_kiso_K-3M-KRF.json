@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_assault",
 			"unit_quad",
 			"Ignore_SelfKnockdown",
@@ -26,7 +27,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",

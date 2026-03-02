@@ -3,6 +3,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_quad",
 			"Ignore_SelfKnockdown",
 			"unit_assault",

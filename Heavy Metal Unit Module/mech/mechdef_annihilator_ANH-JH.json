@@ -566,6 +566,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_assault",
 			"unit_release",
 			"unit_ready",

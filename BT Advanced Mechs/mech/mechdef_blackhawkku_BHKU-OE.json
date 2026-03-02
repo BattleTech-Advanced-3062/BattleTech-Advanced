@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_heavy",
 			"unit_jump_OK",
 			"unit_lance_tank",
@@ -122,7 +123,7 @@
 		"UIName": "Black Hawk-KU BHKU-OE",
 		"Id": "mechdef_blackhawkku_BHKU-OE",
 		"Name": "Black Hawk-KU",
-		"Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart. The E configuration of the Black Hawk-KU carries a simple loadout of 12 ER Medium Laers. To help handle the heat, five more double heat sinks have been added over what is carried on the base chassis, though this is woefully inadequate for an alpha strike.",
+		"Details": "The Black Hawk-KU is an Inner Sphere version of the Clan Black Hawk OmniMech. In order to make it possible to copy the Black Hawk, the Black Hawk-KU is built ten tons heavier than its Clan counterpart. The E configuration of the Black Hawk-KU carries a simple loadout of 12 ER Medium Lasers. To help handle the heat, five more double heat sinks have been added over what is carried on the base chassis, though this is woefully inadequate for an alpha strike.",
 		"Icon": "uixTxrIcon_nova"
 	},
 	"simGameMechPartCost": 690000,

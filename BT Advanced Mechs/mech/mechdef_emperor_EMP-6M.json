@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_assault",
 			"unit_jumpOK",
 			"unit_lance_tank",
@@ -32,7 +33,7 @@
 		"UIName": "Emperor EMP-6M",
 		"Id": "mechdef_emperor_EMP-6M",
 		"Name": "Emperor",
-		"Details": "Produced by StarCorps for the Free Worlds League and the Word of Blake, the EMP-6M trades out the XL engine for a Light Fusion Engine and an Endo-Steel skeleton. With this change the -6A's arm weapons were replaced by a pair each of Light Gauss Rifles and ER Large Lasers, while the head mounted Medium Laser was upgrade to an ER Model and a third Medium Pulse Laser was added. To satisfy the WoBM's requirements, a C3i Computer was installed, while a locally produced version of triple strength myomer offsets any heat difficulties.",
+		"Details": "Produced by StarCorps for the Free Worlds League and the Word of Blake, the EMP-6M trades out the XL engine for a Light Fusion Engine and an Endo-Steel skeleton. With this change the -6A's arm weapons were replaced by a pair each of Light Gauss Rifles and ER Large Lasers, while the head mounted Medium Laser was upgraded to an ER Model and a third Medium Pulse Laser was added. To satisfy the WoBM's requirements, a C3i Computer was installed, while a locally produced version of triple strength myomer offsets any heat difficulties.",
 		"Icon": "uixTxrIcon_emperor"
 	},
 	"simGameMechPartCost": 1480000,

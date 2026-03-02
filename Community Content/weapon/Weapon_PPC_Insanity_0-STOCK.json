@@ -105,7 +105,7 @@
 			"Description": {
 				"Id": "AbilityDef-InsanityPPC",
 				"Name": "SENSORS IMPAIRED",
-				"Details": "[AMT] Difficulty to all of this unit's attacks until its next activation. Stacks up to twice on the target.",
+				"Details": "+3 Difficulty to all of this unit's attacks until its next activation. Stacks up to twice on the target.",
 				"Icon": "uixSvgIcon_status_sensorsImpaired"
 			},
 			"nature": "Debuff",

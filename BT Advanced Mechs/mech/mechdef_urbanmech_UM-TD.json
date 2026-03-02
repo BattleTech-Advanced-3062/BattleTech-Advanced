@@ -2,6 +2,8 @@
 	"MechTags": {
 		"items": [
 			"unit_bta_training_mech",
+			"unit_mech",
+			"unit_innerspheremech",
 			"NOSALVAGE"
 		],
 		"tagSetSourceFile": ""
