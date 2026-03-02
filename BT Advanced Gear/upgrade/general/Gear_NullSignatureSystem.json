@@ -44,7 +44,7 @@
 			]
 		},
 		"BonusDescriptions": [
-			"LinkedSlots: 6",
+			"SetReservedSlotsFullBody: 1, 1, 1, 0, 1, 1, 1",
 			"HeatPerTurn: 30",
 			"Defense: +3",
 			"DamageReduction: 20%"

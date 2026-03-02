@@ -3,6 +3,7 @@
 		"items": [
 			"unit_generic",
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_release",
 			"unit_rarity_2",
 			"unit_light",
@@ -15,7 +16,7 @@
 			"NewBeltPirates",
 			"TortugaFusiliers",
 			"ShenSeTian",
-	"StrychnineSlavers",
+			"StrychnineSlavers",
 			"SantandersKillers",
 			"HookwormsHighwaymen",
 			"CalderonsCommandos",

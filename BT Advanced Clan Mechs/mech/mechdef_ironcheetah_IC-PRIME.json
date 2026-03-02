@@ -2,6 +2,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_clanmech",
 			"ai_melee_low",
 			"ai_dfa_low",
 			"unit_assault",
@@ -21,7 +22,7 @@
 			"ClanGhostBear",
 			"ClanNovaCat",
 			"ClanDiamondShark",
-			"1stSwordOfLight_unit_rarity_1",
+			"RTS_1stSwordOfLight_unit_rarity_1",
 			"TheDark",
 			"unit_legal",
 			"unit_bracket_high"

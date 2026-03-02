@@ -91,6 +91,7 @@
 	"MechTags": {
 		"items": [
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_light",
 			"unit_role_ewe",
 			"unit_electronicWarfare",

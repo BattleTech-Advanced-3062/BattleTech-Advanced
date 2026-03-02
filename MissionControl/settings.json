@@ -148,7 +148,6 @@
 			},
 			{
 				"MapId": "mapGeneral_rockyCliffs_vHigh",
-				"ContractTypeName": "CaptureBase",
 				"IncreaseBoundarySizeByPercentage": 0.75
 			},
 			{
@@ -296,7 +295,7 @@
 			},
 			{
 				"MapId": "mapGeneral_powerStructure_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.75
+				"IncreaseBoundarySizeByPercentage": 0.8
 			},
 			{
 				"MapId": "mapGeneral_paupersCanyon_aWst",

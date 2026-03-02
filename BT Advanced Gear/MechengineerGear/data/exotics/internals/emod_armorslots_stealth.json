@@ -55,9 +55,9 @@
 			"EvaPips: +1",
 			"Defense: +1",
 			"Visibility: -30%",
-			"ReservedSlots: 12",
 			"HeatPerTurn: +30",
 			"ReqISECM",
+			"SetReservedSlotsFullBody: 2, 2, 2, 0, 2, 2, 2",
 			"Activatable"
 		],
 		"ActivatableComponent": {

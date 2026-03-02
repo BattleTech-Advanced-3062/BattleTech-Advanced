@@ -3,6 +3,7 @@
 		"items": [
 			"unit_generic",
 			"unit_mech",
+			"unit_innerspheremech",
 			"unit_release",
 			"unit_rarity_3",
 			"unit_light",
@@ -11,8 +12,9 @@
 			"unit_lance_vanguard",
 			"unit_role_scout",
 			"Liao",
+			"DeathCommandos",
+			"1stMcCarransArmoredCavalry",
 			"WarriorHouseImarra",
-			"6thConfederationReserveCavalry",
 			"unit_legal"
 		],
 		"tagSetSourceFile": ""

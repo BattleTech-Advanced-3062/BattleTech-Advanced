@@ -140,7 +140,8 @@
     "Illyrian": 20
   },
   "addStrengthTags": {
-    "planet_factory": 10
+    "planet_factory": 10,
+    "planet_name_terra": 40
   },
   "raidStrengthMultiplier": 0.75,
   "minReputationToHelpAttack": "DISLIKED",

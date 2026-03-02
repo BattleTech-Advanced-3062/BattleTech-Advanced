@@ -5,6 +5,7 @@
 			"unit_bug",
 			"unit_rarity_5",
 			"unit_mech",
+			"unit_clanmech",
 			"unit_light",
 			"unit_ready",
 			"unit_lance_assassin",
@@ -42,7 +43,7 @@
 		"UIName": "Locust IIC LCT-IIC-3",
 		"Id": "mechdef_locustiic_LCT-IIC-3",
 		"Name": "Locust IIC",
-		"Details": "In 2832, Clan Mongoose unleashed an upgraded version of the venerable 'Mech on the Clans, known as the Locust IIC. Designed as a fast and light reconnaissance vehicle, the Locust was also tasked with fast-strike raids and at least became a front-line unit in the Inner Sphere. Larger than the original Locust, the IIC gives MechWarriors comparable speed with more protection and terrifying offensive capabilities. The main armament consists of a Medium Pulse Laser, flanked by eight Extended Range Small Lasers, allowing the Locust to be an excellent anti-infantry BattleMech with capabilities to harass heavier BattleMechs.",
+		"Details": "In 2832, Clan Mongoose unleashed an upgraded version of the venerable 'Mech on the Clans, known as the Locust IIC. Designed as a fast and light reconnaissance vehicle, the Locust was also tasked with fast-strike raids and at least became a front-line unit in the Inner Sphere. Larger than the original Locust, the IIC gives MechWarriors comparable speed with more protection and terrifying offensive capabilities. This Clan Smoke Jaguar version is set up to sport an Extended Range Large Laser in its center torso, with a Small Pulse Laser in each arm, making this variant a quite capable infantry killer in addition to its role as a fast sniper.",
 		"Icon": "uixTxrIcon_locustiic"
 	},
 	"simGameMechPartCost": 250000,

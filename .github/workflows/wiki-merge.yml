@@ -123,7 +123,28 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
-                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/gearRenderer.py
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/weaponRenderer.py
+    armor-update:
+        needs: cloudflare-pass-enable
+        name: Post Armor Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run armor automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/armorRenderer.py
     import-game-info-to-wiki:
         needs: cloudflare-pass-enable
         name: Uploading game info to wiki
