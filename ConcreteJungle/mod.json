@@ -73,7 +73,10 @@
 				"SoloDuel_ProxyWar",
 				"c_fp_MackAttack_1_simplebattle",
 				"c_fp_MackAttack_2a_threewaybattle_testdrive",
-				"c_fp_MackAttack_2b_threewaybattle_testdrive"
+				"c_fp_MackAttack_2b_threewaybattle_testdrive",
+				"tournament_1_3wayBattle",
+				"tournament_b1_3wayBattle",
+				"tournament_a1_3wayBattle"
 			],
 			"BlacklistedFactionIds": []
 		},
