@@ -4,7 +4,7 @@
 		"DesignerVersion": "1.0",
 		"MinCompatibleMCVersion": "1.4.2",
 		"ContractTypeVersion": "0",
-		"Author": "KOS, BD, taintedloki - inspired by CWolf's custom contracts, maps"
+		"Author": "KOS, BD, taintedloki\nInspired by CWolf's custom contracts, maps"
 	},
 	"Chunks": [
 		{
@@ -1886,7 +1886,7 @@
 					"Name": "TimerCounter_Spawn_Target_Lance_08",
 					"Type": "Delay",
 					"Description": "3 rounds after Occupy Objective and Spawns Target_Lance_09",
-					"Rounds": 3, //*** Change this to Rounds for BTA
+					"Rounds": 3,
 					"Results": [
 						{
 							"Name": "Activate_Chunk_Target_Lance_08",
@@ -2003,6 +2003,38 @@
 					"Type": "Dialogue",
 					"DialogueGuid": "e8a5d081-6749-4167-98dc-05471014ed78"
 				}
+			]
+		},
+		{
+			"Name": "Trigger_Complete_Defend_Charlie_Base",
+			"TriggerOn": "OnObjectiveUpdated",
+			"Description": "Force Complete Alpha Base objectives, required for 2-base maps to avoid non-completion",
+			"Conditionals": [
+				{
+        			"Type": "ObjectiveStatusConditional",
+        			"Guid": "4f80e1f6-bc4d-4502-b4e0-a8ca8a5a3f61",
+        			"Status": "Success"
+    			}
+			],
+			"Results": [
+    			{
+					"Name": "Complete_Objective_Defend_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "11c09aa2-9855-476e-bd60-5d621f45db9d",
+      				"CompletionType": "Succeed"
+    			},
+    			{
+					"Name": "Complete_Objective_Defend_Alpha_Base_01",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "220f38d3-1da7-4e1d-8ad9-ea2260aac990",
+      				"CompletionType": "Succeed"
+    			},
+    			{
+					"Name": "Complete_Objective_Occupy_Alpha_Base",
+      				"Type": "CompleteObjective",
+      				"ObjectiveGuid": "0ae86b4f-0444-44d2-b254-e6235dc039de",
+      				"CompletionType": "Succeed"
+    			}
 			]
 		}
 	]
