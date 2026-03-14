@@ -24,7 +24,7 @@
 	"MinRange": 0,
 	"MaxRange": 120,
 	"RangeSplit": [
-		120,
+		60,
 		120,
 		120
 	],
@@ -78,9 +78,6 @@
 			"UIName": "Close",
 			"isBaseMode": false,
 			"MaxRange": -60.0,
-			"ShortRange": -60.0,
-			"MediumRange": -60.0,
-			"LongRange": -60.0,
 			"DamagePerShot": 5.0,
 			"AccuracyModifier": -1
 		},
@@ -89,19 +86,17 @@
 			"UIName": "Medium",
 			"isBaseMode": true,
 			"forbiddenRangeEnable": true,
-			"ForbiddenRange": 55
+			"ForbiddenRange": 59
 		},
 		{
 			"Id": "long",
 			"UIName": "Long",
 			"isBaseMode": false,
 			"MaxRange": 60.0,
-			"ShortRange": 60.0,
-			"MediumRange": 60.0,
-			"LongRange": 60.0,
+			"LongRange": 30.0,
 			"DamagePerShot": -5.0,
 			"forbiddenRangeEnable": true,
-			"ForbiddenRange": 115,
+			"ForbiddenRange": 119,
 			"AccuracyModifier": 1
 		}
 	],
