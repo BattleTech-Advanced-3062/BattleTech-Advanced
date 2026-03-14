@@ -15,7 +15,7 @@
 		"UIName": "Solitaire",
 		"Id": "chassisdef_solitaire_SLR-GV1-L",
 		"Name": "Solitaire",
-		"Details": "Developed by Clan Diamond Shark in the earlyt 3060s, the Solitaire is an ultra fast light BattleMech designed to showcase heavy laser technology. Built on a 250-rated XL engine and using both Endo-Steel and Ferro-Fibrous construction techniques, the Solitaire is an advanced and powerful machine. For firepower, it carries a Heavy Large Laser, two Heavy Medium Lasers, and a Heavy Small Laser. The 10 provided DHS struggle in vain to cool the weapon load, meaning pilots are advised to be light on the triggers lest they force the machine into shutdown with repeated salvos.",
+		"Details": "Developed by Clan Diamond Shark in the early 3060s, the Solitaire is an ultra fast light BattleMech designed to showcase heavy laser technology. Built on a 250-rated XL engine and using both Endo-Steel and Ferro-Fibrous construction techniques, the Solitaire is an advanced and powerful machine. For firepower, it carries a Heavy Large Laser, two Heavy Medium Lasers, and a Heavy Small Laser. The 10 provided DHS struggle in vain to cool the weapon load, meaning pilots are advised to be light on the triggers lest they force the machine into shutdown with repeated salvos.",
 		"Icon": "uixTxrIcon_solitaire"
 	},
 	"MovementCapDefID": "movedef_commando_COM-2D",
@@ -212,7 +212,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Striker",
-	"YangsThoughts": "Developed by Clan Diamond Shark in the earlyt 3060s, the Solitaire is an ultra fast light BattleMech designed to showcase heavy laser technology. Built on a 250-rated XL engine and using both Endo-Steel and Ferro-Fibrous construction techniques, the Solitaire is an advanced and powerful machine. For firepower, it carries a Heavy Large Laser, two Heavy Medium Lasers, and a Heavy Small Laser. The 10 provided DHS struggle in vain to cool the weapon load, meaning pilots are advised to be light on the triggers lest they force the machine into shutdown with repeated salvos.",
+	"YangsThoughts": "Developed by Clan Diamond Shark in the early 3060s, the Solitaire is an ultra fast light BattleMech designed to showcase heavy laser technology. Built on a 250-rated XL engine and using both Endo-Steel and Ferro-Fibrous construction techniques, the Solitaire is an advanced and powerful machine. For firepower, it carries a Heavy Large Laser, two Heavy Medium Lasers, and a Heavy Small Laser. The 10 provided DHS struggle in vain to cool the weapon load, meaning pilots are advised to be light on the triggers lest they force the machine into shutdown with repeated salvos.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
