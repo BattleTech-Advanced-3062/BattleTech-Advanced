@@ -50,7 +50,7 @@
 	"MissileVolleySize": 12,
 	"MissileVolleyIntervalMultiplier": 0.1,
 	"FireDelayMultiplier": 0.1,
-	"ProjectileSpeedMultiplier": 0.5,
+	"ProjectileSpeedMultiplier": 2.5,
 	"HitGenerator": "Cluster",
 	"WeaponEffectID": "WeaponEffect-Weapon_AC20",
 	"Description": {
