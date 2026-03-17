@@ -26,7 +26,7 @@
 	"MaxShellsDistance": 35,
 	"UnseparatedDamageMult": 0.6,
 	"DamageMultiplier": 0.25,
-	"ProjectilesPerShot": 20,
+	"ProjectilesPerShot": 19,
 	"AlwaysIndirectVisuals": true,
 	"MineField": {
 		"UIName": "FASCAM Bomb",

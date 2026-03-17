@@ -17,6 +17,6 @@
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
 	"ShotsWhenFired": 0,
-	"ProjectilesPerShot": 5,
+	"ProjectilesPerShot": 4,
 	"HitGenerator": "Cluster"
 }

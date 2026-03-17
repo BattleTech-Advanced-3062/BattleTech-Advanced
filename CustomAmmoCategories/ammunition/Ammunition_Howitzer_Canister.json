@@ -22,6 +22,6 @@
 	"MinShellsDistance": 120,
 	"MaxShellsDistance": 240,
 	"UnseparatedDamageMult": 0.5,
-	"ProjectilesPerShot": 4,
+	"ProjectilesPerShot": 3,
 	"DamagePerShot": -2.0
 }
