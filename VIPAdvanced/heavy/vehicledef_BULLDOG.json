@@ -7,7 +7,7 @@
 		"UIName": "Bulldog Battle Tank",
 		"Id": "vehicledef_BULLDOG",
 		"Name": "Bulldog Battle Tank",
-		"Details": "Slower than the Medium Tank, but possessing heavier armor and fire power, the Heavy Tank is a fearsome combatant. Carrying an array of ranged weapons, the Heavy Tank is designed to support allied units from range.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       120     30\n<b>Left</b>         100     30\n<b>Right</b>       100     30\n<b>Rear</b>        100     30\n<b>Turret</b>      100     30\n\n<b>Total</b>      520    150\n",
+		"Details": "The Bulldog Medium Tank marked Bulldog Enterprises' entry into the military hardware market. Not initially successful in a saturated market, it survived  the Succession Wars due to its low cost and easily accessible replacement parts. It features a jack-of-all-trades armament with unexceptional speed and a modest 6.5 tons of armor.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 4/6 Hex: 120/180 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       120     30\n<b>Left</b>         100     30\n<b>Right</b>       100     30\n<b>Rear</b>        100     30\n<b>Turret</b>      100     30\n\n<b>Total</b>      520    150\n",
 		"Icon": "Bulldog"
 	},
 	"ChassisID": "vehiclechassisdef_BULLDOG",
