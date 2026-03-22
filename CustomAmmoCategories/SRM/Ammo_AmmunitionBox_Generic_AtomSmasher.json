@@ -14,14 +14,14 @@
 		},
 		"BonusDescriptions": [
 			"CostPerShot: 400",
-			"AmmoCount: 60"
+			"AmmoCount: 80"
 		],
 		"AmmoCost": {
 			"PerUnitCost": 400
 		}
 	},
 	"AmmoID": "Ammunition_AtomSmasher",
-	"Capacity": 60,
+	"Capacity": 80,
 	"Description": {
 		"Cost": 40000,
 		"Rarity": 1,
@@ -31,7 +31,7 @@
 		"UIName": "Ammo Atom Smasher",
 		"Id": "Ammo_AmmunitionBox_Generic_AtomSmasher",
 		"Name": "Atom Smasher Ammo",
-		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E. Has 100 shots.",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. Upon receiving a Critical Hit, any remaining ammunition stored inside an Ammo Bin will explode dealing damage to the install location. Risk can be mitigated with the use of C.A.S.E.",
 		"Icon": "uixSvgIcon_ammoBox_Missile"
 	},
 	"BonusValueA": "",
