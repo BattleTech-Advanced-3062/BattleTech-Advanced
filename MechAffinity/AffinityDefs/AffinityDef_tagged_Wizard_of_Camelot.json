@@ -13,7 +13,7 @@
         "id": "Wizard_of_Camelot",
         "missionsRequired": 10,
         "levelName": "Wizard of Camelot",
-        "decription": "LeFay's sensor signature is reduced by 40% in her Merlin, making her less likely to take enemy fire.",
+        "decription": "LeFay's unit visibility is reduced by 40% in her Merlin, making her less likely to take enemy fire.",
         "affinities": [],
         "effectData": [
           {

@@ -346,7 +346,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
@@ -357,7 +357,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_SRM_SRM6_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
@@ -368,7 +368,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -379,7 +379,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM_half",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -390,7 +390,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "emod_case2",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
@@ -401,7 +401,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
+			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Bulk-Bank",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -434,7 +434,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Weapon_Laser_HyperLaser_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
@@ -445,7 +445,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
@@ -456,7 +456,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
+			"MountedLocation": "LeftTorso",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",

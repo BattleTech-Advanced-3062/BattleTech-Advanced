@@ -14,14 +14,14 @@
         },
         "BonusDescriptions": [
 			"CostPerShot: 30",
-			"AmmoCount: 20"
+			"AmmoCount: 32"
 		],
 		"AmmoCost": {
 			"PerUnitCost": 30
 		}
     },
     "AmmoID": "Ammunition_APM_Generic",
-    "Capacity": 20,
+    "Capacity": 32,
     "Description": {
         "Cost": 20000,
         "Rarity": 1,

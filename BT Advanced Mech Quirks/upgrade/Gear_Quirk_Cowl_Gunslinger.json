@@ -22,7 +22,7 @@
 		],
 		"BonusDescriptions": [
 				"NoBleedout",
-				"MechCowl: 15"
+				"MechCowl: 25"
 			]
 	},
 	"StatName": null,
@@ -74,7 +74,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "15",
+				"modValue": "25",
 				"modType": "System.Single"
 			}
 		},
