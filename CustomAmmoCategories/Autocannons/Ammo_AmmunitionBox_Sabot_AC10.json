@@ -15,8 +15,8 @@
 		"BonusDescriptions": [
 			"CostPerShot: 800",
 			"AmmoCount: 10",
-			"ACDamage: 6",
-			"StructureDmgMod: 4",
+			"ACDamage: +6",
+			"StructureDmgMod: +4",
 			"TEHeatgen: +100%",
 			"WpnRecoil: +1",
 			"WpnAccuracy: -1"
