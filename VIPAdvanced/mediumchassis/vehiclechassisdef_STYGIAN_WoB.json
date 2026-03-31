@@ -18,7 +18,7 @@
 		"UIName": "Stygian (WoB)",
 		"Id": "vehiclechassisdef_STYGIAN_WoB",
 		"Name": "Stygian",
-		"Details": "This variant was created by the Word of Blake in 3068. It carries an Improved C3 Computer and replaces the basic weaponry of the Stygian with two Medium Pulse Lasers and an LRM-10. It retains the high speed and low armor of the original.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       90     20\n<b>Left</b>          90     20\n<b>Right</b>        90     20\n<b>Rear</b>         90     20\n<b>Turret</b>      80     20\n\n<b>Total</b>      440    100\n",
+		"Details": "This variant was created by the Word of Blake in 3068. It carries an Improved C3 Computer and replaces the basic weaponry of the Stygian with two Medium Pulse Lasers and an LRM-10. It retains the high speed and low armor of the original.\n\n <b><color=#ffcc00>Hover: Fast on open ground and water, slow in rough terrain, not very agile, cannot move through woods.</color></b>\n\n <b><color=#ffcc00>Movement: 9/14 Hex: 270/420 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       90     20\n<b>Left</b>          90     20\n<b>Right</b>        90     20\n<b>Rear</b>         90     20\n<b>Turret</b>      80     20\n\n<b>Total</b>      440    100\n",
 		"Icon": "Stygian"
 	},
 	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",

@@ -16,7 +16,7 @@
 		"UIName": "Wienermobile",
 		"Id": "vehiclechassisdef_WIENERMOBILE",
 		"Name": "Wienermobile",
-		"Details": "It's the god damn Wienermobile! T-Bone's Terrific Tubesteaks might not be the finest taste or the most authentic cuisine but by god can they make a Wienermobile!\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       300     40\n<b>Left</b>         250     40\n<b>Right</b>       250     40\n<b>Rear</b>        200     40\n\n<b>Total</b>      1000    160\n",
+		"Details": "It's the god damn Wienermobile! T-Bone's Terrific Tubesteaks might not be the finest taste or the most authentic cuisine but by god can they make a Wienermobile!\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n <b><color=#ffcc00>Movement: 5/8 Hex: 150/240 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       300     40\n<b>Left</b>         250     40\n<b>Right</b>       250     40\n<b>Rear</b>        200     40\n\n<b>Total</b>      1000    160\n",
 		"Icon": "Wienermobile"
 	},
 	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
