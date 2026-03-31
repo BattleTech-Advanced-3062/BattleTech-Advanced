@@ -2309,7 +2309,7 @@
 				"lanceTagSet": {
 					"items": [
 						"lance_type_mech",
-						"lance_type_striker"
+						"lance_type_cavalry"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},

@@ -3,6 +3,9 @@
 		"Category": [
 			{
 				"CategoryID": "Misc"
+			},
+			{
+				"CategoryID": "MagArray"
 			}
 		],
 		"BonusDescriptions": [

@@ -1,0 +1,52 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Herne",
+		"Name": "Herne",
+		"FirstName": "Jack",
+		"LastName": "Von Selle",
+		"Callsign": "Herne",
+		"Gender": "Male",
+		"Faction": "AuriganRestoration",
+		"Age": "32",
+		"Details": "When Clan forces swept through the Lyran border during renewed hostilities, Hot Springs was targeted for its industrial output. A Trial was issued. Hot Springs a humid, mineral-rich world known for geothermal energy fields, dense mist valleys, and aristocratic spa-cities built along volcanic ridgelines. The ruling nobles controlled water rights and geothermal reactors — power in both senses of the word. The Von Selle's were minor nobles Barons. They governed a geothermal district supplying half the continent’s power. Jack grew up in marble halls warmed from beneath by the planet’s natural heat. Sword training in the morning. Tactical simulators by evening. His younger brother, Klaus, followed him everywhere. His father died defending a reactor complex. His mother surrendered the estate to prevent further civilian deaths. Klaus was taken as a bondsman by the conquering Clan warriors, deemed genetically and psychologically suitable for warrior caste indoctrination. Jack never saw him board the DropShip. He only saw the smoke trail rising into orbit as he tried to save his family's vassels. With the Clan occupation and the restructuring of noble holdings, the Von Selle name was stripped of land and title. The family wealth was absorbed. Those who remained loyal to the Clans kept influence. The Von Selles had refused and fought and declared “landless.” A former noble with no estate. However Jack still had one thing: His mech qualification. Jack earned certification on a Griffin GRF-1N, later upgrading to a battle-scarred Stormcrow salvaged through mercenary contracts — ironic, piloting a Clan-designed machine while hunting their patrol routes.\r\n\r\n Jack joined a mid-tier mercenary command operating along contested Clan occupation zones. Not for money, but for rumors. Clan sibkos. Bondsman training cadres. Genetic repositories. Every contract brings him closer to whispers of a warrior named Klaus Von Selle, now bearing a Clan surname. He does not know if his brother still remembers him. He does not know if Klaus fights willingly. He only knows one thing: If Klaus has become a Clan warrior… Herne will challenge him in a Trial. Not to kill. But to reclaim.\r\n\r\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_Herne"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "4",
+	"BonusPiloting": 0,
+	"BaseGuts": "4",
+	"BonusGuts": 0,
+	"BaseTactics": "3",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_bear01",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefRefireReduceOne",
+		"AbilityDefG5a",
+		"TraitDefSprintIncrease10",
+		"TraitDefHealthAddOne"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_cautious",
+			"pilot_mechwarrior",
+			"pilot_noble",
+			"pilot_dependable",
+			"name_Herne"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

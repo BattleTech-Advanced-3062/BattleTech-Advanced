@@ -19,7 +19,7 @@
 		],
 		"BonusDescriptions": [
 				"NoBleedout",
-				"MechCowl: 5"
+				"MechCowl: 15"
 			]
 	},
 	"StatName": null,
@@ -37,7 +37,7 @@
 		"Details": "This piece of gear represents the Uziel's inherent Cowl quirk. This gives the Uziel a bonus to head armor and prevents bleedouts.",
 		"Icon": "uixSvgIcon_equipment_Cockpit"
 	},
-	"BonusValueA": "+ 5 Head Armor",
+	"BonusValueA": "",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -71,7 +71,7 @@
 			"statisticData": {
 				"statName": "{location}.Armor",
 				"operation": "Float_Add",
-				"modValue": "5",
+				"modValue": "15",
 				"modType": "System.Single"
 			}
 		},

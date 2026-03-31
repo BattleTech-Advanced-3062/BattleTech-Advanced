@@ -13,8 +13,6 @@ Think of it as a bunch of raffle tickets in a hat. If a unit matches a tag in `m
 
 ## Dynamic tags
 
-In addition to predefined `moreCommonTags`, you can build "dynamic" tags in one of the following formats:
+In addition to predefined `moreCommonTags`, you can use tags that affect only a specific faction:
 
-- `unit_rarity_{X}` (eg `unit_rarity_3`) - Adds {X} entries to the spawn list
-- `{targetTag}_unit_rarity_{X}` (eg `ClanWolf_unit_rarity_2`) - Adds {X} entries to the spawn list if the `RequiredTags` for the slot in the lance have the {targetTag}.
-- `not_{targetTag}_unit_rarity_{X}` (eg `not_unit_heavy_unit_rarity_3`) - Adds {X} entries to the spawn list if the `RequiredTags` for the slot do *not* have the {targetTag}.
+- `RTS_{requiredTag}_unit_rarity_{X}` (eg `RTS_ClanWolf_unit_rarity_2`, `RTS_ClanJadeFalcon_unit_rarity_-2`) - Adds {X} entries to the spawn list if the `RequiredTags` for the slot in the lance have the {targetTag}.

@@ -18,7 +18,8 @@
 			"BattleRoyaleV2",
 			"OrganizedRetreat",
 			"DefenceInDepth",
-			"WarzoneV2"
+			"WarzoneV2",
+			"TheSwitch_Assassinate"
 		]
 	},
 	"HotDropProtection": {
@@ -108,7 +109,8 @@
 			"Warzone",
 			"OrganizedRetreat",
 			"DefenceInDepth",
-			"WarzoneV2"
+			"WarzoneV2",
+			"TheSwitch_Assassinate"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"
