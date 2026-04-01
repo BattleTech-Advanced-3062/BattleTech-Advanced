@@ -955,7 +955,7 @@
 		{
 			"ID": 17007,
 			"Name": "DefenceInDepth",
-			"FriendlyName": "Defend Base (Alt)",
+			"FriendlyName": "Defense in Depth",
 			"Version": 0,
 			"IsSinglePlayerProcedural": true,
 			"IsStory": false,
