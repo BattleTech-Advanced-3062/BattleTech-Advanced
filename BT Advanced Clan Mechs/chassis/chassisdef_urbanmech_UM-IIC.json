@@ -1,7 +1,7 @@
 {
 	"Custom": {
 		"AssemblyVariant": {
-			"PrefabID": "UrbanMech",
+			"PrefabID": "UrbanMechIIC",
 			"Exclude": false,
 			"Include": true
 		}
@@ -15,9 +15,9 @@
 		"Purchasable": true,
 		"Manufacturer": "",
 		"Model": "",
-		"UIName": "UrbanMech",
+		"UIName": "UrbanMech IIC",
 		"Id": "chassisdef_urbanmech_UM-IIC",
-		"Name": "UrbanMech",
+		"Name": "UrbanMech IIC",
 		"Details": "The UrbanMech IIC is a Clan IIC-style upgrade of the original UrbanMech. Around the same time as the development of the OmniMech during the Golden Century, Clan Coyote technicians reworked this venerable design and decided that the UrbanMech did not need much reworking. The UrbanMech IIC's speed and jump capability are increased by 50% over its progenitor. It is armed with an Ultra Autocannon/10 with two tons of ammunition while an ER Small Laser does backup duty. The Urbie IIC is a cheap, efficient urban combat vehicle and is fielded in small numbers by every Clan.",
 		"Icon": "uixTxrIcon_urbanmech"
 	},
