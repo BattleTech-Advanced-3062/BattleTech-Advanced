@@ -101,7 +101,11 @@
 		"SoloDuel",
 		"DuoDuel",
 		"Blackout",
-		"AttackDefend"
+		"AttackDefend",
+		"BattleRoyaleV2",
+		"WarzoneV2",
+		"OrganizedRetreat",
+		"DefenceInDepth"
 	],
 	"OpForSpecList": [
 		{
