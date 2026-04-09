@@ -307,7 +307,8 @@
 			"Blackout",
 			"SoloDuel",
 			"DuoDuel",
-			"BattleRoyale"
+			"BattleRoyale",
+			"DefenceInDepth"
 		],
 		"ConvoyMaxDistFromOther": 900,
 		"ConvoyMaxDistFromPlayer": 400,
