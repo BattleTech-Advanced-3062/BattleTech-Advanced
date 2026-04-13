@@ -953,7 +953,7 @@
 					"items": [],
 					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
-				"lanceDifficultyAdjustment": 2,
+				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": "",
 				"selectedLanceDifficulty": 0,
 				"unitSpawnPointOverrideList": [
@@ -1915,7 +1915,7 @@
 					"items": [],
 					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
-				"lanceDifficultyAdjustment": 1,
+				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": "",
 				"selectedLanceDifficulty": 0,
 				"unitSpawnPointOverrideList": [
@@ -2077,7 +2077,7 @@
 					"items": [],
 					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
-				"lanceDifficultyAdjustment": 1,
+				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": "",
 				"selectedLanceDifficulty": 0,
 				"unitSpawnPointOverrideList": [
