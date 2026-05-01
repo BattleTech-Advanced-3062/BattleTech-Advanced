@@ -1,0 +1,155 @@
+{
+    "Description": {
+        "Id": "AbilityDefKOSQuadEnjoyer",
+        "Name": "Quad Enjoyer",
+        "Details": "PASSIVE: KOS gains +2 resolve when piloting a Quad Mech.  However, pilot gets penalized with XXXX when piloting a non-quad mech.",
+        "Icon": "winchester"
+    },
+    "DisplayParams": "ShowInMWTRay",
+    "ActivationTime": "Passive",
+    "EffectData": [
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "QuadEnjoyer-AccDebuff",
+                "Name": "Quad Enjoyer (Debuff)",
+                "Details": "This mechwarrior is piloting a non-preferred mech (Quad) and is penalized.\n\t-4 Accuracy\n\t-30m walk speed\n\t-0.1 sprint multiplier\n\t-2 resolve generation",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "abilifierId": "KOSDebuff",
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "-4.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "QuadEnjoyer-WalkDebuff",
+                "Name": "Quad Enjoyer (Debuff) - Walk Spd",
+                "Details": "This mechwarrior is piloting a non-preferred mech (Quad) and is penalized.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "statisticData": {
+                "abilifierId": "KOSDebuff",
+                "statName": "WalkSpeed",
+                "operation": "Float_Add",
+                "modValue": "-30",
+                "modType": "System.Single"
+            },
+            "nature": "Debuff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "QuadEnjoyer-SprintDebuff",
+                "Name": "Quad Enjoyer (Debuff) - Sprint Spd",
+                "Details": "This mechwarrior is piloting a non-preferred mech (Quad) and is penalized.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "statisticData": {
+                "abilifierId": "KOSDebuff",
+                "statName": "CBTBE_RunMultiMod",
+                "operation": "Float_Add",
+                "modValue": "0.1",
+                "modType": "System.Single"
+            },
+            "nature": "Debuff"
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": 1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "QuadEnjoyer-ResolveGainDebuff",
+                "Name": "Quad Enjoyer (Debuff) - Resolve Gain",
+                "Details": "This mechwarrior is piloting a non-preferred mech (Quad) and is penalized.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "abilifierId": "KOSDebuff",
+                "statName": "resolveRoundBaseMod",
+                "operation": "Float_Add",
+                "modValue": "-2",
+                "modType": "System.Single"
+            }
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator",
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "QuadEnjoyer-ResolveGainBuff",
+                "Name": "Quad Enjoyer (Buff) - Resolve Gain",
+                "Details": "This mechwarrior is piloting a preferred mech (Quad) and gains +2 Resolve generation.",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "abilifierId": "KOSBuff",
+                "statName": "resolveRoundBaseMod",
+                "operation": "Float_Add",
+                "modValue": "2",
+                "modType": "System.Single"
+            }
+        }
+    ]
+}
