@@ -1,8 +1,8 @@
 {
   "Description": {
     "Id": "mech_bay_2",
-    "Name": "MECH BAY 2",
-    "Details": "Secondary MechBays"
+    "Name": "MECH HANGAR 2",
+    "Details": "Secondary Mech Hangar"
   },
   "Tags": [
     "mech_bays"
