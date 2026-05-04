@@ -33,7 +33,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "AccuracyModifier",
                 "operation": "Float_Add",
-                "modValue": "-4.0",
+                "modValue": "4.0",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "Weapon",
@@ -92,7 +92,7 @@
                 "abilifierId": "KOSDebuff",
                 "statName": "CBTBE_RunMultiMod",
                 "operation": "Float_Add",
-                "modValue": "0.1",
+                "modValue": "-0.1",
                 "modType": "System.Single"
             },
             "nature": "Debuff"
