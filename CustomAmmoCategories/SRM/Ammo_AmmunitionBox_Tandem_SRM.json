@@ -17,8 +17,8 @@
 		},
 		"BonusDescriptions": [
 				"Crits: -100%",
-				"ArmorDmgMod: -4",
-				"StructureDmgMod: +4",
+				"ArmorDmgMod: -6",
+				"StructureDmgMod: +2",
 				"CostPerShot: 100",
 				"AmmoCount: 100"
 			],
