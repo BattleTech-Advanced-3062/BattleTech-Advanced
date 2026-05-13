@@ -103,6 +103,9 @@
 		"name_scorch": [
 			"AbilityDefFrostDR"
 		],
+		"name_KOS": [
+			"AbilityDefKOSQuadEnjoyer"
+		],
 		"name_Meatbag": [
 			"AbilityDef_EmergencyVent",
 			"AbilityDef_FirstAid",
