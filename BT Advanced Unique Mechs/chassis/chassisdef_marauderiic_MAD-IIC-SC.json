@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "MarauderIIC",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 8400000,
 		"Rarity": 4,
@@ -13,9 +20,9 @@
 	},
 	"MovementCapDefID": "movedef_marauderiic340",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_marauderiic",
-	"PrefabIdentifier": "chrprfmech_marauderiicbase-001",
-	"PrefabBase": "marauderiic",
+	"HardpointDataDefID": "hardpointdatadef_marauderiic2",
+	"PrefabIdentifier": "chrprfmech_marauderiic2base-001",
+	"PrefabBase": "marauderiic2",
 	"Tonnage": 85,
 	"InitialTonnage": 8.5,
 	"weightClass": "ASSAULT",

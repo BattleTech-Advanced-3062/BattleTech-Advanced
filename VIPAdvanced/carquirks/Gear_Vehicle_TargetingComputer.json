@@ -129,7 +129,7 @@
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "CriticalChanceMultipler",
+				"statName": "CriticalChanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.15",
 				"modType": "System.Single",

@@ -5,15 +5,15 @@
 		"Purchasable": true,
 		"UIName": "",
 		"Id": "argoUpgrade_mechBay_expandedBays1",
-		"Name": "Second Set of Mech Bays",
-		"Details": "Increases the company's ability to store mechs by enabling the Mech Bay 2 tab to actually store mechs.\r\n\r\n <b><color=#e93a2d>WITHOUT THIS UPGRADE, MECH BAY 2 DOES NOT HOLD MECHS EVEN THOUGH YOU CAN LOOK AT MECH BAY 2. YOU REQUIRE THIS UPGRADE FOR MECH BAY 2 TO FUNCTION!!\r\n\r\n PLEASE READ THE FAQ ON MECH BAY 2 ON THE BTA WIKI FOR DETAILS AND LIMITATIONS.</color></b>",
+		"Name": "Second Set of Mech Hangar",
+		"Details": "Increases the company's ability to store mechs by enabling the Mech Hangar 2 tab to actually store mechs.\r\n\r\n <b><color=#e93a2d>WITHOUT THIS UPGRADE, MECH HANGAR 2 DOES NOT HOLD MECHS EVEN THOUGH YOU CAN LOOK AT MECH HANGAR 2. YOU REQUIRE THIS UPGRADE FOR MECH HANGAR 2 TO FUNCTION!!\r\n\r\n PLEASE READ THE FAQ ON MECH HANGAR 2 ON THE BTA WIKI FOR DETAILS AND LIMITATIONS.</color></b>",
 		"Icon": "uixSvgIcon_shipUpgrade_mechbay2"
 	},
 	"Illustration": "uixTxrSpot_YangWorking",
 	"Location": "UNKNOWN",
 	"shipUpgradeCategoryID": "BDDropTonnage",
 	"AssignedCastDefId": "castDef_YangDefault",
-	"AssignedCastDescription": "Turns out the Argo had a second full set of mech bays hidden this whole time, we only found it after opening the rest of the first Mech Bay! I think we can double up on our storage space for active mechs with a little elbow grease so just give the word and we'll crack open the extra bays!",
+	"AssignedCastDescription": "Turns out the Argo had a second full set of mech bays in another hangar hidden this whole time, we only found it after opening the rest of the first Mech Bay! I think we can double up on our storage space for active mechs with a little elbow grease so just give the word and we'll crack open the extra bays!",
 	"RequiredModules": {
 		"items": [
 			"argoUpgrade_mechBay3",

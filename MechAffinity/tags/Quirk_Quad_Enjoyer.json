@@ -1,0 +1,7 @@
+{
+  "Name": "Quirk_Quad_Enjoyer",
+  "Important": false,
+  "PlayerVisible": true,
+  "FriendlyName": "Quad Enjoyer",
+  "Description": "Gains gains +2 Resolve generation when piloting a preferred 'mech (Quad).\n\r\nPenalized when piloting a non-preferred 'mech (Quad):\n\t-4 Accuracy\n\t-30m walk speed\n\t-0.1 sprint multiplier\n\t-2 resolve generation"
+}
