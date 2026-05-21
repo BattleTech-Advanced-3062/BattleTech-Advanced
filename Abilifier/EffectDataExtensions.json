@@ -479,6 +479,42 @@
 			}
 		}
 	},
+	"KOSBuff": {
+		"TargetCollectionsForSearch": {
+			"Pilot": {
+				"MustMatchAll": true,
+				"TargetCollectionTagMatch": [
+					"name_KOS"
+				],
+				"TargetCollectionNotMatch": []
+			},
+			"Unit": {
+				"MustMatchAll": true,
+				"TargetCollectionTagMatch": [
+					"unit_quad"
+				],
+				"TargetCollectionNotMatch": []
+			}
+		}
+	},
+	"KOSDebuff": {
+		"TargetCollectionsForSearch": {
+			"Pilot": {
+				"MustMatchAll": true,
+				"TargetCollectionTagMatch": [
+					"name_KOS"
+				],
+				"TargetCollectionNotMatch": []
+			},
+			"Unit": {
+				"MustMatchAll": true,
+				"TargetCollectionTagMatch": [],
+				"TargetCollectionNotMatch": [
+					"unit_quad"
+				]
+			}
+		}
+	},
 	"AccMod1": {
 		"TargetCollectionsForSearch": {
 			"Component": {

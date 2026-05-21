@@ -1,0 +1,358 @@
+{
+	"Description": {
+		"Id": "bd_event_co_byeTurtrus",
+		"Name": "Family Matters",
+		"Details": "You're in your cabin one evening when there's a knock at your door. Opening it up, you find [[SCN_MW,Sam Marlow]] standing there looking a bit sheepish. \"Commander, I need your permission to leave the company for awhile. My mother is extremely ill and she's asked me to come be by her side. The docs say it's the end and I really need to be there for her. I know you need me here but I can't leave her alone. I'm going no matter what you say but wanted to ask if you'd keep a berth for me when... you know, for when it's over and I can come back.\" You can see the stress in his eyes, this has been eating at him for awhile.",
+		"Icon": "uixTxrSpot_MedBayPatient.png"
+	},
+	"Scope": "Company",
+	"Weight": 1000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": []
+		},
+		"ExclusionTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [
+		{
+			"Scope": "MechWarrior",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"name_Turtrus"
+					]
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": [
+					{
+						"obj": "Injuries",
+						"op": "Equal",
+						"val": 0,
+						"valueConstant": "0"
+					}
+				]
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Let him go with your blessing and your help.",
+				"Details": "[\u00a2100.000]",
+				"Icon": null
+			},
+			"RequirementList": [
+				{
+					"Scope": "Company",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": [
+						{
+							"obj": "Funds",
+							"op": "GreaterThan",
+							"val": 100000,
+							"valueConstant": "100000"
+						}
+					]
+				},
+				{
+					"Scope": "Company",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": []
+				}
+			],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Pay His Way",
+						"Details": "You put your hand on his shoulder. \"[[SCN_MW,{SCN_MW.Callsign}]], you're one of my pilots and that means you're part of the family here. Not only will I keep a seat open for you but I'll help cover her medical costs for you. Go, be with your mother in her time of need.\" His eyes go wide and he sputters for a moment before finding his voice again. \"Commander, I... I'll never forget this, I swear I won't. I'll be back, I promise I will be, and I'll be here as long as you'll have me.\" Turtrus might be unavailable for awhile but you know you just bought yourself a MechWarrior for life and that's worth any price.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Funds",
+									"value": "-98566",
+									"set": false,
+									"valueConstant": null
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_dependable"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_morale_low"
+								]
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_SetTimeout",
+									"value": "90",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": [
+									"pilot_morale_high"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 450
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Let him leave on his own terms.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [
+				{
+					"Scope": "Commander",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": []
+				}
+			],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "Neutral",
+						"Details": "You tell [[SCN_MW,{SCN_MW.Callsign}]] that you wish him well and that he can do what he needs to do. After all, family matters to you too and you'd probably ask something similar in his stead.\r\n\r\nThere's plenty of bunks in the barracks to boot, he'll have a seat when he's done. He thanks you and leaves the ship at the first opportunity. You don't mention it again once he's back.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_SetTimeout",
+									"value": "60",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 60
+						},
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_dependable"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_2",
+				"Name": "Deny his leave, work waits for no man's problems.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_2_0",
+						"Name": "Leaves",
+						"Details": "[[SCN_MW,{SCN_MW.Callsign}]] sets his jaw and nods. \"I understand, Commander.\" You find out in the morning that [[SCN_MW,{SCN_MW.Callsign}]] took a shuttle and left the company. You shake your head, realizing that this is for the best. If he wasn't willing to keep to his commitments in these tough moments then how could you trust him to keep his position in battle? The company will get along just fine without him.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_Fire",
+									"value": "pilot_tr_Turtrus",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": true,
+	"Tags": {
+		"tagSetSourceFile": "tags/EventTags",
+		"items": []
+	}
+}

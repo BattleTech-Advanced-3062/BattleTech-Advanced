@@ -14,10 +14,10 @@
 	"HeatGenerated": 0,
 	"AIBattleValue": 50,
 	"CriticalChanceMultiplier": 0.0000000000000000000001,
-	"DamagePerShot": -4,
+	"DamagePerShot": -6,
 	"HeatGeneratedModifier": 1,
 	"ArmorDamageModifier": 1,
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
-	"APDamage": 4
+	"APDamage": 2
 }

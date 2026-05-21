@@ -27,6 +27,7 @@
 		"ExternalBAAffectsOverallDropTonnage": true,
 		"InternalBAAffectsSlotDropTonnage": false,
 		"ExternalBAAffectsSlotDropTonnage": true,
+		"UseOriginalBAMountInterface": true,
 		"strafeTargetsFriendliesChance": 0.5,
 		"strafeNeutralBuildingsChance": 0.0,
 		"strafeSensorFactor": 5.0,

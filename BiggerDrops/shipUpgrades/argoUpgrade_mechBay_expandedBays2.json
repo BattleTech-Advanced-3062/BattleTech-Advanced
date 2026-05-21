@@ -5,8 +5,8 @@
 		"Purchasable": true,
 		"UIName": "",
 		"Id": "argoUpgrade_mechBay_expandedBays2",
-		"Name": "Third Set of Mech Bays",
-		"Details": "Increases the company's ability to store mechs by enabling the Mech Bay 3 tab to actually store mechs.\r\n\r\n <b><color=#e93a2d>WITHOUT THIS UPGRADE, MECH BAY 3 DOES NOT HOLD MECHS EVEN THOUGH YOU CAN LOOK AT MECH BAY 3. YOU REQUIRE THIS UPGRADE FOR MECH BAY 3 TO FUNCTION!!</color></b>",
+		"Name": "Third Set of Mech Hangar",
+		"Details": "Increases the company's ability to store mechs by enabling the Mech Hangar 3 tab to actually store mechs.\r\n\r\n <b><color=#e93a2d>WITHOUT THIS UPGRADE, MECH HANGAR 3 DOES NOT HOLD MECHS EVEN THOUGH YOU CAN LOOK AT MECH HANGAR 3. YOU REQUIRE THIS UPGRADE FOR MECH HANGAR 3 TO FUNCTION!!</color></b>",
 		"Icon": "uixSvgIcon_shipUpgrade_mechbay3"
 	},
 	"Illustration": "uixTxrSpot_YangWorking",
