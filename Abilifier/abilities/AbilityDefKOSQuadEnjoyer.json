@@ -2,7 +2,7 @@
     "Description": {
         "Id": "AbilityDefKOSQuadEnjoyer",
         "Name": "Quad Enjoyer",
-        "Details": "PASSIVE: KOS gains +2 resolve when piloting a Quad Mech.  However, pilot gets penalized with XXXX when piloting a non-quad mech.",
+        "Details": "PASSIVE: KOS gains +2 resolve when piloting a Quad Mech.  However, pilot gets penalized with -4 accuracy, -30m walk speed, -0.1 sprint multiplier, and -2 resolve generation when piloting a non-quad mech.",
         "Icon": "winchester"
     },
     "DisplayParams": "ShowInMWTRay",
