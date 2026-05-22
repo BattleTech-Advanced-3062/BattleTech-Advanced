@@ -40,7 +40,7 @@
 	"AttackRecoil": 1,
 	"Instability": 4,
 	"MissileHealth": 2,
-	"StructureDamage": 3,
+	"StructureDamage": 4,
 	"StatusEffectsPerHit": true,
 	"WeaponEffectID": "WeaponEffect-Weapon_SRM6",
 	"Description": {
@@ -52,7 +52,7 @@
 		"UIName": "Atom Smasher/10",
 		"Id": "Weapon_SRM_AtomSmasher10_0-STOCK",
 		"Name": "Atom Smasher/10",
-		"Details": "The Rim Worlds Republic's manufacturing sector has always been strong. In the wake of the 3050s Clan Invasion that nearly crippled the Republic, President Ivan Helius II ordered the realm's military manufacturers to produce a new crop of weaponry to better defend the realm from further Clan aggression. Included was the Atom Smasher/10, essentially a 10-tube SRM launcher with significantly improved armor piercing and critical damage potential. Unlike lesser SRMs, the Atom Smasher/10 does equal damage to armor and structure and has a reasonably high critical damage chance which means that it shreds through targets with aplomb. President Helius was pleased and expressed hopes that the weapon will hold off any further Clan aggression. \n\n <b><color=#ffcc00>Uses Atom Smasher Ammo.</color></b>",
+		"Details": "The Rim Worlds Republic's manufacturing sector has always been strong. In the wake of the 3050s Clan Invasion that nearly crippled the Republic, President Ivan Helius II ordered the realm's military manufacturers to produce a new crop of weaponry to better defend the realm from further Clan aggression. Included was the Atom Smasher/10, essentially a 10-tube SRM launcher with significantly improved armor piercing and critical damage potential. Unlike lesser SRMs, the Atom Smasher/10 does damage to both armor and structure and has a reasonably high critical damage chance which means that it shreds through targets with aplomb. President Helius was pleased and expressed hopes that the weapon will hold off any further Clan aggression. \n\n <b><color=#ffcc00>Uses Atom Smasher Ammo.</color></b>",
 		"Icon": "uixSvgIcon_weapon_Missile"
 	},
 	"BonusValueA": "",
