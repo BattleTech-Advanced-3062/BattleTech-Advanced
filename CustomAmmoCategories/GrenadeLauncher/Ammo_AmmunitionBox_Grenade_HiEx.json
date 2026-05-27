@@ -9,13 +9,13 @@
 			"not_broken"
 		],
 		"ComponentExplosion": {
-			"ExplosionDamagePerAmmo": 30,
-			"StabilityDamagePerAmmo": 15
+			"ExplosionDamagePerAmmo": 20,
+			"StabilityDamagePerAmmo": 30
 		},
 		"BonusDescriptions": [
 			"AreaOfEffect: 30",
-			"AreaOfEffectDmg: 60",
-			"AreaOfEffectSTABDmg: 15",
+			"AreaOfEffectDmg: 20",
+			"AreaOfEffectSTABDmg: 30",
 			"CostPerShot: 500",
 			"AmmoCount: 8"
 		],
