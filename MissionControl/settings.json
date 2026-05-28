@@ -309,7 +309,7 @@
 			},
 			{
 				"MapId": "mapGeneral_terracePlaza_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.5
+				"IncreaseBoundarySizeByPercentage": 0.6
 			}
 		]
 	},
