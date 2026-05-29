@@ -203,10 +203,12 @@
 							"Stats": null,
 							"Actions": [
 								{
-									"Type": "MechWarrior_Fire",
-									"value": "pilot_jk_BloodyDoves",
+									"Type": "MechWarrior_Kill",
+									"value": "1",
 									"valueConstant": null,
-									"additionalValues": null
+									"additionalValues": [
+										"Unexpectedly on an unsanctioned operation."
+									]
 								}
 							],
 							"ForceEvents": null,

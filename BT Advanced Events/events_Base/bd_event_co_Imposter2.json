@@ -155,7 +155,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Trade Occurs",
-						"Details": "You look between the man on the screen and your pilot, doing the silent calculus in your head. He's a good pilot to be sure but getting in good with one of the most powerful political forces in the Inner Sphere at the cost of just one man is a no-brainer decision. \"You got yourself a deal, Blakist. Sorry [[SCN_MW,{SCN_MW.Callsign}]] but you're worth less than the political alliance is.\" [[SCN_MW,{SCN_MW.Callsign}]] stares at you in disbelief before he lunges across the console at you. Thankfully, your well-trained security manages to restrain and remove him from the bridge, his yells and screams fading into the distance as he's dragged to the brig. \"I'll be honest, Commander, I didn't think you had that kind of steel in you. I'll join your company as soon as you hand him over to me. I'll be sure that my superiors in the Word hear about your smart decision-making skills, you'll find we can be a powerful ally for you when out in the stars.\" The connection cuts and you're left alone on the bridge with your staff, all of whom are staring, concern and confusion writ on their faces. \"We've got work to do, people, get back to it.\"",
+						"Details": "You look between the man on the screen and your pilot, doing the silent calculus in your head. He's a good pilot to be sure but getting in good with one of the most powerful political forces in the Inner Sphere at the cost of just one man is a no-brainer decision. \"You got yourself a deal, Blakist. Sorry [[SCN_MW,{SCN_MW.Callsign}]] but you're worth less than the political alliance is.\" [[SCN_MW,{SCN_MW.Callsign}]] stares at you in disbelief before he lunges across the console at you. Thankfully, your well-trained security manages to restrain and remove him from the bridge, his yells and screams fading into the distance as he's dragged to the brig. \"I'll be honest, Commander, I didn't think you had that kind of steel in you. I'll join your company as soon as you hand him over to me. I'll be sure that my superiors in the Word hear about your smart decision-making skills, you'll find we can be a powerful ally for you when out in the stars.\" The connection cuts and you're left alone on the bridge with your staff, all of whom are staring, concern and confusion writ on their faces. \"We've got work to do, people, get back to it.\" You find out later, after Imposter arrives, that [[SCN_MW,{SCN_MW.Callsign}]] was executed for his crimes against the Word of Blake.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -174,10 +174,12 @@
 							"Stats": null,
 							"Actions": [
 								{
-									"Type": "MechWarrior_Fire",
-									"value": "pilot_jk_BloodyDoves",
+									"Type": "MechWarrior_Kill",
+									"value": "1",
 									"valueConstant": null,
-									"additionalValues": null
+									"additionalValues": [
+										"Executed for sedition against the Word of Blake."
+									]
 								}
 							],
 							"ForceEvents": null,
