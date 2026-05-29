@@ -1,0 +1,261 @@
+{
+	"Description": {
+		"Id": "bd_event_co_Imposter2",
+		"Name": "The Trouble With Doubles, Part II",
+		"Details": "Well, isn't this a fine kettle of fish you've found yourself in. [[SCN_MW,{SCN_MW.Callsign}]] is standing on the bridge and right on the viewscreen is a man you could have sworn was his twin brother. \"As I was saying, mercenary, the man you're harboring, [[SCN_MW,Adam Coles]], is a traitor to the holy word of Jerome Blake. I'm just a man making sure everybody knows that him and his organization are liars and cheats.\" [[SCN_MW,{SCN_MW.Callsign}]] bristles and Darius has to hold him back from snapping. \"Ok, what is you actually want? And how'd you survive, anywasy?\" you ask of the man on the screen. \"You killed my body double, nothing more than that, Blake's spirit has other plans for me. Here's my offer to you, Commander: give me [[SCN_MW,{SCN_MW.Callsign}]] so I can turn him over to the Word of Blake authorities to be tried as a heretic and, in return, I'll join your crew and serve you better than he ever could. I'm as good, no, I'm even better than he is in the cockpit and you'll get the benefit of being on the right side of things when the time comes. What do you say?\" [[SCN_MW,{SCN_MW.Callsign}]] turns to look at you, terror and anger in his eyes. \"Commander, you can't be considering this! After all we've been through, you won't turn me over to him... will you?\" The bridge holds its breath, waiting for your next word.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": [
+				"bd_imposterone_complete"
+			]
+		},
+		"ExclusionTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [
+		{
+			"Scope": "MechWarrior",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"name_bloodydoves"
+					]
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "No chance in hell we take that deal.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [
+				{
+					"Scope": "Company",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": []
+				}
+			],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Tell him off",
+						"Details": "You stare down the imposter on the screen for a moment, steel in your spine, before turning to your pilot. \"[[SCN_MW,{SCN_MW.Callsign}]], you've served this company long and well. There's no chance in hell I'm turning you over to this guy, that's a death sentence. No, instead, we're going to take him out, once and for all.\" You look back at the man on the screen. \"As for you, you better get some damn good protection, because you just offered to kill one of my pilots and you'll fry for that.\" The imposter shakes his head ruefully. \"You've made a poor choice here today, Commander.\" As the connection dies, [[SCN_MW,{SCN_MW.Callsign}]] looks at you with unfettered gratitude in his eyes and you know you made the right choice. Your pilots are your family and no one threatens them and gets away with it.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [],
+							"Actions": [
+								{
+									"Type": "System_AddContract",
+									"value": "Assassinate_ImposterTwo",
+									"valueConstant": null,
+									"additionalValues": [
+										"40thShadowDivision",
+										"SelfEmployed",
+										null,
+										null,
+										null,
+										null,
+										"10",
+										null
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Take the deal, these kinds of offers don't come along every day.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "Trade Occurs",
+						"Details": "You look between the man on the screen and your pilot, doing the silent calculus in your head. He's a good pilot to be sure but getting in good with one of the most powerful political forces in the Inner Sphere at the cost of just one man is a no-brainer decision. \"You got yourself a deal, Blakist. Sorry [[SCN_MW,{SCN_MW.Callsign}]] but you're worth less than the political alliance is.\" [[SCN_MW,{SCN_MW.Callsign}]] stares at you in disbelief before he lunges across the console at you. Thankfully, your well-trained security manages to restrain and remove him from the bridge, his yells and screams fading into the distance as he's dragged to the brig. \"I'll be honest, Commander, I didn't think you had that kind of steel in you. I'll join your company as soon as you hand him over to me. I'll be sure that my superiors in the Word hear about your smart decision-making skills, you'll find we can be a powerful ally for you when out in the stars.\" The connection cuts and you're left alone on the bridge with your staff, all of whom are staring, concern and confusion writ on their faces. \"We've got work to do, people, get back to it.\"",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_Fire",
+									"value": "pilot_jk_BloodyDoves",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_AddRoster",
+									"value": "pilot_bd_Imposter",
+									"valueConstant": null,
+									"additionalValues": null
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Reputation.ComStar",
+									"value": "-30",
+									"set": false,
+									"valueConstant": "[rep_loss_verylarge]"
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Reputation.WordofBlake",
+									"value": "40",
+									"set": false,
+									"valueConstant": "[rep_gain_verylarge]"
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": true,
+	"Tags": {
+		"tagSetSourceFile": "tags/EventTags",
+		"items": []
+	}
+}
