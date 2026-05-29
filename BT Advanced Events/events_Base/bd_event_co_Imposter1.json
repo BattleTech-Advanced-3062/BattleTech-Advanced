@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",
-	"Weight": 500,
+	"Weight": 1000,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -63,11 +63,29 @@
 						"valueConstant": "0"
 					},
 					{
-						"obj": "ExperienceSpent",
-						"op": "GreaterThan",
-						"val": 80000,
-						"valueConstant": "80000"
-					}
+                        "obj": "Guts",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Piloting",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Gunnery",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Tactics",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    }
 				]
 			}
 		}

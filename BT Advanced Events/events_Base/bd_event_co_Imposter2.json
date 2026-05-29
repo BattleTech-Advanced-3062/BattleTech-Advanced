@@ -19,7 +19,14 @@
 			"tagSetSourceFile": "",
 			"items": []
 		},
-		"RequirementComparisons": []
+		"RequirementComparisons": [
+                {
+                    "obj" : "Travel",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : "0"
+                }
+		]
 	},
 	"AdditionalRequirements": [
 		{
@@ -226,6 +233,13 @@
 									"value": "40",
 									"set": false,
 									"valueConstant": "[rep_gain_verylarge]"
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Morale",
+									"value": "-5",
+									"set": false,
+									"valueConstant": null
 								}
 							],
 							"Actions": null,
