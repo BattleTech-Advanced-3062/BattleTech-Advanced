@@ -17,7 +17,14 @@
 			"tagSetSourceFile": "",
 			"items": []
 		},
-		"RequirementComparisons": []
+		"RequirementComparisons": [
+                {
+                    "obj" : "Travel",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : "0"
+                }
+		]
 	},
 	"AdditionalRequirements": [
 		{
@@ -92,7 +99,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Help Him Out",
-						"Details": "You nod firmly, this kind of wanton destruction has to be dealt with. \"[[SCN_MW,{SCN_MW.Callsign}]], you've got yourself a deal. I'll help you stop this guy, it's good for our reputation and for our salvage potential.\" A broad smile covers his face and he barely can contain his appreciation. \"Commander, you won't regret this. Let's go get this asshole and put a stop to his marauding.\"",
+						"Details": "You nod firmly, this kind of wanton destruction has to be dealt with. \"[[SCN_MW,{SCN_MW.Callsign}]], you've got yourself a deal. I'll help you stop this guy, it's good for our reputation and for our salvage potential.\" A broad smile covers his face and he barely can contain his appreciation. \"Commander, you won't regret this. Let's go get this asshole and put a stop to his marauding.\"\r\n\r\n\r\n<b>A unique contract named Taking Out The Trash has been added to the Command Center.",
 						"Icon": null
 					},
 					"Weight": 100,
