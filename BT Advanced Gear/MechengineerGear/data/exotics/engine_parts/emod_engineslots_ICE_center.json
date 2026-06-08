@@ -18,6 +18,9 @@
 			},
 			{
 				"CategoryID": "EnginePart"
+			},
+			{
+				"CategoryID": "JJIncompatible"
 			}
 		],
 		"ActivatableComponent": {
