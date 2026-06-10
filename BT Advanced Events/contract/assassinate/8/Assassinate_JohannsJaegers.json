@@ -75,7 +75,7 @@
 	],
 	"OnContractFailureResults": [],
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 50,
+	"maxNumberOfPlayerUnits": 4,
 	"lanceMinTonnage": -1,
 	"lanceMaxTonnage": -1,
 	"mechMinTonnages": [
@@ -540,7 +540,7 @@
 	"expirationTimeOverride": -1,
 	"negotiatedSalary": 1,
 	"negotiatedSalvage": 0,
-	"excludedFromProceduralGeneration": false,
+	"excludedFromProceduralGeneration": true,
 	"player1Team": {
 		"encounterLayerData": {
 			"EncounterObjectGuid": ""

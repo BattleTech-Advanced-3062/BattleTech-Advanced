@@ -53,8 +53,8 @@
 		"UIName": "Ultima Ratio Regum",
 		"Id": "Weapon_UltimaRatioRegum",
 		"Name": "Ultima Ratio Regum",
-		"Details": "Designed by the same brilliant minds behind the Blackbeard, the 'Last Argument of Kings' is nothing more than an oversized LBX/20, capable of exceeding even the Lyran's prized Heavy Gauss in destructive capability. The Ultima is capable of firing solid slug, canister, or a whiff of grapeshot that sweeps the decks. \n\n <b><color=#ffcc00>Uses ULTIMA Ammo.</color></b>",
-		"Icon": "uixSvgIcon_weapon_Ballistic"
+		"Details": "Designed by the same brilliant minds behind the Blackbeard, the 'Last Argument of Kings' is nothing more than an oversized LBX/20, capable of exceeding even the Lyran's prized Heavy Gauss in destructive capability. The Ultima is capable of firing solid slug, canister, or a whiff of grapeshot that sweeps the decks. \n\n <b><color=#ffcc00>Uses ULTIMA Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "death-star"
 	},
 	"BonusValueA": "",
 	"BonusValueB": "",
