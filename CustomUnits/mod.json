@@ -278,6 +278,7 @@
 		"MechBaySwitchIconVehicle": "vehicle",
 		"MechBaySwitchIconUp": "weapon_up",
 		"MechBaySwitchIconDown": "weapon_down",
+		"MechBayDefaultLabel" : "Mech Hangar 1",
 		"CanPilotVehicleTag": "pilot_vehicle_crew",
 		"CannotPilotMechTag": "pilot_nomech_crew",
 		"CountContractMaxUnits4AsUnlimited": true,
