@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "JennerIIC",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 3309700,
 		"Rarity": 2,

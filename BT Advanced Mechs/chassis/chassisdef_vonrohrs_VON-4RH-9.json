@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "VonRohrs",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 6200000,
 		"Rarity": 3,

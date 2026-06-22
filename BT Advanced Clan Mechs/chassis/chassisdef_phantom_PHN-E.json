@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Phantom",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
