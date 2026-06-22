@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Fox",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
