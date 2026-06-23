@@ -1,5 +1,12 @@
 {
-    "FixedEquipment": [
+   "Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "HunchbackIIC",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	 "FixedEquipment": [
         {
             "MountedLocation": "CenterTorso", 
             "ComponentDefID": "emod_structureslots_clanendosteel", 
