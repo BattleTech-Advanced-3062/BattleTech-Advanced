@@ -1,8 +1,9 @@
 {
 	"Custom": {
-		"ArmActuatorSupport": {
-			"RightLimit": "Lower",
-			"LeftLimit": "Lower"
+		"AssemblyVariant": {
+			"PrefabID": "Whitworth",
+			"Exclude": false,
+			"Include": true
 		}
 	},
 	"Description": {
@@ -58,6 +59,8 @@
 	"DFAInstability": 20,
 	"ChassisTags": {
 		"items": [
+			"ArmLimitLowerRight",
+			"ArmLimitLowerLeft",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""
