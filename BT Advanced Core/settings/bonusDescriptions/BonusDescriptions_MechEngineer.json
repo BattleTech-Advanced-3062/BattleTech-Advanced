@@ -1964,8 +1964,8 @@
 		{
 			"Bonus": "BankBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
-			"Full": "Pressurized Coolant can explode for {0} Heat, Damage and Stability"
+			"Long": "Pressurized Coolant {0}",
+			"Full": "Pressurized Coolant can explode for {0} Damage"
 		},
 		{
 			"Bonus": "DmgIncrease",
@@ -5638,12 +5638,6 @@
             "Short": "Reserves set slots",
             "Long": "Reserves RL {0}, LL {1}",
             "Full": "This equipment reserves {0} slots in the Right Leg and {1} in the Left Leg."
-        },
-		{
-            "Bonus": "BankBoom",
-            "Short": "Component Explosion",
-            "Long": "Component Explosion {0}",
-            "Full": "This equipment explodes when damaged for {0} damage."
         }
 	]
 }
