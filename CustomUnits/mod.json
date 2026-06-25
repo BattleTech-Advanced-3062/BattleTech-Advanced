@@ -309,7 +309,10 @@
 			"SoloDuel",
 			"DuoDuel",
 			"BattleRoyale",
-			"DefenceInDepth"
+			"DefenceInDepth",
+			"TheSwitch_Assassinate",
+			"Scramble_DefendBase",
+			"SplitDefense"
 		],
 		"ConvoyMaxDistFromOther": 900,
 		"ConvoyMaxDistFromPlayer": 400,
