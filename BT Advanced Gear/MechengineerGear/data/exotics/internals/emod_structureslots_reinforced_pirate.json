@@ -1,0 +1,115 @@
+{
+	"Custom": {
+		"Color": "OrangeHalf",
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]] / 4",
+				"CBillCost": "1000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 20"
+			}
+		},
+		"ArmorStructureChanges": {
+			"StructureFactor": 1.25
+		},
+		"Category": {
+			"CategoryID": "Structure"
+		},
+		"Flags": [
+			"ignore_damage",
+			"autorepair",
+			"not_broken",
+			"no_salvage"
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "LeftTorso"
+				},
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "LeftArm"
+				},
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "LeftLeg"
+				},
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "RightTorso"
+				},
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "RightArm"
+				},
+				{
+					"ComponentDefId": "emod_structureslots_reinforced_pirate_slots",
+					"Location": "RightLeg"
+				}
+			]
+		},
+		"BonusDescriptions": [
+			"StructureProtection: +25%",
+			"CritRes: 25%",
+			"ReservedSlots: 6"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "LIC",
+		"Model": "Reinforced",
+		"UIName": "Cobbled-Together Reinforced",
+		"Id": "emod_structureslots_reinforced_pirate",
+		"Name": "Cobbled-Together Reinforced Structure",
+		"Details": "Cobbled-Together Reinforced structure is a pirate attempt to reproduce the durability of military-grade reinforced structure. It is less durable than military-grade is but is still fairly effective at being a durability increase. However, unlike standard reinforced structure, cobbled-together reinforced does not weigh more and instead takes up critical space in each body location.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": ".",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "ReinforcedCritImmune",
+				"Name": "Reinforced Structure",
+				"Details": "Reinforced Structure provides crit reduction.",
+				"Icon": "uixSvgIcon_action_end"
+			},
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.75",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

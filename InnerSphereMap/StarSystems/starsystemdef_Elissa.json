@@ -20,13 +20,16 @@
 			"planet_pop_small",
 			"planet_industry_poor",
 			"planet_industry_mining",
-			"planet_faction_clanwolf"
+			"planet_faction_oberon"
 		],
 		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
-		"badlandsParched"
+		"highlandsSpring",
+		"highlandsFall",
+		"lowlandsSpring",
+		"lowlandsFall"
 	],
 	"MapRequiredTags": {
 		"items": [],
@@ -38,7 +41,7 @@
 	},
 	"FuelingStation": false,
 	"JumpDistance": 20,
-	"ownerID": "ClanWolf",
+	"ownerID": "Oberon",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
 	"ShopMaxSpecials": 9,
@@ -52,13 +55,12 @@
 	"UseMaxContractOverride": false,
 	"MaxContractOverride": 0,
 	"SystemShopItems": [
-		"itemCollection_major_ClanWorlds",
 		"itemCollection_shop_chemicalsProgression",
 		"itemCollection_shop_miningProgression"
 	],
-	"factionShopOwnerID": "ClanWolf",
+	"factionShopOwnerID": "Oberon",
 	"FactionShopItems": [
-		"itemCollection_faction_ClanWorlds"
+		"itemCollection_faction_Oberon"
 	],
 	"BlackMarketShopItems": null,
 	"CoreSystemID": "starsystemdef_Elissa",
@@ -67,21 +69,22 @@
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 5,
+	"DefaultDifficulty": 2,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [
-		"Steiner",
-		"Marik",
-		"Kurita",
-		"Davion",
-		"Liao",
-		"Cameron",
-		"WordOfBlake",
-		"ComStar",
-		"Rasalhague"
+		"Oberon",
+		"AuriganPirates",
+		"Locals"
 	],
 	"contractTargetIDs": [
-		"ClanWolf"
+		"Steiner",
+		"ComStar",
+		"ClanJadeFalcon",
+		"ClanWolf",
+		"Hanse",
+		"Locals",
+		"Mercenaries",
+		"RimWorldsRepublic"
 	]
 }

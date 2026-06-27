@@ -1,0 +1,42 @@
+{
+	"Custom": {
+		"Category": {
+			"CategoryID": "HybridStructure"
+		},
+		"Color": "OrangeHalf",
+		"Flags": [
+			"ignore_damage",
+			"no_salvage"
+		]
+	},
+	"Description": {
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false,
+		"Manufacturer": "Generic",
+		"Model": "Standard",
+		"UIName": "Cobbled-Together Reinforced Slot",
+		"Id": "emod_structureslots_reinforced_pirate_slots",
+		"Name": "Cobbled-Together Reinforced Slot",
+		"Details": "This critical location represents part of this mech's Cobbled-Together Reinforced Structure.",
+		"Icon": "uixSvgIcon_quantity"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}
