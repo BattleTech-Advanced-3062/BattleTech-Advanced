@@ -10,25 +10,25 @@
 		},
 		"BonusDescriptions": [
 			"Activatable",
-			"ActivatablePAM",
-			"ActivatedRunMultiStacking: +0.15",
-			"ActiveHeatPerTurn: +15%",
-			"MASCWeight: 35%",
+			"ActivatedRunMultiStacking: +0.3",
+			"ActiveHeatPerTurn: +10%",
+			"MASCWeight: 25%",
 			"FailChance: 5%",
 			"FailChanceTurn: 15%",
 			"FailChanceTurnDelay: 2",
-			"FailStruct: 50",
-			"Dynamic: 6"
+			"FailStruct: 35",
+			"FailLocation: Center Torso",
+			"Dynamic: 4"
 		],
 		"DynamicSlots": {
-			"ReservedSlots": 6,
+			"ReservedSlots": 4,
 			"ShowIcon": true,
 			"NameText": "P.A.M.",
 			"BonusAText": "Dynamic Slot",
 			"BonusBText": " "
 		},
 		"Weights": {
-			"StructureFactor": 1.35
+			"StructureFactor": 1.25
 		},
 		"ActivatableComponent": {
 			"ButtonName": "Engage P.A.M.",
@@ -36,8 +36,10 @@
 			"FailFlatChance": 0.05,
 			"FailRoundsStart": 2,
 			"FailChancePerTurn": 0.15,
-			"FailISDamage": 50,
+			"FailISDamage": 35,
 			"FailCrit": false,
+			"ShutdownOnFail": true,
+			"FailDamageLocations":["CenterTorso"],
 			"DeactivationMessage": "P.A.M. Disengaged",
 			"ActivationMessage": "P.A.M. Engaged",
 			"NoUniqueCheck": true,
@@ -62,7 +64,7 @@
 					"statisticData": {
 						"statName": "CBTBE_RunMultiMod",
 						"operation": "Float_Add",
-						"modValue": "0.15",
+						"modValue": "0.3",
 						"modType": "System.Single"
 					},
 					"nature": "Buff"
@@ -84,14 +86,14 @@
 					"Description": {
 						"Id": "StatusEffect-Heat_Supercharger",
 						"Name": "Increased Heat",
-						"Details": "Heat generation increased by 15%.",
+						"Details": "Heat generation increased by 10%.",
 						"Icon": "uixSvgIcon_equipment_ThermalExchanger"
 					},
 					"nature": "Buff",
 					"statisticData": {
 						"statName": "HeatGenerated",
 						"operation": "Float_Multiply",
-						"modValue": "1.15",
+						"modValue": "1.1",
 						"modType": "System.Single",
 						"additionalRules": "NotSet",
 						"targetCollection": "Weapon",
