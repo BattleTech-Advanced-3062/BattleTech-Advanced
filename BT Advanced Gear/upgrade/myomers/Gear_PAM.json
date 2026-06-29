@@ -10,13 +10,13 @@
 		},
 		"BonusDescriptions": [
 			"Activatable",
-			"ActivatedRunMultiStacking: +0.3",
-			"ActiveHeatPerTurn: +10%",
+			"ActivatedRunMultiStacking: +0.1, +0.3, +1.3",
+			"ActiveHeatPerTurn: +15%",
 			"MASCWeight: 25%",
 			"FailChance: 5%",
 			"FailChanceTurn: 15%",
 			"FailChanceTurnDelay: 2",
-			"FailStruct: 35",
+			"FailStruct: 40",
 			"FailLocation: Center Torso",
 			"Dynamic: 4"
 		],
@@ -36,7 +36,7 @@
 			"FailFlatChance": 0.05,
 			"FailRoundsStart": 2,
 			"FailChancePerTurn": 0.15,
-			"FailISDamage": 35,
+			"FailISDamage": 40,
 			"FailCrit": false,
 			"ShutdownOnFail": true,
 			"FailDamageLocations": [
@@ -48,30 +48,129 @@
 			"CanNotBeActivatedManualy": false,
 			"statusEffects": [
 				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": -1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"effectTargetType": "Creator",
-						"showInStatusPanel": false
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "PAMSprint",
-						"Name": "PAMSprint",
-						"Details": "MORE SPEED.",
-						"Icon": "uixSvgIcon_run_n_gun"
-					},
-					"statisticData": {
-						"statName": "CBTBE_RunMultiMod",
-						"operation": "Float_Add",
-						"modValue": "0.3",
-						"modType": "System.Single"
-					},
-					"nature": "Buff"
-				},
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator"
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "PAMSprint_Max",
+                        "Name": "PAMSprint_Max",
+                        "Details": "PAMSprint_Max",
+                        "Icon": "uixSvgIcon_run_n_gun"
+                    },
+                    "statisticData": {
+                        "statName": "CBTBE_RunMultiMod",
+                        "operation": "Float_Add",
+                        "modValue": "1.3",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                },
+                {
+                    "durationData": {
+                        "duration": 1,
+                        "stackLimit": -1,
+                        "ticksOnActivations": true
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator"
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "PAMSprint_Rd01",
+                        "Name": "PAMSprint_Rd01",
+                        "Details": "PAMSprint_Rd01",
+                        "Icon": "uixSvgIcon_run_n_gun"
+                    },
+                    "statisticData": {
+                        "statName": "CBTBE_RunMultiMod",
+                        "operation": "Float_Add",
+                        "modValue": "-0.3",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                },
+                {
+                    "durationData": {
+                        "duration": 2,
+                        "stackLimit": -1,
+                        "ticksOnActivations": true
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator"
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "PAMSprint_Rd02",
+                        "Name": "PAMSprint_Rd02",
+                        "Details": "PAMSprint_Rd02",
+                        "Icon": "uixSvgIcon_run_n_gun"
+                    },
+                    "statisticData": {
+                        "statName": "CBTBE_RunMultiMod",
+                        "operation": "Float_Add",
+                        "modValue": "-0.3",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                },
+                {
+                    "durationData": {
+                        "duration": 3,
+                        "stackLimit": -1,
+                        "ticksOnActivations": true
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator"
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "PAMSprint_Rd03",
+                        "Name": "PAMSprint_Rd03",
+                        "Details": "PAMSprint_Rd03",
+                        "Icon": "uixSvgIcon_run_n_gun"
+                    },
+                    "statisticData": {
+                        "statName": "CBTBE_RunMultiMod",
+                        "operation": "Float_Add",
+                        "modValue": "-0.3",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                },
+                {
+                    "durationData": {
+                        "duration": 4,
+                        "stackLimit": -1,
+                        "ticksOnActivations": true
+                    },
+                    "targetingData": {
+                        "effectTriggerType": "Passive",
+                        "effectTargetType": "Creator"
+                    },
+                    "effectType": "StatisticEffect",
+                    "Description": {
+                        "Id": "PAMSprint_Rd04",
+                        "Name": "PAMSprint_Rd04",
+                        "Details": "PAMSprint_Rd04",
+                        "Icon": "uixSvgIcon_run_n_gun"
+                    },
+                    "statisticData": {
+                        "statName": "CBTBE_RunMultiMod",
+                        "operation": "Float_Add",
+                        "modValue": "-0.3",
+                        "modType": "System.Single"
+                    },
+                    "nature": "Buff"
+                },
 				{
 					"durationData": {
 						"duration": -1,
@@ -96,7 +195,7 @@
 					"statisticData": {
 						"statName": "HeatGenerated",
 						"operation": "Float_Multiply",
-						"modValue": "1.1",
+						"modValue": "1.15",
 						"modType": "System.Single",
 						"additionalRules": "NotSet",
 						"targetCollection": "Weapon",

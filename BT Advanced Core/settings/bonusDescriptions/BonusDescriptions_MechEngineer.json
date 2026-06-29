@@ -406,7 +406,7 @@
 			"Bonus": "ActivatedRunMultiStacking",
 			"Short": "{0} Sprint Multi.",
 			"Long": "{0} Sprint Multiplier",
-			"Full": "{0} Sprinting Multiplier when activated, stacking each turn it remains activated."
+			"Full": "This equipment provides a sprint speed bonus of {0} on activation, then provides a stacking {1} sprint speed bonus per subsequent round while activated, up to a maximum speed bonus of {2}."
 		},
 		{
 			"Bonus": "ActiveJumpDistance",
