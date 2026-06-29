@@ -39,13 +39,16 @@
 			"FailISDamage": 35,
 			"FailCrit": false,
 			"ShutdownOnFail": true,
-			"FailDamageLocations":["CenterTorso"],
+			"FailDamageLocations": [
+				"CenterTorso"
+			],
 			"DeactivationMessage": "P.A.M. Disengaged",
 			"ActivationMessage": "P.A.M. Engaged",
 			"NoUniqueCheck": true,
 			"CanNotBeActivatedManualy": false,
 			"statusEffects": [
-				{"durationData": {
+				{
+					"durationData": {
 						"duration": -1,
 						"stackLimit": -1
 					},
@@ -103,9 +106,8 @@
 						"targetWeaponSubType": "NotSet"
 					}
 				}
-
 			]
-		},
+		}
 	},
 	"Description": {
 		"Cost": 320000,
