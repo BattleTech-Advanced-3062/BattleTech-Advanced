@@ -2355,7 +2355,13 @@
 			"Bonus": "Narc",
 			"Short": "NARC",
 			"Long": "NARC Beacon",
-			"Full": "NARC Beacon's grant visibility on hit- counters ECM fields up to {0}"
+			"Full": "NARC beacons firing standard NARC ammunition provide a targeting and clustering bonus against NARC'd targets as long as the attacker is using NARC-enabled LRM or SRM ammunition. For other missile munitions, NARC does not provide any bonus."
+		},
+		{
+			"Bonus": "NarcBeacon",
+			"Short": "NARC Ammo",
+			"Long": "NARC Beacon Ammunition",
+			"Full": "NARC beacon ammunition functions as a beacon for other NARC-enabled munitions, allowing them to home in on the target hit with the beacon, gaining {0} additional accuracy against the beaconed target."
 		},
 		{
 			"Bonus": "NarcLauncher",
@@ -5620,6 +5626,18 @@
 			"Short": "Viral Jammer Range",
 			"Long": "Viral Jammer Range",
 			"Full": "The Viral Jammer's range of effect is {0} meters."
+		},
+		{
+			"Bonus": "NARCLRM",
+			"Short": "NARC LRM",
+			"Long": "NARC LRM",
+			"Full": "NARC LRMs gain a {0} accuracy bonus against appropriate targets, such as those designated by NARC beacon munitions."
+		},
+		{
+			"Bonus": "NARCSRM",
+			"Short": "NARC SRM",
+			"Long": "NARC SRM",
+			"Full": "NARC SRMs gain a {0} accuracy bonus against appropriate targets, such as those designated by NARC beacon munitions."
 		},
 		{
 			"Bonus": "SemiGuidedLRM",

@@ -10,6 +10,7 @@ Ammo_AmmunitionBox_Narc_Beacon_Improved,AmmunitionBox,2,2
 Ammo_AmmunitionBox_Narc_Explosive_Improved,AmmunitionBox,2,1
 Ammo_AmmunitionBox_Narc_Haywire_Improved,AmmunitionBox,2,1
 Ammo_AmmunitionBox_Acid_SRM,AmmunitionBox,2,3
+Ammo_AmmunitionBox_NARC_SRM,AmmunitionBox,2,3
 Ammo_AmmunitionBox_Inferno_SRM,AmmunitionBox,2,7
 Ammo_AmmunitionBox_Tandem_SRM,AmmunitionBox,2,3
 Ammo_AmmunitionBox_ArtemisIV_SRM,AmmunitionBox,2,6
@@ -20,6 +21,7 @@ Ammo_AmmunitionBox_ArtemisIV_LRM,AmmunitionBox,2,7
 Ammo_AmmunitionBox_ArtemisIV_LRM_half,AmmunitionBox,2,7
 Ammo_AmmunitionBox_Deadfire_LRM,AmmunitionBox,2,7
 Ammo_AmmunitionBox_FTL_LRM,AmmunitionBox,2,5
+Ammo_AmmunitionBox_NARC_LRM,AmmunitionBox,2,4
 Ammo_AmmunitionBox_Swarm_LRM,AmmunitionBox,2,3
 Ammo_AmmunitionBox_Thunder_LRM,AmmunitionBox,2,3
 Ammo_AmmunitionBox_Generic_ELRM,AmmunitionBox,2,7

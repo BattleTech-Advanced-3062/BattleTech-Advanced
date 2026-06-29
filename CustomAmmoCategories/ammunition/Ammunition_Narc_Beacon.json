@@ -20,7 +20,7 @@
 	"statusEffects": [
 		{
 			"durationData": {
-				"duration": 3,
+				"duration": 2,
 				"ticksOnActivations": true,
 				"useActivationsOfTarget": true,
 				"ticksOnEndOfRound": false,
@@ -30,46 +30,28 @@
 			},
 			"targetingData": {
 				"effectTriggerType": "OnHit",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
-				"effectTargetType": "NotSet",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
 				"showInTargetPreview": false,
-				"showInStatusPanel": true
+				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "PainterEffect",
-				"Name": "NARC'ed!",
-				"Details": "NARC'd. +2 to be hit.",
-				"Icon": "radio-tower"
+				"Id": "NARC-NarcTaggedEffect",
+				"Name": "NARC Acquired",
+				"Details": "This target was NARCed. Target is marked for incoming NARC-enabled ammunition.",
+				"Icon": "target-laser"
 			},
 			"nature": "Debuff",
 			"statisticData": {
-				"statName": "ToHitThisActor",
+				"statName": "ADD_ENCOUNTER_TAG_NARCAcquired",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
-				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "NotSet",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
+				"modValue": "1",
+				"modType": "System.Single"
 			},
 			"tagData": {
 				"tagList": [
 					"lv-narc-effect_m10"
 				]
-			},
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
+			}
 		},
 		{
 			"durationData": {
