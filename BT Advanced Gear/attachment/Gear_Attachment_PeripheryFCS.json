@@ -4,7 +4,8 @@
 			"installedLocationOnly": true,
 			"autoTarget": true,
 			"WeaponAddonIds": [
-				"WeaponUpgrade_Periphery_FCS"
+				"WeaponUpgrade_Periphery_FCS",
+				"WeaponUpgrade_Periphery_FCS_Rotary"
 			]
 		},
 		"Category": [

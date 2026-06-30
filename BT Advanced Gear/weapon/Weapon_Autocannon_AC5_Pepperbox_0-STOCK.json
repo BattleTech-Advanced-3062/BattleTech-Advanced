@@ -1,0 +1,131 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/a/a/peripheryac"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"WpnRecoil: 2",
+			"WpnAccuracy: -1",
+			"VariableBurstCount: 6",
+			"InternalAmmo: 6",
+			"NoFireInMelee",
+			"IsRifle",
+			"WeaponAttachmentCompatible: Periphery FCS"
+		]
+	},
+	"Category": "Ballistic",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC5",
+	"MinRange": 30,
+	"MaxRange": 660,
+	"RangeSplit": [
+		120,
+		270,
+		480
+	],
+	"AmmoCategory": "RifleLight",
+	"StartingAmmoCapacity": 6,
+	"HeatGenerated": 3,
+	"Damage": 25,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 1,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 2,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 2,
+	"Instability": 12,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 125000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "Grimm Manufacturing",
+		"Model": "Light Spice Rifle",
+		"UIName": "Pepperbox Rifle",
+		"Id": "Weapon_Autocannon_AC5_Pepperbox_0-STOCK",
+		"Name": "Pepperbox Rifle",
+		"Details": "The Pepperbox Rifle is a newly developed Periphery weapon courtesy of the Oberon Confederation's \"finest\" minds. It's essentially a Periphery rifle, somewhere between the Light and Medium Rifles in potency, with a limited internal magazine of shots that it can fire in any amount but once it's out, it's out. Observers have called the Pepperbox a Periphery Rotary and that name, while slightly demeaning, isn't necessarily wrong. The Pepperbox might not have endurance but, as the pirates of Oberon have learned, endurance doesn't matter if the other guy is dead.",
+		"Icon": "uixSvgIcon_weapon_Ballistic"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "RAC2",
+	"BattleValue": 0,
+	"InventorySize": 2,
+	"Tonnage": 4,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"Modes": [
+		{
+			"Id": "x1",
+			"UIName": "x1",
+			"isBaseMode": true,
+			"ShotsWhenFired": 0
+		},
+		{
+			"Id": "x2",
+			"UIName": "x2",
+			"isBaseMode": false,
+			"ShotsWhenFired": 1,
+			"RefireModifier": 1,
+			"HeatGenerated": 3
+		},
+		{
+			"Id": "x3",
+			"UIName": "x3",
+			"isBaseMode": false,
+			"ShotsWhenFired": 2,
+			"RefireModifier": 2,
+			"HeatGenerated": 6
+		},
+		{
+			"Id": "x4",
+			"UIName": "x4",
+			"isBaseMode": false,
+			"ShotsWhenFired": 3,
+			"RefireModifier": 2,
+			"HeatGenerated": 9
+		},
+		{
+			"Id": "x5",
+			"UIName": "x5",
+			"isBaseMode": false,
+			"ShotsWhenFired": 4,
+			"RefireModifier": 3,
+			"HeatGenerated": 12
+		},
+		{
+			"Id": "x6",
+			"UIName": "x6",
+			"isBaseMode": false,
+			"ShotsWhenFired": 5,
+			"RefireModifier": 3,
+			"HeatGenerated": 15
+		}
+	],
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_very-long",
+			"PeripheryFCSSupported-Rotary",
+			"WebbTCSupported-RotaryAC"
+		],
+		"tagSetSourceFile": ""
+	}
+}
