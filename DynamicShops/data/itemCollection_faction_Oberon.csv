@@ -9,10 +9,9 @@ Ammo_AmmunitionBox_Generic_MRIFLE,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_MRIFLE_half,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_HRIFLE,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_HRIFLE_half,AmmunitionBox,0,1
-mechdef_corsair_COR-5R,Mech,0,1
-mechdef_corsair_COR-5T,Mech,0,1
-mechdef_corsair_COR-6R,Mech,0,1
-mechdef_corsair_COR-7A,Mech,0,1
-mechdef_corsair_COR-7R,Mech,0,1
+mechdef_banshee_BNC-3O,Mech,0,1
+mechdef_corsair_COR-3O,Mech,0,1
+mechdef_corsair_COR-4O,Mech,0,1
+mechdef_corsair_COR-6O,Mech,0,1
 Gear_PAM,Upgrade,0,1
 Gear_Attachment_PeripheryFCS,Upgrade,0,1

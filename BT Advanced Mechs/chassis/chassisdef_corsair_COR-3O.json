@@ -1,0 +1,328 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Corsair",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 4648000,
+		"Rarity": 2,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Corsair",
+		"Id": "chassisdef_corsair_COR-3O",
+		"Name": "Corsair",
+		"Details": "This is a kludged together medium-class pirate scrap-pile that carries the Corsair designation, even though it shares very little with the usual assault-weight mechs that typically carry that name. Built by the \"legitimate\" pirates of the Oberon Confederation, the COR-3O carries a grab-bag of weaponry and technologies. It is built on a 200-rated Prototype XL engine for weight and power and uses Oberon's Cobbled-Together Reinforced structure for durability. For primary firepower, it carries a Medium Rifle with a ton of ammunition as well as a Pepperbox Rifle for burst damage. For close range engagement it carries two Improved Medium Binary Lasers and a SRM-6 with a ton of ammo. Finally, the COR-3O has Pirate-Accelerated Myomer, or P.A.M., for bursts of unexpected speed in combat.",
+		"Icon": "uixTxrIcon_corsair"
+	},
+	"MovementCapDefID": "movedef_centurion_CN9-A",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_rtcorsair3",
+	"PrefabIdentifier": "chrprfmech_rtcorsair3base-001",
+	"PrefabBase": "rtcorsair3",
+	"Tonnage": 55,
+	"InitialTonnage": 5.5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 4124000,
+	"Heatsinks": 0,
+	"TopSpeed": 65,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": true,
+	"MeleeDamage": 60,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 180,
+			"MaxRearArmor": 90,
+			"InternalStructure": 90
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 130,
+			"MaxRearArmor": 65,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 90,
+			"MaxRearArmor": -1,
+			"InternalStructure": 45
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 130,
+			"MaxRearArmor": -1,
+			"InternalStructure": 65
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 2
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 2
+		}
+	],
+	"VariantName": "COR-3O",
+	"ChassisTags": {
+		"items": [
+			"ArmLimitUpperLeft",
+			"mr-resize-0.85-0.85-0.85",
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Medium FrankenMech",
+	"YangsThoughts": "This is a kludged together medium-class pirate scrap-pile that carries the Corsair designation, even though it shares very little with the usual assault-weight mechs that typically carry that name. Built by the \"legitimate\" pirates of the Oberon Confederation, the COR-3O carries a grab-bag of weaponry and technologies. It is built on a 200-rated Prototype XL engine for weight and power and uses Oberon's Cobbled-Together Reinforced structure for durability. For primary firepower, it carries a Medium Rifle with a ton of ammunition as well as a Pepperbox Rifle for burst damage. For close range engagement it carries two Improved Medium Binary Lasers and a SRM-6 with a ton of ammo. Finally, the COR-3O has Pirate-Accelerated Myomer, or P.A.M., for bursts of unexpected speed in combat.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Corsair",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}
