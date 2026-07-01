@@ -13,5 +13,7 @@ mechdef_banshee_BNC-3O,Mech,0,1
 mechdef_corsair_COR-3O,Mech,0,1
 mechdef_corsair_COR-4O,Mech,0,1
 mechdef_corsair_COR-6O,Mech,0,1
+mechdef_hermes_HER-1O,Mech,0,1
+mechdef_hunchback_HBK-4O,Mech,0,1
 Gear_PAM,Upgrade,0,1
 Gear_Attachment_PeripheryFCS,Upgrade,0,1
