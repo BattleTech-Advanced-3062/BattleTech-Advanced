@@ -13,7 +13,7 @@
 			"StabilityDamagePerAmmo": 1
 		},
 		"BonusDescriptions": [
-			"NarcBeacon +4",
+			"NarcBeacon: +4",
 			"PainterSensors: 35%",
 			"PainterVisibility: 35%",
 			"BoostedMissileDamage: 10%",
