@@ -229,6 +229,90 @@ jobs:
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/coolingRenderer.py
+    engine-update:
+        needs: cloudflare-pass-enable
+        name: Post Engine Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run Engine automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/engineRenderer.py
+    gyro-update:
+        needs: cloudflare-pass-enable
+        name: Post Gyro Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run Gyro automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/gyroRenderer.py
+    jumpjet-update:
+        needs: cloudflare-pass-enable
+        name: Post Jump Jet Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run Jump Jet automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/jumpjetRenderer.py
+    structure-update:
+        needs: cloudflare-pass-enable
+        name: Post Structure Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run Structure automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/structureRenderer.py                
     import-game-info-to-wiki:
         needs: cloudflare-pass-enable
         name: Uploading game info to wiki
@@ -253,7 +337,7 @@ jobs:
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
     cloudflare-pass-disable:
         if: ${{ always() }}
-        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki, armor-update, weapon-update, skill-update, cockpit-update, actuator-update]
+        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki, armor-update, weapon-update, skill-update, cockpit-update, actuator-update, engine-update, gyro-update, jumpjet-update, structure-update]
         name: Disable Cloudflare Workaround
         runs-on: ubuntu-latest
         steps:
