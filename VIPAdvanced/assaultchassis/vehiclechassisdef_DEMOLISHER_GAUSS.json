@@ -5,7 +5,8 @@
 	"Description": {
 		"Id": "vehiclechassisdef_DEMOLISHER_GAUSS",
 		"Name": "Demolisher",
-		"Details": "",
+		"Details": "Tall, squat, and using four treads, the\u00a0Demolisher\u00a0has a well-earned reputation as one of the most deadly vehicles on the battlefield. Designed to counteract the increasing scarcity of\u00a0'Mechs\u00a0during the\u00a0Succession Wars, the Demolisher became popular, especially on worlds where BattleMechs were not available. The Demolisher is armed with two GausS Rifles, which are enough to make any other unit, 'Mechs included, pause. The relatively long range of the guns means that nothing is beyond the Demolisher's reach. It has plentiful armor, and the rather solid fusion engine allows for a cruising speed of 32.4kph.\n\n <b><color=#ffcc00>Tracked: High traction, agile turning.</color></b>\n\n \n\n <b><color=#ffcc00>Movement: 3/5 Hex: 90/150 Meters.</color></b>\n\n<b>Armor:</b> Armor\n<b>Structure:</b> Structure\n<b>Values       A        S  </b>\n<b>Front</b>       250     40\n<b>Left</b>         180     40\n<b>Right</b>       180     40\n<b>Rear</b>        150     40\n<b>Turret</b>      225     40\n\n<b>Total</b>      985    200\n",
+		"UIName": "Demolisher (Gauss)",
 		"Icon": "Demolisher",
 		"Cost": 1000000,
 		"Rarity": 0,
