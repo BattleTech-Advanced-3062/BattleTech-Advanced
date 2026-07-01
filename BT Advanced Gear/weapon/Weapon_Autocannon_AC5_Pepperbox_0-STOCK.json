@@ -10,7 +10,7 @@
 		],
 		"BonusDescriptions": [
 			"WpnRecoil: 2",
-			"WpnAccuracy: -1",
+			"WpnAccuracy: +1",
 			"VariableBurstCount: 6",
 			"InternalAmmo: 6",
 			"NoFireInMelee",
@@ -37,7 +37,7 @@
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
 	"HeatDamage": 0,
-	"AccuracyModifier": 1,
+	"AccuracyModifier": -1,
 	"CriticalChanceMultiplier": 1,
 	"AOECapable": false,
 	"IndirectFireCapable": false,

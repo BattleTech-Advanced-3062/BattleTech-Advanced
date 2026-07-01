@@ -1970,19 +1970,19 @@
 		{
 			"Bonus": "CPBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
+			"Long": "Volatile",
 			"Full": "Pressurized Coolant can explode for {0} Heat and 50% of that as Damage and Stability"
 		},
 		{
 			"Bonus": "ChangerBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
+			"Long": "Volatile",
 			"Full": "Pressurized Coolant can explode for {0} Heat and 33% of that as Damage and Stability"
 		},
 		{
 			"Bonus": "BankBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant {0}",
+			"Long": "Volatile {0}",
 			"Full": "Pressurized Coolant can explode for {0} Damage"
 		},
 		{
