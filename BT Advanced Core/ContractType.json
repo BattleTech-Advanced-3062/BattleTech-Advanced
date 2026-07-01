@@ -913,7 +913,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 1,
+			"ContractRewardMultiplier": 1.2,
 			"Illustration": "uixTxrSpot_defendBaseContract",
 			"Icon": "uixSvgIcon_contract_DefendBase",
 			"IsPublished": true
@@ -964,7 +964,7 @@
 			"IsMultiplayer": false,
 			"UsesFury": false,
 			"UsesSecondScaledStructureValues": false,
-			"ContractRewardMultiplier": 1.2,
+			"ContractRewardMultiplier": 1.5,
 			"Illustration": "uixTxrSpot_defendBaseContract",
 			"Icon": "uixSvgIcon_contract_DefendBase",
 			"IsPublished": true
