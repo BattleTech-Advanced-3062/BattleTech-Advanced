@@ -3,9 +3,9 @@
   "affinityType": "Chassis",
   "affinityData": {
     "chassisNames": [
-      "chrprfmech_nightstarbase-001_95",
-	  "chrprfmech_jotunnbase-001_95",
-	  "chrprfmech_arthurbase-001_90",
+      "Nightstar_95",
+	  "Jotunn_95",
+	  "Rashnu_90",
 	  "Excalibur_70",
 	  "Dillinger_90"
     ],

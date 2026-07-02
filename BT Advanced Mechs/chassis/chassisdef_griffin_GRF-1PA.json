@@ -1,8 +1,9 @@
 {
 	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Hand",
-			"RightLimit": "Hand"
+		"AssemblyVariant": {
+			"PrefabID": "Griffin",
+			"Exclude": false,
+			"Include": true
 		}
 	},
 	"Description": {

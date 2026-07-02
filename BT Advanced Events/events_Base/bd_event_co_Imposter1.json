@@ -1,0 +1,243 @@
+{
+	"Description": {
+		"Id": "bd_event_co_Imposter1",
+		"Name": "The Trouble With Doubles",
+		"Details": "You're hit by an unexpected voice as you step onto the Argo's command deck. \"You see it too, right, Oliveria? He's right there, mocking me.\" [[SCN_MW,MechWarrior Coles]] is gesturing at a screen in the Command Center with what looks like the aftermath of a 'Mech battle in a now-decimated town on it. \"Darius, what's going on here?\" Your XO turns to you and explains. \"[[SCN_MW,{SCN_MW.Callsign}]] here brought this to my attention, I was just about to to call you to the bridge to discuss it. Essentially, it looks lik-\" [[SCN_MW,{SCN_MW.Callsign}]] cuts him off impatiently. \"I'm being impersonated! You've gotta help me put a stop to this... this identity thief before he ruins my reputation and ComStar's good name!\". You muse on the topic for a moment and then look over the devastation on the screen again. Maybe there's something to be done here.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 1000,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": []
+		},
+		"ExclusionTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RequirementComparisons": [
+                {
+                    "obj" : "Travel",
+                    "op" : "Equal",
+                    "val" : 0,
+                    "valueConstant" : "0"
+                }
+		]
+	},
+	"AdditionalRequirements": [
+		{
+			"Scope": "MechWarrior",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"name_bloodydoves"
+					]
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": [
+					{
+						"obj": "Injuries",
+						"op": "Equal",
+						"val": 0,
+						"valueConstant": "0"
+					},
+					{
+                        "obj": "Guts",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Piloting",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Gunnery",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    },
+                    {
+                        "obj": "Tactics",
+                        "op": "GreaterThanOrEqual",
+                        "val": 7,
+                        "valueConstant": "7"
+                    }
+				]
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Commit the company to helping take out the imposter.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [
+				{
+					"Scope": "Company",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": []
+				}
+			],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Help Him Out",
+						"Details": "You nod firmly, this kind of wanton destruction has to be dealt with. \"[[SCN_MW,{SCN_MW.Callsign}]], you've got yourself a deal. I'll help you stop this guy, it's good for our reputation and for our salvage potential.\" A broad smile covers his face and he barely can contain his appreciation. \"Commander, you won't regret this. Let's go get this asshole and put a stop to his marauding.\"\r\n\r\n\r\n<b>A unique contract named Taking Out The Trash has been added to the Command Center.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [],
+							"Actions": [
+								{
+									"Type": "System_AddContract",
+									"value": "Assassinate_ImposterOne",
+									"valueConstant": null,
+									"additionalValues": [
+										"Locals",
+										"SelfEmployed",
+										null,
+										null,
+										null,
+										null,
+										"6",
+										null
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		},
+		{
+			"Description": {
+				"Id": "outcome_1",
+				"Name": "Decline, it's too risky to take on an unknown quantity like this.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_1_0",
+						"Name": "Leaves",
+						"Details": "You shake your head. \"I'm sorry, Adam, but this isn't our fight. We can't be taking on every random MechWarrior with an imagined grudge.\"[[SCN_MW,{SCN_MW.Callsign}]] looks disappointed and looks away. \"I understand, Commander.\" You find out in the morning that [[SCN_MW,{SCN_MW.Callsign}]] skipped out in the night. A news broadcast comes in later that day from the surface: an unknown MechWarrior was found dead in the wilderness after having stolen a BattleMech. His killers remain at large. You and Darius share a knowing look: [[SCN_MW,{SCN_MW.Callsign}]] isn't coming back.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "SecondaryMechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": [
+								{
+									"Type": "MechWarrior_Kill",
+									"value": "1",
+									"valueConstant": null,
+									"additionalValues": [
+										"Unexpectedly on an unsanctioned operation."
+									]
+								}
+							],
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": true,
+	"Tags": {
+		"tagSetSourceFile": "tags/EventTags",
+		"items": []
+	}
+}

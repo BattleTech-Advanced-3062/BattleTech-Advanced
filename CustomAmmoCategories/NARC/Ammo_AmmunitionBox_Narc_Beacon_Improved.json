@@ -13,10 +13,10 @@
 			"StabilityDamagePerAmmo": 1
 		},
 		"BonusDescriptions": [
-			"Painter: +2",
+			"NarcBeacon: +4",
 			"PainterSensors: 35%",
 			"PainterVisibility: 35%",
-			"BoostedMissileDamage: 20%",
+			"BoostedMissileDamage: 10%",
 			"iNarcPermanence",
 			"CostPerShot: 2000",
 			"AmmoCount: 5"

@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "HectorLAM",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{

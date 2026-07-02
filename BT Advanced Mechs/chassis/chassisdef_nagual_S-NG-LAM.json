@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Nagual",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{

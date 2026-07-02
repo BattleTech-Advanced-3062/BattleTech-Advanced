@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Bombard",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"FiringArc": 360
 	},

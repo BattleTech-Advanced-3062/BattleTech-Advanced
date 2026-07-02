@@ -120,12 +120,13 @@
 			"Id": "SPL",
 			"UIName": "SPL",
 			"isBaseMode": false,
-			"DamagePerShot": 12.0,
-			"HeatGenerated": -2,
-			"ShotsWhenFired": 2,
+			"DamagePerShot": 18.0,
+			"HeatGenerated": 2,
+			"ShotsWhenFired": 1,
 			"IsAMS": false,
 			"IsAAMS": false,
-			"NotUseInMelee": false
+			"NotUseInMelee": false,
+			"AMSHitChance": 0.0
 		}
 	],
 	"statusEffects": [],

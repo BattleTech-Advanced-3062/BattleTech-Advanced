@@ -1,0 +1,320 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Hunchback",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 4100000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Hunchback",
+		"Id": "chassisdef_hunchback_HBK-4O",
+		"Name": "Hunchback",
+		"Details": "The Hunchback's a certified classic on the battlefield. More Hunchback variants exist than almost any other BattleMech ever made and this, the HBK-4O, is just one more for the pile. Built by the pirates of the Oberon Confederation the HBK-4O is primarily armed with a quartet of the Confederation's new Pepperbox Rifles for unexpected burst damage. However, after the Pepperboxes run dry, all that the -4O can contribute is a Large Laser, plus the Hunchback's famously powerful fist weapons. For power the -4O relies on a 200-rated standard fusion engine while Light Plating Armor provides free tonnage for the weapons and Pirate-Accelerated Myomer provides surprising bursts of speed in combat.",
+		"Icon": "uixTxrIcon_hunchback"
+	},
+	"MovementCapDefID": "movedef_hunchback_HBK-4G",
+	"PathingCapDefID": "pathingdef_medium",
+	"HardpointDataDefID": "hardpointdatadef_hunchie",
+	"PrefabIdentifier": "chrprfmech_hunchiebase-001",
+	"PrefabBase": "hunchie",
+	"Tonnage": 50,
+	"InitialTonnage": 5,
+	"weightClass": "MEDIUM",
+	"BattleValue": 4048000,
+	"Heatsinks": 0,
+	"TopSpeed": 65,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 130,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 5,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 60,
+	"MeleeInstability": 30,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 60,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 60,
+	"DFAInstability": 30,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 160,
+			"MaxRearArmor": 80,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 120,
+			"MaxRearArmor": 60,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 80,
+			"MaxRearArmor": -1,
+			"InternalStructure": 40
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 120,
+			"MaxRearArmor": -1,
+			"InternalStructure": 60
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 12.5,
+			"z": 1
+		},
+		{
+			"x": 3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 2.5,
+			"y": 4.5,
+			"z": 2
+		},
+		{
+			"x": -2.5,
+			"y": 4.5,
+			"z": 2
+		}
+	],
+	"FixedEquipment": [
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Quirk_Battlefists_Hunchback",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Quirk_Battlefists_Hunchback",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"VariantName": "HBK-4O",
+	"ChassisTags": {
+		"items": [
+			"MediumMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Pirate Juggernaut",
+	"YangsThoughts": "The Hunchback's a certified classic on the battlefield. More Hunchback variants exist than almost any other BattleMech ever made and this, the HBK-4O, is just one more for the pile. Built by the pirates of the Oberon Confederation the HBK-4O is primarily armed with a quartet of the Confederation's new Pepperbox Rifles for unexpected burst damage. However, after the Pepperboxes run dry, all that the -4O can contribute is a Large Laser, plus the Hunchback's famously powerful fist weapons. For power the -4O relies on a 200-rated standard fusion engine while Light Plating Armor provides free tonnage for the weapons and Pirate-Accelerated Myomer provides surprising bursts of speed in combat.",
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

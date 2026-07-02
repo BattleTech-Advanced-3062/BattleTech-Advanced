@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "VonRohrs",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{

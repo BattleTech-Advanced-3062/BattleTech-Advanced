@@ -1,0 +1,346 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Corsair",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 12490000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Corsair",
+		"Id": "chassisdef_corsair_COR-6O",
+		"Name": "Corsair",
+		"Details": "Built by the Oberon Confederation, the COR-6O is a weird melange of the finest technologies the Oberons have to offer and their homegrown pirate technologies that no one in their right mind would make use of. Built on a modern 380-rated XL fusion engine for power and equipped with the finest Cobbled-Together Reinforced structure that the Confederation can supply, the -6O even has Double Heat Sinks to manage its warload's waste heat. Speaking of, the warload is simple: a Heavy Rifle and Pepperbox Rifle in each arm for sustained firepower and burst damge respectively along with an Improved Large Binary Laser for long-range ammo-free endurance firepower. 13 Double Heat Sinks keep it all frosty while three tons of CASE protected Heavy Rifle ammo provides adequate endurance for combat scenarios. Finally, for unexpected bursts of speed, Pirate-Accelerated Myomer has been fitted to the Corsair's ramshackle frame, though pilots are encouraged to be light with its use, as catastrophic failures of the myomer have been reported in the past.",
+		"Icon": "uixTxrIcon_corsair"
+	},
+	"MovementCapDefID": "movedef_corsair_COR-5R",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_rtcorsair1",
+	"PrefabIdentifier": "chrprfmech_rtcorsair1base-001",
+	"PrefabBase": "rtcorsair1",
+	"Tonnage": 95,
+	"InitialTonnage": 9.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 9360000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 100,
+	"MeleeInstability": 50,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 100,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 100,
+	"DFAInstability": 50,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Artillery",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 300,
+			"MaxRearArmor": 150,
+			"InternalStructure": 150
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "COR-6O",
+	"ChassisTags": {
+		"items": [
+			"AssaultMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Heavy Frankenmech",
+	"YangsThoughts": "Built by the Oberon Confederation, the COR-6O is a weird melange of the finest technologies the Oberons have to offer and their homegrown pirate technologies that no one in their right mind would make use of. Built on a modern 380-rated XL fusion engine for power and equipped with the finest Cobbled-Together Reinforced structure that the Confederation can supply, the -6O even has Double Heat Sinks to manage its warload's waste heat. Speaking of, the warload is simple: a Heavy Rifle and Pepperbox Rifle in each arm for sustained firepower and burst damge respectively along with an Improved Large Binary Laser for long-range ammo-free endurance firepower. 13 Double Heat Sinks keep it all frosty while three tons of CASE protected Heavy Rifle ammo provides adequate endurance for combat scenarios. Finally, for unexpected bursts of speed, Pirate-Accelerated Myomer has been fitted to the Corsair's ramshackle frame, though pilots are encouraged to be light with its use, as catastrophic failures of the myomer have been reported in the past.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_Rugged_Corsair",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "emod_structureslots_reinforced_pirate_slots",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

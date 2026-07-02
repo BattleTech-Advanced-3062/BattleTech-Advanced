@@ -19,7 +19,10 @@
 			"OrganizedRetreat",
 			"DefenceInDepth",
 			"WarzoneV2",
-			"TheSwitch_Assassinate"
+			"Scramble_DefendBase",
+			"TheSwitch_Assassinate",
+			"Scramble_DefendBase",
+			"SplitDefense"
 		]
 	},
 	"HotDropProtection": {
@@ -44,7 +47,9 @@
 		"ExcludeContractTypes": [
 			"SoloDuel",
 			"DuoDuel",
-			"BattleRoyaleV2"
+			"BattleRoyaleV2",
+			"SplitDefense",
+			"MonsterMash_Defend"
 		],
 		"IsPrimaryObjectiveIn": [
 			"SimpleBattle",
@@ -110,7 +115,9 @@
 			"OrganizedRetreat",
 			"DefenceInDepth",
 			"WarzoneV2",
-			"TheSwitch_Assassinate"
+			"TheSwitch_Assassinate",
+			"Scramble_DefendBase",
+			"SplitDefense"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"

@@ -17,6 +17,8 @@ Weapon_PPC_PPC_SNUBNOSE,Weapon,0,10
 Weapon_SRM_SRM_NARC,Weapon,0,10
 Weapon_MachineGun_HeavyMG_0-STOCK,Weapon,0,10
 Ammo_AmmunitionBox_Narc_Beacon,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_LRM,AmmunitionBox,0,10
 mechdef_firestarter_O-PRIME,Mech,1,10
 mechdef_marauder_MAD-3L,Mech,1,10
 mechdef_thunder_THR-2L,Mech,1,10

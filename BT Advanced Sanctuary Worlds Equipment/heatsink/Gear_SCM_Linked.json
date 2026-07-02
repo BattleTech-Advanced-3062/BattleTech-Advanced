@@ -7,7 +7,7 @@
 		],
 		"BonusDescriptions": [
 			"Dissipation: 2",
-			"EndMoveHeat: -2"
+			"EndMoveHeat: -1"
 		]	
 	},
     "DissipationCapacity" : 2,
@@ -70,7 +70,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "EndMoveHeat",
                 "operation": "Int_Add",
-                "modValue": "-2",
+                "modValue": "-1",
                 "modType": "System.Int32",
                 "additionalRules": "NotSet",
                 "targetCollection": "NotSet",

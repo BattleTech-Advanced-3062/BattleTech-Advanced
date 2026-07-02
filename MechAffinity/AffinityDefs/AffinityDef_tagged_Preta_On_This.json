@@ -1,0 +1,85 @@
+{
+  "id": "AffinityDef_tagged_Preta_On_This",
+  "affinityType": "Tag",
+  "affinityData": {
+    "tag": "Affinity_Imposter_Preta",
+    "chassisNames": [
+      "Preta_45"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Preta_On_This",
+        "missionsRequired": 10,
+        "levelName": "Prey(ta) On This",
+        "decription": "Imposter gains +20% walk speed (which also affects run speed) and jump distance with his Preta.",
+        "affinities": [],
+        "effectData": [
+			{
+				"Description": {
+				  "Details": "Imposter's incredible skill with this mech improves its walk speed by 20%.",
+				  "Icon": "UixSvgIcon_specialEquip_System",
+				  "Id": "StatusEffect-Affinity-ImposterWalkSpeed",
+				  "Name": "Imposter Preta Walk Speed Boost"
+				},
+				"durationData": {
+				  "duration": -1,
+				  "stackLimit": -1
+				},
+				"effectType": "StatisticEffect",
+				"nature": "Buff",
+				"statisticData": {
+					"statName": "WalkSpeed",
+					"operation": "Float_Multiply",
+					"modValue": "1.2",
+					"modType": "System.Single"
+				},
+				"targetingData": {
+				  "effectTargetType": "Creator",
+				  "effectTriggerType": "Passive",
+				  "hideApplicationFloatie": true,
+				  "showInStatusPanel": false,
+				  "showInTargetPreview": false
+				}
+			},
+			{
+				"Description": {
+				  "Details": "Imposter's incredible skill with this mech improves its jump distance by 20%.",
+				  "Icon": "UixSvgIcon_specialEquip_System",
+				  "Id": "StatusEffect-Affinity-ImposterJumpDistance",
+				  "Name": "Imposter Preta Jump Distance Boost"
+				},
+				"durationData": {
+				  "duration": -1,
+				  "stackLimit": -1
+				},
+				"effectType": "StatisticEffect",
+					"nature": "Buff",
+					"statisticData": {
+					"appliesEachTick": false,
+					"effectsPersistAfterDestruction": false,
+					"statName": "JumpDistanceMultiplier",
+					"operation": "Float_Multiply",
+					"modValue": "1.2",
+					"modType": "System.Single",
+					"additionalRules": "NotSet",
+					"targetCollection": "NotSet",
+					"targetWeaponCategory": "NotSet",
+					"targetWeaponType": "NotSet",
+					"targetAmmoCategory": "NotSet",
+					"targetWeaponSubType": "NotSet"
+				},
+				"targetingData": {
+				  "effectTargetType": "Creator",
+				  "effectTriggerType": "Passive",
+				  "hideApplicationFloatie": true,
+				  "showInStatusPanel": false,
+				  "showInTargetPreview": false
+				}
+			}
+        ]
+      }
+    ]
+  }
+}
