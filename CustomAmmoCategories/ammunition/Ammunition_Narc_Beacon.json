@@ -31,14 +31,14 @@
 			"targetingData": {
 				"effectTriggerType": "OnHit",
 				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "NARC-NarcTaggedEffect",
 				"Name": "NARC Acquired",
 				"Details": "This target was NARCed. Target is marked for incoming NARC-enabled ammunition.",
-				"Icon": "target-laser"
+				"Icon": "radio-tower"
 			},
 			"nature": "Debuff",
 			"statisticData": {
