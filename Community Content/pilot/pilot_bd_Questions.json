@@ -1,0 +1,45 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Questions",
+		"Name": "Questions",
+		"FirstName": "Irene",
+		"LastName": "Iliou",
+		"Callsign": "Questions",
+		"Gender": "Female",
+		"Faction": "AuriganRestoration",
+		"Age": "35",
+		"Details": "From a lesser political house on Tarol IV in the Magistracy of Canopus, Irene faced the fate of many third daughters of the political class, even in the matriarchal Magistracy: strategic marriage. Having completed standard military service, she decided to take a chance at being more than just a pawn on the board for her family. Irene absconded with her family’s mech, an aged Merlin-1B, and needed to make it big or never go home.\r\n\r\nThe plan, such as it was, was to make her way into the mercenary game, and become successful enough to return with a lance of mechs. Success, after all, washes away little details like stealing the family’s prize mech and walking through her father’s prized garden on the way out. Owning an entire lance would give her family the largest force in the planetary militia, pushing them to political primacy on-planet, and setting herself up as the heir apparent.\r\n\r\nIrene has spent nearly a decade plying the merc trade, rotating through various ad-hoc units through Galatea, most notably spending several years as a member of the Canopian Highlanders, ultimately declining to renew her contract with them, parting from a lance command due to their extreme anti-Spheroid views.\r\n\r\nSince then Irene has worked as a training cadre for various planetary militias too cheap to pay for an entire mercenary company to train with, who instead hire a slapdash set of local mercenaries. During this time she traded her old Merlin for a Chimera to a local noble who had the mindset of bigger mech = better mech. Since she had to leave the Chimera in smoking ruins when one of her clients failed to ‘nationalize’ the mercenary lance she was working with, Irene is now a Dispossessed free agent, wealthy enough to retire, but still dreaming of going back home to Tarol IV with a lance of mechs.\r\n\r\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Questions"
+	},
+	"BaseGunnery": "2",
+	"BonusGunnery": 0,
+	"BasePiloting": "2",
+	"BonusPiloting": 0,
+	"BaseGuts": "2",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "f_pro02_irish",
+	"abilityDefNames": [],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_magistracy",
+			"pilot_cautious",
+			"pilot_dependable",
+			"name_Questions"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

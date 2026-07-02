@@ -1,0 +1,184 @@
+{
+	"Description": {
+		"Id": "bd_event_co_Imposter3",
+		"Name": "The Trouble With Doubles, Part III",
+		"Details": "You're looking out one of the windows on the bridge, musing on recent events, when you notice someone come up beside you. \"Mind if I join you for a moment, Commander?\" You nod and stand there, watching the stars in silence with [[SCN_MW,{SCN_MW.Callsign}]] for a few minutes. Eventually, he breaks the silence. \"Commander, I wanted to say that... I'm thankful for what you did for me. You didn't have to go to bat for me like that but you did. You could have taken his offer, he probably was a better pilot and the Word is wealthy and powerful, it-\" You cut him off with a wave of your hand before speaking.",
+		"Icon": "uixTxrSpot_ComputerScreen.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Requirements": {
+		"Scope": "Company",
+		"RequirementTags": {
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": [
+				"bd_impostertwo_complete"
+			]
+		},
+		"ExclusionTags": {
+			"tagSetSourceFile": "",
+			"items": []
+		},
+		"RequirementComparisons": []
+	},
+	"AdditionalRequirements": [
+		{
+			"Scope": "MechWarrior",
+			"RequirementTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"ExclusionTags": {
+				"tagSetSourceFile": "",
+				"items": []
+			},
+			"RequirementComparisons": []
+		}
+	],
+	"AdditionalObjects": [
+		{
+			"Scope": "SecondaryMechWarrior",
+			"Requirements": {
+				"Scope": "SecondaryMechWarrior",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": [
+						"name_bloodydoves"
+					]
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "There was never another option here.",
+				"Details": "-",
+				"Icon": null
+			},
+			"RequirementList": [
+				{
+					"Scope": "Company",
+					"RequirementTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"ExclusionTags": {
+						"tagSetSourceFile": "",
+						"items": []
+					},
+					"RequirementComparisons": []
+				}
+			],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Resassure him",
+						"Details": "\"No, there was never another choice to make, Adam. You've been with the company a good while now and I don't throw away people like the Word of Blake does. They might be wealthy and they might be powerful and I'm sure I'll pay for this decision down the line but it doesn't matter. What matters is the bonds we make on the battlefield and that we have each other's backs, even when we're up against the wall. You're a part of this company now and I wasn't going to abandon you just for some money or reputation\" [[SCN_MW,{SCN_MW.Callsign}]] listens to you speak and stares out into the depths of space, deep in thought. Eventually, he speaks up again. \"There's an awful lot of stars out there, aren't there? I hope to see every one of them at your side. I'm here, for as long as you'll have me.\" You put a hand on his shoulder, the words unspoken as strong as the ones said.",
+						"Icon": null
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "MechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_morale_high"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": true,
+							"ResultDuration": 720
+						},
+						{
+							"Scope": "MechWarrior",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "Tags/PilotTags",
+								"items": [
+									"pilot_dependable"
+								]
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": null,
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						},
+						{
+							"Scope": "Company",
+							"Requirements": null,
+							"AddedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"RemovedTags": {
+								"tagSetSourceFile": "",
+								"items": []
+							},
+							"Stats": [
+								{
+									"typeString": "System.Int32",
+									"name": "Reputation.ComStar",
+									"value": "20",
+									"set": false,
+									"valueConstant": "[rep_gain_verylarge]"
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Reputation.WordofBlake",
+									"value": "-20",
+									"set": false,
+									"valueConstant": "[rep_loss_verylarge]"
+								}
+							],
+							"Actions": null,
+							"ForceEvents": null,
+							"TemporaryResult": false,
+							"ResultDuration": 0
+						}
+					]
+				}
+			],
+			"Requirements": {
+				"Scope": "Company",
+				"RequirementTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"ExclusionTags": {
+					"tagSetSourceFile": "",
+					"items": []
+				},
+				"RequirementComparisons": []
+			}
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "NORMAL",
+	"OneTimeEvent": true,
+	"Tags": {
+		"tagSetSourceFile": "tags/EventTags",
+		"items": []
+	}
+}

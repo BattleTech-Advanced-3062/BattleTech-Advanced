@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Crab",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"BattleValue": 4124000,
 	"ChassisTags": {
 		"items": [

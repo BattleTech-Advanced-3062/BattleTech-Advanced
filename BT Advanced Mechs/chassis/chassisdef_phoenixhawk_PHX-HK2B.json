@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "PhoenixHawkLAM",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"CustomParts": {
 		"AlternateRepresentations": [
 			{

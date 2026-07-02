@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Cyclops",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"ChassisTags": {
 		"items": [
 			"HeroMech",

@@ -6,9 +6,10 @@
 			}
 		],
 		"BonusDescriptions": [
+			"Narc",
 			"WpnAccuracy: +1",
 			"PipsIgnored: 1",
-			"MissileHealth: 6"
+			"MissileHealth: 4"
 		]
 	},
 	"Category": "Missile",
@@ -40,7 +41,7 @@
 	"AttackRecoil": 1,
 	"Instability": 0,
 	"AMSImmune": false,
-	"MissileHealth": 6,
+	"MissileHealth": 4,
 	"WeaponEffectID": "WeaponEffect-Weapon_Narc",
 	"Description": {
 		"Cost": 240000,

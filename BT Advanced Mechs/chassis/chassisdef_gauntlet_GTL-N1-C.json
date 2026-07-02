@@ -125,7 +125,7 @@
 		"UIName": "Gauntlet",
 		"Id": "chassisdef_gauntlet_GTL-N1-C",
 		"Name": "Gauntlet",
-		"Details": "The Gauntlet was designed during the 3060s by the Lyran Commonwealth as a way to reuse excess Bushwacker skeletons after they were overproduced. Built with an Endo-Steel frame and Light Ferro-Fibrous armor, the Gauntlet is a simple and effective OmniMech. A 275-rated Light fusion engine enhanced by MASC guarantees plenty of power and speed while 21 tons of pod space is more than sufficient for the warload. The C config is a mixerd attacker: an ER PPC provides ammo-free ranged firepower while twin MML-7s function well at close or far ranges. An ER Small Laser covers very close ranges while four tons of ammo ensure that the MMLs never run dry.",
+		"Details": "The Gauntlet was designed during the 3060s by the Lyran Commonwealth as a way to reuse excess Bushwacker skeletons after they were overproduced. Built with an Endo-Steel frame and Light Ferro-Fibrous armor, the Gauntlet is a simple and effective OmniMech. A 275-rated Light fusion engine enhanced by MASC guarantees plenty of power and speed while 21 tons of pod space is more than sufficient for the payload. The C config is a mixed attacker: an ER PPC provides ammo-free ranged firepower while twin MML-7s function well at close or far ranges. An ER Small Laser covers very close ranges while four tons of ammo ensure that the MMLs never run dry.",
 		"Icon": "uixTxrIcon_bushwacker"
 	},
 	"MovementCapDefID": "movedef_bushwacker",
@@ -336,7 +336,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Versatile OmniMech",
-	"YangsThoughts": "The Gauntlet was designed during the 3060s by the Lyran Commonwealth as a way to reuse excess Bushwacker skeletons after they were overproduced. Built with an Endo-Steel frame and Light Ferro-Fibrous armor, the Gauntlet is a simple and effective OmniMech. A 275-rated Light fusion engine enhanced by MASC guarantees plenty of power and speed while 21 tons of pod space is more than sufficient for the warload. The C config is a mixerd attacker: an ER PPC provides ammo-free ranged firepower while twin MML-7s function well at close or far ranges. An ER Small Laser covers very close ranges while four tons of ammo ensure that the MMLs never run dry.",
+	"YangsThoughts": "The Gauntlet was designed during the 3060s by the Lyran Commonwealth as a way to reuse excess Bushwacker skeletons after they were overproduced. Built with an Endo-Steel frame and Light Ferro-Fibrous armor, the Gauntlet is a simple and effective OmniMech. A 275-rated Light fusion engine enhanced by MASC guarantees plenty of power and speed while 21 tons of pod space is more than sufficient for the payload. The C config is a mixed attacker: an ER PPC provides ammo-free ranged firepower while twin MML-7s function well at close or far ranges. An ER Small Laser covers very close ranges while four tons of ammo ensure that the MMLs never run dry.",
 	"CustomParts": {
 		"CustomParts": []
 	}

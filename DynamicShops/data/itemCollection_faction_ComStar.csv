@@ -21,6 +21,8 @@ Ammo_AmmunitionBox_Narc_Beacon_Improved,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Narc_Explosive_Improved,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Narc_Haywire_Improved,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Narc_ECM_Improved,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_LRM,AmmunitionBox,0,10
 Gear_Angel_ECM,Upgrade,0,1
 Gear_Bloodhound_AP,Upgrade,0,1
 Gear_NullSignatureSystem,Upgrade,0,1

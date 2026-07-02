@@ -1,0 +1,122 @@
+{
+  "id": "AffinityDef_tagged_Legacy_Of_Violence",
+  "affinityType": "Tag",
+  "affinityData": {
+    "tag": "Affinity_Imposter_Legacy",
+    "chassisNames": [
+      "chrprfmech_legacybase-001_80"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Legacy_Of_Violence",
+        "missionsRequired": 10,
+        "levelName": "Legacy Of Violence",
+        "decription": "Imposter gains +10% weapon damage with his Legacy.",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "Imposter's incredible skill with this mech improves its energy weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-ImposterEnergyDamage",
+              "Name": "Imposter Legacy Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Energy",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "Imposter's incredible skill with this mech improves its ballistic weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-ImposterBallisticDamage",
+              "Name": "Imposter Legacy Ballistic Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Ballistic",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "Imposter's incredible skill with this mech improves its missile weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-ImposterMissileDamage",
+              "Name": "Imposter Legacy Missile Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Missile",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

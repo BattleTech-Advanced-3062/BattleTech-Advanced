@@ -7,7 +7,8 @@
 	"AddendumFactoriesPaths": [
 		"Heavy Metal Unit Module/shops",
 		"Flashpoint Unit Module/shops",
-		"Urban Warfare Unit Module/shops"
+		"Urban Warfare Unit Module/shops",
+		"Community Content/data"
 	],
     "FactoryListPrefix": "BTA_List_",
     "_PlanetNameMapping_Description": "Maps planet names to CSV base names for cases where they don't match. Key = exact planet name in game, Value = base name in CSV file (without prefix/extension).",

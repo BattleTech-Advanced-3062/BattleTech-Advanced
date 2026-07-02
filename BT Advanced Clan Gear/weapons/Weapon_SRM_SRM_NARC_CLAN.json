@@ -6,10 +6,11 @@
 			}
 		],
 		"BonusDescriptions": [
-				"WpnAccuracy: +1",
-				"PipsIgnored: 2",
-				"AMSImmune"
-			]
+			"Narc",
+			"WpnAccuracy: +1",
+			"PipsIgnored: 2",
+			"AMSImmune"
+		]
 	},
 	"Category": "Missile",
 	"Type": "SRM",

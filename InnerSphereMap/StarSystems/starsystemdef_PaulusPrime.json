@@ -2,7 +2,7 @@
 	"Description": {
 		"Id": "starsystemdef_PaulusPrime",
 		"Name": "Paulus Prime",
-		"Details": "Named after the famous mercenary commander Paul the Paulrus. The locals changed the name to Paulus after Paul's death. Their planetary flag is a walrus with machine guns and a cigar.  ",
+		"Details": "Named after the famous pirate commander Paul the Paulrus, the locals changed the name to Paulus after Paul's death. Their planetary flag is a walrus with machine guns and a cigar.",
 		"Icon": ""
 	},
 	"Position": {
@@ -21,7 +21,7 @@
 			"planet_pop_small",
 			"planet_industry_mining",
 			"planet_industry_aquaculture",
-			"planet_faction_clanwolf"
+			"planet_faction_oberon"
 		],
 		"tagSetSourceFile": ""
 	},
@@ -40,7 +40,7 @@
 	},
 	"FuelingStation": false,
 	"JumpDistance": 16,
-	"ownerID": "ClanWolf",
+	"ownerID": "Oberon",
 	"ShopRefreshRate": 0,
 	"ShopMaxInventory": 0,
 	"ShopMaxSpecials": 9,
@@ -54,13 +54,12 @@
 	"UseMaxContractOverride": false,
 	"MaxContractOverride": 0,
 	"SystemShopItems": [
-		"itemCollection_major_ClanWorlds",
 		"itemCollection_shop_chemicalsProgression",
 		"itemCollection_shop_miningProgression"
 	],
-	"factionShopOwnerID": "ClanWolf",
+	"factionShopOwnerID": "Oberon",
 	"FactionShopItems": [
-		"itemCollection_faction_ClanWorlds"
+		"itemCollection_faction_Oberon"
 	],
 	"BlackMarketShopItems": null,
 	"CoreSystemID": "starsystemdef_PaulusPrime",
@@ -69,21 +68,22 @@
 		"CAREER",
 		"NONE"
 	],
-	"DefaultDifficulty": 2,
+	"DefaultDifficulty": 7,
 	"DifficultyList": [],
 	"DifficultyModes": [],
 	"contractEmployerIDs": [
-		"Steiner",
-		"Marik",
-		"Kurita",
-		"Davion",
-		"Liao",
-		"Cameron",
-		"WordOfBlake",
-		"ComStar",
-		"Rasalhague"
+		"Oberon",
+		"AuriganPirates",
+		"Locals"
 	],
 	"contractTargetIDs": [
-		"ClanWolf"
+		"Steiner",
+		"ComStar",
+		"ClanJadeFalcon",
+		"ClanWolf",
+		"Hanse",
+		"Locals",
+		"Mercenaries",
+		"RimWorldsRepublic"
 	]
 }

@@ -14,6 +14,8 @@ Weapon_SRM_SRM_NARC,Weapon,0,10
 Weapon_MachineGun_MachineGun_0-STOCK,Weapon,0,10
 Ammo_AmmunitionBox_Narc_Beacon,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Narc_Haywire,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_LRM,AmmunitionBox,0,10
 mechdef_ostscout_OTT-9CS,Mech,1,10
 mechdef_shadowhawk_SHD-7CS,Mech,1,10
 mechdef_vonrohrs_VON-4RH-5,Mech,1,10

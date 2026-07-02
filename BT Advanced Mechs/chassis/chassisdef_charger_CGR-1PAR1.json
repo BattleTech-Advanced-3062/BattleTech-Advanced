@@ -1,8 +1,9 @@
 {
 	"Custom": {
-		"ArmActuatorSupport": {
-			"LeftLimit": "Lower",
-			"RightLimit": "Hand"
+		"AssemblyVariant": {
+			"PrefabID": "Charger",
+			"Exclude": false,
+			"Include": true
 		}
 	},
 	"Description": {
@@ -221,6 +222,7 @@
 	"VariantName": "CGR-1PAR1",
 	"ChassisTags": {
 		"items": [
+			"ArmLimitLowerLeft",
 			"OmniMech"
 		],
 		"tagSetSourceFile": ""

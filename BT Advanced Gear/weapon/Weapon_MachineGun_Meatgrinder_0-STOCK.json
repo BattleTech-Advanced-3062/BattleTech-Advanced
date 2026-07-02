@@ -25,7 +25,7 @@
 	],
 	"AmmoCategory": "MG",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 1,
+	"HeatGenerated": 2,
 	"Damage": 2,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
@@ -88,7 +88,7 @@
 			"isBaseMode": false,
 			"ShotsWhenFired": 6,
 			"FlatJammingChance": 0.2,
-			"HeatGenerated": 3,
+			"HeatGenerated": 4,
 			"CriticalChanceMultiplier": -0.4
 		}
 	],

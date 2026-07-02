@@ -397,6 +397,18 @@
 			"Full": "{0} Sprinting Distance when Activated"
 		},
 		{
+			"Bonus": "ActivatedRunMulti",
+			"Short": "{0} Sprint Multi.",
+			"Long": "{0} Sprint Multiplier",
+			"Full": "{0} Sprinting Multiplier when Activated"
+		},
+		{
+			"Bonus": "ActivatedRunMultiStacking",
+			"Short": "{0} Sprint Multi.",
+			"Long": "{0} Sprint Multiplier",
+			"Full": "This equipment provides a sprint speed bonus of {0} on activation, then provides a stacking {1} sprint speed bonus per subsequent round while activated, up to a maximum speed bonus of {2}."
+		},
+		{
 			"Bonus": "ActiveJumpDistance",
 			"Short": "{0} JumpDist",
 			"Long": "{0} Jump Distance",
@@ -539,6 +551,12 @@
 			"Short": "{0} Shield Jump",
 			"Long": "{0} Shield Jump",
 			"Full": "When activated, this component reduces the carrying unit's jump speed by {0}."
+		},
+		{
+			"Bonus": "ActivatablePAM",
+			"Short": "P.A.M.",
+			"Long": "P.A.M.",
+			"Full": "While activated, P.A.M. provides a static heat penalty to the unit while also providing a stacking movement bonus. However, it comes with a failure chance and should the component fail, the carrying unit will take a sizable amount of structure damage directly to the center torso."
 		},
 		{
 			"Bonus": "PenaltyCalledShot",
@@ -1952,20 +1970,20 @@
 		{
 			"Bonus": "CPBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
+			"Long": "Volatile",
 			"Full": "Pressurized Coolant can explode for {0} Heat and 50% of that as Damage and Stability"
 		},
 		{
 			"Bonus": "ChangerBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
+			"Long": "Volatile",
 			"Full": "Pressurized Coolant can explode for {0} Heat and 33% of that as Damage and Stability"
 		},
 		{
 			"Bonus": "BankBoom",
 			"Short": "Volatile",
-			"Long": "Pressurized Coolant",
-			"Full": "Pressurized Coolant can explode for {0} Heat, Damage and Stability"
+			"Long": "Volatile {0}",
+			"Full": "Pressurized Coolant can explode for {0} Damage"
 		},
 		{
 			"Bonus": "DmgIncrease",
@@ -2337,7 +2355,13 @@
 			"Bonus": "Narc",
 			"Short": "NARC",
 			"Long": "NARC Beacon",
-			"Full": "NARC Beacon's grant visibility on hit- counters ECM fields up to {0}"
+			"Full": "NARC beacons firing standard NARC ammunition provide a targeting and clustering bonus against NARC'd targets as long as the attacker is using NARC-enabled LRM or SRM ammunition. For other missile munitions, NARC does not provide any bonus."
+		},
+		{
+			"Bonus": "NarcBeacon",
+			"Short": "NARC Ammo",
+			"Long": "NARC Beacon Ammunition",
+			"Full": "NARC beacon ammunition functions as a beacon for other NARC-enabled munitions, allowing them to home in on the target hit with the beacon, gaining {0} additional accuracy against the beaconed target."
 		},
 		{
 			"Bonus": "NarcLauncher",
@@ -5604,6 +5628,18 @@
 			"Full": "The Viral Jammer's range of effect is {0} meters."
 		},
 		{
+			"Bonus": "NARCLRM",
+			"Short": "NARC LRM",
+			"Long": "NARC LRM",
+			"Full": "NARC LRMs gain a {0} accuracy bonus against appropriate targets, such as those designated by NARC beacon munitions."
+		},
+		{
+			"Bonus": "NARCSRM",
+			"Short": "NARC SRM",
+			"Long": "NARC SRM",
+			"Full": "NARC SRMs gain a {0} accuracy bonus against appropriate targets, such as those designated by NARC beacon munitions."
+		},
+		{
 			"Bonus": "SemiGuidedLRM",
 			"Short": "Semi-Guided LRM",
 			"Long": "Semi-Guided LRM",
@@ -5625,7 +5661,7 @@
 			"Bonus": "SCM",
 			"Short": "SCM",
 			"Long": "Super-Cooled Myomer",
-			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 2 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
+			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 1 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
 		},
 		{
             "Bonus": "SetReservedSlotsFullBody",

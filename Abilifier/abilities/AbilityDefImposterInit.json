@@ -1,0 +1,35 @@
+{
+	"Description": {
+		"Id": "AbilityDefImposterInit",
+		"Name": "DOUBLE THE BODY, DOUBLE THE SPEED",
+		"Details": "PASSIVE: Imposter might be a body double but he's a damn good one. He receives +2 initiative in combat.",
+		"Icon": "rosa-shield"
+	},
+	"DisplayParams": "ShowInMWTRay",
+	"ActivationTime": "Passive",
+	"EffectData": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "OnActivation",
+				"effectTargetType": "Creator"
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "AbilityDefImposterInit_Init",
+				"Name": "Initiative Boost",
+				"Details": "+2 to base Initiative",
+				"Icon": "uixSvgIcon_ability_mastertactician"
+			},
+			"statisticData": {
+				"statName": "BaseInitiative",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			},
+			"nature": "Buff"
+		}
+	]
+}

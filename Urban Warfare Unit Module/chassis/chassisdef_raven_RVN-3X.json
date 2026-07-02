@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Raven",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
