@@ -21,7 +21,12 @@
     "topAffinitiesInTooltipCount": 3,
     "showQuirks": true,
     "affinityGroups": [],
-    "prefabOverrides": []
+    "prefabOverrides": [
+      {
+        "prefabId" : "Griffin_55",
+        "overrideName" : "Griffin"
+      }
+    ]
   },
   "quirkSettings": {
     "playerQuirkPools": false,
