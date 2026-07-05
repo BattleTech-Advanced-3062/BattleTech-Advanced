@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_FR_Cataphract",
     "chassisNames": [
-      "chrPrfMech_cataphractBase-001_70",
+      "Cataphract_70",
       "Caesar_70"
     ],
     "idType": "AssemblyVariant",

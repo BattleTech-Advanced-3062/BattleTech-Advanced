@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_BD_KingCrab",
     "chassisNames": [
-      "chrPrfMech_kingcrabBase-001_100"
+      "KingCrab_100"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

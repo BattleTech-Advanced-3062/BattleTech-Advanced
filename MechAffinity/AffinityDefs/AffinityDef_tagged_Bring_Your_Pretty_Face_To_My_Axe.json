@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_Pharaoh_Berserker",
     "chassisNames": [
-      "chrprfmech_berserkerbase-001_100"
+      "Berserker_100"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
