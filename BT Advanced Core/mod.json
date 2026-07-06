@@ -110,7 +110,8 @@
 		"VMMWSGC",
 		"JwTweaks",
 		"SwordOfRestoration",
-		"HeraldryPicker"
+		"HeraldryPicker",
+		"BT_SpendThatXp"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"
