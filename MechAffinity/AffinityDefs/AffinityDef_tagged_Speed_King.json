@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_Wulf_Commando",
     "chassisNames": [
-      "chrPrfMech_commandoBase-001_25"
+      "Commando_25"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

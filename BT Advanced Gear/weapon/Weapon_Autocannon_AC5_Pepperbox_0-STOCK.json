@@ -8,6 +8,10 @@
 				"CategoryID": "NeverMelee"
 			}
 		],
+		"ComponentExplosion": {
+			"ExplosionDamagePerAmmo": 25,
+			"StabilityDamagePerAmmo": 12
+		},
 		"BonusDescriptions": [
 			"WpnRecoil: 2",
 			"WpnAccuracy: +1",
@@ -15,8 +19,16 @@
 			"InternalAmmo: 6",
 			"NoFireInMelee",
 			"IsRifle",
+			"CostPerShot: 100",
+			"WeaponBoom: 25",
 			"WeaponAttachmentCompatible: Periphery FCS"
-		]
+		],
+		"InternalAmmoTonnage": {
+            "InternalAmmoTons": 0.1
+        },
+		"AmmoCost": {
+			"PerUnitCost": 100
+		}
 	},
 	"Category": "Ballistic",
 	"Type": "Autocannon",

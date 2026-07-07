@@ -354,21 +354,21 @@
 		},
 		{
 			"MountedLocation": "Right",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_NARC_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Right",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_NARC_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
 		},
 		{
 			"MountedLocation": "Rear",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+			"ComponentDefID": "Ammo_AmmunitionBox_NARC_SRM",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"

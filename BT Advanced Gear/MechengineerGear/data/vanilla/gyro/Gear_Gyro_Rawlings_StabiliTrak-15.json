@@ -15,11 +15,11 @@
 			}
 		},
 		"BonusDescriptions": [
-				"SureFoot",
-				"StabDamageTaken: -10%",
-				"Recoil: -1",
-				"GyroStab: 40"
-			]
+			"SureFoot",
+			"StabDamageTaken: -15%",
+			"Recoil: -1",
+			"GyroStab: 40"
+		]
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -36,7 +36,7 @@
 		"Details": "The Rawlings StabiliTrak Gyro is the last word in stabilization technology for any combat situation. Rawlings: the Last Name You'll Ever Need in Stabilization! This gyro, the StabiliTrak-15, provides modest weapon stabilization, reducing weapon recoil from all weapon sources as well as providing Rawling's patented Sure Footed Technology while moving through rough terrain. The StabiliTrak-15 even dampens incoming stability-reducing damage against your mech!",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
-	"BonusValueA": "- 30% Stb.Dmg. Taken",
+	"BonusValueA": "",
 	"BonusValueB": "",
 	"ComponentType": "Upgrade",
 	"ComponentSubType": "NotSet",
@@ -94,7 +94,7 @@
 			"statisticData": {
 				"statName": "ReceivedInstabilityMultiplier",
 				"operation": "Float_Multiply",
-				"modValue": "0.9",
+				"modValue": "0.85",
 				"modType": "System.Single"
 			}
 		},
