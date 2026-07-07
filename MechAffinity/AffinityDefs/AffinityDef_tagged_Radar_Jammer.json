@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_Turtrus_Crab",
     "chassisNames": [
-		"chrPrfMech_crabBase-001_50",
+		"Crab_50",
 		"NightChanter_45"
     ],
     "idType": "AssemblyVariant",

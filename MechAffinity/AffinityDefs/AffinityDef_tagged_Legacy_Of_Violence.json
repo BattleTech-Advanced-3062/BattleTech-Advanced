@@ -4,7 +4,7 @@
   "affinityData": {
     "tag": "Affinity_Imposter_Legacy",
     "chassisNames": [
-      "chrprfmech_legacybase-001_80"
+      "Legacy_80"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -237,7 +237,7 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Quirk_ImprovedLifeSupport_Uranus",
+			"ComponentDefID": "Gear_Quirk_CombatComputer_Uranus",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

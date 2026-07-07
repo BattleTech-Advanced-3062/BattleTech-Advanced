@@ -1,0 +1,18 @@
+﻿{
+  "Name": "BT_SpendThatXp",
+  "Version": "1.1.0.0",
+  "Description": "",
+  "Author": "NBK_RedSpy",
+  "Website": "https://github.com/NBKRedSpy/BT_SpendThatXp",
+
+  "Enabled": true,
+
+  "DLL": "BT_SpendThatXp.dll",
+
+  "Settings": {
+    "Level1Color": "#2AA605",
+    "Level2Color": "#2AA605",
+    "Level3Color": "#2AA605"
+  }
+
+}
