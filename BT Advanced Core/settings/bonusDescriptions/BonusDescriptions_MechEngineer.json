@@ -5660,7 +5660,7 @@
 		{
 			"Bonus": "SCM",
 			"Short": "SCM",
-			"Long": "Super-Cooled Myomer",
+			"Long": "Super-Cooled Myomer reduces heat by 2 and adds 2 heat sinking capacity per slot.",
 			"Full": "Super-Cooled Myomer, or SCM, takes up a space in each body part. Each piece of SCM reduces heat by 1 and adds 2 heat sinking capacity to the equipped 'Mech. It is incompatible with other myomer-affecting equipment, such as MASC or TSM."
 		},
 		{
