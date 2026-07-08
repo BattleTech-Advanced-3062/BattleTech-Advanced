@@ -10,7 +10,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -25,12 +25,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -46,12 +46,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -67,12 +67,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -88,12 +88,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -109,12 +109,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -130,12 +130,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -151,12 +151,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -172,12 +172,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -193,12 +193,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -214,12 +214,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -235,12 +235,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -256,12 +256,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -277,12 +277,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -298,12 +298,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
@@ -319,7 +319,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out repository code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: ${{ github.repository }}
                 path: bta
@@ -342,7 +342,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Check out automation code
-              uses: actions/checkout@v4
+              uses: actions/checkout@v5
               with:
                 repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
                 path: wiki-gen
