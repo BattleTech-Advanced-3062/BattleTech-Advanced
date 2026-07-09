@@ -22,8 +22,8 @@
 	"icon": "uixTxrLogo_CalderonProtectorate",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
 	"factionMapColor": "rgba(164,58,58,1.0)",
-	"DefaultCombatLeaderCastDefId": "castDef_TaurianDefaultCommander",
-	"DefaultRepresentativeCastDefId": "castDef_TaurianRepDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_Calderon",
+	"DefaultRepresentativeCastDefId": "castDef_Calderon",
 	"heraldryDefId": "heraldrydef_CalderonProtectorate",
 	"ReputationStatements": [
 		"In an earlier era, House Calderon would have had you killed rather than offer you a contract. Unfortunately, we don't live in that earlier era-and also, we need a disposable soldier. Accept or not; I don't care.",

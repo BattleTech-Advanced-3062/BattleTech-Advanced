@@ -24,8 +24,8 @@
 	"icon": "uixTxrLogo_FroncReaches",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
 	"factionMapColor": "rgba(227,233,51,1.0)",
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_FroncReaches",
+	"DefaultRepresentativeCastDefId": "castDef_FroncReaches",
 	"heraldryDefId": "heraldrydef_FroncReaches",
 	"ReputationStatements": [
 		"I don't even want to talk to you today, lowlifes that you are, but desperate times call for desperate measures. Here's a job, do it if you care.",

@@ -1,0 +1,20 @@
+{
+	"id": "castDef_Hanse",
+	"internalName": "Hanse",
+	"firstName": "Hans",
+	"lastName": "Bauer",
+	"callsign": "",
+	"rank": "Merchant",
+	"gender": "Male",
+	"factionID": "Hanse",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_HansBauer.png"
+	},
+	"emotePotraitList": []
+}

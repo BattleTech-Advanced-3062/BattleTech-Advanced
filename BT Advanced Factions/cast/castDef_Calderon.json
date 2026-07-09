@@ -1,0 +1,20 @@
+{
+	"id": "castDef_Calderon",
+	"internalName": "CalderonProtectorate",
+	"firstName": "Christy",
+	"lastName": "Elbing",
+	"callsign": "Blizzard",
+	"rank": "Captain",
+	"gender": "Female",
+	"factionID": "CalderonProtectorate",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_ChristyElbing.png"
+	},
+	"emotePotraitList": []
+}

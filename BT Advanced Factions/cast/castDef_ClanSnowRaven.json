@@ -1,0 +1,20 @@
+{
+	"id": "castDef_ClanSnowRaven",
+	"internalName": "ClanSnowRaven",
+	"firstName": "Dominic",
+	"lastName": "McKenna",
+	"callsign": "",
+	"rank": "Star Admiral",
+	"gender": "Male",
+	"factionID": "ClanSnowRaven",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_DominicMcKenna.png"
+	},
+	"emotePotraitList": []
+}

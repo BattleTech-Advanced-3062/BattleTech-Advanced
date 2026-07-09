@@ -41,8 +41,8 @@
 	"icon": "uixTxrLogo_Cameron2",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",
 	"factionMapColor": "rgba(125,118,121,0.9)",
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_Cameron",
+	"DefaultRepresentativeCastDefId": "castDef_Cameron",
 	"heraldryDefId": "heraldrydef_Cameron",
 	"ReputationStatements": [
 		"You are hated in the Hegemony and I am loathe to offer you anything at all but desperate times call for desperate measures. Do this contract and perhaps work your way back into our good graces.",

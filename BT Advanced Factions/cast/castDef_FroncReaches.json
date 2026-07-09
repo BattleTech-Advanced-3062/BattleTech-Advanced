@@ -1,0 +1,20 @@
+{
+	"id": "castDef_FroncReaches",
+	"internalName": "FroncReaches",
+	"firstName": "Rebecca",
+	"lastName": "Maltin",
+	"callsign": "",
+	"rank": "Representative",
+	"gender": "Female",
+	"factionID": "FroncReaches",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_RebeccaMaltin.png"
+	},
+	"emotePotraitList": []
+}

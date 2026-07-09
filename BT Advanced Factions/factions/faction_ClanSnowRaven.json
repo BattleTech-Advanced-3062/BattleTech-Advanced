@@ -25,8 +25,8 @@
 		"RimWorldsRepublic"
 	],
 	"Presence": 0.1,
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_ClanSnowRaven",
+	"DefaultRepresentativeCastDefId": "castDef_ClanSnowRaven",
 	"heraldryDefId": "heraldrydef_ClanSnowRaven",
 	"ReputationStatements": [
 		"Freeborn, I come to you seeking to reverse the distrust between us, by offering you this batchall.  I hope you will accept it.",

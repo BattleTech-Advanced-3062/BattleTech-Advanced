@@ -1,0 +1,20 @@
+{
+	"id": "castDef_WordOfBlake",
+	"internalName": "WordOfBlake",
+	"firstName": "Tatyana",
+	"lastName": "Corsairre",
+	"callsign": "",
+	"rank": "Precentor",
+	"gender": "Female",
+	"factionID": "WordOfBlake",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_TatyanaCorsairre.png"
+	},
+	"emotePotraitList": []
+}

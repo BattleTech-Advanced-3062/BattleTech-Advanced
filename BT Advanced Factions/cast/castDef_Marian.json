@@ -1,0 +1,20 @@
+{
+	"id": "castDef_Marian",
+	"internalName": "Marian",
+	"firstName": "Joshua",
+	"lastName": "Kilgore",
+	"callsign": "",
+	"rank": "Principes",
+	"gender": "Male",
+	"factionID": "Marian",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_JoshuaKilgore.png"
+	},
+	"emotePotraitList": []
+}

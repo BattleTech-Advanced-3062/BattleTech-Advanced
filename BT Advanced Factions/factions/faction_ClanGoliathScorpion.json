@@ -29,8 +29,8 @@
 		"DarkCaste"
 	],
 	"Presence": 0.1,
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_ClanGoliathScorpion",
+	"DefaultRepresentativeCastDefId": "castDef_ClanGoliathScorpion",
 	"heraldryDefId": "heraldrydef_ClanGoliathScorpion",
 	"ReputationStatements": [
 		"Freeborn, if it were not for the fact that the necrosia has showed me you can be of service, I would not suffer your presence. Here is a trivial task for you, to prove your worth.",

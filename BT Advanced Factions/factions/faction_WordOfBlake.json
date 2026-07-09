@@ -43,8 +43,8 @@
 		"RimWorldsRepublic"
 	],
 	"Presence": 0.1,
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_WordOfBlake",
+	"DefaultRepresentativeCastDefId": "castDef_WordOfBlake",
 	"heraldryDefId": "heraldrydef_WordOfBlake",
 	"ReputationStatements": [
 		"You are a profligate, an unbeliever, but Blake's mercy is open to all. Do this for us, and perhaps we shall overlook your past transgressions.",

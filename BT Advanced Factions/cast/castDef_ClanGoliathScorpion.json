@@ -1,0 +1,20 @@
+{
+	"id": "castDef_ClanGoliathScorpion",
+	"internalName": "ClanGoliathScorpion",
+	"firstName": "Josip",
+	"lastName": "Posavatz",
+	"callsign": "",
+	"rank": "Seeker",
+	"gender": "Male",
+	"factionID": "ClanGoliathScorpion",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_JosipPosavatz.png"
+	},
+	"emotePotraitList": []
+}
