@@ -28,7 +28,7 @@
 		"UIName": "ECM Suite (S)",
 		"Id": "Gear_Sanctuary_ECM",
 		"Name": "ECM Suite (S)",
-		"Details": "Given the Sanctuary's tendancy to use widespread wireless controlled drones in combat, the Sanctuary Worlds quickly learned a great deal about ECM technology, including how to harden drones against it. A side benefit is that they learned a lot about hardening their normal mechs and tanks even further against enemy ECM effects. The end result is this, the standard Sanctuary ECM equipment. While not as powerful as the best ECM the Inner Sphere can muster. Sanctuary ECM comes with the side benefit of reinforcing nearby ECM fields instead of overriding them like Inner Sphere ECM does and granting the carrying unit virtual immunity to enemy sensor locks.",
+		"Details": "Given the Sanctuary's tendency to use widespread wireless controlled drones in combat, the Sanctuary Worlds quickly learned a great deal about ECM technology, including how to harden drones against it. A side benefit is that they learned a lot about hardening their normal mechs and tanks even further against enemy ECM effects. The end result is this, the standard Sanctuary ECM equipment. While not as powerful as the best ECM the Inner Sphere can muster. Sanctuary ECM comes with the side benefit of reinforcing nearby ECM fields instead of overriding them like Inner Sphere ECM does and granting the carrying unit virtual immunity to enemy sensor locks.",
 		"Icon": "circuitry"
 	},
 	"BonusValueA": "",
@@ -166,7 +166,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Beta",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Sanctuary ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -196,7 +196,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Gamma",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Sanctuary ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -226,7 +226,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Delta",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Sanctuary ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -256,7 +256,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Epsilon",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Sanctuary ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
