@@ -31,7 +31,7 @@
 		"Details": "Developed by the Sanctuary Worlds to serve in the role of heavy assault, the Piledriver exists specifically to crush its enemies and see them driven before it. Heavily armed and armored, the Piledriver is a simple, no-nonsense machine, designed to annihilate its foes without mercy. The PLD-5R is a simple variant, armed with a battery of VRM-18s and VRM-12s as well as twin Large Electro-Lasers for close-range backup.",
 		"Icon": "uixTxrIcon_piledriver"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{
