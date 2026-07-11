@@ -30,7 +30,7 @@
 		"Details": "The Mackie was the pride of the Terran Hegemony and the sign of their power, so it is fitting that it accompanied the Hegemony corporations that would become the Sanctuary Worlds on their great journey. Their inherent Terran pride never dimmed and they maintained the Mackie out of pride. The MSK-8DD is one of the many variants of the Mackie in the Sanctuary Worlds. Built to haul heavy ballistics into combat the Double D, as its called, carries a Scattergun/15 and twin Double-Barrel AC/15s as well as the requisite twin Medium Electro-Lasers. 7 total tons of ammo keeps the guns running while 15 DHS and ECM provide sustain.",
 		"Icon": "uixTxrIcon_mackie"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{
