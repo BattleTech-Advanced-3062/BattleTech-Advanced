@@ -86,7 +86,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -108,8 +108,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 14,
-			"MaxArmor": 120,
-			"MaxRearArmor": 60,
+			"MaxArmor": 100,
+			"MaxRearArmor": 40,
 			"InternalStructure": 60
 		},
 		{
@@ -126,8 +126,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 19,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
+			"MaxArmor": 135,
+			"MaxRearArmor": 45,
 			"InternalStructure": 80
 		},
 		{
@@ -148,8 +148,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 14,
-			"MaxArmor": 120,
-			"MaxRearArmor": 60,
+			"MaxArmor": 100,
+			"MaxRearArmor": 40,
 			"InternalStructure": 60
 		},
 		{
@@ -157,7 +157,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -166,7 +166,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -175,7 +175,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		}
@@ -239,7 +239,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Quad_Omni",
+			"ComponentDefID": "Gear_Gyro_Quad_Wawkalak",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
