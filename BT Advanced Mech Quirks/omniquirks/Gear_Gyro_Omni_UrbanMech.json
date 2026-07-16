@@ -36,15 +36,12 @@
 			"IsGyro",
 			"Omni",
 			"BAMounts",
-			"WalkSpeed: +10%",
-			"RunSpeed: +10%",
-			"KickDamageBonus: +20",
-			"KickAccuracy: +1",
-			"GyroStab: 80",
-			"DamageReduction: 10%",
-			"Accuracy: +1",
 			"360Twist",
-			"KnockdownImmunity"
+			"WalkSpeed: +10%",
+			"RunSpeed: +20%",
+			"Defense: +2",
+			"GyroStab: 60",
+			"DamageReduction: 30%"
 		]
 	},
 	"StatName": null,
@@ -55,11 +52,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Wawkalak Omni",
-		"UIName": "Wawkalak OmniMech Gyro",
-		"Id": "Gear_Gyro_Quad_Wawkalak",
-		"Name": "Wawkalak OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Wawkalak possesses as both an OmniMech and a QuadMech. It provides a number of benefits to the Wawkalak, such as bonus movement speed, a damage and accuracy bonus to kick attacks, a higher unsteady threshold, increased weapona accuracy, and slightly better damage reduction than regular mechs. It also contains the benefits inherent to OmniMechs and permits the Wawkalak to also function as an OmniMech.",
+		"Model": "UrbanMech Omni",
+		"UIName": "UrbanMech OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_UrbanMech",
+		"Name": "UrbanMech OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the UrbanMech Omni possesses as an OmniMech. It provides a number of benefits to the UrbanMech Omni, such as increased stability, heavily improved damage reduction, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the UrbanMech Omni to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -95,7 +92,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "80.0",
+				"modValue": "60.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -109,14 +106,14 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": true
+				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "Gyro-Quad-Walk",
-				"Name": "Wawkalak Gyro",
-				"Details": "Provides an increased walking and sprinting speed, bonus damage and accuracy to kicks, an increased unsteady threshold, increased weapona accuracy, and slightly better damage reduction to the Wawkalak.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
+				"Name": "UrbaneMechOmi Walk",
+				"Details": "Boost walk speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
 			},
 			"statisticData": {
 				"statName": "WalkSpeed",
@@ -135,74 +132,22 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Quad-Sprint",
-				"Name": "ChargerSprint",
-				"Details": "Increased sprint speed.",
-				"Icon": "uixSvgIcon_run_n_gun"
+				"Id": "Gyro-OmniUrbanMech-Sprint",
+				"Name": "UrbanMech Omni Quirk",
+				"Details": "Provides increased stability, heavily improved damage reduction, bonus defense, and boosted walk and sprint speed to the UrbanMech Omni.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.1",
+				"modValue": "0.2",
 				"operation": "Float_Add",
 				"statName": "CBTBE_RunMultiMod",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Quad-Kick_Damage",
-				"Name": "Spikes Kick Damage",
-				"Details": "Kick attacks deal 20 more damage.",
-				"Icon": "uixSvgIcon_equipment_ActuatorArm"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "CBTBE_Kick_Target_Damage_Mod",
-				"operation": "Int_Add",
-				"modValue": "20",
-				"modType": "System.Int32"
-			}
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Quad-Kick_Accuracy",
-				"Name": "Spikes Kick Accuracy",
-				"Details": "Kick attacks gain +1 accuracy.",
-				"Icon": "uixSvgIcon_equipment_ActuatorArm"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "CBTBE_Kick_Attack_Mod",
-				"operation": "Int_Add",
-				"modValue": "-1",
-				"modType": "System.Int32"
-			}
 		},
 		{
 			"durationData": {
@@ -228,6 +173,31 @@
 				"modValue": "true",
 				"modType": "System.Boolean"
 			}
+		},{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "NarrowProfileDefense",
+				"Name": "HARDER TO HIT",
+				"Details": "Provides a penalty to all attacks against this unit.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "2.0",
+				"modType": "System.Single"
+			}
 		},
 		{
 			"durationData": {},
@@ -238,48 +208,17 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-WawkalakDR",
-				"Name": "Wawkalak Gyro DR",
-				"Details": "All incoming damage increased by 10%.",
+				"Id": "StatusEffect-Gyro-UrbieOmniDR",
+				"Name": "UrbanMech Omni Gyro DR",
+				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
 				"statName": "DamageReductionMultiplierAll",
 				"operation": "Float_Multiply",
-				"modValue": "0.9",
+				"modValue": "0.7",
 				"modType": "System.Single"
-			}
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-WawkalakAcc",
-				"Name": "Wawkalak Accuracy Boost",
-				"Details": "Weapon attacks gain +1 Accuracy.",
-				"Icon": "AdvancedTC"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"additionalRules": "NotSet",
-				"modType": "System.Single",
-				"modValue": "-1.0",
-				"operation": "Float_Add",
-				"statName": "AccuracyModifier",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "NotSet"
 			}
 		}
 	],
