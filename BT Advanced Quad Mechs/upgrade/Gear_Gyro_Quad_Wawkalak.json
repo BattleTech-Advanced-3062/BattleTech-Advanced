@@ -116,7 +116,7 @@
 				"Id": "Gyro-Quad-Walk",
 				"Name": "Wawkalak Gyro",
 				"Details": "Provides an increased walking and sprinting speed, bonus damage and accuracy to kicks, an increased unsteady threshold, increased weapona accuracy, and slightly better damage reduction to the Wawkalak.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
+				"Icon": "uixSvgIcon_action_evasivemove"
 			},
 			"statisticData": {
 				"statName": "WalkSpeed",
