@@ -2664,6 +2664,12 @@
 			"Full": "{0} to all Range Brackets"
 		},
 		{
+			"Bonus": "BallisticDamage",
+			"Short": "{0} Ball.Damage",
+			"Long": "{0} Ballistic Damage",
+			"Full": "{0} Damage dealt by Ballistic hardpoint weapons"
+		},
+		{
 			"Bonus": "BallisticMinRange",
 			"Short": "{0} Ball.MinRange",
 			"Long": "{0} Ballistic Min.Range",
