@@ -10,10 +10,6 @@
 		},
 		{
 			"Type": "UpgradeDef",
-			"Path": "omniquirks"
-		},
-		{
-			"Type": "UpgradeDef",
 			"Path": "attachment"
 		},
 		{

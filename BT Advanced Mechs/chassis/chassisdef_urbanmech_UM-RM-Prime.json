@@ -76,14 +76,6 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -97,8 +89,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
-			"MaxRearArmor": 20,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
 			"InternalStructure": 35
 		},
 		{
@@ -106,8 +98,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 55,
-			"MaxRearArmor": 40,
+			"MaxArmor": 100,
+			"MaxRearArmor": 50,
 			"InternalStructure": 50
 		},
 		{
@@ -115,8 +107,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
-			"MaxRearArmor": 20,
+			"MaxArmor": 70,
+			"MaxRearArmor": 35,
 			"InternalStructure": 35
 		},
 		{
@@ -124,14 +116,6 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Missile",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Energy",
-					"Omni": true
-				},
-				{
-					"WeaponMountID": "Energy",
 					"Omni": true
 				},
 				{
@@ -150,7 +134,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 35
 		},
@@ -159,7 +143,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 35
 		}
@@ -211,7 +195,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omni_UrbanMech",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Urbanmech",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
