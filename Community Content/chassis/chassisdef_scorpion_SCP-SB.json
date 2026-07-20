@@ -33,7 +33,7 @@
 		"UIName": "Scorpion",
 		"Id": "chassisdef_scorpion_SCP-SB",
 		"Name": "Scorpion",
-		"Details": "The Scorpion is a powerful and adept flanker design, built to scuttle circles around enemies and blast them into dust with ease. In that vein is the SCP-SB, a mercenary refit of the Scorpion that makes use of captured Large Variable-Speed Pulse Lasers, each enhanced with a Laser Fire Control System, for primary firepower. A Laser AMS provides protection while a Laser Zoom Array provides token accuracy gains. The -SB proved effective as a refit design and would go on to decent service.",
+		"Details": "The Scorpion is a powerful and adept flanker design, built to scuttle circles around enemies and blast them into dust with ease. In that vein is the SCP-SB, a mercenary refit of the Scorpion that makes use of captured Large Variable-Speed Pulse Lasers, each enhanced with a Laser Fire Control System, for primary firepower. A Laser AMS provides protection while a Laser Zoom Array provides token accuracy gains. The -SB proved effective as a refit design and would go on to decent service.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_scorpion"
 	},
 	"MovementCapDefID": "movedef_griffin_GRF-1N",
