@@ -33,14 +33,14 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"IsGyro",
-			"Omni",
-			"BAMounts",
 			"WalkSpeed: +10%",
 			"RunSpeed: +10%",
 			"Defense: +3",
 			"ArmAccuracy: +3",
-			"GyroStab: 80"
+			"GyroStab: 80",
+			"IsGyro",
+			"Omni",
+			"BAMounts"
 		]
 	},
 	"StatName": null,
@@ -55,7 +55,7 @@
 		"UIName": "Strider OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Strider",
 		"Name": "Strider OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Strider possesses as an OmniMech. It provides a number of benefits to the Strider, such as increased stability, heavily improved damage reduction, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Strider to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Strider possesses as an OmniMech. It provides a number of benefits to the Strider, such as increased stability, boosted arm weapon accuracy, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Strider to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -137,7 +137,7 @@
 			"Description": {
 				"Id": "Gyro-Strider-Sprint",
 				"Name": "Strider Quirk",
-				"Details": "Provides increased stability, improved walk and spritn speed, bonus defense, and increased arm-mounted missile accuracy to the Strider as well as its full armor compliment.",
+				"Details": "Provides increased stability, boosted arm weapon accuracy, bonus defense, and boosted walk and sprint speed to the Strider.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

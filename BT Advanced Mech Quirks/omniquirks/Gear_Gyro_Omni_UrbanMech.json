@@ -33,15 +33,15 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"IsGyro",
-			"Omni",
-			"BAMounts",
 			"360Twist",
 			"BallisticDamage: +50%",
 			"JumpDistance: +100%",
 			"Defense: +2",
 			"GyroStab: 60",
-			"DamageReduction: 30%"
+			"DamageReduction: 30%",
+			"IsGyro",
+			"Omni",
+			"BAMounts"
 		]
 	},
 	"StatName": null,

@@ -33,10 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"RunSpeed: +20%",
+			"DamageMod: +5%",
+			"HeatPerTurn: -10",
+			"ArmAccuracy: +2",
 			"GyroStab: 100",
-			"DamageReduction: 15%",
-			"Accuracy: +2",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -50,11 +50,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Mackie Omni",
-		"UIName": "Mackie OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Mackie",
-		"Name": "Mackie OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Mackie Omni possesses as an OmniMech. It provides a number of benefits to the Mackie Omni, such as increased stability, improved damage reduction, increased weapon accuracy, and boosted sprint speed. It also contains the benefits inherent to OmniMechs and permits the Mackie Omni to also function as an OmniMech.",
+		"Model": "Avatar Omni",
+		"UIName": "Avatar OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Avatar",
+		"Name": "Avatar OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Avatar possesses as an OmniMech. It provides a number of benefits to the Avatar, such as increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Avatar to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -104,20 +104,46 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "CombatComputer",
+				"Name": "Avatar Combat Computer",
+				"Details": "Boost walk speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+					"statName": "HeatSinkCapacity",
+				"operation": "Int_Add",
+				"modValue": "10",
+				"modType": "System.Int32"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
 				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-OmniMackie-Sprint",
-				"Name": "Mackie Omni Quirk",
-				"Details": "Provides increased sprinting speed, an increased unsteady threshold, increased weapona accuracy, and better damage reduction to the Mackie Omni.",
+				"Id": "Gyro-Avatar-Damage",
+				"Name": "Avatar Quirk",
+				"Details": "Provides increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets to the Avatar.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.2",
-				"operation": "Float_Add",
-				"statName": "CBTBE_RunMultiMod",
-				"modType": "System.Single"
+				"modType": "System.Single",
+				"modValue": "1.05",
+				"operation": "Float_Multiply",
+				"statName": "DamagePerShot",
 			},
 			"nature": "Buff"
 		},
@@ -155,24 +181,21 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-MackieOmniDR",
-				"Name": "MackieOmni Gyro DR",
-				"Details": "All incoming damage increased by 15%.",
+				"Id": "StatusEffect-Gyro-AvatarLAAcc",
+				"Name": "Avatar LA Accuracy",
+				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "DamageReductionMultiplierAll",
-				"operation": "Float_Multiply",
-				"modValue": "0.85",
+				"statName": "LeftArm.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		},
 		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
+			"durationData": {},
 			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
@@ -180,23 +203,17 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-MackieOmniAcc",
-				"Name": "MackieOmni Accuracy Boost",
-				"Details": "Weapon attacks gain +2 Accuracy.",
-				"Icon": "AdvancedTC"
+				"Id": "StatusEffect-Gyro-AvatarRAAcc",
+				"Name": "Avatar RA Accuracy",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"additionalRules": "NotSet",
-				"modType": "System.Single",
-				"modValue": "-2.0",
+				"statName": "RightArm.Accuracy",
 				"operation": "Float_Add",
-				"statName": "AccuracyModifier",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "NotSet"
+				"modValue": "-2.0",
+				"modType": "System.Single"
 			}
 		}
 	],
