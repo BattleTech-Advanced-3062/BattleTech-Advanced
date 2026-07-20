@@ -41,7 +41,7 @@
 		"UIName": "S.M.E.S.",
 		"Id": "Gear_SMES",
 		"Name": "S.M.E.S.",
-		"Details": "Developed, supposedly, to overcharge SuperHeavy BattleMech engines and increase their speed, the SuperHeavy Mobility Enhancement System (or S.M.E.S. for short) provides a large boost in mobility for such designs at a fairly heavy cost of tonnage and heat generation. The S.M.E.S. is generally considered worth the trade-off however and has found a quiet home among MechWarriors lucky enough to drive such a massive 'Mech. <b><color=#099ff2>Automatically activated, works continuously. RESTRICTED TO SUPERHEAVIES ONLY.</color></b>",
+		"Details": "Developed, supposedly, to overcharge SuperHeavy BattleMech engines and increase their speed, the SuperHeavy Mobility Enhancement System (or S.M.E.S. for short) provides a large boost in mobility for such designs at a fairly heavy cost of tonnage and heat generation. The S.M.E.S. is generally considered worth the trade-off however and has found a quiet home among MechWarriors lucky enough to drive such a massive 'Mech. <b><color=#099ff2>Automatically activated, works continuously. RESTRICTED TO SUPERHEAVIES ONLY.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "offroad-racer"
 	},
 	"BonusValueA": "",
