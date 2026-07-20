@@ -63,7 +63,7 @@
 		"UIName": "B27 Heavy SRM4",
 		"Id": "Weapon_SRM_SRM4_Heavy_B27",
 		"Name": "B27 Heavy SRM4",
-		"Details": "The Heavy SRM-4 rack comes with a total of 7 reloads, allowing the B27's crew to fire non-stop in combat.",
+		"Details": "The Heavy SRM-4 rack comes with a total of 7 reloads, allowing the B27's crew to fire non-stop in combat.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "battle-amor-suit"
 	},
 	"BonusValueA": "",

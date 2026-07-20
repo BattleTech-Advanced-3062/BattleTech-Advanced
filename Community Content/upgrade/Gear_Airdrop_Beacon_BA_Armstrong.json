@@ -36,7 +36,7 @@
         "UIName": "Battle Armor Squad (Armstrong)",
         "Id": "Gear_Airdrop_Beacon_BA_Armstrong",
         "Name": "Battle Armor Squad (Armstrong)",
-        "Details": "This piece of equipment represents a squad of Armstrong Battle Armor that have been deployed onto this unit. They can be summoned mid-mission via the ability this piece of equipment grants. This equipment provides only one squad and the type of squad cannot be changed.\r\n\r\n <b><color=#099ff2>ONLY USABLE ONCE PER MISSION, HAS A VERY SHORT RANGE AND CONSUMES YOUR TURN TO DEPLOY.</color></b>",
+        "Details": "This piece of equipment represents a squad of Armstrong Battle Armor that have been deployed onto this unit. They can be summoned mid-mission via the ability this piece of equipment grants. This equipment provides only one squad and the type of squad cannot be changed.\r\n\r\n <b><color=#099ff2>ONLY USABLE ONCE PER MISSION, HAS A VERY SHORT RANGE AND CONSUMES YOUR TURN TO DEPLOY.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
         "Icon": "battle-amor-suit"
     },
     "BonusValueA": "",

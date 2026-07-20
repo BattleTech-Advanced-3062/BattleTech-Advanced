@@ -72,7 +72,7 @@
 		"UIName": "Heavy Plasma Rifle",
 		"Id": "Weapon_Plasma_Rifle_Heavy",
 		"Name": "Heavy Plasma Rifle",
-		"Details": "This Heavy Plasma Rifle prototype accelerates and superheats a cartridge of 'plastic foam' into an excited state and release it as plasma, creating a tremendous kinetic and thermal impact. \n\n<b><color=#ffcc00>Uses Plasma Ammo.</color></b>",
+		"Details": "This Heavy Plasma Rifle prototype accelerates and superheats a cartridge of 'plastic foam' into an excited state and release it as plasma, creating a tremendous kinetic and thermal impact. \n\n<b><color=#ffcc00>Uses Plasma Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "particle"
 	},
 	"BonusValueA": "",
