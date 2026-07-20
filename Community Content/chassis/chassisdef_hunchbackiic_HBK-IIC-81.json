@@ -28,7 +28,7 @@
         "UIName": "Hunchback IIC", 
         "Id": "chassisdef_hunchbackiic_HBK-IIC-81", 
         "Name": "Hunchback IIC", 
-        "Details": "Anyone who has fough against a Point of Elementals knows how hard they are to Kill.  The HBK-IIC-81 seeks to redress this issue by packing loads and loads of AP Gauss Rifles.  The exact weapon designed to squash elementals.  ER Medium Lasers back up the AP Gauss Rifles and provide extra hitting power.", 
+        "Details": "Anyone who has fough against a Point of Elementals knows how hard they are to Kill.  The HBK-IIC-81 seeks to redress this issue by packing loads and loads of AP Gauss Rifles.  The exact weapon designed to squash elementals.  ER Medium Lasers back up the AP Gauss Rifles and provide extra hitting power.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>", 
         "Icon": "uixTxrIcon_hunchbackiic"
     }, 
     "VariantName": "HBK-IIC-81", 
