@@ -458,8 +458,8 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Autocannon_LB10XAC",
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Weapon_PPC_PPCER_0-STOCK",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
