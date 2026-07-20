@@ -45,7 +45,7 @@
 		"UIName": "Kiso ConstructionMech K-3M-KR3",
 		"Id": "mechdef_kiso_K-3N-PB9",
 		"Name": "Kiso ConstructionMech",
-		"Details": "Based on a Kiso construction Mech (Panzer Bunn) that was used by mercenaries, a variant was developed for a tender by the Lyran military for a pioneer Mech that is also able to set up posts or command centers in a hurry, as well as garrisons or others Buildings that need to be built quickly and fortified. Only a small edition of machines was produced, because, after a long period of bureaucratic back and forth, these machines were not adopted as standard equipment in the Lyran military. These machines can be found in small quantities in the hands of the Lyran military. However, these machines can also be made to order. Thanks to the high cost and high specialization of the machine, they are quite rare to find.",
+		"Details": "Based on a Kiso construction Mech (Panzer Bunn) that was used by mercenaries, a variant was developed for a tender by the Lyran military for a pioneer Mech that is also able to set up posts or command centers in a hurry, as well as garrisons or others Buildings that need to be built quickly and fortified. Only a small edition of machines was produced, because, after a long period of bureaucratic back and forth, these machines were not adopted as standard equipment in the Lyran military. These machines can be found in small quantities in the hands of the Lyran military. However, these machines can also be made to order. Thanks to the high cost and high specialization of the machine, they are quite rare to find.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_kiso"
 	},
 	"simGameMechPartCost": 1300000,
