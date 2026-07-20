@@ -121,7 +121,7 @@
 		"UIName": "Seraph",
 		"Id": "chassisdef_timberwolf_TW-SER",
 		"Name": "Seraph",
-		"Details": "Much like its namesake, the Timber Wolf - Seraph is a variant that appears to have traveled much of known space, accumulating components and scars in equal measure. Mounting a fairly traditionally Clanner mix of LRMs and ER beam weapons, this unit provides extra advantage to the pilot with advanced C3I, Angel ECM, and an updated targeting system.",
+		"Details": "Much like its namesake, the Timber Wolf - Seraph is a variant that appears to have traveled much of known space, accumulating components and scars in equal measure. Mounting a fairly traditionally Clanner mix of LRMs and ER beam weapons, this unit provides extra advantage to the pilot with advanced C3I, Angel ECM, and an updated targeting system.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_madcat"
 	},
 	"MovementCapDefID": "movedef_timberwolf",
