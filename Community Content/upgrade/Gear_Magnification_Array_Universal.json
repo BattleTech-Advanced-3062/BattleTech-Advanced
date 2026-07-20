@@ -26,7 +26,7 @@
 		"UIName": "Universal Magnification Array",
 		"Id": "Gear_Magnification_Array_Universal",
 		"Name": "Universal Magnification Array",
-		"Details": "This highly specialized sensor array provides detailed targeting data against long-range targets in real-time, increasing the carrying unit's effective maximum weapons range against distant targets. Specifically, the Universal Magnification Array benefits any weapon type during combat, increasing the unit's long and max range brackets by 20% each.",
+		"Details": "This highly specialized sensor array provides detailed targeting data against long-range targets in real-time, increasing the carrying unit's effective maximum weapons range against distant targets. Specifically, the Universal Magnification Array benefits any weapon type during combat, increasing the unit's long and max range brackets by 20% each.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixSvgIcon_equipment_Comms"
 	},
 	"BonusValueA": "",
