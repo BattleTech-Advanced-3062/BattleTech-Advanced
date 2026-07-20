@@ -54,7 +54,7 @@
 		"UIName": "B27 S Laser",
 		"Id": "Weapon_Laser_SmallLaser_B27",
 		"Name": "B27 S Laser",
-		"Details": "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.  This represents two small lasers carried by the B27's crew.",
+		"Details": "Small Lasers deal superb damage for their weight and heat generation but have extremely limited range. Like all Lasers, Small Lasers enjoy a baseline accuracy bonus over other weapons.  This represents two small lasers carried by the B27's crew.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "battle-amor-suit"
 	},
 	"BonusValueA": "",
