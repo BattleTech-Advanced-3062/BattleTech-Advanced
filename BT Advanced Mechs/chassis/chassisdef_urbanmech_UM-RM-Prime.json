@@ -399,7 +399,8 @@
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech",
-			"OmniMech"
+			"OmniMech",
+			"OmniArmorLock"
 		],
 		"tagSetSourceFile": ""
 	},

@@ -64,7 +64,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 1,
+			"MaxArmor": 45,
 			"MaxRearArmor": -1,
 			"InternalStructure": 16
 		},
@@ -82,7 +82,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 1,
+			"MaxArmor": 60,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		},
@@ -91,22 +91,22 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 1,
-			"MaxRearArmor": 1,
+			"MaxArmor": 70,
+			"MaxRearArmor": 25,
 			"InternalStructure": 50
 		},
 		{
 			"Location": "CenterTorso",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Energy",
+					"WeaponMountID": "Missile",
 					"Omni": true
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 1,
-			"MaxRearArmor": 1,
+			"MaxArmor": 75,
+			"MaxRearArmor": 30,
 			"InternalStructure": 60
 		},
 		{
@@ -114,8 +114,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 1,
-			"MaxRearArmor": 1,
+			"MaxArmor": 70,
+			"MaxRearArmor": 25,
 			"InternalStructure": 50
 		},
 		{
@@ -132,7 +132,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 1,
+			"MaxArmor": 60,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		},
@@ -141,7 +141,16 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 1,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 50
 		},
@@ -150,7 +159,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 1,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 50
 		}
@@ -203,6 +212,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"MediumMech"

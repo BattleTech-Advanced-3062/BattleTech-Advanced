@@ -111,7 +111,8 @@
 		"JwTweaks",
 		"SwordOfRestoration",
 		"HeraldryPicker",
-		"BT_SpendThatXp"
+		"BT_SpendThatXp",
+		"OmniArmorLock"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"
