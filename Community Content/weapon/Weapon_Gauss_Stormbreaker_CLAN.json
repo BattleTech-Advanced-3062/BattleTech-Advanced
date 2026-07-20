@@ -56,7 +56,7 @@
         "UIName" : "Stormbreaker (C)",
         "Id" : "Weapon_Gauss_Stormbreaker_CLAN",
         "Name" : "Stormbreaker (C)",
-        "Details" : "During the Development of the Stormbreaker magshot weapon system, Pafftek Industries acquired new technology gauss coils from Clan Diamond Shark.  Part of the payment for these advanced coils was the design specifications for the Stormbreaker itself in its initial Mk9 form.   Clan Diamond Shark then adjusted these design specs to a Clan Specific Stormbreaker AP array utilizing the new AP Gauss round.  Has 3 fire modes, 5, 10 and 15 rounds.  Each sucessive fire mode increases heat and jamming chances.  Fire mode 3 (15 rounds) has a 25% jam chance.",
+        "Details" : "During the Development of the Stormbreaker magshot weapon system, Pafftek Industries acquired new technology gauss coils from Clan Diamond Shark.  Part of the payment for these advanced coils was the design specifications for the Stormbreaker itself in its initial Mk9 form.   Clan Diamond Shark then adjusted these design specs to a Clan Specific Stormbreaker AP array utilizing the new AP Gauss round.  Has 3 fire modes, 5, 10 and 15 rounds.  Each sucessive fire mode increases heat and jamming chances.  Fire mode 3 (15 rounds) has a 25% jam chance. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
     "BonusValueA" : "",
