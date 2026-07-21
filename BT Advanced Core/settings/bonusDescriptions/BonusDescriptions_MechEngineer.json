@@ -2736,6 +2736,12 @@
 			"Full": "{0} increased maximum range with missile hardpoint weapons"
 		},
 		{
+			"Bonus": "SupportRange",
+			"Short": "{0} Supp.Range",
+			"Long": "{0} Support Range",
+			"Full": "{0} increased range with Support hardpoint weapons"
+		},
+		{
 			"Bonus": "SRMRange",
 			"Short": "{0} SRM.Range",
 			"Long": "{0} SRM Range",
@@ -3394,6 +3400,12 @@
 			"Short": "{0} Miss.Acc",
 			"Long": "{0} Missile Acc",
 			"Full": "{0} Accuracy with Missile Weapons"
+		},
+		{
+			"Bonus": "SupportAcc",
+			"Short": "{0} Supp.Acc",
+			"Long": "{0} Support Acc",
+			"Full": "{0} Accuracy with Support Weapons"
 		},
 		{
 			"Bonus": "ArmBallisticAcc",

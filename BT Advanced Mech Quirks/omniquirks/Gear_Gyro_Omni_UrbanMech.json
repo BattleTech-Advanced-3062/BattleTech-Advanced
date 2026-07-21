@@ -37,8 +37,8 @@
 			"BallisticDamage: +50%",
 			"JumpDistance: +100%",
 			"Defense: +2",
-			"GyroStab: 60",
 			"DamageReduction: 30%",
+			"GyroStab: 30",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -92,7 +92,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "60.0",
+				"modValue": "30.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"

@@ -36,7 +36,7 @@
 			"DamageMod: +5%",
 			"HeatPerTurn: -10",
 			"ArmAccuracy: +2",
-			"GyroStab: 100",
+			"GyroStab: 70",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -90,7 +90,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "100.0",
+				"modValue": "70.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
