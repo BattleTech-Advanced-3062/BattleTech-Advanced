@@ -33,7 +33,7 @@
 		"UIName": "Wawkalak",
 		"Id": "chassisdef_wawkalak_WKL-6K",
 		"Name": "Wawkalak",
-		"Details": "Developed as part of an experiment to produce a 'Mech that could transform into a tank, the Wawkalak proved unsuitable as a transforming design. However, the QuadMech part of the 'Mech was an effective design, even with the vestigal tank treads (which were repurposed as reinforced armor for the legs). Powered by an 200-rated light fusion engine and built on a light Endo-Composite structure with Light Ferro-Fibrous armor for protection, the Wawkalak is a stable sniping platform, using its four Large Lasers highly effectively. However, it has no backup weaponry, so pilots are cautioned to stick close to supporting units.",
+		"Details": "Developed as part of an experiment to produce a 'Mech that could transform into a tank, the Wawkalak proved unsuitable as a transforming design. However, the QuadMech part of the 'Mech was an effective design, even with the vestigal tank treads (which were repurposed as reinforced armor for the legs). Powered by an 200-rated light fusion engine and built on a light Endo-Composite structure with Light Ferro-Fibrous armor for protection, the Wawkalak is a stable sniping platform, using its twin Large Lasers and Snub-Nose PPCs highly effectively. However, it has no backup weaponry, so pilots are cautioned to stick close to supporting units.",
 		"Icon": "uixTxrIcon_wawkalak"
 	},
 	"MovementCapDefID": "movedef_centurion_CN9-A",
@@ -86,7 +86,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 80,
+			"MaxArmor": 75,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -157,7 +157,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 80,
+			"MaxArmor": 75,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -166,7 +166,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 80,
+			"MaxArmor": 75,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -175,7 +175,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 80,
+			"MaxArmor": 75,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		}
@@ -234,13 +234,99 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Quad Sniper",
-	"YangsThoughts": "Developed as part of an experiment to produce a 'Mech that could transform into a tank, the Wawkalak proved unsuitable as a transforming design. However, the QuadMech part of the 'Mech was an effective design, even with the vestigal tank treads (which were repurposed as reinforced armor for the legs). Powered by an 200-rated light fusion engine and built on a light Endo-Composite structure with Light Ferro-Fibrous armor for protection, the Wawkalak is a stable sniping platform, using its four Large Lasers highly effectively. However, it has no backup weaponry, so pilots are cautioned to stick close to supporting units.",
+	"YangsThoughts": "Developed as part of an experiment to produce a 'Mech that could transform into a tank, the Wawkalak proved unsuitable as a transforming design. However, the QuadMech part of the 'Mech was an effective design, even with the vestigal tank treads (which were repurposed as reinforced armor for the legs). Powered by an 200-rated light fusion engine and built on a light Endo-Composite structure with Light Ferro-Fibrous armor for protection, the Wawkalak is a stable sniping platform, using its twin Large Lasers and Snub-Nose PPCs highly effectively. However, it has no backup weaponry, so pilots are cautioned to stick close to supporting units.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Gyro_Quad_Wawkalak",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_Generic_Small",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_lightferrosfibrous",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_250",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_kit_dhs",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engine_cooling",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_engineslots_xl_center",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "emod_engineslots_size3",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
