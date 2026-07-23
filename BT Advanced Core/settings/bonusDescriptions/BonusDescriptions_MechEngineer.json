@@ -3267,7 +3267,13 @@
 			"Bonus": "ArmAccuracy",
 			"Short": "{0} Arm Acc",
 			"Long": "{0} Arm Accuracy",
-			"Full": "{0} Accuracy with arm-mounted Weapons"
+			"Full": "{0} Accuracy with arm-mounted weapons"
+		},
+		{
+			"Bonus": "TorsoAccuracy",
+			"Short": "{0} Torso Acc",
+			"Long": "{0} Torso Accuracy",
+			"Full": "{0} Accuracy with torso-mounted weapons"
 		},
 		{
 			"Bonus": "ACAccuracy",
