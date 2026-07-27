@@ -2029,6 +2029,20 @@
 			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+		},
+		{
+			"ID": 6144,
+			"Name": "AC2ARRAY",
+			"FriendlyName": "AC2ARRAY",
+			"IsBallistic": true,
+			"IsMissile": false,
+			"IsEnergy": false,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "WolfGray",
+			"FallbackUIColor": "WolfGray",
+			"Icon": "BallisticHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
 		}
 	]
 }
