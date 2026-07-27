@@ -4640,13 +4640,13 @@
 		{
 			"Bonus": "StealthRadius",
 			"Short": "Stealth Field Radius",
-			"Long": "Stealth Field Radius",
+			"Long": "Stealth Field Radius {0}m",
 			"Full": "The Stealth Field has a radius of {0} meters around the carrying unit."
 		},
 		{
 			"Bonus": "StealthEffect",
 			"Short": "Stealth Field Effect",
-			"Long": "Stealth Field Effect",
+			"Long": "Stealth Field Effect {0}",
 			"Full": "The Stealth Field makes it {0} harder for enemies to spot this unit either on sensor or directly."
 		},
 		{
@@ -5642,13 +5642,13 @@
 		{
 			"Bonus": "ViralJammer",
 			"Short": "Viral Jammer",
-			"Long": "Viral Jammer",
+			"Long": "VJ jams ALL distributed networks",
 			"Full": "The Viral Jammer is a powerful piece of e-war gear. It scrambles all distributed networks in its radius, friendly or enemy, including C3, C3i, and Sanctuary Drone Networks. It also scrambles the Virtual Reality Piloting Pod's controls (both friendly and enemy VRPPs) as well as providing the carrying unit immunity to Sensor Locks."
 		},
 		{
 			"Bonus": "ViralJammerRange",
 			"Short": "Viral Jammer Range",
-			"Long": "Viral Jammer Range",
+			"Long": "Viral Jammer Range {0}",
 			"Full": "The Viral Jammer's range of effect is {0} meters."
 		},
 		{
