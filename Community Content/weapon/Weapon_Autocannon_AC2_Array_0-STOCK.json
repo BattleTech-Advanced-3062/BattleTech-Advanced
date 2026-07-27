@@ -1,0 +1,82 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			},
+			{
+				"CategoryID": "NeverMelee"
+			}
+		],
+		"BonusDescriptions": [
+			"NoFireInMelee",
+			"WpnRecoil: 1",
+			"WeaponAttachmentCompatible: Superweapon FCS"
+		]
+	},
+	"weaponCategoryID": "Superweapon",
+	"Type": "Autocannon",
+	"WeaponSubType": "AC2",
+	"MinRange": 120,
+	"MaxRange": 960,
+	"RangeSplit": [
+		240,
+		480,
+		720
+	],
+	"AmmoCategory": "AC2ARRAY",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 24,
+	"Damage": 7,
+	"OverheatedDamageMultiplier": 0,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 0,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 1,
+	"ShotsWhenFired": 24,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 1,
+	"Instability": 4,
+	"ImprovedBallistic": true,
+	"ClusteringModifier": 1.35,
+	"FireDelayMultiplier": 0.2,
+	"WeaponEffectID": "WeaponEffect-Weapon_AC2",
+	"Description": {
+		"Cost": 50000,
+		"Rarity": 0,
+		"Purchasable": true,
+		"Manufacturer": "GM",
+		"Model": "Autocannon Array",
+		"UIName": "AC/2 Array",
+		"Id": "Weapon_Autocannon_AC2_Array_0-STOCK",
+		"Name": "AC/2 Array",
+		"Details": "Essentially five AC/2s strapped together using machine gun array technology, this is the Rim World Republic's attempt at equalizing some of the technological gap between themselves and the Clans. While not as flashy as some of the other recent technological innovations, it turns out simply using more firepower solves a lot of problems.  \n\n <b><color=#ffcc00>Uses AC/2 Array Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "death-star"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "uac5",
+	"BattleValue": 0,
+	"InventorySize": 7,
+	"Tonnage": 21,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_extreme",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+		],
+		"tagSetSourceFile": ""
+	}
+}

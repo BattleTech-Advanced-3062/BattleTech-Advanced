@@ -1,0 +1,95 @@
+{
+	"Custom": {	
+		"Category": [
+			{
+				"CategoryID": "w/s/su/superweapon"
+			}
+		],
+		"ComponentExplosion": {
+			"ExplosionDamage": 100
+		},
+		"BonusDescriptions": [
+				"WpnAccuracy: +1",
+				"StructureDmgMod: 50",
+				"WpnCrits: +100%",
+				"WeaponJAMFlat: 1.25",
+				"JamExplode",
+				"WeaponBoom: 100",
+				"WeaponAttachmentCompatible: Superweapon FCS"
+			]
+	},
+	"weaponCategoryID": "Superweapon",
+    "Type" : "Laser",
+    "WeaponSubType" : "LargeLaser",
+    "MinRange" : 0,
+	"MaxRange": 840,
+	"RangeSplit": [
+		330,
+		420,
+		570
+	],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 130,
+    "Damage" : 50,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+	"CriticalChanceMultiplier" : 2.0,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 0,
+	"StructureDamage": 50,
+	"ColorsTable": [
+    {
+      "C": "#b13cd1",
+      "I": 5
+    }
+	],
+	"ImprovedBallistic": true,
+	"FlatJammingChance": 0.0125,
+	"DamageOnJamming": true,
+	"ColorSpeedChange": 1,
+	"ColorChangeRule": "Linear",
+    "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
+    "Description" : {
+        "Cost" : 225000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Jimbo's Crabshack",
+        "Model" : "SH Lance",
+        "UIName" : "SH Lance (S)",
+        "Id" : "Weapon_Lance_SuperHeavyLance",
+        "Name" : "SH Lance (S)",
+        "Details" : "Developed from captured examples of Sanctuary Lances in the war, the Superheavy Lance is essentially a Large Lance powered by dangerous amounts of high-density capacitors. While improving the range drastically, as well as increasing the armor penetration, the Superheavy Lance is prone to explosive detonations, to say nothing of the prohibitive heat generation. Still, the numbers speak for themselves.  \n\n <b><color=#099ff2>VOLATILE!</color></b> \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+        "Icon" : "death-star"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_long",
+			"WebbTCSupported-SingleShot",
+			"SuperweaponFCSSupported-Standard"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
