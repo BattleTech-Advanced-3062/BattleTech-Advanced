@@ -700,7 +700,7 @@
 		},
 		{
 			"Name": "Trigger_Dialogue_If_Spawn_Target_Lance_01b",
-			"TriggerOn": "ObjectiveStatusConditional",
+			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
 				{
@@ -745,7 +745,7 @@
 		},
 		{
 			"Name": "Trigger_Dialogue_If_Spawn_Target_Lance_02",
-			"TriggerOn": "ObjectiveStatusConditional",
+			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
 				{
@@ -790,7 +790,7 @@
 		},
 		{
 			"Name": "Trigger_Dialogue_If_Spawn_Target_Lance_02b",
-			"TriggerOn": "ObjectiveStatusConditional",
+			"TriggerOn": "OnObjectiveUpdated",
 			"Description": "",
 			"Conditionals": [
 				{
