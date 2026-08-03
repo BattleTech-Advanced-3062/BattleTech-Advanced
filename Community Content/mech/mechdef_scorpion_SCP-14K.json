@@ -215,7 +215,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "Head",
@@ -230,12 +231,13 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_PPC_Capacitor",
+			"ComponentDefID": "Gear_Attachment_PPC_Capacitor",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
 			"SimGameUID": "",
 			"hasPrefabName": false,
-			"DamageLevel": "Functional"
+			"DamageLevel": "Functional",
+			"TargetComponentGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
