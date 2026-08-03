@@ -30,7 +30,7 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"MinAppearanceDate" : "3063-09-14T00:00:00Z",
+	"MinAppearanceDate": "3063-09-14T00:00:00Z",
 	"ChassisID": "chassisdef_jinggau_JN-G8M",
 	"HeraldryID": null,
 	"Description": {
@@ -438,7 +438,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Superweapon_1"
+			"LocalGUID": "target_Superweapon_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -450,7 +450,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_Superweapon_1"
-		},
+			"TargetComponentGUID": "target_Superweapon_1"
+		}
 	]
 }
