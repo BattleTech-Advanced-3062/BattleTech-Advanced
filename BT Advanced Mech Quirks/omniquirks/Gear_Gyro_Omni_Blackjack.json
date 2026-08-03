@@ -33,11 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"WalkSpeed: +10%",
-			"RunSpeed: +10%",
-			"Defense: +4",
-			"TorsoAccuracy: +4",
-			"GyroStab: 25",
+			"JumpDistance: +50%",
+			"MaxRange: +20%",
+			"ArmAccuracy: +2",
+			"GyroStab: 50",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -51,11 +50,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Raptor Omni",
-		"UIName": "Raptor OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Raptor",
-		"Name": "Raptor OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Raptor possesses as an OmniMech. It provides a number of benefits to the Raptor, such as increased stability, boosted torso weapon accuracy, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Raptor to also function as an OmniMech.",
+		"Model": "Blackjack Omni",
+		"UIName": "Blackjack OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Blackjack",
+		"Name": "Blackjack OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Blackjack possesses as an OmniMech. It provides a number of benefits to the Blackjack, such as increased stability, bonus arm accuracy, improved jump distance, and increased max weapon range. It also contains the benefits inherent to OmniMechs and permits the Blackjack to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,33 +90,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "25.0",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Raptor-Walk",
-				"Name": "Raptor Omni Quirk",
-				"Details": "Provides increased stability, boosted torso weapon accuracy, bonus defense, and boosted walk and sprint speed to the Raptor.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
+				"modValue": "50.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -135,16 +108,43 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Raptor-Sprint",
-				"Name": "Raptor Quirk",
-				"Details": "raptor go brrr.",
+				"Id": "Gyro-OmniBlackjack-Jump",
+				"Name": "Blackjack Jump Speed",
+				"Details": "Boost Jump speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.5",
+				"modType": "System.Single",
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-Blackjack-MaxRange",
+				"Name": "Blackjack Quirk",
+				"Details": "Provides increased stability, bonus arm accuracy, improved jump distance, and increased max weapon range to the Blackjack.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.1",
-				"operation": "Float_Add",
-				"statName": "CBTBE_RunMultiMod",
-				"modType": "System.Single"
+				"statName": "MaxRange",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"targetCollection": "Weapon"
 			},
 			"nature": "Buff"
 		},
@@ -172,31 +172,6 @@
 				"modValue": "true",
 				"modType": "System.Boolean"
 			}
-		},{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "NarrowProfileDefense",
-				"Name": "HARDER TO HIT",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "4.0",
-				"modType": "System.Single"
-			}
 		},
 		{
 			"durationData": {},
@@ -207,16 +182,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorLTAccuracy",
-				"Name": "Raptor LT Accuracy",
+				"Id": "StatusEffect-Gyro-BlackjackLAAcc",
+				"Name": "Blackjack LA Accuracy",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "LeftTorso.Accuracy",
+				"statName": "LeftArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-4.0",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		},
@@ -229,38 +204,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorCTAccuracy",
-				"Name": "Raptor CT Accuracy",
-				"Details": "All outgoing damage increased by 50%.",
+				"Id": "StatusEffect-Gyro-BlackjackRAAcc",
+				"Name": "Blackjack RA Accuracy",
+				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "CenterTorso.Accuracy",
+				"statName": "RightArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-4.0",
-				"modType": "System.Single"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorRTAccuracy",
-				"Name": "Raptor RT Accuracy",
-				"Details": "All outgoing damage increased by 50%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "RightTorso.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-4.0",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		}

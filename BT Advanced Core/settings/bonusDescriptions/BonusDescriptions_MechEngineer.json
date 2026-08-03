@@ -2643,19 +2643,19 @@
 			"Bonus": "MinRange",
 			"Short": "{0} MinRange",
 			"Long": "{0} Minimum Range",
-			"Full": "{0} Minimum Range"
+			"Full": "{0} Minimum Range with ranged weapons"
 		},
 		{
 			"Bonus": "LongRange",
 			"Short": "{0} LongRange",
 			"Long": "{0} Long Range",
-			"Full": "{0} Long Range"
+			"Full": "{0} Long Range with ranged weapons"
 		},
 		{
 			"Bonus": "MaxRange",
 			"Short": "{0} MaxRange",
 			"Long": "{0} Maximum Range",
-			"Full": "{0} Maximum Range"
+			"Full": "{0} Maximum Range with ranged weapons"
 		},
 		{
 			"Bonus": "Range",
@@ -2902,6 +2902,12 @@
 			"Short": "{0} Fl.Ht. Dmg",
 			"Long": "{0} Flamer Ht Damage",
 			"Full": "{0} Flamer Heat Damage"
+		},
+		{
+			"Bonus": "FlamerHeatDamagePerShot",
+			"Short": "{0} Fl.Ht. Dmg",
+			"Long": "{0} Flamer Ht Damage",
+			"Full": "{0} Flamer Heat Damage Per Shot"
 		},
 		{
 			"Bonus": "EngineWeight",
@@ -3274,6 +3280,18 @@
 			"Short": "{0} Torso Acc",
 			"Long": "{0} Torso Accuracy",
 			"Full": "{0} Accuracy with torso-mounted weapons"
+		},
+		{
+			"Bonus": "LegAccuracy",
+			"Short": "{0} Leg Acc",
+			"Long": "{0} Leg Accuracy",
+			"Full": "{0} Accuracy with leg-mounted weapons"
+		},
+		{
+			"Bonus": "HeadAccuracy",
+			"Short": "{0} Head Acc",
+			"Long": "{0} Head Accuracy",
+			"Full": "{0} Accuracy with head-mounted weapons"
 		},
 		{
 			"Bonus": "ACAccuracy",

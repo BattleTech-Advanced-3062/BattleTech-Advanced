@@ -47,7 +47,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Hauptmann",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -83,6 +83,17 @@
 			"ComponentDefID": "emod_engine_cooling_1",
 			"SimGameUID": null,
 			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "emod_case",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -143,7 +154,7 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "AntiPersonnel",
-					"Omni": false
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -170,7 +181,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 150,
+			"MaxArmor": 160,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		},
@@ -184,8 +195,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 200,
-			"MaxRearArmor": 100,
+			"MaxArmor": 165,
+			"MaxRearArmor": 50,
 			"InternalStructure": 100
 		},
 		{
@@ -193,8 +204,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 290,
-			"MaxRearArmor": 145,
+			"MaxArmor": 225,
+			"MaxRearArmor": 60,
 			"InternalStructure": 150
 		},
 		{
@@ -211,8 +222,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 200,
-			"MaxRearArmor": 100,
+			"MaxArmor": 165,
+			"MaxRearArmor": 50,
 			"InternalStructure": 100
 		},
 		{
@@ -233,7 +244,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 150,
+			"MaxArmor": 160,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		},
@@ -304,6 +315,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"AssaultMech"
 		],
 		"tagSetSourceFile": ""

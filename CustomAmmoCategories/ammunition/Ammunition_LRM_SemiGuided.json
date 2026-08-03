@@ -18,6 +18,6 @@
 	"ISDamageModifier": 1,
 	"CriticalDamageModifier": 1,
 	"ChassisTagsAccuracyModifiers":{
-		"TargetAcquired": -5
+		"TargetAcquired": -8
 	}
 }

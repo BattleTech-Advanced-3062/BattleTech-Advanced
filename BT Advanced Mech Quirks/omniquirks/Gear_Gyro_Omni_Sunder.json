@@ -55,7 +55,7 @@
 		"UIName": "Sunder OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Sunder",
 		"Name": "Sunder OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Sunder possesses as an OmniMech. It provides a number of benefits to the Sunder, such as increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Sunder to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Sunder possesses as an OmniMech. It provides a number of benefits to the Sunder, such as increased stability, bonus weapon accuracy, improved heat dissipation, and increased ground movement speed. It also contains the benefits inherent to OmniMechs and permits the Sunder to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
