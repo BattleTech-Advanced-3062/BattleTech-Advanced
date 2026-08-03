@@ -1,0 +1,264 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Tolson",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1295300,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Spoiled Rotten",
+		"Id": "chassisdef_tolson_TOL-SR",
+		"Name": "Spoiled Rotten",
+		"Details": "Henrietta Tylers always felt lucky. She grew up in Lyran space, learning to operate the industrial 'Mechs the locals used to harvest timber from the planet's dense rolling forests. However, the Clan Invasion changed all that when Clan Jade Falcon invaded. She was conscripted into the local militia where she got behind the controls of a Griffin and fought back as best she could, earning a reputation for lucky missile strikes to the open armor of the invaders. Her planet was lost and she escaped as part of a no-name merc unit hired to take the fight to the Falcons. After a few years of fighting, she eventually saved the life of a ComStar Precentor that saw her Griffin trashed. In thanks, the Precentor gifted her a Tolson fresh off the factory lines. When her merc unit's commander died some years later and the infighting for his position began, she left the merc unit rather than throw hands with those she called her friends and made her way to Solaris VII with her ride. Now called Spoiled Rotten for the salvaged Clantech the Tolson sports, Lucky Henri used the mech to make a name for herself in the arenas with fans enjoying her prediliction for lucky ammo explosions.",
+		"Icon": "uixTxrIcon_tolson"
+	},
+	"MovementCapDefID": "movedef_quickdraw_QKD-4G",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_transient",
+	"PrefabIdentifier": "chrprfmech_transientbase-001",
+	"PrefabBase": "transient",
+	"Tonnage": 60,
+	"InitialTonnage": 6,
+	"weightClass": "HEAVY",
+	"BattleValue": 6922000,
+	"Heatsinks": 0,
+	"TopSpeed": 150,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 70,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 70,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 70,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 140,
+			"MaxRearArmor": 70,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 140,
+			"MaxRearArmor": -1,
+			"InternalStructure": 70
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 15,
+			"z": 0
+		},
+		{
+			"x": 3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -3.5,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "TOL-SR",
+	"ChassisTags": {
+		"items": [
+			"HeavyMech",
+			"HeroMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Gladiator",
+	"YangsThoughts": "Henrietta Tylers always felt lucky. She grew up in Lyran space, learning to operate the industrial 'Mechs the locals used to harvest timber from the planet's dense rolling forests. However, the Clan Invasion changed all that when Clan Jade Falcon invaded. She was conscripted into the local militia where she got behind the controls of a Griffin and fought back as best she could, earning a reputation for lucky missile strikes to the open armor of the invaders. Her planet was lost and she escaped as part of a no-name merc unit hired to take the fight to the Falcons. After a few years of fighting, she eventually saved the life of a ComStar Precentor that saw her Griffin trashed. In thanks, the Precentor gifted her a Tolson fresh off the factory lines. When her merc unit's commander died some years later and the infighting for his position began, she left the merc unit rather than throw hands with those she called her friends and made her way to Solaris VII with her ride. Now called Spoiled Rotten for the salvaged Clantech the Tolson sports, Lucky Henri used the mech to make a name for herself in the arenas with fans enjoying her prediliction for lucky ammo explosions.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CombatComputer_Tolson",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Cockpit_CommandConsole",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}
