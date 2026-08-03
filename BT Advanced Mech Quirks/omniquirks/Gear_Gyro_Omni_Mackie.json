@@ -19,10 +19,10 @@
 		},
 		"DecoratorComponent":[
 			{
-				"Text":"BA",               
+				"Text":"O",               
 				"Color":"#00a2c9",      
-				"Icon":"battle-amor-suit",       
-				"Importance": 1
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
 			}
 		],
 		"Flags": [
