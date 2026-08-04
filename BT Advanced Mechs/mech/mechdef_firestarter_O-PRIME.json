@@ -3,7 +3,7 @@
 		"items": [
 			"unit_jumpOK",
 			"unit_release",
-			"unit_rarity_6",
+			"unit_rarity_5",
 			"unit_mech",
 			"unit_innerspheremech",
 			"unit_medium",
@@ -394,7 +394,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
@@ -403,7 +403,7 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftArm",
+			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
