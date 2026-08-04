@@ -33,11 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"DamageMod: +10%",
-			"DamageReduction: 20%",
-			"HeadAccuracy: +5",
-			"GyroStab: 95",
-			"SureFoot",
+			"BallisticAcc: +4",
+			"EnergyAcc: +2",
+			"LegAccuracy: +3",
+			"GyroStab: 75",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -51,11 +50,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Hauptmann Omni",
-		"UIName": "Hauptmann OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Hauptmann",
-		"Name": "Hauptmann OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Hauptmann possesses as an OmniMech. It provides a number of benefits to the Hauptmann, such as increased stability, bonus head accuracy, greatly improved damage reduction, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Hauptmann to also function as an OmniMech.",
+		"Model": "Perseus Omni",
+		"UIName": "Perseus OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Perseus",
+		"Name": "Perseus OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Perseus possesses as an OmniMech. It provides a number of benefits to the Perseus, such as increased stability, increased ballistic and energy weapon accuracy, and increased leg weapon accuracy. It also contains the benefits inherent to OmniMechs and permits the Perseus to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,7 +90,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "95.0",
+				"modValue": "75.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -109,16 +108,21 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-HauptmannDR",
-				"Name": "Hauptmann Gyro DR",
-				"Details": "All incoming damage increased by 20%.",
-				"Icon": "uixSvgIcon_action_evasivemove"
+				"Id": "Gyro-Perseus-BallisticAcc",
+				"Name": "Perseus Ballistic Accuracy",
+				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"statName": "DamageReductionMultiplierAll",
-				"operation": "Float_Multiply",
-				"modValue": "0.8",
-				"modType": "System.Single"
+				"modType": "System.Single",
+				"modValue": "-4.0",
+				"operation": "Float_Add",
+				"statName": "AccuracyModifier",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "Ballistic",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
 			},
 			"nature": "Buff"
 		},
@@ -135,16 +139,21 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Hauptmann-Damage",
-				"Name": "Hauptmann Quirk",
-				"Details": "Provides increased stability, bonus head accuracy, greatly improved damage reduction, and increased weapon damage to all targets to the Hauptmann.",
+				"Id": "Gyro-Perseus-EnergyAcc",
+				"Name": "Perseus Quirk",
+				"Details": "Provides increased stability, increased ballistic and energy weapon accuracy, and increased leg weapon accuracy to the Perseus.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
 				"modType": "System.Single",
-				"modValue": "1.1",
-				"operation": "Float_Multiply",
-				"statName": "DamagePerShot",
+				"modValue": "-2.0",
+				"operation": "Float_Add",
+				"statName": "AccuracyModifier",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "Energy",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
 			},
 			"nature": "Buff"
 		},
@@ -182,42 +191,40 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-HauptmannHeadAcc",
-				"Name": "Hauptmann Head Accuracy",
+				"Id": "StatusEffect-Gyro-PerseusLLAcc",
+				"Name": "Perseus LL Accuracy",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "Head.Accuracy",
+				"statName": "LeftLeg.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-5.0",
+				"modValue": "-3.0",
 				"modType": "System.Single"
 			}
 		},
 		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
+			"durationData": {},
 			"targetingData": {
 				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator"
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "GyroSureFoot",
-				"Name": "Hauptmann Entrenched",
-				"Details": "PASSIVE: This unit is GUARDED (50% damage reduction against ranged attacks to the front and side) from remaining stationary.Increases Melee Damage by 10%.",
-				"Icon": "uixSvgIcon_ability_bulwark"
+				"Id": "StatusEffect-Gyro-PerseusRLAcc",
+				"Name": "Perseus RL Accuracy",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
 			},
+			"nature": "Buff",
 			"statisticData": {
-				"statName": "GainEntrenchedOnNormalMove",
-				"operation": "Set",
-				"modValue": "true",
-				"modType": "System.Boolean"
-			},
-			"nature": "Buff"
+				"statName": "RightLeg.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-3.0",
+				"modType": "System.Single"
+			}
 		}
 	],
 	"ComponentTags": {

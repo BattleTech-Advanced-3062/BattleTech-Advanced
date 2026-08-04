@@ -15,10 +15,10 @@
 			}
 		},
 		"BonusDescriptions": [
-				"EvaMax: +2",
-				"EvaPips: +1",
-				"GyroStab: 40"
-			]
+			"EvaMax: +2",
+			"EvaPips: +1",
+			"GyroStab: 40"
+		]
 	},
 	"StatName": null,
 	"RelativeModifier": 0,

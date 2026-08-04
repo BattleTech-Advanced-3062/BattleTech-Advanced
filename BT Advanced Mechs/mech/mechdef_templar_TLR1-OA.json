@@ -31,7 +31,7 @@
 		"UIName": "Templar TLR1-OA",
 		"Id": "mechdef_templar_TLR1-OA",
 		"Name": "Templar",
-		"Details": "Intended for long range combat, the Templar A is configured to engage an enemy at long ranges. To do this, it carries an ER PPC as its primary weapon backed up by an Ultra Autocannon/10 which can fire at twice the rate of a standard autocannon. For close combat, the Templar A has a Streak SRM-6 launcher, two Medium Pulse Lasers, and for increased mobility this configuration has four jump jets, letting it jump up to one hundred and twenty meters. To protect the 'Mech from enemy electronic warfare systems, the 'Mech has a Guardian ECM Suite and to handle the 'Mech's heavy heat load, it has an additional two double heat sinks.",
+		"Details": "Intended for long range combat, the Templar A is configured to engage an enemy at long ranges. To do this, it carries an ER PPC as its primary weapon backed up by an Ultra Autocannon/10 which can fire at twice the rate of a standard autocannon. For close combat, the Templar A has a Streak SRM-6 launcher, and for increased mobility this configuration has four jump jets, letting it jump up to one hundred and twenty meters. To protect the 'Mech from enemy electronic warfare systems, the 'Mech has a Guardian ECM Suite and to handle the 'Mech's heavy heat load, it has an additional double heat sink.",
 		"Icon": "uixTxrIcon_templar"
 	},
 	"simGameMechPartCost": 2266000,
@@ -113,7 +113,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Assault",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -277,39 +277,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "CenterTorso",
 			"ComponentDefID": "Gear_Guardian_ECM",
 			"SimGameUID": "",
@@ -334,6 +301,28 @@
 		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC10",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC10",
+			"SimGameUID": null,
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Streak_SRM",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,

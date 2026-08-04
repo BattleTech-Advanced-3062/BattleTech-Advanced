@@ -36,7 +36,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Perseus",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -188,7 +188,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 105,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -206,8 +206,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
+			"MaxArmor": 120,
+			"MaxRearArmor": 40,
 			"InternalStructure": 80
 		},
 		{
@@ -224,8 +224,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 230,
-			"MaxRearArmor": 115,
+			"MaxArmor": 180,
+			"MaxRearArmor": 45,
 			"InternalStructure": 115
 		},
 		{
@@ -242,8 +242,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 160,
-			"MaxRearArmor": 80,
+			"MaxArmor": 120,
+			"MaxRearArmor": 40,
 			"InternalStructure": 80
 		},
 		{
@@ -260,7 +260,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 105,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -349,6 +349,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

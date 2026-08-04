@@ -30,7 +30,7 @@
 		"UIName": "Templar TLR1-O",
 		"Id": "mechdef_templar_TLR1-O",
 		"Name": "Templar",
-		"Details": "With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.",
+		"Details": "With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own financial resources. The resulting 'Mech, the Templar, is a powerful war machine, built around a 340-rated XL engine. For firepower the Templar Prime carries a Gauss Rifle, Large Pulse Laser, Medium Pulse Laser, two ER Medium Lasers, and a Streak SRM-4. To enhance the accuracy of the weapons the Templar uses a powerful Targeting Computer as well as fire control systems on several of the lasers and the Gauss Rifle.",
 		"Icon": "uixTxrIcon_templar"
 	},
 	"simGameMechPartCost": 2266000,
@@ -112,7 +112,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Assault",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -266,6 +266,18 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Attachment_LaserFCS",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_Laser_1"
+		},
+		{
+			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Weapon_Laser_LargeLaserPulse_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
@@ -273,7 +285,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_Laser_1"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -299,7 +312,7 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -310,41 +323,32 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
 			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_Laser_2"
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefID": "Gear_Attachment_LaserFCS",
 			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_Laser_2"
 		},
 		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_SRM_SSRM4_0-STOCK",
 			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"GUID": null,
@@ -372,36 +376,38 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_Gauss_1"
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_GaussFCS",
 			"SimGameUID": "",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-			"SimGameUID": "",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_Gauss_1"
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+			"SimGameUID": "",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+			"SimGameUID": "",
+			"ComponentDefType": "AmmunitionBox",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
