@@ -33,10 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"DamageMod: +5%",
 			"HeatPerTurn: -10",
-			"ArmAccuracy: +2",
-			"GyroStab: 70",
+			"DamageReduction: 20%",
+			"TorsoAccuracy: +3",
+			"GyroStab: 55",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -50,11 +50,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Avatar Omni",
-		"UIName": "Avatar OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Avatar",
-		"Name": "Avatar OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Avatar possesses as an OmniMech. It provides a number of benefits to the Avatar, such as increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Avatar to also function as an OmniMech.",
+		"Model": "Hephaestus Omni",
+		"UIName": "Hephaestus OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Hephaestus",
+		"Name": "Hephaestus OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Hephaestus possesses as an OmniMech. It provides a number of benefits to the Hephaestus, such as increased stability, boosted torso weapon accuracy, bonus damage reduction, and improved heat dissipation. It also contains the benefits inherent to OmniMechs and permits the Hephaestus to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -90,7 +90,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "70.0",
+				"modValue": "55.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -104,14 +104,14 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": false
+				"showInStatusPanel": true
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "CombatComputer",
-				"Name": "Avatar Combat Computer",
-				"Details": "Boost walk speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
+				"Id": "Gyro-Hephaestus-CombatComputer",
+				"Name": "Hephaestus Omni Quirk",
+				"Details": "Provides increased stability, boosted torso weapon accuracy, bonus damage reduction, and improved heat dissipation to the Hephaestus.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
 				"statName": "HeatSinkCapacity",
@@ -130,20 +130,20 @@
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
-				"showInStatusPanel": true
+				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Avatar-Damage",
-				"Name": "Avatar Quirk",
-				"Details": "Provides increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets to the Avatar.",
+				"Id": "StatusEffect-Gyro-HephaestusDR",
+				"Name": "Hephaestus Gyro DR",
+				"Details": "raptor go brrr.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modType": "System.Single",
-				"modValue": "1.05",
+				"statName": "DamageReductionMultiplierAll",
 				"operation": "Float_Multiply",
-				"statName": "DamagePerShot",
+				"modValue": "0.8",
+				"modType": "System.Single"
 			},
 			"nature": "Buff"
 		},
@@ -181,16 +181,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-AvatarLAAcc",
-				"Name": "Avatar LA Accuracy",
+				"Id": "StatusEffect-Gyro-HephaestusLTAccuracy",
+				"Name": "Hephaestus LT Accuracy",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "LeftArm.Accuracy",
+				"statName": "LeftTorso.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
+				"modValue": "-3.0",
 				"modType": "System.Single"
 			}
 		},
@@ -203,16 +203,38 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-AvatarRAAcc",
-				"Name": "Avatar RA Accuracy",
-				"Details": "All incoming damage increased by 30%.",
+				"Id": "StatusEffect-Gyro-HephaestusCTAccuracy",
+				"Name": "Hephaestus CT Accuracy",
+				"Details": "All outgoing damage increased by 50%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "RightArm.Accuracy",
+				"statName": "CenterTorso.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
+				"modValue": "-3.0",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-HephaestusRTAccuracy",
+				"Name": "Hephaestus RT Accuracy",
+				"Details": "All outgoing damage increased by 50%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "RightTorso.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-3.0",
 				"modType": "System.Single"
 			}
 		}

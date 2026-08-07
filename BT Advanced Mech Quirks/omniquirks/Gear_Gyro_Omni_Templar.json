@@ -33,7 +33,7 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"EvaMax: +2",
+			"EvaMax: +1",
 			"EvaPips: +1",
 			"HeatPerTurn: -12",
 			"PipsIgnored: 1",
@@ -55,7 +55,7 @@
 		"UIName": "Templar OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Templar",
 		"Name": "Templar OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Templar possesses as an OmniMech. It provides a number of benefits to the Templar, such as increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Templar to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Templar possesses as an OmniMech. It provides a number of benefits to the Templar, such as increased stability, bonus evasion maximum, bonus evasion on movement, improved heat dissipation, and one ignored evasion on weapons fire. It also contains the benefits inherent to OmniMechs and permits the Templar to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -137,7 +137,7 @@
 			"Description": {
 				"Id": "Gyro-Templar-EvasionMax",
 				"Name": "Templar Quirk",
-				"Details": "Provides increased stability, bonus arm accuracy, improved heat dissipation, and increased weapon damage to all targets to the Templar.",
+				"Details": "Provides increased stability, bonus evasion maximum, bonus evasion on movement, improved heat dissipation, and one ignored evasion on weapons fire to the Templar.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
