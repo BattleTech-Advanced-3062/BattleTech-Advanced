@@ -19,7 +19,7 @@
 		"Id": "mechdef_atlas_AS7-D-HK",
 		"Name": "Atlas II",
 		"Details": "Found by Lady Kamea Arano in a Star League cache, this Atlas II was apparently modified by its original owner during the Amaris Civil War. Why it was abandoned is unclear since all other Atlas IIs went with General Kerensky on the Exodus. This Atlas II switches the LB-10X and ER Large Lasers of the stock Atlas II for a pair of Ultra Autocannon/5s, giving it much better ranged firepower. It carries the same SRM, LRM, and Medium Pulse Lasers, though it adds a third laser, of the original, as well as the same armor.",
-		"Icon": "uixTxrIcon_atlas"
+		"Icon": "uixTxrIcon_atlasii"
 	},
 	"simGameMechPartCost": 1300000,
 	"Version": 1,
