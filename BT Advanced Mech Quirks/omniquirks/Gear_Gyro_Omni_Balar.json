@@ -34,10 +34,11 @@
 		],
 		"BonusDescriptions": [
 			"WalkSpeed: +10%",
-			"RunSpeed: +5%",
-			"Defense: +2",
-			"DamageReduction: 20%",
-			"GyroStab: 55",
+			"RunSpeed: +10%",
+			"EvaMax: +1",
+			"EvaPips: +1",
+			"PipsIgnored: 1",
+			"GyroStab: 70",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -51,11 +52,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Gauntlet Omni",
-		"UIName": "Gauntlet OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Gauntlet",
-		"Name": "Gauntlet OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Gauntlet possesses as an OmniMech. It provides a number of benefits to the Gauntlet, such as increased stability, improved damage reduction, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Gauntlet to also function as an OmniMech.",
+		"Model": "Balar Omni",
+		"UIName": "Balar OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Balar",
+		"Name": "Balar OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Balar possesses as an OmniMech. It provides a number of benefits to the Balar, such as increased stability, bonus evasion maximum, bonus evasion on movement, improved walk and sprint speed, and one ignored evasion on weapons fire. It also contains the benefits inherent to OmniMechs and permits the Balar to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,7 +92,33 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "55.0",
+				"modValue": "70.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-OmniBalar-Walk",
+				"Name": "Balar Walk Speed",
+				"Details": "Boost walk speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -109,16 +136,41 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-OmniGauntlet-Walk",
-				"Name": "Gauntlet Omni Quirk",
-				"Details": "Provides increased stability, improved damage reduction, bonus defense, and boosted walk and sprint speed to the Gauntlet Omni.",
+				"Id": "Gyro-Balar-EvasionMax",
+				"Name": "Balar Quirk",
+				"Details": "Provides increased stability, bonus evasion maximum, bonus evasion on movement, improved walk and sprint speed, and one ignored evasion on weapons fire to the Balar.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
+				"statName": "MaxEvasivePips",
+				"operation": "Int_Add",
+				"modValue": "1",
+				"modType": "System.Int32"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro_Balar-MoreEvasion",
+				"Name": "EVASIVE MOVE",
+				"Details": "This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "EvasivePipsGainedAdditional",
+				"operation": "Int_Add",
+				"modValue": "1",
+				"modType": "System.Int32"
 			},
 			"nature": "Buff"
 		},
@@ -146,31 +198,6 @@
 				"modValue": "true",
 				"modType": "System.Boolean"
 			}
-		},{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "NarrowProfileDefense",
-				"Name": "HARDER TO HIT",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "2.0",
-				"modType": "System.Single"
-			}
 		},
 		{
 			"durationData": {},
@@ -181,17 +208,17 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-GauntletDR",
-				"Name": "Gauntlet Gyro DR",
-				"Details": "All incoming damage increased by 20%.",
+				"Id": "StatusEffect-Gyro-BalarEvaIgnore",
+				"Name": "Balar Evasion Ignore",
+				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "DamageReductionMultiplierAll",
-				"operation": "Float_Multiply",
-				"modValue": "0.8",
-				"modType": "System.Single"
+				"statName": "EvasivePipsIgnored",
+				"operation": "Float_Add",
+				"modValue": "1.0",
+				"modType": "System.Single",
 			}
 		},
 		{
@@ -207,13 +234,13 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Gauntlet-Sprint",
-				"Name": "Gauntlet Sprint",
-				"Details": "Gauntlet go brrr.",
+				"Id": "Gyro-Balar-Sprint",
+				"Name": "Balar Sprint",
+				"Details": "Balar go brrr.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.05",
+				"modValue": "0.1",
 				"operation": "Float_Add",
 				"statName": "CBTBE_RunMultiMod",
 				"modType": "System.Single"
