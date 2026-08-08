@@ -87,8 +87,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 70,
-			"MaxRearArmor": 35,
+			"MaxArmor": 56,
+			"MaxRearArmor": 15,
 			"InternalStructure": 35
 		},
 		{
@@ -96,8 +96,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 100,
-			"MaxRearArmor": 50,
+			"MaxArmor": 71,
+			"MaxRearArmor": 20,
 			"InternalStructure": 50
 		},
 		{
@@ -114,8 +114,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 70,
-			"MaxRearArmor": 35,
+			"MaxArmor": 56,
+			"MaxRearArmor": 15,
 			"InternalStructure": 35
 		},
 		{
@@ -145,7 +145,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 70,
+			"MaxArmor": 65,
 			"MaxRearArmor": -1,
 			"InternalStructure": 35
 		},
@@ -154,7 +154,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 70,
+			"MaxArmor": 65,
 			"MaxRearArmor": -1,
 			"InternalStructure": 35
 		}
@@ -207,6 +207,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""
@@ -216,7 +217,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_XL_Omni",
+			"ComponentDefID": "Gear_Gyro_XL_Omni_Malak",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

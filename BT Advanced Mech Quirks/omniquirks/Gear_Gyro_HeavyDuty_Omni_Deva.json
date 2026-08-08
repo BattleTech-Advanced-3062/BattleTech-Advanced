@@ -33,15 +33,19 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"WalkSpeed: +10%",
-			"RunSpeed: +10%",
-			"Defense: +4",
-			"TorsoAccuracy: +4",
-			"GyroStab: 25",
+			"StabDamageTaken: -75%",
+			"DamageReduction: 20%",
+			"RightArmAccuracy: +5",
+			"CritRes: 20%",
+			"GyroStab: 70",
+			"GyroWeight: +60%",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
-		]
+		],
+		"Weights": {
+			"StructureFactor": 1.6
+		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
@@ -51,11 +55,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Raptor Omni",
-		"UIName": "Raptor OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Raptor",
-		"Name": "Raptor OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Raptor possesses as an OmniMech. It provides a number of benefits to the Raptor, such as increased stability, boosted torso weapon accuracy, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Raptor to also function as an OmniMech.",
+		"Model": "Deva Omni",
+		"UIName": "Deva OmniMech Gyro",
+		"Id": "Gear_Gyro_HeavyDuty_Omni_Deva",
+		"Name": "Deva OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Deva possesses as an OmniMech. It provides a number of benefits to the Deva, such as increased stability, boosted right arm weapon accuracy, bonus damage reduction, and greatly reduced incoming stability damage. It also contains the benefits inherent to OmniMechs and permits the Deva to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,33 +95,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "25.0",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": true
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Raptor-Walk",
-				"Name": "Raptor Omni Quirk",
-				"Details": "Provides increased stability, boosted torso weapon accuracy, bonus defense, and boosted walk and sprint speed to the Raptor.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
+				"modValue": "70.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -135,15 +113,15 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Raptor-Sprint",
-				"Name": "Raptor Sprint Speed",
-				"Details": "raptor go brrr.",
+				"Id": "StatusEffect-Gyro-DevaDR",
+				"Name": "Deva Omni Quirk",
+				"Details": "Provides increased stability, boosted right arm weapon accuracy, bonus damage reduction, and greatly reduced incoming stability damage to the Deva.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.1",
-				"operation": "Float_Add",
-				"statName": "CBTBE_RunMultiMod",
+				"statName": "DamageReductionMultiplierAll",
+				"operation": "Float_Multiply",
+				"modValue": "0.8",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -172,10 +150,11 @@
 				"modValue": "true",
 				"modType": "System.Boolean"
 			}
-		},{
+		},
+		{
 			"durationData": {
 				"duration": -1,
-				"stackLimit": -1
+				"stackLimit": 1,
 			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
@@ -185,18 +164,46 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "NarrowProfileDefense",
-				"Name": "HARDER TO HIT",
-				"Details": "Provides a penalty to all attacks against this unit.",
+				"Id": "StatusEffect-Gyro-DevaCritResist",
+				"Name": "Deva Crit Resistance",
+				"Details": "Crits are 20% less frequent.",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CriticalHitChanceReceivedMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.8",
+				"modType": "System.Single"
+			}
+		},
+		{
+			  "durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			  },
+			  "targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			  },
+			  "effectType": "StatisticEffect",
+			  "Description": {
+				"Id": "StatusEffect-Gyro-DevaStabDecrease",
+				"Name": "Deva Stability Decrease",
+				"Details": "The Heavy Duty Gyro reduces incoming damage by 10%, incoming stability damage by 40%, and increases the carrying 'Mech's stability threshold by 60.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "4.0",
+			  },
+			  "nature": "Buff",
+			  "statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "ReceivedInstabilityMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "0.25",
 				"modType": "System.Single"
-			}
+			  }
 		},
 		{
 			"durationData": {},
@@ -207,60 +214,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorLTAccuracy",
-				"Name": "Raptor LT Accuracy",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "LeftTorso.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-4.0",
-				"modType": "System.Single"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorCTAccuracy",
-				"Name": "Raptor CT Accuracy",
+				"Id": "StatusEffect-Gyro-DevaRAAccuracy",
+				"Name": "Deva RA Accuracy",
 				"Details": "All outgoing damage increased by 50%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "CenterTorso.Accuracy",
+				"statName": "RightArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-4.0",
-				"modType": "System.Single"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-RaptorRTAccuracy",
-				"Name": "Raptor RT Accuracy",
-				"Details": "All outgoing damage increased by 50%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "RightTorso.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-4.0",
+				"modValue": "-5.0",
 				"modType": "System.Single"
 			}
 		}

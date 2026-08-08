@@ -771,6 +771,12 @@
 			]
 		},
 		{
+			"Tag": "YazataGyro",
+			"IncompatibleTags": [
+				"NonYazata"
+			]
+		},
+		{
 			"Tag": "QuadFrontLegJJ",
 			"RequiredTags": [
 				"QuadMech"

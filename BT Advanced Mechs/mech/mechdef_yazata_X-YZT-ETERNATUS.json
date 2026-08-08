@@ -263,15 +263,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_WebbTC",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
 			"MountedLocation": "RightArm",
 			"ComponentDefID": "Weapon_LRM_Thunderbolt15",
 			"SimGameUID": null,
@@ -284,18 +275,6 @@
 			"LocalGUID": "target_Tbolt_1"
 		},
 		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_Tbolt_1"
-		},
-		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Gauss_Gauss_Silverbullet",
 			"SimGameUID": null,
@@ -306,18 +285,6 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"LocalGUID": "target_Gauss_1"
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_Gauss_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -408,11 +375,33 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Angel_ECM",
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Modular_Armor",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Modular_Armor_HalfTon",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Modular_Armor",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -429,18 +418,6 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"LocalGUID": "target_PPC_1"
-		},
-		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -475,18 +452,6 @@
 			"prefabName": null,
 			"hasPrefabName": false,
 			"LocalGUID": "target_Tbolt_2"
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_Tbolt_2"
 		}
 	]
 }

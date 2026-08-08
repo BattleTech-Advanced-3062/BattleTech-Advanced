@@ -1,0 +1,203 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"StabilityDamage": 100
+		},
+		"Category": [
+			{
+				"CategoryID": "Gyro"
+			},
+			{
+				"CategoryID": "OmniGyro"
+			},
+			{
+				"CategoryID": "YazataGyro"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"O",               
+				"Color":"#00a2c9",      
+				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Importance": 10
+			}
+		],
+		"Linked": {
+			"Links": [
+				{
+					"ComponentDefId": "Gear_Attachment_Yazata",
+					"Location": "LeftTorso"
+				},
+				{
+					"ComponentDefId": "Gear_Attachment_Yazata",
+					"Location": "LeftArm"
+				},
+				{
+					"ComponentDefId": "Gear_Attachment_Yazata",
+					"Location": "RightTorso"
+				},
+				{
+					"ComponentDefId": "Gear_Attachment_Yazata",
+					"Location": "RightArm"
+				}
+			]
+		},
+		"BonusDescriptions": [
+			"YazataFCS",
+			"WalkSpeed: +20%",
+			"RunSpeed: +20%",
+			"GyroStab: 130",
+			"GyroWeight: -30%",
+			"LinkedSlots: 4",
+			"IsGyro",
+			"Omni",
+			"BAMounts"
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"ignore_damage"
+		],
+		"Weights": {
+			"StructureFactor": 0.7
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 600000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Quirk",
+		"Model": "Yazata Omni",
+		"UIName": "Yazata OmniMech Gyro",
+		"Id": "Gear_Gyro_XL_Omni_Yazata",
+		"Name": "Yazata OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Yazata possesses as an OmniMech. It provides a number of benefits to the Yazata, such as increased stability, four fire control attachments for weapons, and increased walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Yazata to also function as an OmniMech. ",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 500,
+	"InventorySize": 4,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-Quad-Threshold",
+				"Name": "Gyroscopic Orientation",
+				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "130.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-Yazata-Walk",
+				"Name": "Yazata Walk Speed",
+				"Details": "Boost walk speed.",
+				"Icon": "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData": {
+				"statName": "WalkSpeed",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-Yazata-Sprint",
+				"Name": "Yazata Quirk",
+				"Details": "Provides increased stability, four fire control attachments for weapons, and increased walk and sprint speed to the Yazata.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"modValue": "0.2",
+				"operation": "Float_Add",
+				"statName": "CBTBE_RunMultiMod",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-getHasBattleArmorMounts",
+				"Name": "getHasBattleArmorMounts",
+				"Details": "getHasBattleArmorMounts",
+				"Icon": "uixSvgIcon_ability_precisionstrike"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "HasBattleArmorMounts",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BACompatible"
+		],
+		"tagSetSourceFile": ""
+	}
+}

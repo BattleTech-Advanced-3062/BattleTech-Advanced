@@ -3276,6 +3276,12 @@
 			"Full": "{0} Accuracy with arm-mounted weapons"
 		},
 		{
+			"Bonus": "RightArmAccuracy",
+			"Short": "{0} R.Arm Acc",
+			"Long": "{0} Right Arm Accuracy",
+			"Full": "{0} Accuracy with right arm-mounted weapons"
+		},
+		{
 			"Bonus": "TorsoAccuracy",
 			"Short": "{0} Torso Acc",
 			"Long": "{0} Torso Accuracy",
@@ -5386,6 +5392,12 @@
 			"Short": "Fire Immunity",
 			"Long": "Fire Immunity",
 			"Full": "This equipment provides its carrier with immunity to fire weapons and effects in combat. They do not suffer any ill effects from being struck by fire weapons."
+		},
+		{
+			"Bonus": "YazataFCS",
+			"Short": "Yazata FCS",
+			"Long": "Yazata Targeting Computer",
+			"Full": "This piece of equipment functions as the Yazata's fire control system. It provides a number of weapon attachments to the Yazata when equipped. These attachments provide a modest accuracy bonus for any attached weapon and are compatible with any and all forms of weaponry."
 		},
 		{
 			"Bonus": "WebbTC",

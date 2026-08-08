@@ -6,6 +6,9 @@
 			},
 			{
 				"CategoryID": "NonQuad"
+			},
+			{
+				"CategoryID": "NonYazata"
 			}
 		],
 		"Linked": {
@@ -29,10 +32,10 @@
 			]
 		},
 		"BonusDescriptions": [
-				"LinkedSlots: 4",
-				"WebbTC",
-				"NonQuad",
-				"IsSensorsB"
+			"LinkedSlots: 4",
+			"WebbTC",
+			"NonQuad",
+			"IsSensorsB"
 		]
 	},
 	"StatName": null,
