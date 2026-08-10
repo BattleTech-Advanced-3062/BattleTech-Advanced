@@ -11,11 +11,11 @@
 				"CategoryID": "OmniGyro"
 			}
 		],
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -171,7 +171,7 @@
 		{
 			"durationData": {
 				"duration": -1,
-				"stackLimit": 1,
+				"stackLimit": 1
 			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
