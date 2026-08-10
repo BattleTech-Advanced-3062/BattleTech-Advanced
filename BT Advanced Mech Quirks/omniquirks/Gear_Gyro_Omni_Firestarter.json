@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -114,7 +114,7 @@
 				"Icon": "uixSvgIcon_action_evasivemove"
 			},
 			"statisticData": {
-					"statName": "HeatSinkCapacity",
+				"statName": "HeatSinkCapacity",
 				"operation": "Int_Add",
 				"modValue": "6",
 				"modType": "System.Int32"
@@ -194,7 +194,7 @@
 				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.3",
-				"modType": "System.Single",
+				"modType": "System.Single"
 			}
 		}
 	],

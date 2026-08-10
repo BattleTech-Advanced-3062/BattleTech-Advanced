@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -154,7 +154,7 @@
 		{
 			"durationData": {
 				"duration": -1,
-				"stackLimit": 1,
+				"stackLimit": 1
 			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
@@ -178,32 +178,32 @@
 			}
 		},
 		{
-			  "durationData": {
+			"durationData": {
 				"duration": -1,
 				"stackLimit": 1
-			  },
-			  "targetingData": {
+			},
+			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInTargetPreview": false,
 				"showInStatusPanel": false
-			  },
-			  "effectType": "StatisticEffect",
-			  "Description": {
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
 				"Id": "StatusEffect-Gyro-DevaStabDecrease",
 				"Name": "Deva Stability Decrease",
 				"Details": "The Heavy Duty Gyro reduces incoming damage by 10%, incoming stability damage by 40%, and increases the carrying 'Mech's stability threshold by 60.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
-			  },
-			  "nature": "Buff",
-			  "statisticData": {
+			},
+			"nature": "Buff",
+			"statisticData": {
 				"appliesEachTick": false,
 				"effectsPersistAfterDestruction": false,
 				"statName": "ReceivedInstabilityMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "0.25",
 				"modType": "System.Single"
-			  }
+			}
 		},
 		{
 			"durationData": {},
