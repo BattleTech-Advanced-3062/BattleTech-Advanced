@@ -1,0 +1,13 @@
+{
+  "Name": "OmniArmorLock",
+  "Version": "1.0.0",
+  "Author": "MightyPirate",
+  "DLL": "OmniArmorLock.dll",
+  "DependsOn": [
+    "CustomComponents","MechEngineer"
+  ],
+  "Settings": {
+    "MechTagToLock": "OmniArmorLock"
+  },
+  "ConflictsWith": []
+}
