@@ -56,9 +56,9 @@
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
 		"Model": "Malak Omni",
-		"UIName": "Malak OmniMech Gyro",
+		"UIName": "Malak OmniMech XL Gyro",
 		"Id": "Gear_Gyro_XL_Omni_Malak",
-		"Name": "Malak OmniMech Gyro",
+		"Name": "Malak OmniMech XL Gyro",
 		"Details": "This piece of gear represents the inherently superior gyro that the Malak possesses as an OmniMech. It provides a number of benefits to the Malak, such as increased stability, bonus right arm and head accuracy, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Malak to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},

@@ -71,9 +71,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Quirk",
 		"Model": "Yazata Omni",
-		"UIName": "Yazata OmniMech Gyro",
+		"UIName": "Yazata OmniMech XL Gyro",
 		"Id": "Gear_Gyro_XL_Omni_Yazata",
-		"Name": "Yazata OmniMech Gyro",
+		"Name": "Yazata OmniMech XL Gyro",
 		"Details": "This piece of gear represents the inherently superior gyro that the Yazata possesses as an OmniMech. It provides a number of benefits to the Yazata, such as increased stability, four fire control attachments for weapons, and increased walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Yazata to also function as an OmniMech. ",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},

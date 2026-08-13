@@ -56,9 +56,9 @@
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
 		"Model": "Deva Omni",
-		"UIName": "Deva OmniMech Gyro",
+		"UIName": "Deva OmniMech Heavy Duty Gyro",
 		"Id": "Gear_Gyro_HeavyDuty_Omni_Deva",
-		"Name": "Deva OmniMech Gyro",
+		"Name": "Deva OmniMech Heavy Duty Gyro",
 		"Details": "This piece of gear represents the inherently superior gyro that the Deva possesses as an OmniMech. It provides a number of benefits to the Deva, such as increased stability, boosted right arm weapon accuracy, bonus damage reduction, and greatly reduced incoming stability damage. It also contains the benefits inherent to OmniMechs and permits the Deva to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},

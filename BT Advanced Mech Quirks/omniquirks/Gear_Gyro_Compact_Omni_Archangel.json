@@ -48,9 +48,9 @@
 		"Purchasable": true,
 		"Manufacturer": "Quirk",
 		"Model": "Archangel Omni",
-		"UIName": "Archangel OmniMech Gyro",
+		"UIName": "Archangel OmniMech Compact Gyro",
 		"Id": "Gear_Gyro_Compact_Omni_Archangel",
-		"Name": "Archangel OmniMech Gyro",
+		"Name": "Archangel OmniMech Compact Gyro",
 		"Details": "This piece of gear represents the inherently superior gyro that the Grigori possesses as an OmniMech. It provides a number of benefits to the Grigori, such as increased stability, bonus right arm and head accuracy, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Grigori to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},

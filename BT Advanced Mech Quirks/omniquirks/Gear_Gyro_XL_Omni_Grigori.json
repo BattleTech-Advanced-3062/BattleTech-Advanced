@@ -55,9 +55,9 @@
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
 		"Model": "Grigori Omni",
-		"UIName": "Grigori OmniMech Gyro",
+		"UIName": "Grigori OmniMech XL Gyro",
 		"Id": "Gear_Gyro_XL_Omni_Grigori",
-		"Name": "Grigori OmniMech Gyro",
+		"Name": "Grigori OmniMech XL Gyro",
 		"Details": "This piece of gear represents the inherently superior gyro that the Grigori possesses as an OmniMech. It provides a number of benefits to the Grigori, such as increased stability, bonus right arm and head accuracy, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Grigori to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
