@@ -15,7 +15,7 @@
 		"UIName": "Jackrabbit",
 		"Id": "chassisdef_jackrabbit_JKR-8Hz",
 		"Name": "Jackrabbit",
-		"Details": "The Jackrabbit is often maligned as a 'bad mech.'  Truth be told, it isn't great.  But the same can be said for just about any 20-25 ton mech built with a standard fusion core.  Some groups, specifically Pafftek Industries, as well as the Word of Blake, have sought to upgrade/renew the Jackrabbit design.  We at Periphery Arms however, thought we would take the Pafftek Industries JKR-8WT 'Nuclear Shape carrier' and turn it into something specially for deployment to cash strapped periphery powers.   First we removed the horrendously expensive infantry Davey Crockett launcher and its ammunition.   In its place, a Howitzer/4 with 3 tons of ammo.  A Periphery TAG system and a medium binary laser round out the JKR-8Hz's weapon loadout.   Protection is provided by cheap and reliable Retro Light Plating. ",
+		"Details": "The Jackrabbit is often maligned as a \"bad mech.\"  Truth be told, it isn't great.  But the same can be said for just about any 20-25 ton mech built with a standard fusion core.  Some aftermarket production houses, as well as the Word of Blake, have sought to upgrade/renew the Jackrabbit design.  We at Periphery Arms however, thought we would take one of those alternate designs and turn it into something specially for deployment to cash strapped periphery powers.   First we removed the horrendously expensive gear from the chassis.   In its place, a Howitzer/4 with 3 tons of ammo.  A Periphery TAG system and a medium binary laser round out the JKR-8Hz's weapon loadout.   Protection is provided by cheap and reliable Retro Light Plating.",
 		"Icon": "uixTxrIcon_jackrabbit"
 	},
 	"MovementCapDefID": "movedef_commando_COM-2D",
@@ -208,7 +208,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Light Artillery",
-	"YangsThoughts": "The Jackrabbit is often maligned as a 'bad mech.'  Truth be told, it isn't great.  But the same can be said for just about any 20-25 ton mech built with a standard fusion core.  Some groups, specifically Pafftek Industries, as well as the Word of Blake, have sought to upgrade/renew the Jackrabbit design.  We at Periphery Arms however, thought we would take the Pafftek Industries JKR-8WT 'Nuclear Shape carrier' and turn it into something specially for deployment to cash strapped periphery powers.   First we removed the horrendously expensive infantry Davey Crockett launcher and its ammunition.   In its place, a Howitzer/4 with 3 tons of ammo.  A Periphery TAG system and a medium binary laser round out the JKR-8Hz's weapon loadout.   Protection is provided by cheap and reliable Retro Light Plating.",
+	"YangsThoughts": "The Jackrabbit is often maligned as a \"bad mech.\"  Truth be told, it isn't great.  But the same can be said for just about any 20-25 ton mech built with a standard fusion core.  Some aftermarket production houses, as well as the Word of Blake, have sought to upgrade/renew the Jackrabbit design.  We at Periphery Arms however, thought we would take one of those alternate designs and turn it into something specially for deployment to cash strapped periphery powers.   First we removed the horrendously expensive gear from the chassis.   In its place, a Howitzer/4 with 3 tons of ammo.  A Periphery TAG system and a medium binary laser round out the JKR-8Hz's weapon loadout.   Protection is provided by cheap and reliable Retro Light Plating.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",

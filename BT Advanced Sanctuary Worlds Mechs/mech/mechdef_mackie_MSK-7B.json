@@ -30,7 +30,7 @@
 		"Details": "The Mackie was the pride of the Terran Hegemony and the sign of their power, so it is fitting that it accompanied the Hegemony corporations that would become the Sanctuary Worlds on their great journey. Their inherent Terran pride never dimmed and they maintained the Mackie out of pride. The MSK-7B became the new stock standard design, armed with a Double-Barrel AC/20, a NPC, and twin Large Electro-Lasers for maximum punch. Thick armor kept the mech operational in all circumstances while plenty of DHS and ammo kept the guns running. The -7B went on to spawn many variants and led a storied history in the Sanctuary Worlds.",
 		"Icon": "uixTxrIcon_mackie"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{

@@ -10,11 +10,11 @@
 	"sgCharType": "UNSET",
 	"showRank": true,
 	"showFirstName": true,
-	"showCallsign": true,
-	"showLastName": false,
+	"showCallsign": false,
+	"showLastName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "sprites/Portraits/guiTxrPort_Karosas_default_utr.png"
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_JamesBarbados.png"
 	},
 	"emotePotraitList": []
 }

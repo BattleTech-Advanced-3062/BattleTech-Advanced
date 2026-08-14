@@ -1,0 +1,91 @@
+{
+	"Description": {
+		"Id": "starsystemdef_TheHole",
+		"Name": "The Hole",
+		"Details": "Essentially a dumping ground for the Rim World's undesirables, The Hole holds little of value, at least until Rim World Republic armament development teams found it a convenient spot to test new weapon systems, far from prying eyes.",
+		"Icon": ""
+	},
+	"Position": {
+		"x": -265.18,
+		"y": 568.71,
+		"z": 0
+	},
+	"Tags": {
+		"items": [
+			"planet_name_thehole",
+			"planet_size_medium",
+			"planet_climate_lunar",
+			"planet_feature_moon01",
+			"planet_other_moon",
+			"planet_pop_small",
+			"planet_civ_periphery",
+			"planet_industry_research",
+			"planet_other_blackmarket",
+			"planet_other_pirate",
+			"planet_other_prison",
+			"planet_factory",
+			"planet_faction_rimworldsrepublic"
+		],
+		"tagSetSourceFile": ""
+	},
+	"SupportedBiomes": [
+		"lunarVacuum"
+	],
+	"MapRequiredTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"MapExcludedTags": {
+		"items": [],
+		"tagSetSourceFile": ""
+	},
+	"FuelingStation": true,
+	"JumpDistance": 9,
+	"ownerID": "RimWorldsRepublic",
+	"ShopRefreshRate": 0,
+	"ShopMaxInventory": 0,
+	"ShopMaxSpecials": 9,
+	"SystemInfluence": [],
+	"TravelRequirements": [],
+	"StarPosition": null,
+	"StarType": "G",
+	"Depletable": false,
+	"UseSystemRoninHiringChance": false,
+	"RoninHiringChance": 0,
+	"UseMaxContractOverride": false,
+	"MaxContractOverride": 0,
+	"SystemShopItems": [
+		"itemCollection_major_RimWorldsRepublic"
+	],
+	"factionShopOwnerID": "RimWorldsRepublic",
+	"FactionShopItems": [
+		"itemCollection_faction_RimWorldsRepublic"
+	],
+	"BlackMarketShopItems": [
+		"BTA_List_BlackMarket"
+	],
+	"CoreSystemID": "starsystemdef_TheHole",
+	"StartingSystemModes": [
+		"KAMEA_CAMPAIGN",
+		"CAREER",
+		"NONE"
+	],
+	"DefaultDifficulty": 6,
+	"DifficultyList": [],
+	"DifficultyModes": [],
+	"contractEmployerIDs": [
+		"RimWorldsRepublic",
+		"Locals"
+	],
+	"contractTargetIDs": [
+		"Hanse",
+		"DarkCaste",
+		"Oberon",
+		"GreenGhosts",
+		"Steiner",
+		"ClanWolf",
+		"ClanJadeFalcon",
+		"Mercenaries",
+		"Locals"
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"id": "castDef_Rasalhague",
+	"internalName": "Rasalhague",
+	"firstName": "Ragnar",
+	"lastName": "Hartvigsen",
+	"callsign": "",
+	"rank": "Representative",
+	"gender": "Male",
+	"factionID": "Rasalhague",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_RagnarHartvigsen.png"
+	},
+	"emotePotraitList": []
+}

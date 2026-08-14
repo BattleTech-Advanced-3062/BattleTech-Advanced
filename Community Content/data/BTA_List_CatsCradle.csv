@@ -66,6 +66,7 @@ Ammo_AmmunitionBox_Bee_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Deadfire_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_FTL_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_SemiGuided_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Streak_LRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Swarm_LRM,AmmunitionBox,0,10
@@ -79,6 +80,7 @@ Ammo_AmmunitionBox_ArtemisIV_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Inferno_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_MagPulse_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_NARC_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Streak_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_Tandem_SRM,AmmunitionBox,0,10
 Ammo_AmmunitionBox_ULTIMA_ROUNDSHOT,AmmunitionBox,0,10

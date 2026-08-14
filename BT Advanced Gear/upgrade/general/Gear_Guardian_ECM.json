@@ -10,6 +10,7 @@
 		],
 		"BonusDescriptions": [
 			"MissileDefense: +2",
+			"ECMRadius: 150",
 			"SensorLockImmune",
 			"C3Jamming: 120"
 		]

@@ -1379,7 +1379,7 @@
 				},
 				"lanceExcludedTagSet": {
 					"items": [
-						"lance_type_gladiator"
+						"mc_no_extended_lance"
 					],
 					"tagSetSourceFile": "Tags/LanceTags"
 				},
@@ -1473,7 +1473,7 @@
 				},
 				"lanceExcludedTagSet": {
 					"items": [
-						"lance_type_gladiator"
+						"mc_no_extended_lance"
 					],
 					"tagSetSourceFile": "Tags/LanceTags"
 				},

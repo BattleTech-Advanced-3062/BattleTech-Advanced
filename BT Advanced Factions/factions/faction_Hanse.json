@@ -22,8 +22,8 @@
 		"RimWorldsRepublic"
 	],
 	"Presence": 0.1,
-	"DefaultCombatLeaderCastDefId": "castDef_LocalsDefault",
-	"DefaultRepresentativeCastDefId": "castDef_LocalsDefault",
+	"DefaultCombatLeaderCastDefId": "castDef_Hanse",
+	"DefaultRepresentativeCastDefId": "castDef_Hanse",
 	"heraldryDefId": "heraldrydef_Hanse",
 	"ReputationStatements": [
 		"Commander, you have constantly been a thorn in the side of the Hanseatic League's desire for mutually profitable trade.  However, if you desire C-Bills so badly, we do have this contract you can undertake.",

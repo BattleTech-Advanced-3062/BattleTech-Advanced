@@ -14,7 +14,7 @@
 	"showLastName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_Amaris.png"
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_UkrisHelius.png"
 	},
 	"emotePotraitList": []
 }

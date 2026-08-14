@@ -8,7 +8,7 @@
 		"UIName": "Loader King",
 		"Id": "chassisdef_loaderking_LDR-K-BDH",
 		"Name": "Loader King",
-		"Details": "A militarized industrial mech from the deep periphery, the Loader-King BDH (Big Damn Hero) was a key component in resisting the predations of pirates and mercenaries on the world of La Monate. Piloted by the rebellious Jack Macintrye, the Big Damn Hero became a rallying cry against oppression in its local cluster. The true legacy of the Big Damn Hero however, was the deliberate spreading of information on how to convert an existing Loader Kings into one using materials and equipment that were, generally speaking, available in the periphery. The Big Damn hero is now regularly found amongst militias, ragtag rebels, and even desperate mercenary organizations.",
+		"Details": "A militarized industrial mech from the deep periphery, the Loader-King BDH (Big Damn Hero) was a key component in resisting the predations of pirates and mercenaries on the world of La Monate. Piloted by the rebellious Jack Macintrye, the Big Damn Hero became a rallying cry against oppression in its local cluster. The true legacy of the Big Damn Hero however, was the deliberate spreading of information on how to convert an existing Loader Kings into one using materials and equipment that were, generally speaking, available in the periphery. The Big Damn hero is now regularly found amongst militias, ragtag rebels, and even desperate mercenary organizations.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_loaderking"
 	},
 	"MovementCapDefID": "movedef_roughneck_RGH-1A",

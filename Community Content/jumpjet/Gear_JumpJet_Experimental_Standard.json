@@ -29,7 +29,7 @@
 		"UIName": "Experimental Jump Jet (S)",
 		"Id": "Gear_JumpJet_Experimental_Standard",
 		"Name": "Experimental Standard Jump Jet (S)",
-		"Details": "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Standard Jump Jets are specially designed for use on 'Mechs up to 55 tons. Experimental Jump Jets allow more of them to be stacked onto a mech than normal jump jets despite weighing the same as normal jump jets, increasing your available jump distance accordingly. Experimental Jump Jets also make much more heat than a normal jump jet",
+		"Details": "Jump Jets funnel superheated air to propel 'Mechs over obstacles in a controlled manner. Additionally, they may also be used to perform the dreaded 'Death from Above' attack. Standard Jump Jets are specially designed for use on 'Mechs up to 55 tons. Experimental Jump Jets allow more of them to be stacked onto a mech than normal jump jets despite weighing the same as normal jump jets, increasing your available jump distance accordingly. Experimental Jump Jets also make much more heat than a normal jump jet\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixSvgIcon_action_jump"
 	},
 	"BonusValueA": null,

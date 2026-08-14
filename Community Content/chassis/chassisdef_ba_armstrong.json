@@ -27,7 +27,7 @@
 		"UIName": "Armstrong Battle Armor",
 		"Id": "chassisdef_ba_armstrong",
 		"Name": "Armstrong Battle Armor",
-		"Details": "The Armstrong was the result of PAI attempting to get into the Battle Armor market. Without any sample suits, they started from first principles and began with armored space suits. They did not get far from that concept. The resulting Armstrong suit was fast, heavily armored and almost completely combat ineffectual. As an urban suppression unit however, it did the job.",
+		"Details": "The Armstrong was the result of PAI attempting to get into the Battle Armor market. Without any sample suits, they started from first principles and began with armored space suits. They did not get far from that concept. The resulting Armstrong suit was fast, heavily armored and almost completely combat ineffectual. As an urban suppression unit however, it did the job.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_armstrong"
 	},
 	"MovementCapDefID": "movedef_wasp_WSP-1A",

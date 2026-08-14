@@ -124,5 +124,12 @@
 			"tag": "planet_name_catscradle"
 		},
 		"items": "BTA_List_CatsCradle"
+	},
+	{
+		"name": "The Hole",
+		"conditions": {
+			"tag": "planet_name_thehole"
+		},
+		"items": "BTA_List_TheHole"
 	}
 ]

@@ -30,7 +30,7 @@
 		"Details": "The Mackie was the pride of the Terran Hegemony and the sign of their power, so it is fitting that it accompanied the Hegemony corporations that would become the Sanctuary Worlds on their great journey. Their inherent Terran pride never dimmed and they maintained the Mackie out of pride. The MSK-8G is one of the many variants of the Mackie in the Sanctuary Worlds. An all-energy payload keeps the MSK-8G running in any combat situation. A Gamma Cannon provides extended range firepower while two each Large Lances and Twin-Linked Small Lasers cover closer ranges. A Supercharger gives the Mackie a burst of speed while ECM and Ferro-Fibrous give boosted defense. Finally, 24 DHS keep it ice-cold.",
 		"Icon": "uixTxrIcon_mackie"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{
