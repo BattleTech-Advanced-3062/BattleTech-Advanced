@@ -59,7 +59,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 45,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
 			"InternalStructure": 16
 		},
@@ -73,7 +73,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
+			"MaxArmor": 25,
 			"MaxRearArmor": -1,
 			"InternalStructure": 20
 		},
@@ -83,12 +83,20 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 60,
-			"MaxRearArmor": 30,
+			"MaxArmor": 35,
+			"MaxRearArmor": 10,
 			"InternalStructure": 30
 		},
 		{
@@ -96,8 +104,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 80,
-			"MaxRearArmor": 40,
+			"MaxArmor": 40,
+			"MaxRearArmor": 10,
 			"InternalStructure": 40
 		},
 		{
@@ -110,12 +118,16 @@
 				{
 					"WeaponMountID": "AntiPersonnel",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 60,
-			"MaxRearArmor": 30,
+			"MaxArmor": 35,
+			"MaxRearArmor": 10,
 			"InternalStructure": 30
 		},
 		{
@@ -128,7 +140,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
+			"MaxArmor": 25,
 			"MaxRearArmor": -1,
 			"InternalStructure": 20
 		},
@@ -137,7 +149,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		},
@@ -146,7 +158,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 30,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		}
@@ -199,6 +211,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"
@@ -327,7 +340,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Raptor",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

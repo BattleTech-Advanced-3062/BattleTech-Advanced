@@ -1,7 +1,7 @@
 {
 	"Name": "BT Advanced Core",
 	"Enabled": true,
-	"Version": "20.0.1",
+	"Version": "20.1",
 	"Description": "For files that have nowhere else to live and are fundamental to the modpack's functionality.",
 	"DataAddendumEntries": [
 		{
@@ -65,7 +65,6 @@
 		"PanicSystem",
 		"PilotHealthPopup",
 		"QuietDarius",
-		"Repair Bays",
 		"SkipIntro",
 		"VehicleEvasivePipsGainiedAdditionalFix",
 		"VIPadvanced",
@@ -111,7 +110,8 @@
 		"JwTweaks",
 		"SwordOfRestoration",
 		"HeraldryPicker",
-		"BT_SpendThatXp"
+		"BT_SpendThatXp",
+		"OmniArmorLock"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"

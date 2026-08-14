@@ -265,15 +265,6 @@
 		},
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_WebbTC",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": "",
-			"hasPrefabName": true
-		},
-		{
-			"MountedLocation": "Head",
 			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Sniper",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
@@ -329,18 +320,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightArm",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_PPC_1"
-		},
-		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Gauss_HAG30_CLAN",
 			"SimGameUID": null,
@@ -387,22 +366,21 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_Gauss_1"
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Angel_ECM",
+			"ComponentDefID": "Gear_Modular_Armor_HalfTon",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
-			"HardpointSlot": 0,
+			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -422,15 +400,14 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
 			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
+			"ComponentDefType": "HeatSink",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_Sniper_1"
+			"hasPrefabName": false
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -465,18 +442,6 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Gear_Attachment_WebbTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false,
-			"TargetComponentGUID": "target_PPC_2"
 		},
 		{
 			"MountedLocation": "RightLeg",

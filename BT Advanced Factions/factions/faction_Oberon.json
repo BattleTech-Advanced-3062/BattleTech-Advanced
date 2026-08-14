@@ -42,7 +42,7 @@
 	"BadFaithFailureStatements": [
 		"I should cut out your heart and enslave your entire crew for failing this simple task.  Leave, before I decide to do it!"
 	],
-	"Description": "The Oberon Confederation is quite simply a bandit state, veiled in a thin veneer of legitimacy.  Piracy and slavery is still rampant, although Hendrick Grimm III has made steps to push such things out of the public eye.",
+	"Description": "The Oberon Confederation is quite simply a bandit state, veiled in a thin veneer of legitimacy.  Piracy and slavery is still rampant, although Queen Ella Grimm has made steps to push such things out of the public eye.",
 	"factionID": "Oberon",
 	"icon": "uixTxrLogo_Oberon",
 	"factionMapBorderOverrideColor": "rgba(0,0,0,1.0)",

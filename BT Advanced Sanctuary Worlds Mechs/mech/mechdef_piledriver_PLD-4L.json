@@ -32,7 +32,7 @@
 		"Details": "Developed by the Sanctuary Worlds to serve in the role of heavy assault, the Piledriver exists specifically to crush its enemies and see them driven before it. Heavily armed and armored, the Piledriver is a simple, no-nonsense machine, designed to annihilate its foes without mercy. The PLD-4L is a long-range artillery platform, armed primarily with a Long Tom Artillery Piece. For close-range combat, the -4L carries a NPC, DRM-6, and two Twin-Linked Lasers.",
 		"Icon": "uixTxrIcon_piledriver"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{

@@ -128,7 +128,8 @@
             "BT Advanced Gear/MechengineerGear/data/vanilla/heatsinks",
             "BT Advanced Clan Gear/engines",
             "BT Advanced Sanctuary Worlds Equipment/heatsink",
-            "VIPAdvanced/TankEngines"
+            "VIPAdvanced/TankEngines",
+            "Community Content/heatsink"
         ],
         "WeaponDef": [
             "BT Advanced Gear/weapon",
@@ -137,7 +138,8 @@
             "BT Advanced Clan Gear/weapons",
             "BT Advanced Sanctuary Worlds Equipment/weapon",
             "Heavy Metal Equipment Module/weapon",
-            "VIPAdvanced/TankWeapons"
+            "VIPAdvanced/TankWeapons",
+            "Community Content/weapon"
         ],
         "AmmunitionBoxDef": [
             "BT Advanced Clan Gear/ammobox",
@@ -166,7 +168,8 @@
             "CustomAmmoCategories/Taser",
             "CustomAmmoCategories/Thunderbolt",
             "CustomAmmoCategories/UltraAC",
-            "Heavy Metal Equipment Module/ammunitionBox"
+            "Heavy Metal Equipment Module/ammunitionBox",
+            "Community Content/ammobox"
         ],
         "UpgradeDef": [
             "BT Advanced Gear/upgrade",
@@ -189,12 +192,14 @@
             "Heavy Metal Equipment Module/upgrades",
             "ResultOrientedItems/items",
 			"StrategicOperations/contracts",
-			"StrategicOperations/upgrade"
+			"StrategicOperations/upgrade",
+            "Community Content/upgrade"
         ],
         "JumpJetDef": [
             "BT Advanced Gear/MechengineerGear/data/JumpJets",
             "BT Advanced Gear/MechengineerGear/data/vanilla/jumpjets",
-            "Heavy Metal Equipment Module/jumpjets"
+            "Heavy Metal Equipment Module/jumpjets",
+            "Community Content/jumpjet"
         ],
         "MechDef": [
             "BT Advanced Mechs/mech",
@@ -204,7 +209,8 @@
 			"BT Advanced Quad Mechs/mech",
             "Flashpoint Unit Module/mech",
             "Urban Warfare Unit Module/mech",
-            "Heavy Metal Unit Module/mech"
+            "Heavy Metal Unit Module/mech",
+            "Community Content/mech"
         ],
         "VehicleDef": [
             "BT Advanced Clan Tanks/vehicle",
@@ -220,7 +226,8 @@
             "VIPAdvanced/assault",
             "VIPAdvanced/convoy",
             "VIPAdvanced/apc",
-            "VIPAdvanced/aerospace"
+            "VIPAdvanced/aerospace",
+            "Community Content/vehicle"
         ]
     }
 }

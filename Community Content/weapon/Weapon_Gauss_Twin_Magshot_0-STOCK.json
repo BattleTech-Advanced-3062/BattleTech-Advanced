@@ -55,7 +55,7 @@
 		"UIName": "Twin Magshot Rifle",
 		"Id": "Weapon_Gauss_Twin_Magshot_0-STOCK",
 		"Name": "Twin Magshot Rifle",
-		"Details": "The Magshot is the smallest of the Gauss Rifle family, intended for use against soft targets are close to medium ranges. It does low damage but has better range than most other AP weapons and does respectable stability damage for its size. The Twin Magshot is essentially two Magshots tied together with the expected results. \n\n <b><color=#ffcc00>Uses Magshot Ammo.</color></b>",
+		"Details": "The Magshot is the smallest of the Gauss Rifle family, intended for use against soft targets are close to medium ranges. It does low damage but has better range than most other AP weapons and does respectable stability damage for its size. The Twin Magshot is essentially two Magshots tied together with the expected results. \n\n <b><color=#ffcc00>Uses Magshot Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixSvgIcon_weapon_Support"
 	},
 	"BonusValueA": "",

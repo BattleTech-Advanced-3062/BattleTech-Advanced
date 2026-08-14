@@ -3,7 +3,7 @@
 	"internalName": "CircinusFederation",
 	"firstName": "Frank",
 	"lastName": "Tennebaum",
-	"callsign": "Barracuda",
+	"callsign": "",
 	"rank": "Captain",
 	"gender": "Male",
 	"factionID": "Circinus",
@@ -14,7 +14,7 @@
 	"showLastName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "sprites/Portraits/guiTxrPort_KameaGuard2_utr.png"
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_FrankTennebaum.png"
 	},
 	"emotePotraitList": []
 }

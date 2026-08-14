@@ -30,7 +30,7 @@
 		"Details": "Developed by the Sanctuary Worlds to serve in the role of heavy assault, the Piledriver exists specifically to crush its enemies and see them driven before it. Heavily armed and armored, the Piledriver is a simple, no-nonsense machine, designed to annihilate its foes without mercy. The PLD-5G is perhaps the most dangerous mech in the Sanctuary arsenal. Armed with a simple and clean loadout of 4 Gamma Cannons, there is nothing that the -5G can't destroy in moments.",
 		"Icon": "uixTxrIcon_piledriver"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{

@@ -443,10 +443,10 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_SRM",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",
@@ -455,9 +455,9 @@
 		},
 		{
 			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"ComponentDefID": "Ammo_AmmunitionBox_ArtemisIV_LRM",
 			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
+			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

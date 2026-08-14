@@ -72,7 +72,7 @@
 		"UIName": "B27 LB-X AC",
 		"Id": "Weapon_LBX_AC_B27",
 		"Name": "B27 LB-X Autocannon",
-		"Details": "The B27's BA carry twin LB-X ACs that fire a cluster of 4 shots each, with 6 rounds worth of ammo endurance",
+		"Details": "The B27's BA carry twin LB-X ACs that fire a cluster of 4 shots each, with 6 rounds worth of ammo endurance\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "battle-amor-suit"
 	},
 	"BonusValueA": "",

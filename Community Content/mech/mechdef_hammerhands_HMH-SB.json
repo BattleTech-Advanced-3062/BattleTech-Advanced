@@ -27,7 +27,7 @@
 		"UIName": "Hammerhands HMH-SB",
 		"Id": "mechdef_hammerhands_HMH-SB",
 		"Name": "Hammerhands",
-		"Details": "An early Federated Suns design, the Hammerhands proved popular with various mercenary units. One such unit developed this, the HMH-SB. Armed with twin Light HVAC/5s with three total tons of specialty ammunition as well as a quartet of specialized ER Medium Lasers and a Reloading Rocket pack, the HMH-SB proved powerful and reliable in battle.",
+		"Details": "An early Federated Suns design, the Hammerhands proved popular with various mercenary units. One such unit developed this, the HMH-SB. Armed with twin Light HVAC/5s with three total tons of specialty ammunition as well as a quartet of specialized ER Medium Lasers and a Reloading Rocket pack, the HMH-SB proved powerful and reliable in battle.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_hammerhands"
 	},
 	"simGameMechPartCost": 870000,

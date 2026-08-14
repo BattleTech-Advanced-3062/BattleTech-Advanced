@@ -10,6 +10,7 @@
 		],
 		"BonusDescriptions": [
 			"Defense: +1",
+			"ECMRadius: 150",
 			"SensorLockImmune",
 			"C3Jamming: 120"
 		]
@@ -134,7 +135,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Angel ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -164,7 +165,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Beta",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Angel ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -194,7 +195,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Gamma",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Angel ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -224,7 +225,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Delta",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Angel ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {
@@ -254,7 +255,7 @@
 					"Description": {
 						"Id": "StatusEffect_ECM-C3-Enemy-Jamming-Epsilon",
 						"Name": "C3 Enemy Jamming",
-						"Details": "Guardian ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
+						"Details": "Angel ECM is jamming C3 networks, preventing C3 networks from functioning within 120 meters.",
 						"Icon": "circuitry"
 					},
 					"statisticData": {

@@ -1,0 +1,20 @@
+{
+	"id": "castDef_ClanFireMandrill",
+	"internalName": "ClanFireMandrill",
+	"firstName": "Rhab",
+	"lastName": "Xing",
+	"callsign": "",
+	"rank": "Star Colonel",
+	"gender": "Male",
+	"factionID": "ClanFireMandrill",
+	"sgCharType": "UNSET",
+	"showRank": true,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_RhabXing.png"
+	},
+	"emotePotraitList": []
+}

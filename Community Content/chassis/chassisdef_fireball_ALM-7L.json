@@ -1,0 +1,233 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Fireball",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 1600000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Fireball",
+		"Id": "chassisdef_fireball_ALM-7L",
+		"Name": "Fireball",
+		"Details": "Captured Fireball salvage from the Federated Suns had a tall order in the Capellan Confederation. The design was not well liked by Capellan MechWarriors and the Confederation's scouting role was covered by other 'Mechs. However, a Warrior House Imarra MechTech had an inspired idea, based on the well-known UrbanMech UM-R29: mount a COIL to it and use it as a last-ditch one-shot wonder. The plan was approved and the ALM-7L entered service shortly thereafter. Armed with exclusively a COIL, the -7L uses a smaller engine than the source -7D does, taken from spare Locust chassis. The COIL is a tremendously dangerous weapon but the -7L can only use it sparingly, lest the waste heat melt the frame. Pilots assigned to the -7L often complain about the assignment... until their first mission when they rarely come home.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_fireball"
+	},
+	"MovementCapDefID": "movedef_stinger_STG-3R",
+	"PathingCapDefID": "pathingdef_light",
+	"HardpointDataDefID": "hardpointdatadef_fireball",
+	"PrefabIdentifier": "chrprfmech_fireballbase-001",
+	"PrefabBase": "fireball",
+	"Tonnage": 20,
+	"InitialTonnage": 2,
+	"weightClass": "LIGHT",
+	"BattleValue": 1642000,
+	"Heatsinks": 0,
+	"TopSpeed": 85,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 100,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 4,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 30,
+	"MeleeInstability": 10,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 30,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 30,
+	"DFAInstability": 10,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Superweapon",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 60,
+			"MaxRearArmor": 30,
+			"InternalStructure": 30
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 50,
+			"MaxRearArmor": 25,
+			"InternalStructure": 25
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 30,
+			"MaxRearArmor": -1,
+			"InternalStructure": 15
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 40,
+			"MaxRearArmor": -1,
+			"InternalStructure": 20
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 40,
+			"MaxRearArmor": -1,
+			"InternalStructure": 20
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 9.5,
+			"z": 0.5
+		},
+		{
+			"x": -2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": 2.5,
+			"y": 8.5,
+			"z": -0.5
+		},
+		{
+			"x": -1.5,
+			"y": 3,
+			"z": 0.5
+		},
+		{
+			"x": 1.5,
+			"y": 3,
+			"z": 0.5
+		}
+	],
+	"VariantName": "ALM-7L",
+	"ChassisTags": {
+		"items": [
+			"IgnoreEngineLimit",
+			"LightMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Super Rapid Response",
+	"YangsThoughts": "Captured Fireball salvage from the Federated Suns had a tall order in the Capellan Confederation. The design was not well liked by Capellan MechWarriors and the Confederation's scouting role was covered by other 'Mechs. However, a Warrior House Imarra MechTech had an inspired idea, based on the well-known UrbanMech UM-R29: mount a COIL to it and use it as a last-ditch one-shot wonder. The plan was approved and the ALM-7L entered service shortly thereafter. Armed with exclusively a COIL, the -7L uses a smaller engine than the source -7D does, taken from spare Locust chassis. The COIL is a tremendously dangerous weapon but the -7L can only use it sparingly, lest the waste heat melt the frame. Pilots assigned to the -7L often complain about the assignment... until their first mission when they rarely come home.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_Fireball",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

@@ -30,7 +30,7 @@
 		"Details": "The Mackie was the pride of the Terran Hegemony and the sign of their power, so it is fitting that it accompanied the Hegemony corporations that would become the Sanctuary Worlds on their great journey. Their inherent Terran pride never dimmed and they maintained the Mackie out of pride. The MSK-8A is one of the many variants of the Mackie in the Sanctuary Worlds. Armed with a Scattergun/20 and twin NPCs as well as two Twin-Linked Small Lasers, the -8A is a powerful assault design. Its Active Probe and ECM Suite provide e-war capability while 18 DHS keep it frosty.",
 		"Icon": "uixTxrIcon_mackie"
 	},
-	"simGameMechPartCost": 250000,
+	"simGameMechPartCost": 2500000,
 	"Version": 1,
 	"Locations": [
 		{

@@ -14,7 +14,7 @@
 	"showLastName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "sprites/Portraits/guiTxrPort_KameaGuard1_utr.png"
+		"portraitAssetPath": "../../Mods/BT Advanced Factions/portrait/uixTxrConv_SarahWhittaker.png"
 	},
 	"emotePotraitList": []
 }

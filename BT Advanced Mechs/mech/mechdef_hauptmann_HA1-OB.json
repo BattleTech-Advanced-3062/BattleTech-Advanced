@@ -62,19 +62,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 160,
+			"CurrentArmor": 165,
 			"CurrentRearArmor": 50,
 			"CurrentInternalStructure": 100,
-			"AssignedArmor": 160,
+			"AssignedArmor": 165,
 			"AssignedRearArmor": 50
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 160,
+			"CurrentArmor": 165,
 			"CurrentRearArmor": 50,
 			"CurrentInternalStructure": 100,
-			"AssignedArmor": 160,
+			"AssignedArmor": 165,
 			"AssignedRearArmor": 50
 		},
 		{
@@ -98,19 +98,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftLeg",
-			"CurrentArmor": 165,
+			"CurrentArmor": 200,
 			"CurrentRearArmor": 0,
 			"CurrentInternalStructure": 100,
-			"AssignedArmor": 165,
+			"AssignedArmor": 200,
 			"AssignedRearArmor": 0
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightLeg",
-			"CurrentArmor": 165,
+			"CurrentArmor": 200,
 			"CurrentRearArmor": 0,
 			"CurrentInternalStructure": 100,
-			"AssignedArmor": 165,
+			"AssignedArmor": 200,
 			"AssignedRearArmor": 0
 		}
 	],
@@ -380,17 +380,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double",
-			"SimGameUID": "",
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC20",
 			"SimGameUID": "",
@@ -417,17 +406,6 @@
 			"ComponentDefID": "Ammo_AmmunitionBox_Ultra_AC20",
 			"SimGameUID": "",
 			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "emod_case",
-			"SimGameUID": "",
-			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
 			"GUID": null,
 			"DamageLevel": "Functional",

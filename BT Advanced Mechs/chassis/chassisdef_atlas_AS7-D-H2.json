@@ -16,13 +16,13 @@
 		"Id": "chassisdef_atlas_AS7-D-H2",
 		"Name": "Atlas II",
 		"Details": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. A minor loadout change from the standard Atlas II, the -H2 carries a Gauss Rifle and ER PPC in place of the ER Large Lasers and the LB-10X Autocannon of the original.",
-		"Icon": "uixTxrIcon_atlas"
+		"Icon": "uixTxrIcon_atlasii"
 	},
 	"MovementCapDefID": "movedef_atlas_AS7-D",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_atlas",
-	"PrefabIdentifier": "chrPrfMech_atlasBase-001",
-	"PrefabBase": "atlas",
+	"HardpointDataDefID": "hardpointdatadef_atlasii",
+	"PrefabIdentifier": "chrPrfMech_atlasiiBase-001",
+	"PrefabBase": "atlasii",
 	"Tonnage": 100,
 	"InitialTonnage": 10,
 	"weightClass": "ASSAULT",

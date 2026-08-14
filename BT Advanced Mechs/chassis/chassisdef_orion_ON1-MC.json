@@ -15,7 +15,7 @@
 		"UIName": "Orion",
 		"Id": "chassisdef_orion_ON1-MC",
 		"Name": "Orion",
-		"Details": "A third minor variant of the ON1-M also introduced in 3058. The designers removed both missile racks and Narc launcher to make room for Medium Range Missile. In place of the LRM-20 is a MRM-20 while a larger MRM-30 is crammed in the torso where the SRM-4 formerly sat. Enough room is left to add a head-mounted C3 Slave Unit. This variant was much-used by the Draconis Combine.",
+		"Details": "A third minor variant of the ON1-M also introduced in 3058. The designers removed both missile racks and Narc launcher to make room for Medium Range Missile launchers. In place of the LRM-20 is an MRM-20, while a larger MRM-30 is crammed in the torso where the SRM-4 formerly sat. Enough room is left to add a head-mounted C3 Slave Unit. This variant was much-used by the Draconis Combine.",
 		"Icon": "uixTxrIcon_orion"
 	},
 	"MovementCapDefID": "movedef_orion_ON1-K",
@@ -225,7 +225,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Brawler & Close Assault",
-	"YangsThoughts": "A third minor variant of the ON1-M also introduced in 3058. The designers removed both missile racks and Narc launcher to make room for Medium Range Missile. In place of the LRM-20 is a MRM-20 while a larger MRM-30 is crammed in the torso where the SRM-4 formerly sat. Enough room is left to add a head-mounted C3 Slave Unit. This variant was much-used by the Draconis Combine.",
+	"YangsThoughts": "A third minor variant of the ON1-M also introduced in 3058. The designers removed both missile racks and Narc launcher to make room for Medium Range Missile launchers. In place of the LRM-20 is an MRM-20, while a larger MRM-30 is crammed in the torso where the SRM-4 formerly sat. Enough room is left to add a head-mounted C3 Slave Unit. This variant was much-used by the Draconis Combine.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",

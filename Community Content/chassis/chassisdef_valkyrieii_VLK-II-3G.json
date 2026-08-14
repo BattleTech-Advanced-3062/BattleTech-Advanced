@@ -15,7 +15,7 @@
 		"UIName": "Valkyrie II",
 		"Id": "chassisdef_valkyrieii_VLK-II-3G",
 		"Name": "Valkyrie II",
-		"Details": "Produced by Winchester Arms on New Abeline, the VLK-II-3G is an eclectic cavalry unit. Inspired by the custom mechs fielded by a certain mercenary command, the 3G was designed by an eccentric motor vehicle-obsessed engineer. It features an XL 335 rated engine with supercharger, made specifically for the 3G, covertly sourced clan-spec armor, and a heat exchanger that uses an exotic, endothermic species of fungus in place of traditional components. The 3G’s main weapon is its massive Lance, backed up by supppc arrays and rotary lasers. As well, the left arm features a 'Gunslinger' rotary light rifle, styled to resemble a .44 Magnum- the hallmark of membership in the aforementioned mercenary unit.",
+		"Details": "Produced by Winchester Arms on New Abeline, the VLK-II-3G is an eclectic cavalry unit. Inspired by the custom mechs fielded by a certain mercenary command, the 3G was designed by an eccentric motor vehicle-obsessed engineer. It features an XL 335 rated engine with supercharger, made specifically for the 3G, covertly sourced clan-spec armor, and a heat exchanger that uses an exotic, endothermic species of fungus in place of traditional components. The 3G’s main weapon is its massive Lance, backed up by supppc arrays and rotary lasers. As well, the left arm features a 'Gunslinger' rotary light rifle, styled to resemble a .44 Magnum- the hallmark of membership in the aforementioned mercenary unit.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "uixTxrIcon_valkyrieII"
 	},
 	"MovementCapDefID": "movedef_valkyrieii-VLK-II-1A",
