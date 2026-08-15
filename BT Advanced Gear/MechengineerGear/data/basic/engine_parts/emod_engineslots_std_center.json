@@ -16,9 +16,9 @@
 		],
 		"Flags": [
 			"default",
-				"not_broken",
-				"vital",
-				"no_salvage"
+			"not_broken",
+			"vital",
+			"no_salvage"
 		]
 	},
 	"Description": {
