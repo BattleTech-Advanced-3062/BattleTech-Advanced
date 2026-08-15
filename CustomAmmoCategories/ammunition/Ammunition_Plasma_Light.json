@@ -1,0 +1,19 @@
+{
+	"Description": {
+		"Id": "Ammunition_Plasma_Light",
+		"Name": "Light Plasma Ammo",
+		"UIName": "Normal",
+		"Details": "Light Plasma Ammo",
+		"Icon": null,
+		"Cost": 0,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"Type": "Normal",
+	"Category": "PlasmaLight",
+	"HeatGenerated": 0,
+	"HeatGeneratedModifier": 1,
+	"ArmorDamageModifier": 1,
+	"ISDamageModifier": 1,
+	"CriticalDamageModifier": 1
+}
