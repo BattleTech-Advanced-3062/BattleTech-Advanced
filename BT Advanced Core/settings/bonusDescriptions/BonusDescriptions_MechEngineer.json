@@ -2643,25 +2643,31 @@
 			"Bonus": "MinRange",
 			"Short": "{0} MinRange",
 			"Long": "{0} Minimum Range",
-			"Full": "{0} Minimum Range"
+			"Full": "{0} Minimum Range with ranged weapons"
 		},
 		{
 			"Bonus": "LongRange",
 			"Short": "{0} LongRange",
 			"Long": "{0} Long Range",
-			"Full": "{0} Long Range"
+			"Full": "{0} Long Range with ranged weapons"
 		},
 		{
 			"Bonus": "MaxRange",
 			"Short": "{0} MaxRange",
 			"Long": "{0} Maximum Range",
-			"Full": "{0} Maximum Range"
+			"Full": "{0} Maximum Range with ranged weapons"
 		},
 		{
 			"Bonus": "Range",
 			"Short": "{0} Range",
 			"Long": "{0} Range",
 			"Full": "{0} to all Range Brackets"
+		},
+		{
+			"Bonus": "BallisticDamage",
+			"Short": "{0} Ball.Damage",
+			"Long": "{0} Ballistic Damage",
+			"Full": "{0} Damage dealt by Ballistic hardpoint weapons"
 		},
 		{
 			"Bonus": "BallisticMinRange",
@@ -2728,6 +2734,12 @@
 			"Short": "{0} Max Miss.Range",
 			"Long": "{0} Max Missile Range",
 			"Full": "{0} increased maximum range with missile hardpoint weapons"
+		},
+		{
+			"Bonus": "SupportRange",
+			"Short": "{0} Supp.Range",
+			"Long": "{0} Support Range",
+			"Full": "{0} increased range with Support hardpoint weapons"
 		},
 		{
 			"Bonus": "SRMRange",
@@ -2890,6 +2902,12 @@
 			"Short": "{0} Fl.Ht. Dmg",
 			"Long": "{0} Flamer Ht Damage",
 			"Full": "{0} Flamer Heat Damage"
+		},
+		{
+			"Bonus": "FlamerHeatDamagePerShot",
+			"Short": "{0} Fl.Ht. Dmg",
+			"Long": "{0} Flamer Ht Damage",
+			"Full": "{0} Flamer Heat Damage Per Shot"
 		},
 		{
 			"Bonus": "EngineWeight",
@@ -3255,7 +3273,31 @@
 			"Bonus": "ArmAccuracy",
 			"Short": "{0} Arm Acc",
 			"Long": "{0} Arm Accuracy",
-			"Full": "{0} Accuracy with arm-mounted Weapons"
+			"Full": "{0} Accuracy with arm-mounted weapons"
+		},
+		{
+			"Bonus": "RightArmAccuracy",
+			"Short": "{0} R.Arm Acc",
+			"Long": "{0} Right Arm Accuracy",
+			"Full": "{0} Accuracy with right arm-mounted weapons"
+		},
+		{
+			"Bonus": "TorsoAccuracy",
+			"Short": "{0} Torso Acc",
+			"Long": "{0} Torso Accuracy",
+			"Full": "{0} Accuracy with torso-mounted weapons"
+		},
+		{
+			"Bonus": "LegAccuracy",
+			"Short": "{0} Leg Acc",
+			"Long": "{0} Leg Accuracy",
+			"Full": "{0} Accuracy with leg-mounted weapons"
+		},
+		{
+			"Bonus": "HeadAccuracy",
+			"Short": "{0} Head Acc",
+			"Long": "{0} Head Accuracy",
+			"Full": "{0} Accuracy with head-mounted weapons"
 		},
 		{
 			"Bonus": "ACAccuracy",
@@ -3388,6 +3430,12 @@
 			"Short": "{0} Miss.Acc",
 			"Long": "{0} Missile Acc",
 			"Full": "{0} Accuracy with Missile Weapons"
+		},
+		{
+			"Bonus": "SupportAcc",
+			"Short": "{0} Supp.Acc",
+			"Long": "{0} Support Acc",
+			"Full": "{0} Accuracy with Support Weapons"
 		},
 		{
 			"Bonus": "ArmBallisticAcc",
@@ -4616,13 +4664,13 @@
 		{
 			"Bonus": "StealthRadius",
 			"Short": "Stealth Field Radius",
-			"Long": "Stealth Field Radius",
+			"Long": "Stealth Field Radius {0}m",
 			"Full": "The Stealth Field has a radius of {0} meters around the carrying unit."
 		},
 		{
 			"Bonus": "StealthEffect",
 			"Short": "Stealth Field Effect",
-			"Long": "Stealth Field Effect",
+			"Long": "Stealth Field Effect {0}",
 			"Full": "The Stealth Field makes it {0} harder for enemies to spot this unit either on sensor or directly."
 		},
 		{
@@ -5346,6 +5394,12 @@
 			"Full": "This equipment provides its carrier with immunity to fire weapons and effects in combat. They do not suffer any ill effects from being struck by fire weapons."
 		},
 		{
+			"Bonus": "YazataFCS",
+			"Short": "Yazata FCS",
+			"Long": "Yazata Targeting Computer",
+			"Full": "This piece of equipment functions as the Yazata's fire control system. It provides a number of weapon attachments to the Yazata when equipped. These attachments provide a modest accuracy bonus for any attached weapon and are compatible with any and all forms of weaponry."
+		},
+		{
 			"Bonus": "WebbTC",
 			"Short": "Webb TC",
 			"Long": "Webb Targeting Computer",
@@ -5378,7 +5432,7 @@
 		{
 			"Bonus": "WeaponAttachmentModifiesModes",
 			"Short": "Weapon Attachment Modes",
-			"Long": "Weapon Attachment sdds one or more new fire modes to the attached weapon",
+			"Long": "Weapon Attachment adds one or more new fire modes to the attached weapon",
 			"Full": "This weapon attachment adds one or more new fire modes to the modified weapon. To use the attachment, be sure to use the new fire mode or modes."
 		},
 		{
@@ -5390,13 +5444,13 @@
 		{
 			"Bonus": "WeaponAttachmentHeat",
 			"Short": "Weapon Attachment Heat",
-			"Long": "Weapon Attachment Heat  {0}",
+			"Long": "Weapon Attachment Heat {0}",
 			"Full": "This weapon attachment modifies the attached weapon's heat generation by {0}."
 		},
 		{
 			"Bonus": "WeaponAttachmentDamage",
 			"Short": "Weapon Attachment Damage",
-			"Long": "Weapon Attachment Damage  {0}",
+			"Long": "Weapon Attachment Damage {0}",
 			"Full": "This weapon attachment modifies the attached weapon's damage generation by {0}."
 		},
 		{
@@ -5456,7 +5510,7 @@
 		{
 			"Bonus": "WeaponAttachmentRevolverRifle",
 			"Short": "Revolver Rifle",
-			"Long": "Revolver Rifle",
+			"Long": "Revolver Rifle {0}",
 			"Full": "This weapon attachment gives the attached Rifle the ability to fire twice as fast as normal (like an Ultra Autocannon does) but at a {0} damage penalty and with a {1} jam chance on each trigger pull."
 		},
 		{
@@ -5618,13 +5672,13 @@
 		{
 			"Bonus": "ViralJammer",
 			"Short": "Viral Jammer",
-			"Long": "Viral Jammer",
+			"Long": "VJ jams ALL distributed networks",
 			"Full": "The Viral Jammer is a powerful piece of e-war gear. It scrambles all distributed networks in its radius, friendly or enemy, including C3, C3i, and Sanctuary Drone Networks. It also scrambles the Virtual Reality Piloting Pod's controls (both friendly and enemy VRPPs) as well as providing the carrying unit immunity to Sensor Locks."
 		},
 		{
 			"Bonus": "ViralJammerRange",
 			"Short": "Viral Jammer Range",
-			"Long": "Viral Jammer Range",
+			"Long": "Viral Jammer Range {0}",
 			"Full": "The Viral Jammer's range of effect is {0} meters."
 		},
 		{
