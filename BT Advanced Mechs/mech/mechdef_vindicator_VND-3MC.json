@@ -7,6 +7,7 @@
 			"unit_release",
 			"unit_rarity_4",
 			"unit_mech",
+			"unit_indirectFire",
 			"unit_innerspheremech",
 			"unit_medium",
 			"unit_speed_high",
@@ -19,7 +20,7 @@
 		],
 		"tagSetSourceFile": ""
 	},
-	"ChassisID": "chassisdef_vindicator_VND-2MC",
+	"ChassisID": "chassisdef_vindicator_VND-3MC",
 	"HeraldryID": null,
 	"Description": {
 		"Cost": 850800,
@@ -27,10 +28,10 @@
 		"Purchasable": true,
 		"Manufacturer": null,
 		"Model": null,
-		"UIName": "Vindicator VND-2MC",
-		"Id": "mechdef_vindicator_VND-2MC",
+		"UIName": "Vindicator VND-3MC",
+		"Id": "mechdef_vindicator_VND-3MC",
 		"Name": "Vindicator",
-		"Details": "The Vindicator 2MC is an experimental Canopian upgrade based on the 1R variant, making use of rediscovered technology bought from the Inner Sphere. Its defining features are the XXL 270 engine, ferro-fibrous armor and two Plasma Rifles drawing on three tons of ammo. The LRM5 remaining from the original design is upgraded to feed from a bin of FTL missiles.",
+		"Details": "With the Trinity Alliance's development of the Heavy and Light Plasma Rifles, the allied governments of the Alliance began distributing them to their military-industrial complexes. The Magistracy of Canopus ended up with the lion's share of the Light Plasma Rifles and put them on a series of refit designs meant to showcase the new weapon's potental. Among those designs was the Vindicator VND-3MC. The VND-3MC is a refit of the earlier VND-2MC and retains most of that design's equipment, including the LRM-5 and XXL Engine. However, where the -2MC carries two Plasma Rifles, the -3MC swaps them for four Light Plasma Rifles instead. The same two tons of ammunition provides plenty of battlefield endurance and an extra DHS helps manage the similar waste heat from the LPRs.",
 		"Icon": "uixTxrIcon_vindicator"
 	},
 	"simGameMechPartCost": 533000,
@@ -66,10 +67,10 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "CenterTorso",
-			"CurrentArmor": 95,
+			"CurrentArmor": 96,
 			"CurrentRearArmor": 40,
 			"CurrentInternalStructure": 70,
-			"AssignedArmor": 95,
+			"AssignedArmor": 96,
 			"AssignedRearArmor": 40
 		},
 		{
@@ -363,7 +364,18 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefID": "Gear_HeatSink_Generic_Double",
+			"SimGameUID": null,
+			"ComponentDefType": "HeatSink",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma_Light",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -374,7 +386,7 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma_Light",
 			"SimGameUID": null,
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
@@ -384,11 +396,22 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_Plasma",
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Plasma_Rifle_Light",
 			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": -1,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Weapon_Plasma_Rifle_Light",
+			"SimGameUID": null,
+			"ComponentDefType": "Weapon",
+			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
@@ -418,7 +441,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Plasma_Rifle",
+			"ComponentDefID": "Weapon_Plasma_Rifle_Light",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
@@ -429,7 +452,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Plasma_Rifle",
+			"ComponentDefID": "Weapon_Plasma_Rifle_Light",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
