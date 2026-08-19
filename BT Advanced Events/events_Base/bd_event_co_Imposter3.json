@@ -16,8 +16,10 @@
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
-			"items": []
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": [
+				"imposter_complete"
+			]
 		},
 		"RequirementComparisons": []
 	},
