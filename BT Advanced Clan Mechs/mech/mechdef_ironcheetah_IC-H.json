@@ -58,7 +58,7 @@
 			"Location": "LeftArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 105,
+			"InternalStructure": 85
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
@@ -67,7 +67,7 @@
 			"Location": "LeftTorso",
 			"CurrentArmor": 160,
 			"CurrentRearArmor": 50,
-			"CurrentInternalStructure": 125,
+			"InternalStructure": 105
 			"AssignedArmor": 160,
 			"AssignedRearArmor": 50
 		},
@@ -76,7 +76,7 @@
 			"Location": "CenterTorso",
 			"CurrentArmor": 240,
 			"CurrentRearArmor": 70,
-			"CurrentInternalStructure": 175,
+			"InternalStructure": 155
 			"AssignedArmor": 240,
 			"AssignedRearArmor": 70
 		},
@@ -85,7 +85,7 @@
 			"Location": "RightTorso",
 			"CurrentArmor": 160,
 			"CurrentRearArmor": 50,
-			"CurrentInternalStructure": 125,
+			"InternalStructure": 105
 			"AssignedArmor": 160,
 			"AssignedRearArmor": 50
 		},
@@ -94,7 +94,7 @@
 			"Location": "RightArm",
 			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 105,
+			"InternalStructure": 85
 			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
@@ -103,7 +103,7 @@
 			"Location": "LeftLeg",
 			"CurrentArmor": 210,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 135,
+			"InternalStructure": 105
 			"AssignedArmor": 210,
 			"AssignedRearArmor": -1
 		},
@@ -112,7 +112,7 @@
 			"Location": "RightLeg",
 			"CurrentArmor": 210,
 			"CurrentRearArmor": -1,
-			"CurrentInternalStructure": 135,
+			"InternalStructure": 105
 			"AssignedArmor": 210,
 			"AssignedRearArmor": -1
 		}
