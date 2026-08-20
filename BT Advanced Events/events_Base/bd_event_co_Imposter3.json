@@ -131,7 +131,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"tagSetSourceFile": "",
-								"items": []
+								"items": [
+									"imposter_complete"
+								]
 							},
 							"RemovedTags": {
 								"tagSetSourceFile": "",
