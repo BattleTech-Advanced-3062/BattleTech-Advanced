@@ -1,0 +1,43 @@
+{
+	"Description": {
+		"Id": "OpStiletto_03_Post",
+		"Name": "The Opening",
+		"Details": "While the rescue operations were underway, [[DM.BaseDescriptionDefs[kosLoreAntonCorrigan],Corrigan]] launched a calculated strike against the [[DM.BaseDescriptionDefs[kosLoreKalskagCoalition],Band of the Damned's]] flank --- an assault meant to mask your recovery efforts.\n\r\nThe task force succeeded in driving the Band from their mining complex \"stronghold\", but victory was short-lived.  A sudden counter-attack shattered the [[DM.BaseDescriptionDefs[kosLoreTaskForceAcamar],task force]]'s advance.",
+		"Icon": "event_planetStarbase_TEMP.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "..."
+			},
+            "RequirementList" : [],
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Post Broken Halo",
+						"Details": "That gamble cost Corrigan dearly, buying the Band the time they needed to withdraw...and ultimately escape the planet.\n\r\nYet neither side realizes a thrid force has been watching from the shadows.\n\r\nA dark horse --- still unseen, and ready to move."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {
+								"items": []
+							},
+							"RemovedTags": {},
+							"Actions": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}
