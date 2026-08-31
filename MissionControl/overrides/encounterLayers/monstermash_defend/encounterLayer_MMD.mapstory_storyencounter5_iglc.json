@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapStory_StoryEncounter5_iGlc.dfa27d31-710d-4f82-91cb-647ebadfae00",
+  "MapID": "mapStory_StoryEncounter5_iGlc",
+  "Name": "encMC_MMD_mapStory_StoryEncounter5_iGlc",
+  "FriendlyName": "Monster Defense - ServedCold",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "dfa27d31-710d-4f82-91cb-647ebadfae00",
+  "TagSetID": "mapStory_StoryEncounter5_iGlc.dfa27d31-710d-4f82-91cb-647ebadfae00",
+  "IncludeInBuild": "1"
+}

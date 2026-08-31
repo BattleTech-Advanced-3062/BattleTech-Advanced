@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_taigaRiver_iTnd.392f3816-5601-4cf7-ac02-bc5167c3b918",
+	"MapID": "mapGeneral_taigaRiver_iTnd",
+	"Name": "encMC_OpStiletto_taigaRiver",
+	"FriendlyName": "OpS04 - Taiga River",
+	"Description": "4th OpStilleto mission, warzone-esque",
+	"BattleValue": "0",
+	"ContractTypeID": "17401",
+	"EncounterLayerGUID": "392f3816-5601-4cf7-ac02-bc5167c3b918",
+	"TagSetID": "mapGeneral_taigaRiver_iTnd.392f3816-5601-4cf7-ac02-bc5167c3b918",
+	"IncludeInBuild": "1"
+}

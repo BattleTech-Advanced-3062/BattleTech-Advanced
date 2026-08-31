@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_Interchange_aDes.5d365401-5fcc-4700-aa31-1b8c2ab2e359",
+  "MapID": "mapGeneral_Interchange_aDes",
+  "Name": "encMC_MMD_mapGeneral_Interchange_aDes",
+  "FriendlyName": "Monster Defense - Interchange",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "5d365401-5fcc-4700-aa31-1b8c2ab2e359",
+  "TagSetID": "mapGeneral_Interchange_aDes.5d365401-5fcc-4700-aa31-1b8c2ab2e359",
+  "IncludeInBuild": "1"
+}

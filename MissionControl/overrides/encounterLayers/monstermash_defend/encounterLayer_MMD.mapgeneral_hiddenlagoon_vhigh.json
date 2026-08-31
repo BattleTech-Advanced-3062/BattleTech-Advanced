@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_hiddenLagoon_vHigh.2b28fc7d-c124-4422-acdf-80c407bd3230",
+  "MapID": "mapGeneral_hiddenLagoon_vHigh",
+  "Name": "encMC_MMD_mapGeneral_hiddenLagoon_vHigh",
+  "FriendlyName": "Monster Defense - Hidden Lagoon",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "2b28fc7d-c124-4422-acdf-80c407bd3230",
+  "TagSetID": "mapGeneral_hiddenLagoon_vHigh.2b28fc7d-c124-4422-acdf-80c407bd3230",
+  "IncludeInBuild": "1"
+}
