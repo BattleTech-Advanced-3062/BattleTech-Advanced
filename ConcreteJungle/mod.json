@@ -2,7 +2,7 @@
 	"Name": "ConcreteJungle",
 	"Enabled": true,
 	"Hidden": true,
-	"Version": "2.4.0.0",
+	"Version": "2.0.0.0",
 	"Description": "Provides fun surprises on urban maps.",
 	"Author": "IceRaptor",
 	"Website": "https://github.com/IceRaptor/ConcreteJungle",
@@ -85,7 +85,9 @@
 				"siegebreaker_2_3wayBattle",
 				"siegebreaker_a1_attackDefend",
 				"siegebreaker_b1_attackDefend",
-				"siegebreaker_c1_attackDefend"
+				"siegebreaker_c1_attackDefend",
+				"EnjoyTheView_EnjoyTheView",
+				"MonsterMash_Defend"
 			],
 			"BlacklistedFactionIds": []
 		},

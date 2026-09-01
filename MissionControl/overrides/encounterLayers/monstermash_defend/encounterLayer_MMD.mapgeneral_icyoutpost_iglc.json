@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_icyOutpost_iGlc.35c48807-5c8a-4a88-9f15-3cbe1e3afbe8",
+  "MapID": "mapGeneral_icyOutpost_iGlc",
+  "Name": "encMC_MMD_mapGeneral_icyOutpost_iGlc",
+  "FriendlyName": "Monster Defense - Icy Outpost",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "35c48807-5c8a-4a88-9f15-3cbe1e3afbe8",
+  "TagSetID": "mapGeneral_icyOutpost_iGlc.35c48807-5c8a-4a88-9f15-3cbe1e3afbe8",
+  "IncludeInBuild": "1"
+}

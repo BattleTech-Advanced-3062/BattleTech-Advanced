@@ -1,0 +1,127 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_Patched_OVERLORD_DROPSHIP",
+		"Name": "Overlord Dropship (Patched)",
+		"Details": "",
+		"Icon": "",
+		"Cost": 564,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_Patched_OVERLORD_DROPSHIP",
+	"VehicleTags": {
+		"items": [
+			"irbtmu_immobile_unit",
+			"unit_vehicle",
+			"unit_assault",
+			"unit_wheels",
+			"unit_release",
+			"unit_noncontrollableTank",
+			"NOSALVAGE"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 3000,
+			"CurrentInternalStructure": 450,
+			"AssignedArmor": 3000,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 3000,
+			"CurrentInternalStructure": 450,
+			"AssignedArmor": 3000,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 3000,
+			"CurrentInternalStructure": 450,
+			"AssignedArmor": 3000,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 3000,
+			"CurrentInternalStructure": 450,
+			"AssignedArmor": 3000,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 3000,
+			"CurrentInternalStructure": 450,
+			"AssignedArmor": 3000,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Belt_Left_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Belt_Right_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Mid_Left_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Mid_Right_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},			
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Top_Front_Left_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Top_Front_Right_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Top_Rear_Left_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Overlord_Turret_Top_Rear_Right_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Vehicle_NoBleed",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}

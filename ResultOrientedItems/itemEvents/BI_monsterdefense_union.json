@@ -1,0 +1,30 @@
+{
+	"Item": "Gear_MonsterDefense_Union",
+	"AllowInInventory": false,
+	"Requirements": [],
+	"Results": [
+		{
+			"Scope": "Company",
+			"Stats": null,
+			"Actions": [
+				{
+					"Type": "System_AddContract",
+					"value": "MMD_Defend_Union",
+					"valueConstant": null,
+					"additionalValues": [
+						"Locals",
+						"SelfEmployed",
+						null,
+						null,
+						null,
+						null,
+						"8",
+						null
+					]
+				}
+			],
+			"TemporaryResult": false,
+			"ResultDuration": 0
+		}
+	]
+}
