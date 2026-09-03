@@ -27,7 +27,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_MistLynx",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -297,7 +297,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
+			"MaxArmor": 20,
 			"MaxRearArmor": -1,
 			"InternalStructure": 20
 		},
@@ -346,7 +346,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 40,
+			"MaxArmor": 20,
 			"MaxRearArmor": -1,
 			"InternalStructure": 20
 		},
@@ -360,7 +360,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 25,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		},
@@ -374,7 +374,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 60,
+			"MaxArmor": 25,
 			"MaxRearArmor": -1,
 			"InternalStructure": 30
 		}
@@ -428,6 +428,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"LightMech"
 		],
 		"tagSetSourceFile": ""

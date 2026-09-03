@@ -33,12 +33,11 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"WalkSpeed: +5%",
-			"RunSpeed: +5%",
-			"SupportRange: +10%",
+			"ArmAccuracy: +2",
+			"JumpDistance: +35%",
 			"Sensors: +10%",
 			"Sight: +10%",
-			"GyroStab: 35",
+			"GyroStab: 25",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -52,11 +51,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Owens Omni",
-		"UIName": "Owens OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_Owens",
-		"Name": "Owens OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Owens possesses as an OmniMech. It provides a number of benefits to the Owens, such as increased stability, boosted arm weapon accuracy, bonus defense, and boosted walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Owens to also function as an OmniMech.",
+		"Model": "Mist Lynx Omni",
+		"UIName": "Mist Lynx OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_MistLynx",
+		"Name": "Mist Lynx OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Mist Lynx possesses as an OmniMech. It provides a number of benefits to the Mist Lynx, such as increased stability, boosted arm weapon accuracy, boosted sensor and sight range, boosted walk and sprint speed, and boosted jump distance. It also contains the benefits inherent to OmniMechs and permits the Mist Lynx to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -92,33 +91,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "35.0",
-				"modType": "System.Single"
-			},
-			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Owens-Walk",
-				"Name": "Owens Omni Walk",
-				"Details": "Boost walk speed.",
-				"Icon": "uixSvgIcon_action_evasivemove"
-			},
-			"statisticData": {
-				"statName": "WalkSpeed",
-				"operation": "Float_Multiply",
-				"modValue": "1.05",
+				"modValue": "25.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -136,16 +109,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Owens-Sprint",
-				"Name": "Owens Quirk",
-				"Details": "Provides increased stability, boosted arm weapon accuracy, bonus defense, and boosted walk and sprint speed to the Owens.",
+				"Id": "Gyro-MistLynx-Jump",
+				"Name": "Mist Lynx Quirk",
+				"Details": "Provides increased stability, boosted arm weapon accuracy, boosted sensor and sight range, boosted walk and sprint speed, and boosted jump distance to the Mist Lynx.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modValue": "0.05",
-				"operation": "Float_Add",
-				"statName": "CBTBE_RunMultiMod",
-				"modType": "System.Single"
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.35",
+				"modType": "System.Single",
 			},
 			"nature": "Buff"
 		},
@@ -175,90 +148,6 @@
 			}
 		},
 		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Owens-MediumRange",
-				"Name": "Owens Support Medium Range",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "MediumRange",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "AntiPersonnel"
-			}
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Owens-LongRange",
-				"Name": "Owens Support Long Range",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "LongRange",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "AntiPersonnel"
-			}
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-Owens-MaxRange",
-				"Name": "Owens Support Max Range",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "MaxRange",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "AntiPersonnel"
-			}
-		},
-		{
 			"durationData": {},
 			"targetingData": {
 				"effectTriggerType": "Passive",
@@ -267,8 +156,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Owens-Sensor",
-				"Name": "Owens Sensor",
+				"Id": "Gyro-MistLynx-Sensor",
+				"Name": "Mist Lynx Sensor",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
@@ -289,8 +178,8 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-Owens-Spotter",
-				"Name": "Owens Spotter",
+				"Id": "Gyro-MistLynx-Spotter",
+				"Name": "Mist Lynx Spotter",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
@@ -299,6 +188,50 @@
 				"statName": "SpotterDistanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.1",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-MistLynxLAAcc",
+				"Name": "Mist Lynx LA Accuracy",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "LeftArm.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-2.0",
+				"modType": "System.Single"
+			}
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-MistLynxRAAcc",
+				"Name": "Mist Lynx RA Accuracy",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "RightArm.Accuracy",
+				"operation": "Float_Add",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		}
