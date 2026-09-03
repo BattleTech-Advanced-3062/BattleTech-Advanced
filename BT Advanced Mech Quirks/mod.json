@@ -14,6 +14,10 @@
 		},
 		{
 			"Type": "UpgradeDef",
+			"Path": "clanomniquirks"
+		},
+		{
+			"Type": "UpgradeDef",
 			"Path": "attachment"
 		},
 		{
