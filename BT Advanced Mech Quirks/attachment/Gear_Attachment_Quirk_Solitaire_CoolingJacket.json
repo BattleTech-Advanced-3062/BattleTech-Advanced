@@ -1,0 +1,66 @@
+{
+	"Custom": {
+		"AddonReference": {
+			"installedLocationOnly": true,
+			"autoTarget": true,
+			"WeaponAddonIds": [
+				"WeaponUpgrade_Quirk_Solitaire_CoolingJacket_HeavyLargeLaser"
+			]
+		},
+		"Category": [
+			{
+				"CategoryID": "WeaponAttachment"
+			},
+			{
+				"CategoryID": "NoTTS"
+			}
+		],
+		"Flags": [
+			"default",
+			"not_broken",
+			"no_salvage",
+			"autorepair"
+		],
+		"BonusDescriptions": [
+			"WeaponAttachmentTargets: Heavy Large Laser",
+			"WeaponAttachmentModifiesModes",
+			"WeaponAttachmentHeat: -9"
+		],
+		"RGBColor": "#5C6670"
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 145000,
+		"Rarity": 1,
+		"Purchasable": false,
+		"Manufacturer": "Quirk",
+		"Model": "Solitaire",
+		"UIName": "Solitaire Improved Cooling Jacket Heavy Large Laser",
+		"Id": "Gear_Attachment_Quirk_Emperor_CoolingJacket",
+		"Name": "Solitaire Improved Cooling Jacket Heavy Large Laser",
+		"Details": "This piece of gear represents the Solitaire's inherent Improved Cooling Jacket quirk. This gives the Solitaire reduced heat generation when using Clan Heavy Large Lasers.",
+		"Icon": "WeaponAttachment"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": null,
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"BAIncompatible",
+			"ProtoIncompatible"
+		],
+		"tagSetSourceFile": ""
+	}
+}

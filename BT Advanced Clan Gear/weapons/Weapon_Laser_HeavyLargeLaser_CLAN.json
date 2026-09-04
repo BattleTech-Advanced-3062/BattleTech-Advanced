@@ -82,7 +82,8 @@
 			"LaserInsulatorAttachable.{location}",
 			"LaserInsulatorSupported-SingleShot",
 			"LaserFCSSupported-SingleShot",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"QuirkSolitaireSupported-HeavyLargeLaser"
 		],
 		"tagSetSourceFile": ""
 	}
