@@ -114,8 +114,7 @@
 			"MountedLocation": "Turret",
 			"HardpointSlot": -1,
 			"DamageLevel": "Functional"
-		},
-		
+		},		
 		{
 		  "ComponentDefID": "Weapon_Gauss_ImprovedHeavy_0-STOCK",
 		  "ComponentDefType": "Weapon",
@@ -130,6 +129,13 @@
 		  "HardpointSlot": 4,
 		  "DamageLevel" : "Functional"
 		},
+		{
+		  "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+		  "ComponentDefType": "Weapon",
+		  "MountedLocation": "Turret",		  
+		  "HardpointSlot": 1,
+		  "DamageLevel" : "Functional"
+		},
 		
 		{
 		  "MountedLocation": "Front",
@@ -167,6 +173,39 @@
 		{
 		  "MountedLocation": "Front",
 		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
 		  "SimGameUID": null,
 		  "ComponentDefType": "AmmunitionBox",
 		  "HardpointSlot": -1,

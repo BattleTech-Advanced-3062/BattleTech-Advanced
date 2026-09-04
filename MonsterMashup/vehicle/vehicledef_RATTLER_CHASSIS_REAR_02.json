@@ -70,6 +70,13 @@
 		  "DamageLevel" : "Functional"
 		},
 		{
+		  "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
+		  "ComponentDefType": "Weapon",
+		  "MountedLocation": "Turret",		  
+		  "HardpointSlot": 1,
+		  "DamageLevel" : "Functional"
+		},
+		{
 		  "ComponentDefID": "Weapon_AMS",
 		  "ComponentDefType": "Weapon",
 		  "MountedLocation": "Turret",		  
@@ -79,6 +86,39 @@
 		{
 		  "MountedLocation": "Turret",
 		  "ComponentDefID": "Ammo_AmmunitionBox_AntiMissile",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+		  "SimGameUID": null,
+		  "ComponentDefType": "AmmunitionBox",
+		  "HardpointSlot": -1,
+		  "GUID": null,
+		  "DamageLevel": "Functional",
+		  "prefabName": null,
+		  "hasPrefabName": false
+		},
+		{
+		  "MountedLocation": "Turret",
+		  "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
 		  "SimGameUID": null,
 		  "ComponentDefType": "AmmunitionBox",
 		  "HardpointSlot": -1,
