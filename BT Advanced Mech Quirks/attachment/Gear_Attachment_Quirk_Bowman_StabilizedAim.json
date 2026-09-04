@@ -4,7 +4,7 @@
 			"installedLocationOnly": true,
 			"autoTarget": true,
 			"WeaponAddonIds": [
-				"WeaponUpgrade_Quirk_Solitaire_CoolingJacket_HeavyLargeLaser"
+				"WeaponUpgrade_Quirk_Bowman_StabilizedAim_cLRM"
 			]
 		},
 		"Category": [
@@ -22,9 +22,9 @@
 			"autorepair"
 		],
 		"BonusDescriptions": [
-			"WeaponAttachmentTargets: Heavy Large Laser",
+			"WeaponAttachmentTargets: Clan LRMs, both standard and Streak",
 			"WeaponAttachmentModifiesModes",
-			"WeaponAttachmentHeat: -9"
+			"WeaponAttachmentAccuracy: +2"
 		],
 		"RGBColor": "#5C6670"
 	},
@@ -36,11 +36,11 @@
 		"Rarity": 1,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Solitaire",
-		"UIName": "Solitaire Improved Cooling Jacket Heavy Large Laser",
-		"Id": "Gear_Attachment_Quirk_Solitaire_CoolingJacket",
-		"Name": "Solitaire Improved Cooling Jacket Heavy Large Laser",
-		"Details": "This piece of gear represents the Solitaire's inherent Improved Cooling Jacket quirk. This gives the Solitaire reduced heat generation when using Clan Heavy Large Lasers.",
+		"Model": "Bowman",
+		"UIName": "Bowman Stabilized Aim",
+		"Id": "Gear_Attachment_Quirk_Bowman_StabilizedAim",
+		"Name": "Bowman Stabilized Aim",
+		"Details": "This piece of gear represents the Bowman's inherent Stabilized Aim quirk. This gives the Bowman bonus hit chance with Clan-spec LRM launchers, both standard and Streak varieties (but not Improved launchers).",
 		"Icon": "WeaponAttachment"
 	},
 	"BonusValueA": "",

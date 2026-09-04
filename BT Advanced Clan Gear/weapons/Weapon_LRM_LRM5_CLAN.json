@@ -75,7 +75,8 @@
 			"range_extreme",
 			"ArtemisIVLRMSupported",
 			"LRMFCSSupported-Standard",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-SingleShot",
+			"QuirkBowmanSupported-LRM_SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

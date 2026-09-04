@@ -1,0 +1,15 @@
+{
+	"Id": "WeaponUpgrade_Quirk_Bowman_StabilizedAim_cLRM",
+	"addonType": "quirk_bowman",
+	"targetComponentTags": [
+		"QuirkBowmanSupported-LRM_SingleShot"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Quirk",
+			"Name": "Quirk",
+			"AccuracyModifier": -2.0
+		}
+	]
+}
