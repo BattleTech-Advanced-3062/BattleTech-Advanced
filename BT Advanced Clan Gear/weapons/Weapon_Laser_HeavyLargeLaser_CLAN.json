@@ -83,7 +83,8 @@
 			"LaserInsulatorSupported-SingleShot",
 			"LaserFCSSupported-SingleShot",
 			"WebbTCSupported-SingleShot",
-			"QuirkSolitaireSupported-HeavyLargeLaser"
+			"QuirkSolitaireSupported-HeavyLargeLaser",
+			"QuirkWarhammerIICSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}

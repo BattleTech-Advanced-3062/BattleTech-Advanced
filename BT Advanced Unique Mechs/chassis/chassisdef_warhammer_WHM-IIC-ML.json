@@ -85,7 +85,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 12,
+			"InventorySlots": 13,
 			"MaxArmor": 130,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
@@ -160,7 +160,7 @@
 				}
 			],
 			"Tonnage": 0,
-			"InventorySlots": 12,
+			"InventorySlots": 13,
 			"MaxArmor": 130,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
@@ -250,6 +250,30 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_WarhammerIIC_StabilizedAim",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_PPC_1"
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_WarhammerIIC_StabilizedAim",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_PPC_2"
 		}
 	],
 	"CustomParts": {

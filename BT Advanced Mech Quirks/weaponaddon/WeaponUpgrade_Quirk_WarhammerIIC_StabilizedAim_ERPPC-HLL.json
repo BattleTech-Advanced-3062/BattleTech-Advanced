@@ -1,0 +1,15 @@
+{
+	"Id": "WeaponUpgrade_Quirk_WarhammerIIC_StabilizedAim_ERPPC-HLL",
+	"addonType": "quirk_warhammeriic",
+	"targetComponentTags": [
+		"QuirkWarhammerIICSupported-SingleShot"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Quirk",
+			"Name": "Quirk",
+			"AccuracyModifier": -2.0
+		}
+	]
+}

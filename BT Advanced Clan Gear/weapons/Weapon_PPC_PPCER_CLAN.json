@@ -120,7 +120,8 @@
 			"PPCCapacitorSupported",
 			"PPCFCSSupported-Standard",
 			"WebbTCSupported-SingleShot",
-			"QuirkPulverizerSupported-ERPPC"
+			"QuirkPulverizerSupported-ERPPC",
+			"QuirkWarhammerIICSupported-SingleShot"
 		],
 		"tagSetSourceFile": ""
 	}
