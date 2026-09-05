@@ -29,7 +29,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_TimberWolf",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -168,6 +168,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
@@ -281,7 +282,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 180,
-			"MaxRearArmor": 50,
+			"MaxRearArmor": 46,
 			"InternalStructure": 115
 		},
 		{

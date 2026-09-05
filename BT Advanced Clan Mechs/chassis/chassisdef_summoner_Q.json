@@ -27,7 +27,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Summoner",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -234,7 +234,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
+			"MaxArmor": 85,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		},
@@ -260,7 +260,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 115,
+			"MaxArmor": 110,
 			"MaxRearArmor": 35,
 			"InternalStructure": 75
 		},
@@ -274,8 +274,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 165,
-			"MaxRearArmor": 55,
+			"MaxArmor": 136,
+			"MaxRearArmor": 40,
 			"InternalStructure": 110
 		},
 		{
@@ -296,7 +296,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 115,
+			"MaxArmor": 110,
 			"MaxRearArmor": 35,
 			"InternalStructure": 75
 		},
@@ -310,7 +310,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
+			"MaxArmor": 85,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		},
@@ -319,7 +319,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 115,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		},
@@ -328,7 +328,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 115,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		}
@@ -381,6 +381,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",

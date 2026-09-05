@@ -146,7 +146,8 @@
 				"modValue": "true",
 				"modType": "System.Boolean"
 			}
-		},{
+		},
+		{
 			"durationData": {
 				"duration": -1,
 				"stackLimit": -1

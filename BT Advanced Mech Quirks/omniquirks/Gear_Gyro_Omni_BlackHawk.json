@@ -190,7 +190,7 @@
 			"statisticData": {
 				"statName": "LeftArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-3.0",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		},
@@ -212,7 +212,7 @@
 			"statisticData": {
 				"statName": "RightArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-3.0",
+				"modValue": "-2.0",
 				"modType": "System.Single"
 			}
 		}

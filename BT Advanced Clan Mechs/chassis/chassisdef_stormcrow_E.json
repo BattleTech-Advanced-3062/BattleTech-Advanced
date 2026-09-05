@@ -27,7 +27,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Stormcrow",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -215,7 +215,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 130,
+			"MaxArmor": 126,
 			"MaxRearArmor": 50,
 			"InternalStructure": 90
 		},
@@ -260,8 +260,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 130,
-			"MaxRearArmor": -1,
+			"MaxArmor": 125,
+			"MaxRearArmor":  -1,
 			"InternalStructure": 65
 		},
 		{
@@ -269,8 +269,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 130,
-			"MaxRearArmor": -1,
+			"MaxArmor": 125,
+			"MaxRearArmor":  -1,
 			"InternalStructure": 65
 		}
 	],
@@ -323,6 +323,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""
