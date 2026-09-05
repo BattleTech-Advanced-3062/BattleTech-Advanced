@@ -1,0 +1,52 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "a/e/p/plasma"
+			}
+		],
+		"Flags": [
+			"not_broken"
+		],
+		"BonusDescriptions": [
+			"AmmoCount: 20",
+			"CostPerShot: 350",
+			"PlasmaNoBoom"
+		],
+		"AmmoCost": {
+			"PerUnitCost": 350
+		}
+	},
+	"AmmoID": "Ammunition_Plasma_Light",
+	"Capacity": 20,
+	"Description": {
+		"Cost": 40000,
+		"Rarity": 1,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Light Plasma",
+		"UIName": "Ammo Light Plasma",
+		"Id": "Ammo_AmmunitionBox_Generic_Plasma_Light",
+		"Name": "Light Plasma Ammo",
+		"Details": "Ammo Bins contain the rounds needed for projectile-based weaponry, with at least one bin required per weapon type. <b><color=#099ff2>Does not explode.</color></b>\n\n <b><color=#00ffff>Left Click on Ammo count during battle to swap Ammo Type. Ctrl+click on ammunition counter to eject ammo.</color> </b>",
+		"Icon": "particle-ammo"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "AmmunitionBox",
+	"ComponentSubType": "Ammunition",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 1,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

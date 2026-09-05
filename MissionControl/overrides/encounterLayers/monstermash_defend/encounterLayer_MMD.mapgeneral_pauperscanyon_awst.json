@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_paupersCanyon_aWst.9bce2a06-384b-4c29-a32e-880c11b38958",
+  "MapID": "mapGeneral_paupersCanyon_aWst",
+  "Name": "encMC_MMD_mapGeneral_paupersCanyon_aWst",
+  "FriendlyName": "Monster Defense - Paupers Canyon",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "9bce2a06-384b-4c29-a32e-880c11b38958",
+  "TagSetID": "mapGeneral_paupersCanyon_aWst.9bce2a06-384b-4c29-a32e-880c11b38958",
+  "IncludeInBuild": "1"
+}

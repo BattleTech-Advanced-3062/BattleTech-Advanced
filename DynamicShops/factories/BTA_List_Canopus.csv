@@ -8,6 +8,10 @@ Weapon_SRM_SRM2_0-STOCK,Weapon,0,10
 mechdef_locust_LCT-1V,Mech,1,10
 mechdef_stinger_STG-6L,Mech,1,10
 mechdef_wasp_WSP-1L,Mech,1,10
-mechdef_loaderking_LDR-K-1,Mech,1,10
 mechdef_ferdelance_FDL-1,Mech,1,10
+mechdef_roughneck_RGH-1A,Mech,1,10
+mechdef_roughneck_RGH-1B,Mech,1,10
+mechdef_roughneck_RGH-1C,Mech,1,10
+mechdef_roughneck_RGH-3A,Mech,1,10
+mechdef_banshee_BNC-3MC,Mech,1,10
 vehicledef_CARRIER_LRM,Mech,1,10

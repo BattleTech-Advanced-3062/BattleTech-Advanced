@@ -1,0 +1,21 @@
+{
+	"id": "castDef_kos_Anton_Corrigan",
+	"internalName": "kos_Anton_Corrigan",
+	"firstName": "Anton",
+	"lastName": "Corrigan",
+	"callsign": "",
+	"rank": "",
+	"gender": "Male",
+	"factionID": "Steiner",
+	"sgCharType": "UNSET",
+	"showRank": false,
+	"showFirstName": true,
+	"showCallsign": false,
+	"showLastName": true,
+	"localizeName": true,
+	"defaultEmotePortrait": {
+		"emote": "Default",
+		"portraitAssetPath": "../../Mods/BTA_Campaigns/sprite/eras_portraits_M_045.png"
+	},
+	"emotePotraitList": []
+}

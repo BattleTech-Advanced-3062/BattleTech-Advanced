@@ -20,9 +20,9 @@
 	},
 	"MovementCapDefID": "movedef_emperor_EMP-6A",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_ionsunder",
-	"PrefabIdentifier": "chrprfmech_ionsunderbase-001",
-	"PrefabBase": "ionsunder",
+	"HardpointDataDefID": "hardpointdatadef_sunder",
+	"PrefabIdentifier": "chrPrfMech_sunderBase-001",
+	"PrefabBase": "sunder",
 	"Tonnage": 90,
 	"InitialTonnage": 9,
 	"weightClass": "ASSAULT",
@@ -96,6 +96,10 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -110,6 +114,10 @@
 				{
 					"WeaponMountID": "Missile",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -123,6 +131,10 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
 					"Omni": true
 				}
 			],
@@ -141,6 +153,10 @@
 				},
 				{
 					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Ballistic",
 					"Omni": true
 				}
 			],

@@ -10,6 +10,7 @@ Ammo_AmmunitionBox_HVAC_AC10,AmmunitionBox,0,1
 Ammo_AmmunitionBox_ArtemisIV_LRM,AmmunitionBox,0,1
 Ammo_AmmunitionBox_ArtemisIV_SRM,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_MIRV,AmmunitionBox,0,1
+Ammo_AmmunitionBox_Generic_Plasma,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Generic_ArrowIV,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Fascam_ArrowIV,AmmunitionBox,0,1
 Ammo_AmmunitionBox_Inferno_ArrowIV,AmmunitionBox,0,1
@@ -20,6 +21,7 @@ Weapon_Autocannon_HVAC2_0-STOCK,Weapon,0,1
 Weapon_Autocannon_HVAC5_0-STOCK,Weapon,0,1
 Weapon_Autocannon_HVAC10_0-STOCK,Weapon,0,1
 Weapon_MIRV,Weapon,0,1
+Weapon_Plasma_Rifle,Weapon,0,1
 Weapon_Bomb_Bay,Weapon,0,1
 Weapon_Bomb_Bay_Cluster,Weapon,0,1
 Weapon_Bomb_Bay_Inferno,Weapon,0,1
@@ -27,6 +29,7 @@ Weapon_Bomb_Bay_FuelAir,Weapon,0,1
 Weapon_Bomb_Bay_FASCAM,Weapon,0,1
 Weapon_Bomb_Bay_Rocket_Pod,Weapon,0,1
 Gear_Attachment_AutocannonFCS,Upgrade,0,1
+Gear_Attachment_PlasmaFCS,Upgrade,0,1
 Gear_Attachment_SuperweaponFCS,Upgrade,0,1
 emod_armorslots_stealth,Upgrade,0,1
 Gear_Sensors_StealthField,Upgrade,0,1

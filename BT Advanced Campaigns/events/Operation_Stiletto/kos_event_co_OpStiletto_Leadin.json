@@ -1,0 +1,30 @@
+{
+    "EventType": "UNSELECTABLE",
+    "Description": {
+        "Id": "kos_event_co_OpStiletto_Leadin",
+        "Name": "MercNews Broadcast",
+        "Details": "[[DM.SystemDefs[starsystemdef_Acamar],Acamar]] has long been a strategic flashpoint, with its location and valuable natural resources making it a frequent source of conflict among [[DM.Factions[faction_Cameron],The Terran Hegemony]], the [[DM.BaseDescriptionDefs[LoreFedCom],Federated Commonwealth]], the [[DM.Factions[faction_Liao],Capellan Confederation]], and the planet's own local government.  Competing territorial claims, political influence, and economic interests have fueled repeated disputes over control of the system.\n\r\nSince 3057, tensions have escalated significantly, transforming Acamar from a contested border world into an active conflict zone.  The growing instability has severely disrupted the planet's mining industry, reducing resource output and threatening the supply of valuable minerals to neighboring systems.",
+        "Icon": "uixTxrSpot_ComputerScreen.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Options": [
+        {
+            "Description": {
+                "Id": "outcome_0",
+                "Name": "Continue"
+            },
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "outcome_0_0",
+                        "Name": "Insertion",
+                        "Details": "Trade routes passing through the region have also become increasingly dangerous, as military patrols, raids, and piracy have forced merchants to either accept higher risks or seek longer, more expensive alternative routes.  As a result, [[DM.SystemDefs[starsystemdef_Acamar],Acamar]] has become one of the most volatile and strategically important worlds in the region, with every major power seeking to secure its own interests while the local population bears the burden of the ongoing conflict."
+                    },
+                    "Weight": 100,
+                    "Results": []
+                }
+            ]
+        }
+    ]
+}

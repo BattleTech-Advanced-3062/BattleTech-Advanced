@@ -910,7 +910,8 @@
 				"lanceTagSet": {
 					"items": [
 						"lance_type_battle",
-						"lance_type_notallvehicles"
+						"lance_type_notallvehicles",
+						"no_extended_lance"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},

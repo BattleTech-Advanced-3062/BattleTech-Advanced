@@ -7,6 +7,8 @@ Gear_Attachment_PPCFCS,Upgrade,0,1
 Weapon_PPC_Heavy_0-STOCK,Weapon,0,1
 Weapon_PPC_Light_0-STOCK,Weapon,0,1
 Weapon_PPC_PPC_SNUBNOSE,Weapon,0,1
+Weapon_Plasma_Rifle_Heavy_Canon,Weapon,0,1
+Ammo_AmmunitionBox_Generic_Plasma_Heavy,AmmunitionBox,0,1
 Gear_Airdrop_Beacon_BA_Asterion,Upgrade,0,1
 Gear_Cockpit_ArmBrace,Upgrade,0,1
 Gear_Contract_Mech_Talos_Taurian,Upgrade,0,1

@@ -580,7 +580,9 @@
 		"AttackOnSwarmSuccess": true,
 		"AI_BattleArmorExcludedContractTypes": [
 			"DuoDuel",
-			"SoloDuel"
+			"SoloDuel",
+			"OpStiletto_Story01",
+			"OpStiletto_Story04"
 		],
 		"AI_BattleArmorExcludedContractIDs": [],
 		"BeaconExclusionConfig": {

@@ -1,0 +1,152 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "w/e/p/plasma"
+			}
+		],
+		"BonusDescriptions": [
+			"PLASMADEBUFF: 15%",
+			"OHDamage: 20%",
+			"WpnRecoil: 3",
+			"AntiBA: 300%",
+			"WpnCrits: -90%",
+			"WeaponAttachmentCompatible: Plasma FCS"
+		]
+	},
+	"Category": "Energy",
+	"Type": "Flamer",
+	"WeaponSubType": "Flamer",
+	"MinRange": 0,
+	"MaxRange": 600,
+	"RangeSplit": [
+		150,
+		300,
+		450
+	],
+	"AmmoCategory": "PlasmaHeavy",
+	"StartingAmmoCapacity": 0,
+	"HeatGenerated": 37,
+	"Damage": 80,
+	"EvasiveDamageMultiplier": 0,
+	"EvasivePipsIgnored": 0,
+	"DamageVariance": 0,
+	"HeatDamage": 37,
+	"AccuracyModifier": 0,
+	"CriticalChanceMultiplier": 0.1,
+	"AOECapable": false,
+	"IndirectFireCapable": false,
+	"RefireModifier": 3,
+	"ShotsWhenFired": 1,
+	"ProjectilesPerShot": 1,
+	"AttackRecoil": 4,
+	"Instability": 0,
+	"OverheatedDamageMultiplier": 1.2,
+	"FireTerrainChance": 0.75,
+	"AdditionalImpactVFX": "WFX_SPlasma",
+	"AdditionalImpactVFXScaleX": 1,
+	"AdditionalImpactVFXScaleY": 1,
+	"AdditionalImpactVFXScaleZ": 1,
+	"ColorsTable": [
+		{
+			"C": "#ADFF2F",
+			"I": 5
+		}
+	],
+	"ImprovedBallistic": true,
+	"ColorChangeRule": "t0",
+	"ProjectileSpeedMultiplier": 0.75,
+	"ProjectileScale": {
+		"x": 1,
+		"y": 1,
+		"z": 0.7
+	},
+	"TrooperSquadDamageModifier": 3.0,
+	"WeaponEffectID": "WeaponEffect-Weapon_PPC",
+	"Description": {
+		"Cost": 99000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Victory",
+		"Model": "Heavy Plasma Rifle",
+		"UIName": "Heavy Plasma Rifle",
+		"Id": "Weapon_Plasma_Rifle_Heavy_Canon",
+		"Name": "Heavy Plasma Rifle",
+		"Details": "The Heavy Plasma Rifle is an advanced version of the standard Plasma Rifle that accelerates more kinetic foam into a focused plasma projectile, doing even more damage and creating even more heat build up than the original PLasma Rifle was capable of. However, it pays for this by generating much more waste heat for the user, weighing more, and taking more internal space than the original design. Still, the tradeoffs are considered acceptable by most users. \n\n<b><color=#ffcc00>Uses Heavy Plasma Ammo.</color></b>",
+		"Icon": "particle"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Weapon",
+	"ComponentSubType": "Weapon",
+	"PrefabIdentifier": "PPC",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 9,
+	"AllowedLocations": "All",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": 2,
+				"ticksOnActivations": true,
+				"useActivationsOfTarget": true,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 4,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "OnHit",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "SingleTarget",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": true,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "PLASMA-Effect",
+				"Name": "Plasma Residue",
+				"Details": "High energy residue reduces heat efficiency by 15%.",
+				"Icon": "particle"
+			},
+			"nature": "Debuff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "HeatGenerated",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"range_standard",
+			"OmniRestriction.{location}",
+			"PlasmaFCSSupported",
+			"WebbTCSupported-SingleShot"
+		],
+		"tagSetSourceFile": ""
+	}
+}

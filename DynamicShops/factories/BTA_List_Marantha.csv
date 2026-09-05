@@ -1,4 +1,9 @@
 BTA_List_Marantha,,,
+emod_engine_260,HeatSink,0,10
+emod_engineslots_fuelcell_center,HeatSink,0,10
 Weapon_Laser_BinaryLaserCannon_0-STOCK,Weapon,0,10
 Weapon_Laser_BinaryLaserMedium_0-STOCK,Weapon,0,10
 Weapon_Laser_BinaryLaserSmall_0-STOCK,Weapon,0,10
+mechdef_loaderking_LDR-K-1,Mech,1,10
+mechdef_loaderking_LDR-K-2,Mech,1,10
+mechdef_loaderking_LDR-K-3,Mech,1,10
