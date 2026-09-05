@@ -121,7 +121,8 @@
 				"modType": "System.Single",
 				"modValue": "1.1",
 				"operation": "Float_Multiply",
-				"statName": "DamagePerShot"
+				"statName": "DamagePerShot",
+				"targetCollection": "Weapon"
 			},
 			"nature": "Buff"
 		},
@@ -198,7 +199,8 @@
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED",
-			"component_type_variant"
+			"component_type_variant",
+			"BACompatible"
 		],
 		"tagSetSourceFile": ""
 	}

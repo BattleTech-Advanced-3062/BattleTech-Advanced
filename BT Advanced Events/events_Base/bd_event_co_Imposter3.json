@@ -16,8 +16,10 @@
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
-			"items": []
+			"tagSetSourceFile": "Tags/CompanyTags",
+			"items": [
+				"imposter_complete"
+			]
 		},
 		"RequirementComparisons": []
 	},
@@ -129,7 +131,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"tagSetSourceFile": "",
-								"items": []
+								"items": [
+									"imposter_complete"
+								]
 							},
 							"RemovedTags": {
 								"tagSetSourceFile": "",

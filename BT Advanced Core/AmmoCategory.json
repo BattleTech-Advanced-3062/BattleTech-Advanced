@@ -2043,6 +2043,34 @@
 			"FallbackUIColor": "WolfGray",
 			"Icon": "BallisticHardpointIcon",
 			"OutOfAmmoAudioVOEvent": "AmmoDepleted_AC20"
+		},
+		{
+			"ID": 6146,
+			"Name": "PlasmaLight",
+			"FriendlyName": "PlasmaLight",
+			"IsBallistic": false,
+			"IsMissile": false,
+			"IsEnergy": true,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Energy",
+			"FallbackUIColor": null,
+			"Icon": "EnergyHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
+		},
+		{
+			"ID": 6147,
+			"Name": "PlasmaHeavy",
+			"FriendlyName": "PlasmaHeavy",
+			"IsBallistic": false,
+			"IsMissile": false,
+			"IsEnergy": true,
+			"IsSupport": false,
+			"UsesInternalAmmo": false,
+			"UIColorRef": "Energy",
+			"FallbackUIColor": null,
+			"Icon": "EnergyHardpointIcon",
+			"OutOfAmmoAudioVOEvent": "AmmoDepleted_Flamer"
 		}
 	]
 }

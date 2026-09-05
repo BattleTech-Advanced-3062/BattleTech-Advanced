@@ -1,0 +1,53 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Steiner",
+		"Name": "Steiner",
+		"FirstName": "Walter",
+		"LastName": "von Schan",
+		"Callsign": "Steiner",
+		"Gender": "Male",
+		"Faction": "Kurita",
+		"Age": "36",
+		"Details": "Walter von Schan denies any connection to the House of Steiner. He is however a decorated former officer of the AFFC, graduate of the Nagelring and has a striking resemblance to a former unpopular Archon. Little is known of his youth but he grew up on Furillo before moving to Tharkad to attend The Nagelring. On graduating he piloted a ZEU-6S. Walter's repeated denials lead to his callsign \"Steiner\". \r\n\r\n He frequently complains about how slow his mechs are, sometimes wishing the commonwealth would make a good LAM.\r\n\r\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Steiner"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "5",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "2",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro06_matthew",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefRefireReduceOne",
+		"AbilityDefG5a",
+		"TraitDefSprintIncrease10",
+		"AbilityDefP5"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_military",
+			"pilot_cautious",
+			"pilot_steiner",
+			"pilot_noble",
+			"name_Steiner"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

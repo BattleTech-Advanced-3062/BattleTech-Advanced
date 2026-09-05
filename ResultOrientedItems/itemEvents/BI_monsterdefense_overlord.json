@@ -1,0 +1,30 @@
+{
+	"Item": "Gear_MonsterDefense_Overlord",
+	"AllowInInventory": false,
+	"Requirements": [],
+	"Results": [
+		{
+			"Scope": "Company",
+			"Stats": null,
+			"Actions": [
+				{
+					"Type": "System_AddContract",
+					"value": "MMD_Defend_Overlord",
+					"valueConstant": null,
+					"additionalValues": [
+						"Locals",
+						"SelfEmployed",
+						null,
+						null,
+						null,
+						null,
+						"9",
+						null
+					]
+				}
+			],
+			"TemporaryResult": false,
+			"ResultDuration": 0
+		}
+	]
+}

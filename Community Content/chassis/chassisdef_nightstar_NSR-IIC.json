@@ -1,0 +1,254 @@
+{
+	"Description": {
+		"Cost": 12944900,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Nightstar IIC",
+		"Id": "chassisdef_nightstar_NSR-IIC",
+		"Name": "Nightstar IIC",
+		"Details": "A few Nightstars went with the SLDF troops whose descendants would eventually become the Clans. Those that survived the journey and subsequent trials would become extensively modified, and paralleling the developement of the 9SS as an arena mech in the Inner Sphere, the NSR-IIC would become a deadly ritual and last resort mech for disgraced and solahma units. With no jump jets for clever maneuvering, a pilot must rely on the brute, overwhelming force of a 400-rated engine combined with a supercharger to bring its devastating close range weaponry to bear. The final touch of a Hardened Cockpit all but ensures anybody piloting this Nightstar IIC dies only in a blaze of glory.\n\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixTxrIcon_nightstar"
+	},
+	"MovementCapDefID": "movedef_nightstar_NSR-9J",
+	"PathingCapDefID": "pathingdef_assault",
+	"HardpointDataDefID": "hardpointdatadef_nightstar",
+	"PrefabIdentifier": "chrprfmech_nightstarbase-001",
+	"PrefabBase": "nightstar",
+	"Tonnage": 95,
+	"InitialTonnage": 9.5,
+	"weightClass": "ASSAULT",
+	"BattleValue": 9360000,
+	"Heatsinks": 0,
+	"TopSpeed": 105,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 200,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 105,
+	"MeleeInstability": 50,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 105,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 105,
+	"DFAInstability": 50,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 15,
+			"MaxArmor": 300,
+			"MaxRearArmor": 150,
+			"InternalStructure": 150
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 200,
+			"MaxRearArmor": 100,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 160,
+			"MaxRearArmor": -1,
+			"InternalStructure": 80
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 200,
+			"MaxRearArmor": -1,
+			"InternalStructure": 100
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 17,
+			"z": 0
+		},
+		{
+			"x": 5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": -5,
+			"y": 16,
+			"z": -1
+		},
+		{
+			"x": 3.5,
+			"y": 5.5,
+			"z": 1
+		},
+		{
+			"x": -3.5,
+			"y": 5.5,
+			"z": 1
+		}
+	],
+	"VariantName": "NSR-IIC",
+	"ChassisTags": {
+		"items": [
+			"AssaultMech",
+			"ClanMech"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Assault Brawler",
+	"YangsThoughts": "A few Nightstars went with the SLDF troops whose descendants would eventually become the Clans. Those that survived the journey and subsequent trials would become extensively modified, and paralleling the developement of the 9SS as an arena mech in the Inner Sphere, the NSR-IIC would become a deadly ritual and last resort mech for disgraced and solahma units. With no jump jets for clever maneuvering, a pilot must rely on the brute, overwhelming force of a 400-rated engine combined with a supercharger to bring its devastating close range weaponry to bear. The final touch of a Hardened Cockpit all but ensures anybody piloting this Nightstar IIC dies only in a blaze of glory.\n\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Nightstar",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endosteel",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

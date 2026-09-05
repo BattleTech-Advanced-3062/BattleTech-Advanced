@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_sunkenHills_iTnd.9e5c2d9b-d0f3-45dd-ac12-a2ff00a209b3",
+  "MapID": "mapGeneral_sunkenHills_iTnd",
+  "Name": "encMC_MMD_mapGeneral_sunkenHills_iTnd",
+  "FriendlyName": "Monster Defense - Sunken Hills",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "9e5c2d9b-d0f3-45dd-ac12-a2ff00a209b3",
+  "TagSetID": "mapGeneral_sunkenHills_iTnd.9e5c2d9b-d0f3-45dd-ac12-a2ff00a209b3",
+  "IncludeInBuild": "1"
+}

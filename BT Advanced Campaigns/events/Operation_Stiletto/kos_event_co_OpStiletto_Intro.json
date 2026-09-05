@@ -1,0 +1,70 @@
+{
+    "EventType": "UNSELECTABLE",
+    "Description": {
+        "Id": "kos_event_co_OpStiletto_Intro",
+        "Name": "MercNews Broadcast",
+        "Details": "[[DM.BaseDescriptionDefs[LoreGM],General Motors]] and Johnston Industries have contracted mercenary forces to stabilize the [[DM.SystemDefs[starsystemdef_Acamar],Acamar]] region and ensure uninterrupted trade operations.  [[DM.Factions[faction_Cameron],The Terran Hegemony]], currently engaged elsewhere, has authorized the operation.\n\r\n\r\nShould you accept you will be deployed as part the initial landing force, securing the area until the main force can be committed.",
+        "Icon": "uixTxrSpot_ComputerScreen.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Options": [
+        {
+            "Description": {
+                "Id": "outcome_0",
+                "Name": "Let's go.  <color=#99ebff>(Begin the Operation STILETTO campaign)</color>"
+            },
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "outcome_0_0",
+                        "Name": "Insertion",
+                        "Details": "Initial intelligence gathered by [[DM.BaseDescriptionDefs[kosLoreTaskForceAcamar],Task Force Acamar]] --- led by GM security director [[DM.BaseDescriptionDefs[kosLoreAntonCorrigan],Anton Corrigan]] --- has identified the optimal landing site and forward base location for the region.\n\r\n\n\r\nThe task force wears the Terran Hegemony's colors as a mark of legitimacy."
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "AddedTags": {
+                                "items": [
+                                    "WIIC_begin_campaign Operation Stiletto",
+									"Start_OpStiletto"
+                                ]
+                            },
+                            "RemovedTags": {
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Description": {
+                "Id": "outcome_1",
+                "Name": "No thank you.  (Pass on the campaign)"
+            },
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "outcome_1_0",
+                        "Name": "MercNews Broadcast",
+                        "Details": "<b>Breaking News:  Task Force Acamar Declares System Secure After Pirate Campaign</b>\n\r\nAfter months of pirate activity at mining sites and a major raid on Huss, [[DM.BaseDescriptionDefs[kosLoreTaskForceAcamar],Task Force Acamar]], backed by GM, Johnston Industries, and [[DM.Factions[faction_Cameron],House Cameron]], pursued and assaulted the pirate base in the Sorrow Mountains.  Most pirates were neutralized, with only a few escaping."
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "AddedTags": {
+                                "items": [
+									"Decline_OpStiletto"
+                                ]
+                            },
+                            "RemovedTags": {
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+	"Description": {
+		"Id": "pilot_bd_Gridlocked",
+		"Name": "Gridlocked",
+		"FirstName": "Thomas",
+		"LastName": "Wood",
+		"Callsign": "Gridlocked",
+		"Gender": "Male",
+		"Faction": "Kurita",
+		"Age": "38",
+		"Details": "Thomas \"Gridlocked\" Wood learned to fight while the Clans tore the Inner Sphere apart. Born on Luthien and trained at Sun Zhang, he rose to Tai-i in the Ryuken-go during Operation BULLDOG. Methodical, disciplined, and willing to take missions most would consider foolhardy, he built a reputation for surviving the impossible. \r\n\r\n His defining moment came during a desperate retreat from a Smoke Jaguar lance pursuing his allies. With the logistics train under heavy fire, Wood charged his Marauder directly at the vanguard. A static-laced comm recording captured the Jaguar Star Captain demanding his identity. Wood's reply was short and pointed: \"My name is unfit for you. I am him. I will be him. Put me in your Remembrance, Jaguar scum.\" Wood then rammed his Marauder into the enemy Ebon Jaguar, unloading lasers and ER PPCs point-blank into the cockpit.\r\n\r\n The war left scars, but also an unexpected respect for former enemy's turned friend. The Second Star League alliance with Clan Nova Cat exposed him to a side of Clan culture few ever saw. While unconvinced by their visions, he became fascinated by their spiritual traditions. Now a mercenary, Wood seeks high-risk contracts, believing skill is forged through adversity.\r\n\r\n He still hopes to earn selection into the reborn Star League Gunslinger Program. Until then, he measures success the same as always: one battlefield, one opponent, and one hard-won victory at a time.\r\n\r\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "guiTxrPort_bd_Gridlocked"
+	},
+	"BaseGunnery": "5",
+	"BonusGunnery": 0,
+	"BasePiloting": "2",
+	"BonusPiloting": 0,
+	"BaseGuts": "3",
+	"BonusGuts": 0,
+	"BaseTactics": "5",
+	"BonusTactics": 0,
+	"ExperienceUnspent": 0,
+	"ExperienceSpent": 0,
+	"Injuries": 0,
+	"Health": 3,
+	"LethalInjury": false,
+	"Incapacitated": false,
+	"Morale": 0,
+	"Voice": "m_pro04_brad",
+	"abilityDefNames": [
+		"TraitDefJamReduceOne",
+		"TraitDefGunneryStabBonus1",
+		"TraitDefRefireReduceOne",
+		"AbilityDefG5a",
+		"TraitDefIndirectReduceOne",
+		"TraitDefMinRangeReduce45",
+		"AbilityDefT5Aa"
+	],
+	"AIPersonality": "Undefined",
+	"PilotTags": {
+		"items": [
+			"pilot_mechwarrior",
+			"pilot_military",
+			"pilot_command",
+			"pilot_kurita",
+			"name_Gridlocked"
+		],
+		"tagSetSourceFile": ""
+	},
+	"PilotCost": 0,
+	"IsRonin": true,
+	"IsVanguard": true
+}

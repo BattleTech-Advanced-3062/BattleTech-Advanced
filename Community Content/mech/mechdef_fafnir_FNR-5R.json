@@ -46,20 +46,20 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftArm",
-			"CurrentArmor": 115,
+			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
-			"AssignedArmor": 115,
+			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "LeftTorso",
-			"CurrentArmor": 190,
-			"CurrentRearArmor": 55,
+			"CurrentArmor": 210,
+			"CurrentRearArmor": 60,
 			"CurrentInternalStructure": 105,
-			"AssignedArmor": 190,
-			"AssignedRearArmor": 55
+			"AssignedArmor": 210,
+			"AssignedRearArmor": 60
 		},
 		{
 			"DamageLevel": "Functional",
@@ -73,19 +73,19 @@
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightTorso",
-			"CurrentArmor": 190,
-			"CurrentRearArmor": 55,
+			"CurrentArmor": 210,
+			"CurrentRearArmor": 60,
 			"CurrentInternalStructure": 105,
-			"AssignedArmor": 190,
-			"AssignedRearArmor": 55
+			"AssignedArmor": 210,
+			"AssignedRearArmor": 60
 		},
 		{
 			"DamageLevel": "Functional",
 			"Location": "RightArm",
-			"CurrentArmor": 115,
+			"CurrentArmor": 170,
 			"CurrentRearArmor": -1,
 			"CurrentInternalStructure": 85,
-			"AssignedArmor": 115,
+			"AssignedArmor": 170,
 			"AssignedRearArmor": -1
 		},
 		{
@@ -175,17 +175,6 @@
 		{
 			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
