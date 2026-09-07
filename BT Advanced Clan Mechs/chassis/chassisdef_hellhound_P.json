@@ -15,6 +15,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Hellhound",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	],
 	"Description": {
@@ -217,6 +226,7 @@
 	"VariantName": "HLH-P",
 	"ChassisTags": {
 		"items": [
+			"OmniMech",
 			"ClanMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",

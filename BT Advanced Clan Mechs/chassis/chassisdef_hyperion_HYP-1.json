@@ -71,7 +71,16 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false
-		}
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CombatComputer_Hyperion",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}		
 	],
 	"MovementCapDefID": "movedef_stonerhino_300",
 	"PathingCapDefID": "pathingdef_assault",

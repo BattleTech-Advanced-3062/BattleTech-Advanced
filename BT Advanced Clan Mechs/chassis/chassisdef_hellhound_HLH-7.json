@@ -17,6 +17,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoMaintain_Hellhound",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
 		}
 	],
 	"Description": {
@@ -70,6 +79,7 @@
 	"DFAInstability": 10,
 	"ChassisTags": {
 		"items": [
+			"OmniMech",
 			"ClanMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
