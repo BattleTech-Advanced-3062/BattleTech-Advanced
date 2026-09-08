@@ -391,7 +391,8 @@
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional",
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_LRM_2"
 		},
 		{
 			"MountedLocation": "LeftTorso",
