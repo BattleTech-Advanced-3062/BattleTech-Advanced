@@ -208,7 +208,16 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
-		}
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_EasytoPilot_Howler",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}		
 	],
 	"CustomParts": {
 		"CustomParts": []

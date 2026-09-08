@@ -7,15 +7,24 @@
 		}
 	},
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedTargeting_ArcticWolf",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
 	],
 	"Description": {
 		"Cost": 3000000,
