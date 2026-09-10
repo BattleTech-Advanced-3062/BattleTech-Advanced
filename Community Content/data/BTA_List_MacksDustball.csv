@@ -55,6 +55,7 @@ Weapon_Plasma_Rifle_Heavy,Weapon,0,10
 Weapon_MLRS,Weapon,0,10
 Gear_Gyro_Hermes_Equilibrium,Upgrade,0,10
 Gear_Gauss_Capacitor,Upgrade,0,10
+Gear_Savage_CQC_Module,Upgrade,0,10
 emod_armorslots_ferroantipierce,Upgrade,0,10
 Gear_Contract_Turret_Hardened_LBX10,Upgrade,0,10
 Gear_Contract_Turret_Hardened_LGauss,Upgrade,0,10
