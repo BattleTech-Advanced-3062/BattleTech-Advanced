@@ -37,7 +37,7 @@
         "RTS_StarGuardCorps_unit_rarity_1",
         "RTS_ICorps_unit_rarity_1",
         "RTS_40thShadowDivision_unit_rarity_1",
-		"unit_notsacellum",
+		"unit_legal",
 		"unit_bracket_high"
     ],
     "tagSetSourceFile": ""
