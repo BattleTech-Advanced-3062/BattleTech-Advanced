@@ -1,0 +1,42 @@
+{
+	"Description": {
+		"Id": "OpStiletto_02_Post",
+		"Name": "Red Rain, Quiet Ground",
+		"Details": "The [[DM.BaseDescriptionDefs[kosLoreKalskagCoalition],Kalskag Coaltion]] exploited a weakness in Corrigan's initial deployment plan.  Some munitions were destroyed, however, {COMPANY.CompanyName}'s neutralizing the incoming reinforcements foiled the coalition's overall planned attack.",
+		"Icon": "event_planetStarbase_TEMP.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "..."
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Post Blood and Thunder",
+						"Details": "More war materiels are en route to Acamar coming from various sources."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {
+								"items": []
+							},
+							"RemovedTags": {},
+							"Actions": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

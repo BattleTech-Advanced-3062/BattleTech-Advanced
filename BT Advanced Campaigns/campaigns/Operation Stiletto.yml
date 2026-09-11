@@ -1,0 +1,186 @@
+name: Operation Stiletto
+beginsAt: starsystemdef_Acamar
+nodes:
+  Start:
+    - fakeFlashpoint:
+        name: Operation Stiletto - Architecture of Aggression
+        employer: OWNER
+        employerPortrait: castDef_kos_Anton_Corrigan
+        target: Unknown
+        difficulty: 3
+        at: starsystemdef_Acamar
+        image: UnionDropshipsDropping.png
+        description: |
+          The initial landing force has encountered enemy resistance.  Your objective is to hold the landing zone and secure the area until the main force arrives to establish the forward base.
+          
+          Reinforce the embattled lead units; the main forces will arrive shortly to support your position and repel the attackers.  Maintain your perimeter and keep the landing zone secure.
+    - contract:
+        id: OpStiletto_Story01_ArchitectureOfAggression
+        employer: OWNER
+        target: JacobsJuggernauts
+        mapName: mapGeneral_borealForest_iGlc
+        postContractEvent: OpStiletto_01ba_Post
+        onFailGoto: Post_ArchitectureOfAggression
+    - goto: Post_ArchitectureOfAggression
+  Post_ArchitectureOfAggression:
+    - popup:
+        title: When the Smoke Clears II
+        sprite: guiTxrPort_Sumire_default_utr
+        message: Commander {COMMANDER.Callsign}, we've got a hail from the planet's surface.
+    - conversation:
+        id: OpStiletto_01
+        header: In Orbit - Acamar
+        subheader: Several hours after the initial battle
+        characters:
+          Darius: true
+          Farah: false
+          Sumire: true
+          Yang: true
+    - wait:
+        days: 4
+        workOrder: Blood and Thunder (Operation Stiletto)
+        sprite: eras_portraits_M_045
+    - goto: BloodAndThunder
+  BloodAndThunder:
+    - fakeFlashpoint:
+        name: Operation Stiletto - Blood and Thunder
+        employer: OWNER
+        employerPortrait: castDef_kos_Anton_Corrigan
+        target: Unknown
+        difficulty: 3
+        at: starsystemdef_Acamar
+        image: event_planetStarbase_TEMP.png
+        description: |
+          [[DM.BaseDescriptionDefs[kosLoreCalvinNoru],Calvin Noru]] spotted a flaw in Brig-Gen. [[DM.BaseDescriptionDefs[kosLoreAntonCorrigan],Corrigan]]'s strategy.  By shifting his forces in the Trans-Mahn Valley to the Task Force's rear, Corrigan is caught off guard...
+    - conversation:
+        id: OpStiletto_01b
+        header: In Orbit - Acamar
+        subheader: Command Center
+        characters:
+          Darius: true
+          Farah: true
+          Sumire: true
+          Yang: true
+    - contract:
+        id: SimpleBattle_BloodAndThunder
+        employer: OWNER
+        target: JacobsJuggernauts
+        mapName: mapGeneral_borealForest_iGlc
+        postContractEvent: OpStiletto_02_Post
+        onFailGoto: BloodAndThunder
+        withinDays: 1
+    - popup:
+        title: Busy Bodies
+        sprite: guiTxrPort_Darius_default_utr
+        message: |
+          The task force are occupied with completing the construction of the forward base and pacifying the area.  Exploratory attacks with limited engagements are reported all over the region.
+
+          I'm sure we'll hear from them once activities' simmers down or something urgent comes up.  Either way, we'll be contacted.
+    - wait:
+        days: 5
+        workOrder: Red Rain, Quiet Ground II (Operation Stiletto)
+        sprite: eras_portraits_M_045
+    - goto: RedRainQuietGround
+  RedRainQuietGround:
+    - fakeFlashpoint:
+        name: Operation Stiletto - Red Rain, Quiet Ground
+        employer: OWNER
+        employerPortrait: castDef_kos_Anton_Corrigan
+        target: Unknown
+        difficulty: 3
+        at: starsystemdef_Acamar
+        image: event_planetStarbase_TEMP.png
+        description: |
+          Operation Stilleto continues...
+    - popup:
+        title: Red Rain, Quiet Ground II
+        sprite: guiTxrPort_Darius_default_utr
+        message: |
+          You're summoned to the Argo's command center.
+
+          As you enter the room, your crew and Corrigan already has started their updates.
+    - conversation:
+        id: OpStiletto_02
+        header: Red Rain, Quiet Ground - Afterword
+        subheader: In Orbit - Acamar
+        characters:
+          Darius: true
+          Sumire: true
+          Yang: true
+    - popup:
+        title: Sustained Operations
+        sprite: guiTxrPort_Darius_default_utr
+        message: |
+          The task force's operations continues on.
+
+          We'll standby until we're needed again.
+    - wait:
+        days: 2
+        workOrder: Standing by (Operation Stiletto)
+        sprite: eras_portraits_M_045
+    - goto: BrokenHalo
+  BrokenHalo:
+    - fakeFlashpoint:
+        name: Operation Stiletto - Broken Halo
+        employer: OWNER
+        employerPortrait: castDef_kos_Anton_Corrigan
+        target: Unknown
+        difficulty: 3
+        at: starsystemdef_Acamar
+        image: event_planetStarbase_TEMP.png
+        description: |
+          Operation Stilleto is not yet over, as three large and several smaller pirate bands are still at large --- fighting viciously for their lives.
+    - contract:
+        id: Rescue_BrokenHalo
+        employer: OWNER
+        target: BandOfTheDamned
+        mapName: mapGeneral_borealForest_iGlc
+        postContractEvent: OpStiletto_03_Post
+        onFailGoto: BrokenHalo
+        withinDays: 1
+    - wait:
+        days: 3
+        workOrder: Holding Breath, Breaking Loose (Operation Stiletto)
+        sprite: eras_portraits_M_045
+    - popup:
+        title: The Mosh Pit
+        sprite: guiTxrPort_Darius_default_utr
+        message: |
+          The [[DM.BaseDescriptionDefs[kosLoreTaskForceAcamar],Task Force]]'s two-front assault successfully funneled the [[DM.BaseDescriptionDefs[kosLoreKalskagCoalition],Band of the Damned's]] movement, but the enemy launched a fierce counterattack, catching the task force off guard.
+          
+          Several Band elements managed to disengage and retreat, raising concern that they may be preparing an outflanking maneuver against the task force's exposed positions.  All Task Force reserves have been committed, leaving no available units to pursue or intercept the withdrawing enemy.
+          
+          Unconfirmed reports indicate an unidentified force may be moving along the Band's retreat route, potentially complicating their withdrawal or threatening their flanks.
+          
+          The order dispatch monitor suddenly lit up...we've got a mission.
+    - goto: CaughtInAMosh
+  CaughtInAMosh:
+    - fakeFlashpoint:
+        name: Operation Stiletto - Caught In A Mosh
+        employer: OWNER
+        employerPortrait: castDef_kos_Anton_Corrigan
+        target: Unknown
+        difficulty: 3
+        at: starsystemdef_Acamar
+        image: event_planetStarbase_TEMP.png
+        description: |
+          The task force' final push...
+    - contract:
+        id: OpStiletto_Story04_CaughtInAMosh
+        employer: OWNER
+        target: BandOfTheDamned
+        mapName: mapGeneral_taigaRiver_iTnd
+        onFailGoto: CaughtInAMosh
+        withinDays: 1
+    - conversation:
+        id: OpStiletto_03
+        header: Epilogue
+        subheader: In Orbit - Acamar
+        characters:
+          Darius: true
+          Sumire: true
+          Yang: true
+    - reward: OpStiletto_Reward
+    - goto: Exit
+  Withdraw_01:
+    - goto: Exit

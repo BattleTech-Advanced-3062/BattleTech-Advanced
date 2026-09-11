@@ -1,0 +1,68 @@
+{
+    "Name": "_BTA_Campaigns",
+    "Enabled": true,
+    "Hidden": true,
+    "Version": "1.0.1",
+    "Author": "KOS",
+    "Description": "Operation Stilleto",
+    "DependsOn": [
+        "Timeline",
+        "WarTechIIC",
+        "SwordOfRestoration"
+    ],
+    "CustomResourceTypes": [
+    ],
+    "Manifest": [
+        {
+            "Type": "CastDef",
+            "Path": "cast"
+        },
+        {
+            "Type": "Sprite",
+            "Path": "sprite"
+        },
+        {
+            "Type": "BaseDescriptionDef",
+            "Path": "lore",
+            "AddToDB": true
+        },
+        {
+            "Type": "Texture2D",
+            "Path": "texture",
+            "AddToAddendum": "ConversationTexture"
+        },
+        {
+            "Type": "ContractOverride",
+            "Path": "contracts"
+        },
+        {
+            "Type": "Campaign",
+            "Path": "campaigns"
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections"
+        },
+        {
+            "Type": "ForcedTimelineEvent",
+            "Path": "forcedEvents",
+            "AddToDB": true
+        },
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+        {
+            "Type": "SimGameEventDef",
+            "Path": "events"
+        },
+		{
+			"Type": "TurretChassisDef",
+			"Path": "Units/turretChassisDef"
+		},
+		{
+			"Type": "TurretDef",
+			"Path": "Units/turretDef"
+		}
+    ]
+}

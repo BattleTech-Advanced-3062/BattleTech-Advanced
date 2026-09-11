@@ -1,0 +1,12 @@
+{
+	"EncounterLayerID": "mapGeneral_borealForest_iGlc.037efe43-4811-49fd-b038-7cb118fdacc3",
+	"MapID": "mapGeneral_borealForest_iGlc",
+	"Name": "encMC_OpStiletto_borealForestr",
+	"FriendlyName": "OpS01 - Boreal Forest",
+	"Description": "1st OpStilleto mission, warzone-esque",
+	"BattleValue": "0",
+	"ContractTypeID": "17400",
+	"EncounterLayerGUID": "037efe43-4811-49fd-b038-7cb118fdacc3",
+	"TagSetID": "mapGeneral_borealForest_iGlc.037efe43-4811-49fd-b038-7cb118fdacc3",
+	"IncludeInBuild": "1"
+}

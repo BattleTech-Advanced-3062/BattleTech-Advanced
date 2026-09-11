@@ -1,0 +1,42 @@
+{
+	"Description": {
+		"Id": "OpStiletto_01ba_Post",
+		"Name": "When the Smoke Clears",
+		"Details": "As the combat zone is secured, you watch two aerospace fighters conducting strafing runs across the area, eliminating remaining resistance.  Simultaneously a second mech company disembarks from an Overlord-class dropship, moving in to reinforce and consolidate control.",
+		"Icon": "event_planetStarbase_TEMP.png"
+	},
+	"Scope": "Company",
+	"Weight": 0,
+	"Options": [
+		{
+			"Description": {
+				"Id": "outcome_0",
+				"Name": "Continue",
+				"Details": "..."
+			},
+			"ResultSets": [
+				{
+					"Description": {
+						"Id": "outcome_0_0",
+						"Name": "Post Architecture of Aggression",
+						"Details": "With fresh forces arriving and air support overhead, the surviving enemy elements break contact and retreat into the surrounding hills.\n\r\nYou see other dropships landing in the nearby city of Huss."
+					},
+					"Weight": 100,
+					"Results": [
+						{
+							"Scope": "Company",
+							"AddedTags": {
+								"items": []
+							},
+							"RemovedTags": {},
+							"Actions": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"PublishState": "PUBLISHED",
+	"ValidationState": "UNTESTED",
+	"EventType": "UNSELECTABLE"
+}

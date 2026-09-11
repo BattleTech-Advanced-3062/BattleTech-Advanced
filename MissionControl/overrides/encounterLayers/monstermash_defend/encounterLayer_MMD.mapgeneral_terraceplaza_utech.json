@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_terracePlaza_uTech.b0c3c615-c353-4de7-8760-0d397088abad",
+  "MapID": "mapGeneral_terracePlaza_uTech",
+  "Name": "encMC_MMD_mapGeneral_terracePlaza_uTech",
+  "FriendlyName": "Monster Defense - Terrace Plaza",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "b0c3c615-c353-4de7-8760-0d397088abad",
+  "TagSetID": "mapGeneral_terracePlaza_uTech.b0c3c615-c353-4de7-8760-0d397088abad",
+  "IncludeInBuild": "1"
+}

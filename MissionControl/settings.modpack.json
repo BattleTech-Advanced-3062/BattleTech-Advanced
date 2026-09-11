@@ -34,7 +34,10 @@
 			"WarzoneV2",
 			"Scramble_DefendBase",
 			"TheSwitch_Assassinate",
-			"SplitDefense"
+			"SplitDefense",
+			"MonsterMash_Defend",
+			"OpStiletto_Story01",
+			"OpStiletto_Story04"
 		]
 	},
 	"HotDropProtection": {
@@ -73,7 +76,11 @@
 			"BattleRoyaleV2",
 			"DefenceInDepth",
 			"WarzoneV2",
-			"OrganizedRetreat"
+			"OrganizedRetreat",
+			"SplitDefense",
+			"MonsterMash_Defend",
+			"OpStiletto_Story01",
+			"OpStiletto_Story04"
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",

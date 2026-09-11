@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapStory_StoryEncounter3_mMoon.7ad0eb36-1a22-48fd-a6d9-0869d05f1ed5",
+  "MapID": "mapStory_StoryEncounter3_mMoon",
+  "Name": "encMC_MMD_mapStory_StoryEncounter3_mMoon",
+  "FriendlyName": "Monster Defense - Story 3 Axylus",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "7ad0eb36-1a22-48fd-a6d9-0869d05f1ed5",
+  "TagSetID": "mapStory_StoryEncounter3_mMoon.7ad0eb36-1a22-48fd-a6d9-0869d05f1ed5",
+  "IncludeInBuild": "1"
+}

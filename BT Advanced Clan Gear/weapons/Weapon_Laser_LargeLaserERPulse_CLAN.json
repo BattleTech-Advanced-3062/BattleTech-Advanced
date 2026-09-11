@@ -89,10 +89,10 @@
 			"WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
 			"EvasivePipsIgnored": 3,
 			"AccuracyModifier": 1,
-			"ShortRange": -50.0,
-			"MediumRange": -130.0,
-			"LongRange": -240.0,
-			"MaxRange": -220.0
+			"ShortRange": -10.0,
+			"MediumRange": -90.0,
+			"LongRange": -170.0,
+			"MaxRange": -150.0
 		}
 	],
 	"ComponentTags": {

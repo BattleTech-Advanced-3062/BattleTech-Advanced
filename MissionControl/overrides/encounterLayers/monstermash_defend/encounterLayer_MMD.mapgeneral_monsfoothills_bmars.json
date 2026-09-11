@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_MonsFoothills_bMars.11501c7a-b112-4f48-b214-cd602971f56c",
+  "MapID": "mapGeneral_MonsFoothills_bMars",
+  "Name": "encMC_MMD_mapGeneral_MonsFoothills_bMars",
+  "FriendlyName": "Monster Defense - Mons Foothills",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "11501c7a-b112-4f48-b214-cd602971f56c",
+  "TagSetID": "mapGeneral_MonsFoothills_bMars.11501c7a-b112-4f48-b214-cd602971f56c",
+  "IncludeInBuild": "1"
+}

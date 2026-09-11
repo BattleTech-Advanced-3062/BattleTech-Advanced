@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_ruggedAtoll_vJung.306bfd8a-bde4-49b3-86fb-6e8da033f81d",
+  "MapID": "mapGeneral_ruggedAtoll_vJung",
+  "Name": "encMC_MMD_mapGeneral_ruggedAtoll_vJung",
+  "FriendlyName": "Monster Defense - Rugged Atoll",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "306bfd8a-bde4-49b3-86fb-6e8da033f81d",
+  "TagSetID": "mapGeneral_ruggedAtoll_vJung.306bfd8a-bde4-49b3-86fb-6e8da033f81d",
+  "IncludeInBuild": "1"
+}

@@ -18,11 +18,11 @@
 	"Type": "Laser",
 	"WeaponSubType": "LargeLaser",
 	"MinRange": 0,
-	"MaxRange": 600,
+	"MaxRange": 710,
 	"RangeSplit": [
-		240,
-		390,
-		540
+		280,
+		440,
+		600
 	],
 	"AmmoCategory": "NotSet",
 	"StartingAmmoCapacity": 0,

@@ -1,0 +1,30 @@
+{
+	"Item": "Gear_MonsterDefense_Rattler",
+	"AllowInInventory": false,
+	"Requirements": [],
+	"Results": [
+		{
+			"Scope": "Company",
+			"Stats": null,
+			"Actions": [
+				{
+					"Type": "System_AddContract",
+					"value": "MMD_Defend_Rattler",
+					"valueConstant": null,
+					"additionalValues": [
+						"Locals",
+						"SelfEmployed",
+						null,
+						null,
+						null,
+						null,
+						"10",
+						null
+					]
+				}
+			],
+			"TemporaryResult": false,
+			"ResultDuration": 0
+		}
+	]
+}

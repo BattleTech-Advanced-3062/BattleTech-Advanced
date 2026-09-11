@@ -1,0 +1,12 @@
+{
+  "EncounterLayerID": "mapGeneral_riverBend_vLow.e648549a-5c7c-466f-acdd-5ee6dde350ed",
+  "MapID": "mapGeneral_riverBend_vLow",
+  "Name": "encMC_MMD_mapGeneral_riverBend_vLow",
+  "FriendlyName": "Monster Defense - River Bend",
+  "Description": "Monster Defense",
+  "BattleValue": "0",
+  "ContractTypeID": "17012",
+  "EncounterLayerGUID": "e648549a-5c7c-466f-acdd-5ee6dde350ed",
+  "TagSetID": "mapGeneral_riverBend_vLow.e648549a-5c7c-466f-acdd-5ee6dde350ed",
+  "IncludeInBuild": "1"
+}

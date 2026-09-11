@@ -22,7 +22,8 @@
 			"Scramble_DefendBase",
 			"TheSwitch_Assassinate",
 			"Scramble_DefendBase",
-			"SplitDefense"
+			"SplitDefense",
+			"MonsterMash_Defend"
 		]
 	},
 	"HotDropProtection": {
@@ -98,26 +99,10 @@
 		"AutofillType": "RespectEmpty",
 		"AutofillUnitCopyType": "RandomInLance",
 		"AutofillStartingFromContractDifficulty": 3,
-		"IncludeContractTypes": [
-			"AmbushConvoy",
-			"Assassinate",
-			"CaptureBase",
-			"CaptureEscort",
-			"DefendBase",
-			"DestroyBase",
-			"Rescue",
-			"SimpleBattle",
-			"ThreeWayBattle",
-			"FireMission",
-			"AttackDefend",
-			"Blackout",
-			"Warzone",
-			"OrganizedRetreat",
-			"DefenceInDepth",
-			"WarzoneV2",
-			"TheSwitch_Assassinate",
-			"Scramble_DefendBase",
-			"SplitDefense"
+		"ExcludeContractTypes": [
+			"SoloDuel",
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"

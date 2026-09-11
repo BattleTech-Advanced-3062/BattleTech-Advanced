@@ -70,7 +70,11 @@
 			"BattleRoyal_GameworldBattleRoyalLight",
 			"BattleRoyal_GameworldBattleRoyalMedium",
 			"BattleRoyal_GameworldBattleRoyalSuperHeavy",
-			"BattleRoyal_GameworldBattleRoyalUltralight"
+			"BattleRoyal_GameworldBattleRoyalUltralight",
+			"OpStiletto_Story01_ArchitectureOfAggression",
+			"SimpleBattle_BloodAndThunder",
+			"Rescue_BrokenHalo",
+			"OpStiletto_Story04_CaughtInAMosh"
 		],
 		"OpforReplacementConfig": {
 			"BaseReplaceChance": 0.4,

@@ -1,0 +1,127 @@
+{
+	"Version": 1,
+	"Description": {
+		"Id": "vehicledef_Patched_UNION_DROPSHIP",
+		"Name": "Union Dropship (Patched)",
+		"Details": "",
+		"Icon": "",
+		"Cost": 564,
+		"Rarity": 0,
+		"Purchasable": false
+	},
+	"ChassisID": "vehiclechassisdef_Patched_UNION_DROPSHIP",
+	"VehicleTags": {
+		"items": [
+			"irbtmu_immobile_unit",
+			"unit_vehicle",
+			"unit_assault",
+			"unit_wheels",
+			"unit_release",
+			"unit_noncontrollableTank",
+			"NOSALVAGE"
+		],
+		"tagSetSourceFile": ""
+	},
+	"Locations": [
+		{
+			"Location": "Front",
+			"CurrentArmor": 1500,
+			"CurrentInternalStructure": 300,
+			"AssignedArmor": 1500,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Left",
+			"CurrentArmor": 1500,
+			"CurrentInternalStructure": 300,
+			"AssignedArmor": 1500,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Right",
+			"CurrentArmor": 1500,
+			"CurrentInternalStructure": 300,
+			"AssignedArmor": 1500,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Rear",
+			"CurrentArmor": 1500,
+			"CurrentInternalStructure": 300,
+			"AssignedArmor": 1500,
+			"DamageLevel": "Functional"
+		},
+		{
+			"Location": "Turret",
+			"CurrentArmor": 1500,
+			"CurrentInternalStructure": 300,
+			"AssignedArmor": 1500,
+			"DamageLevel": "Functional"
+		}
+	],
+	"inventory": [
+		{
+			"ComponentDefID": "Gear_Union_Turret_Belt_Left_Front_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Belt_Right_Front_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Mid_Left_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Mid_Right_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Top_Left_Front_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Top_Right_Rear_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Right",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Top_Right_Front_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Union_Turret_Top_Left_Rear_02",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Left",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
+			"ComponentDefID": "Gear_Vehicle_NoBleed",
+			"ComponentDefType": "Upgrade",
+			"MountedLocation": "Rear",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		}
+	]
+}
