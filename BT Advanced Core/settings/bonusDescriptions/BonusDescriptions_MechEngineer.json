@@ -3294,10 +3294,28 @@
 			"Full": "{0} Accuracy with right arm-mounted weapons"
 		},
 		{
+			"Bonus": "LeftArmAccuracy",
+			"Short": "{0} L.Arm Acc",
+			"Long": "{0} Left Arm Accuracy",
+			"Full": "{0} Accuracy with left arm-mounted weapons"
+		},
+		{
 			"Bonus": "LeftTorsoAccuracy",
 			"Short": "{0} Left Torso Acc",
 			"Long": "{0} Left Torso Accuracy",
 			"Full": "{0} Accuracy with left torso-mounted weapons"
+		},
+		{
+			"Bonus": "RightTorsoAccuracy",
+			"Short": "{0} Right Torso Acc",
+			"Long": "{0} Right Torso Accuracy",
+			"Full": "{0} Accuracy with right torso-mounted weapons"
+		},
+		{
+			"Bonus": "CenterTorsoAccuracy",
+			"Short": "{0} Center Torso Acc",
+			"Long": "{0} Center Torso Accuracy",
+			"Full": "{0} Accuracy with center torso-mounted weapons"
 		},
 		{
 			"Bonus": "TorsoAccuracy",
@@ -3442,6 +3460,12 @@
 			"Short": "{0} Enrg.Acc",
 			"Long": "{0} Energy Acc",
 			"Full": "{0} Accuracy with Energy Weapons"
+		},
+		{
+			"Bonus": "LaserAcc",
+			"Short": "{0} Laser Acc",
+			"Long": "{0} Laser Acc",
+			"Full": "{0} Accuracy with Laser Weapons"
 		},
 		{
 			"Bonus": "MissileAcc",
@@ -4996,6 +5020,12 @@
 			"Short": "Bonus Armor",
 			"Long": "Bonus Location Armor",
 			"Full": "This component provides {0} bonus armor to the location this component is mounted in."
+		},
+		{
+			"Bonus": "ModularArmor2Locations",
+			"Short": "Bonus Armor Location",
+			"Long": "Bonus Armor Location",
+			"Full": "This component provides {0} bonus armor to both the {1} and {2} locations."
 		},
 		{
 			"Bonus": "HarJel",

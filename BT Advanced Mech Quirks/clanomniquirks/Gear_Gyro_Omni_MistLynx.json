@@ -55,7 +55,7 @@
 		"UIName": "Mist Lynx OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_MistLynx",
 		"Name": "Mist Lynx OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Mist Lynx possesses as an OmniMech. It provides a number of benefits to the Mist Lynx, such as increased stability, boosted arm weapon accuracy, boosted sensor and sight range, boosted walk and sprint speed, and boosted jump distance. It also contains the benefits inherent to OmniMechs and permits the Mist Lynx to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Mist Lynx possesses as an OmniMech. It provides a number of benefits to the Mist Lynx, such as increased stability, boosted arm weapon accuracy, boosted sensor and sight range, and boosted jump distance. It also contains the benefits inherent to OmniMechs and permits the Mist Lynx to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -111,7 +111,7 @@
 			"Description": {
 				"Id": "Gyro-MistLynx-Jump",
 				"Name": "Mist Lynx Quirk",
-				"Details": "Provides increased stability, boosted arm weapon accuracy, boosted sensor and sight range, boosted walk and sprint speed, and boosted jump distance to the Mist Lynx.",
+				"Details": "Provides increased stability, boosted arm weapon accuracy, boosted sensor and sight range, and boosted jump distance to the Mist Lynx.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

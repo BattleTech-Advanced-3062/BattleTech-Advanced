@@ -119,7 +119,7 @@
 	"inventory": [
 		{
 			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
+			"ComponentDefID": "Gear_TargetingTrackingSystem_TargetingComputer_Heavy",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -283,17 +283,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Weapon_Laser_SmallLaserER_CLAN",
-			"SimGameUID": null,
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
 			"SimGameUID": null,
@@ -349,17 +338,6 @@
 			"hasPrefabName": false
 		},
 		{
-			"MountedLocation": "LeftTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN",
 			"SimGameUID": null,
@@ -386,28 +364,6 @@
 			"ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": 1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-			"SimGameUID": null,
-			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": 1,
 			"GUID": null,
 			"DamageLevel": "Functional",

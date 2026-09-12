@@ -54,7 +54,7 @@
 		"UIName": "Adder OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Adder",
 		"Name": "Adder OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Adder possesses as an OmniMech. It provides a number of benefits to the Adder, such as increased stability, bonus arm accuracy, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Adder to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Adder possesses as an OmniMech. It provides a number of benefits to the Adder, such as increased stability, bonus arm accuracy, boosted defense against incoming attacks, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Adder to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -110,7 +110,7 @@
 			"Description": {
 				"Id": "Gyro-Adder-Damage",
 				"Name": "Adder Quirk",
-				"Details": "Provides increased stability, bonus arm accuracy, and increased weapon damage to all targets to the Adder.",
+				"Details": "Provides increased stability, bonus arm accuracy, boosted defense against incoming attacks, and increased weapon damage to all targets to the Adder.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

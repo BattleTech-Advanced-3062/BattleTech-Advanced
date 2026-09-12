@@ -36,7 +36,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_MadDogMkII",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -220,7 +220,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 160,
-			"MaxRearArmor": 50,
+			"MaxRearArmor": 40,
 			"InternalStructure": 105
 		},
 		{
@@ -264,7 +264,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 131,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		},
@@ -273,7 +273,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 131,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		}
@@ -327,6 +327,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"HeavyMech"

@@ -135,28 +135,6 @@
 				"modType": "System.Single",
 				"targetCollection": "Weapon"
 			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-TimberWolfRTAcc",
-				"Name": "Timber Wolf RA Accuracy",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "RightTorso.Accuracy",
-				"operation": "Float_Add",
-				"modValue": "-4.0",
-				"modType": "System.Single"
-			}
 		}
 	],
 	"ComponentTags": {

@@ -115,7 +115,7 @@
 				"Icon": "uixSvgIcon_action_evasivemove"
 			},
 			"statisticData": {
-					"statName": "HeatSinkCapacity",
+				"statName": "HeatSinkCapacity",
 				"operation": "Int_Add",
 				"modValue": "18",
 				"modType": "System.Int32"

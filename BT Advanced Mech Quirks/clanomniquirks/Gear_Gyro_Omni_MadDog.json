@@ -47,7 +47,7 @@
 		"UIName": "Mad Dog OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_MadDog",
 		"Name": "Mad Dog OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Mad Dog possesses as an OmniMech. It provides a number of benefits to the Mad Dog, such as increased stability, boosted arm weapon accuracy, and boosted range for all ranged weapons. It also contains the benefits inherent to OmniMechs and permits the Mad Dog to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Mad Dog possesses as an OmniMech. It provides a number of benefits to the Mad Dog, such as increased stability, boosted side torso weapon accuracy, and improved defense against incoming fire. It also contains the benefits inherent to OmniMechs and permits the Mad Dog to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -102,7 +102,7 @@
 			"Description": {
 				"Id": "Gyro-MadDog-Defense",
 				"Name": "Mad Dog Omni Quirk",
-				"Details": "Provides increased stability, boosted arm weapon accuracy, and boosted range for all ranged weapons to the Mad Dog.",
+				"Details": "Provides increased stability, boosted side torso weapon accuracy, and improved defense against incoming fire to the Mad Dog.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
