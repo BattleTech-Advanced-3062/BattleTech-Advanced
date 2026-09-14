@@ -11,11 +11,17 @@
 				"CategoryID": "Quirk"
 			}
 		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		},
 		"DecoratorComponent":[
 			{
-				"Text":"O",
-				"Color":"#00a2c9",
-				"Icon":"uixSvgIcon_equipment_Gyro",
+				"Text":"O",               
+				"Color":"#00a2c9",      
+				"Icon":"uixSvgIcon_equipment_Gyro",       
 				"Importance": 10
 			}
 		],
@@ -27,10 +33,9 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"Defense: +6",
-			"EvaMax: +3",
-			"EvaPips: +3",
-			"GyroStab: 100",
+			"AreaOfEffectDmgReduce: +50%",
+			"WordsWords: Adds one Naga FCS to each arm, attached to the Arrow IV in that arm.",
+			"GyroStab: 80",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -44,11 +49,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Dire Star Omni",
-		"UIName": "Dire Star OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_DireStar",
-		"Name": "Dire Star OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Dire Star possesses as an OmniMech. It provides a number of benefits to the Dire Star, such as increased stability, boosted evasion generated, increased maximum evasion, and increased base defense. It also contains the benefits inherent to OmniMechs and permits the Dire Star to also function as an OmniMech.",
+		"Model": "Naga Omni",
+		"UIName": "Naga OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Naga",
+		"Name": "Naga OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Naga possesses as an OmniMech. It provides a number of benefits to the Naga, such as increased stability, reduced incoming AoE damage, and two Naga FCS attachments in the arms. It also contains the benefits inherent to OmniMechs and permits the Naga to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -65,7 +70,8 @@
 	"statusEffects": [
 		{
 			"durationData": {
-				"duration": -1
+				"duration": -1,
+				"stackLimit": 1
 			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
@@ -75,7 +81,7 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "GyroGenericThreshhold",
+				"Id": "Gyro-Quad-Threshold",
 				"Name": "Gyroscopic Orientation",
 				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
@@ -83,7 +89,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "100.0",
+				"modValue": "80.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -101,61 +107,42 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-DireStar-Defense",
-				"Name": "Dire Star Omni Quirk",
-				"Details": "Provides increased stability, boosted evasion generated, increased maximum evasion, and increased base defense to the Dire Star.",
+				"Id": "Gyro-Naga-HeatDiss",
+				"Name": "Naga Quirk",
+				"Details": "Provides increased stability, reduced incoming AoE damage, and two Naga FCS attachments in the arms to the Naga.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "6.0",
+				"statName": "CACAoEDamageMult",
+				"operation": "Float_Multiply",
+				"modValue": "0.50",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
 		},
 		{
-			"durationData": {},
+			"durationData": {
+				"duration": -1
+			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
 				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-DireStarEvaMax",
-				"Name": "DireStar Eva Max",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
+				"Id": "StatusEffect-getHasBattleArmorMounts",
+				"Name": "getHasBattleArmorMounts",
+				"Details": "getHasBattleArmorMounts",
+				"Icon": "uixSvgIcon_ability_precisionstrike"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "MaxEvasivePips",
-				"operation": "Int_Add",
-				"modValue": "3",
-				"modType": "System.Int32"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "StatusEffect-Gyro-DireStarEvaGained",
-				"Name": "DireStar Eva Gained",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "EvasivePipsGainedAdditional",
-				"operation": "Int_Add",
-				"modValue": "3",
-				"modType": "System.Int32"
+				"statName": "HasBattleArmorMounts",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
 			}
 		}
 	],

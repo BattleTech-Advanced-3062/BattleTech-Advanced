@@ -69,6 +69,14 @@
 				{
 					"WeaponMountID": "Energy",
 					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": true
 				}
 			],
 			"Tonnage": 0,
@@ -82,8 +90,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
-			"MaxRearArmor": 55,
+			"MaxArmor": 90,
+			"MaxRearArmor": 20,
 			"InternalStructure": 55
 		},
 		{
@@ -91,13 +99,13 @@
 			"Hardpoints": [
 				{
 					"WeaponMountID": "Energy",
-					"Omni": true
+					"Omni": false
 				}
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 140,
-			"MaxRearArmor": 70,
+			"MaxArmor": 110,
+			"MaxRearArmor": 25,
 			"InternalStructure": 70
 		},
 		{
@@ -105,8 +113,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
-			"MaxRearArmor": 55,
+			"MaxArmor": 90,
+			"MaxRearArmor": 20,
 			"InternalStructure": 55
 		},
 		{
@@ -141,7 +149,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 110,
+			"MaxArmor": 90,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		},
@@ -155,7 +163,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 110,
+			"MaxArmor": 90,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		}
@@ -208,6 +216,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"MediumMech"
 		],
@@ -218,7 +227,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_NightChanter",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

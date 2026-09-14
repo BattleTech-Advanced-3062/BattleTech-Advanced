@@ -8,7 +8,7 @@
 	},
 	"FixedEquipment": [
 		{
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Naga",
 			"ComponentDefType": "Upgrade",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -120,7 +120,20 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_AIV_1"
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_Naga_ArtilleryFCS",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_AIV_1"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -131,7 +144,20 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_AIV_2"
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Gear_Attachment_Quirk_Naga_ArtilleryFCS",
+			"SimGameUID": null,
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_AIV_2"
 		}
 	],
 	"Description": {
@@ -201,7 +227,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -219,8 +245,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxArmor": 75,
+			"MaxRearArmor": 45,
 			"InternalStructure": 85
 		},
 		{
@@ -237,8 +263,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 175,
-			"MaxRearArmor": 55,
+			"MaxArmor": 85,
+			"MaxRearArmor": 50,
 			"InternalStructure": 125
 		},
 		{
@@ -255,8 +281,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxArmor": 75,
+			"MaxRearArmor": 45,
 			"InternalStructure": 85
 		},
 		{
@@ -269,7 +295,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -278,7 +304,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		},
@@ -287,7 +313,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		}
@@ -341,6 +367,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"
