@@ -219,15 +219,24 @@
 	"StockRole": "Gladiator",
 	"YangsThoughts": "This customized Hero 'Mech is equipped with a 270 XL engine, two ER Micro Lasers and Heavy Machine Guns in both torsos, a Streak SRM 4 with its one ton of ammo in the center torso and two Streak SRM 2's in the right arm, along with 10 Double Heat Sinks to cope with the heat.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedSensors_Incubus",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
 	],
 	"CustomParts": {
 		"CustomParts": []

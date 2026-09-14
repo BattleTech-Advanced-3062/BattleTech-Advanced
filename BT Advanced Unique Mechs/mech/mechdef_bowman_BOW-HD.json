@@ -377,28 +377,20 @@
 			"LocalGUID": "target_LRM_1"
 		},
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Guardian_ECM_CLAN",
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Gear_Attachment_LRMFCS",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional",
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_LRM_1"
 		},
 		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Streak_LRM",
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Guardian_ECM_CLAN",
 			"SimGameUID": "",
-			"ComponentDefType": "AmmunitionBox",
-			"HardpointSlot": 0,
-			"DamageLevel": "Functional",
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Ammo_AmmunitionBox_Streak_LRM",
-			"SimGameUID": "",
-			"ComponentDefType": "AmmunitionBox",
+			"ComponentDefType": "Upgrade",
 			"HardpointSlot": 0,
 			"DamageLevel": "Functional",
 			"hasPrefabName": false
@@ -448,6 +440,16 @@
 			"DamageLevel": "Functional",
 			"hasPrefabName": false,
 			"LocalGUID": "target_LRM_2"
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Gear_Attachment_LRMFCS",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": 0,
+			"DamageLevel": "Functional",
+			"hasPrefabName": false,
+			"TargetComponentGUID": "target_LRM_2"
 		}
 	]
 }
