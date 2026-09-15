@@ -33,11 +33,9 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"Sensors: +10%",
-			"Sight: +10%",
 			"Defense: +2",
-			"LaserAcc: +2",
-			"GyroStab: 75",
+			"MissileAcc: +3",
+			"GyroStab: 40",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -51,11 +49,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Spirit Walker Omni",
-		"UIName": "Spirit Walker OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_SpiritWalker",
-		"Name": "Spirit Walker OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Spirit Walker possesses as an OmniMech. It provides a number of benefits to the Spirit Walker, such as increased stability, bonus laser weapon accuracy, boosted defense against incoming attacks, and increased sensor and sight range. It also contains the benefits inherent to OmniMechs and permits the Spirit Walker to also function as an OmniMech.",
+		"Model": "Arctic Wolf Omni",
+		"UIName": "Arctic Wolf OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_ArcticWolf",
+		"Name": "Arctic Wolf OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Arctic Wolf possesses as an OmniMech. It provides a number of benefits to the Arctic Wolf, such as increased stability, bonus missile weapon accuracy, and boosted defense against incoming attacks. It also contains the benefits inherent to OmniMechs and permits the Arctic Wolf to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,7 +89,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "75.0",
+				"modValue": "40.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -109,21 +107,21 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-SpiritWalker-LaserAcc",
-				"Name": "Spirit Walker Quirk",
-				"Details": "Provides increased stability, bonus laser weapon accuracy, boosted defense against incoming attacks, and increased sensor and sight range to the Spirit Walker.",
+				"Id": "Gyro-ArcticWolf-MissileAcc",
+				"Name": "Arctic Wolf Quirk",
+				"Details": "Provides increased stability, bonus missile weapon accuracy, and boosted defense against incoming attacks to the Arctic Wolf.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
 				"modType": "System.Single",
-				"modValue": "-2.0",
+				"modValue": "-3.0",
 				"operation": "Float_Add",
 				"statName": "AccuracyModifier",
 				"targetAmmoCategory": "NotSet",
 				"targetCollection": "Weapon",
-				"targetWeaponCategory": "Energy",
+				"targetWeaponCategory": "Missile",
 				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "Laser"
+				"targetWeaponType": "NotSet"
 			},
 			"nature": "Buff"
 		},
@@ -176,50 +174,6 @@
 				"operation": "Set",
 				"modValue": "true",
 				"modType": "System.Boolean"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-SpiritWalker-Sensor",
-				"Name": "SpiritWalker Sensor",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "SensorDistanceMultiplier",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
-			}
-		},
-		{
-			"durationData": {},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "Gyro-SpiritWalker-Spotter",
-				"Name": "SpiritWalker Spotter",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "SpotterDistanceMultiplier",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
 			}
 		}
 	],

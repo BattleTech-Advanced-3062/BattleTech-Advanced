@@ -2778,6 +2778,12 @@
 			"Full": "{0} Energy Weapon Damage dealt"
 		},
 		{
+			"Bonus": "SupportWeaponDamage",
+			"Short": "{0} Support Dmg",
+			"Long": "{0} Support Damage",
+			"Full": "{0} Support Weapon Damage dealt"
+		},
+		{
 			"Bonus": "StabDamage",
 			"Short": "{0} Stab.Dmg",
 			"Long": "{0} Stability Damage",

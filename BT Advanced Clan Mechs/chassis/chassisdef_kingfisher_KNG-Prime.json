@@ -38,7 +38,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Kingfisher",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -212,8 +212,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 145,
-			"MaxRearArmor": 55,
+			"MaxArmor": 140,
+			"MaxRearArmor": 50,
 			"InternalStructure": 95
 		},
 		{
@@ -227,7 +227,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 220,
-			"MaxRearArmor": 70,
+			"MaxRearArmor": 67,
 			"InternalStructure": 145
 		},
 		{
@@ -240,8 +240,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 145,
-			"MaxRearArmor": 55,
+			"MaxArmor": 140,
+			"MaxRearArmor": 50,
 			"InternalStructure": 95
 		},
 		{
@@ -330,6 +330,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

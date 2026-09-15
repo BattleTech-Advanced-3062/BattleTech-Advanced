@@ -27,9 +27,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"DamageMod: +15%",
-			"TEHeatgen: -15%",
-			"GyroStab: 100",
+			"JumpDistance: +25%",
+			"Breaching",
+			"CalledShot",
+			"GyroStab: 45",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -43,11 +44,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Dire Wolf Omni",
-		"UIName": "Dire Wolf OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_DireWolf",
-		"Name": "Dire Wolf OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Dire Wolf possesses as an OmniMech. It provides a number of benefits to the Dire Wolf, such as increased stability, boosted weapon damage, and improved heat generation. It also contains the benefits inherent to OmniMechs and permits the Dire Wolf to also function as an OmniMech.",
+		"Model": "Grendel Omni",
+		"UIName": "Grendel OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Grendel",
+		"Name": "Grendel OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Grendel possesses as an OmniMech. It provides a number of benefits to the Grendel, such as increased stability, boosted jump distance, and improved called shot ability. It also contains the benefits inherent to OmniMechs and permits the Grendel to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -82,7 +83,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "100.0",
+				"modValue": "45.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -100,16 +101,16 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-DireWolf-Damage",
-				"Name": "Dire Wolf Omni Quirk",
-				"Details": "Provides increased stability, boosted weapon damage, and improved heat generation to the Dire Wolf.",
+				"Id": "Gyro-Grendel-JumpDist",
+				"Name": "Grendel Omni Quirk",
+				"Details": "Provides increased stability, boosted jump distance, and improved called shot ability to the Grendel.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
-				"modType": "System.Single",
-				"modValue": "1.15",
+				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
-				"statName": "DamagePerShot",
+				"modValue": "1.25",
+				"modType": "System.Single",
 			},
 			"nature": "Buff"
 		},
@@ -122,18 +123,39 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-DireWolfHeatReduce",
-				"Name": "Dire Wolf Heat Generated",
+				"Id": "StatusEffect-Gyro-GrendelCalledShot",
+				"Name": "Grendel Called Shot",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "HeatGenerated",
-				"operation": "Float_Multiply",
-				"modValue": "0.85",
-				"modType": "System.Single",
-				"targetCollection": "Weapon"
+				"statName": "IRTCalledShotAlwaysAllow",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
+			}
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-GrendelBreaching",
+				"Name": "Grendel Breaching",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "PrecisionStrike",
+				"operation": "Set",
+				"modValue": "true",
+				"modType": "System.Boolean"
 			}
 		}
 	],

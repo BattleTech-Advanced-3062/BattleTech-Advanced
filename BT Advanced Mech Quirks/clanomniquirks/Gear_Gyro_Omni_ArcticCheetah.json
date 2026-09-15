@@ -33,11 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"Sensors: +10%",
-			"Sight: +10%",
-			"Defense: +2",
-			"LaserAcc: +2",
-			"GyroStab: 75",
+			"SupportAcc: +2",
+			"JumpDistance: +30%",
+			"SupportWeaponDamage: +20%",
+			"GyroStab: 30",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -51,11 +50,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Spirit Walker Omni",
-		"UIName": "Spirit Walker OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_SpiritWalker",
-		"Name": "Spirit Walker OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Spirit Walker possesses as an OmniMech. It provides a number of benefits to the Spirit Walker, such as increased stability, bonus laser weapon accuracy, boosted defense against incoming attacks, and increased sensor and sight range. It also contains the benefits inherent to OmniMechs and permits the Spirit Walker to also function as an OmniMech.",
+		"Model": "Arctic Cheetah Omni",
+		"UIName": "Arctic Cheetah OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_ArcticCheetah",
+		"Name": "Arctic Cheetah OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Arctic Cheetah possesses as an OmniMech. It provides a number of benefits to the Arctic Cheetah, such as increased stability, boosted support weapon accuracy and damage, and boosted jump distance. It also contains the benefits inherent to OmniMechs and permits the Arctic Cheetah to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -91,7 +90,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "75.0",
+				"modValue": "30.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -109,49 +108,18 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-SpiritWalker-LaserAcc",
-				"Name": "Spirit Walker Quirk",
-				"Details": "Provides increased stability, bonus laser weapon accuracy, boosted defense against incoming attacks, and increased sensor and sight range to the Spirit Walker.",
+				"Id": "Gyro-ArcticCheetah-Jump",
+				"Name": "Arctic Cheetah Quirk",
+				"Details": "Provides increased stability, boosted support weapon accuracy and damage, and boosted jump distance to the Arctic Cheetah.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.3",
 				"modType": "System.Single",
-				"modValue": "-2.0",
-				"operation": "Float_Add",
-				"statName": "AccuracyModifier",
-				"targetAmmoCategory": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "Energy",
-				"targetWeaponSubType": "NotSet",
-				"targetWeaponType": "Laser"
 			},
 			"nature": "Buff"
-		},
-		{
-			"durationData": {
-				"duration": -1,
-				"stackLimit": -1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"effectTargetType": "Creator",
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "NarrowProfileDefense",
-				"Name": "HARDER TO HIT",
-				"Details": "Provides a penalty to all attacks against this unit.",
-				"Icon": "uixSvgIcon_equipment_Gyro"
-			},
-			"nature": "Buff",
-			"statisticData": {
-				"statName": "ToHitThisActor",
-				"operation": "Float_Add",
-				"modValue": "2.0",
-				"modType": "System.Single"
-			}
 		},
 		{
 			"durationData": {
@@ -187,17 +155,22 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-SpiritWalker-Sensor",
-				"Name": "SpiritWalker Sensor",
+				"Id": "Gyro-ArcticCheetah-APAcc",
+				"Name": "Arctic Cheetah AP Accuracy",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "SensorDistanceMultiplier",
-				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
+				"modType": "System.Single",
+				"modValue": "-2.0",
+				"operation": "Float_Add",
+				"statName": "AccuracyModifier",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "AntiPersonnel",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
 			}
 		},
 		{
@@ -209,17 +182,22 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-SpiritWalker-Spotter",
-				"Name": "SpiritWalker Spotter",
+				"Id": "Gyro-ArcticCheetah-APDmg",
+				"Name": "Arctic Cheetah AP Damage",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "SpotterDistanceMultiplier",
+				"modType": "System.Single",
+				"modValue": "1.2",
 				"operation": "Float_Multiply",
-				"modValue": "1.1",
-				"modType": "System.Single"
+				"statName": "DamagePerShot",
+				"targetAmmoCategory": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "AntiPersonnel",
+				"targetWeaponSubType": "NotSet",
+				"targetWeaponType": "NotSet"
 			}
 		}
 	],

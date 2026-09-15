@@ -11,11 +11,17 @@
 				"CategoryID": "Quirk"
 			}
 		],
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "[[Chassis.Tonnage]]/10",
+				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
+			}
+		},
 		"DecoratorComponent":[
 			{
-				"Text":"O",
-				"Color":"#00a2c9",
-				"Icon":"uixSvgIcon_equipment_Gyro",
+				"Text":"O",               
+				"Color":"#00a2c9",      
+				"Icon":"uixSvgIcon_equipment_Gyro",       
 				"Importance": 10
 			}
 		],
@@ -27,9 +33,9 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"DamageMod: +15%",
-			"TEHeatgen: -15%",
-			"GyroStab: 100",
+			"DamageMod: +10%",
+			"Accuracy: +3",
+			"GyroStab: 35",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
@@ -43,11 +49,11 @@
 		"Rarity": 99,
 		"Purchasable": false,
 		"Manufacturer": "Quirk",
-		"Model": "Dire Wolf Omni",
-		"UIName": "Dire Wolf OmniMech Gyro",
-		"Id": "Gear_Gyro_Omni_DireWolf",
-		"Name": "Dire Wolf OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Dire Wolf possesses as an OmniMech. It provides a number of benefits to the Dire Wolf, such as increased stability, boosted weapon damage, and improved heat generation. It also contains the benefits inherent to OmniMechs and permits the Dire Wolf to also function as an OmniMech.",
+		"Model": "Cougar Omni",
+		"UIName": "Cougar OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Cougar",
+		"Name": "Cougar OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Cougar possesses as an OmniMech. It provides a number of benefits to the Cougar, such as increased stability, bonus weapon accuracy, and increased weapon damage to all targets. It also contains the benefits inherent to OmniMechs and permits the Cougar to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -64,7 +70,8 @@
 	"statusEffects": [
 		{
 			"durationData": {
-				"duration": -1
+				"duration": -1,
+				"stackLimit": 1
 			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
@@ -74,7 +81,7 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "GyroGenericThreshhold",
+				"Id": "Gyro-Quad-Threshold",
 				"Name": "Gyroscopic Orientation",
 				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
@@ -82,7 +89,7 @@
 			"statisticData": {
 				"statName": "UnsteadyThreshold",
 				"operation": "Float_Add",
-				"modValue": "100.0",
+				"modValue": "35.0",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -100,38 +107,42 @@
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "Gyro-DireWolf-Damage",
-				"Name": "Dire Wolf Omni Quirk",
-				"Details": "Provides increased stability, boosted weapon damage, and improved heat generation to the Dire Wolf.",
+				"Id": "Gyro-Cougar-Damage",
+				"Name": "Cougar Quirk",
+				"Details": "Provides increased stability, bonus weapon accuracy, and increased weapon damage to all targets to the Cougar.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
 				"modType": "System.Single",
-				"modValue": "1.15",
+				"modValue": "1.1",
 				"operation": "Float_Multiply",
 				"statName": "DamagePerShot",
 			},
 			"nature": "Buff"
 		},
 		{
-			"durationData": {},
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
 			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
 				"showInStatusPanel": false
 			},
 			"effectType": "StatisticEffect",
 			"Description": {
-				"Id": "StatusEffect-Gyro-DireWolfHeatReduce",
-				"Name": "Dire Wolf Heat Generated",
-				"Details": "All incoming damage increased by 30%.",
-				"Icon": "layeredarmor"
+				"Id": "Gyro-Cougar-Accuracy",
+				"Name": "Cougar Accuracy",
+				"Details": "Provides a penalty to all attacks against this unit.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "HeatGenerated",
-				"operation": "Float_Multiply",
-				"modValue": "0.85",
+				"statName": "AccuracyModifier",
+				"operation": "Float_Add",
+				"modValue": "-3.0",
 				"modType": "System.Single",
 				"targetCollection": "Weapon"
 			}
