@@ -3660,6 +3660,12 @@
 			"Full": "{0} Jump Distance"
 		},
 		{
+			"Bonus": "JumpDamage",
+			"Short": "{0} JumpDmg",
+			"Long": "{0} Jump Damage",
+			"Full": "{0} bonus weapon damage after jumping."
+		},
+		{
 			"Bonus": "MeleeStab",
 			"Short": "{0} MeleeStab.Dmg",
 			"Long": "{0} Melee Stab. Damage",
