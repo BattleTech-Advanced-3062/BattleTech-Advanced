@@ -27,7 +27,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Linebacker",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -197,7 +197,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 115,
+			"MaxArmor": 110,
 			"MaxRearArmor": 40,
 			"InternalStructure": 75
 		},
@@ -211,7 +211,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 160,
+			"MaxArmor": 125,
 			"MaxRearArmor": 50,
 			"InternalStructure": 105
 		},
@@ -229,7 +229,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 115,
+			"MaxArmor": 110,
 			"MaxRearArmor": 40,
 			"InternalStructure": 75
 		},
@@ -252,7 +252,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 120,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		},
@@ -261,7 +261,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 120,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		}
@@ -314,6 +314,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
