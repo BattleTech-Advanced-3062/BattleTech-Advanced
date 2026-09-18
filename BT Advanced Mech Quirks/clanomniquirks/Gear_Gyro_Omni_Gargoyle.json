@@ -55,7 +55,7 @@
 		"UIName": "Gargoyle OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Gargoyle",
 		"Name": "Gargoyle OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Gargoyle possesses as an OmniMech. It provides a number of benefits to the Gargoyle, such as increased stability, bonus walk and sprint speed, bonus dissipation, and increased evasion generation on movement. It also contains the benefits inherent to OmniMechs and permits the Gargoyle to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Gargoyle possesses as an OmniMech. It provides a number of benefits to the Gargoyle, such as increased stability, bonus walk and sprint speed, bonus heat dissipation, and increased evasion generation on movement. It also contains the benefits inherent to OmniMechs and permits the Gargoyle to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -137,7 +137,7 @@
 			"Description": {
 				"Id": "Gyro-Gargoyle-EvaMax",
 				"Name": "Gargoyle Quirk",
-				"Details": "Provides increased stability, bonus walk and sprint speed, bonus dissipation, and increased evasion generation on movement to the Gargoyle.",
+				"Details": "Provides increased stability, bonus walk and sprint speed, bonus heat dissipation, and increased evasion generation on movement to the Gargoyle.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

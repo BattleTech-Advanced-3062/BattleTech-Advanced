@@ -53,7 +53,7 @@
 		"UIName": "Iron Cheetah OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_IronCheetah",
 		"Name": "Iron Cheetah OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Iron Cheetah possesses as an OmniMech. It provides a number of benefits to the Iron Cheetah, such as increased stability, bonus walk and sprint speed, increased jumping distance, and increased evasion generation on movement. It also contains the benefits inherent to OmniMechs and permits the Iron Cheetah to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Iron Cheetah possesses as an OmniMech. It provides a number of benefits to the Iron Cheetah, such as increased stability and bonus walk and sprint speed. It also contains the benefits inherent to OmniMechs and permits the Iron Cheetah to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",

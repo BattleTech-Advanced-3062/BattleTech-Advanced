@@ -34,8 +34,8 @@
 		],
 		"BonusDescriptions": [
 			"SupportAcc: +2",
-			"JumpDistance: +30%",
 			"SupportWeaponDamage: +20%",
+			"JumpDistance: +30%",
 			"GyroStab: 30",
 			"IsGyro",
 			"Omni",

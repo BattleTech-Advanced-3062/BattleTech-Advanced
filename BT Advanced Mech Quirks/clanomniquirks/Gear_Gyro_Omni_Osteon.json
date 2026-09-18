@@ -55,7 +55,7 @@
 		"UIName": "Osteon OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_Osteon",
 		"Name": "Osteon OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Osteon possesses as an OmniMech. It provides a number of benefits to the Osteon, such as increased stability, additional damage reduction, increased center torso weapon accuracy, and increased arm weapon accuracy. It also contains the benefits inherent to OmniMechs and permits the Osteon to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Osteon possesses as an OmniMech. It provides a number of benefits to the Osteon, such as increased stability, additional damage reduction, increased defense against incomign attacks, and boosted kick accuracy and damage. It also contains the benefits inherent to OmniMechs and permits the Osteon to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",

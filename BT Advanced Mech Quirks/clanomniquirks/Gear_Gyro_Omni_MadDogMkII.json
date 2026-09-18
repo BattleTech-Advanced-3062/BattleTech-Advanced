@@ -48,7 +48,7 @@
 		"UIName": "Mad Dog Mk. II OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_MadDogMkII",
 		"Name": "Mad Dog Mk. II OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Mad Dog Mk. II possesses as an OmniMech. It provides a number of benefits to the Mad Dog Mk. II, such as increased stability, boosted arm and torso weapon accuracy, and boosted range for all ranged weapons. It also contains the benefits inherent to OmniMechs and permits the Mad Dog Mk. II to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Mad Dog Mk. II possesses as an OmniMech. It provides a number of benefits to the Mad Dog Mk. II, such as increased stability, and boosted arm and torso weapon accuracy. It also contains the benefits inherent to OmniMechs and permits the Mad Dog Mk. II to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -102,8 +102,8 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "Gyro-MadDog-Defense",
-				"Name": "Mad Dog Omni Quirk",
-				"Details": "Provides increased stability, boosted arm weapon accuracy, and boosted range for all ranged weapons to the Mad Dog.",
+				"Name": "Mad Dog Mk. II Omni Quirk",
+				"Details": "Provides increased stability, and boosted arm and torso weapon accuracy to the Mad Dog Mk. II.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

@@ -47,7 +47,7 @@
 		"UIName": "Timber Wolf OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_TimberWolf",
 		"Name": "Timber Wolf OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Timber Wolf possesses as an OmniMech. It provides a number of benefits to the Timber Wolf, such as increased stability, boosted arm weapon accuracy, and boosted range for all ranged weapons. It also contains the benefits inherent to OmniMechs and permits the Timber Wolf to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Timber Wolf possesses as an OmniMech. It provides a number of benefits to the Timber Wolf, such as increased stability, improved heat sinking ability, and improved combat initiative. It also contains the benefits inherent to OmniMechs and permits the Timber Wolf to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -102,7 +102,7 @@
 			"Description": {
 				"Id": "Gyro-TimberWolf-Initiative",
 				"Name": "Timber Wolf Omni Quirk",
-				"Details": "Provides increased stability, boosted arm weapon accuracy, and boosted range for all ranged weapons to the Timber Wolf.",
+				"Details": "Provides increased stability, improved heat sinking ability, and improved combat initiative to the Timber Wolf.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

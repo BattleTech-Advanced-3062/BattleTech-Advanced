@@ -55,7 +55,7 @@
 		"UIName": "Blood Asp OmniMech Gyro",
 		"Id": "Gear_Gyro_Omni_BloodAsp",
 		"Name": "Blood Asp OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Blood Asp possesses as an OmniMech. It provides a number of benefits to the Blood Asp, such as increased stability, bonus walk and sprint speed, increased jumping distance, and increased evasion generation on movement. It also contains the benefits inherent to OmniMechs and permits the Blood Asp to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Blood Asp possesses as an OmniMech. It provides a number of benefits to the Blood Asp, such as increased stability, bonus walk and sprint speed, improved weapon heat generation, and improved center torso weapon accuracy. It also contains the benefits inherent to OmniMechs and permits the Blood Asp to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
@@ -111,7 +111,7 @@
 			"Description": {
 				"Id": "StatusEffect-Gyro-BloodAspWalk",
 				"Name": "Blood Asp Quirk",
-				"Details": "Provides increased stability and bonus walk and sprint speed to the Blood Asp.",
+				"Details": "Provides increased stability, bonus walk and sprint speed, improved weapon heat generation, and improved center torso weapon accuracy to the Blood Asp.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {
