@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -37,7 +37,7 @@
 			"CenterTorsoAccuracy: +4",
 			"WalkSpeed: +10%",
 			"RunSpeed: +10%",
-			"CritRes: 25%"
+			"CritRes: 25%",
 			"GyroStab: 90",
 			"IsGyro",
 			"Omni",

@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -117,7 +117,7 @@
 				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.25",
-				"modType": "System.Single",
+				"modType": "System.Single"
 			},
 			"nature": "Buff"
 		},
@@ -174,36 +174,36 @@
 			}
 		},
 		{
-            "durationData" : {
-                "duration" : -1,
-                "stackLimit" : -1
-            },
-            "targetingData" : {
+			"durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			},
+			"targetingData": {
 				"effectTriggerType": "Passive",
 				"effectTargetType": "Creator",
 				"showInStatusPanel": false
-            },
-            "effectType" : "StatisticEffect",
-            "Description" : {
-                "Id" : "StatusEffect-Gyro-NightGyrJumpDamageBoost",
-                "Name": "NightGyr Jump Damage Boost",
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-NightGyrJumpDamageBoost",
+				"Name": "NightGyr Jump Damage Boost",
 				"Details": "All incoming damage increased by 30%.",
 				"Icon": "layeredarmor"
-            },
-            "nature" : "Buff",
-            "statisticData" : {
-                "statName" : "JumpingWeaponDamageModifier",
-                "operation" : "Float_Add",
-                "modValue" : "0.15",
-                "modType" : "System.Single",
-                "additionalRules" : "NotSet",
-                "targetCollection" : "Weapon",
-                "targetWeaponCategory" : "NotSet",
-                "targetWeaponType" : "NotSet",
-                "targetAmmoCategory" : "NotSet",
-                "targetWeaponSubType" : "NotSet"
-            }
-        }
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "JumpingWeaponDamageModifier",
+				"operation": "Float_Add",
+				"modValue": "0.15",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			}
+		}
 	],
 	"ComponentTags": {
 		"items": [

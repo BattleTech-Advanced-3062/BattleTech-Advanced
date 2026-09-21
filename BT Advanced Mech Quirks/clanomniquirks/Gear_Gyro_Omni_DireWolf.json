@@ -11,11 +11,11 @@
 				"CategoryID": "Quirk"
 			}
 		],
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",
-				"Color":"#00a2c9",
-				"Icon":"uixSvgIcon_equipment_Gyro",
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -109,7 +109,7 @@
 				"modType": "System.Single",
 				"modValue": "1.15",
 				"operation": "Float_Multiply",
-				"statName": "DamagePerShot",
+				"statName": "DamagePerShot"
 			},
 			"nature": "Buff"
 		},
