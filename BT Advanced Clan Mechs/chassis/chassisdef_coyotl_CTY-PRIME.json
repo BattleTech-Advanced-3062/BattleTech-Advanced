@@ -91,8 +91,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 100,
-			"MaxRearArmor": 50,
+			"MaxArmor": 80,
+			"MaxRearArmor": 25,
 			"InternalStructure": 50
 		},
 		{
@@ -100,8 +100,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 120,
-			"MaxRearArmor": 60,
+			"MaxArmor": 80,
+			"MaxRearArmor": 25,
 			"InternalStructure": 60
 		},
 		{
@@ -114,8 +114,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 100,
-			"MaxRearArmor": 50,
+			"MaxArmor": 80,
+			"MaxRearArmor": 25,
 			"InternalStructure": 50
 		},
 		{
@@ -204,6 +204,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitLowerLeft",
 			"MediumMech"
 		],
@@ -214,7 +215,7 @@
 	"FixedEquipment": [
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Coyotl",
 			"SimGameUID": "",
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,

@@ -38,7 +38,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_KitFox",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -211,7 +211,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 55,
-			"MaxRearArmor": 20,
+			"MaxRearArmor": 16,
 			"InternalStructure": 35
 		},
 		{
@@ -234,7 +234,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 55,
-			"MaxRearArmor": 20,
+			"MaxRearArmor": 16,
 			"InternalStructure": 35
 		},
 		{
@@ -323,6 +323,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"HeroMech",
 			"ArmLimitUpperRight",
 			"LightMech"
