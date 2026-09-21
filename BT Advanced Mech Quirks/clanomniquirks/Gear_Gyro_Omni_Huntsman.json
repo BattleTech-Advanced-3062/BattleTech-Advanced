@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -117,7 +117,7 @@
 				"statName": "EvasivePipsIgnored",
 				"operation": "Float_Add",
 				"modValue": "1.0",
-				"modType": "System.Single",
+				"modType": "System.Single"
 			},
 			"nature": "Buff"
 		},
@@ -188,7 +188,7 @@
 				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.2",
-				"modType": "System.Single",
+				"modType": "System.Single"
 			}
 		}
 	],

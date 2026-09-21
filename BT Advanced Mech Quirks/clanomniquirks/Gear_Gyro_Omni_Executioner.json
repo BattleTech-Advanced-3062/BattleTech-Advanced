@@ -17,11 +17,11 @@
 				"CBillCost": "[[Chassis.Tonnage]] * 1.15"
 			}
 		},
-		"DecoratorComponent":[
+		"DecoratorComponent": [
 			{
-				"Text":"O",               
-				"Color":"#00a2c9",      
-				"Icon":"uixSvgIcon_equipment_Gyro",       
+				"Text": "O",
+				"Color": "#00a2c9",
+				"Icon": "uixSvgIcon_equipment_Gyro",
 				"Importance": 10
 			}
 		],
@@ -116,9 +116,9 @@
 			},
 			"statisticData": {
 				"statName": "RightTorso.Armor",
-                "operation": "Float_Add",
-                "modValue": 40,
-                "modType": "System.Single"
+				"operation": "Float_Add",
+				"modValue": 40,
+				"modType": "System.Single"
 			},
 			"nature": "Buff"
 		},
@@ -142,9 +142,9 @@
 			"nature": "Buff",
 			"statisticData": {
 				"statName": "LeftTorso.Armor",
-                "operation": "Float_Add",
-                "modValue": 40,
-                "modType": "System.Single"
+				"operation": "Float_Add",
+				"modValue": 40,
+				"modType": "System.Single"
 			}
 		},
 		{
@@ -235,7 +235,7 @@
 				"statName": "JumpDistanceMultiplier",
 				"operation": "Float_Multiply",
 				"modValue": "1.4",
-				"modType": "System.Single",
+				"modType": "System.Single"
 			}
 		}
 	],
