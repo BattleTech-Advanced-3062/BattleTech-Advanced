@@ -5412,6 +5412,12 @@
 			"Full": "This ammunition requires a specific weapon attachment be attached to the weapon the ammo is for, specifically the {0} attachment."
 		},
 		{
+			"Bonus": "WeaponAttachment",
+			"Short": "Weap. Attach.",
+			"Long": "Weapon Attachment",
+			"Full": "This is a weapona attachment, it connects to a specific type of weapon when equipped in the same location as that weapon and provides a certain benefit to that weapon."
+		},
+		{
 			"Bonus": "WeaponAttachmentCompatible",
 			"Short": "Weapon Attachment Compatibility",
 			"Long": "Weapon Attachment Compatibility",

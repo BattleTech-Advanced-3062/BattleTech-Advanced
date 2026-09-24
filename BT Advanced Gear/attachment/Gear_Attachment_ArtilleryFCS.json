@@ -23,6 +23,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Artillery-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WordsWords: Increases Artillery Cannon and Howitzer Accuracy by +2 and Evasion Ignore by +1.",

@@ -21,6 +21,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Standard LRMs and Standard SRMs and Standard MMLs",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentArtemisDescription: Artemis IV LRM and Artemis IV SRM"

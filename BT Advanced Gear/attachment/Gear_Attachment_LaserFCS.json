@@ -22,6 +22,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Laser-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentPipsIgnored: +1",

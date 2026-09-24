@@ -16,6 +16,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Mortar-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentPipsIgnored: +1",

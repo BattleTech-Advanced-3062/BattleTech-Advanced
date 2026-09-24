@@ -19,6 +19,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Gauss-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentPipsIgnored: +1",

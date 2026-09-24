@@ -17,6 +17,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Thunderbolt-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentPipsIgnored: +1",

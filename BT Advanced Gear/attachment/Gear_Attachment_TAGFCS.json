@@ -17,6 +17,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: TAG-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentDamage: +16",

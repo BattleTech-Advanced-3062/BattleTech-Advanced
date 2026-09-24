@@ -21,6 +21,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: PPCs",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentDamage: +25",

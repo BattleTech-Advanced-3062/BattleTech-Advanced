@@ -19,6 +19,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Standard MRMs",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentPipsIgnored: +1",
