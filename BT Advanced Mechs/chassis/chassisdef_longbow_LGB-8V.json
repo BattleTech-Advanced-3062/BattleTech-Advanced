@@ -13,9 +13,9 @@
 		"Manufacturer": "",
 		"Model": "",
 		"UIName": "Longbow",
-		"Id": "chassisdef_longbow_LGB-10C",
+		"Id": "chassisdef_longbow_LGB-8V",
 		"Name": "Longbow",
-		"Details": "The venerable Longbow has seen its fair share of refits and rebuilds over the centuries. One of the most successful is the LGB-10C. Taking a decidedly traditional approach, the -10C carries the standard twin LRM-20s and LRM-5s but upgrades them with Artemis IV. For close-range defense, it carries four ER Medium Lasers. Plenty of CASE'd ammunition keeps it in the fight and 16 DHS keep the missiles well cooled, even in heated firefights.",
+		"Details": "The 8V variant of the Longbow was an inevitability, as it finally swaps the Longbow's Long-Range Missiles for true artillery weapons, specifically a pair of Arrow IV launchers, one each to an arm. For backup firepower, the LGB-8V carries an ER Large Laser and twin Medium Pulse Lasers, though its chances of survival when confronted at close range are admittedly poor. Longbow pilots are well advised to keep their distance from the enemy and just let the Arrows do the talking.",
 		"Icon": "uixTxrIcon_longbow"
 	},
 	"MovementCapDefID": "movedef_longbow_LGB-7Q",
@@ -56,7 +56,12 @@
 	"Locations": [
 		{
 			"Location": "Head",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 6,
 			"MaxArmor": 45,
@@ -67,15 +72,11 @@
 			"Location": "LeftArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -93,10 +94,6 @@
 					"Omni": false
 				},
 				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
-				{
 					"WeaponMountID": "Missile",
 					"Omni": false
 				}
@@ -109,7 +106,16 @@
 		},
 		{
 			"Location": "CenterTorso",
-			"Hardpoints": [],
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 270,
@@ -119,10 +125,6 @@
 		{
 			"Location": "RightTorso",
 			"Hardpoints": [
-				{
-					"WeaponMountID": "Energy",
-					"Omni": false
-				},
 				{
 					"WeaponMountID": "Energy",
 					"Omni": false
@@ -142,15 +144,11 @@
 			"Location": "RightArm",
 			"Hardpoints": [
 				{
-					"WeaponMountID": "Missile",
+					"WeaponMountID": "Artillery",
 					"Omni": false
 				},
 				{
 					"WeaponMountID": "Missile",
-					"Omni": false
-				},
-				{
-					"WeaponMountID": "AntiPersonnel",
 					"Omni": false
 				}
 			],
@@ -223,7 +221,7 @@
 			"z": 1
 		}
 	],
-	"VariantName": "LGB-10C",
+	"VariantName": "LGB-8V",
 	"ChassisTags": {
 		"items": [
 			"ArmLimitUpperRight",
@@ -233,7 +231,7 @@
 		"tagSetSourceFile": ""
 	},
 	"StockRole": "Hail of Missiles",
-	"YangsThoughts": "The venerable Longbow has seen its fair share of refits and rebuilds over the centuries. One of the most successful is the LGB-10C. Taking a decidedly traditional approach, the -10C carries the standard twin LRM-20s and LRM-5s but upgrades them with Artemis IV. For close-range defense, it carries four ER Medium Lasers. Plenty of CASE'd ammunition keeps it in the fight and 16 DHS keep the missiles well cooled, even in heated firefights.",
+	"YangsThoughts": "The 8V variant of the Longbow was an inevitability, as it finally swaps the Longbow's Long-Range Missiles for true artillery weapons, specifically a pair of Arrow IV launchers, one each to an arm. For backup firepower, the LGB-8V carries an ER Large Laser and twin Medium Pulse Lasers, though its chances of survival when confronted at close range are admittedly poor. Longbow pilots are well advised to keep their distance from the enemy and just let the Arrows do the talking.",
 	"FixedEquipment": [
 		{
 			"MountedLocation": "Head",
