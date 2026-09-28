@@ -1,0 +1,47 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_structure0",
+        "Name" : "Structural Jury-Rigging",
+        "Details" : "The thrust from the main drive should have severed the spine of the ship when it pulled away from the crash site. Dr. Murad theorizes that the whole thing is being held together by the external hull plating.",
+        "Icon" : "uixSvgIcon_shipUpgrade_structure0"
+    },
+    "Illustration" : "uixTxrSpot_ArgoStructure0",
+    "Location" : "SHIP",
+    "shipUpgradeCategoryID" : "STRUCTURE",
+    "AssignedCastDefId": "castDef_FarahDefault",
+    "AssignedCastDescription": "",
+    "RequiredModules" : {
+        "items" : [
+		
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 0,
+    "PurchaseCost" : 0,
+    "AdditionalCost" : 0,
+    "Tags" : {
+        "items" : [
+            "argo_structure0"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+        
+    ],
+	"Actions" : [
+		{
+			"Type" : "Ship_SetRepairState",
+			"value" : "0",
+			"additionalValues" : [
+				"Structure"
+			]
+		}
+	]
+}

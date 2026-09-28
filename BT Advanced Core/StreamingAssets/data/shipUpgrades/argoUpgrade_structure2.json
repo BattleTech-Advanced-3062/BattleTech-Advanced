@@ -1,0 +1,47 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_structure2",
+        "Name" : "Structural Reinforcement",
+        "Details" : "The internal supports for the <i>Argo</i>'s spine are functional, but without significant rebuilding and reinforcement, the demands of three fully operational hab pods will eventually torque it apart into scrap.",
+        "Icon" : "uixSvgIcon_shipUpgrade_structure2"
+    },
+    "Illustration" : "uixTxrSpot_ArgoStructure2",
+    "Location" : "SHIP",
+    "shipUpgradeCategoryID" : "STRUCTURE",
+    "AssignedCastDefId": "castDef_FarahDefault",
+    "AssignedCastDescription": "Commander, we're still well under the specifications for the ship's main spine. If you want to put any more mass onto Gamma Pod, or increase the drive output, we'll need to spend more time bringing the secondary supports up to full strength.",
+    "RequiredModules" : {
+        "items" : [
+			"argoUpgrade_structure1"
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 30,
+    "PurchaseCost" : 360000,
+    "AdditionalCost" : 1400,
+    "Tags" : {
+        "items" : [
+            "argo_structure2"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+        
+    ],
+	"Actions" : [
+		{
+			"Type" : "Ship_SetRepairState",
+			"value" : "2",
+			"additionalValues" : [
+				"Structure"
+			]
+		}
+	]
+}

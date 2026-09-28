@@ -1,0 +1,47 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_structure1",
+        "Name" : "Structural Repair",
+        "Details" : "Crashing a ship into a moon causes all sorts of damage, both visible and hidden. Major support structures have been twisted and weakened, and need to be repaired before any ship system puts a serious load on them.",
+        "Icon" : "uixSvgIcon_shipUpgrade_structure1"
+    },
+    "Illustration" : "uixTxrSpot_ArgoStructure1",
+    "Location" : "SHIP",
+    "shipUpgradeCategoryID" : "STRUCTURE",
+    "AssignedCastDefId": "castDef_FarahDefault",
+    "AssignedCastDescription": "It's unclear which is more terrifying, Commander: the <i>Argo</i>'s power system or its internal structure. We can do very little to improve on the ship while it's still in danger of buckling under even the modest forces exerted by the grav deck and the drive.",
+    "RequiredModules" : {
+        "items" : [
+			"argoUpgrade_structure0"
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 15,
+    "PurchaseCost" : 90000,
+    "AdditionalCost" : 350,
+    "Tags" : {
+        "items" : [
+            "argo_structure1"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [
+        
+    ],
+	"Actions" : [
+		{
+			"Type" : "Ship_SetRepairState",
+			"value" : "1",
+			"additionalValues" : [
+				"Structure"
+			]
+		}
+	]
+}
