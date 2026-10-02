@@ -4801,9 +4801,15 @@
 		},
 		{
 			"Bonus": "FuelCellSHS",
-			"Short": "Fuel Cell Engine",
+			"Short": "F.C. Eng.",
 			"Long": "Fuel Cell Engine Heatsink Restrictions",
 			"Full": "Fuel cell engines cannot be equipped with advanced heat sinks. Fuel cells cannot make use of any heat sink systems other than standard heat sinks. They also cannot use any e-cooling, heat bank, or heat exchanger equipment."
+		},
+		{
+			"Bonus": "FuelCellJJ",
+			"Short": "F.C. JJ",
+			"Long": "Fuel Cell Engine Jump Jet Restrictions",
+			"Full": "Fuel cell engines are incompatible with Jump Jets. A 'Mech equipped with a fuel cell engine cannot mount jump jets of any kind."
 		},
 		{
 			"Bonus": "FissionDamage",
