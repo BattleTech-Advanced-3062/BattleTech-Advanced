@@ -217,7 +217,17 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
-		}
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_UrbanmechIIC",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}		
+		
 	],
 	"VariantName": "UM-IIC",
 	"ChassisTags": {

@@ -10,7 +10,15 @@
 		},
 		{
 			"Type": "UpgradeDef",
+			"Path": "clanquirks"
+		},
+		{
+			"Type": "UpgradeDef",
 			"Path": "omniquirks"
+		},
+		{
+			"Type": "UpgradeDef",
+			"Path": "clanomniquirks"
 		},
 		{
 			"Type": "UpgradeDef",

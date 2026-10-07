@@ -1,0 +1,99 @@
+{
+	"Custom": {
+		"Weights": {
+			"EngineFactor": 1.5
+		},
+		"WorkOrderCosts": {
+			"Install": {
+				"TechCost": "1.4 * [[Chassis.Tonnage]] / 20",
+				"CBillCost": "5000 * [[Chassis.Tonnage]] * [[Chassis.Tonnage]] / 30"
+			}
+		},
+		"Category": [
+			{
+				"CategoryID": "EngineShield"
+			},
+			{
+				"CategoryID": "EnginePart"
+			}
+		],
+		"Flags": [
+			"vital",
+				"engine_part",
+				"not_broken"
+		],
+		"BonusDescriptions": [
+				"JumpDistance: +25%",
+				"EngineWeight: +50%"
+			]
+	},
+	"Description": {
+		"Cost": 625000,
+		"Rarity": 5,
+		"Purchasable": true,
+		"Manufacturer": "Generic",
+		"Model": "Vlar Compressed",
+		"UIName": "Engine Compressed",
+		"Id": "emod_engineslots_compressed_center",
+		"Name": "Compressed Engine",
+		"Details": "The Compressed Fusion Engine is functionally identical to the Compact Engine, being 50% heavier but occupies less space in the center torso and is less likely to receive a critical hit. The Compressed fusion engines however directs its focused power generation directly to its any attached jumpjets, significantly increasing maneuverability. \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "HeatSink",
+	"ComponentSubType": "Heatsink",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-CompressedJumpDistance",
+				"Name": "Compressed Engine",
+				"Details": "Compressed engines focus power generation, increasing jump distance.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.25",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"EnginePart.{location}",
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

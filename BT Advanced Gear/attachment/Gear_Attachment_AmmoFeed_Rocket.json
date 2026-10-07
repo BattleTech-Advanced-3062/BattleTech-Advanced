@@ -19,6 +19,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Rocket Launchers",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentAmmoFeedRocket: -1.5, -2",

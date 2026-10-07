@@ -38,6 +38,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Anything",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentAccuracy: +2"

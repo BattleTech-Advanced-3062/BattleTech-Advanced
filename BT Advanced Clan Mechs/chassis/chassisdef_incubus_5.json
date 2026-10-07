@@ -221,15 +221,24 @@
 	"StockRole": "Second Line Garrison",
 	"YangsThoughts": "Clan Ice Hellion, always prolific users of fast light 'Mechs, copied the original design of the Incubus but decided to create their own variant. This fifth version mounts an ATM-6 with two tons of ammunition, two ER Medium Lasers, and four Light Machine Guns. Much like the other Incubus variants, the 5 has proliferated through the various Clans after trials and general skirmishes against each other commenced and can now be found far and wide.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedSensors_Incubus",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
 	],
 	"CustomParts": {
 		"CustomParts": []

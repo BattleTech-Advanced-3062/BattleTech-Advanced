@@ -59,9 +59,11 @@
 		"itemCollection_shop_mining"
 	],
 	"factionShopOwnerID": "MagistracyOfCanopus",
-	"FactionShopItems": null,
-	"BlackMarketShopItems": [
+	"FactionShopItems": [
 		"itemCollection_faction_MagistracyOfCanopus"
+	],
+	"BlackMarketShopItems": [
+		"itemCollection_faction_AuriganPirates"
 	],
 	"CoreSystemID": "starsystemdef_Addasar",
 	"StartingSystemModes": [

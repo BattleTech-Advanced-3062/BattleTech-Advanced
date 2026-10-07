@@ -1,0 +1,45 @@
+{
+    "Description" : {
+        "Cost" : 0,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "UIName" : "",
+        "Id" : "argoUpgrade_drive0",
+        "Name" : "Drive Jury Rigging",
+        "Details" : "The <i>Argo</i>'s drive is barely functional, with just enough power to maintain 1 g of thrust and keep the lights on (mostly). Frankly, it's a minor miracle that Dr. Murad was able to get it working at all.",
+        "Icon" : "uixSvgIcon_shipUpgrade_drive0"
+    },
+    "Illustration" : "uixTxrSpot_ArgoDrive0",
+    "Location" : "ENGINEERING",
+    "shipUpgradeCategoryID" : "DRIVE_SYSTEM",
+    "AssignedCastDefId": "castDef_FarahDefault",
+    "AssignedCastDescription": "",
+    "RequiredModules" : {
+        "items" : [
+		
+		],
+        "tagSetSourceFile" : ""
+    },
+    "Requirements" : [
+        
+    ],
+    "TechCost" : 0,
+    "PurchaseCost" : 0,
+    "AdditionalCost" : 0,
+    "Tags" : {
+        "items" : [
+            "argo_drive0"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "Stats" : [],
+	"Actions" : [
+		{
+			"Type" : "Ship_SetRepairState",
+			"value" : "0",
+			"additionalValues" : [
+				"Drive"
+			]
+		}
+	]
+}

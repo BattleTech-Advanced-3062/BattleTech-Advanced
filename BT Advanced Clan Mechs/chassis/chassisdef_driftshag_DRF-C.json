@@ -219,7 +219,16 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
-		}
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Gear_Quirk_NarrowProfile_DriftShag",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
+		}		
 	],
 	"StockRole": "Light Raider",
 	"YangsThoughts": "Designed by Clan Ice Hellion in the early days of the Clans, the Drift Shag is in truth a Clan take on the old SLDF Falcon. Built for speed and armed with weapons to last, the Drift Shag is capable of smashing most opponents to pieces with its ER Small Lasers, to say nothing of the ER Large Laser or Medium Pulse Laser it carries for more serious opponents. 6 jump jets give it excellent maneuverability beyond what might normally be expected of a mech with its ground speed. The Drift Shag served the Hellions well but was eventually relegated to garrison work.",

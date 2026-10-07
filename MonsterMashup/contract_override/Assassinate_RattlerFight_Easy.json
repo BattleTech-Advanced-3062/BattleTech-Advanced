@@ -679,7 +679,8 @@
 				"lanceExcludedTagSet": {
 					"items": [
 						"lance_type_gladiator",
-						"lance_type_turret"
+						"lance_type_turret",
+						"lance_type_convoy"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -839,7 +840,8 @@
 				},
 				"lanceExcludedTagSet": {
 					"items": [
-						"lance_type_gladiator"
+						"lance_type_gladiator",
+						"lance_type_convoy"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},

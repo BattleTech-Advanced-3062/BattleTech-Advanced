@@ -1,0 +1,340 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "Misc"
+			}
+		],
+		"BonusDescriptions": [
+			"MeleeDef: +2",
+			"MeleeAcc: +2",
+			"PunchDamageBonus: +20%",
+			"KickDamageBonus: +20%",
+			"PhysWeapDamageBonus: +20%",
+			"ChargeDamageBonus: +20%",
+			"DFADamageBonus: +20%"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 750000,
+		"Rarity": 4,
+		"Purchasable": true,
+		"Manufacturer": "Bergan Industries",
+		"Model": "Production",
+		"UIName": "Savage CQC Module",
+		"Id": "Gear_Savage_CQC_Module",
+		"Name": "Savage CQC Module",
+		"Details": "This unique BattleMech module is a suite of specialized sensors and calibrated gizmos that improve the carrying 'Mech's capabilities in melee combat. When engaged in a melee brawl, the Savage CQC Module ensures that the carrying 'Mech is more accurate with its melee attacks, that it is harder to hit with enemy melee attacks, and that it does noticeably more damage with melee attacks.\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 3.5,
+	"AllowedLocations": "Torso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDef",
+				"Name": "Savage CQC Module",
+				"Details": "This mech has +2 melee accuracy, +2 defense against incoming melee attacks, and +20% melee damage.",
+				"Icon": "muscular-torso"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName" : "ToHitThisActorMelee",
+                "operation" : "Float_Add",
+                "modValue" : "2.0",
+                "modType" : "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDmgPunch",
+				"Name": "Savage CQC Melee Dmg Punch",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Punch_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDmgKick",
+				"Name": "Savage CQC Melee Dmg Kick",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Kick_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDmgPhysicalWeapon",
+				"Name": "Savage CQC Melee Dmg Physical Weapon",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDmgCharge",
+				"Name": "Savage CQC Melee Dmg Charge",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Charge_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeDmgDFA",
+				"Name": "Savage CQC Melee Dmg DFA",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.2",
+				"modType": "System.Single",
+				"additionalRules": "NotSet"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeAccPunch",
+				"Name": "Savage CQC Melee Acc Punch",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Punch_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeAccKick",
+				"Name": "Savage CQC Melee Acc Kick",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Kick_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeAccPhysicalWeapon",
+				"Name": "Savage CQC Melee Acc Physical Weapon",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Physical_Weapon_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeAccCharge",
+				"Name": "Savage CQC Melee Acc Charge",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_Charge_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "SavageCQCModule_MeleeAccDFA_",
+				"Name": "Savage CQC Melee Acc DFA_",
+				"Details": "Increases spotting distance.",
+				"Icon": "uixSvgIcon_equipment_Cockpit"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "CBTBE_DFA_Attack_Mod",
+				"operation": "Int_Add",
+				"modValue": "-2",
+				"modType": "System.Int32"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock",
+			"lv-shares-sensors"
+		],
+		"tagSetSourceFile": ""
+	}
+}

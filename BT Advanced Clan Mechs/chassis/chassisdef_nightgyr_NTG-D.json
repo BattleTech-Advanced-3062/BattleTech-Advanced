@@ -36,7 +36,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_NightGyr",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -246,7 +246,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 111,
 			"MaxRearArmor": 50,
 			"InternalStructure": 80
 		},
@@ -260,8 +260,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 175,
-			"MaxRearArmor": 55,
+			"MaxArmor": 167,
+			"MaxRearArmor": 50,
 			"InternalStructure": 115
 		},
 		{
@@ -274,7 +274,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 111,
 			"MaxRearArmor": 50,
 			"InternalStructure": 80
 		},
@@ -301,7 +301,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 140,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		},
@@ -310,7 +310,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 140,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		}
@@ -363,6 +363,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",

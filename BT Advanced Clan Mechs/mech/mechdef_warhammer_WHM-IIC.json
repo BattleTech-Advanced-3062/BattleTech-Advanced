@@ -352,7 +352,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_PPC_2"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -363,7 +364,8 @@
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,
-			"hasPrefabName": false
+			"hasPrefabName": false,
+			"LocalGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "Head",

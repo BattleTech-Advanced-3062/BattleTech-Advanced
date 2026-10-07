@@ -18,6 +18,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Light Medium and Heavy Rifles",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentRevolverRifle: 20%, 75%"

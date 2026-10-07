@@ -378,7 +378,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN", 
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_CLAN", 
             "SimGameUID": null, 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 1, 
@@ -389,7 +389,7 @@
         }, 
         {
             "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_CLAN", 
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_CLAN", 
             "SimGameUID": null, 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 1, 
@@ -432,7 +432,7 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "LeftTorso", 
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": null, 
             "ComponentDefType": "JumpJet", 
@@ -443,7 +443,7 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
+            "MountedLocation": "RightTorso", 
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": null, 
             "ComponentDefType": "JumpJet", 
@@ -469,17 +469,6 @@
             "ComponentDefID": "Gear_JumpJet_Generic_Standard", 
             "SimGameUID": null, 
             "ComponentDefType": "JumpJet", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 

@@ -8,7 +8,7 @@
 	},
 	"FixedEquipment": [
 		{
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Gargoyle",
 			"ComponentDefType": "Upgrade",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -191,7 +191,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 115,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -206,7 +206,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxRearArmor": 50,
 			"InternalStructure": 85
 		},
 		{
@@ -223,8 +223,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 175,
-			"MaxRearArmor": 55,
+			"MaxArmor": 150,
+			"MaxRearArmor": 50,
 			"InternalStructure": 125
 		},
 		{
@@ -233,7 +233,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 12,
 			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxRearArmor": 50,
 			"InternalStructure": 85
 		},
 		{
@@ -254,7 +254,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 115,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -263,7 +263,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 120,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		},
@@ -272,7 +272,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 120,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		}
@@ -326,6 +326,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"

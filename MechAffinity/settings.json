@@ -23,9 +23,1785 @@
     "affinityGroups": [],
     "prefabOverrides": [
       {
-        "prefabId" : "Griffin_55",
-        "overrideName" : "Griffin"
-      }
+          "prefabId": "Flea_15",
+          "overrideName": "Flea (15T)"
+      },
+      {
+          "prefabId": "Flea_20",
+          "overrideName": "Flea (20T)"
+      },
+      {
+          "prefabId": "Locust_15",
+          "overrideName": "Locust (15T)"
+      },
+      {
+          "prefabId": "Locust_20",
+          "overrideName": "Locust (20T)"
+      },
+      {
+          "prefabId": "LocustII_25",
+          "overrideName": "Locust II"
+      },
+      {
+          "prefabId": "Mongoose_25",
+          "overrideName": "Mongoose"
+      },
+      {
+          "prefabId": "Cicada_40",
+          "overrideName": "Cicada"
+      },
+      {
+          "prefabId": "Trebuchet_50",
+          "overrideName": "Trebuchet"
+      },
+      {
+          "prefabId": "Talos_50",
+          "overrideName": "Talos"
+      },
+      {
+          "prefabId": "Champion_60",
+          "overrideName": "Champion"
+      },
+      {
+          "prefabId": "Thunderbolt_65",
+          "overrideName": "Thunderbolt"
+      },
+      {
+          "prefabId": "Zeus_80",
+          "overrideName": "Zeus"
+      },
+      {
+          "prefabId": "ZeusX_80",
+          "overrideName": "Zeus X"
+      },
+      {
+          "prefabId": "Bullshark_95",
+          "overrideName": "Bullshark"
+      },
+      {
+          "prefabId": "FireMoth_20",
+          "overrideName": "FireMoth"
+      },
+      {
+          "prefabId": "Viper_40",
+          "overrideName": "Viper"
+      },
+      {
+          "prefabId": "BlackLanner_55",
+          "overrideName": "BlackLanner"
+      },
+      {
+          "prefabId": "Gargoyle_80",
+          "overrideName": "Gargoyle"
+      },
+      {
+          "prefabId": "Cephalus_25",
+          "overrideName": "Cephalus"
+      },
+      {
+          "prefabId": "Starslayer_50",
+          "overrideName": "Starslayer"
+      },
+      {
+          "prefabId": "Lancelot_60",
+          "overrideName": "Lancelot"
+      },
+      {
+          "prefabId": "Talon_35",
+          "overrideName": "Talon"
+      },
+      {
+          "prefabId": "Fireball_20",
+          "overrideName": "Fireball"
+      },
+      {
+          "prefabId": "Howler_20",
+          "overrideName": "Howler"
+      },
+      {
+          "prefabId": "Pallas_30",
+          "overrideName": "Pallas"
+      },
+      {
+          "prefabId": "Olympian_120",
+          "overrideName": "Olympian"
+      },
+      {
+          "prefabId": "IronCheetah_100",
+          "overrideName": "Iron Cheetah"
+      },
+      {
+          "prefabId": "Cheetah_25",
+          "overrideName": "Cheetah"
+      },
+      {
+          "prefabId": "Tarantula_25",
+          "overrideName": "Tarantula"
+      },
+      {
+          "prefabId": "StardriveStiletto_15",
+          "overrideName": "Stiletto (SD)"
+      },
+      {
+          "prefabId": "Devil_30",
+          "overrideName": "Devil"
+      },
+      {
+          "prefabId": "Verfolger_65",
+          "overrideName": "Verfolger"
+      },
+      {
+          "prefabId": "Balar_70",
+          "overrideName": "Balar"
+      },
+      {
+          "prefabId": "Caesar_70",
+          "overrideName": "Caesar"
+      },
+      {
+          "prefabId": "Argus_60",
+          "overrideName": "Argus"
+      },
+      {
+          "prefabId": "BlackHawkKU_60",
+          "overrideName": "Black Hawk Ku"
+      },
+      {
+          "prefabId": "Avatar_70",
+          "overrideName": "Avatar"
+      },
+      {
+          "prefabId": "Rakshasa_75",
+          "overrideName": "Rakshasa"
+      },
+      {
+          "prefabId": "Templar_85",
+          "overrideName": "Templar"
+      },
+      {
+          "prefabId": "Mauler_90",
+          "overrideName": "Mauler"
+      },
+      {
+          "prefabId": "Hauptmann_95",
+          "overrideName": "Hauptmann"
+      },
+      {
+          "prefabId": "Matar_110",
+          "overrideName": "Matar"
+      },
+      {
+          "prefabId": "HunchbackIIC_50",
+          "overrideName": "Hunchback IIC"
+      },
+      {
+          "prefabId": "Summoner_70",
+          "overrideName": "Summoner"
+      },
+      {
+          "prefabId": "Ragnarok_100",
+          "overrideName": "Ragnarok"
+      },
+      {
+          "prefabId": "OrionIIC_75",
+          "overrideName": "Orion IIC"
+      },
+      {
+          "prefabId": "DireWolf_100",
+          "overrideName": "Dire Wolf"
+      },
+      {
+          "prefabId": "Hyperion_125",
+          "overrideName": "Hyperion"
+      },
+      {
+          "prefabId": "Razorback_30",
+          "overrideName": "Razorback"
+      },
+      {
+          "prefabId": "Sunder_90",
+          "overrideName": "Sunder"
+      },
+      {
+          "prefabId": "Scylla_100",
+          "overrideName": "Scylla"
+      },
+      {
+          "prefabId": "Shorty_60",
+          "overrideName": "Shorty's Rifleman"
+      },
+      {
+          "prefabId": "Embrasure_100",
+          "overrideName": "Embrasure"
+      },
+      {
+          "prefabId": "Dragoon_70",
+          "overrideName": "Dragoon"
+      },
+      {
+          "prefabId": "Riesigenwaffenkampfer_55",
+          "overrideName": "Riesigenwaffenkampfer"
+      },
+      {
+          "prefabId": "Woodsman_75",
+          "overrideName": "Woodsman"
+      },
+      {
+          "prefabId": "Gauntlet_55",
+          "overrideName": "Gauntlet"
+      },
+      {
+          "prefabId": "Broadside_100",
+          "overrideName": "Broadside"
+      },
+      {
+          "prefabId": "Wolfhound_35",
+          "overrideName": "Wolfhound"
+      },
+      {
+          "prefabId": "Shadowhawk_55",
+          "overrideName": "Shadow Hawk"
+      },
+      {
+          "prefabId": "Dervish_55",
+          "overrideName": "Dervish"
+      },
+      {
+          "prefabId": "Dragon_60",
+          "overrideName": "Dragon"
+      },
+      {
+          "prefabId": "Perseus_75",
+          "overrideName": "Perseus"
+      },
+      {
+          "prefabId": "Hatamoto_80",
+          "overrideName": "Hatamoto Chi"
+      },
+      {
+          "prefabId": "Emperor_90",
+          "overrideName": "Emperor"
+      },
+      {
+          "prefabId": "Juggernaut_90",
+          "overrideName": "Juggernaut"
+      },
+      {
+          "prefabId": "Adder_35",
+          "overrideName": "Adder"
+      },
+      {
+          "prefabId": "IceFerret_45",
+          "overrideName": "IceFerret"
+      },
+      {
+          "prefabId": "EbonJaguar_65",
+          "overrideName": "EbonJaguar"
+      },
+      {
+          "prefabId": "HighlanderIIC_90",
+          "overrideName": "Highlander IIC"
+      },
+      {
+          "prefabId": "Kodiak_100",
+          "overrideName": "Kodiak"
+      },
+      {
+          "prefabId": "Viking_90",
+          "overrideName": "Viking"
+      },
+      {
+          "prefabId": "Crockett_85",
+          "overrideName": "Crockett/Katana"
+      },
+      {
+          "prefabId": "Katana_85",
+          "overrideName": "Katana/Crockett"
+      },
+      {
+          "prefabId": "Hector_70",
+          "overrideName": "Hector"
+      },
+      {
+          "prefabId": "Hoplite_55",
+          "overrideName": "Hoplite"
+      },
+      {
+          "prefabId": "BurgerMech_55",
+          "overrideName": "Burger Mech"
+      },
+      {
+          "prefabId": "HectorLAM_80",
+          "overrideName": "Hector LAM"
+      },
+      {
+          "prefabId": "Omega_150",
+          "overrideName": "Omega"
+      },
+      {
+          "prefabId": "Cazador_35",
+          "overrideName": "Cazador"
+      },
+      {
+          "prefabId": "ShadowhawkII_55",
+          "overrideName": "Shadow Hawk II"
+      },
+      {
+          "prefabId": "Skadi_55",
+          "overrideName": "Skadi"
+      },
+      {
+          "prefabId": "Knight_70",
+          "overrideName": "Knight"
+      },
+      {
+          "prefabId": "Xanthos_100",
+          "overrideName": "Xanthos"
+      },
+      {
+          "prefabId": "Barghest_70",
+          "overrideName": "Barghest"
+      },
+      {
+          "prefabId": "Goliath_80",
+          "overrideName": "Goliath"
+      },
+      {
+          "prefabId": "Sirocco_95",
+          "overrideName": "Sirocco"
+      },
+      {
+          "prefabId": "Scorpion_55",
+          "overrideName": "Scorpion"
+      },
+      {
+          "prefabId": "Hammerhead_45",
+          "overrideName": "Hammerhead"
+      },
+      {
+          "prefabId": "Mushu_45",
+          "overrideName": "Mushu"
+      },
+      {
+          "prefabId": "Yeager_70",
+          "overrideName": "Yeager"
+      },
+      {
+          "prefabId": "Bowman_70",
+          "overrideName": "Bowman"
+      },
+      {
+          "prefabId": "Apocalypse_200",
+          "overrideName": "Apocalypse"
+      },
+      {
+          "prefabId": "Clint_40",
+          "overrideName": "Clint"
+      },
+      {
+          "prefabId": "JagerMech_65",
+          "overrideName": "JagerMech"
+      },
+      {
+          "prefabId": "JagerMechII_70",
+          "overrideName": "JagerMech II"
+      },
+      {
+          "prefabId": "JagerMechIII_65",
+          "overrideName": "JagerMech III"
+      },
+      {
+          "prefabId": "Kintaro_55",
+          "overrideName": "Kintaro"
+      },
+      {
+          "prefabId": "Naja_55",
+          "overrideName": "Naja "
+      },
+      {
+          "prefabId": "Rifleman_60",
+          "overrideName": "Rifleman (60T)"
+      },
+      {
+          "prefabId": "Rifleman50_50",
+          "overrideName": "Rifleman (50T)"
+      },
+      {
+          "prefabId": "RiflemanII_80",
+          "overrideName": "Rifleman II"
+      },
+      {
+          "prefabId": "RiflemanIII_90",
+          "overrideName": "Rifleman III"
+      },
+      {
+          "prefabId": "Assassin_40",
+          "overrideName": "Assassin"
+      },
+      {
+          "prefabId": "Ymir_90",
+          "overrideName": "Ymir"
+      },
+      {
+          "prefabId": "Lithobolos_85",
+          "overrideName": "Lithobolos"
+      },
+      {
+          "prefabId": "Omen_85",
+          "overrideName": "Omen"
+      },
+      {
+          "prefabId": "Peregrine_30",
+          "overrideName": "Peregrine"
+      },
+      {
+          "prefabId": "Canis_80",
+          "overrideName": "Canis"
+      },
+      {
+          "prefabId": "Jinggau_65",
+          "overrideName": "Jinggau"
+      },
+      {
+          "prefabId": "HunchbackII_50",
+          "overrideName": "Hunchback II"
+      },
+      {
+          "prefabId": "Strider_40",
+          "overrideName": "Strider"
+      },
+      {
+          "prefabId": "Vindicator_45",
+          "overrideName": "Vindicator"
+      },
+      {
+          "prefabId": "Bombard_50",
+          "overrideName": "Bombard"
+      },
+      {
+          "prefabId": "Merlin_60",
+          "overrideName": "Merlin"
+      },
+      {
+          "prefabId": "Corsair_55",
+          "overrideName": "Corsair (55T)"
+      },
+      {
+          "prefabId": "Corsair_75",
+          "overrideName": "Corsair (75T)"
+      },
+      {
+          "prefabId": "Corsair_95",
+          "overrideName": "Corsair (95T)"
+      },
+      {
+          "prefabId": "Titan_100",
+          "overrideName": "Titan"
+      },
+      {
+          "prefabId": "NovaCat_70",
+          "overrideName": "Nova Cat"
+      },
+      {
+          "prefabId": "Kingfisher_90",
+          "overrideName": "Kingfisher"
+      },
+      {
+          "prefabId": "Monster_150",
+          "overrideName": "Monster"
+      },
+      {
+          "prefabId": "Shayu_40",
+          "overrideName": "Shayu"
+      },
+      {
+          "prefabId": "Minsk_70",
+          "overrideName": "Minsk"
+      },
+      {
+          "prefabId": "Gunslinger_85",
+          "overrideName": "Gunslinger"
+      },
+      {
+          "prefabId": "Shootist_70",
+          "overrideName": "Shootist"
+      },
+      {
+          "prefabId": "Archangel_100",
+          "overrideName": "Archangel"
+      },
+      {
+          "prefabId": "CelestialChampion_30",
+          "overrideName": "Celestial Champion"
+      },
+      {
+          "prefabId": "UrbanKing_120",
+          "overrideName": "Urban King"
+      },
+      {
+          "prefabId": "Scrapper_35",
+          "overrideName": "Scrapper"
+      },
+      {
+          "prefabId": "Galleon_85",
+          "overrideName": "Galleon"
+      },
+      {
+          "prefabId": "Valiant_30",
+          "overrideName": "Valiant"
+      },
+      {
+          "prefabId": "Panther_35",
+          "overrideName": "Panther"
+      },
+      {
+          "prefabId": "Hollander_35",
+          "overrideName": "Hollander_35"
+      },
+      {
+          "prefabId": "HollanderII_45",
+          "overrideName": "Hollander II"
+      },
+      {
+          "prefabId": "IcarusII_40",
+          "overrideName": "Icarus II"
+      },
+      {
+          "prefabId": "Blackjack_45",
+          "overrideName": "Blackjack"
+      },
+      {
+          "prefabId": "BlackjackOmni_50",
+          "overrideName": "Blackjack Omni"
+      },
+      {
+          "prefabId": "Centurion_50",
+          "overrideName": "Centurion (50T)"
+      },
+      {
+          "prefabId": "Centurion_55",
+          "overrideName": "Centurion (55T)"
+      },
+      {
+          "prefabId": "MonsterLamOmni_150",
+          "overrideName": "Monster LAM Omni"
+      },
+      {
+          "prefabId": "Cataphract_70",
+          "overrideName": "Cataphract"
+      },
+      {
+          "prefabId": "Fafnir_100",
+          "overrideName": "Fafnir"
+      },
+      {
+          "prefabId": "FafnirII_100",
+          "overrideName": "Fafnir II"
+      },
+      {
+          "prefabId": "KingCrab_100",
+          "overrideName": "King Crab"
+      },
+      {
+          "prefabId": "Hellfire_60",
+          "overrideName": "Hellfire"
+      },
+      {
+          "prefabId": "Hellhound_50",
+          "overrideName": "Hellhound"
+      },
+      {
+          "prefabId": "Lupus_60",
+          "overrideName": "Lupus"
+      },
+      {
+          "prefabId": "SunSpider_70",
+          "overrideName": "SunSpider"
+      },
+      {
+          "prefabId": "MarauderIIC_85",
+          "overrideName": "Marauder IIC"
+      },
+      {
+          "prefabId": "ScorchSH_150",
+          "overrideName": "Scorch (150T)"
+      },
+      {
+          "prefabId": "Osteon_85",
+          "overrideName": "Osteon"
+      },
+      {
+          "prefabId": "Swordsman_40",
+          "overrideName": "Swordsman"
+      },
+      {
+          "prefabId": "Penetrator_75",
+          "overrideName": "Penetrator"
+      },
+      {
+          "prefabId": "Whitworth_40",
+          "overrideName": "Whitworth"
+      },
+      {
+          "prefabId": "Hermes_30",
+          "overrideName": "Hermes_30"
+      },
+      {
+          "prefabId": "Screamer_55",
+          "overrideName": "Screamer"
+      },
+      {
+          "prefabId": "Falcon_30",
+          "overrideName": "Falcon"
+      },
+      {
+          "prefabId": "Seraph_85",
+          "overrideName": "Seraph"
+      },
+      {
+          "prefabId": "Crabrauder_75",
+          "overrideName": "Crabrauder"
+      },
+      {
+          "prefabId": "TalosII_70",
+          "overrideName": "Talos II"
+      },
+      {
+          "prefabId": "Piledriver_100",
+          "overrideName": "Piledriver"
+      },
+      {
+          "prefabId": "Albatross_95",
+          "overrideName": "Albatross"
+      },
+      {
+          "prefabId": "Wawkalak_50",
+          "overrideName": "Wawkalak"
+      },
+      {
+          "prefabId": "Uranus_65",
+          "overrideName": "Uranus"
+      },
+      {
+          "prefabId": "Lament_65",
+          "overrideName": "Lament"
+      },
+      {
+          "prefabId": "DuanGung_25",
+          "overrideName": "Duan Gung"
+      },
+      {
+          "prefabId": "Striker_80",
+          "overrideName": "Striker"
+      },
+      {
+          "prefabId": "Junior_10",
+          "overrideName": "Junior"
+      },
+      {
+          "prefabId": "Kinzhal_70",
+          "overrideName": "Kinzhal"
+      },
+      {
+          "prefabId": "Solitaire_25",
+          "overrideName": "Solitaire"
+      },
+      {
+          "prefabId": "Nightstar_95",
+          "overrideName": "Nightstar"
+      },
+      {
+          "prefabId": "Jotunn_95",
+          "overrideName": "Jotunn"
+      },
+      {
+          "prefabId": "Rashnu_90",
+          "overrideName": "Rashnu"
+      },
+      {
+          "prefabId": "Excalibur_70",
+          "overrideName": "Excalibur"
+      },
+      {
+          "prefabId": "Dillinger_90",
+          "overrideName": "Dillinger"
+      },
+      {
+          "prefabId": "Osiris_30",
+          "overrideName": "Osiris"
+      },
+      {
+          "prefabId": "Hellspawn_45",
+          "overrideName": "Hellspawn"
+      },
+      {
+          "prefabId": "HuronWarrior_50",
+          "overrideName": "Huron Warrior"
+      },
+      {
+          "prefabId": "ValkyrieII_60",
+          "overrideName": "Valkyrie II"
+      },
+      {
+          "prefabId": "Thanatos_75",
+          "overrideName": "Thanatos"
+      },
+      {
+          "prefabId": "Cyclops_90",
+          "overrideName": "Cyclops"
+      },
+      {
+          "prefabId": "Annihilator_100",
+          "overrideName": "Annihilator"
+      },
+      {
+          "prefabId": "AnnihilatorII_75",
+          "overrideName": "Annihilator II"
+      },
+      {
+          "prefabId": "ArcticCheetah_30",
+          "overrideName": "Arctic Cheetah"
+      },
+      {
+          "prefabId": "Huntsman_50",
+          "overrideName": "Huntsman"
+      },
+      {
+          "prefabId": "Medusa_50",
+          "overrideName": "Medusa"
+      },
+      {
+          "prefabId": "MadDog_60",
+          "overrideName": "Mad Dog"
+      },
+      {
+          "prefabId": "Warhawk_85",
+          "overrideName": "Warhawk"
+      },
+      {
+          "prefabId": "Septicemia_55",
+          "overrideName": "Septicemia"
+      },
+      {
+          "prefabId": "Hecatoncheires_65",
+          "overrideName": "Hecatoncheires"
+      },
+      {
+          "prefabId": "Grendel_45",
+          "overrideName": "Grendel"
+      },
+      {
+          "prefabId": "GrandTitan_100",
+          "overrideName": "Grand Titan"
+      },
+      {
+          "prefabId": "GlassSpider_60",
+          "overrideName": "Glass Spider"
+      },
+      {
+          "prefabId": "Salamander_80",
+          "overrideName": "Salamander"
+      },
+      {
+          "prefabId": "Thorn_20",
+          "overrideName": "Thorn"
+      },
+      {
+          "prefabId": "Helios_60",
+          "overrideName": "Helios"
+      },
+      {
+          "prefabId": "Naga_80",
+          "overrideName": "Naga"
+      },
+      {
+          "prefabId": "Blaze_30",
+          "overrideName": "Blaze"
+      },
+      {
+          "prefabId": "Jackrabbit_25",
+          "overrideName": "Jackrabbit"
+      },
+      {
+          "prefabId": "Coehorn_75",
+          "overrideName": "Coehorn"
+      },
+      {
+          "prefabId": "Mite_10",
+          "overrideName": "Mite (SD)"
+      },
+      {
+          "prefabId": "Fer-de-Lance_30",
+          "overrideName": "Fer de Lance"
+      },
+      {
+          "prefabId": "Exterminator_65",
+          "overrideName": "Exterminator"
+      },
+      {
+          "prefabId": "Spector_35",
+          "overrideName": "Spector"
+      },
+      {
+          "prefabId": "GreatTurtle_100",
+          "overrideName": "Great Turtle"
+      },
+      {
+          "prefabId": "ColossalTurtle_200",
+          "overrideName": "Colossal Turtle"
+      },
+      {
+          "prefabId": "Ironclad_100",
+          "overrideName": "Ironclad (100T)"
+      },
+      {
+          "prefabId": "Ironclad_150",
+          "overrideName": "Ironclad (150T)"
+      },
+      {
+          "prefabId": "Volkh_45",
+          "overrideName": "Volkh"
+      },
+      {
+          "prefabId": "Slagmaiden_55",
+          "overrideName": "Slagmaiden"
+      },
+      {
+          "prefabId": "Tortoise_35",
+          "overrideName": "Tortoise"
+      },
+      {
+          "prefabId": "AtlasIII_100",
+          "overrideName": "Atlas III"
+      },
+      {
+          "prefabId": "Helepolis_75",
+          "overrideName": "Helepolis"
+      },
+      {
+          "prefabId": "Orion_75",
+          "overrideName": "Orion"
+      },
+      {
+          "prefabId": "Reconquista_75",
+          "overrideName": "Reconquista"
+      },
+      {
+          "prefabId": "Longbow_85",
+          "overrideName": "Longbow"
+      },
+      {
+          "prefabId": "Stalker_85",
+          "overrideName": "Stalker (85T)"
+      },
+      {
+          "prefabId": "Stalker_75",
+          "overrideName": "Stalker (75T)"
+      },
+      {
+          "prefabId": "MarauderII_100",
+          "overrideName": "Marauder II"
+      },
+      {
+          "prefabId": "MarauderIIOmni_100",
+          "overrideName": "Marauder II Omnimech"
+      },
+      {
+          "prefabId": "AlphaSH_150",
+          "overrideName": "Alpha"
+      },
+      {
+          "prefabId": "Hellbringer_65",
+          "overrideName": "Hellbringer"
+      },
+      {
+          "prefabId": "MadCatMkII_90",
+          "overrideName": "MadCat MkII (90T)"
+      },
+      {
+          "prefabId": "MadCatMkII-85_85",
+          "overrideName": "MadCatMkII (85T)"
+      },
+      {
+          "prefabId": "Decimator_100",
+          "overrideName": "Decimator"
+      },
+      {
+          "prefabId": "Bane_100",
+          "overrideName": "Bane"
+      },
+      {
+          "prefabId": "Prometheus_75",
+          "overrideName": "Prometheus"
+      },
+      {
+          "prefabId": "Devastator_100",
+          "overrideName": "Devastator"
+      },
+      {
+          "prefabId": "Ion_70",
+          "overrideName": "Ion"
+      },
+      {
+          "prefabId": "VisionQuest_60",
+          "overrideName": "Vision Quest"
+      },
+      {
+          "prefabId": "Bellerophon_60",
+          "overrideName": "Bellerophon"
+      },
+      {
+          "prefabId": "Liberty_65",
+          "overrideName": "Liberty"
+      },
+      {
+          "prefabId": "Xerxes_130",
+          "overrideName": "Xerxes"
+      },
+      {
+          "prefabId": "Sidewinder_75",
+          "overrideName": "Sidewinder"
+      },
+      {
+          "prefabId": "Flashman_75",
+          "overrideName": "Flashman"
+      },
+      {
+          "prefabId": "ChampionLAM_60",
+          "overrideName": "Champion LAM"
+      },
+      {
+          "prefabId": "Rampage_85",
+          "overrideName": "Rampage"
+      },
+      {
+          "prefabId": "Blackbeard_100",
+          "overrideName": "Blackbeard"
+      },
+      {
+          "prefabId": "Hammerhands_75",
+          "overrideName": "Hammerhands"
+      },
+      {
+          "prefabId": "Shogun_85",
+          "overrideName": "Shogun"
+      },
+      {
+          "prefabId": "PrinceCrab_75",
+          "overrideName": "Prince Crab"
+      },
+      {
+          "prefabId": "Highlander_90",
+          "overrideName": "Highlander"
+      },
+      {
+          "prefabId": "Turkina_95",
+          "overrideName": "Turkina"
+      },
+      {
+          "prefabId": "Crusher_95",
+          "overrideName": "Crusher"
+      },
+      {
+          "prefabId": "Screecher_40",
+          "overrideName": "Screecher"
+      },
+      {
+          "prefabId": "Hornet_20",
+          "overrideName": "Hornet"
+      },
+      {
+          "prefabId": "Commando_25",
+          "overrideName": "Commando"
+      },
+      {
+          "prefabId": "UrbanMech_30",
+          "overrideName": "Urban Mech"
+      },
+      {
+          "prefabId": "UrbanMechIIC_30",
+          "overrideName": "Urban Mech IIC"
+      },
+      {
+          "prefabId": "Urbie-LAM_30",
+          "overrideName": "Urban Mech LAM"
+      },
+      {
+          "prefabId": "UrbanLord_70",
+          "overrideName": "Urban Lord"
+      },
+      {
+          "prefabId": "Raven_35",
+          "overrideName": "Raven"
+      },
+      {
+          "prefabId": "Owens_35",
+          "overrideName": "Owens"
+      },
+      {
+          "prefabId": "Vulcan_40",
+          "overrideName": "Vulcan"
+      },
+      {
+          "prefabId": "Bushwacker_55",
+          "overrideName": "Bushwacker"
+      },
+      {
+          "prefabId": "OstMech_60",
+          "overrideName": "Ost-Mech (60T)"
+      },
+      {
+          "prefabId": "OstMech_65",
+          "overrideName": "Ost-Mech (65T)"
+      },
+      {
+          "prefabId": "Warhammer_70",
+          "overrideName": "Warhammer"
+      },
+      {
+          "prefabId": "Piranha_20",
+          "overrideName": "Piranha (20T)"
+      },
+      {
+          "prefabId": "Piranha_30",
+          "overrideName": "Piranha (30T)"
+      },
+      {
+          "prefabId": "LocustIIC_25",
+          "overrideName": "Locust IIC"
+      },
+      {
+          "prefabId": "JennerIIC_35",
+          "overrideName": "Jenner IIC"
+      },
+      {
+          "prefabId": "Stormcrow_55",
+          "overrideName": "Stormcrow"
+      },
+      {
+          "prefabId": "BlackPython_75",
+          "overrideName": "Black Python"
+      },
+      {
+          "prefabId": "Phantom_40",
+          "overrideName": "Phantom"
+      },
+      {
+          "prefabId": "Firefly_30",
+          "overrideName": "Firefly"
+      },
+      {
+          "prefabId": "HermesII_40",
+          "overrideName": "Hermes II"
+      },
+      {
+          "prefabId": "Conjurer_50",
+          "overrideName": "Conjurer"
+      },
+      {
+          "prefabId": "VonRohrs_65",
+          "overrideName": "Von Rohrs"
+      },
+      {
+          "prefabId": "Woden_60",
+          "overrideName": "Woden"
+      },
+      {
+          "prefabId": "Erinyes_50",
+          "overrideName": "Erinyes"
+      },
+      {
+          "prefabId": "WaspII_25",
+          "overrideName": "Wasp II"
+      },
+      {
+          "prefabId": "StingerII_25",
+          "overrideName": "Stinger II"
+      },
+      {
+          "prefabId": "Disrupter_35",
+          "overrideName": "Disrupter"
+      },
+      {
+          "prefabId": "Wight_35",
+          "overrideName": "Wight"
+      },
+      {
+          "prefabId": "MuninLAM_45",
+          "overrideName": "Munin LAM"
+      },
+      {
+          "prefabId": "Cherub_15",
+          "overrideName": "Cherub"
+      },
+      {
+          "prefabId": "NagaII_80",
+          "overrideName": "Naga II"
+      },
+      {
+          "prefabId": "ScorpionLAM_55",
+          "overrideName": "Scorpion LAM"
+      },
+      {
+          "prefabId": "Mercury_20",
+          "overrideName": "Mercury"
+      },
+      {
+          "prefabId": "StardriveApollo_15",
+          "overrideName": "Apollo (SD)"
+      },
+      {
+          "prefabId": "MadDogMkII_65",
+          "overrideName": "Mad Dog MkII"
+      },
+      {
+          "prefabId": "Valkyrie_30",
+          "overrideName": "Valkyrie (30T)"
+      },
+      {
+          "prefabId": "ValkyrieII_35",
+          "overrideName": "Valkyrie (35T)"
+      },
+      {
+          "prefabId": "Hussar_30",
+          "overrideName": "Hussar"
+      },
+      {
+          "prefabId": "Toro_35",
+          "overrideName": "Toro"
+      },
+      {
+          "prefabId": "PhoenixHawkLAM_50",
+          "overrideName": "Phoenix Hawk LAM"
+      },
+      {
+          "prefabId": "Crab_50",
+          "overrideName": "Crab"
+      },
+      {
+          "prefabId": "Quickdraw_60",
+          "overrideName": "Quickdraw"
+      },
+      {
+          "prefabId": "Mackie_100",
+          "overrideName": "Mackie (100T)"
+      },
+      {
+          "prefabId": "MackieSanc_100",
+          "overrideName": "Mackie (100T Sanctuary)"
+      },
+      {
+          "prefabId": "VaporEagle_55",
+          "overrideName": "Vapor Eagle"
+      },
+      {
+          "prefabId": "NightGyr_75",
+          "overrideName": "Night Gyr"
+      },
+      {
+          "prefabId": "WarhammerIIC_80",
+          "overrideName": "Warhammer IIC"
+      },
+      {
+          "prefabId": "Raptor_25",
+          "overrideName": "Raptor"
+      },
+      {
+          "prefabId": "Hazard_45",
+          "overrideName": "Hazard"
+      },
+      {
+          "prefabId": "HazardII_45",
+          "overrideName": "Hazard MkII"
+      },
+      {
+          "prefabId": "Vanquisher_100",
+          "overrideName": "Vanquisher"
+      },
+      {
+          "prefabId": "Sentinel_40",
+          "overrideName": "Sentinel"
+      },
+      {
+          "prefabId": "NightHawk_35",
+          "overrideName": "Night Hawk"
+      },
+      {
+          "prefabId": "Toyama_75",
+          "overrideName": "Toyama"
+      },
+      {
+          "prefabId": "Deva_70",
+          "overrideName": "Deva"
+      },
+      {
+          "prefabId": "Lambda_45",
+          "overrideName": "Lambda"
+      },
+      {
+          "prefabId": "Koschei_65",
+          "overrideName": "Koschei"
+      },
+      {
+          "prefabId": "Ambassador_15",
+          "overrideName": "Ambassador (SD)"
+      },
+      {
+          "prefabId": "Firebee_35",
+          "overrideName": "Firebee"
+      },
+      {
+          "prefabId": "Jenner_35",
+          "overrideName": "Jenner"
+      },
+      {
+          "prefabId": "Enforcer_50",
+          "overrideName": "Enforcer"
+      },
+      {
+          "prefabId": "KitFox_30",
+          "overrideName": "Kit Fox"
+      },
+      {
+          "prefabId": "Cougar_35",
+          "overrideName": "Cougar"
+      },
+      {
+          "prefabId": "ShadowCat_45",
+          "overrideName": "Shadow Cat"
+      },
+      {
+          "prefabId": "Nova_50",
+          "overrideName": "Nova"
+      },
+      {
+          "prefabId": "Enfield_50",
+          "overrideName": "Enfield"
+      },
+      {
+          "prefabId": "Wasplam_30",
+          "overrideName": "Wasp LAM"
+      },
+      {
+          "prefabId": "Stingerlam_30",
+          "overrideName": "Stingerlam_30"
+      },
+      {
+          "prefabId": "Fox_50",
+          "overrideName": "Fox"
+      },
+      {
+          "prefabId": "Hephaestus_55",
+          "overrideName": "Hephaestus"
+      },
+      {
+          "prefabId": "Liquidator_40",
+          "overrideName": "Liquidator"
+      },
+      {
+          "prefabId": "NightChanter_45",
+          "overrideName": "Night Chanter"
+      },
+      {
+          "prefabId": "Rattlesnake_35",
+          "overrideName": "Rattlesnake"
+      },
+      {
+          "prefabId": "Coyotl_40",
+          "overrideName": "Coyotl"
+      },
+      {
+          "prefabId": "MercuryII_40",
+          "overrideName": "Mercury II"
+      },
+      {
+          "prefabId": "Nyx_30",
+          "overrideName": "Nyx"
+      },
+      {
+          "prefabId": "Stag_45",
+          "overrideName": "Stag"
+      },
+      {
+          "prefabId": "Cossack_20",
+          "overrideName": "Cossack"
+      },
+      {
+          "prefabId": "Kyudo_45",
+          "overrideName": "Kyudo"
+      },
+      {
+          "prefabId": "Slowpoke_10",
+          "overrideName": "Slowpoke (SD)"
+      },
+      {
+          "prefabId": "BlackKnight_75",
+          "overrideName": "Black Knight"
+      },
+      {
+          "prefabId": "SpiritWalker_75",
+          "overrideName": "Spirit Walker"
+      },
+      {
+          "prefabId": "Marauder_75",
+          "overrideName": "Marauder"
+      },
+      {
+          "prefabId": "BattleMaster_85",
+          "overrideName": "Battle Master"
+      },
+      {
+          "prefabId": "RedCorsair_85",
+          "overrideName": "Red Corsair"
+      },
+      {
+          "prefabId": "Imp_100",
+          "overrideName": "Imp"
+      },
+      {
+          "prefabId": "RiflemanIIC_65",
+          "overrideName": "Rifleman IIC"
+      },
+      {
+          "prefabId": "Timberwolf_75",
+          "overrideName": "Timberwolf"
+			},
+			{
+				"prefabId": "Madcat_75",
+				"overrideName": "Mad-Cat"
+			},
+			{
+				"prefabId": "Wolverine_55",
+				"overrideName": "Wolverine"
+			},
+			{
+				"prefabId": "Supernova_90",
+				"overrideName": "Supernova (90T)"
+			},
+			{
+				"prefabId": "Supernova_100",
+				"overrideName": "Supernova (100T)"
+			},
+			{
+				"prefabId": "StoneRhino_100",
+				"overrideName": "Stone Rhino"
+			},
+			{
+				"prefabId": "Behemoth_100",
+				"overrideName": "Behemoth"
+			},
+			{
+				"prefabId": "BehemothII_100",
+				"overrideName": "Behemoth II"
+			},
+			{
+				"prefabId": "Osprey_55",
+				"overrideName": "Osprey"
+			},
+			{
+				"prefabId": "DragonFire_75",
+				"overrideName": "Dragon Fire"
+			},
+			{
+				"prefabId": "ThunderHawk_100",
+				"overrideName": "Thunder Hawk"
+			},
+			{
+				"prefabId": "SchwererGustav_100",
+				"overrideName": "Schwerer Gustav"
+			},
+			{
+				"prefabId": "Taranis_80",
+				"overrideName": "Taranis"
+			},
+			{
+				"prefabId": "Naginata_95",
+				"overrideName": "Naginat"
+			},
+			{
+				"prefabId": "Battlestar_125",
+				"overrideName": "Battlestar"
+			},
+			{
+				"prefabId": "Tolson_60",
+				"overrideName": "Tolson"
+			},
+			{
+				"prefabId": "MackieII_105",
+				"overrideName": "Mackie II (105T)"
+			},
+			{
+				"prefabId": "Culverin_135",
+				"overrideName": "Culverin"
+			},
+			{
+				"prefabId": "Wasp_20",
+				"overrideName": "Wasp_20"
+			},
+			{
+				"prefabId": "SuperWasp_25",
+				"overrideName": "Super Wasp"
+			},
+			{
+				"prefabId": "Javelin_30",
+				"overrideName": "Javelin"
+			},
+			{
+				"prefabId": "Spider_30",
+				"overrideName": "Spider (30T)"
+			},
+			{
+				"prefabId": "Stinger_20",
+				"overrideName": "Stinger"
+			},
+			{
+				"prefabId": "Firestarter_35",
+				"overrideName": "Firestarter (35T)"
+			},
+			{
+				"prefabId": "Griffin_55",
+				"overrideName": "Griffin (55T)"
+			},
+			{
+				"prefabId": "SuperGriffin_60",
+				"overrideName": "Super Griffin (60T)"
+			},
+			{
+				"prefabId": "FirestarterOmni_45",
+				"overrideName": "Firestarter Omni (45T)"
+			},
+			{
+				"prefabId": "Chimera_40",
+				"overrideName": "Chimera"
+			},
+			{
+				"prefabId": "Catapult_65",
+				"overrideName": "Catapult"
+			},
+			{
+				"prefabId": "Grasshopper_70",
+				"overrideName": "Grasshopper"
+			},
+			{
+				"prefabId": "MistLynx_25",
+				"overrideName": "Mist Lynx"
+			},
+			{
+				"prefabId": "Executioner_95",
+				"overrideName": "Executioner"
+			},
+			{
+				"prefabId": "ExecutionerII_95",
+				"overrideName": "Executioner II"
+			},
+			{
+				"prefabId": "Executioner-B_95",
+				"overrideName": "Executioner B"
+			},
+			{
+				"prefabId": "Wraith_55",
+				"overrideName": "Wraith"
+			},
+			{
+				"prefabId": "Guillotine_70",
+				"overrideName": "Guillotine"
+			},
+			{
+				"prefabId": "Anvil_60",
+				"overrideName": "Anvil"
+			},
+			{
+				"prefabId": "Wyvern_45",
+				"overrideName": "Wyvern"
+			},
+			{
+				"prefabId": "Phoenix_50",
+				"overrideName": "Phoenix"
+			},
+			{
+				"prefabId": "Brigand_25",
+				"overrideName": "Brigand"
+			},
+			{
+				"prefabId": "Ostscout_35",
+				"overrideName": "Ostscout"
+			},
+			{
+				"prefabId": "PhoenixHawk_45",
+				"overrideName": "Phoenix Hawk"
+			},
+			{
+				"prefabId": "Legacy_80",
+				"overrideName": "Legacy"
+			},
+			{
+				"prefabId": "Leaper_50",
+				"overrideName": "Leaper"
+			},
+			{
+				"prefabId": "SwoopingFalcon_60",
+				"overrideName": "Swooping Falcon"
+			},
+			{
+				"prefabId": "ThunderHammer_70",
+				"overrideName": "Thunder Hammer"
+			},
+			{
+				"prefabId": "BattleHammer_85",
+				"overrideName": "BattleHammer"
+			},
+			{
+				"prefabId": "Grizzly_70",
+				"overrideName": "Grizzly"
+			},
+			{
+				"prefabId": "Sling_25",
+				"overrideName": "Sling"
+			},
+			{
+				"prefabId": "Roughneck_65",
+				"overrideName": "Roughneck"
+			},
+			{
+				"prefabId": "Axman_65",
+				"overrideName": "Axman"
+			},
+			{
+				"prefabId": "Surtur_55",
+				"overrideName": "Surtur"
+			},
+			{
+				"prefabId": "Archer_70",
+				"overrideName": "Archer"
+			},
+			{
+				"prefabId": "Awesome_80",
+				"overrideName": "Awesome (80T)"
+			},
+			{
+				"prefabId": "AwesomeII_100",
+				"overrideName": "Awesom II (100T)"
+			},
+			{
+				"prefabId": "Thug_80",
+				"overrideName": "Thug"
+			},
+			{
+				"prefabId": "Banshee_95",
+				"overrideName": "Banshee"
+			},
+			{
+				"prefabId": "Atlas_100",
+				"overrideName": "Atlas I"
+			},
+			{
+				"prefabId": "AtlasII_100",
+				"overrideName": "Royal Atlas II"
+			},
+			{
+				"prefabId": "Crosscut_30",
+				"overrideName": "Crosscut"
+			},
+			{
+				"prefabId": "Sorcerer_95",
+				"overrideName": "Sorcerer"
+			},
+			{
+				"prefabId": "Berserker_100",
+				"overrideName": "Berserker"
+			},
+			{
+				"prefabId": "Battleaxe_70",
+				"overrideName": "Battleaxe"
+			},
+			{
+				"prefabId": "Mantis_30",
+				"overrideName": "Mantis"
+			},
+			{
+				"prefabId": "Malak_30",
+				"overrideName": "Malak"
+			},
+			{
+				"prefabId": "Pulverizer_90",
+				"overrideName": "Pulverizer"
+			},
+			{
+				"prefabId": "ExcavatorMech_50",
+				"overrideName": "Excavator Mech"
+			},
+			{
+				"prefabId": "YenLoWang_50",
+				"overrideName": "Yen Lo Wang"
+			},
+			{
+				"prefabId": "RedReaper_75",
+				"overrideName": "Red Reaper"
+			},
+			{
+				"prefabId": "DigKing_35",
+				"overrideName": "Dig King"
+			},
+			{
+				"prefabId": "Hatchetman_45",
+				"overrideName": "Hatchetman"
+			},
+			{
+				"prefabId": "Preta_45",
+				"overrideName": "Preta"
+			},
+			{
+				"prefabId": "chrprfmech_ettinbase-001_95",
+				"overrideName": "Ettin"
+			},
+			{
+				"prefabId": "Buccaneer_55",
+				"overrideName": "Buccaneer"
+			},
+			{
+				"prefabId": "Gulon_25",
+				"overrideName": "Gulon"
+			},
+			{
+				"prefabId": "Kiso_100",
+				"overrideName": "Kiso"
+			},
+			{
+				"prefabId": "Menoetes_100",
+				"overrideName": "Menoetes"
+			},
+			{
+				"prefabId": "Gurkha_35",
+				"overrideName": "Gurkha"
+			},
+			{
+				"prefabId": "Groovy_35",
+				"overrideName": "Groovy_35"
+			},
+			{
+				"prefabId": "Shankey_25",
+				"overrideName": "Shankey"
+			},
+			{
+				"prefabId": "Diomede_100",
+				"overrideName": "Diomede"
+			},
+			{
+				"prefabId": "Ono_115",
+				"overrideName": "Ono"
+			},
+			{
+				"prefabId": "Neanderthal_80",
+				"overrideName": "Neanderthal"
+			},
+			{
+				"prefabId": "Anubis_30",
+				"overrideName": "Anubis"
+			},
+			{
+				"prefabId": "Hunchback_50",
+				"overrideName": "Hunchback"
+			},
+			{
+				"prefabId": "Blitzkrieg_50",
+				"overrideName": "Blitzkrieg"
+			},
+			{
+				"prefabId": "Uziel_50",
+				"overrideName": "Uziel"
+			},
+			{
+				"prefabId": "Crusader_65",
+				"overrideName": "Crusader"
+			},
+			{
+				"prefabId": "LaoHu_75",
+				"overrideName": "Lao Hu"
+			},
+			{
+				"prefabId": "Charger_80",
+				"overrideName": "Charger"
+			},
+			{
+				"prefabId": "Victor_80",
+				"overrideName": "Victor"
+			},
+			{
+				"prefabId": "Incubus_30",
+				"overrideName": "Incubus"
+			},
+			{
+				"prefabId": "ArcticWolf_40",
+				"overrideName": "Arctic Wolf"
+			},
+			{
+				"prefabId": "Linebacker_65",
+				"overrideName": "Linebacker"
+			},
+			{
+				"prefabId": "BloodAsp_90",
+				"overrideName": "Blood Asp (90T)"
+			},
+			{
+				"prefabId": "BloodAsp_100",
+				"overrideName": "Blood Asp (100T)"
+			},
+			{
+				"prefabId": "Gladiator_55",
+				"overrideName": "Gladiator"
+			},
+			{
+				"prefabId": "Chameleon_50",
+				"overrideName": "Chameleon"
+			},
+			{
+				"prefabId": "Lynx_55",
+				"overrideName": "Lynx"
+			},
+			{
+				"prefabId": "Bombardier_65",
+				"overrideName": "Bombardier"
+			},
+			{
+				"prefabId": "Thunder_70",
+				"overrideName": "Thunder"
+			},
+			{
+				"prefabId": "Cyclone_30",
+				"overrideName": "Cyclone"
+			},
+			{
+				"prefabId": "Pixie_45",
+				"overrideName": "Pixie"
+			},
+			{
+				"prefabId": "Nagual_55",
+				"overrideName": "Nagual LAM"
+			},
+			{
+				"prefabId": "Pillager_100",
+				"overrideName": "Pillager"
+			},
+			{
+				"prefabId": "Komodo_45",
+				"overrideName": "Komodo"
+			},
+			{
+				"prefabId": "Foxfire_15",
+				"overrideName": "Foxfire (SD)"
+			},
+			{
+				"prefabId": "Hyena_55",
+				"overrideName": "Hyena"
+			},
+			{
+				"prefabId": "Celerity_15",
+				"overrideName": "Celerity"
+			},
+			{
+				"prefabId": "Daikyu_70",
+				"overrideName": "Daikyu"
+			}
     ]
   },
   "quirkSettings": {

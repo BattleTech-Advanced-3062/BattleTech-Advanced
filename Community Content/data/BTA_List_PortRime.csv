@@ -17,6 +17,8 @@ Gear_Contract_Aerospace_Permanent_Eisensturm,Upgrade,0,10
 Gear_Contract_Aerospace_Permanent_Mechbuster,Upgrade,0,10
 Gear_Contract_Aerospace_Permanent_Slayer,Upgrade,0,10
 Gear_Contract_Aerospace_Permanent_Mechbuster_Mary,Upgrade,0,10
+Gear_BSAM,Upgrade,0,10
+emod_engineslots_compressed_center,HeatSink,0,10
 BTA_List_PortRime_ASF_Clan,Reference,1,10
 mechdef_catapult_CPLT-J1-X,Mech,1,10
 mechdef_highlander_HGN-734-X1,Mech,1,10

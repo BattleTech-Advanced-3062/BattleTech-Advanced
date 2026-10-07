@@ -21,6 +21,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Light Medium and Heavy Cannons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentAmmoFeedCannon: 60%",

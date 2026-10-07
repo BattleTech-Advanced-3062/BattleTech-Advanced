@@ -80,7 +80,7 @@
 		{
 			"Id": "Arty x1",
 			"UIName": "Arty x1",
-			"isBaseMode": true
+			"isBaseMode": false
 		},
 		{
 			"Id": "Arty x2",

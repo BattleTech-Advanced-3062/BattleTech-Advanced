@@ -31,7 +31,7 @@
 	},
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Gyro_Omnimech",
+      "ComponentDefID": "Gear_Gyro_Omni_DireWolf",
       "SimGameUID": null,
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
@@ -268,7 +268,7 @@
       "Tonnage": 0,
       "InventorySlots": 17,
       "MaxArmor": 235,
-      "MaxRearArmor": 75,
+      "MaxRearArmor": 70,
       "InternalStructure": 155
     },
     {
@@ -312,7 +312,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 205,
       "MaxRearArmor": -1,
       "InternalStructure": 105
     },
@@ -321,7 +321,7 @@
       "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 6,
-      "MaxArmor": 210,
+      "MaxArmor": 205,
       "MaxRearArmor": -1,
       "InternalStructure": 105
     }
@@ -375,6 +375,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"

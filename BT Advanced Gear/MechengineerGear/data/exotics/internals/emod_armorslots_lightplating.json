@@ -2,7 +2,7 @@
 	"Custom": {
 		"Color": "Gold",
 		"BonusDescriptions": [
-			"ArmorFactor: 11%",
+			"ArmorFactor: -11%",
 			"ReservedSlots: 8",
 			"ArmorProtection: -10%"
 		],

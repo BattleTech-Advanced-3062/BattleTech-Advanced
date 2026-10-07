@@ -19,6 +19,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: MG-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentMGShotCount: +1",

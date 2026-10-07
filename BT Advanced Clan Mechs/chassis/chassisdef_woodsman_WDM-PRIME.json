@@ -18,7 +18,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Woodsman",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -161,7 +161,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 110,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -179,7 +179,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 125,
+			"MaxArmor": 115,
 			"MaxRearArmor": 35,
 			"InternalStructure": 80
 		},
@@ -197,7 +197,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 180,
+			"MaxArmor": 165,
 			"MaxRearArmor": 50,
 			"InternalStructure": 115
 		},
@@ -215,7 +215,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 125,
+			"MaxArmor": 115,
 			"MaxRearArmor": 35,
 			"InternalStructure": 80
 		},
@@ -233,7 +233,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
+			"MaxArmor": 110,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -242,7 +242,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 150,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		},
@@ -251,7 +251,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 160,
+			"MaxArmor": 150,
 			"MaxRearArmor": -1,
 			"InternalStructure": 80
 		}
@@ -304,6 +304,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
