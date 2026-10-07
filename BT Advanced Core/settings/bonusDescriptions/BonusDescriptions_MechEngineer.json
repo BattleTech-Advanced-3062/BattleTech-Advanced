@@ -4801,9 +4801,15 @@
 		},
 		{
 			"Bonus": "FuelCellSHS",
-			"Short": "Fuel Cell Engine",
+			"Short": "F.C. Eng.",
 			"Long": "Fuel Cell Engine Heatsink Restrictions",
 			"Full": "Fuel cell engines cannot be equipped with advanced heat sinks. Fuel cells cannot make use of any heat sink systems other than standard heat sinks. They also cannot use any e-cooling, heat bank, or heat exchanger equipment."
+		},
+		{
+			"Bonus": "FuelCellJJ",
+			"Short": "F.C. JJ",
+			"Long": "Fuel Cell Engine Jump Jet Restrictions",
+			"Full": "Fuel cell engines are incompatible with Jump Jets. A 'Mech equipped with a fuel cell engine cannot mount jump jets of any kind."
 		},
 		{
 			"Bonus": "FissionDamage",
@@ -5000,8 +5006,8 @@
 		{
 			"Bonus": "NotonsSpirit",
 			"Short": "Noton's Spirit",
-			"Long": "The Spirit of Grey Noton",
-			"Full": "Legend-Killer imbues its pilot with the spirit of its first and most famous owner, Grey Noton. Legend-Killer gains +40% damage and +3 accuracy with AC/5s and all kinds of Lasers. It also provides bonus resolve in combat, a higher resolve maximum in combat, and even +2 intiative. And to think, this is just a portion of Noton's skill."
+			"Long": "The Spirit of Gray Noton",
+			"Full": "Legend-Killer imbues its pilot with the spirit of its first and most famous owner, Gray Noton. Legend-Killer gains +40% damage and +3 accuracy with AC/5s and all kinds of Lasers. It also provides bonus resolve in combat, a higher resolve maximum in combat, and even +2 intiative. And to think, this is just a portion of Noton's skill."
 		},
 		{
 			"Bonus": "AntiAirTargeting",
@@ -5410,6 +5416,12 @@
 			"Short": "Requires Attachment",
 			"Long": "Requires Weapon Attachment",
 			"Full": "This ammunition requires a specific weapon attachment be attached to the weapon the ammo is for, specifically the {0} attachment."
+		},
+		{
+			"Bonus": "WeaponAttachment",
+			"Short": "Weap. Attach.",
+			"Long": "Weapon Attachment",
+			"Full": "This is a weapona attachment, it connects to a specific type of weapon when equipped in the same location as that weapon and provides a certain benefit to that weapon."
 		},
 		{
 			"Bonus": "WeaponAttachmentCompatible",

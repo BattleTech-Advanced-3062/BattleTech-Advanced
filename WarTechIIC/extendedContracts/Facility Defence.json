@@ -42,7 +42,6 @@
 			"allowedContractTypes": [ 11 ],
 			"declinePenalty": "BreakContract",
 			"contractPayoutMultiplier": 1.1,
-			"contractBonusSalvage": -10,
 			"ignoreContractRequirements": true,
 			"contractMessage": "The first facility needs defending, Commander, let's get to it."
 		},
@@ -63,7 +62,7 @@
 			"contractPayoutMultiplier": 1.3,
 			"contractBonusSalvage": -20,
 			"ignoreContractRequirements": true,
-			"contractMessage": "We have to defend the last facility while personnel evacuate. Stay frosty, Commander, this might be hairy."
+			"contractMessage": "We have to defend the last facility while personnel evacuate, we won't have time to salvage much either. Stay frosty, Commander, this might be hairy."
 		},
 		"Assassination": {
 			"contractChance": 1,
@@ -73,7 +72,7 @@
 			"contractPayoutMultiplier": 1.5,
 			"contractBonusSalvage": -60,
 			"ignoreContractRequirements": true,
-			"contractMessage": "Time to go take out the enemy's leadership. We won't have time to salvage much, it's a quick in-and-out assassination job. Prepare accordingly, Commander."
+			"contractMessage": "Time to go take out the enemy's leadership. We won't have time to salvage anything, it's a quick in-and-out assassination job. Prepare accordingly, Commander."
 		},
 		"PaymentDelivered": {
 			"popupTitle": "Payment for Services Rendered, Commander {COMMANDER.LastName}",

@@ -29,10 +29,11 @@
 				"no_salvage"
 		],
 		"BonusDescriptions": [
-				"FuelCellSHS",
-				"EngineWeight: +20%",
-				"HeatPerTurn: -10"
-			]
+			"FuelCellSHS",
+			"FuelCellJJ",
+			"EngineWeight: +20%",
+			"HeatPerTurn: -10"
+		]
 	},
 	"Description": {
 		"Cost": 450000,

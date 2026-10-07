@@ -38,7 +38,7 @@
 		"UIName": "Warhawk WHK-X",
 		"Id": "mechdef_warhawk_WHK-X",
 		"Name": "Warhawk",
-		"Details": "Introduced by Clan Smoke Jaguar in 2999 in preparation for the anticipated return to the Inner Sphere, the Jaguars instead unleashed the powerful Warhawk on their opponents to deadly effect. The Jaguars jealously guarded their production, until production lines and design specs finally spread after the Smoke Jaguars' Annihilation. The Warhawk-X replaces two of the prime's ER PPCs, as well as a number of heat sinks, with a massive HAG-40 for extreme firepower at all ranges. It retains two ER PPCs for ammo-free combat in any condition.",
+		"Details": "Introduced by Clan Smoke Jaguar in 2999 in preparation for the anticipated return to the Inner Sphere, the Jaguars instead unleashed the powerful Warhawk on their opponents to deadly effect. The Jaguars jealously guarded their production, until production lines and design specs finally spread after the Smoke Jaguars' Annihilation. The Warhawk-X replaces two of the prime's ER PPCs, as well as a number of heat sinks, with a massive HAG-40 for extreme firepower at all ranges. It retains an ER PPC and an ER Large Laser for ammo-free combat in any condition.",
 		"Icon": "uixTxrIcon_warhawk"
 	},
 	"RequiredToSpawnCompanyTags": {
@@ -124,17 +124,6 @@
 	],
 	"inventory": [
 		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_TTS_AdvancedTC",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
 			"MountedLocation": "LeftArm",
 			"ComponentDefID": "Weapon_PPC_PPCER_CLAN",
 			"SimGameUID": null,
@@ -147,7 +136,7 @@
 		},
 		{
 			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+			"ComponentDefID": "Weapon_Laser_LargeLaserER_CLAN",
 			"SimGameUID": null,
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 1,
@@ -301,17 +290,6 @@
 		},
 		{
 			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-			"SimGameUID": null,
-			"ComponentDefType": "HeatSink",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
 			"ComponentDefID": "Ammo_AmmunitionBox_Hyper_GAUSS",
 			"SimGameUID": "",
 			"ComponentDefType": "AmmunitionBox",
@@ -327,28 +305,6 @@
 			"SimGameUID": "",
 			"ComponentDefType": "AmmunitionBox",
 			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "LeftArm",
-			"ComponentDefID": "Weapon_Laser_MicroLaserER_CLAN",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 2,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "RightTorso",
-			"ComponentDefID": "Weapon_Laser_MicroLaserER_CLAN",
-			"SimGameUID": "",
-			"ComponentDefType": "Weapon",
-			"HardpointSlot": 0,
 			"GUID": null,
 			"DamageLevel": "Functional",
 			"prefabName": null,

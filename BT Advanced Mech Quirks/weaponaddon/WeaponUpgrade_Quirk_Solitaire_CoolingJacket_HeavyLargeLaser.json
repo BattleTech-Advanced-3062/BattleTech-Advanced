@@ -1,0 +1,14 @@
+{
+	"Id": "WeaponUpgrade_Quirk_Solitaire_CoolingJacket_HeavyLargeLaser",
+	"addonType": "quirk_solitaire",
+	"targetComponentTags": [
+		"QuirkSolitaireSupported-HeavyLargeLaser"
+	],
+	"modes": [
+		{
+			"Id": "BASE",
+			"UIName": "Insulated",
+			"HeatGenerated": -9
+		}
+	]
+}

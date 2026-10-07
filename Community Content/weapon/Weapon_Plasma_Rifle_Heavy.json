@@ -7,11 +7,15 @@
 		],
 		"BonusDescriptions": [
 			"PLASMADEBUFF: 15%",
-			"OHDamage: 20%",
-			"WpnRecoil: 3",
+			"OHDamage: 10%",
+			"WpnRecoil: 2",
 			"AntiBA: 350%",
 			"WpnCrits: -90%",
-			"WeaponAttachmentCompatible: Plasma FCS"
+			"BombastBaseMode: 60, 30",
+			"BombastLowMode: +10, +10, -1, +30",
+			"BombastMidMode: +20, +20, -2, +50",
+			"BombastMaxMode: +30, +30, -3, +80",
+			"WordsWords: Each mode increases the heat damage by the same amount as the regular damage."
 		]
 	},
 	"Category": "Energy",
@@ -26,12 +30,12 @@
 	],
 	"AmmoCategory": "Plasma",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 35,
+	"HeatGenerated": 30,
 	"Damage": 60,
 	"EvasiveDamageMultiplier": 0,
 	"EvasivePipsIgnored": 0,
 	"DamageVariance": 0,
-	"HeatDamage": 40,
+	"HeatDamage": 20,
 	"AccuracyModifier": 0,
 	"CriticalChanceMultiplier": 0.1,
 	"AOECapable": false,
@@ -64,15 +68,15 @@
 	"TrooperSquadDamageModifier": 3.5,
 	"WeaponEffectID": "WeaponEffect-Weapon_PPC",
 	"Description": {
-		"Cost": 990000,
+		"Cost": 1190000,
 		"Rarity": 5,
 		"Purchasable": true,
 		"Manufacturer": "Victory",
-		"Model": "Heavy Plasma Rifle",
-		"UIName": "Heavy Plasma Rifle (C.C)",
+		"Model": "Bombast Plasma Rifle",
+		"UIName": "Bombast Plasma Rifle",
 		"Id": "Weapon_Plasma_Rifle_Heavy",
-		"Name": "Heavy Plasma Rifle (C.C)",
-		"Details": "This Heavy Plasma Rifle prototype accelerates and superheats a cartridge of 'plastic foam' into an excited state and release it as plasma, creating a tremendous kinetic and thermal impact. \n\n<b><color=#ffcc00>Uses Plasma Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Name": "Bombast Plasma Rifle",
+		"Details": "This Bombast Plasma Rifle prototype accelerates and superheats a cartridge of 'plastic foam' into an excited state and release it as plasma, however unlike regular Plasma Rifles, the Bombast Plasma Rifle can \"dial in\" the degreee to which it focuses the projectile, gaining more power but less accuracy as it does so. The Bombast Plasma Rifle takes its name from the Bombast Laser of similar effect. \n\n<b><color=#ffcc00>Uses Plasma Ammo.</color></b>\n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
 		"Icon": "particle"
 	},
 	"BonusValueA": "",
@@ -92,20 +96,11 @@
 				"duration": 2,
 				"ticksOnActivations": true,
 				"useActivationsOfTarget": true,
-				"ticksOnEndOfRound": false,
-				"ticksOnMovements": false,
-				"stackLimit": 3,
-				"clearedWhenAttacked": false
+				"stackLimit": 1
 			},
 			"targetingData": {
 				"effectTriggerType": "OnHit",
-				"triggerLimit": 0,
-				"extendDurationOnTrigger": 0,
-				"specialRules": "NotSet",
 				"effectTargetType": "SingleTarget",
-				"range": 0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": false,
 				"showInTargetPreview": true,
 				"showInStatusPanel": true
 			},
@@ -113,30 +108,63 @@
 			"Description": {
 				"Id": "PLASMA-Effect",
 				"Name": "Plasma Residue",
-				"Details": "High energy residue reduces heat efficiency by 15%.",
+				"Details": "High energy residue reduces heat efficiency by 1%.",
 				"Icon": "particle"
 			},
 			"nature": "Debuff",
 			"statisticData": {
-				"appliesEachTick": false,
-				"effectsPersistAfterDestruction": false,
 				"statName": "HeatGenerated",
 				"operation": "Float_Multiply",
-				"modValue": "1.15",
+				"modValue": "1.1",
 				"modType": "System.Single",
-				"additionalRules": "NotSet",
-				"targetCollection": "Weapon",
-				"targetWeaponCategory": "NotSet",
-				"targetWeaponType": "NotSet",
-				"targetAmmoCategory": "NotSet",
-				"targetWeaponSubType": "NotSet"
-			},
-			"tagData": null,
-			"floatieData": null,
-			"actorBurningData": null,
-			"vfxData": null,
-			"instantModData": null,
-			"poorlyMaintainedEffectData": null
+				"targetCollection": "Weapon"
+			}
+		}
+	],
+	"Modes": [
+		{
+			"Id": "lv1",
+			"UIName": "Base",
+			"isBaseMode": true
+		},
+		{
+			"Id": "lv2",
+			"UIName": "Low",
+			"isBaseMode": false,
+			"DamagePerShot": 10,
+			"HeatGenerated": 10,
+			"HeatDamagePerShot": 10,
+			"MaxRange": 120.0,
+			"ShortRange": 30.0,
+			"MediumRange": 60.0,
+			"LongRange": 90.0,
+			"AccuracyModifier": 1
+		},
+		{
+			"Id": "lv3",
+			"UIName": "Mid",
+			"isBaseMode": false,
+			"DamagePerShot": 20,
+			"HeatGenerated": 20,
+			"HeatDamagePerShot": 20,
+			"MaxRange": 200.0,
+			"ShortRange": 50.0,
+			"MediumRange": 100.0,
+			"LongRange": 150.0,
+			"AccuracyModifier": 2
+		},
+		{
+			"Id": "lv4",
+			"UIName": "Max",
+			"isBaseMode": false,
+			"DamagePerShot": 30,
+			"HeatGenerated": 30,
+			"HeatDamagePerShot": 30,
+			"MaxRange": 320.0,
+			"ShortRange": 80.0,
+			"MediumRange": 160.0,
+			"LongRange": 240.0,
+			"AccuracyModifier": 3
 		}
 	],
 	"ComponentTags": {
@@ -144,8 +172,7 @@
 			"component_type_stock",
 			"range_standard",
 			"OmniRestriction.{location}",
-			"PlasmaFCSSupported",
-			"WebbTCSupported-SingleShot"
+			"WebbTCSupported-Bombast"
 		],
 		"tagSetSourceFile": ""
 	}

@@ -15,6 +15,15 @@
 			"DamageLevel": "Functional",
 			"prefabName": "",
 			"hasPrefabName": true
+		},
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_CommandMech_Minsk",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": true
 		}
 	],
 	"Description": {

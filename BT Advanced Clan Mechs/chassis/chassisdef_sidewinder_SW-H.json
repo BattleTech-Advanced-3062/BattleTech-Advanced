@@ -18,7 +18,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Sidewinder",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -260,7 +260,7 @@
 			"Tonnage": 0,
 			"InventorySlots": 17,
 			"MaxArmor": 180,
-			"MaxRearArmor": 50,
+			"MaxRearArmor": 46,
 			"InternalStructure": 115
 		},
 		{
@@ -366,6 +366,7 @@
 	"ChassisTags": {
 		"items": [
 			"OmniMech",
+			"OmniArmorLock",
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",

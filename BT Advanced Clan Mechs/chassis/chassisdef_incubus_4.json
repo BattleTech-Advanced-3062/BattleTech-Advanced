@@ -221,15 +221,24 @@
 	"StockRole": "Second Line Garrison",
 	"YangsThoughts": "Clan Hell's Horses Incubus 4 completely changes the weapon loadout with an eye to lower cost, but keeps the core purpose of the 'Mech intact. It mounts a Heavy Large Laser, two Medium Pulse Lasers, two Micro Pulse Lasers, and two ER Micro Lasers. It can quickly build up heat in normal combat situations, but most of the Trials it is involved in necessitate disabling multiple weapons, so this is rarely a problem. The Incubus 4 has quietly proliferated through the Clans as they have trialed against the Horses and can be found in most toumans now.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedSensors_Incubus",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
 	],
 	"CustomParts": {
 		"CustomParts": []

@@ -22,6 +22,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: Lasers",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentHeat: -5",

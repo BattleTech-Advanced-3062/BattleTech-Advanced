@@ -1,0 +1,148 @@
+{
+	"Custom": {
+		"Category": [
+			{
+				"CategoryID": "MASC"
+			},
+			{
+				"CategoryID": "Myomer"
+			}
+		],
+		"Flags": [
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"ComponentExplosion": {
+			"StabilityDamage": 100
+		},
+		"BonusDescriptions": [
+			"JumpDistance: +40%",
+			"HeatGenerated: +15%",
+			"MASCWeight: 50%",
+			"Dynamic: 3"
+		],
+		"DynamicSlots": {
+			"ReservedSlots": 3,
+			"ShowIcon": true,
+			"NameText": "B.S.A.M.",
+			"BonusAText": "Dynamic Slot",
+			"BonusBText": " "
+		},
+		"Weights": {
+			"StructureFactor": 1.5
+		}
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 700000,
+		"Rarity": 100,
+		"Purchasable": false,
+		"Manufacturer": "Kallon Industries",
+		"Model": "B.S.A.M",
+		"UIName": "B.S.A.M",
+		"Id": "Gear_BSAM",
+		"Name": "B.S.A.M",
+		"Details": "Based off of M.A.S.C, the Burst Signal Activated Myomer takes the concept and increases a Battlemech's performance for incredibly short but powerful bursts, specifically during jumping and landing, allowing a Battlemech equipped with this to leap incredible distances. <b><color=#099ff2>Automatically activated, works continuously.</color></b> \n\n <b><color=#e51717>COMMUNITY CONTENT</color></b>",
+		"Icon": "muscular-torso"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 1,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "BSAM_Jump",
+				"Name": "BSAMJump",
+				"Details": "MORE SPEED.",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"statisticData": {
+				"statName": "JumpDistanceMultiplier",
+				"operation": "Float_Multiply",
+				"modValue": "1.4",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"ticksOnActivations": false,
+				"useActivationsOfTarget": false,
+				"ticksOnEndOfRound": false,
+				"ticksOnMovements": false,
+				"stackLimit": 1,
+				"clearedWhenAttacked": false
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"triggerLimit": 0,
+				"extendDurationOnTrigger": 0,
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": false,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Heat_BSAM",
+				"Name": "Increased Heat",
+				"Details": "Heat generation increased by 15%.",
+				"Icon": "uixSvgIcon_equipment_ThermalExchanger"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"appliesEachTick": false,
+				"effectsPersistAfterDestruction": false,
+				"statName": "HeatGenerated",
+				"operation": "Float_Multiply",
+				"modValue": "1.15",
+				"modType": "System.Single",
+				"additionalRules": "NotSet",
+				"targetCollection": "Weapon",
+				"targetWeaponCategory": "NotSet",
+				"targetWeaponType": "NotSet",
+				"targetAmmoCategory": "NotSet",
+				"targetWeaponSubType": "NotSet"
+			},
+			"tagData": null,
+			"floatieData": null,
+			"actorBurningData": null,
+			"vfxData": null,
+			"instantModData": null,
+			"poorlyMaintainedEffectData": null
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"component_type_stock"
+		],
+		"tagSetSourceFile": ""
+	}
+}

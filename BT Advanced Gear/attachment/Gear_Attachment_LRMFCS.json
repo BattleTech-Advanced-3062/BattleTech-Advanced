@@ -23,6 +23,7 @@
 			}
 		],
 		"BonusDescriptions": [
+			"WeaponAttachment",
 			"WeaponAttachmentTargets: LRM-type Weapons",
 			"WeaponAttachmentModifiesModes",
 			"WeaponAttachmentAccuracy: +1",

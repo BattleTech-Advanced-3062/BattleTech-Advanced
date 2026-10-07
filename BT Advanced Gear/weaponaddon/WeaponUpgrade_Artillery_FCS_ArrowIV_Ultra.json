@@ -6,7 +6,7 @@
 	],
 	"modes": [
 		{
-			"Id": "x1",
+			"Id": "Arty x1",
 			"UIName": "FCS x1",
 			"Name": "FCS x1",
 			"isBaseMode": false,
@@ -44,7 +44,7 @@
 			]
 		},
 		{
-			"Id": "x2",
+			"Id": "Arty x2",
 			"UIName": "FCS x2",
 			"Name": "FCS x2",
 			"isBaseMode": true,

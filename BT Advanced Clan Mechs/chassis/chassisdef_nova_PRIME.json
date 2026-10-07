@@ -27,7 +27,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_Nova",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -316,7 +316,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 120,
+			"MaxArmor": 115,
 			"MaxRearArmor": 40,
 			"InternalStructure": 80
 		},
@@ -368,7 +368,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 100,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		},
@@ -377,7 +377,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 120,
+			"MaxArmor": 100,
 			"MaxRearArmor": -1,
 			"InternalStructure": 60
 		}
@@ -431,6 +431,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"MediumMech"
 		],
 		"tagSetSourceFile": ""

@@ -221,15 +221,24 @@
 	"StockRole": "Second Line Garrison",
 	"YangsThoughts": "The Incubus, as it is known among the Clans, is somewhat expensive for a light garrison Mech. Despite this, the Incubus does occasionally show up in second-line garrison forces. The Incubus uses an XL Engine, Endo Steel frame, and five and a half tons of Ferro-Fibrous armor and is armed with primarily medium-range weaponry. The second variant mounts a Streak SRM-6 and a single ton of ammo for the launcher, the weight saved allowing the torso lasers to be upgraded to Medium Pulse Lasers.",
 	"FixedEquipment": [
-		{
-			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "emod_structureslots_clanendosteel",
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		}
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "emod_structureslots_clanendosteel",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Quirk_ImprovedSensors_Incubus",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
 	],
 	"CustomParts": {
 		"CustomParts": []

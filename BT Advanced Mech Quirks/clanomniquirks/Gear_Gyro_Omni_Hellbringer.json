@@ -1,0 +1,169 @@
+{
+	"Custom": {
+		"ComponentExplosion": {
+			"StabilityDamage": 100
+		},
+		"Category": [
+			{
+				"CategoryID": "Gyro"
+			},
+			{
+				"CategoryID": "Quirk"
+			}
+		],
+		"DecoratorComponent":[
+			{
+				"Text":"O",
+				"Color":"#00a2c9",
+				"Icon":"uixSvgIcon_equipment_Gyro",
+				"Importance": 10
+			}
+		],
+		"Flags": [
+			"default",
+			"not_broken",
+			"no_salvage",
+			"autorepair",
+			"ignore_damage"
+		],
+		"BonusDescriptions": [
+			"Defense: +4",
+			"EvaMax: +2",
+			"EvaPips: +1",
+			"GyroStab: 65",
+			"IsGyro",
+			"Omni",
+			"BAMounts"
+		]
+	},
+	"StatName": null,
+	"RelativeModifier": 0,
+	"AbsoluteModifier": 0,
+	"Description": {
+		"Cost": 500000,
+		"Rarity": 99,
+		"Purchasable": false,
+		"Manufacturer": "Quirk",
+		"Model": "Hellbringer Omni",
+		"UIName": "Hellbringer OmniMech Gyro",
+		"Id": "Gear_Gyro_Omni_Hellbringer",
+		"Name": "Hellbringer OmniMech Gyro",
+		"Details": "This piece of gear represents the inherently superior gyro that the Hellbringer possesses as an OmniMech. It provides a number of benefits to the Hellbringer, such as increased stability, boosted evasion generated, increased maximum evasion, and increased base defense. It also contains the benefits inherent to OmniMechs and permits the Hellbringer to also function as an OmniMech.",
+		"Icon": "uixSvgIcon_equipment_Gyro"
+	},
+	"BonusValueA": "",
+	"BonusValueB": "",
+	"ComponentType": "Upgrade",
+	"ComponentSubType": "NotSet",
+	"PrefabIdentifier": "",
+	"BattleValue": 0,
+	"InventorySize": 3,
+	"Tonnage": 0,
+	"AllowedLocations": "CenterTorso",
+	"DisallowedLocations": "All",
+	"CriticalComponent": false,
+	"statusEffects": [
+		{
+			"durationData": {
+				"duration": -1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "GyroGenericThreshhold",
+				"Name": "Gyroscopic Orientation",
+				"Details": "The gyro helps establish center-of-mass equilibrium for the BattleMech.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "UnsteadyThreshold",
+				"operation": "Float_Add",
+				"modValue": "65.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "Gyro-Hellbringer-Defense",
+				"Name": "Hellbringer Omni Quirk",
+				"Details": "Provides increased stability, boosted evasion generated, increased maximum evasion, and increased base defense to the Hellbringer.",
+				"Icon": "uixSvgIcon_equipment_Gyro"
+			},
+			"statisticData": {
+				"statName": "ToHitThisActor",
+				"operation": "Float_Add",
+				"modValue": "4.0",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-HellbringerEvaMax",
+				"Name": "Hellbringer Eva Max",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "MaxEvasivePips",
+				"operation": "Int_Add",
+				"modValue": "1",
+				"modType": "System.Int32"
+			}
+		},
+		{
+			"durationData": {},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "StatusEffect-Gyro-HellbringerEvaGained",
+				"Name": "Hellbringer Eva Gained",
+				"Details": "All incoming damage increased by 30%.",
+				"Icon": "layeredarmor"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "EvasivePipsGainedAdditional",
+				"operation": "Int_Add",
+				"modValue": "2",
+				"modType": "System.Int32"
+			}
+		}
+	],
+	"ComponentTags": {
+		"items": [
+			"BLACKLISTED",
+			"component_type_variant"
+		],
+		"tagSetSourceFile": ""
+	}
+}

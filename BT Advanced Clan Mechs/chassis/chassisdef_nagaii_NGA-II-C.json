@@ -8,7 +8,7 @@
 	},
 	"FixedEquipment": [
 		{
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_NagaII",
 			"ComponentDefType": "Upgrade",
 			"DamageLevel": "Functional",
 			"GUID": null,
@@ -187,7 +187,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -209,8 +209,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxArmor": 75,
+			"MaxRearArmor": 45,
 			"InternalStructure": 85
 		},
 		{
@@ -218,8 +218,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 175,
-			"MaxRearArmor": 55,
+			"MaxArmor": 85,
+			"MaxRearArmor": 50,
 			"InternalStructure": 125
 		},
 		{
@@ -236,8 +236,8 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 120,
-			"MaxRearArmor": 55,
+			"MaxArmor": 75,
+			"MaxRearArmor": 45,
 			"InternalStructure": 85
 		},
 		{
@@ -254,7 +254,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 130,
+			"MaxArmor": 70,
 			"MaxRearArmor": -1,
 			"InternalStructure": 65
 		},
@@ -263,7 +263,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		},
@@ -272,7 +272,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 170,
+			"MaxArmor": 80,
 			"MaxRearArmor": -1,
 			"InternalStructure": 85
 		}
@@ -327,6 +327,7 @@
 			"mr-resize-1.05-1.05-1.05",
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"
@@ -336,6 +337,6 @@
 	"StockRole": "Reworked OmniMech",
 	"YangsThoughts": "The Naga II's story is the story of the Woodsman, an early Clan Wolf OmniMech that had two development paths. One led to the Timber Wolf and the other was largely a failure that eventually led to the Naga, an artillery-focused OmniMech with extensive limitations. However, the ever-pragmatic Wolves found uses for the original failed Woodsman prototypes and reworked it as the Naga II. The Naga II shares the Naga I's 400-rated XL engine, Endo-Steel frame, and poor armor but drops the heavy artillery weapons for a more direct-fire payload. The C configuration is an all-range config, using a LRM-15, UAC/5, Large Pulse Laser, Streak SRM-6, two Medium Pulse Lasers, and a quartet of Machine Guns, ensuring it is effective in all situations.",
 	"CustomParts": {
-		"CustomParts": []
+		"FiringArc": 360
 	}
 }
