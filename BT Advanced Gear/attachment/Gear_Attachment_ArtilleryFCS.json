@@ -47,7 +47,7 @@
 		"UIName": "Artillery FCS",
 		"Id": "Gear_Attachment_ArtilleryFCS",
 		"Name": "Artillery FCS Attachment",
-		"Details": "This Fire Control System is designed for Artillery-type weapons, such as Thumpers (artillery piece and cannon), Snipers (artillery piece and cannon), Long Toms (artillery piece and cannon), Arrow IVs, Siroccos, and Howitzers, and strongly improves their effectiveness in battle at the cost of weight and space. Generally however, this is considered a resonable tradeoff for the benefits such fire control systems provide.",
+		"Details": "This Fire Control System is designed for Artillery-type weapons, such as Thumpers (artillery piece and cannon), Snipers (artillery piece and cannon), Long Toms (artillery piece and cannon), Arrow IVs, Siroccos, and Howitzers, and strongly improves their effectiveness in battle at the cost of weight and space. Generally however, this is considered a reasonable tradeoff for the benefits such fire control systems provide.",
 		"Icon": "WeaponAttachment"
 	},
 	"BonusValueA": "",
