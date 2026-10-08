@@ -15,7 +15,7 @@
 	"localizeName": true,
 	"defaultEmotePortrait": {
 		"emote": "Default",
-		"portraitAssetPath": "../../Mods/BTA_Campaigns/sprite/eras_portraits_M_045.png"
+		"portraitAssetPath": "../../Mods/BT Advanced Campaigns/sprite/eras_portraits_M_045.png"
 	},
 	"emotePotraitList": []
 }
