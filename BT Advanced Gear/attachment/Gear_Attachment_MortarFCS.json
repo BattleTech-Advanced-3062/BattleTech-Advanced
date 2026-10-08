@@ -36,7 +36,7 @@
 		"UIName": "Mortar FCS",
 		"Id": "Gear_Attachment_MortarFCS",
 		"Name": "Mortar FCS Attachment",
-		"Details": "This Fire Control System is designed for Mortar-type weapons, such as Mortars, Bombards, and Mech Grenade Launchers, and strongly improves their accuracy in battle at the cost of weight and space. Generally however, this is considered a resonable tradeoff for the benefits such fire control systems provide.",
+		"Details": "This Fire Control System is designed for Mortar-type weapons, such as Mortars, Bombards, and Mech Grenade Launchers, and strongly improves their accuracy in battle at the cost of weight and space. Generally however, this is considered a reasonable tradeoff for the benefits such fire control systems provide.",
 		"Icon": "WeaponAttachment"
 	},
 	"BonusValueA": "",
