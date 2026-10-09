@@ -105,6 +105,7 @@
 			"BattleRoyaleV2"
 		],
 		"SkipWhenTaggedWithAny": [
+			"lance_type_actualsolo",
 			"lance_type_solo"
 		],
 		"SkipWhenTaggedWithAll": [],
