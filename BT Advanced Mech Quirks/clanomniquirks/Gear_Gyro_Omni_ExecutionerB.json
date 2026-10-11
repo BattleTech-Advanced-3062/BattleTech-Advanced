@@ -35,7 +35,7 @@
 		"BonusDescriptions": [
 			"ArmAccuracy: +3",
 			"JumpDistance: +50%",
-			"GyroStab: 25",
+			"GyroStab: 95",
 			"IsGyro",
 			"Omni",
 			"BAMounts"
