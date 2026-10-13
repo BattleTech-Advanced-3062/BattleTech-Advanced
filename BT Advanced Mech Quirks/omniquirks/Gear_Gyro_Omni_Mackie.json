@@ -110,7 +110,7 @@
 			"Description": {
 				"Id": "Gyro-OmniMackie-Sprint",
 				"Name": "Mackie Omni Quirk",
-				"Details": "Provides increased sprinting speed, an increased unsteady threshold, increased weapona accuracy, and better damage reduction to the Mackie Omni.",
+				"Details": "Provides increased sprinting speed, an increased unsteady threshold, increased weapon accuracy, and better damage reduction to the Mackie Omni.",
 				"Icon": "uixSvgIcon_equipment_Gyro"
 			},
 			"statisticData": {

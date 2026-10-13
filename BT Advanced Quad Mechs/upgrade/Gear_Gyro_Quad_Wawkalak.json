@@ -59,7 +59,7 @@
 		"UIName": "Wawkalak OmniMech Gyro",
 		"Id": "Gear_Gyro_Quad_Wawkalak",
 		"Name": "Wawkalak OmniMech Gyro",
-		"Details": "This piece of gear represents the inherently superior gyro that the Wawkalak possesses as both an OmniMech and a QuadMech. It provides a number of benefits to the Wawkalak, such as bonus movement speed, a damage and accuracy bonus to kick attacks, a higher unsteady threshold, increased weapona accuracy, and slightly better damage reduction than regular mechs. It also contains the benefits inherent to OmniMechs and permits the Wawkalak to also function as an OmniMech.",
+		"Details": "This piece of gear represents the inherently superior gyro that the Wawkalak possesses as both an OmniMech and a QuadMech. It provides a number of benefits to the Wawkalak, such as bonus movement speed, a damage and accuracy bonus to kick attacks, a higher unsteady threshold, increased weapon accuracy, and slightly better damage reduction than regular mechs. It also contains the benefits inherent to OmniMechs and permits the Wawkalak to also function as an OmniMech.",
 		"Icon": "uixSvgIcon_equipment_Gyro"
 	},
 	"BonusValueA": "",
