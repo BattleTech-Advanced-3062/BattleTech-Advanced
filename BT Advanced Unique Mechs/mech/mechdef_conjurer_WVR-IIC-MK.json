@@ -30,7 +30,7 @@
 		"UIName": "Mordenkainen WVR-IIC-MK",
 		"Id": "mechdef_conjurer_WVR-IIC-MK",
 		"Name": "Mordenkainen",
-		"Details": "Named after an obscure character from a fantasy novel, Mordenkainen is a rare example of a Clan second-line chassis in the gameworld arenas. However, unlike most of its fellow designs, Mordenkainen is armed with the most cutting edge technology its designer could get their hands on: a quintet of ER Medium Pulse Lasers. Backing up the advanced lasers are a pair of SRM-4s (Clan-spec, of course). Ther est of the mech is stunningly traditional by Clan standards.",
+		"Details": "Named after an obscure character from a fantasy novel, Mordenkainen is a rare example of a Clan second-line chassis in the gameworld arenas. However, unlike most of its fellow designs, Mordenkainen is armed with the most cutting edge technology its designer could get their hands on: a quintet of ER Medium Pulse Lasers. Backing up the advanced lasers are a pair of SRM-4s (Clan-spec, of course). The rest of the Mech is stunningly traditional by Clan standards.",
 		"Icon": "uixTxrIcon_conjurer"
 	},
 	"simGameMechPartCost": 1210000,
