@@ -749,7 +749,8 @@
 				"lanceTagSet": {
 					"items": [
 						"lance_type_battle",
-						"lance_type_notallvehicles"
+						"lance_type_notallvehicles",
+						"no_extended_lance"
 					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
@@ -1070,7 +1071,9 @@
 				"name": "Lance_Enemy_AssassinationTarget",
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
-					"items": [],
+					"items": [
+						"no_extended_lance"
+					],
 					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {

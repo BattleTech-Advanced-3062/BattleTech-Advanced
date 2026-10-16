@@ -6,7 +6,7 @@
 			"Action": "ArrayAdd",
 			"Value": {
 				"ID": "diff_EZMode",
-				"Name": "Medium Mechs",
+				"Name": "EZ Mode",
 				"TelemetryEventDesc": "",
 				"DifficultyValue": -1,
 				"CareerScoreModifier": 0.0,
@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Starting_Brawling_Medium,itemCollection_Mechs_Starting_Fire_Support_Medium,itemCollection_Mechs_Starting_Recon_Medium,itemCollection_Mechs_Starting_Sniper_Medium,itemCollection_Mechs_Starting_Generic_Medium"
+						"ConstantValue": "itemCollection_Mechs_Starting_Brawling_Medium,itemCollection_Mechs_Starting_Fire_Support_Medium,itemCollection_Mechs_Starting_Recon_Medium,itemCollection_Mechs_Starting_Sniper_Medium,itemCollection_Mechs_Starting_Generic_Medium,itemCollection_Mechs_Starting_Generic_Medium,itemCollection_Mechs_Generic_Tank_Light,itemCollection_Mechs_Generic_Tank_Light,itemCollection_Mechs_Generic_Tank_Medium,itemCollection_Mechs_Generic_Tank_Medium"
 					}
 				]
 			}
