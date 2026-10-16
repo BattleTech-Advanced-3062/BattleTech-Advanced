@@ -3365,7 +3365,7 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "805d4192-850e-446e-afe4-cdb8a30685b4"
 						},
-						"customUnitName": "",
+						"customUnitName": "Agamemnon",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
 						"unitDefId": "mechDef_InheritLance",
@@ -3398,7 +3398,7 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "6ae5d3ea-3c9d-4d76-b1c7-76abe1b298ff"
 						},
-						"customUnitName": "",
+						"customUnitName": "Menelaus",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
 						"unitDefId": "mechDef_InheritLance",
@@ -3431,7 +3431,7 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "c4b4e072-864a-4158-8daf-2d35deee61ec"
 						},
-						"customUnitName": "",
+						"customUnitName": "Anaxibia",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
 						"unitDefId": "mechDef_InheritLance",
@@ -3464,7 +3464,7 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "83c28f4a-e44d-4d82-8c0f-f66dbe5abbe9"
 						},
-						"customUnitName": "",
+						"customUnitName": "Iphigenia",
 						"customHeraldryDefId": "",
 						"unitType": "Mech",
 						"unitDefId": "mechDef_InheritLance",
