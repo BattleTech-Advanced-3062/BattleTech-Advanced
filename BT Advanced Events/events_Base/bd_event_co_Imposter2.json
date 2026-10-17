@@ -231,7 +231,7 @@
 								},
 								{
 									"typeString": "System.Int32",
-									"name": "Reputation.WordofBlake",
+									"name": "Reputation.WordOfBlake",
 									"value": "40",
 									"set": false,
 									"valueConstant": "[rep_gain_verylarge]"

@@ -89,7 +89,7 @@
 					"Weight": 100,
 					"Results": [
 						{
-							"Scope": "MechWarrior",
+							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
 								"tagSetSourceFile": "Tags/PilotTags",
@@ -108,7 +108,7 @@
 							"ResultDuration": 720
 						},
 						{
-							"Scope": "MechWarrior",
+							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
 								"tagSetSourceFile": "Tags/PilotTags",
@@ -143,14 +143,14 @@
 								{
 									"typeString": "System.Int32",
 									"name": "Reputation.ComStar",
-									"value": "20",
+									"value": "30",
 									"set": false,
 									"valueConstant": "[rep_gain_verylarge]"
 								},
 								{
 									"typeString": "System.Int32",
-									"name": "Reputation.WordofBlake",
-									"value": "-20",
+									"name": "Reputation.WordOfBlake",
+									"value": "-30",
 									"set": false,
 									"valueConstant": "[rep_loss_verylarge]"
 								}
