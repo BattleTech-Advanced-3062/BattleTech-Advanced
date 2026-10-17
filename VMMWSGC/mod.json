@@ -22,7 +22,7 @@
 			"ContractAccepted": true,
 			"ContractCompleted": true,
 			"EventResolved": true,
-			"FinancialReport": false
+			"FinancialReport": true
 		},
 		"RunOnInvisibleToast": false,
 		"OverrideSaveSystem": false
