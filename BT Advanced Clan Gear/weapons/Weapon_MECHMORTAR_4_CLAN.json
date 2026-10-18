@@ -21,12 +21,12 @@
 	"Category": "Ballistic",
 	"Type": "Autocannon",
 	"WeaponSubType": "AC5",
-	"MinRange": 180,
-	"MaxRange": 840,
+	"MinRange": 90,
+	"MaxRange": 600,
 	"RangeSplit": [
-		210,
-		420,
-		630
+		150,
+		300,
+		450
 	],
 	"AmmoCategory": "MORTAR",
 	"StartingAmmoCapacity": 0,
