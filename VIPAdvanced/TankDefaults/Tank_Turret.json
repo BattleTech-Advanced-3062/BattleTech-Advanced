@@ -10,15 +10,15 @@
 		],
 		"Flags": [
 			"not_broken",
-				"no_salvage",
-				"autorepair"
+			"no_salvage",
+			"autorepair"
 		],
 		"BonusDescriptions": [
-				"Radius: 360",
-				"Turret: +1",
-				"Sight: +15%",
-				"CritRes: -10%"
-			],
+			"Radius: 360",
+			"Turret: +1",
+			"Sight: +15%",
+			"CritRes: -10%"
+		],
 		"VehicleCriticalEffects": {
 			"LinkedStatisticName": "VehicleTurretSystemCrits",
 			"PenalizedEffectIDs": [
@@ -79,7 +79,7 @@
 				"Id": "TankCritPenalizedTurret",
 				"Name": "ChargerSprint",
 				"Details": "MORE SPEED.",
-				"Icon": "uixSvgIcon_run_n_gun"
+				"Icon": "tank"
 			},
 			"statisticData": {
 				"statName": "CriticalHitChanceReceivedMultiplier",
@@ -105,7 +105,7 @@
 				"Id": "Tank-Turret-Spotting",
 				"Name": "SPOTTING DISTANCE INCREASED",
 				"Details": "Increases spotting distance by 15%",
-				"Icon": "uixSvgIcon_equipment_Cockpit"
+				"Icon": "tank"
 			},
 			"nature": "Buff",
 			"statisticData": {
@@ -131,9 +131,9 @@
 			"effectType": "StatisticEffect",
 			"Description": {
 				"Id": "Status-TurretAccuracy-{location}",
-				"Name": "Lower Arm Accuracy",
+				"Name": "Turret Accuracy",
 				"Details": "+1 Turret Mounted Accuracy.",
-				"Icon": "uixSvgIcon_equipment_ActuatorArm"
+				"Icon": "tank"
 			},
 			"nature": "Buff",
 			"statisticData": {
