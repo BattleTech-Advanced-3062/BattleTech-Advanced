@@ -24,7 +24,7 @@
 	],
 	"AmmoCategory": "RAC5",
 	"StartingAmmoCapacity": 0,
-	"HeatGenerated": 13,
+	"HeatGenerated": 14,
 	"Damage": 40,
 	"OverheatedDamageMultiplier": 0,
 	"EvasiveDamageMultiplier": 0,
