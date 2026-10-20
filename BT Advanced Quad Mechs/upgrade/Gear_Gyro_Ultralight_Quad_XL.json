@@ -30,7 +30,7 @@
 			"GyroStab: 30",
 			"WalkSpeed: +10%",
 			"RunSpeed: +10%",
-			"KickDamageBonus: +20",
+			"KickDamageBonus: +10%",
 			"KickAccuracy: +1",
 			"EvaPips: +2",
 			"Defense: +2",
@@ -294,10 +294,10 @@
 			},
 			"nature": "Buff",
 			"statisticData": {
-				"statName": "CBTBE_Kick_Target_Damage_Mod",
-				"operation": "Int_Add",
-				"modValue": "20",
-				"modType": "System.Int32"
+				"statName": "CBTBE_Kick_Target_Damage_Multi",
+				"operation": "Float_Multiply",
+				"modValue": "1.1",
+				"modType": "System.Single"
 			}
 		},
 		{
