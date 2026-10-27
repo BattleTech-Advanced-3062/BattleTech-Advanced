@@ -13,7 +13,7 @@
 		},
 		"BonusDescriptions": [
 				"Health: +1",
-				"ArmoredCowl: 15",
+				"ArmoredCowl: 5",
 				"PilotRecovery",
 				"IsCockpit"
 			]
@@ -118,7 +118,7 @@
 			"statisticData": {
 				"statName": "{location}.Structure",
 				"operation": "Float_Add",
-				"modValue": "15",
+				"modValue": "5",
 				"modType": "System.Single"
 			}
 		},

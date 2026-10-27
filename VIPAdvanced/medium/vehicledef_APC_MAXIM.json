@@ -376,6 +376,13 @@
 			"DamageLevel": "Functional"
 		},
 		{
+			"MountedLocation": "Rear",
+			"ComponentDefID": "Gear_Airdrop_Beacon_BA_IS_Standard",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"DamageLevel": "Functional"
+		},
+		{
 			"MountedLocation": "Front",
 			"ComponentDefID": "Tank_FCS_Generic",
 			"ComponentDefType": "Upgrade",
