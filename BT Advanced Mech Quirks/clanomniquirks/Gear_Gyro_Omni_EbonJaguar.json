@@ -116,7 +116,8 @@
 				"modType": "System.Single",
 				"modValue": "1.15",
 				"operation": "Float_Multiply",
-				"statName": "DamagePerShot"
+				"statName": "DamagePerShot",
+				"targetCollection": "Weapon"
 			},
 			"nature": "Buff"
 		},
