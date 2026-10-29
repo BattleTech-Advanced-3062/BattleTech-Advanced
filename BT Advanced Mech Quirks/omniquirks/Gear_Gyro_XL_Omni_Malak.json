@@ -33,10 +33,10 @@
 			"ignore_damage"
 		],
 		"BonusDescriptions": [
-			"WalkSpeed: +10%",
+			"WalkSpeed: +15%",
 			"RunSpeed: +10%",
-			"TorsoAccuracy: +2",
-			"HeadAccuracy: +2",
+			"TorsoAccuracy: +4",
+			"HeadAccuracy: +4",
 			"GyroWeight: -30%",
 			"GyroStab: 30",
 			"IsGyro",
@@ -121,7 +121,7 @@
 			"statisticData": {
 				"statName": "WalkSpeed",
 				"operation": "Float_Multiply",
-				"modValue": "1.1",
+				"modValue": "1.15",
 				"modType": "System.Single"
 			},
 			"nature": "Buff"
@@ -195,7 +195,7 @@
 			"statisticData": {
 				"statName": "Head.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
+				"modValue": "-4.0",
 				"modType": "System.Single"
 			}
 		},
@@ -217,7 +217,7 @@
 			"statisticData": {
 				"statName": "RightTorso.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
+				"modValue": "-4.0",
 				"modType": "System.Single"
 			}
 		},
@@ -239,7 +239,7 @@
 			"statisticData": {
 				"statName": "LeftTorso.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-2.0",
+				"modValue": "-4.0",
 				"modType": "System.Single"
 			}
 		}

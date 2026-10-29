@@ -34,8 +34,8 @@
 		],
 		"BonusDescriptions": [
 			"DamageMod: +10%",
-			"RightArmAccuracy: +3",
-			"HeadAccuracy: +3",
+			"RightArmAccuracy: +4",
+			"HeadAccuracy: +4",
 			"GyroWeight: -30%",
 			"GyroStab: 60",
 			"IsGyro",
@@ -169,7 +169,7 @@
 			"statisticData": {
 				"statName": "Head.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-3.0",
+				"modValue": "-4.0",
 				"modType": "System.Single"
 			}
 		},
@@ -191,7 +191,7 @@
 			"statisticData": {
 				"statName": "RightArm.Accuracy",
 				"operation": "Float_Add",
-				"modValue": "-3.0",
+				"modValue": "-4.0",
 				"modType": "System.Single"
 			}
 		}
