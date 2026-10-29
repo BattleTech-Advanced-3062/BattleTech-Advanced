@@ -58,7 +58,7 @@
 		},
 		{
 			"MountedLocation": "CenterTorso",
-			"ComponentDefID": "Gear_Gyro_Omnimech",
+			"ComponentDefID": "Gear_Gyro_Omni_SunSpider",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -183,7 +183,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
+			"MaxArmor": 85,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		},
@@ -210,8 +210,8 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 17,
-			"MaxArmor": 165,
-			"MaxRearArmor": 55,
+			"MaxArmor": 141,
+			"MaxRearArmor": 35,
 			"InternalStructure": 110
 		},
 		{
@@ -246,7 +246,7 @@
 			],
 			"Tonnage": 0,
 			"InventorySlots": 12,
-			"MaxArmor": 110,
+			"MaxArmor": 85,
 			"MaxRearArmor": -1,
 			"InternalStructure": 55
 		},
@@ -255,7 +255,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 110,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		},
@@ -264,7 +264,7 @@
 			"Hardpoints": [],
 			"Tonnage": 0,
 			"InventorySlots": 6,
-			"MaxArmor": 150,
+			"MaxArmor": 110,
 			"MaxRearArmor": -1,
 			"InternalStructure": 75
 		}
@@ -318,6 +318,7 @@
 		"items": [
 			"ClanMech",
 			"OmniMech",
+			"OmniArmorLock",
 			"HeroMech",
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
