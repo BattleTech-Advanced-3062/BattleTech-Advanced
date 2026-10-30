@@ -13,7 +13,7 @@
 		"Purchasable": false
 	},
 	"MovementCapDefID": "movedef_8-12cv",
-	"PathingCapDefID": "pathingdef_ultralight",
+	"PathingCapDefID": "pathingdef_light_hover",
 	"HardpointDataDefID": "hardpointdatadef_gabriel",
 	"PrefabIdentifier": "chrprfvhcl_gabriel",
 	"PrefabBase": "gabriel",

@@ -25,7 +25,7 @@
 	"YangsThoughts": "It's a tank, Boss, they all look the same to me.",
 	"MovementCapDefID": "movedef_13-20cv",
 	"movementType": "Wheeled",
-	"PathingCapDefID": "pathingdef_ultralight",
+	"PathingCapDefID": "pathingdef_light_hover",
 	"HardpointDataDefID": "hardpointdatadef_savannah",
 	"PrefabIdentifier": "chrprfvhcl_savannahbase",
 	"PrefabBase": "savannah",

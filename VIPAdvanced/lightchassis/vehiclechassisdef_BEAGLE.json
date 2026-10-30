@@ -14,7 +14,7 @@
 		"Purchasable": false
 	},
 	"MovementCapDefID": "movedef_10-15cv",
-	"PathingCapDefID": "pathingdef_ultralight",
+	"PathingCapDefID": "pathingdef_light_hover",
 	"HardpointDataDefID": "hardpointdatadef_beagle",
 	"PrefabIdentifier": "chrprfvhcl_beagle",
 	"PrefabBase": "beagle",
