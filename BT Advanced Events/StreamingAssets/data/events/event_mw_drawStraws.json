@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_drawStraws",
         "Name" : "Drawing Straws",
-        "Details" : "Dr. Murad gestures grandly at a bright yellow growth on the corridor wall in front of you. \"Meet the <i>Argo</i>'s very own mold problem. It started in the unfinished Gamma Pod, and despite my best efforts, it's spreading unchecked.\" She pokes at it with a screwdriver, frowning.\r\n\r\n\"I've seen this before, Boss.\" Yang takes the screwdriver out of Dr. Murad's hand and wipes it off. \"I know how to kill it, but whoever you pick for the job needs to be in a HazMat suit. And considering how widespread this infestation is, they're gonna be stewing in that suit for a long time.\"\r\n\r\nDr. Murad nods grimly. \"I was afraid of that. Any thoughts on who we should saddle with such an unpleasant task? I suppose we could ask for volunteers\u2026\"\r\n\r\n\"No one's gonna volunteer for HazMat duty,\" Yang chuckles. \"We may as well draw straws.\"",
+        "Details" : "Dr. Murad gestures grandly at a bright yellow growth on the corridor wall in front of you. \"Meet the DropShip's very own mold problem. It started in the unfinished Gamma Pod, and despite my best efforts, it's spreading unchecked.\" She pokes at it with a screwdriver, frowning.\r\n\r\n\"I've seen this before, Boss.\" Yang takes the screwdriver out of Dr. Murad's hand and wipes it off. \"I know how to kill it, but whoever you pick for the job needs to be in a HazMat suit. And considering how widespread this infestation is, they're gonna be stewing in that suit for a long time.\"\r\n\r\nDr. Murad nods grimly. \"I was afraid of that. Any thoughts on who we should saddle with such an unpleasant task? I suppose we could ask for volunteers\u2026\"\r\n\r\n\"No one's gonna volunteer for HazMat duty,\" Yang chuckles. \"We may as well draw straws.\"",
         "Icon" : "uixTxrSpot_FarahTalking.png"
     },
     "Scope" : "MechWarrior",
@@ -101,7 +101,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "The, uhm, winner is",
-                        "Details" : "Darius' voice crackles through the <i>Argo</i>'s speakers.\r\n\r\n\"The <i>Argo</i> has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from the MedBay is doing the majority of the cleanup work, so don't get sick or injured because no one will be there to patch you up. Oliveira out.\"",
+                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from the MedBay is doing the majority of the cleanup work, so don't get sick or injured because no one will be there to patch you up. Oliveira out.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -160,7 +160,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "The, uhm, winner is",
-                        "Details" : "Darius' voice crackles through the <i>Argo</i>'s speakers.\r\n\r\n\"The <i>Argo</i> has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from Mech Bay is doing the majority of the cleanup work. So if your 'Mech isn't getting the love you think it deserves, just remember it could have been you doing the cleaning. Oliveira out.\"",
+                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from Mech Bay is doing the majority of the cleanup work. So if your 'Mech isn't getting the love you think it deserves, just remember it could have been you doing the cleaning. Oliveira out.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -219,7 +219,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Volunteer",
-                        "Details" : "Darius' voice crackles through the <i>Argo</i>'s speakers.\r\n\r\n\"The <i>Argo</i> has developed a mold problem. Chief Virtanen has developed a highly toxic cleaning solution that will solve this. Volunteer fungus exterminators are requested to report to the Command Center. You'll get a HazMat suit, a pressurized backpack, a wetvac, and exemption from your other duties for the next few weeks.\"\r\n\r\nEventually [[TGT_MW,{TGT_MW.Callsign}]] arrives. \"Here I am. I guess I can take one for the team.\"\r\n \r\nYou clap {TGT_MW.Callsign} on the back. \"Excellent.  Go see the Chief for instructions, and the XO will update your schedule.\"",
+                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. Chief Virtanen has developed a highly toxic cleaning solution that will solve this. Volunteer fungus exterminators are requested to report to the Command Center. You'll get a HazMat suit, a pressurized backpack, a wetvac, and exemption from your other duties for the next few weeks.\"\r\n\r\nEventually [[TGT_MW,{TGT_MW.Callsign}]] arrives. \"Here I am. I guess I can take one for the team.\"\r\n \r\nYou clap {TGT_MW.Callsign} on the back. \"Excellent.  Go see the Chief for instructions, and the XO will update your schedule.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -258,7 +258,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "No volunteers",
-                        "Details" : "Darius' voice crackles through the <i>Argo</i>'s speakers.\r\n\r\n\"The <i>Argo</i> has developed a mold problem. Chief Virtanen has developed a highly toxic cleaning solution that will solve this. Volunteer fungus exterminators are requested to report to the Command Center. You'll get a HazMat suit, a pressurized backpack, a wetvac, and exemption from your other duties for the next few weeks.\"\r\n\r\nAfter half an hour without a response, Darius again switches on the intercom. \"We have no volunteers, so I will now randomly draw some names. [[TGT_MW,{TGT_MW.Callsign}]]! You're up. And helping you speed along will be\u2026 [[SCN_MW,{SCN_MW.Callsign}]]. Both of you check in with the Chief for instructions. Oliveira out.\"",
+                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. Chief Virtanen has developed a highly toxic cleaning solution that will solve this. Volunteer fungus exterminators are requested to report to the Command Center. You'll get a HazMat suit, a pressurized backpack, a wetvac, and exemption from your other duties for the next few weeks.\"\r\n\r\nAfter half an hour without a response, Darius again switches on the intercom. \"We have no volunteers, so I will now randomly draw some names. [[TGT_MW,{TGT_MW.Callsign}]]! You're up. And helping you speed along will be\u2026 [[SCN_MW,{SCN_MW.Callsign}]]. Both of you check in with the Chief for instructions. Oliveira out.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,

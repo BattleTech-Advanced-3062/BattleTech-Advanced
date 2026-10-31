@@ -119,7 +119,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "earns a cautious tag",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the <i>Argo</i> later that week. You see {TGT_MW.Obj} in the mess hall, head hung low over a plate of barely touched food.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}. \"It didn't go\u2026 quite like I hoped. Those locals, wow, they have NO fear. I dove fine off the first couple tiers, but after that, well, it's a long way down to the water.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the DropShip later that week. You see {TGT_MW.Obj} in the mess hall, head hung low over a plate of barely touched food.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}. \"It didn't go\u2026 quite like I hoped. Those locals, wow, they have NO fear. I dove fine off the first couple tiers, but after that, well, it's a long way down to the water.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -187,7 +187,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "earns a brave tag",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the <i>Argo</i> later that week. You see {TGT_MW.Obj} in the mess hall, regaling listeners with tales of derring-do.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says} enthusiastically. \"I didn't win, but I feel like I did pretty well. Those locals, wow, they have NO fear. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the DropShip later that week. You see {TGT_MW.Obj} in the mess hall, regaling listeners with tales of derring-do.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says} enthusiastically. \"I didn't win, but I feel like I did pretty well. Those locals, wow, they have NO fear. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -255,7 +255,7 @@
                     "Description" : {
                         "Id" : "outcome_1_2",
                         "Name" : "earns a brave tag and injury",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the <i>Argo</i> later that week. You find {TGT_MW.Obj} in the mess hall, one arm in a cast, regaling listeners with tales of derring-do.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition, but I, uh, may have over-reached a little bit,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}, holding up the broken limb.\r\n\r\n\"Those locals, wow, they have NO fear. From the highest tiers on the cliff, it's a long way down to the water. Surprisingly hard water. Getting shot at by PPCs is probably safer.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the DropShip later that week. You find {TGT_MW.Obj} in the mess hall, one arm in a cast, regaling listeners with tales of derring-do.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition, but I, uh, may have over-reached a little bit,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}, holding up the broken limb.\r\n\r\n\"Those locals, wow, they have NO fear. From the highest tiers on the cliff, it's a long way down to the water. Surprisingly hard water. Getting shot at by PPCs is probably safer.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -355,7 +355,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "earns a cautious tag",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the <i>Argo</i> later that week. You find {TGT_MW.Obj} in the mess hall, head hung low over a plate of barely touched food. The crew who also attended the competition are trying to cheer {TGT_MW.Obj} up.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}. \"It didn't go\u2026 quite like I hoped. Those locals, wow, they have NO fear. I dove fine off the first couple tiers, but after that, well, it's a long way down to the water.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the DropShip later that week. You find {TGT_MW.Obj} in the mess hall, head hung low over a plate of barely touched food. The crew who also attended the competition are trying to cheer {TGT_MW.Obj} up.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition,\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}. \"It didn't go\u2026 quite like I hoped. Those locals, wow, they have NO fear. I dove fine off the first couple tiers, but after that, well, it's a long way down to the water.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -455,7 +455,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "earns a brave tag",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the <i>Argo</i> later that week. You find {TGT_MW.Obj} in the mess hall, regaling listeners with tales of derring-do. The crew who also attended are adding their own color commentary.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says} enthusiastically. \"I didn't win, but I certainly made a good showing for myself. Those locals, wow, they have NO fear. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] returns to the DropShip later that week. You find {TGT_MW.Obj} in the mess hall, regaling listeners with tales of derring-do. The crew who also attended are adding their own color commentary.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition!\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says} enthusiastically. \"I didn't win, but I certainly made a good showing for myself. Those locals, wow, they have NO fear. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -689,7 +689,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "earns a brave tag",
-                        "Details" : "Before heading to the planet's surface, [[TGT_MW,{TGT_MW.Callsign}]] spends hour after hour in the <i>Argo</i>'s Low-G pool, practicing elaborate tucks and somersaults.\r\n\r\nA week later, you find {TGT_MW.Callsign} in the mess hall, regaling listeners with tales of derring-do. The crew who attended put in their own color commentary.\r\n\r\n\"Commander, thanks for letting me compete. I didn't win, but the locals were impressed with my technique. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
+                        "Details" : "Before heading to the planet's surface, [[TGT_MW,{TGT_MW.Callsign}]] spends hour after hour in the DropShip's Low-G pool, practicing elaborate tucks and somersaults.\r\n\r\nA week later, you find {TGT_MW.Callsign} in the mess hall, regaling listeners with tales of derring-do. The crew who attended put in their own color commentary.\r\n\r\n\"Commander, thanks for letting me compete. I didn't win, but the locals were impressed with my technique. I managed to keep up with them for a while, but the highest tiers on the cliff? It's a long way down to the water. Getting shot at by PPCs is probably safer.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -789,7 +789,7 @@
                     "Description" : {
                         "Id" : "outcome_3_1",
                         "Name" : "earns a brave tag and injury",
-                        "Details" : "Before heading out, [[TGT_MW,{TGT_MW.Callsign}]] spends time in the <i>Argo</i>'s Low-G pool, practicing elaborate tucks and somersaults.\r\n\r\nA week later, you find {TGT_MW.Callsign} in the mess hall, regaling listeners with tales of derring-do, aided by details from the cheering squad.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition. I did well, but the locals' encouragement kind of went to my head.\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}, holding up the broken limb.\r\n\r\n\"The highest tiers of the cliff got me. It was a long way down to very hard water! Getting shot at by PPCs is probably safer.\"",
+                        "Details" : "Before heading out, [[TGT_MW,{TGT_MW.Callsign}]] spends time in the DropShip's Low-G pool, practicing elaborate tucks and somersaults.\r\n\r\nA week later, you find {TGT_MW.Callsign} in the mess hall, regaling listeners with tales of derring-do, aided by details from the cheering squad.\r\n\r\n\"Commander, thanks for letting me participate in the cliff-diving competition. I did well, but the locals' encouragement kind of went to my head.\" {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:say|Default:says}, holding up the broken limb.\r\n\r\n\"The highest tiers of the cliff got me. It was a long way down to very hard water! Getting shot at by PPCs is probably safer.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

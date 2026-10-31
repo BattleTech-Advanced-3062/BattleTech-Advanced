@@ -86,7 +86,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Healthy eating",
-                        "Details" : "\"Commander, do you you have a moment?\" says [[TGT_MW,{TGT_MW.Callsign}]] as you pass the barracks, with [[SCN_MW,{SCN_MW.Callsign}]] at {TGT_MW.Det} side.\r\n\r\n\"What's on your mind?\"\r\n\r\n{SCN_MW.Callsign} speaks up. \"We just want to let you know how happy we are about the new hydroponics unit.\"\r\n\r\n{TGT_MW.Callsign} adds, \"We love the fresh fruits and vegetables. It's like when I was a kid.\"\r\n\r\nYou smile. \"You keep performing well out in the field and we'll keep improving the <i>Argo</i>. Someday this hunk of junk may just feel like a real home.\"",
+                        "Details" : "\"Commander, do you you have a moment?\" says [[TGT_MW,{TGT_MW.Callsign}]] as you pass the barracks, with [[SCN_MW,{SCN_MW.Callsign}]] at {TGT_MW.Det} side.\r\n\r\n\"What's on your mind?\"\r\n\r\n{SCN_MW.Callsign} speaks up. \"We just want to let you know how happy we are about the new hydroponics unit.\"\r\n\r\n{TGT_MW.Callsign} adds, \"We love the fresh fruits and vegetables. It's like when I was a kid.\"\r\n\r\nYou smile. \"You keep performing well out in the field and we'll keep improving the DropShip. Someday this hunk of junk may just feel like a real home.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -192,7 +192,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "Salad Bar",
-                        "Details" : "As you're making your rounds, Dr. Murad sees you and waves you over. \"Look at this, Commander.\" She points into the mess hall. Some enterprising crew members have taken an empty ammo crate and some other leftover 'Mech parts and created a salad bar. The tantalizing scent of fresh greens and cut fruit drifts into the hall.\r\n\r\n\"It looks like the crew really appreciates the hydroponics unit,\" you say. \"Maybe the <i>Argo</i> is beginning to feel like home.\"",
+                        "Details" : "As you're making your rounds, Dr. Murad sees you and waves you over. \"Look at this, Commander.\" She points into the mess hall. Some enterprising crew members have taken an empty ammo crate and some other leftover 'Mech parts and created a salad bar. The tantalizing scent of fresh greens and cut fruit drifts into the hall.\r\n\r\n\"It looks like the crew really appreciates the hydroponics unit,\" you say. \"Maybe the DropShip is beginning to feel like home.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "event_co_pirateAmbush",
-        "Name" : "Pirates Ambush the <i>Argo</i>",
-        "Details" : "Blaring klaxons interrupt an otherwise quiet morning routine as several fast-moving ships appear, pacing the <i>Argo</i>. Darius broadcasts their hail to the bridge.\r\n\r\n\"You're flying through our space, strangers. It's awfully dangerous out here. Just awful, especially for a ragged-looking ship like\u2026 the <i>Argo</i>, is it? Tell you what, we'll provide you with a safe passage. For a price, of course.\"\r\n\r\nWhile you consider your options, Sumire pipes up. \"Commander, if you can buy me some time, I could do a rapid fire-up of the Leopard. That'll teach them not to mess with us.\"",
+        "Name" : "Pirates Ambush the DropShip",
+        "Details" : "Blaring klaxons interrupt an otherwise quiet morning routine as several fast-moving ships appear, pacing the DropShip. Darius broadcasts their hail to the bridge.\r\n\r\n\"You're flying through our space, strangers. It's awfully dangerous out here. Just awful, especially for a ragged-looking ship like\u2026 the DropShip, is it? Tell you what, we'll provide you with a safe passage. For a price, of course.\"\r\n\r\nWhile you consider your options, Sumire pipes up. \"Commander, if you can buy me some time, I could do a rapid fire-up of the Leopard. That'll teach them not to mess with us.\"",
         "Icon" : "uixTxrSpot_UnidentifiedObject.png"
     },
     "Scope" : "Company",
@@ -104,7 +104,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Lose C-Bills & Morale",
-                        "Details" : "Swallowing your pride, you approve the payment. The look of disappointment on Sumire's face echoes that of the rest of the bridge crew.\r\n\r\nAdding insult to injury, the voice over the bridge's speaker drips with satisfaction. \"A wise decision, Commander. You're welcome in our space any time.\"\r\n\r\nAs the pirate ships disappear into the starry distance, it's not the first time you find yourself wishing that the <i>Argo</i> was a battleship\u2026",
+                        "Details" : "Swallowing your pride, you approve the payment. The look of disappointment on Sumire's face echoes that of the rest of the bridge crew.\r\n\r\nAdding insult to injury, the voice over the bridge's speaker drips with satisfaction. \"A wise decision, Commander. You're welcome in our space any time.\"\r\n\r\nAs the pirate ships disappear into the starry distance, it's not the first time you find yourself wishing that the DropShip was a battleship\u2026",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -170,7 +170,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "The pirates flee",
-                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the <i>Argo</i> and fires a barrage of LRMs at the pirate ships.\r\n\r\nWith a growl of displeasure, the enemy captain's flagship peels off. \"Another time, Commander. Mark my words.\"",
+                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the DropShip and fires a barrage of LRMs at the pirate ships.\r\n\r\nWith a growl of displeasure, the enemy captain's flagship peels off. \"Another time, Commander. Mark my words.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -208,7 +208,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "The pirates flee but a MechWarrior is injured",
-                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the <i>Argo</i> and fires a barrage of LRMs at the pirate ships.\r\n\r\nThe pirates retaliate with laser blasts and the whole ship groans as emergency systems activate.\r\n\r\nAfter another flash of light from the Leopard, the enemy captain gives the order to retreat. Unfortunately, it's too late for [[SCN_MW,{SCN_MW.Callsign}]], who was caught on the wrong side of a blast door and ends up in the MedBay.",
+                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the DropShip and fires a barrage of LRMs at the pirate ships.\r\n\r\nThe pirates retaliate with laser blasts and the whole ship groans as emergency systems activate.\r\n\r\nAfter another flash of light from the Leopard, the enemy captain gives the order to retreat. Unfortunately, it's too late for [[SCN_MW,{SCN_MW.Callsign}]], who was caught on the wrong side of a blast door and ends up in the MedBay.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -263,7 +263,7 @@
                     "Description" : {
                         "Id" : "outcome_1_2",
                         "Name" : "The pirates flee but a Mech Bay takes damage",
-                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the <i>Argo</i> and fires a barrage of LRMs at the pirate ships.\r\n\r\nThey quickly recover, launching salvos of torpedoes back at the <i>Argo</i>. The impact feels tremendous, but Dr. Murad waves it off. \"Those decks were damaged anyhow, Commander.\" \r\n\r\nBefore long, the pirates lose their resolve and fall back, at which point Yang checks in. \"The <i>Argo</i> may not be in any worse shape, but we felt the impacts down here in the Mech Bay and there's been some damage.",
+                        "Details" : "The frustrated pirate tries to walk you through the money transfer one more time. \"No, the last account number is a ZERO, not the letter O. It's never the letter O!\"\r\n\r\nJust then, the Leopard leaps free from its docking collar on the side of the DropShip and fires a barrage of LRMs at the pirate ships.\r\n\r\nThey quickly recover, launching salvos of torpedoes back at the DropShip. The impact feels tremendous, but Dr. Murad waves it off. \"Those decks were damaged anyhow, Commander.\" \r\n\r\nBefore long, the pirates lose their resolve and fall back, at which point Yang checks in. \"The DropShip may not be in any worse shape, but we felt the impacts down here in the Mech Bay and there's been some damage.",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -399,7 +399,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "The pirates flee but a MechWarrior is injured",
-                        "Details" : "Darius sends an SOS, and you set about buying time until help arrives. Before long, the pirate captain informs you she's having a bad day and fires a few glancing laser blasts off the side of the <i>Argo</i> to express her displeasure. The whole ship groans as emergency systems activate.\r\n\r\nJust then, several interceptors arrive on the scene, bearing the colors of the local authorities. With a curse, the enemy captain gives the order to retreat. Unfortunately, it's too late for [[SCN_MW,{SCN_MW.Callsign}]], who was caught on the wrong side of a blast door and ends up in the MedBay.",
+                        "Details" : "Darius sends an SOS, and you set about buying time until help arrives. Before long, the pirate captain informs you she's having a bad day and fires a few glancing laser blasts off the side of the DropShip to express her displeasure. The whole ship groans as emergency systems activate.\r\n\r\nJust then, several interceptors arrive on the scene, bearing the colors of the local authorities. With a curse, the enemy captain gives the order to retreat. Unfortunately, it's too late for [[SCN_MW,{SCN_MW.Callsign}]], who was caught on the wrong side of a blast door and ends up in the MedBay.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

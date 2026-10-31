@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_ventilationTrouble",
         "Name" : "Ventilation Trouble",
-        "Details" : "In the daily briefing, Darius brings up the Barracks climate control system. \"Apparently it's started cycling randomly between 'tolerable' and 'the inside of a 'Mech cockpit in a desert.'\"\r\n\r\nDr. Murad just shrugs. \"I can replace the fan controllers again, but it may not be money well spent. Something else is going on in the unimproved power conduits, but as the <i>Argo</i> is very old, and very complicated, tracking it down has been difficult.\"",
+        "Details" : "In the daily briefing, Darius brings up the Barracks climate control system. \"Apparently it's started cycling randomly between 'tolerable' and 'the inside of a 'Mech cockpit in a desert.'\"\r\n\r\nDr. Murad just shrugs. \"I can replace the fan controllers again, but it may not be money well spent. Something else is going on in the unimproved power conduits, but as the DropShip is very old, and very complicated, tracking it down has been difficult.\"",
         "Icon" : "uixTxrSpot_Barracks.png"
     },
     "Scope" : "Company",
@@ -258,7 +258,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Fix it once and for all",
-                        "Details" : "\"How exciting!\" says Dr. Murad. She promptly begins organizing what becomes a massive technical effort to replace the entire climate system.\r\n\r\nFarah shows no hesitation in purchasing new and well-understood parts directly from the factories on {TGT_SYSTEM.Name}. The cost is significant, but in the end, the <i>Argo</i> is much more habitable.",
+                        "Details" : "\"How exciting!\" says Dr. Murad. She promptly begins organizing what becomes a massive technical effort to replace the entire climate system.\r\n\r\nFarah shows no hesitation in purchasing new and well-understood parts directly from the factories on {TGT_SYSTEM.Name}. The cost is significant, but in the end, the DropShip is much more habitable.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

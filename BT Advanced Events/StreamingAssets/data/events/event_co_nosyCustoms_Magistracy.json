@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_nosyCustoms_Magistracy",
         "Name" : "The Company We Keep",
-        "Details" : "Sumire explains the unpleasant variation in the usual planetary approach. \"Commander, the port authorities want to search us. Apparently the <i>Argo</i>'s gotten onto a watch-list because of our tendency to be spotted in the company of pirates. If we choose not to comply, we're going to pay a hefty fine.\"\r\n\r\nYang sounds skeptical. \"If they do search us, I bet they're going to find something to complain about -- real or not.\"\r\n\r\nDarius has been notably quiet. \"Or... we can try to bribe the inspectors.\" He grins. \"I can work some connections to try to arrange for a sympathetic ear when they come aboard.\"",
+        "Details" : "Sumire explains the unpleasant variation in the usual planetary approach. \"Commander, the port authorities want to search us. Apparently the DropShip's gotten onto a watch-list because of our tendency to be spotted in the company of pirates. If we choose not to comply, we're going to pay a hefty fine.\"\r\n\r\nYang sounds skeptical. \"If they do search us, I bet they're going to find something to complain about -- real or not.\"\r\n\r\nDarius has been notably quiet. \"Or... we can try to bribe the inspectors.\" He grins. \"I can work some connections to try to arrange for a sympathetic ear when they come aboard.\"",
         "Icon" : "uixTxrSpot_Crates.png"
     },
     "Scope" : "Company",

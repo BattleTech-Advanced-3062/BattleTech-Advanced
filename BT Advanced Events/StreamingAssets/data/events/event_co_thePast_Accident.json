@@ -100,7 +100,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "You buy it",
-                        "Details" : "The owner of the tavern called \"The Blackjack's Beer\" unsurprisingly resists selling the painting. But between your passionate appeals and Darius's persuasive negotiating style, you eventually wear her down.\r\n\r\nThe next day, back on the <i>Argo</i>, you lead a pair of technicians all over the Mech Bay, trying to find the perfect spot to hang it.\r\n\r\nYang looks on appreciatively. \"She's a fine 'Mech, Commander. That painting really captures her spirit. And\u2026 is it my imagination? But it seems like those autocannons are following me, no matter where I move\u2026\"",
+                        "Details" : "The owner of the tavern called \"The Blackjack's Beer\" unsurprisingly resists selling the painting. But between your passionate appeals and Darius's persuasive negotiating style, you eventually wear her down.\r\n\r\nThe next day, back on the DropShip, you lead a pair of technicians all over the Mech Bay, trying to find the perfect spot to hang it.\r\n\r\nYang looks on appreciatively. \"She's a fine 'Mech, Commander. That painting really captures her spirit. And\u2026 is it my imagination? But it seems like those autocannons are following me, no matter where I move\u2026\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -161,7 +161,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "You steal it",
-                        "Details" : "Having given up on dissuading you, Darius backs your play. That night, a lone security guard stumbles upon your impromptu burglary just as you remove the painting from its moorings on the wall. Seeing Darius pointing a gyroslug rifle in her direction, she quickly retreats.\r\n\r\nThe next day, back on the <i>Argo</i>, you lead a pair of technicians all over the Mech Bay, trying to find the perfect spot to hang it.\r\n\r\nDarius looks on appreciatively. \"Commander. I'm glad we didn't have to hurt anyone to put that painting where it belongs. Though it's strange how those autocannons seem to follow me, no matter where I move\u2026\"",
+                        "Details" : "Having given up on dissuading you, Darius backs your play. That night, a lone security guard stumbles upon your impromptu burglary just as you remove the painting from its moorings on the wall. Seeing Darius pointing a gyroslug rifle in her direction, she quickly retreats.\r\n\r\nThe next day, back on the DropShip, you lead a pair of technicians all over the Mech Bay, trying to find the perfect spot to hang it.\r\n\r\nDarius looks on appreciatively. \"Commander. I'm glad we didn't have to hurt anyone to put that painting where it belongs. Though it's strange how those autocannons seem to follow me, no matter where I move\u2026\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

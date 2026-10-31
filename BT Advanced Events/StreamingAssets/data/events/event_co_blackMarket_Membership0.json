@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_blackMarket_Membership0",
         "Name" : "A Black Market Invitation",
-        "Details" : "Darius demands the first agenda item in the morning briefing. \"Commander, I've secured an invitation to the [[DM.BaseDescriptionDefs[LoreBlackMarket],Black Markets]] here in the Periphery.\"\r\n\r\nYang claps Darius on the back. \"About time! You've been haggling and calling in favors for months. It was kinda like you enjoyed it.\" Darius smirks. \"Who, me? Well... persuading that cabal of crooks, merchants and politicians wasn't boring.\" \r\n\r\nSumire cuts through the joviality. \"Don't forget the pirates. Your cabal may vote us in, but our history with their primary customers is setting our membership fee.\"\r\n\r\nDr. Murad frowns. \"Improvements to the <i>Argo</i> aren't getting any cheaper. Surely we can just continue looting what we need?\"",
+        "Details" : "Darius demands the first agenda item in the morning briefing. \"Commander, I've secured an invitation to the [[DM.BaseDescriptionDefs[LoreBlackMarket],Black Markets]] here in the Periphery.\"\r\n\r\nYang claps Darius on the back. \"About time! You've been haggling and calling in favors for months. It was kinda like you enjoyed it.\" Darius smirks. \"Who, me? Well... persuading that cabal of crooks, merchants and politicians wasn't boring.\" \r\n\r\nSumire cuts through the joviality. \"Don't forget the pirates. Your cabal may vote us in, but our history with their primary customers is setting our membership fee.\"\r\n\r\nDr. Murad frowns. \"Improvements to the DropShip aren't getting any cheaper. Surely we can just continue looting what we need?\"",
         "Icon" : "uixTxrSpot_DailyBriefing.png"
     },
     "Scope" : "Company",

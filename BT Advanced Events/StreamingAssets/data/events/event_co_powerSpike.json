@@ -35,7 +35,7 @@
         {
             "Description" : {
                 "Id" : "outcome_0",
-                "Name" : "Power down the <i>Argo</i> to replace the relay.",
+                "Name" : "Power down the DropShip to replace the relay.",
                 "Details" : "na",
                 "Icon" : ""
             },
@@ -45,7 +45,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "A: strangely quiet",
-                        "Details" : "Dr. Murad says, \"Yes, Commander. I'll aim to have everything restored by 2100 or 2200 hours tonight.\"\r\n\r\nSumire schedules the power outtage for the afternoon. With most of its systems offline, the <i>Argo</i> is strangely quiet. It's probably your imagination, but you think you can faintly hear crewmembers complaining several decks away. Sumire and Darius play cards in the Command Center's dimmed light to pass the time.\r\n\r\nYou blink awake when the lights come back up. Dr. Murad returns a few minutes later and says, \"All better, Commander. MedBay is powered again, with only some minor warnings on the restart.\"\r\n\r\nThe next morning, Darius notes that the crew really <i>did</i> spend the entire shutdown complaining.",
+                        "Details" : "Dr. Murad says, \"Yes, Commander. I'll aim to have everything restored by 2100 or 2200 hours tonight.\"\r\n\r\nSumire schedules the power outtage for the afternoon. With most of its systems offline, the DropShip is strangely quiet. It's probably your imagination, but you think you can faintly hear crewmembers complaining several decks away. Sumire and Darius play cards in the Command Center's dimmed light to pass the time.\r\n\r\nYou blink awake when the lights come back up. Dr. Murad returns a few minutes later and says, \"All better, Commander. MedBay is powered again, with only some minor warnings on the restart.\"\r\n\r\nThe next morning, Darius notes that the crew really <i>did</i> spend the entire shutdown complaining.",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -104,7 +104,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "A: mostly",
-                        "Details" : "Dr. Murad says, \"I'll begin the repair immediately, Commander.\"\r\n\r\nShe returns to the Command Center six hours later, frustrated. \"I've done my best, but the <i>Argo</i>'s power system is, and will continue to be, my nemesis. MedBay power is restored\u2026 mostly.\"\r\n\r\n\"What does 'mostly' mean?\" you ask.\r\n\r\n\"It means only one defibrillator at a time, Commander. I've warned the medical techs that pulling too much power at once will cause my patch to blow, and we'll be right back to where we were.\"",
+                        "Details" : "Dr. Murad says, \"I'll begin the repair immediately, Commander.\"\r\n\r\nShe returns to the Command Center six hours later, frustrated. \"I've done my best, but the DropShip's power system is, and will continue to be, my nemesis. MedBay power is restored\u2026 mostly.\"\r\n\r\n\"What does 'mostly' mean?\" you ask.\r\n\r\n\"It means only one defibrillator at a time, Commander. I've warned the medical techs that pulling too much power at once will cause my patch to blow, and we'll be right back to where we were.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -203,7 +203,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "A: trained hands",
-                        "Details" : "You say, \"We can afford to fix this the right way. {TGT_SYSTEM.Name} should have services for in-orbit repair.\"\r\n\r\nDr. Murad says, \"I wouldn't expect too much, given the <i>Argo</i>'s age, but having additional trained hands should minimize the impact of what I need to do.\"\r\n\r\nSumire makes arrangements with a private maintenance company to hire a crew of ship techs. Dr. Murad puts them to work replacing the bad relay in MedBay and has the project complete with only an hour of downtime for the rest of the ship.\r\n\r\nAs the techs prepare to depart, their chief says to you, \"This <i>Argo</i>-class is a real beauty. Never seen its like. Damn shame it's in such bad condition. Call us if you want more work done, all right?\"\r\n\r\nYou thank him for his work; Dr. Murad doesn't say anything, but can't conceal her amusement.",
+                        "Details" : "You say, \"We can afford to fix this the right way. {TGT_SYSTEM.Name} should have services for in-orbit repair.\"\r\n\r\nDr. Murad says, \"I wouldn't expect too much, given the DropShip's age, but having additional trained hands should minimize the impact of what I need to do.\"\r\n\r\nSumire makes arrangements with a private maintenance company to hire a crew of ship techs. Dr. Murad puts them to work replacing the bad relay in MedBay and has the project complete with only an hour of downtime for the rest of the ship.\r\n\r\nAs the techs prepare to depart, their chief says to you, \"This DropShip-class is a real beauty. Never seen its like. Damn shame it's in such bad condition. Call us if you want more work done, all right?\"\r\n\r\nYou thank him for his work; Dr. Murad doesn't say anything, but can't conceal her amusement.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

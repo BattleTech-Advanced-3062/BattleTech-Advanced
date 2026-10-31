@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_oldFriend_Mercenary",
         "Name" : "A Friend from the Old Days",
-        "Details" : "Scythia\u2026? Through your rush of old memories, Darius goes on. \"She claims to be a friend from your earliest mercenary days. I'll put her through to your quarters.\"\r\n\r\nScythia's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHer lance of 'Mechs took an absolute beating on a contract that went sideways on her, and two critical MechWarriors were injured. She wants to dock her DropShip at the <i>Argo</i> and get some medical help, and she's willing to pay.",
+        "Details" : "Scythia\u2026? Through your rush of old memories, Darius goes on. \"She claims to be a friend from your earliest mercenary days. I'll put her through to your quarters.\"\r\n\r\nScythia's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHer lance of 'Mechs took an absolute beating on a contract that went sideways on her, and two critical MechWarriors were injured. She wants to dock her DropShip at the DropShip and get some medical help, and she's willing to pay.",
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "Company",
@@ -158,7 +158,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Low MedTech penalty",
-                        "Details" : "Scythia's ragtag crew of mercenaries arrives with little fanfare. As the wounded warriors are moved to MedBay, their companions rubberneck at the <i>Argo</i>.\r\n\r\nScythia limps over. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support from the MedBay.\" Gesturing broadly as you make your way deeper into the ship, \"One thing hasn't changed, even with all this. 'Mechs still need Pilots.\"",
+                        "Details" : "Scythia's ragtag crew of mercenaries arrives with little fanfare. As the wounded warriors are moved to MedBay, their companions rubberneck at the DropShip.\r\n\r\nScythia limps over. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support from the MedBay.\" Gesturing broadly as you make your way deeper into the ship, \"One thing hasn't changed, even with all this. 'Mechs still need Pilots.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -244,7 +244,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MedTech penalty",
-                        "Details" : "Scythia's ragtag crew of mercenaries arrives with little fanfare. As the wounded warriors are moved to MedBay, their companions rubberneck at the <i>Argo</i>.\r\n\r\nScythia limps over and offers her hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Scythia.\r\n\r\nScythia is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" She turns to you. \"{COMMANDER.Callsign} always did like to work with the best.\"",
+                        "Details" : "Scythia's ragtag crew of mercenaries arrives with little fanfare. As the wounded warriors are moved to MedBay, their companions rubberneck at the DropShip.\r\n\r\nScythia limps over and offers her hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Scythia.\r\n\r\nScythia is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" She turns to you. \"{COMMANDER.Callsign} always did like to work with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -383,7 +383,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Smaller MedTech penalty, plus Gym",
-                        "Details" : "Scythia's ragtag crew of Mercenaries arrives with little fanfare. As Darius escorts the wounded warriors to the MedBay, they stare in awe at the <i>Argo</i>.\r\n\r\nScythia walks up, limping slightly, and offers her hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nOver the course of the next couple of weeks, Scythia's crew recovers not only their health in the MedBay, but also their strength in the Gym.",
+                        "Details" : "Scythia's ragtag crew of Mercenaries arrives with little fanfare. As Darius escorts the wounded warriors to the MedBay, they stare in awe at the DropShip.\r\n\r\nScythia walks up, limping slightly, and offers her hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nOver the course of the next couple of weeks, Scythia's crew recovers not only their health in the MedBay, but also their strength in the Gym.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

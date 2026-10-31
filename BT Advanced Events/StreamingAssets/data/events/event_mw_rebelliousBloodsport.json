@@ -112,7 +112,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "{TGT_MW.Callsign} fights anyway",
-                        "Details" : "While acknowledging the pent-up desire for violence, you still lay down the rules. \"Go ahead. But if you get hurt, I'll finish killing you myself.\"\r\n\r\nThat evening, just as the shuttle warms up its engines, [[TGT_MW,{TGT_MW.Callsign}]] arrives, bloodied and battered. When {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:try|Default:tries} to board the ship as if nothing's amiss, you say \"I don't need more dead weight on the <i>Argo</i>. I need MechWarriors.\" Your words bring {TGT_MW.Obj} up short. \"Next time you fight, you win. Remember that.\"",
+                        "Details" : "While acknowledging the pent-up desire for violence, you still lay down the rules. \"Go ahead. But if you get hurt, I'll finish killing you myself.\"\r\n\r\nThat evening, just as the shuttle warms up its engines, [[TGT_MW,{TGT_MW.Callsign}]] arrives, bloodied and battered. When {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:try|Default:tries} to board the ship as if nothing's amiss, you say \"I don't need more dead weight on the DropShip. I need MechWarriors.\" Your words bring {TGT_MW.Obj} up short. \"Next time you fight, you win. Remember that.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

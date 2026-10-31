@@ -137,7 +137,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gain the weapon",
-                        "Details" : "Darius arranges for the sale, and soon enough the weapon is loaded onto the shuttle. [[TGT_MW,{TGT_MW.Callsign}]] and {TGT_MW.DET} new friend celebrate at a bar that evening. \r\n\r\nDarius hauls {TGT_MW.Callsign} back to the <i>Argo</i> early the next morning and {TGT_MW.Callsign} drunkenly waves at you as you arrive to inspect the cargo. \"We've got to come back here again, Commander. I'm, uh\u2026 I'm pretty sure I promised my new friend something. I'll be damned if I remember what it was, though.\"",
+                        "Details" : "Darius arranges for the sale, and soon enough the weapon is loaded onto the shuttle. [[TGT_MW,{TGT_MW.Callsign}]] and {TGT_MW.DET} new friend celebrate at a bar that evening. \r\n\r\nDarius hauls {TGT_MW.Callsign} back to the DropShip early the next morning and {TGT_MW.Callsign} drunkenly waves at you as you arrive to inspect the cargo. \"We've got to come back here again, Commander. I'm, uh\u2026 I'm pretty sure I promised my new friend something. I'll be damned if I remember what it was, though.\"",
                         "Icon" : null
                     },
                     "Weight" : 75,

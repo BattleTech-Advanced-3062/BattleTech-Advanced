@@ -57,7 +57,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "A heartfelt thank-you",
-                        "Details" : "Later in the day, Darius arrives back at the <i>Argo</i>. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she buried her face in her hands when he departed.",
+                        "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she buried her face in her hands when he departed.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -67,7 +67,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "A thank-you and a 'finders fee'",
-                        "Details" : "Later in the day, Darius arrives back at the <i>Argo</i>. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she offered him \u00A21,000 in a sweaty hand for his 'honesty', and how she buried her face in her hands when he departed.",
+                        "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she offered him \u00A21,000 in a sweaty hand for his 'honesty', and how she buried her face in her hands when he departed.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -126,7 +126,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Successfully get through customs",
-                        "Details" : "Later in the day, Darius arrives back at the <i>Argo</i>. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, things went as smoothly as I could have hoped. The customs officials waved us through after only a token inspection of a few random crates. I didn't see anyone else looking at us funny.\"",
+                        "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, things went as smoothly as I could have hoped. The customs officials waved us through after only a token inspection of a few random crates. I didn't see anyone else looking at us funny.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -173,7 +173,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Get through customs but smugglers are suspicious",
-                        "Details" : "Later in the day, Darius arrives back at the <i>Argo</i>. While his crew begins unloading all of the new supplies, he takes you aside. \"Commander, things didn't go quite as smoothly as I would have liked. The customs officials waved us through after only a token inspection of a few random crates\u2026\"\r\n\r\n\"But\u2026\" you prompt him.\r\n\r\nWith chagrin he continues, \"Yeah, I spotted someone loitering near the edge of the loading area. I'm pretty sure that she recognized the crates.\"",
+                        "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside. \"Commander, things didn't go quite as smoothly as I would have liked. The customs officials waved us through after only a token inspection of a few random crates\u2026\"\r\n\r\n\"But\u2026\" you prompt him.\r\n\r\nWith chagrin he continues, \"Yeah, I spotted someone loitering near the edge of the loading area. I'm pretty sure that she recognized the crates.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,

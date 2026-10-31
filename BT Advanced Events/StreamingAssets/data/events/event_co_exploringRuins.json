@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_exploringRuins",
         "Name" : "Exploring Ruins",
-        "Details" : "Sumire catches you after the morning briefing. \"In my downtime, I've been researching this planet. It has some amazing ruins. Detailed data about those ruins seems to sell pretty well in the Periphery.\"\r\n\r\n\"I was thinking, if we adjust the <i>Argo</i>'s orbit, I could take some sensor readings. It wouldn't cost us much.\" Then, casually, as if as an afterthought, she adds, \"Or I could take the Leopard down to the surface to, uh, do more extensive research. What do you think?\"",
+        "Details" : "Sumire catches you after the morning briefing. \"In my downtime, I've been researching this planet. It has some amazing ruins. Detailed data about those ruins seems to sell pretty well in the Periphery.\"\r\n\r\n\"I was thinking, if we adjust the DropShip's orbit, I could take some sensor readings. It wouldn't cost us much.\" Then, casually, as if as an afterthought, she adds, \"Or I could take the Leopard down to the surface to, uh, do more extensive research. What do you think?\"",
         "Icon" : "uixTxrSpot_ArgoParked.png"
     },
     "Scope" : "Company",
@@ -110,7 +110,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "The data you gather seems uninteresting",
-                        "Details" : "Sumire and her staff scan the ruins below, and over the course of the week she pores over the collected data and delivers a report.\r\n\r\n\"Commander, we didn't detect anything that hasn't been thoroughly documented already. My apologies for wasting the <i>Argo</i>'s time, but I thought it was worth a shot.\"",
+                        "Details" : "Sumire and her staff scan the ruins below, and over the course of the week she pores over the collected data and delivers a report.\r\n\r\n\"Commander, we didn't detect anything that hasn't been thoroughly documented already. My apologies for wasting the DropShip's time, but I thought it was worth a shot.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -337,7 +337,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "Sumire stumbles upon an excavation",
-                        "Details" : "Sumire sets out in the Leopard for what is supposed to be a low altitude fly-by of the ruins. Then she finds the excavation. And the pirates doing the excavation.\r\n\r\nListening to the comms, you spend a stress-filled twenty minutes wondering if you're going to have to shuttle down a strike force of MechWarriors to steal back the Leopard and rescue your pilot. But, somehow, Sumire talks her way out of it. The gang of smugglers give her a souvenir brick and send her on her way. \r\n\r\n\"Well, that was exciting,\" she says when she returns to the <i>Argo</i>. Her flight uniform is caked with half an excavation's worth of dust. \"Commander, they had 'Mechs. Do you think we could\u2014?\"\r\n\r\n\"No,\" you say firmly. \"Just no.\"\r\n\r\n\"Only an idea,\" Sumire says as she slinks off toward the showers.",
+                        "Details" : "Sumire sets out in the Leopard for what is supposed to be a low altitude fly-by of the ruins. Then she finds the excavation. And the pirates doing the excavation.\r\n\r\nListening to the comms, you spend a stress-filled twenty minutes wondering if you're going to have to shuttle down a strike force of MechWarriors to steal back the Leopard and rescue your pilot. But, somehow, Sumire talks her way out of it. The gang of smugglers give her a souvenir brick and send her on her way. \r\n\r\n\"Well, that was exciting,\" she says when she returns to the DropShip. Her flight uniform is caked with half an excavation's worth of dust. \"Commander, they had 'Mechs. Do you think we could\u2014?\"\r\n\r\n\"No,\" you say firmly. \"Just no.\"\r\n\r\n\"Only an idea,\" Sumire says as she slinks off toward the showers.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

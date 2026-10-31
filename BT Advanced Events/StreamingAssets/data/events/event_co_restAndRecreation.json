@@ -239,7 +239,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Spend C-Bills, moderate morale boost",
-                        "Details" : "It's not hard to find an unoccupied corner of the <i>Argo</i> big enough to lay out a spread of food and an impromptu dance floor. Although the mercenaries are from all corners of the Periphery and the Inner Sphere, drink and music manage to bridge all differences, and a good time is had by all.",
+                        "Details" : "It's not hard to find an unoccupied corner of the DropShip big enough to lay out a spread of food and an impromptu dance floor. Although the mercenaries are from all corners of the Periphery and the Inner Sphere, drink and music manage to bridge all differences, and a good time is had by all.",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -282,7 +282,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Spend C-Bills, moderate morale boost",
-                        "Details" : "It's not hard to find an unoccupied corner of the <i>Argo</i> big enough to lay out a spread of food and an impromptu dance floor. Although the mercenaries are from all corners of the Periphery and the Inner Sphere, drink and music manage to bridge all differences, and a good time is had by all.\r\n\r\n[[SCN_MW,{SCN_MW.Callsign}]] demonstrates one other universal truth, as {SCN_MW.Subj} drunkenly {SCN_MW.Gender?NonBinary:capsize|Default:capsizes} the dessert table.",
+                        "Details" : "It's not hard to find an unoccupied corner of the DropShip big enough to lay out a spread of food and an impromptu dance floor. Although the mercenaries are from all corners of the Periphery and the Inner Sphere, drink and music manage to bridge all differences, and a good time is had by all.\r\n\r\n[[SCN_MW,{SCN_MW.Callsign}]] demonstrates one other universal truth, as {SCN_MW.Subj} drunkenly {SCN_MW.Gender?NonBinary:capsize|Default:capsizes} the dessert table.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

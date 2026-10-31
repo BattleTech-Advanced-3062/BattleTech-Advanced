@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_exploringMoons",
         "Name" : "Exploring Moons",
-        "Details" : "Sumire falls in beside you as you depart the mess. \"Did you notice the odd moon around this planet? It's quite the point of interest for Periphery scientists\u2026 they just can't get enough data on it.\"\r\n\r\nShe eyes you speculatively. \"If we bring the <i>Argo</i> close enough, I could take some sensor readings. Could make for a little easy money. Or, hey, here's an idea, I could take the Leopard down to the surface to do more extensive research. What do you think?\"",
+        "Details" : "Sumire falls in beside you as you depart the mess. \"Did you notice the odd moon around this planet? It's quite the point of interest for Periphery scientists\u2026 they just can't get enough data on it.\"\r\n\r\nShe eyes you speculatively. \"If we bring the DropShip close enough, I could take some sensor readings. Could make for a little easy money. Or, hey, here's an idea, I could take the Leopard down to the surface to do more extensive research. What do you think?\"",
         "Icon" : "uixTxrSpot_ArgoParked.png"
     },
     "Scope" : "Company",
@@ -111,7 +111,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "The data you gather seems uninteresting",
-                        "Details" : "Sumire and her staff scan the nearby moon. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, I'm not quite sure why there's so much buzz about this moon, because what we've collected is pretty dull. Nobody's going to buy it. My apologies for wasting the <i>Argo</i>'s time, but I thought it was worth a shot.\"",
+                        "Details" : "Sumire and her staff scan the nearby moon. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, I'm not quite sure why there's so much buzz about this moon, because what we've collected is pretty dull. Nobody's going to buy it. My apologies for wasting the DropShip's time, but I thought it was worth a shot.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -262,7 +262,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "You gather some data that might be interesting",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the <i>Argo</i>'s computers. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, we didn't find anything radical, but we did get decent data on some more obscure parts of the landscape. If we're lucky, we'll be able to offset the cost of acquiring the scans. Full disclosure, though\u2026 I'm not feeling very lucky at the moment.\"",
+                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, we didn't find anything radical, but we did get decent data on some more obscure parts of the landscape. If we're lucky, we'll be able to offset the cost of acquiring the scans. Full disclosure, though\u2026 I'm not feeling very lucky at the moment.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -298,7 +298,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "You discover something very valuable!",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the <i>Argo</i>'s computers.  Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, the scientists I've been talking with are really excited about the data we've acquired. Apparently, it contains proof of a rare ore of scholastic interest.\" She shrugs. \"Not my wheelhouse. In any case, I've negotiated an excellent price for the full scans, so everybody can celebrate.\"",
+                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers.  Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, the scientists I've been talking with are really excited about the data we've acquired. Apparently, it contains proof of a rare ore of scholastic interest.\" She shrugs. \"Not my wheelhouse. In any case, I've negotiated an excellent price for the full scans, so everybody can celebrate.\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
@@ -334,7 +334,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "Sumire stumbles upon an abandoned base",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the <i>Argo</i>'s computers. Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, we aren't the only ones who were curious about this moon. I identified an abandoned facility, completely destroyed and then buried. Whoever it was, I wonder what they were doing.\"",
+                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers. Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, we aren't the only ones who were curious about this moon. I identified an abandoned facility, completely destroyed and then buried. Whoever it was, I wonder what they were doing.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

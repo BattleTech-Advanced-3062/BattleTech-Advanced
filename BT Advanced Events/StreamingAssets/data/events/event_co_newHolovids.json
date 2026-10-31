@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_newHolovids",
         "Name" : "New Holovids",
-        "Details" : "The <i>Argo</i>'s current budget includes a line item for crew entertainment, so after polling the morning briefing for preferences, Darius places an order. Soon a shipment of popular new Holovid chips from {TGT_SYSTEM.Name} arrives, a mix of action, historical drama, horror, screwball comedies, and animated features.",
+        "Details" : "The DropShip's current budget includes a line item for crew entertainment, so after polling the morning briefing for preferences, Darius places an order. Soon a shipment of popular new Holovid chips from {TGT_SYSTEM.Name} arrives, a mix of action, historical drama, horror, screwball comedies, and animated features.",
         "Icon" : "uixTxrSpot_Lounge.png"
     },
     "Scope" : "Company",
@@ -146,7 +146,7 @@
                     "Description" : {
                         "Id" : "outcome_0_2",
                         "Name" : "High Morale for 1 MW",
-                        "Details" : "The new Holovid chips prove so enjoyable that the crew voluntarily sets up a wait list as an alternative to crowding in front of a tiny barracks viewscreen.\r\n\r\nLater in the week, [[SCN_MW,{SCN_MW.Callsign}]] finds you in the mess. \"Commander, thanks for all the new Holovids. I just can't get enough of <i>[[DM.BaseDescriptionDefs[LoreHolovidMinorMajor],Minor Major]]</i>. I'd swear the writers have a listening device aboard the <i>Argo</i>. It's uncanny!\"",
+                        "Details" : "The new Holovid chips prove so enjoyable that the crew voluntarily sets up a wait list as an alternative to crowding in front of a tiny barracks viewscreen.\r\n\r\nLater in the week, [[SCN_MW,{SCN_MW.Callsign}]] finds you in the mess. \"Commander, thanks for all the new Holovids. I just can't get enough of <i>[[DM.BaseDescriptionDefs[LoreHolovidMinorMajor],Minor Major]]</i>. I'd swear the writers have a listening device aboard the DropShip. It's uncanny!\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -229,7 +229,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "good",
-                        "Details" : "After setting up the biggest Holovid screen you can find in the mess, you invite the crew of the <i>Argo</i> to join you at a screening of the new episode of the popular drama <i>[[DM.BaseDescriptionDefs[LoreHolovidTheFringers],The Fringers]]</i>.\r\n\r\nAlmost everybody attends, and as the story concludes, a general contented sigh turns into cheerful chatter as old and new fans discuss the show. After over 150 seasons, there is much to discuss.",
+                        "Details" : "After setting up the biggest Holovid screen you can find in the mess, you invite the crew of the DropShip to join you at a screening of the new episode of the popular drama <i>[[DM.BaseDescriptionDefs[LoreHolovidTheFringers],The Fringers]]</i>.\r\n\r\nAlmost everybody attends, and as the story concludes, a general contented sigh turns into cheerful chatter as old and new fans discuss the show. After over 150 seasons, there is much to discuss.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -265,7 +265,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "bad",
-                        "Details" : "After setting up the biggest Holovid screen you can find in the mess, you invite the crew of the <i>Argo</i> to join you at a screening of the new episode of <i>[[DM.BaseDescriptionDefs[LoreHolovidTheFringers],The Fringers]]</i>.\" Given the show's popularity, almost everyone attends.\r\n\r\nUnfortunately, [[SCN_MW,{SCN_MW.Callsign}]] constantly interrupts, shouting at the screen and arguing with others about everything the creators did wrong ever since the 128th season. You barely get {SCN_MW.OBJ} out of the mess before a fight breaks out.",
+                        "Details" : "After setting up the biggest Holovid screen you can find in the mess, you invite the crew of the DropShip to join you at a screening of the new episode of <i>[[DM.BaseDescriptionDefs[LoreHolovidTheFringers],The Fringers]]</i>.\" Given the show's popularity, almost everyone attends.\r\n\r\nUnfortunately, [[SCN_MW,{SCN_MW.Callsign}]] constantly interrupts, shouting at the screen and arguing with others about everything the creators did wrong ever since the 128th season. You barely get {SCN_MW.OBJ} out of the mess before a fight breaks out.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -638,8 +638,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_3_2",
-                        "Name" : "bigger than the <i>Argo</i>",
-                        "Details" : "You, Dr. Murad, and Sumire settle into the lounge to watch a madcap animated comedy set on a LosTech dropship even bigger than the <i>Argo</i>. The LosTech features heavily in the humorous moments, and each time, Sumire facepalms. \"I can't believe they're <i>so stupid</i>. And I'm laughing anyhow!\"\r\n\r\nDr. Murad responds, \"That's because the characters aren't so bright\u2014except for the mastermind\u2014but the show is very clever. They actually did a lot of research. Isn't it great?\"",
+                        "Name" : "bigger than the DropShip",
+                        "Details" : "You, Dr. Murad, and Sumire settle into the lounge to watch a madcap animated comedy set on a LosTech dropship even bigger than the DropShip. The LosTech features heavily in the humorous moments, and each time, Sumire facepalms. \"I can't believe they're <i>so stupid</i>. And I'm laughing anyhow!\"\r\n\r\nDr. Murad responds, \"That's because the characters aren't so bright\u2014except for the mastermind\u2014but the show is very clever. They actually did a lot of research. Isn't it great?\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

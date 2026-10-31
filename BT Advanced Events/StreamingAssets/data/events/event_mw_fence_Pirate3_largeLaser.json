@@ -137,7 +137,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gain the weapon",
-                        "Details" : "Darius arranges for the sale, and the broker gets the weapon safely loaded onto the shuttle. [[TGT_MW,{TGT_MW.Callsign}]] and the broker then celebrate at a series of bars that evening. Darius hauls {TGT_MW.Callsign} back to the <i>Argo</i> early the next morning.\r\n\r\n{TGT_MW.Callsign} drunkenly waves at you as you arrive to inspect the cargo. \"Everything is great, Commander! So, <i>so</i> great. We gotta come back and do this again later.",
+                        "Details" : "Darius arranges for the sale, and the broker gets the weapon safely loaded onto the shuttle. [[TGT_MW,{TGT_MW.Callsign}]] and the broker then celebrate at a series of bars that evening. Darius hauls {TGT_MW.Callsign} back to the DropShip early the next morning.\r\n\r\n{TGT_MW.Callsign} drunkenly waves at you as you arrive to inspect the cargo. \"Everything is great, Commander! So, <i>so</i> great. We gotta come back and do this again later.",
                         "Icon" : null
                     },
                     "Weight" : 75,
@@ -567,7 +567,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Gain the weapon",
-                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] meets up with the broker in a bar with a budget and a plan. After a few drinks, {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:start|Default:starts} dropping the names of past black market contacts the company has dealt with, along with some personal exploits. More booze flows, and more stories are shared.\r\n\r\nThe next morning, Darius returns to the <i>Argo</i> with the weapon and a still-drunk {TGT_MW.Callsign}. The MechWarrior waggles {TGT_MW.DET} fingers at you when you come to inspect the merchandise. \"Come with us next time, Commander. It'll be fun. You've got <i>fans</i> now.\"",
+                        "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] meets up with the broker in a bar with a budget and a plan. After a few drinks, {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:start|Default:starts} dropping the names of past black market contacts the company has dealt with, along with some personal exploits. More booze flows, and more stories are shared.\r\n\r\nThe next morning, Darius returns to the DropShip with the weapon and a still-drunk {TGT_MW.Callsign}. The MechWarrior waggles {TGT_MW.DET} fingers at you when you come to inspect the merchandise. \"Come with us next time, Commander. It'll be fun. You've got <i>fans</i> now.\"",
                         "Icon" : null
                     },
                     "Weight" : 100,

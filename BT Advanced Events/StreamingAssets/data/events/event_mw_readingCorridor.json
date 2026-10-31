@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_readingCorridor",
         "Name" : "Reading in the Corridor",
-        "Details" : "Rounding a corner in an unused corridor, you nearly trip over [[TGT_MW,{TGT_MW.Callsign}]]. The MechWarrior sits in a heap on the floor, nose-deep in a dog-eared, honest-to-goodness, paper book.\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:look|Default:looks} up. \"Oh, Commander, am I in your way? I needed to get out of the barracks. There's just no good place for me to read.\"\r\n\r\nYou gesture at the book and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:hand|Default:hands} it over. While you idly flip its pages, {TGT_MW.Callsign} asks, \"I heard that there's a disrepaired library here in the <i>Argo</i>. Think we could get that online?\"",
+        "Details" : "Rounding a corner in an unused corridor, you nearly trip over [[TGT_MW,{TGT_MW.Callsign}]]. The MechWarrior sits in a heap on the floor, nose-deep in a dog-eared, honest-to-goodness, paper book.\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:look|Default:looks} up. \"Oh, Commander, am I in your way? I needed to get out of the barracks. There's just no good place for me to read.\"\r\n\r\nYou gesture at the book and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:hand|Default:hands} it over. While you idly flip its pages, {TGT_MW.Callsign} asks, \"I heard that there's a disrepaired library here in the DropShip. Think we could get that online?\"",
         "Icon" : "uixTxrSpot_EngineeringInnards.png"
     },
     "Scope" : "MechWarrior",
@@ -385,7 +385,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Help in the Mech Bay",
-                        "Details" : "\"Learn anything useful in here?\" you ask.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] eagerly and gingerly takes back the book. \"I've been curious about LosTech all my life. Ever since I got aboard the <i>Argo</i>, I just can't get enough of reading these old books. I discovered this last month, on shore leave. Can't understand half of it, though, and I actually have some formal training to fall back on.\"\r\n\r\nYou interrupt the rambling, \"So the answer is\u2026 no.\"\r\n\r\n{TGT_MW.Callsign} laughs. \"Not <i>no</i>, just <i>not yet</i>. But I do have some theories to share with the Chief when he has a few minutes.\"",
+                        "Details" : "\"Learn anything useful in here?\" you ask.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] eagerly and gingerly takes back the book. \"I've been curious about LosTech all my life. Ever since I got aboard the DropShip, I just can't get enough of reading these old books. I discovered this last month, on shore leave. Can't understand half of it, though, and I actually have some formal training to fall back on.\"\r\n\r\nYou interrupt the rambling, \"So the answer is\u2026 no.\"\r\n\r\n{TGT_MW.Callsign} laughs. \"Not <i>no</i>, just <i>not yet</i>. But I do have some theories to share with the Chief when he has a few minutes.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -459,7 +459,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Help with contracts",
-                        "Details" : "\"Learn anything useful in here?\" you ask.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] looks around the battered <i>Argo</i>, choosing {TGT_MW.DET} next words carefully. \"Commander, this amazing ship has so much potential, but the fixed maintenance costs must be killing us.\"\r\n\r\n{TGT_MW.Subj_C} {TGT_MW.Gender?NonBinary:launch|Default:launches} into a lengthy digression about saving expenses by putting 'Mechs into storage that are not regularly used for contracts.\r\n\r\nFinally you interrupt {TGT_MW.OBJ}. \"Okay, I get it. Next time, though, maybe you could talk Darius' ear off.\"\r\n\r\n{TGT_MW.Callsign} laughs. \"Maybe I will.\"",
+                        "Details" : "\"Learn anything useful in here?\" you ask.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] looks around the battered DropShip, choosing {TGT_MW.DET} next words carefully. \"Commander, this amazing ship has so much potential, but the fixed maintenance costs must be killing us.\"\r\n\r\n{TGT_MW.Subj_C} {TGT_MW.Gender?NonBinary:launch|Default:launches} into a lengthy digression about saving expenses by putting 'Mechs into storage that are not regularly used for contracts.\r\n\r\nFinally you interrupt {TGT_MW.OBJ}. \"Okay, I get it. Next time, though, maybe you could talk Darius' ear off.\"\r\n\r\n{TGT_MW.Callsign} laughs. \"Maybe I will.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

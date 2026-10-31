@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_understaffed",
         "Name" : "Understaffed",
-        "Details" : "As you approach the mess deck, you overhear members of the <i>Argo</i>'s crew complaining. Because they're significantly understaffed, everybody is exhausted from pulling extra shifts to keep things running. It hasn't overwhelmed them yet, but they have dark expectations about the future.",
+        "Details" : "As you approach the mess deck, you overhear members of the DropShip's crew complaining. Because they're significantly understaffed, everybody is exhausted from pulling extra shifts to keep things running. It hasn't overwhelmed them yet, but they have dark expectations about the future.",
         "Icon" : "uixTxrSpot_MechWarriorsTalking.png"
     },
     "Scope" : "Company",
@@ -111,7 +111,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "The grumbling spreads",
-                        "Details" : "You let them gripe privately and hope that will be the end of it. Instead, dissatisfaction spreads, and soon the entire crew is openly complaining. They grumble about the shoestring budget, the workload, the food, the way the <i>Argo</i> smells\u2014anything and everything. Soon, any semblance of discipline is lost.",
+                        "Details" : "You let them gripe privately and hope that will be the end of it. Instead, dissatisfaction spreads, and soon the entire crew is openly complaining. They grumble about the shoestring budget, the workload, the food, the way the DropShip smells\u2014anything and everything. Soon, any semblance of discipline is lost.",
                         "Icon" : ""
                     },
                     "Weight" : 50,

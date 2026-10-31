@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_oldFriend_Pirate",
         "Name" : "A Friend from the Old Days",
-        "Details" : "Rackam\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your pirate days. I'll put him through to your quarters.\"\r\n\r\nRackam's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHis crew bit off more than they could chew while robbing a well-protected merchant caravan carrying rare Holovid products. He wants to dock his DropShip at the <i>Argo</i>, borrow your MechTechs, and pay for the privilege.",
+        "Details" : "Rackam\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your pirate days. I'll put him through to your quarters.\"\r\n\r\nRackam's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHis crew bit off more than they could chew while robbing a well-protected merchant caravan carrying rare Holovid products. He wants to dock his DropShip at the DropShip, borrow your MechTechs, and pay for the privilege.",
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "Company",
@@ -177,7 +177,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Low MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the <i>Argo</i>.\r\n\r\nRackam limps over. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support from the Mech Bay.\" Gesturing broadly as you make your way deeper into the ship, \"Even with all of this, there's one thing that hasn't changed. It's the 'Mechs that make the money.\"",
+                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support from the Mech Bay.\" Gesturing broadly as you make your way deeper into the ship, \"Even with all of this, there's one thing that hasn't changed. It's the 'Mechs that make the money.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -263,7 +263,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the <i>Argo</i>.\r\n\r\nRackam limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Rackam.\r\n\r\nRackam is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} always did have a talent for working with the best.\"",
+                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Rackam.\r\n\r\nRackam is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} always did have a talent for working with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -407,7 +407,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the <i>Argo</i>.\r\n\r\nRackam limps over and offers his hand. \"Always a tough negotiator, {COMMANDER.FirstName}! But our mutual friends have told me good things about your recent activities.\" Gesturing to the Argo, \"So who'd you scam to get this bird? I've got time to hear the whole story.\"\r\n\r\nOver the course of the next couple weeks, Rackam's 'Mechs get repaired and his professional scoundrels get to know the <i>Argo</i>'s crew. While they don't initially have much in common, Rackam's vast selection of hard-to-find Holovids gives them plenty to talk about.",
+                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over and offers his hand. \"Always a tough negotiator, {COMMANDER.FirstName}! But our mutual friends have told me good things about your recent activities.\" Gesturing to the Argo, \"So who'd you scam to get this bird? I've got time to hear the whole story.\"\r\n\r\nOver the course of the next couple weeks, Rackam's 'Mechs get repaired and his professional scoundrels get to know the DropShip's crew. While they don't initially have much in common, Rackam's vast selection of hard-to-find Holovids gives them plenty to talk about.",
                         "Icon" : null
                     },
                     "Weight" : 100,

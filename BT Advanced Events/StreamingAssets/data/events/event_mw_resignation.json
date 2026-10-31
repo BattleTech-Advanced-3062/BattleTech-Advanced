@@ -90,7 +90,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "B: less friendly parting",
-                        "Details" : "Later in the day, you shake [[TGT_MW,{TGT_MW.Callsign}]]'s hand. \"We all appreciate your service, {TGT_MW.FirstName}. Good luck on your next assignment.\"\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:give|Default:gives} you a wary look. \"Sure. Whatever you say, <i>Commander</i>. Anyway, I'll be leaving the <i>Argo</i> at the next opportunity. Until then, I'll stay out of your way.\"",
+                        "Details" : "Later in the day, you shake [[TGT_MW,{TGT_MW.Callsign}]]'s hand. \"We all appreciate your service, {TGT_MW.FirstName}. Good luck on your next assignment.\"\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:give|Default:gives} you a wary look. \"Sure. Whatever you say, <i>Commander</i>. Anyway, I'll be leaving the DropShip at the next opportunity. Until then, I'll stay out of your way.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -221,7 +221,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "A: thanks, commander",
-                        "Details" : "You bring the crew and the MechWarriors together in the <i>Argo</i>'s lounge to give [[TGT_MW,{TGT_MW.Callsign}]] a proper send-off. Darius makes a speech, and Yang presents {TGT_MW.Callsign} with a framed 'Mech repair bill.\r\n\r\nThen the drinking begins in earnest.\r\n\r\nBy the end of the night, the mood is bittersweet.\r\n\r\n\"Thanks for everything, Commander,\" {TGT_MW.Callsign} finally says to you.",
+                        "Details" : "You bring the crew and the MechWarriors together in the DropShip's lounge to give [[TGT_MW,{TGT_MW.Callsign}]] a proper send-off. Darius makes a speech, and Yang presents {TGT_MW.Callsign} with a framed 'Mech repair bill.\r\n\r\nThen the drinking begins in earnest.\r\n\r\nBy the end of the night, the mood is bittersweet.\r\n\r\n\"Thanks for everything, Commander,\" {TGT_MW.Callsign} finally says to you.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -281,7 +281,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "B: take care of yourself",
-                        "Details" : "You bring the crew and the MechWarriors together in the <i>Argo</i>'s lounge to give [[TGT_MW,{TGT_MW.Callsign}]] a proper send-off. Darius makes a speech, and Yang presents {TGT_MW.Callsign} with a framed 'Mech repair bill.\r\n\r\nThen the drinking begins in earnest.\r\n\r\nBy the end of the night, the mood is bittersweet.\r\n\r\nYou shake {TGT_MW.Callsign}'s hand. \"Take care of yourself, {TGT_MW.FirstName}. We might need you again.\"\r\n\r\nThis provokes a genuine smile. \"Sure thing, Commander.\"",
+                        "Details" : "You bring the crew and the MechWarriors together in the DropShip's lounge to give [[TGT_MW,{TGT_MW.Callsign}]] a proper send-off. Darius makes a speech, and Yang presents {TGT_MW.Callsign} with a framed 'Mech repair bill.\r\n\r\nThen the drinking begins in earnest.\r\n\r\nBy the end of the night, the mood is bittersweet.\r\n\r\nYou shake {TGT_MW.Callsign}'s hand. \"Take care of yourself, {TGT_MW.FirstName}. We might need you again.\"\r\n\r\nThis provokes a genuine smile. \"Sure thing, Commander.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

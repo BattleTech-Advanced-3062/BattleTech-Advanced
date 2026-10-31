@@ -451,7 +451,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "Team loses",
-                        "Details" : "\"How bad is it,\" you ask as you keep an eye on a crestfallen [[TGT_MW,{TGT_MW.Callsign}]].\r\n\r\nDarius shrugs. \"Bad, but not horrible. I was trying to save some money from each round, but I lost track during that losing streak. We took a loss, but it wasn't everything\u2026 I mean, we still have the <i>Argo</i>.\"\r\n\r\n{TGT_MW.Callsign} blanches. \"I'm so sorry, Commander\u2026\" \r\n\r\n\"We're <i>fine</i>,\" you say firmly. \"Don't worry about it. We went in together, we went down together.\" But your words of comfort don't do much.\r\n\r\nLooking at the other losing teams provides a grim reminder that it's called 'gambling' for a reason.",
+                        "Details" : "\"How bad is it,\" you ask as you keep an eye on a crestfallen [[TGT_MW,{TGT_MW.Callsign}]].\r\n\r\nDarius shrugs. \"Bad, but not horrible. I was trying to save some money from each round, but I lost track during that losing streak. We took a loss, but it wasn't everything\u2026 I mean, we still have the DropShip.\"\r\n\r\n{TGT_MW.Callsign} blanches. \"I'm so sorry, Commander\u2026\" \r\n\r\n\"We're <i>fine</i>,\" you say firmly. \"Don't worry about it. We went in together, we went down together.\" But your words of comfort don't do much.\r\n\r\nLooking at the other losing teams provides a grim reminder that it's called 'gambling' for a reason.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

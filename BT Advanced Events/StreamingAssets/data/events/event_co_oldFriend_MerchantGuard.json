@@ -171,7 +171,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Low MedTech boost",
-                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the <i>Argo</i>. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nYour formal handshake ends with Taranquil slinging her arm around your shoulder. \"Now, let me tell you about this three-way negotiation I've cooked up. It's just like the old days!\"",
+                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the DropShip. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nYour formal handshake ends with Taranquil slinging her arm around your shoulder. \"Now, let me tell you about this three-way negotiation I've cooked up. It's just like the old days!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -277,7 +277,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MechTech boost",
-                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the <i>Argo</i>. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"<i>Taranquil?</i>\" Your old friend is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" She turns to you. \"{COMMANDER.Callsign} always did like to work with the best.\"",
+                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the DropShip. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"<i>Taranquil?</i>\" Your old friend is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" She turns to you. \"{COMMANDER.Callsign} always did like to work with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -423,7 +423,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Morale boost",
-                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the <i>Argo</i>. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nOver the next week, the first of the new hydroponic lettuces show up in the mess to much fanfare. Word of the fresh fruits and vegetables you've planted spreads through the crew like celebrity gossip, but the subject of their talk is much tastier.",
+                        "Details" : "When Taranquil disembarks the shuttle, she stops to stare at the DropShip. Then she strolls over to you and offers her hand. \"What a treasure you have here, {COMMANDER.FirstName}. I hope you'll tell me all about her.\"\r\n\r\nOver the next week, the first of the new hydroponic lettuces show up in the mess to much fanfare. Word of the fresh fruits and vegetables you've planted spreads through the crew like celebrity gossip, but the subject of their talk is much tastier.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_researchYang",
         "Name" : "This Equipment Goes To 11",
-        "Details" : "Upon entering the Mech Bay, you find Yang as busy as you've ever seen him.\r\n\r\nHe looks up. \"Commander, hey there. Remember that conference I attended? While I was there, I picked up some special synchronized tools I learned about. Finicky things, hard to keep aligned, and they need to be plugged into something like the <i>Argo</i> to really sing. I'd like to use them now, but the synchronization benefits will only last for so long. Afterward, they'll basically work like normal tools.\"\r\n\r\n\"What do you say? Want me to turn up the volume around here?\"",
+        "Details" : "Upon entering the Mech Bay, you find Yang as busy as you've ever seen him.\r\n\r\nHe looks up. \"Commander, hey there. Remember that conference I attended? While I was there, I picked up some special synchronized tools I learned about. Finicky things, hard to keep aligned, and they need to be plugged into something like the DropShip to really sing. I'd like to use them now, but the synchronization benefits will only last for so long. Afterward, they'll basically work like normal tools.\"\r\n\r\n\"What do you say? Want me to turn up the volume around here?\"",
         "Icon" : "uixTxrSpot_YangWorking.png"
     },
     "Scope" : "Company",

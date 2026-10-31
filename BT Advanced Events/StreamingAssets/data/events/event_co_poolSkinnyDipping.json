@@ -100,7 +100,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Morale boost",
-                        "Details" : "Your voice echoes through the <i>Argo</i>. \"Attention, all crew and MechWarriors, this is your Commander. The leadership staff is very excited that the Low-G pool is getting used so frequently. At all hours, even. We expected you would use the pool to keep in shape during system travel, but it's also been a boon to morale.\"\r\n\r\n\"To that end, I wish to point out that there is a camera in the hallway just outside the door to the pool. Please wear appropriate swimwear at all times.\"\r\n\r\nEchoing down the hallways and through the vent shafts comes a single mortified voice. \"Oh my God!\"",
+                        "Details" : "Your voice echoes through the DropShip. \"Attention, all crew and MechWarriors, this is your Commander. The leadership staff is very excited that the Low-G pool is getting used so frequently. At all hours, even. We expected you would use the pool to keep in shape during system travel, but it's also been a boon to morale.\"\r\n\r\n\"To that end, I wish to point out that there is a camera in the hallway just outside the door to the pool. Please wear appropriate swimwear at all times.\"\r\n\r\nEchoing down the hallways and through the vent shafts comes a single mortified voice. \"Oh my God!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

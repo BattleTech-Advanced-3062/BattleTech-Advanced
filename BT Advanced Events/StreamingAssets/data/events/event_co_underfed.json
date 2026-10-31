@@ -65,7 +65,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "You authorize the kitchen to buy more supplies",
-                        "Details" : "You send Darius out to resupply at the next available opportunity. The grocery bill comes to a staggering \u00A25,000, but it's enough to feed the <i>Argo</i>'s crew\u2014very carefully\u2014for three months.",
+                        "Details" : "You send Darius out to resupply at the next available opportunity. The grocery bill comes to a staggering \u00A25,000, but it's enough to feed the DropShip's crew\u2014very carefully\u2014for three months.",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -264,7 +264,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Fresh produce \u2026and a radish",
-                        "Details" : "The crew expands the Hydroponics garden with additional racks of lettuce, cucumbers, and radishes. Soon, radishes seem to become part of every meal. So many radishes.\r\n\r\nSomehow the phrase \"\u2026and a radish,\" becomes the height of morbid humor aboard the <i>Argo</i>.",
+                        "Details" : "The crew expands the Hydroponics garden with additional racks of lettuce, cucumbers, and radishes. Soon, radishes seem to become part of every meal. So many radishes.\r\n\r\nSomehow the phrase \"\u2026and a radish,\" becomes the height of morbid humor aboard the DropShip.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

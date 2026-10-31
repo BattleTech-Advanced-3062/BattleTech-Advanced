@@ -251,7 +251,7 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Deliver the weapons to the <i>Argo</i> instead.",
+                "Name" : "Deliver the weapons to the DropShip instead.",
                 "Details" : "[{TGT_MW.Callsign}: Dishonest]",
                 "Icon" : null
             },
@@ -276,7 +276,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "The pirates are displeased",
-                        "Details" : "On the <i>Argo</i>, Yang flips through the bill of lading. \"Funny, I don't see these Medium Lasers on the customs forms\u2026\"\r\n\r\nHe cocks an eyebrow in the direction of Darius and [[TGT_MW,{TGT_MW.Callsign}]], then holds up a small, black box. \"Next time you decide to rob a group of sketchy weapons dealers, try to disable <i>all</i> of their tracking devices, okay? Whoever these lasers were supposed to go to won't be happy that we stole from them.\"",
+                        "Details" : "On the DropShip, Yang flips through the bill of lading. \"Funny, I don't see these Medium Lasers on the customs forms\u2026\"\r\n\r\nHe cocks an eyebrow in the direction of Darius and [[TGT_MW,{TGT_MW.Callsign}]], then holds up a small, black box. \"Next time you decide to rob a group of sketchy weapons dealers, try to disable <i>all</i> of their tracking devices, okay? Whoever these lasers were supposed to go to won't be happy that we stole from them.\"",
                         "Icon" : null
                     },
                     "Weight" : 100,

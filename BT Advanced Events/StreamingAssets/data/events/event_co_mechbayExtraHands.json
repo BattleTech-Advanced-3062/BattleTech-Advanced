@@ -575,8 +575,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_3_2",
-                        "Name" : "Techs want to work on the <i>Argo</i>",
-                        "Details" : "As Darius negotiates with the various vendors, Yang spreads the word about how unusual and curious a ship the <i>Argo</i> is, and soon technicians are offering to pay <i>you</i> for the opportunity to work on it.\r\n\r\nYou end up accepting an offer for \u00A220,000, and for the next two weeks an eager team of technicians from the planet's surface joins your crew of MechTechs.\r\n\r\nThey do an exceptional job, and dramatically accelerate refits and repairs.",
+                        "Name" : "Techs want to work on the DropShip",
+                        "Details" : "As Darius negotiates with the various vendors, Yang spreads the word about how unusual and curious a ship the DropShip is, and soon technicians are offering to pay <i>you</i> for the opportunity to work on it.\r\n\r\nYou end up accepting an offer for \u00A220,000, and for the next two weeks an eager team of technicians from the planet's surface joins your crew of MechTechs.\r\n\r\nThey do an exceptional job, and dramatically accelerate refits and repairs.",
                         "Icon" : ""
                     },
                     "Weight" : 50,

@@ -124,7 +124,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "No survivors are found",
-                        "Details" : "When the <i>Argo</i> arrives at the source of the distress beacon, a bleak scene greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Bay from the floating tomb. Darius, watching with you, says, \"Grim work, but necessary for survival in the Periphery.\"",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, a bleak scene greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Bay from the floating tomb. Darius, watching with you, says, \"Grim work, but necessary for survival in the Periphery.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -179,7 +179,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "You rescue some survivors",
-                        "Details" : "When the <i>Argo</i> arrives on the scene, it becomes clear that you've made the right decision. A handful of void-suited figures spin aimlessly away from a gaping hole in the hull in a last desperate bid for life. Your tech staff scoop up the survivors just before the transport explodes.\r\n\r\nLater in the week, however, Darius passes along a message from the planetary government. \"Apparently, they credit us with the explosion. They've expressed their appreciation for helping to enforce the quarantine.\" He pauses, then adds, \"I'll make sure MedBay keeps monitoring for an outbreak.\"",
+                        "Details" : "When the DropShip arrives on the scene, it becomes clear that you've made the right decision. A handful of void-suited figures spin aimlessly away from a gaping hole in the hull in a last desperate bid for life. Your tech staff scoop up the survivors just before the transport explodes.\r\n\r\nLater in the week, however, Darius passes along a message from the planetary government. \"Apparently, they credit us with the explosion. They've expressed their appreciation for helping to enforce the quarantine.\" He pauses, then adds, \"I'll make sure MedBay keeps monitoring for an outbreak.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -302,7 +302,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "You rescue some survivors",
-                        "Details" : "When the <i>Argo</i> arrives on the scene, it becomes clear that you've made the right decision. A handful of void-suited figures spin aimlessly away from a gaping hole in the hull in a last desperate bid for life. Your tech staff scoop up the survivors just before the transport explodes.\r\n\r\nLater in the week, however, Darius passes along a message from the planetary government. \"Apparently, they credit us with the explosion. They've expressed their appreciation for helping to enforce the quarantine.\" He pauses, then adds, \"I'll make sure MedBay keeps monitoring for an outbreak.\"",
+                        "Details" : "When the DropShip arrives on the scene, it becomes clear that you've made the right decision. A handful of void-suited figures spin aimlessly away from a gaping hole in the hull in a last desperate bid for life. Your tech staff scoop up the survivors just before the transport explodes.\r\n\r\nLater in the week, however, Darius passes along a message from the planetary government. \"Apparently, they credit us with the explosion. They've expressed their appreciation for helping to enforce the quarantine.\" He pauses, then adds, \"I'll make sure MedBay keeps monitoring for an outbreak.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -402,7 +402,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "The transport self-destructs",
-                        "Details" : "When the <i>Argo</i> arrives on the scene, you find a handful of void-suited figures spinning aimlessly away from a gaping hole in the hull in a final, desperate bid for life. You have a moment of feeling good about your decision.\r\n\r\nThen an explosion abruptly brightens the starry expanse, enveloping the transport, the survivors, and the <i>Argo</i>. Dr. Murad's team spends the rest of the day repairing the damage. You spend the rest of the day repairing bruised morale.",
+                        "Details" : "When the DropShip arrives on the scene, you find a handful of void-suited figures spinning aimlessly away from a gaping hole in the hull in a final, desperate bid for life. You have a moment of feeling good about your decision.\r\n\r\nThen an explosion abruptly brightens the starry expanse, enveloping the transport, the survivors, and the DropShip. Dr. Murad's team spends the rest of the day repairing the damage. You spend the rest of the day repairing bruised morale.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

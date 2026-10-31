@@ -343,7 +343,7 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Build temporary quarters in an unfinished part of the <i>Argo</i>.",
+                "Name" : "Build temporary quarters in an unfinished part of the DropShip.",
                 "Details" : "not locked",
                 "Icon" : ""
             },
@@ -494,7 +494,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Make some money, Good XP",
-                        "Details" : "Darius nods. \"I know just who to call. We'll have [[TGT_MW,{TGT_MW.Callsign}]] out of our hair for a month, and I'll see about them covering {TGT_MW.Det} retainer.\"\r\n\r\nLater that week, Darius delivers an update in the morning briefing.\r\n\r\n\"So far, {TGT_MW.Callsign} is actually working out quite well for our mutual friends. Obviously, I wasn't completely upfront about any challenges they might run into, but it doesn't seem like {TGT_MW.DET} bad luck followed {TGT_MW.Obj} off the <i>Argo</i>.\"",
+                        "Details" : "Darius nods. \"I know just who to call. We'll have [[TGT_MW,{TGT_MW.Callsign}]] out of our hair for a month, and I'll see about them covering {TGT_MW.Det} retainer.\"\r\n\r\nLater that week, Darius delivers an update in the morning briefing.\r\n\r\n\"So far, {TGT_MW.Callsign} is actually working out quite well for our mutual friends. Obviously, I wasn't completely upfront about any challenges they might run into, but it doesn't seem like {TGT_MW.DET} bad luck followed {TGT_MW.Obj} off the DropShip.\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
@@ -569,7 +569,7 @@
                     "Description" : {
                         "Id" : "outcome_3_1",
                         "Name" : "Make some money, Bad XP",
-                        "Details" : "Darius nods. \"I know just who to call. We'll have [[TGT_MW,{TGT_MW.Callsign}]] out of our hair for a month, and I'll see about them covering {TGT_MW.Det} retainer.\"\r\n\r\nLater that week, Darius delivers an update in the morning briefing.\r\n\r\n\"It sounds like {TGT_MW.Callsign}'s bad luck has followed {TGT_MW.Obj} off the <i>Argo</i>. Our mutual friends are none too pleased. Sounds like {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:are|Default:is} going to get limited work, but they're going to stick to the arrangement for the full month.\"",
+                        "Details" : "Darius nods. \"I know just who to call. We'll have [[TGT_MW,{TGT_MW.Callsign}]] out of our hair for a month, and I'll see about them covering {TGT_MW.Det} retainer.\"\r\n\r\nLater that week, Darius delivers an update in the morning briefing.\r\n\r\n\"It sounds like {TGT_MW.Callsign}'s bad luck has followed {TGT_MW.Obj} off the DropShip. Our mutual friends are none too pleased. Sounds like {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:are|Default:is} going to get limited work, but they're going to stick to the arrangement for the full month.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,

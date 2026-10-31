@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_researchMurad",
         "Name" : "Pulling Out all the Stops",
-        "Details" : "You watch the medical team clustered around [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] as they work to bandage the MechWarriors' wounds.\r\n\r\nDr. Murad taps you on the shoulder. \"Commander, when I took those MedTech courses, the instructor was fascinated by the <i>Argo</i>. He gave me some ancient components in exchange for information on how they functioned. I've determined that they could dramatically speed up our treatment speeds, but they'll burn out after a couple weeks. Would you like me to activate them in this emergency?\"",
+        "Details" : "You watch the medical team clustered around [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] as they work to bandage the MechWarriors' wounds.\r\n\r\nDr. Murad taps you on the shoulder. \"Commander, when I took those MedTech courses, the instructor was fascinated by the DropShip. He gave me some ancient components in exchange for information on how they functioned. I've determined that they could dramatically speed up our treatment speeds, but they'll burn out after a couple weeks. Would you like me to activate them in this emergency?\"",
         "Icon" : "uixTxrSpot_FarahTalking.png"
     },
     "Scope" : "MechWarrior",

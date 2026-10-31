@@ -197,7 +197,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "gain Lrg Reputation, small Morale",
-                        "Details" : "You nod at Darius. \"You're right. If anyone can appreciate their plight, it's the <i>Argo</i>. We'll share the treatment.\"\r\n\r\nDarius and Dr. Murad immediately set to work arranging relief for the ailing shuttle.\r\n\r\nOver the next several days, word of your decision trickles through the ship. Those who previously suffered through the Periphery Pox are very supportive of helping other victims of the unforgiving disease.\r\n\r\nSeveral days later, Sumire passes along a message of thanks from the planet's surface for resolving the situation favorably.",
+                        "Details" : "You nod at Darius. \"You're right. If anyone can appreciate their plight, it's the DropShip. We'll share the treatment.\"\r\n\r\nDarius and Dr. Murad immediately set to work arranging relief for the ailing shuttle.\r\n\r\nOver the next several days, word of your decision trickles through the ship. Those who previously suffered through the Periphery Pox are very supportive of helping other victims of the unforgiving disease.\r\n\r\nSeveral days later, Sumire passes along a message of thanks from the planet's surface for resolving the situation favorably.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -259,7 +259,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "gain small Reputation, medium Morale",
-                        "Details" : "You nod at Darius. \"You're right. If anyone can appreciate their plight, it's the <i>Argo</i>. We'll share the treatment.\"\r\n\r\nDarius and Dr. Murad immediately set to work arranging relief for the ailing shuttle.\r\n\r\nOver the next several days, word of your decision trickles through the ship. Those who previously suffered through the Periphery Pox are extremely enthusiastic about helping victims of the unforgiving disease.\r\n\r\nSeveral days later, Sumire passes along a message of thanks from the planet's surface for resolving the situation favorably.",
+                        "Details" : "You nod at Darius. \"You're right. If anyone can appreciate their plight, it's the DropShip. We'll share the treatment.\"\r\n\r\nDarius and Dr. Murad immediately set to work arranging relief for the ailing shuttle.\r\n\r\nOver the next several days, word of your decision trickles through the ship. Those who previously suffered through the Periphery Pox are extremely enthusiastic about helping victims of the unforgiving disease.\r\n\r\nSeveral days later, Sumire passes along a message of thanks from the planet's surface for resolving the situation favorably.",
                         "Icon" : ""
                     },
                     "Weight" : 50,

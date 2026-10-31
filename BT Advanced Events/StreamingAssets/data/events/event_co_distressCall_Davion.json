@@ -116,7 +116,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "No survivors are found",
-                        "Details" : "When the <i>Argo</i> arrives at the source of the distress beacon, a bleak picture greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Bay from the floating tomb. Grim work, but necessary for survival in the Periphery.",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, a bleak picture greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Bay from the floating tomb. Grim work, but necessary for survival in the Periphery.",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -171,7 +171,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "You rescue some survivors",
-                        "Details" : "When the <i>Argo</i> arrives at the source of the distress beacon, it's clear you made the right decision. A handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, hoping against hope for rescue.\r\n\r\nYour tech staff manage to scoop up the survivors just before the transport explodes.",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, it's clear you made the right decision. A handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, hoping against hope for rescue.\r\n\r\nYour tech staff manage to scoop up the survivors just before the transport explodes.",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -256,7 +256,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "You rescue some survivors",
-                        "Details" : "When the <i>Argo</i> arrives at the source of the distress beacon, it's clear you made the right decision. A handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, hoping against hope for rescue.\r\n\r\nYour tech staff manage to scoop up the survivors just before the transport explodes.",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, it's clear you made the right decision. A handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, hoping against hope for rescue.\r\n\r\nYour tech staff manage to scoop up the survivors just before the transport explodes.",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -318,7 +318,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "The transport self-destructs",
-                        "Details" : "When the <i>Argo</i> arrives at the source of the distress beacon, you feel a momentary surge of hope: a handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, awaiting rescue.\r\n\r\nThen an explosion abruptly brightens the starry expanse, enveloping the transport, the survivors, and the <i>Argo</i>. Dr. Murad's team spends the rest of the day repairing the damage. You spend the rest of the day repairing bruised morale.",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, you feel a momentary surge of hope: a handful of void-suited passengers spin aimlessly away from a gaping hole in the hull, awaiting rescue.\r\n\r\nThen an explosion abruptly brightens the starry expanse, enveloping the transport, the survivors, and the DropShip. Dr. Murad's team spends the rest of the day repairing the damage. You spend the rest of the day repairing bruised morale.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

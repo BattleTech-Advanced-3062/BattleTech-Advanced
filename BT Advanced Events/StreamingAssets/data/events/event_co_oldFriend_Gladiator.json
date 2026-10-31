@@ -152,7 +152,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Med morale boost",
-                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the <i>Argo</i> as Darius herds them to the Barracks. While Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay, Valravn struts up to you. She takes a swig from her hip flask.\r\n\r\n\"This is quite a ride, {COMMANDER.FirstName}. I might want one.\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Captain?\" \r\n\r\nValravn blinks. \"{SCN_MW.Callsign}! I never expected to see <i>you</i> again! It's great to see you.\" She jerks a thumb at you. \"{COMMANDER.Callsign} is clearly collecting the best.\"",
+                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the DropShip as Darius herds them to the Barracks. While Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay, Valravn struts up to you. She takes a swig from her hip flask.\r\n\r\n\"This is quite a ride, {COMMANDER.FirstName}. I might want one.\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Captain?\" \r\n\r\nValravn blinks. \"{SCN_MW.Callsign}! I never expected to see <i>you</i> again! It's great to see you.\" She jerks a thumb at you. \"{COMMANDER.Callsign} is clearly collecting the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -266,7 +266,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Large Morale boost",
-                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the <i>Argo</i> as Darius herds them to the Barracks. Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay.\r\n\r\nOver the course of the next weeks, Valravn relaxes, drinks, and gets to know the <i>Argo</i>'s MechWarriors. With the Training Modules available, the Mercs eventually persuade her to accept challenges to virtual gladiatorial combat. 1-on-1 fights soon become many-on-1 as she proves her mettle again and again.\r\n\r\nBy the time Valravn needs to leave, [[SCN_MW,{SCN_MW.Callsign}]] is the only MechWarrior who has managed to best the professional in single combat.",
+                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the DropShip as Darius herds them to the Barracks. Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay.\r\n\r\nOver the course of the next weeks, Valravn relaxes, drinks, and gets to know the DropShip's MechWarriors. With the Training Modules available, the Mercs eventually persuade her to accept challenges to virtual gladiatorial combat. 1-on-1 fights soon become many-on-1 as she proves her mettle again and again.\r\n\r\nBy the time Valravn needs to leave, [[SCN_MW,{SCN_MW.Callsign}]] is the only MechWarrior who has managed to best the professional in single combat.",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -372,7 +372,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Morale boost and Money",
-                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the <i>Argo</i> as Darius herds them to the Barracks. Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay.\r\n\r\nOver the course of the next weeks, Valravn relaxes, drinks, and gets to know the <i>Argo</i>'s MechWarriors, telling many stories of gladiatorial battles, some of which include you.\r\n\r\nMeanwhile, you and Darius work with her agent to move things along on the planet.\r\n\r\nWhen Valravn is ready to leave, she shakes your hand one last time. \"My agent tells me that this will be my most profitable PR tour in years. I told him to cut you in on the action. It's the least I can do!\"",
+                        "Details" : "Valravn arrives with much fanfare. Despite all they've seen, her entourage gawks at the DropShip as Darius herds them to the Barracks. Yang and his techs reverently move her heavily modified Griffin, <i>Koschei</i>, into the Mech Bay.\r\n\r\nOver the course of the next weeks, Valravn relaxes, drinks, and gets to know the DropShip's MechWarriors, telling many stories of gladiatorial battles, some of which include you.\r\n\r\nMeanwhile, you and Darius work with her agent to move things along on the planet.\r\n\r\nWhen Valravn is ready to leave, she shakes your hand one last time. \"My agent tells me that this will be my most profitable PR tour in years. I told him to cut you in on the action. It's the least I can do!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

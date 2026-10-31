@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_pickUpGame",
         "Name" : "Pick-up Game",
-        "Details" : "As you're working out on a machine in the <i>Argo</i>'s gym, a small group of MechWarriors clears equipment out of the way and starts setting up a makeshift basketball court. A ventilation seal ring apparently makes a fine hoop.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] and [[TRT_MW,{TRT_MW.Callsign}]] approach you. \"Are you going to play this time, Commander? Two on two. You can be with [[SCN_MW,{SCN_MW.Callsign}]].\" The other MechWarriors cheer enthusiastically.",
+        "Details" : "As you're working out on a machine in the DropShip's gym, a small group of MechWarriors clears equipment out of the way and starts setting up a makeshift basketball court. A ventilation seal ring apparently makes a fine hoop.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] and [[TRT_MW,{TRT_MW.Callsign}]] approach you. \"Are you going to play this time, Commander? Two on two. You can be with [[SCN_MW,{SCN_MW.Callsign}]].\" The other MechWarriors cheer enthusiastically.",
         "Icon" : "uixTxrSpot_Gym.png"
     },
     "Scope" : "MechWarrior",

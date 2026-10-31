@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_wornCargoLifters",
         "Name" : "Worn Out Lifters",
-        "Details" : "In the morning briefing, Yang says, \"I've got a mystery here. The cargo lifters need replacing, but someone ripped the diagnostic circuits out of our spares. Unless those are returned, the spares can't balance.\"\r\n\r\nDr. Murad makes a face. \"Oh, yes. I raided those to patch holes in the <i>Argo</i>'s internal sensors. Without them, the systems won't manage air circulation properly. And then\u2026 we get the bad odor funk. Sweat. Old food. <i>Radishes</i>.\"\r\n\r\nDr. Murad's faraway gaze returns to Yang. \"I did intend to tell you, but then the <i>Argo</i> went and broke again.\"",
+        "Details" : "In the morning briefing, Yang says, \"I've got a mystery here. The cargo lifters need replacing, but someone ripped the diagnostic circuits out of our spares. Unless those are returned, the spares can't balance.\"\r\n\r\nDr. Murad makes a face. \"Oh, yes. I raided those to patch holes in the DropShip's internal sensors. Without them, the systems won't manage air circulation properly. And then\u2026 we get the bad odor funk. Sweat. Old food. <i>Radishes</i>.\"\r\n\r\nDr. Murad's faraway gaze returns to Yang. \"I did intend to tell you, but then the DropShip went and broke again.\"",
         "Icon" : "uixTxrSpot_DailyBriefing.png"
     },
     "Scope" : "Company",
@@ -108,7 +108,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Keep the <i>Argo</i>'s air clean.",
+                "Name" : "Keep the DropShip's air clean.",
                 "Details" : "mechbay down, morale okay",
                 "Icon" : ""
             },

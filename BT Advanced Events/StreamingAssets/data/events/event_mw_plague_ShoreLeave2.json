@@ -736,7 +736,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "medium time out, vaccine",
-                        "Details" : "Sumire's eyes sparkle with ambition, while Darius makes arrangements for [[TGT_MW,{TGT_MW.Callsign}]]'s quarantine to contribute to the development of a more robust treatment for Periphery Pox.\r\n\r\nConfident in the quality of the <i>Argo</i>'s medical staff. the MechWarriors and crew remain positive throughout the crisis, especially when word spreads that {TGT_MW.Callsign} is on the mend.\r\n\r\nThe MedTechs gather samples from the MechWarrior and begin creating cultures for further study in the coming months. It will be some time before a viable serum becomes available.",
+                        "Details" : "Sumire's eyes sparkle with ambition, while Darius makes arrangements for [[TGT_MW,{TGT_MW.Callsign}]]'s quarantine to contribute to the development of a more robust treatment for Periphery Pox.\r\n\r\nConfident in the quality of the DropShip's medical staff. the MechWarriors and crew remain positive throughout the crisis, especially when word spreads that {TGT_MW.Callsign} is on the mend.\r\n\r\nThe MedTechs gather samples from the MechWarrior and begin creating cultures for further study in the coming months. It will be some time before a viable serum becomes available.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

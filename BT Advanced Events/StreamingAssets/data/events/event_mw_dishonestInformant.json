@@ -431,7 +431,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Innocent, sort-of",
-                        "Details" : "Later that week, Darius arrives in your quarters, unannounced and in a thoughtful mood.\r\n\r\n\"Commander, Sumire's been monitoring outbound messaging and she's seen nothing unusual. But she did notice [[SCN_MW,{SCN_MW.Callsign}]] lurking around the communications room for a couple of days.\"\r\n\r\nDarius scratches his chin. \"My read on the situation? {SCN_MW.SUBJ_C} either lost {SCN_MW.DET} nerve, or decided against it. Either way, I think we're okay.\"\r\n\r\nRaising your eyebrows, you say. \"Good to know that fear or conscience outweighed greed\u2026 for today, at least. Nevertheless, I'd like to see {SCN_MW.CALLSIGN} assigned some particularly miserable chores around the <i>Argo</i> for the next month.\"",
+                        "Details" : "Later that week, Darius arrives in your quarters, unannounced and in a thoughtful mood.\r\n\r\n\"Commander, Sumire's been monitoring outbound messaging and she's seen nothing unusual. But she did notice [[SCN_MW,{SCN_MW.Callsign}]] lurking around the communications room for a couple of days.\"\r\n\r\nDarius scratches his chin. \"My read on the situation? {SCN_MW.SUBJ_C} either lost {SCN_MW.DET} nerve, or decided against it. Either way, I think we're okay.\"\r\n\r\nRaising your eyebrows, you say. \"Good to know that fear or conscience outweighed greed\u2026 for today, at least. Nevertheless, I'd like to see {SCN_MW.CALLSIGN} assigned some particularly miserable chores around the DropShip for the next month.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,
@@ -560,7 +560,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Some money",
-                        "Details" : "You rest a hand on [[TGT_MW,{TGT_MW.Callsign}]]'s shoulder. \"Good job. You go on and join the others.\"\r\n\r\nAfter {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:leave|Default:leaves}, Darius muses. \"I like that we've rattled a few cages here in {TGT_SYSTEM.Name}. What I like even better is the idea of making a few C-Bills on the side with a disinformation campaign.\"\r\n\r\nYou nod, \"I was thinking the same thing. Make it happen, preferably while [[SCN_MW,{SCN_MW.Callsign}]] is engaged in some particularly miserable chores around the <i>Argo</i>.\"",
+                        "Details" : "You rest a hand on [[TGT_MW,{TGT_MW.Callsign}]]'s shoulder. \"Good job. You go on and join the others.\"\r\n\r\nAfter {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:leave|Default:leaves}, Darius muses. \"I like that we've rattled a few cages here in {TGT_SYSTEM.Name}. What I like even better is the idea of making a few C-Bills on the side with a disinformation campaign.\"\r\n\r\nYou nod, \"I was thinking the same thing. Make it happen, preferably while [[SCN_MW,{SCN_MW.Callsign}]] is engaged in some particularly miserable chores around the DropShip.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

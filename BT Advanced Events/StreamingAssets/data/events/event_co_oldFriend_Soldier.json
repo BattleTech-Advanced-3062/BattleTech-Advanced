@@ -165,7 +165,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Low MedTech penalty",
-                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Darius escorts them to the MedBay to pick up supplies, they stare in awe at the <i>Argo</i>.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
+                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Darius escorts them to the MedBay to pick up supplies, they stare in awe at the DropShip.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -251,7 +251,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Yang escorts them to the Mech Bay to go through the selection of available supplies, they stare in awe at the <i>Argo</i>.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Vasquez.\r\n\r\nVasquez is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} has always did have a talent for working with the best.\"",
+                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Yang escorts them to the Mech Bay to go through the selection of available supplies, they stare in awe at the DropShip.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Vasquez.\r\n\r\nVasquez is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} has always did have a talent for working with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -395,7 +395,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Sell the weapon",
-                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. They stare at the <i>Argo</i> as Darius walks them over to the massive LRM-20 awaiting their inspection.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
+                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. They stare at the DropShip as Darius walks them over to the massive LRM-20 awaiting their inspection.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

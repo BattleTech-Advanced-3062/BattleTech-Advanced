@@ -559,7 +559,7 @@
                     "Description" : {
                         "Id" : "outcome_3_1",
                         "Name" : "Passed out",
-                        "Details" : "The following morning, Darius pulls you aside. \"That was one wild party, {COMMANDER.FirstName}. I can say for a fact that the crew appreciated the release. People are lying passed out all over the <i>Argo</i>, and Yang found [[TGT_MW,{TGT_MW.Callsign}]] sleeping it off on one of his conveyor belts. Also, according to Yang, there won't be any real progress in the Mech Bay for a while. As he put it, most of his team 'couldn't fix a cup of coffee right now, let alone a BattleMech.'\"",
+                        "Details" : "The following morning, Darius pulls you aside. \"That was one wild party, {COMMANDER.FirstName}. I can say for a fact that the crew appreciated the release. People are lying passed out all over the DropShip, and Yang found [[TGT_MW,{TGT_MW.Callsign}]] sleeping it off on one of his conveyor belts. Also, according to Yang, there won't be any real progress in the Mech Bay for a while. As he put it, most of his team 'couldn't fix a cup of coffee right now, let alone a BattleMech.'\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

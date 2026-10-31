@@ -567,7 +567,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "very effective",
-                        "Details" : "Darius nods and arranges to send [[TGT_MW,{TGT_MW.Callsign}]] to the planet for a month of networking among the medical supplies vendors.\r\n\r\n{TGT_MW.Subj} {TGT_MW.Gender?NonBinary:focus|Default:focuses} on establishing an ongoing clinical trial partnership between the <i>Argo</i>'s extensive Hospital Bay and planetside labs.\r\n\r\nLater in the week, Darius delivers an update. \"The fruits of {TGT_MW.Callsign}'s labors have begun to arrive, and they're very impressive. Our data on in-the-field applications of the newest drugs and experimental supplies will open up long-term benefits for all of us.\"",
+                        "Details" : "Darius nods and arranges to send [[TGT_MW,{TGT_MW.Callsign}]] to the planet for a month of networking among the medical supplies vendors.\r\n\r\n{TGT_MW.Subj} {TGT_MW.Gender?NonBinary:focus|Default:focuses} on establishing an ongoing clinical trial partnership between the DropShip's extensive Hospital Bay and planetside labs.\r\n\r\nLater in the week, Darius delivers an update. \"The fruits of {TGT_MW.Callsign}'s labors have begun to arrive, and they're very impressive. Our data on in-the-field applications of the newest drugs and experimental supplies will open up long-term benefits for all of us.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
