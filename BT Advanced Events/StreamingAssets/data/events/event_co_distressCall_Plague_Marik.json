@@ -11,7 +11,7 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "argo_medBay2"
+                "uds_upgrade_medBay2"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -124,7 +124,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "No survivors are found",
-                        "Details" : "When the DropShip arrives at the source of the distress beacon, a bleak scene greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Bay from the floating tomb. Darius, watching with you, says, \"Grim work, but necessary for survival in the Periphery.\"",
+                        "Details" : "When the DropShip arrives at the source of the distress beacon, a bleak scene greets you. The transport drifts aimlessly, no longer even venting oxygen from a gaping hole in its hull.\r\n\r\nWhile you're too late to help, your tech staff does manage to salvage some scrap for the Mech Hangar from the floating tomb. Darius, watching with you, says, \"Grim work, but necessary for survival in the Periphery.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,

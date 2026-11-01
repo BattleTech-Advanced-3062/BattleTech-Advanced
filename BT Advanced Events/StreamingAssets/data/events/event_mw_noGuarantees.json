@@ -44,7 +44,7 @@
             "RequirementTags" : {
                 "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
-                    "argo_medBay2"
+                    "uds_upgrade_medBay2"
                 ]
             },
             "ExclusionTags" : {

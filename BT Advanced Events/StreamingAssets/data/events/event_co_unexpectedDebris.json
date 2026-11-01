@@ -147,8 +147,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_0_2",
-                        "Name" : "Damage to Mech Bay",
-                        "Details" : "You watch with trepidation as Sumire wrestles with the control panel. The DropShip's trajectory shifts at a glacial speed. You hear scraping and brace yourself. On a viewscreen, you see the remains of a satellite collide with the hull, and a shudder rattles through the ship.\r\n\r\nAfter the DropShip pushes past the wreckage and reaches a safe distance, Dr. Murad reports into Navigation over the comms. \"The Mech Bay suffered a direct hit. Luckily, the 'Mechs are safe. Expect a slowdown for the next couple of weeks.\"\r\n\r\nSumire slumps in her chair. \"I tried my best, Commander.\"\r\n\r\n\"That maneuver was nearly impossible, but hey, we're still here,\" you say. \"That's what counts.\"",
+                        "Name" : "Damage to Mech Hangar",
+                        "Details" : "You watch with trepidation as Sumire wrestles with the control panel. The DropShip's trajectory shifts at a glacial speed. You hear scraping and brace yourself. On a viewscreen, you see the remains of a satellite collide with the hull, and a shudder rattles through the ship.\r\n\r\nAfter the DropShip pushes past the wreckage and reaches a safe distance, Dr. Murad reports into Navigation over the comms. \"The Mech Hangar suffered a direct hit. Luckily, the 'Mechs are safe. Expect a slowdown for the next couple of weeks.\"\r\n\r\nSumire slumps in her chair. \"I tried my best, Commander.\"\r\n\r\n\"That maneuver was nearly impossible, but hey, we're still here,\" you say. \"That's what counts.\"",
                         "Icon" : null
                     },
                     "Weight" : 25,
@@ -316,8 +316,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_1_2",
-                        "Name" : "Explosion in the Mech Bay",
-                        "Details" : "You watch from a viewscreen as the Leopard jumps from the DropShip's docking collar and fires at the debris. The PPC barrage scatters the scrap metal in unexpected directions. Pieces spin, break apart, and smack against the hull.\r\n\r\nAfter the DropShip reaches a safe distance, Dr. Murad reports in over the comms. \"We sustained serious damage to the Mech Bay. The 'Mechs are safe, but an unsecured canister exploded, injuring some of the technicians. It'll be a couple weeks before their injuries heal, and the MedBay will be a little cramped during this time.\"",
+                        "Name" : "Explosion in the Mech Hangar",
+                        "Details" : "You watch from a viewscreen as the Leopard jumps from the DropShip's docking collar and fires at the debris. The PPC barrage scatters the scrap metal in unexpected directions. Pieces spin, break apart, and smack against the hull.\r\n\r\nAfter the DropShip reaches a safe distance, Dr. Murad reports in over the comms. \"We sustained serious damage to the Mech Hangar. The 'Mechs are safe, but an unsecured canister exploded, injuring some of the technicians. It'll be a couple weeks before their injuries heal, and the MedBay will be a little cramped during this time.\"",
                         "Icon" : null
                     },
                     "Weight" : 33,

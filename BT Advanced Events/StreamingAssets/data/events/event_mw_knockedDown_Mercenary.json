@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_knockedDown_Mercenary",
         "Name" : "When We Get Knocked Down",
-        "Details" : "Another sleepless night finds you pacing the Mech Bay. The door opens and closes and you discover that [[TGT_MW,{TGT_MW.Callsign}]], who should be hooked up to a half-dozen machines in the MedBay, has entered the room.\r\n\r\nWithout noticing you, {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:limp|Default:limps} painfully down the row of 'Mechs and stops. You realize {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:are|Default:is} staring up at the 'Mech {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:were|Default:was} piloting when {TGT_MW.Subj} received those injuries.\r\n\r\nA shuddering, half-stifled sob wracks the MechWarrior's body. Fists clench as {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:fight|Default:fights} back the darkness.",
+        "Details" : "Another sleepless night finds you pacing the Mech Hangar. The door opens and closes and you discover that [[TGT_MW,{TGT_MW.Callsign}]], who should be hooked up to a half-dozen machines in the MedBay, has entered the room.\r\n\r\nWithout noticing you, {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:limp|Default:limps} painfully down the row of 'Mechs and stops. You realize {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:are|Default:is} staring up at the 'Mech {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:were|Default:was} piloting when {TGT_MW.Subj} received those injuries.\r\n\r\nA shuddering, half-stifled sob wracks the MechWarrior's body. Fists clench as {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:fight|Default:fights} back the darkness.",
         "Icon" : "uixTxrSpot_MedBayPatient.png"
     },
     "Scope" : "MechWarrior",

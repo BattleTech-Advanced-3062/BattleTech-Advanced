@@ -309,7 +309,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Schedule a regular Holovid night.",
-                "Details" : "[Argo: Lounge]",
+                "Details" : "[DropShip: Lounge]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -317,7 +317,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_lounge1"
+                            "uds_upgrade_lounge1"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -543,7 +543,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Reserve the private screening room for the senior staff.",
-                "Details" : "[Argo: Upgraded Lounge]",
+                "Details" : "[DropShip: Upgraded Lounge]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -551,7 +551,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_lounge2"
+                            "uds_upgrade_lounge2"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -639,7 +639,7 @@
                     "Description" : {
                         "Id" : "outcome_3_2",
                         "Name" : "bigger than the DropShip",
-                        "Details" : "You, Dr. Murad, and Sumire settle into the lounge to watch a madcap animated comedy set on a LosTech dropship even bigger than the DropShip. The LosTech features heavily in the humorous moments, and each time, Sumire facepalms. \"I can't believe they're <i>so stupid</i>. And I'm laughing anyhow!\"\r\n\r\nDr. Murad responds, \"That's because the characters aren't so bright\u2014except for the mastermind\u2014but the show is very clever. They actually did a lot of research. Isn't it great?\"",
+                        "Details" : "You, Dr. Murad, and Sumire settle into the lounge to watch a madcap animated comedy set on a LosTech <i>Behemoth</i>-class DropShip even bigger than your DropShip. The LosTech features heavily in the humorous moments, and each time, Sumire facepalms. \"I can't believe they're <i>so stupid</i>. And I'm laughing anyhow!\"\r\n\r\nDr. Murad responds, \"That's because the characters aren't so bright\u2014except for the mastermind\u2014but the show is very clever. They actually did a lot of research. Isn't it great?\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

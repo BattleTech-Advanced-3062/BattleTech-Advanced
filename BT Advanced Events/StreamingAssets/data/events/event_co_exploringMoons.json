@@ -232,8 +232,8 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Send Sumire in the Leopard.",
-                "Details" : "[\u00A250,000]",
+                "Name" : "Send Sumire in the Secondary DropShip.",
+                "Details" : "[Have a Secondary DropShip], [\u00A250,000]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -241,7 +241,9 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "tagSetSourceFile" : "",
-                        "items" : []
+                        "items" : [
+                            "uds_secondary_ship"
+                        ]
                     },
                     "ExclusionTags" : {
                         "tagSetSourceFile" : "",
@@ -262,7 +264,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "You gather some data that might be interesting",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, we didn't find anything radical, but we did get decent data on some more obscure parts of the landscape. If we're lucky, we'll be able to offset the cost of acquiring the scans. Full disclosure, though\u2026 I'm not feeling very lucky at the moment.\"",
+                        "Details" : "Sumire takes the secondary DropShip for a low altitude circuit of the moon, relaying her findings back to the primary DropShip's computers. Over the course of the week she studies the collected data, then delivers her report.\r\n\r\n\"Commander, we didn't find anything radical, but we did get decent data on some more obscure parts of the landscape. If we're lucky, we'll be able to offset the cost of acquiring the scans. Full disclosure, though\u2026 I'm not feeling very lucky at the moment.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -298,7 +300,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "You discover something very valuable!",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers.  Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, the scientists I've been talking with are really excited about the data we've acquired. Apparently, it contains proof of a rare ore of scholastic interest.\" She shrugs. \"Not my wheelhouse. In any case, I've negotiated an excellent price for the full scans, so everybody can celebrate.\"",
+                        "Details" : "Sumire takes the secondary DropShip for a low altitude circuit of the moon, relaying her findings back to the primary DropShip's computers.  Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, the scientists I've been talking with are really excited about the data we've acquired. Apparently, it contains proof of a rare ore of scholastic interest.\" She shrugs. \"Not my wheelhouse. In any case, I've negotiated an excellent price for the full scans, so everybody can celebrate.\"",
                         "Icon" : null
                     },
                     "Weight" : 50,
@@ -334,7 +336,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "Sumire stumbles upon an abandoned base",
-                        "Details" : "Sumire takes the Leopard for a low altitude circuit of the moon, relaying her findings back to the DropShip's computers. Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, we aren't the only ones who were curious about this moon. I identified an abandoned facility, completely destroyed and then buried. Whoever it was, I wonder what they were doing.\"",
+                        "Details" : "Sumire takes the secondary DropShip for a low altitude circuit of the moon, relaying her findings back to the primary DropShip's computers. Over the course of the week she works with the collected data, then delivers her report.\r\n\r\n\"Commander, we aren't the only ones who were curious about this moon. I identified an abandoned facility, completely destroyed and then buried. Whoever it was, I wonder what they were doing.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,

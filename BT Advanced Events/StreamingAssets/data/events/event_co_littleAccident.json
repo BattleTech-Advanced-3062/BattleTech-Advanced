@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_littleAccident",
         "Name" : "A Little Accident",
-        "Details" : "An alarm goes off in the command center, drawing your attention. Darius checks a readout and says, \"Commander, something just exploded in the Mech Bay.\"\r\n\r\nA moment later, Yang's voice comes over the comm, \"Sorry, Boss. We had a little accident down here. Nothing to worry about! Nothing's on fire! Just, uh, one of the techs, having an off day. We'll get it straightened out.\"",
+        "Details" : "An alarm goes off in the command center, drawing your attention. Darius checks a readout and says, \"Commander, something just exploded in the Mech Hangar.\"\r\n\r\nA moment later, Yang's voice comes over the comm, \"Sorry, Boss. We had a little accident down here. Nothing to worry about! Nothing's on fire! Just, uh, one of the techs, having an off day. We'll get it straightened out.\"",
         "Icon" : "uixTxrSpot_YangTalking.png"
     },
     "Scope" : "Company",
@@ -50,7 +50,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "A: hydraulic fluid",
-                        "Details" : "Darius nods and heads down to the Mech Bay. \r\n\r\nWhen he reappears an hour later, he's spattered with oil. You pin him with a question: \"What happened down there?\"\r\n\r\nDarius shakes his head. \"Apparently the tech punctured a pressurized tube of hydraulic fluid on his lifter, and it\u2026 went everywhere. They're still cleaning it up, and the equipment is going to need repairs.\"\r\n\r\n\"Hydraulic fluid?\"\r\n\r\n\"Everywhere,\" Darius repeats.",
+                        "Details" : "Darius nods and heads down to the Mech Hangar. \r\n\r\nWhen he reappears an hour later, he's spattered with oil. You pin him with a question: \"What happened down there?\"\r\n\r\nDarius shakes his head. \"Apparently the tech punctured a pressurized tube of hydraulic fluid on his lifter, and it\u2026 went everywhere. They're still cleaning it up, and the equipment is going to need repairs.\"\r\n\r\n\"Hydraulic fluid?\"\r\n\r\n\"Everywhere,\" Darius repeats.",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -168,7 +168,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "A: here and here",
-                        "Details" : "You say, \"All right, Chief. When you're done, please come by for a chat.\" \r\n\r\nWhen Yang shows up, he's freshly showered and wearing a clean jumpsuit. \"It was messy,\" he explains. \"We're going to have to repair one of the lifters, so productivity will take a hit.\"\r\n\r\nYou say, \"That's what I wanted to ask you about. Is this something that more investment in the Mech Bay could have prevented?\"\r\n\r\nYang shakes his head. \"Not really. Morale's low and everyone's running on empty, Boss. It's a problem here and here,\" he says, pointing to his head and his heart.",
+                        "Details" : "You say, \"All right, Chief. When you're done, please come by for a chat.\" \r\n\r\nWhen Yang shows up, he's freshly showered and wearing a clean jumpsuit. \"It was messy,\" he explains. \"We're going to have to repair one of the lifters, so productivity will take a hit.\"\r\n\r\nYou say, \"That's what I wanted to ask you about. Is this something that more investment in the Mech Hangar could have prevented?\"\r\n\r\nYang shakes his head. \"Not really. Morale's low and everyone's running on empty, Boss. It's a problem here and here,\" he says, pointing to his head and his heart.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

@@ -57,7 +57,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "morale down",
-                        "Details" : "You shake your head. \"We need Mech Bay at full capacity. To hell with the smell!\"\r\n\r\nDr. Murad returns the diagnostic circuits, and Yang puts the spare cargo lifters into service. Technically, everything is fine. And then there's the funk. Everyone complains about the funk. Every time the odor is mentioned, Dr. Murad shudders. \"I did tell you. Radishes.\"",
+                        "Details" : "You shake your head. \"We need Mech Hangar at full capacity. To hell with the smell!\"\r\n\r\nDr. Murad returns the diagnostic circuits, and Yang puts the spare cargo lifters into service. Technically, everything is fine. And then there's the funk. Everyone complains about the funk. Every time the odor is mentioned, Dr. Murad shudders. \"I did tell you. Radishes.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -118,7 +118,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Yang's team trudges on",
-                        "Details" : "You nod vigorously. \"If the environmental systems break, we all feel it.\"\r\n\r\nYang shrugs and outlines the efficiency hit to the Mech Bay, ending with \"We've made do with less. We'll just have to get creative.\"",
+                        "Details" : "You nod vigorously. \"If the environmental systems break, we all feel it.\"\r\n\r\nYang shrugs and outlines the efficiency hit to the Mech Hangar, ending with \"We've made do with less. We'll just have to get creative.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -236,7 +236,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Spend money",
-                        "Details" : "You say, \"If we completely replace the equipment, then we won't need to reclaim the sensors. Chief, see what you can find planet-side.\"\r\n\r\nBoth Dr. Murad and Yang breathe a sigh of relief.\r\n\r\nLater in the week, Yang gives an update. \"{TGT_SYSTEM.Name} has plenty of parts and skilled labor. I replaced the lifters, and I picked up compatible circuits for the spares. We should be good for a while. Unless <i>someone</i> raids the Mech Bay for parts again.\"\r\n\r\nDr. Murad cringes. \"I <i>did</i> say that I was sorry\u2026\"",
+                        "Details" : "You say, \"If we completely replace the equipment, then we won't need to reclaim the sensors. Chief, see what you can find planet-side.\"\r\n\r\nBoth Dr. Murad and Yang breathe a sigh of relief.\r\n\r\nLater in the week, Yang gives an update. \"{TGT_SYSTEM.Name} has plenty of parts and skilled labor. I replaced the lifters, and I picked up compatible circuits for the spares. We should be good for a while. Unless <i>someone</i> raids the Mech Hangar for parts again.\"\r\n\r\nDr. Murad cringes. \"I <i>did</i> say that I was sorry\u2026\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

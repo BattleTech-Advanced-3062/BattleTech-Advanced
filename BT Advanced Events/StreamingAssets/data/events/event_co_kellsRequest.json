@@ -115,8 +115,8 @@
 							"Stats": [
 								{
 									"typeString": "System.Int32",
-									"name": "Item.HeatSinkDef.emod_kit_dhs",
-									"value": "2",
+									"name": "Item.UpgradeDef.Gear_ChameleonLightPolarizationShield",
+									"value": "1",
 									"set": false,
 									"valueConstant": null
 								},
@@ -369,7 +369,7 @@
 								{
 									"typeString": "System.Int32",
 									"name": "Item.UpgradeDef.emod_armorslots_ferrosfibrous",
-									"value": "1",
+									"value": "2",
 									"set": false,
 									"valueConstant": null
 								},
@@ -462,7 +462,7 @@
 								{
 									"typeString": "System.Int32",
 									"name": "Item.HeatSinkDef.Gear_HeatSink_Generic_Double",
-									"value": "1",
+									"value": "5",
 									"set": false,
 									"valueConstant": null
 								}
@@ -500,7 +500,7 @@
 								{
 									"typeString": "System.Int32",
 									"name": "Item.UpgradeDef.emod_case",
-									"value": "1",
+									"value": "3",
 									"set": false,
 									"valueConstant": null
 								}

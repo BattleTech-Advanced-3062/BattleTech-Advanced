@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_balloon",
         "Name" : "B A Eleven Hundred N",
-        "Details" : "You happen to be in the Mech Bay when [[TGT_MW,{TGT_MW.Callsign}]] approaches Yang with a question. \"Uh, Chief? I was wondering if you had any B A eleven hundred Ns in stock. I'd really like to get one installed on my 'Mech.\"\r\n\r\nYang looks at you to make sure you're hearing this, then turns back to {TGT_MW.Callsign} and replies with admirable gravity, \"You don't see those often on the field. Are you sure you want us to install a B A eleven hundred N on your BattleMech?\"\r\n\r\n\"Yes sir. [[SCN_MW,{SCN_MW.Callsign}]] says it'll really improve the 'Mech's stability.\"",
+        "Details" : "You happen to be in the Mech Hangar when [[TGT_MW,{TGT_MW.Callsign}]] approaches Yang with a question. \"Uh, Chief? I was wondering if you had any B A eleven hundred Ns in stock. I'd really like to get one installed on my 'Mech.\"\r\n\r\nYang looks at you to make sure you're hearing this, then turns back to {TGT_MW.Callsign} and replies with admirable gravity, \"You don't see those often on the field. Are you sure you want us to install a B A eleven hundred N on your BattleMech?\"\r\n\r\n\"Yes sir. [[SCN_MW,{SCN_MW.Callsign}]] says it'll really improve the 'Mech's stability.\"",
         "Icon" : "uixTxrSpot_MechWarriorsTalking.png"
     },
     "Scope" : "MechWarrior",
@@ -64,7 +64,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "stump Yang",
-                        "Details" : "You insert yourself into the conversation. \"Extra stability is something I can't have enough of, Chief. Put some of those on my 'Mech too.\"\r\n\r\nThat brings Yang up short. His mouth opens, shuts, and opens again. One eye begins twitching until he finally settles on what to say. \"Sure thing, Boss. Two sets of BA eleven hundred Ns coming right up. I'll get the crew going on that right away, sir. Yes sir.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] beams with satisfaction and the two of you walk out of the Mech Bay together, trading war stories from recent successful contracts. Later, you find your BattleMech lovingly decorated with shiny red balloons.",
+                        "Details" : "You insert yourself into the conversation. \"Extra stability is something I can't have enough of, Chief. Put some of those on my 'Mech too.\"\r\n\r\nThat brings Yang up short. His mouth opens, shuts, and opens again. One eye begins twitching until he finally settles on what to say. \"Sure thing, Boss. Two sets of BA eleven hundred Ns coming right up. I'll get the crew going on that right away, sir. Yes sir.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] beams with satisfaction and the two of you walk out of the Mech Hangar together, trading war stories from recent successful contracts. Later, you find your BattleMech lovingly decorated with shiny red balloons.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

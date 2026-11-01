@@ -350,7 +350,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_lounge1"
+                            "uds_upgrade_lounge1"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },

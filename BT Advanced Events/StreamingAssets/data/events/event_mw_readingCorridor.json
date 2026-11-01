@@ -164,8 +164,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_0_2",
-                        "Name" : "{TGT_MW.Callsign} moves to the Mech Bay",
-                        "Details" : "\"You can't sit in the corridors, [[TGT_MW,{TGT_MW.Callsign}]]. It blocks traffic.\"\r\n\r\n{TGT_MW.Callsign} looks up and down the empty corridor, but stops short of actually saying 'what traffic?' {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:get|Default:gets} to {TGT_MW.DET} feet before you can offer a suggestion of where to go.\r\n\r\nLater in the week, Yang requests, again, that the pilots stay out of the Mech Bay. \"We can't repair a cockpit when there's someone <i>sitting in it reading a book!</i>\" The Chief is not amused.",
+                        "Name" : "{TGT_MW.Callsign} moves to the Mech Hangar",
+                        "Details" : "\"You can't sit in the corridors, [[TGT_MW,{TGT_MW.Callsign}]]. It blocks traffic.\"\r\n\r\n{TGT_MW.Callsign} looks up and down the empty corridor, but stops short of actually saying 'what traffic?' {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:get|Default:gets} to {TGT_MW.DET} feet before you can offer a suggestion of where to go.\r\n\r\nLater in the week, Yang requests, again, that the pilots stay out of the Mech Hangar. \"We can't repair a cockpit when there's someone <i>sitting in it reading a book!</i>\" The Chief is not amused.",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -384,7 +384,7 @@
                 {
                     "Description" : {
                         "Id" : "outcome_2_0",
-                        "Name" : "Help in the Mech Bay",
+                        "Name" : "Help in the Mech Hangar",
                         "Details" : "\"Learn anything useful in here?\" you ask.\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] eagerly and gingerly takes back the book. \"I've been curious about LosTech all my life. Ever since I got aboard the DropShip, I just can't get enough of reading these old books. I discovered this last month, on shore leave. Can't understand half of it, though, and I actually have some formal training to fall back on.\"\r\n\r\nYou interrupt the rambling, \"So the answer is\u2026 no.\"\r\n\r\n{TGT_MW.Callsign} laughs. \"Not <i>no</i>, just <i>not yet</i>. But I do have some theories to share with the Chief when he has a few minutes.\"",
                         "Icon" : ""
                     },

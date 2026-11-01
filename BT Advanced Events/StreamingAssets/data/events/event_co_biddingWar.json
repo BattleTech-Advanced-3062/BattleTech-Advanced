@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_biddingWar",
         "Name" : "Bidding War",
-        "Details" : "As you enter the garden, Darius greets you, holding a basket of strawberries. \"Commander, I've been monitoring the Hydroponics productivity and we're growing more than we're using. So I did a little research on market opportunities.\"\r\n\r\n\"I've heard back from two potential customers in {TGT_SYSTEM.Name} orbit. One would pay cash for the fresh food. I think I can get \u00A275,000, give or take. The other is offering machine tools in trade, which the Mech Bay could use to boost productivity.\"\r\n\r\nDarius looks longingly at his basket. \"All offers require a minimum supply of produce, though, and it'll take more than our surplus to fill them. The crew won't like limits on their salad bar.\"",
+        "Details" : "As you enter the garden, Darius greets you, holding a basket of strawberries. \"Commander, I've been monitoring the Hydroponics productivity and we're growing more than we're using. So I did a little research on market opportunities.\"\r\n\r\n\"I've heard back from two potential customers in {TGT_SYSTEM.Name} orbit. One would pay cash for the fresh food. I think I can get \u00A275,000, give or take. The other is offering machine tools in trade, which the Mech Hangar could use to boost productivity.\"\r\n\r\nDarius looks longingly at his basket. \"All offers require a minimum supply of produce, though, and it'll take more than our surplus to fill them. The crew won't like limits on their salad bar.\"",
         "Icon" : "uixTxrSpot_Hydroponics.png"
     },
     "Scope" : "Company",
@@ -11,7 +11,7 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "argo_rec_hydroponics",
+                "uds_upgrade_hydroponics",
                 "event_mw_firstHarvest"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"

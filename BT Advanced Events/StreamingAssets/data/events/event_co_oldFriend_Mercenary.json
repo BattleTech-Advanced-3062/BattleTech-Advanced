@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_oldFriend_Mercenary",
         "Name" : "A Friend from the Old Days",
-        "Details" : "Scythia\u2026? Through your rush of old memories, Darius goes on. \"She claims to be a friend from your earliest mercenary days. I'll put her through to your quarters.\"\r\n\r\nScythia's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHer lance of 'Mechs took an absolute beating on a contract that went sideways on her, and two critical MechWarriors were injured. She wants to dock her DropShip at the DropShip and get some medical help, and she's willing to pay.",
+        "Details" : "Scythia\u2026? Through your rush of old memories, Darius goes on. \"She claims to be a friend from your earliest days as a mercenary officer. I'll put her through to your quarters.\"\r\n\r\nScythia's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHer lance of 'Mechs took an absolute beating on a contract that went sideways on her, and two critical MechWarriors were injured. She wants to dock with your DropShip and get some medical help, and she's willing to pay.",
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "Company",
@@ -12,7 +12,7 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "argo_pod2"
+                "uds_upgrade_crewquarters1"
             ]
         },
         "ExclusionTags" : {
@@ -43,7 +43,7 @@
             "RequirementTags" : {
                 "tagSetSourceFile" : "Tags/CommanderTags",
                 "items" : [
-                    "commander_career_mercenary"
+                    "commander_career_officer_trainee"
                 ]
             },
             "ExclusionTags" : {
@@ -359,7 +359,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Provide some support but also use of the Gym for \u00A2100,000.",
-                "Details" : "[Argo: Gym]",
+                "Details" : "[DropShip: Gym]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -368,7 +368,7 @@
                     "RequirementTags" : {
                         "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : [
-                            "argo_rec_gym"
+                            "uds_upgrade_gym"
                         ]
                     },
                     "ExclusionTags" : {

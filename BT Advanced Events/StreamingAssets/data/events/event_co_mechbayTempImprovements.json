@@ -15,8 +15,8 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "argo_mechBay_automation1",
-                "argo_mechBay_refitHarness"
+                "uds_upgrade_cranes",
+                "uds_upgrade_elevators"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -94,8 +94,8 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Temporarily hook up the Automation systems.",
-                "Details" : "[Argo: Repaired Power Conduits]",
+                "Name" : "Temporarily hook up the Crane systems.",
+                "Details" : "[DropShip: Upgraded Power]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -103,7 +103,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_power1"
+                            "uds_upgrade_power1"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },
@@ -119,7 +119,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Works better",
-                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these Star League-era systems are amazing, but challenging. The automation system is partially online now, maybe for a couple of weeks.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the Power Conduits was all the prep we needed to do. I'm ready when you are!\"",
+                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these systems are amazing, but challenging. The crane system is partially online now, maybe for a couple of weeks.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the power system was all the prep we needed to do. I'm ready when you are!\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -155,7 +155,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Works even better",
-                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these Star League-era systems are amazing, but challenging. The automation system is partially online now, maybe for a month.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the Power Conduits was all the prep we needed to do. I'm ready when you are!\"",
+                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these systems are amazing, but challenging. The crane system is partially online now, maybe for a month.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the power system was all the prep we needed to do. I'm ready when you are!\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -204,8 +204,8 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Temporarily hook up the Refit Harnesses.",
-                "Details" : "[Argo: Repaired Power Conduits]",
+                "Name" : "Temporarily hook up the Elevators.",
+                "Details" : "[DropShip: Upgraded Power]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -229,7 +229,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Works better",
-                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these Star League-era systems are amazing but challenging. The Refit Harnesses are partially working now, maybe for a couple of weeks.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the Power Conduits was all the prep we needed to do. I'm ready when you are!\"",
+                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these systems are amazing but challenging. The Mech Hangar elevators are partially working now, maybe for a couple of weeks.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the power system was all the prep we needed to do. I'm ready when you are!\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -265,7 +265,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "Works even better",
-                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these Star League era systems are amazing but challenging. The Refit Harnesses are partially working now, maybe for a month.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the Power Conduits was all the prep we needed to do. I'm ready when you are!\"",
+                        "Details" : "Yang is more excited about Dr. Murad's assistance than babysitting some reluctantly drafted 'Mech jockeys.\r\n\r\nLater that week, Farah checks in with an update. \"Commander, these Star League era systems are amazing but challenging. The Mech Hangar elevators are partially working now, maybe for a month.\"\r\n\r\nChecking some calculations on her ubiquitous datapad, she arches an eyebrow. \"If we can spare the C-Bills, I'd like to spend the time to make this improvement permanent. The work on the power system was all the prep we needed to do. I'm ready when you are!\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

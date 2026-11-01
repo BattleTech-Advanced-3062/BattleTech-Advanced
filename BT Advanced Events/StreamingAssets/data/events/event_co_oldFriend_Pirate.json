@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_oldFriend_Pirate",
         "Name" : "A Friend from the Old Days",
-        "Details" : "Rackam\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your pirate days. I'll put him through to your quarters.\"\r\n\r\nRackam's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHis crew bit off more than they could chew while robbing a well-protected merchant caravan carrying rare Holovid products. He wants to dock his DropShip at the DropShip, borrow your MechTechs, and pay for the privilege.",
+        "Details" : "Rackam\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your racing days. I'll put him through to your quarters.\"\r\n\r\nRackam's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHe was told to lose a race but decided to win instead and got into trouble with the bookies who tried to get him to throw the event. Now he needs a place to lay low with his pit crew and his now-damaged racer until his agent can smooth things over and he's willing to pay for the shelter.",
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "Company",
@@ -11,7 +11,7 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "argo_pod2"
+                "uds_upgrade_crewquarters1"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -42,7 +42,7 @@
             "Scope" : "Commander",
             "RequirementTags" : {
                 "items" : [
-                    "commander_career_pirate"
+                    "commander_career_offroad_racer"
                 ],
                 "tagSetSourceFile" : "Tags/CommanderTags"
             },
@@ -105,7 +105,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Underworld enemies",
-                        "Details" : "\"I'm sorry, Rackam, but even for the sake of old times, I just can't help you right now.\"\r\n\r\nThere's a lengthy pause on the other end of the line. When Rackam finally responds, there is ice in his voice. \"Well, I guess I won't be owing you any favors. That's\u2026 disappointing, but I suppose you have to look after your own. I hope you have better luck than I have.\"",
+                        "Details" : "\"I'm sorry, Rackam, but even for the sake of old times, I just can't help you right now.\"\r\n\r\nThere's a lengthy pause on the other end of the line. When Rackam finally responds, there is ice in his voice. \"Well, I guess I won't be owing you any favors. That's\u2026 disappointing, but I suppose you have to look after your own. Good luck out there, pal.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -167,7 +167,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Provide minimal Mech Bay support for \u00A220,000.",
+                "Name" : "Provide minimal Vehicle Hangar support for \u00A220,000.",
                 "Details" : "Low MechTech impact",
                 "Icon" : ""
             },
@@ -177,7 +177,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Low MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support from the Mech Bay.\" Gesturing broadly as you make your way deeper into the ship, \"Even with all of this, there's one thing that hasn't changed. It's the 'Mechs that make the money.\"",
+                        "Details" : "Rackam's ragtag pit crew arrives with little fanfare. As Yang gets Rackam's ride, the <i>Red Menace</i>, loaded into the Vehicle Hangar, the pit crew stares in awe at the DropShip.\r\n\r\nRackam lumbers over, a mountain of a man at the best of times. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\n\"Of course. I only wish I could provide more support for your crew.\" Gesturing broadly as you make your way deeper into the ship, \"Even with all of this, there's one thing that hasn't changed. It's the crew that makes the man.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -253,7 +253,7 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Provide generous Mech Bay support for \u00A2100,000.",
+                "Name" : "Provide generous Mech Hangar support for \u00A2100,000.",
                 "Details" : "High MechTech impact",
                 "Icon" : ""
             },
@@ -263,7 +263,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Rackam.\r\n\r\nRackam is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} always did have a talent for working with the best.\"",
+                        "Details" : "Rackam's ragtag pit crew arrives with little fanfare. As Yang gets Rackam's ride, the <i>Red Menace</i>, loaded into the Vehicle Hangar, the pit crew stares in awe at the DropShip.\r\n\r\nRackam lumbers over, a mountain of a man at the best of times, and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Rackam.\r\n\r\nRackam is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} always did have a talent for working with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -377,37 +377,17 @@
         {
             "Description" : {
                 "Id" : "outcome_3",
-                "Name" : "Provide generous support but ask for the Holovids in payment.",
-                "Details" : "[Liked by Aurigan Pirates]",
+                "Name" : "Provide generous support but ask for a race as payment.",
+                "Details" : "Fun wildcard option",
                 "Icon" : null
             },
-            "RequirementList" : [
-                {
-                    "Scope" : "Company",
-                    "RequirementTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : "Tags/CompanyTags"
-                    },
-                    "ExclusionTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RequirementComparisons" : [
-                        {
-                            "obj" : "Reputation.AuriganPirates",
-                            "op" : "GreaterThanOrEqual",
-                            "val" : 20,
-                            "valueConstant" : "[rep_liked_min]"
-                        }
-                    ]
-                }
-            ],
+            "RequirementList" : [],
             "ResultSets" : [
                 {
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Rackam's ragtag crew of pirates arrive with little fanfare. As Yang escorts them to the Mech Bay, they stare in awe at the DropShip.\r\n\r\nRackam limps over and offers his hand. \"Always a tough negotiator, {COMMANDER.FirstName}! But our mutual friends have told me good things about your recent activities.\" Gesturing to the Argo, \"So who'd you scam to get this bird? I've got time to hear the whole story.\"\r\n\r\nOver the course of the next couple weeks, Rackam's 'Mechs get repaired and his professional scoundrels get to know the DropShip's crew. While they don't initially have much in common, Rackam's vast selection of hard-to-find Holovids gives them plenty to talk about.",
+                        "Details" : "Rackam's ragtag pit crew arrives with little fanfare. As Yang gets Rackam's ride, the <i>Red Menace</i>, loaded into the Vehicle Hangar, the pit crew stares in awe at the DropShip.\r\n\r\nRackam lumbers over, a mountain of a man at the best of times, and offers his hand. \"I'd be thrilled to race against you again, {COMMANDER.FirstName}! It'll be just like the old days doing the New Avalon Rally Championships!\" He calls over one of his crew and they get you set up with one of Rackam's backup cars, the <i>Blue Devil</i>.\r\n\r\nOver the course of the next few days, you and Rackam do race after race out in the local back country. The crew, both yours and Rackam's, take as many Holovids as they possibly can of the races, Rackam's crew to sell as promo vids later and your crew to watch and enjoy over the coming months. Everyone agrees though that both racers are fantastic drivers, even if Rackam wins the majority of the races.",
                         "Icon" : null
                     },
                     "Weight" : 100,

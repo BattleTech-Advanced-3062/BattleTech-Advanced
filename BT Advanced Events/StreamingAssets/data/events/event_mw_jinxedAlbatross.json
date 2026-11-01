@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_jinxedAlbatross",
         "Name" : "Albatross",
-        "Details" : "Even before you arrive at the morning briefing, you can hear Dr. Murad's raised voice. \"\u2026So I told [[TGT_MW,{TGT_MW.Callsign}]] to leave engineering at once!\"\r\n\r\nYang grimaces. \"Yeah, and then {TGT_MW.Subj} showed up in the Mech Bay. It took a whole two minutes for one of my winches to fail.\"\r\n\r\nSumire rolls her eyes. \"Well, don't send {TGT_MW.Obj} to the bridge, Chief. You want the comms to short out again?\"\r\n\r\nFinally, Darius notices you standing in the doorway and explains. \"Commander, we have to do something about {TGT_MW.Callsign}. {TGT_MW.Subj_C}{TGT_MW.Gender?NonBinary:'re|Default:'s} a jinx.\"",
+        "Details" : "Even before you arrive at the morning briefing, you can hear Dr. Murad's raised voice. \"\u2026So I told [[TGT_MW,{TGT_MW.Callsign}]] to leave engineering at once!\"\r\n\r\nYang grimaces. \"Yeah, and then {TGT_MW.Subj} showed up in the Mech Hangar. It took a whole two minutes for one of my winches to fail.\"\r\n\r\nSumire rolls her eyes. \"Well, don't send {TGT_MW.Obj} to the bridge, Chief. You want the comms to short out again?\"\r\n\r\nFinally, Darius notices you standing in the doorway and explains. \"Commander, we have to do something about {TGT_MW.Callsign}. {TGT_MW.Subj_C}{TGT_MW.Gender?NonBinary:'re|Default:'s} a jinx.\"",
         "Icon" : "uixTxrSpot_DailyBriefing.png"
     },
     "Scope" : "MechWarrior",

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_guaranteedReturns",
         "Name" : "Guaranteed Returns",
-        "Details" : "In the morning briefing, Darius outlines an interesting opportunity. Spare Mech Bay parts that you acquired on a previous planetfall are in short supply here in {TGT_SYSTEM.Name}. \"While fairly innocuous, the local authorities have put strict limits on their resale here, driving up demand on the black market.\"\r\n\r\nDarius rubs his chin, considering. \"While it may negatively affect efficiency of repairs, it could be a quick way to turn a tidy profit. Assuming we can steer clear of the local authorities, of course.\"",
+        "Details" : "In the morning briefing, Darius outlines an interesting opportunity. Spare Mech Hangar parts that you acquired on a previous planetfall are in short supply here in {TGT_SYSTEM.Name}. \"While fairly innocuous, the local authorities have put strict limits on their resale here, driving up demand on the black market.\"\r\n\r\nDarius rubs his chin, considering. \"While it may negatively affect efficiency of repairs, it could be a quick way to turn a tidy profit. Assuming we can steer clear of the local authorities, of course.\"",
         "Icon" : "uixTxrSpot_MechBay.png"
     },
     "Scope" : "Company",
@@ -67,7 +67,7 @@
         {
             "Description" : {
                 "Id" : "outcome_0",
-                "Name" : "Keep the Mech Bay supplies.",
+                "Name" : "Keep the Mech Hangar supplies.",
                 "Details" : "Non-participation option",
                 "Icon" : ""
             },
@@ -100,7 +100,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Sell some supplies, but minimize impact to the Mech Bay.",
+                "Name" : "Sell some supplies, but minimize impact to the Mech Hangar.",
                 "Details" : "Safe, but less money",
                 "Icon" : ""
             },

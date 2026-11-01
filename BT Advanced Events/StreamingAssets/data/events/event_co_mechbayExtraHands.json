@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_mechbayExtraHands",
         "Name" : "A Few Extra Hands",
-        "Details" : "Yang arrives in your quarters with a request. \"Boss, this planet has a major manufacturing base, with lots of skilled technicians. If we can spare the C-Bills, we could probably scare up some temporary additions to our Mech Bay staff, and really knock out repairs and modifications.\r\n\r\n\"\u00A215,000 would be the bare minimum, but I'd recommend \u00A280,000 to attract top talent. Whaddya say?\"",
+        "Details" : "Yang arrives in your quarters with a request. \"Boss, this planet has a major manufacturing base, with lots of skilled technicians. If we can spare the C-Bills, we could probably scare up some temporary additions to our Mech Hangar staff, and really knock out repairs and modifications.\r\n\r\n\"\u00A215,000 would be the bare minimum, but I'd recommend \u00A280,000 to attract top talent. Whaddya say?\"",
         "Icon" : "uixTxrSpot_MechBay.png"
     },
     "Scope" : "Company",
@@ -65,7 +65,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Nothing happens",
-                        "Details" : "Yang nods, perhaps a little too stiffly, and returns to the hubbub of the Mech Bay.",
+                        "Details" : "Yang nods, perhaps a little too stiffly, and returns to the hubbub of the Mech Hangar.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

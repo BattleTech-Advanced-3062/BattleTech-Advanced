@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "event_mw_meleeMechBay",
-        "Name" : "Melee in the Mech Bay",
-        "Details" : "You're speaking to Yang in the Mech Bay when the yelling starts. Across the Bay, a pair of your MechWarriors face off in front of a BattleMech. You get there just as [[TGT_MW,{TGT_MW.Callsign}]] pulls back to throw a punch at [[SCN_MW,{SCN_MW.Callsign}]].",
+        "Name" : "Melee in the Mech Hangar",
+        "Details" : "You're speaking to Yang in the Mech Hangar when the yelling starts. Across the Bay, a pair of your MechWarriors face off in front of a BattleMech. You get there just as [[TGT_MW,{TGT_MW.Callsign}]] pulls back to throw a punch at [[SCN_MW,{SCN_MW.Callsign}]].",
         "Icon" : "uixTxrSpot_Discipline.png"
     },
     "Scope" : "MechWarrior",

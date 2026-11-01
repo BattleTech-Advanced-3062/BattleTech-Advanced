@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_researchYang",
         "Name" : "This Equipment Goes To 11",
-        "Details" : "Upon entering the Mech Bay, you find Yang as busy as you've ever seen him.\r\n\r\nHe looks up. \"Commander, hey there. Remember that conference I attended? While I was there, I picked up some special synchronized tools I learned about. Finicky things, hard to keep aligned, and they need to be plugged into something like the DropShip to really sing. I'd like to use them now, but the synchronization benefits will only last for so long. Afterward, they'll basically work like normal tools.\"\r\n\r\n\"What do you say? Want me to turn up the volume around here?\"",
+        "Details" : "Upon entering the Mech Hangar, you find Yang as busy as you've ever seen him.\r\n\r\nHe looks up. \"Commander, hey there. Remember that conference I attended? While I was there, I picked up some special synchronized tools I learned about. Finicky things, hard to keep aligned, and they need to be plugged into something like the DropShip to really sing. I'd like to use them now, but the synchronization benefits will only last for so long. Afterward, they'll basically work like normal tools.\"\r\n\r\n\"What do you say? Want me to turn up the volume around here?\"",
         "Icon" : "uixTxrSpot_YangWorking.png"
     },
     "Scope" : "Company",
@@ -44,7 +44,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Nothing happens",
-                        "Details" : "You shake your head. \"Not this time, Chief. If this is going to be a one-time shot in the arm, let's save it for when we truly need it.\"\r\n\r\nYang nods grimly. \"Okay then. I can handle delayed gratification as well as the next guy. Now, get out of my Mech Bay, I've got work to do!\"",
+                        "Details" : "You shake your head. \"Not this time, Chief. If this is going to be a one-time shot in the arm, let's save it for when we truly need it.\"\r\n\r\nYang nods grimly. \"Okay then. I can handle delayed gratification as well as the next guy. Now, get out of my Mech Hangar, I've got work to do!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -67,7 +67,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Accelerate Mech Bay work for a couple weeks.",
+                "Name" : "Accelerate Mech Hangar work for a couple weeks.",
                 "Details" : "MechTech boost option",
                 "Icon" : ""
             },

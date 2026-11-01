@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_garageSale",
         "Name" : "Garage Sale",
-        "Details" : "When you arrive at the morning briefing, Darius and Yang are engrossed in a screen filled with charts and numbers.\r\n\r\n\"Commander,\" Darius says. \"The Chief and I have been looking over the Mech Bay's inventory manifest. We've identified over \u00A2100,000 of potentially redundant tools and spare parts.\"\r\n\r\nYang looks anxious but resolved. \"Yeah, Boss. Since the budget's so tight, we could try to line up a buyer. Try not to cut too deep, though. Or promise me that the next couple contracts won't get too hairy.\"",
+        "Details" : "When you arrive at the morning briefing, Darius and Yang are engrossed in a screen filled with charts and numbers.\r\n\r\n\"Commander,\" Darius says. \"The Chief and I have been looking over the Mech Hangar's inventory manifest. We've identified over \u00A2100,000 of potentially redundant tools and spare parts.\"\r\n\r\nYang looks anxious but resolved. \"Yeah, Boss. Since the budget's so tight, we could try to line up a buyer. Try not to cut too deep, though. Or promise me that the next couple contracts won't get too hairy.\"",
         "Icon" : "uixTxrSpot_MechBay.png"
     },
     "Scope" : "Company",
@@ -371,7 +371,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "Sell for a medium amt",
-                        "Details" : "You give Darius the go-ahead to sell everything that isn't bolted down. Later in the week he reports that he's found a buyer.\r\n\r\n\"Commander, I did quite a bit with the supplies we allocated. This should really help with ongoing expenses.\"\r\n\r\nYang still isn't thrilled with the arrangement. \"Things may be a little tight in the Mech Bay for the next month, Commander. Tighter than usual.\"",
+                        "Details" : "You give Darius the go-ahead to sell everything that isn't bolted down. Later in the week he reports that he's found a buyer.\r\n\r\n\"Commander, I did quite a bit with the supplies we allocated. This should really help with ongoing expenses.\"\r\n\r\nYang still isn't thrilled with the arrangement. \"Things may be a little tight in the Mech Hangar for the next month, Commander. Tighter than usual.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

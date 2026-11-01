@@ -253,7 +253,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "10000",
+                                    "value" : "50000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -292,7 +292,7 @@
                     "RequirementTags" : {
                         "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : [
-                            "argo_rec_hydroponics"
+                            "uds_upgrade_hydroponics"
                         ]
                     },
                     "ExclusionTags" : {

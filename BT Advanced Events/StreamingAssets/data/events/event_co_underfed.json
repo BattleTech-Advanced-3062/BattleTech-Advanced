@@ -248,7 +248,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_hydroponics"
+                            "uds_upgrade_hydroponics"
                         ],
                         "tagSetSourceFile" : ""
                     },

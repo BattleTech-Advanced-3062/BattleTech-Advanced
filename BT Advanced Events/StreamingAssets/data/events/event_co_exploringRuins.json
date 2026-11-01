@@ -233,8 +233,8 @@
         {
             "Description" : {
                 "Id" : "outcome_2",
-                "Name" : "Send Sumire in the Leopard.",
-                "Details" : "[\u00A250,000]",
+                "Name" : "Send Sumire in the secondary DropShip.",
+                "Details" : "[Have a Secondary DropShip], [\u00A250,000]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -242,7 +242,9 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "tagSetSourceFile" : "",
-                        "items" : []
+                        "items" : [
+                            "uds_secondary_ship"
+                        ]
                     },
                     "ExclusionTags" : {
                         "tagSetSourceFile" : "",
@@ -263,7 +265,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "You gather some data that might be interesting",
-                        "Details" : "Sumire takes the Leopard for what is supposed to be no more than a low altitude fly-by of the ruins, though some of her photos seem suspiciously close to the ground. After the trip, she spends a week cataloging the collected data and then delivers her report.\r\n\r\n\"Commander, those ruins are pretty interesting. I didn't stumble into anything that hasn't been seen before, but the data I collected is high enough definition that\u2026 well, I'm sure somebody will buy it. Eventually. Someday.\"\r\n\r\n\"And you did get some amazing pictures,\" you comment blandly.\r\n\r\nSumire gives a tiny smile. \"I did. Thanks.\"",
+                        "Details" : "Sumire takes the secondary DropShip for what is supposed to be no more than a low altitude fly-by of the ruins, though some of her photos seem suspiciously close to the ground. After the trip, she spends a week cataloging the collected data and then delivers her report.\r\n\r\n\"Commander, those ruins are pretty interesting. I didn't stumble into anything that hasn't been seen before, but the data I collected is high enough definition that\u2026 well, I'm sure somebody will buy it. Eventually. Someday.\"\r\n\r\n\"And you did get some amazing pictures,\" you comment blandly.\r\n\r\nSumire gives a tiny smile. \"I did. Thanks.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -299,7 +301,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "You discover something very valuable!",
-                        "Details" : "Sumire takes the Leopard for what is supposed to be no more than a low altitude fly-by of the ruins, though some of her photos seem suspiciously close to the ground. After the trip, she spends a week cataloging the collected data and then delivers her report.\r\n\r\n\"Commander, look at this! See those shadows? And this indentation? That's an underground complex nobody's ever found before! And there's a symposium of historians willing to pay a mint to preempt the general release of our findings.\r\n\r\nYou whistle at the sum and say, \"Are you leaving us to become an archaeologist now?\"\r\n\r\nShe only grins at you before returning to her work.",
+                        "Details" : "Sumire takes the secondary DropShip for what is supposed to be no more than a low altitude fly-by of the ruins, though some of her photos seem suspiciously close to the ground. After the trip, she spends a week cataloging the collected data and then delivers her report.\r\n\r\n\"Commander, look at this! See those shadows? And this indentation? That's an underground complex nobody's ever found before! And there's a symposium of historians willing to pay a mint to preempt the general release of our findings.\r\n\r\nYou whistle at the sum and say, \"Are you leaving us to become an archaeologist now?\"\r\n\r\nShe only grins at you before returning to her work.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -337,7 +339,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "Sumire stumbles upon an excavation",
-                        "Details" : "Sumire sets out in the Leopard for what is supposed to be a low altitude fly-by of the ruins. Then she finds the excavation. And the pirates doing the excavation.\r\n\r\nListening to the comms, you spend a stress-filled twenty minutes wondering if you're going to have to shuttle down a strike force of MechWarriors to steal back the Leopard and rescue your pilot. But, somehow, Sumire talks her way out of it. The gang of smugglers give her a souvenir brick and send her on her way. \r\n\r\n\"Well, that was exciting,\" she says when she returns to the DropShip. Her flight uniform is caked with half an excavation's worth of dust. \"Commander, they had 'Mechs. Do you think we could\u2014?\"\r\n\r\n\"No,\" you say firmly. \"Just no.\"\r\n\r\n\"Only an idea,\" Sumire says as she slinks off toward the showers.",
+                        "Details" : "Sumire sets out in the secondary DropShip for what is supposed to be a low altitude fly-by of the ruins. Then she finds the excavation. And the pirates doing the excavation.\r\n\r\nListening to the comms, you spend a stress-filled twenty minutes wondering if you're going to have to shuttle down a strike force of MechWarriors to steal back the Leopard and rescue your pilot. But, somehow, Sumire talks her way out of it. The gang of smugglers give her a souvenir brick and send her on her way. \r\n\r\n\"Well, that was exciting,\" she says when she returns to the DropShip. Her flight uniform is caked with half an excavation's worth of dust. \"Commander, they had 'Mechs. Do you think we could\u2014?\"\r\n\r\n\"No,\" you say firmly. \"Just no.\"\r\n\r\n\"Only an idea,\" Sumire says as she slinks off toward the showers.",
                         "Icon" : ""
                     },
                     "Weight" : 25,

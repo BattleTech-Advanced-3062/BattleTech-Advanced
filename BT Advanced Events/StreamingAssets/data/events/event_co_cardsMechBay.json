@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "event_co_cardsMechBay",
-        "Name" : "Cards in the Mech Bay",
-        "Details" : "In the morning meeting, Yang has a complaint. \"The MechWarriors are spending too much time in the Mech Bay. They're playing card games on the floor and getting in the way. Can't they go somewhere else?\"\r\n\r\nDarius says, \"I can clarify that they are not to obstruct the crew. Sadly, we don't have any dedicated recreation facilities to keep them occupied. This kind of issue is likely to keep occurring.\"",
+        "Name" : "Cards in the Mech Hangar",
+        "Details" : "In the morning meeting, Yang has a complaint. \"The MechWarriors are spending too much time in the Mech Hangar. They're playing card games on the floor and getting in the way. Can't they go somewhere else?\"\r\n\r\nDarius says, \"I can clarify that they are not to obstruct the crew. Sadly, we don't have any dedicated recreation facilities to keep them occupied. This kind of issue is likely to keep occurring.\"",
         "Icon" : "uixTxrSpot_YangTalking.png"
     },
     "Scope" : "Company",
@@ -15,9 +15,9 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "argo_rec_arcade",
-                "argo_rec_gym",
-                "argo_rec_lounge1",
+                "uds_upgrade_arcade",
+                "uds_upgrade_gym",
+                "uds_upgrade_lounge1",
                 "argo_rec_pool"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
@@ -109,7 +109,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "The MechWarriors get rowdier",
-                        "Details" : "Darius sections off two tables at the far end of the mess as a temporary recreation space.\r\n\r\nLater in the week, Darius gives an update. \"Well, good news and bad news. The pilots have made themselves comfortable in the mess, but it's getting rowdy and disruptive even during designated dining hours.\"\r\n\r\nYang, however, is undeterred. \"As long as they're not causing trouble in my Mech Bay, they can have food fights every day.\"",
+                        "Details" : "Darius sections off two tables at the far end of the mess as a temporary recreation space.\r\n\r\nLater in the week, Darius gives an update. \"Well, good news and bad news. The pilots have made themselves comfortable in the mess, but it's getting rowdy and disruptive even during designated dining hours.\"\r\n\r\nYang, however, is undeterred. \"As long as they're not causing trouble in my Mech Hangar, they can have food fights every day.\"",
                         "Icon" : ""
                     },
                     "Weight" : 75,

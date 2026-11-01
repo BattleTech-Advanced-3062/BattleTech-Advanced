@@ -31,7 +31,7 @@
             "Scope" : "Company",
             "RequirementTags" : {
                 "items" : [
-                    "argo_rec_gym"
+                    "uds_upgrade_gym"
                 ],
                 "tagSetSourceFile" : ""
             },

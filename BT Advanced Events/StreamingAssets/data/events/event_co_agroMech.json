@@ -44,14 +44,14 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
-                "items" : [
-                    "planet_other_newcolony"
-                ]
+                "items" : null,
+                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
-                "items" : null
+                "items" : [
+                    "planet_pop_none"
+                ],
+                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }

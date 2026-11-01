@@ -471,7 +471,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "failure",
-                        "Details" : "You watch from a viewscreen as [[TGT_MW,{TGT_MW.Callsign}]], in EVA suit, struggles with the low gravity and the oxygen hose anchoring {TGT_MW.OBJ} to the DropShip. The wreckage shifts dangerously in {TGT_MW.DET} hands, breaking apart and flying in every direction. The debris collides with {TGT_MW.OBJ} and scrapes against the side of the DropShip.\r\n\r\nLater, after you visit {TGT_MW.Callsign} in the MedBay, you receive a hull integrity report from Dr. Murad. \"The Mech Bay took serious damage.\" She sighs. \"It could have been worse, but expect power issues while I round up a team to stabilize the ruptured circuitry.\"",
+                        "Details" : "You watch from a viewscreen as [[TGT_MW,{TGT_MW.Callsign}]], in EVA suit, struggles with the low gravity and the oxygen hose anchoring {TGT_MW.OBJ} to the DropShip. The wreckage shifts dangerously in {TGT_MW.DET} hands, breaking apart and flying in every direction. The debris collides with {TGT_MW.OBJ} and scrapes against the side of the DropShip.\r\n\r\nLater, after you visit {TGT_MW.Callsign} in the MedBay, you receive a hull integrity report from Dr. Murad. \"The Mech Hangar took serious damage.\" She sighs. \"It could have been worse, but expect power issues while I round up a team to stabilize the ruptured circuitry.\"",
                         "Icon" : null
                     },
                     "Weight" : 75,

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_oldFriend_Soldier",
         "Name" : "A Friend from the Old Days",
-        "Details" : "Vasquez\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your military days. I'll put him through to your quarters.\"\r\n\r\nVasquez's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHe's signed on with a rebel army on the planet's surface, but after a slogging campaign, his unit has been cut off from its supply line. Vasquez is hoping that you can hook him up with some surplus inventory, and he's willing to pay.",
+        "Details" : "Vasquez\u2026? Through your rush of old memories, Darius goes on. \"He claims to be a friend from your military operative days. I'll put him through to your quarters.\"\r\n\r\nVasquez's voice has weathered with age. \"It's been a long time, {COMMANDER.FirstName}. I've heard you've been busy. Me too. But let's not beat around the bush\u2026 I need a favor.\"\r\n\r\nHe's signed on with a rebel army on the planet's surface, but after a slogging campaign, his unit has been cut off from its supply line. Vasquez is hoping that you can hook him up with some surplus inventory, and he's willing to pay.",
         "Icon" : "uixTxrSpot_IncomingTransimission.png"
     },
     "Scope" : "Company",
@@ -12,13 +12,13 @@
         "RequirementTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "argo_pod2"
+                "uds_upgrade_crewquarters1"
             ]
         },
         "ExclusionTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "event_co_oldFriend_Soldier",
+                "commander_career_special_operative",
                 "MODIFIED_STAT_MechTechSkill",
                 "MODIFIED_STAT_MedTechSkill"
             ]
@@ -251,7 +251,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Larger MechTech penalty",
-                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Yang escorts them to the Mech Bay to go through the selection of available supplies, they stare in awe at the DropShip.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Vasquez.\r\n\r\nVasquez is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} has always did have a talent for working with the best.\"",
+                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. As Yang escorts them to the Mech Hangar to go through the selection of available supplies, they stare in awe at the DropShip.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nUnexpectedly, [[SCN_MW,{SCN_MW.Callsign}]] appears at your shoulder. \"Commander?\" {SCN_MW.SUBJ_C}{SCN_MW.Gender?NonBinary:'re|Default:'s} talking to Vasquez.\r\n\r\nVasquez is as surprised as you are. \"I never expected to see <i>you</i> again! I'm glad to see that you've landed here, though.\" He turns to you. \"{COMMANDER.Callsign} always did have a talent for working with the best.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,
@@ -365,7 +365,7 @@
         {
             "Description" : {
                 "Id" : "outcome_3",
-                "Name" : "Sell him some heavy firepower for \u00A2150,000.",
+                "Name" : "Sell him some firepower for \u00A2150,000.",
                 "Details" : "[Stock LRM-20]",
                 "Icon" : ""
             },
@@ -395,7 +395,7 @@
                     "Description" : {
                         "Id" : "outcome_3_0",
                         "Name" : "Sell the weapon",
-                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. They stare at the DropShip as Darius walks them over to the massive LRM-20 awaiting their inspection.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
+                        "Details" : "Vasquez's ragtag crew of soldiers arrive with little fanfare. They stare at the DropShip as Darius walks them over to the LRM-20 awaiting their inspection.\r\n\r\nVasquez limps over and offers his hand. \"You've got a very interesting bird here, {COMMANDER.FirstName}. Do I get a tour?\"\r\n\r\nYour formal hand-shake suddenly turns into a bear-hug as Vasquez lifts you momentarily off your feet.\r\n\r\nHe sets you down and immediately starts walking, as if expecting you to follow. He calls over his shoulder, \"Now, let me tell you about this war I've found myself in. It's just like the old days!\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

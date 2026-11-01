@@ -36,7 +36,7 @@
             "ExclusionTags" : {
                 "items" : [
                     "argo_pod3",
-                    "argo_rec_gym",
+                    "uds_upgrade_gym",
                     "MODIFIED_STAT_MechTechSkill"
                 ],
                 "tagSetSourceFile" : "Tags/CompanyTags"
@@ -224,7 +224,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Morale hit",
-                        "Details" : "Later in the week, Darius reports that the MechWarriors have grown increasingly frustrated with the cramped quarters. \"They've begun improvising their own exercise program, and they're using the entire ship to do it.\"\r\n\r\nYang is positively steaming. \"If they run laps through my Mech Bay one more time, I'm gonna drop a 'Mech on one of 'em!\"\r\n\r\nDr. Murad consults her ever-present datapad. \"Just a thought, Commander\u2026 but if we were to repair and reopen the gymnasium in Beta Pod, I imagine that would help?\"",
+                        "Details" : "Later in the week, Darius reports that the MechWarriors have grown increasingly frustrated with the cramped quarters. \"They've begun improvising their own exercise program, and they're using the entire ship to do it.\"\r\n\r\nYang is positively steaming. \"If they run laps through my Mech Hangar one more time, I'm gonna drop a 'Mech on one of 'em!\"\r\n\r\nDr. Murad consults her ever-present datapad. \"Just a thought, Commander\u2026 but if we were to repair and reopen the gymnasium in Beta Pod, I imagine that would help?\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

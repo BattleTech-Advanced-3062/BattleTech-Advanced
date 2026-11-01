@@ -31,7 +31,7 @@
             "Scope" : "Company",
             "RequirementTags" : {
                 "items" : [
-                    "argo_rec_arcade"
+                    "uds_upgrade_arcade"
                 ],
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
