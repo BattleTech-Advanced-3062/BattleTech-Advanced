@@ -35,7 +35,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "argo_pod3",
+                    "uds_upgrade_crewquarters2",
                     "uds_upgrade_gym",
                     "MODIFIED_STAT_MechTechSkill"
                 ],

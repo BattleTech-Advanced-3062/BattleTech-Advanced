@@ -2,11 +2,11 @@
     "Description" : {
         "Id" : "event_co_smugglingOnAccident",
         "Name" : "The Accidental Smugglers",
-        "Details" : "Darius calls from the planet's surface, where he has been directing a resupply trip. \"Commander, while loading the shuttle, I found that several suspiciously heavy cases of machine tools also contained secret compartments with AC/5 ammunition. There are probably some very unhappy smugglers somewhere in the city. What do you want to do?\"",
+        "Details" : "Darius calls from the planet's surface, where he has been directing a resupply trip. \"Commander, while loading the shuttle, I found that several suspiciously heavy cases of machine tools also contained secret compartments with AC/10 ammunition. There are probably some very unhappy smugglers somewhere in the city. What do you want to do?\"",
         "Icon" : "uixTxrSpot_Crates.png"
     },
     "Scope" : "Company",
-    "Weight" : 10,
+    "Weight" : 40,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
@@ -60,7 +60,7 @@
                         "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she buried her face in her hands when he departed.",
                         "Icon" : ""
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : []
                 },
                 {
@@ -70,7 +70,7 @@
                         "Details" : "Later in the day, Darius arrives back at the DropShip. While his crew begins unloading all of the new supplies, he takes you aside.\r\n\r\n\"Commander, the vendor who sold us the machine tools was\u2026 well, <i>relieved</i> is an understatement.\" He describes how she offered him \u00A21,000 in a sweaty hand for his 'honesty', and how she buried her face in her hands when he departed.",
                         "Icon" : ""
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "Company",
@@ -156,7 +156,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC5",
+                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Piercing_AC10",
                                     "value" : "3",
                                     "set" : false,
                                     "valueConstant" : null
@@ -192,7 +192,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC5",
+                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Piercing_AC10",
                                     "value" : "3",
                                     "set" : false,
                                     "valueConstant" : null
@@ -230,7 +230,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Pass the ammo back to the smugglers.",
-                "Details" : "[Liked by Aurigan Pirates]",
+                "Details" : "[Liked by Local Pirates]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -269,7 +269,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "Smugglers trade you some AC2 ammo",
-                        "Details" : "A less reputable old contact of yours connects Darius with the smugglers who mislaid the ammunition.\r\n\r\n\"Well, this is a ray of sunshine,\" says the pirate with a smirk, reholstering the weapon he had been hiding below the table. \"Next time, let's plan it in advance. Meanwhile, take some AC/2 ammo for your trouble.\"",
+                        "Details" : "A less reputable old contact of yours connects Darius with the smugglers who mislaid the ammunition.\r\n\r\n\"Well, this is a ray of sunshine,\" says the pirate with a smirk, reholstering the weapon he had been hiding below the table. \"Next time, let's plan it in advance. Meanwhile, take some AC/5 ammo for your trouble.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -288,8 +288,8 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Generic_AC2",
-                                    "value" : "3",
+                                    "name" : "Item.AmmunitionBoxDef.Ammo_AmmunitionBox_Precision_AC5",
+                                    "value" : "2",
                                     "set" : false,
                                     "valueConstant" : null
                                 }

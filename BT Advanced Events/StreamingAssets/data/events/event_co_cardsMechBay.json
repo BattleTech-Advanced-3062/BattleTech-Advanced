@@ -18,7 +18,7 @@
                 "uds_upgrade_arcade",
                 "uds_upgrade_gym",
                 "uds_upgrade_lounge1",
-                "argo_rec_pool"
+                "uds_upgrade_pool"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },

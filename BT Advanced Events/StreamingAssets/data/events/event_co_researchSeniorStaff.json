@@ -11,7 +11,7 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [
-                "argo_pod2"
+                "uds_upgrade_crewquarters1"
             ],
             "tagSetSourceFile" : "Tags/CompanyTags"
         },
@@ -38,22 +38,7 @@
             }
         ]
     },
-    "AdditionalRequirements" : [
-        {
-            "Scope" : "StarSystem",
-            "RequirementTags" : {
-                "items" : [
-                    "planet_industry_research"
-                ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
-            },
-            "ExclusionTags" : {
-                "items" : null,
-                "tagSetSourceFile" : ""
-            },
-            "RequirementComparisons" : []
-        }
-    ],
+    "AdditionalRequirements" : [],
     "AdditionalObjects" : [],
     "Options" : [
         {

@@ -37,7 +37,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "argo_pod3",
+                    "uds_upgrade_crewquarters2",
                     "event_mw_targetPractice"
                 ],
                 "tagSetSourceFile" : "Tags/CompanyTags"

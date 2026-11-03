@@ -43,22 +43,7 @@
 			}
 		]
 	},
-	"AdditionalRequirements": [
-		{
-			"Scope": "StarSystem",
-			"RequirementTags": {
-				"tagSetSourceFile": "Tags/PlanetTags",
-				"items": [
-					"planet_industry_manufacturing"
-				]
-			},
-			"ExclusionTags": {
-				"tagSetSourceFile": "",
-				"items": []
-			},
-			"RequirementComparisons": []
-		}
-	],
+	"AdditionalRequirements": [],
 	"AdditionalObjects": [],
 	"Options": [
 		{

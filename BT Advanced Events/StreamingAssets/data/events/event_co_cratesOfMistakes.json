@@ -283,7 +283,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Recreate an authentic Triple-F Burger.",
-                "Details" : "[Argo: Hydroponics]",
+                "Details" : "[DropShip: Hydroponics or Kitchen]",
                 "Icon" : ""
             },
             "RequirementList" : [

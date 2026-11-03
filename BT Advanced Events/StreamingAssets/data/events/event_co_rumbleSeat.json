@@ -245,7 +245,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Finally recalibrate the Rotation Controllers.",
-                "Details" : "[\u00A2100,000, Argo: Structural Reinforcement]",
+                "Details" : "[\u00A2100,000, DropShip: Structural Reinforcement]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -253,7 +253,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_structure2"
+                            "uds_upgrade_structure2"
                         ],
                         "tagSetSourceFile" : "Tags/CompanyTags"
                     },

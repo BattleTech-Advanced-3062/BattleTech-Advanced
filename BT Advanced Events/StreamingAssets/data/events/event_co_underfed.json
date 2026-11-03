@@ -240,7 +240,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Expand Hydroponics to grow more vegetables.",
-                "Details" : "[Argo: Hydroponics]",
+                "Details" : "[DropShip: Hydroponics or Kitchen]",
                 "Icon" : ""
             },
             "RequirementList" : [

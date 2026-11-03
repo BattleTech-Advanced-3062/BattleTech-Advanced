@@ -38,7 +38,7 @@
             "RequirementTags" : {
                 "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
-                    "argo_pod2"
+                    "uds_upgrade_crewquarters1"
                 ]
             },
             "ExclusionTags" : {
