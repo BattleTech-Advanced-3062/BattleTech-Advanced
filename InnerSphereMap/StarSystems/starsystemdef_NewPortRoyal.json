@@ -27,7 +27,6 @@
 			"planet_gameworld",
 			"planet_davion_raids"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"badlandsParched",
@@ -39,11 +38,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 16,

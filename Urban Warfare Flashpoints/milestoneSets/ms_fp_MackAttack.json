@@ -17,17 +17,14 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [
@@ -37,7 +34,6 @@
 							"fp_choice_d",
 							"fp_choice_cancel"
 						],
-						"tagSetSourceFile": "Tags/CompanyTags"
 					},
 					"Stats": null,
 					"Actions": null,
@@ -51,21 +47,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -101,21 +93,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -164,21 +152,17 @@
 							"items": [
 								"fp_choice_cancel"
 							],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -201,23 +185,19 @@
 							"items": [
 								"fp_choice_a"
 							],
-							"tagSetSourceFile": "Tags/CompanyTags"
 						},
 						"ExclusionTags": {
 							"items": [
 								"fp_choice_cancel"
 							],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -253,21 +233,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -322,21 +298,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -385,21 +357,17 @@
 							"items": [
 								"fp_choice_b"
 							],
-							"tagSetSourceFile": "Tags/CompanyTags"
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -422,21 +390,17 @@
 							"items": [
 								"fp_choice_c"
 							],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -459,21 +423,17 @@
 							"items": [
 								"fp_choice_d"
 							],
-							"tagSetSourceFile": "Tags/CompanyTags"
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -509,21 +469,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -578,21 +534,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -639,11 +591,9 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
@@ -651,11 +601,9 @@
 						"items": [
 							"fp_MackAttack_Complete"
 						],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -702,21 +650,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -767,21 +711,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -836,21 +776,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -897,11 +833,9 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
@@ -910,11 +844,9 @@
 							"fp_MackAttack_Complete",
 							"fp_MackAttack_Betrayed"
 						],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -961,21 +893,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -1019,11 +947,9 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
@@ -1032,11 +958,9 @@
 							"fp_MackAttack_Complete",
 							"fp_MackAttack_Partial"
 						],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -1083,21 +1007,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -1148,11 +1068,9 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
@@ -1161,11 +1079,9 @@
 							"fp_MackAttack_Complete",
 							"fp_MackAttack_Cancel"
 						],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": [
@@ -1212,21 +1128,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": null,
 					"Actions": null,

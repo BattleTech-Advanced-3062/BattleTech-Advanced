@@ -14,7 +14,6 @@ For example, to update a player 'Mech from the assgined UM-R60 to a random Urban
 	"unitDefId" : "mechdef_urbanmech_UM-R60",
 	"unitTagSet" : {
 		"items" : [],
-		"tagSetSourceFile" : "tags/UnitTags"
 	}
 to
 	"unitDefId" : "Tagged",
@@ -22,5 +21,4 @@ to
 		"items" : [
 			"unit_urbie"
 		],
-		"tagSetSourceFile" : "tags/UnitTags"
 	}

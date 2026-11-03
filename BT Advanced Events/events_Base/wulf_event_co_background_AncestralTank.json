@@ -13,11 +13,9 @@
 			"items": [
 				"DONOTFIRE"
 			],
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -47,24 +45,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_davion"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -84,24 +78,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_deepPeriphery"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -121,24 +111,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_kurita"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -158,24 +144,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_liao"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -195,24 +177,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_magistracy"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -232,24 +210,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_marik"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -269,24 +243,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_outworld"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -306,24 +276,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_periphery"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -343,24 +309,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_rasalhague"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -380,24 +342,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_steiner"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -417,24 +375,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_taurian"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -454,24 +408,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_rwr"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -491,24 +441,20 @@
 							"Requirements": {
 								"Scope": "Commander",
 								"RequirementTags": {
-									"tagSetSourceFile": "",
 									"items": [
 										"commander_ancestry_cameron"
 									]
 								},
 								"ExclusionTags": {
-									"tagSetSourceFile": "",
 									"items": []
 								},
 								"RequirementComparisons": []
 							},
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -530,11 +476,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -546,6 +490,5 @@
 	"OneTimeEvent": false,
 	"Tags": {
 		"items": [],
-		"tagSetSourceFile": "tags/EventTags"
 	}
 }

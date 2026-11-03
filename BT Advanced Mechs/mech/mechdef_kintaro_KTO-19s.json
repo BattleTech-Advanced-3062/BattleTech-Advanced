@@ -17,7 +17,6 @@
 			"9thDivisionWoB",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_kintaro_KTO-19s",
 	"HeraldryID": null,
@@ -35,7 +34,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

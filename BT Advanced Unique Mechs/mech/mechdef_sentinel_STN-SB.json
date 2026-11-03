@@ -15,7 +15,6 @@
 			"SolarisVIIMercLeague",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_sentinel_STN-SB",
 	"HeraldryID": null,
@@ -33,7 +32,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

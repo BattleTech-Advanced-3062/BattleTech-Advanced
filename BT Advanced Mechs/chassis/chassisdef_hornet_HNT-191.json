@@ -85,7 +85,6 @@
 			"ArmLimitUpperLeft",
 			"LightMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hornet",

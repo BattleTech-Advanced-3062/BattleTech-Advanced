@@ -16,7 +16,6 @@
 			"30thMarikMilitia",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hermesii_HER-2M",
 	"HeraldryID": null,
@@ -34,7 +33,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

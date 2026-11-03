@@ -11,11 +11,9 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": "mercnews_subscription",
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": null,
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -61,11 +59,9 @@
 									"WIIC_set_starsystemdef_Köningsberg_defender_strength_40",
 									"WIIC_set_starsystemdef_Köningsberg_attacker_strength_20"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -88,11 +84,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}

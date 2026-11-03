@@ -16,13 +16,11 @@
 			"JacobsonHaven",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [
 			"sanctuary_menoetes_produced"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_menoetes_MNO-D",
 	"HeraldryID": null,

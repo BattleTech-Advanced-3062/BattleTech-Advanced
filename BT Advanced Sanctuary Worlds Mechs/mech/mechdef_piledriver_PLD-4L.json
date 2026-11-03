@@ -16,7 +16,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_piledriver_PLD-4L",
 	"HeraldryID": null,

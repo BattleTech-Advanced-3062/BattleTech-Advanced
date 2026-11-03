@@ -10,11 +10,9 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": []
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": []
 		},
 		"RequirementComparisons": []
@@ -44,13 +42,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"fp_tbk_enabled"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "Tags/CompanyTags",
 								"items": []
 							},
 							"Stats": [
@@ -73,11 +69,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -105,13 +99,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"fp_tbk_enabled"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "Tags/CompanyTags",
 								"items": []
 							},
 							"Stats": [
@@ -134,11 +126,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []

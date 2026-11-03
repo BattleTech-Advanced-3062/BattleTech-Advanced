@@ -20,7 +20,6 @@
 			"BlackCalderaDefense_Hidden",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_perseus_P1-C",
 	"HeraldryID": null,
@@ -38,7 +37,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

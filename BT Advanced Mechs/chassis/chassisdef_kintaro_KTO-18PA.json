@@ -83,7 +83,6 @@
 		"items": [
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_kintaro_KTO-18",

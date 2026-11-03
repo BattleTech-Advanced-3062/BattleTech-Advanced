@@ -18,7 +18,6 @@
 			"15thLyranRegulars",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_clint_CLNT-2-3TD",
 	"HeraldryID": null,
@@ -36,7 +35,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

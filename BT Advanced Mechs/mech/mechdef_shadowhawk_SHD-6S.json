@@ -107,7 +107,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_shadowhawk_SHD-6S",
 	"HeraldryID": null,

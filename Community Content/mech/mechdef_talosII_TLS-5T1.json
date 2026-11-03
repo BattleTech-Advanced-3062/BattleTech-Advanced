@@ -21,7 +21,6 @@
 			"MacksMercs",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talosII_TLS-5T1",
 	"HeraldryID": null,
@@ -39,7 +38,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

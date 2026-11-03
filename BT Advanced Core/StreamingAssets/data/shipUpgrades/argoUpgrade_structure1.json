@@ -18,7 +18,6 @@
         "items" : [
 			"argoUpgrade_structure0"
 		],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -30,7 +29,6 @@
         "items" : [
             "argo_structure1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
         

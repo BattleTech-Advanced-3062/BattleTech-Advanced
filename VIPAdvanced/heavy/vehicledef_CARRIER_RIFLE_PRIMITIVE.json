@@ -156,7 +156,6 @@
 			"Faction_TargetsAlly",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "vehiclechassisdef_CARRIER_RIFLE_PRIMITIVE",
 	"Description": {

@@ -85,7 +85,6 @@
 			"ArmLimitUpperLeft",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hellhound",

@@ -61,7 +61,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_excavatormech_EXV-8T",
 	"HeraldryID": null,

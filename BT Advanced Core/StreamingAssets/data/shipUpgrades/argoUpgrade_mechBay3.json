@@ -21,7 +21,6 @@
 			"argoUpgrade_structure1"
 			
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -33,7 +32,6 @@
         "items" : [
             "argo_mechBay3"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

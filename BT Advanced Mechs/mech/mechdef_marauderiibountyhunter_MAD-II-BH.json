@@ -7,7 +7,6 @@
 			"NOSALVAGE",
 			"BLACKLISTED"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_marauderiibountyhunter_MAD-II-BH",
 	"HeraldryID": null,
@@ -25,7 +24,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

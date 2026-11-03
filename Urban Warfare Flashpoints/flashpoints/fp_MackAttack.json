@@ -16,14 +16,12 @@
 				"items": [
 					"flashpoint_yangBigScore_complete"
 				],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"ExclusionTags": {
 				"items": [
 					"fp_MackAttack_Complete",
 					"fp_MackAttack_Betrayed"
 				],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}
@@ -36,13 +34,11 @@
 				"planet_other_blackmarket",
 				"planet_other_megacity"
 			],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"ExclusionTags": {
 			"items": [
 				"planet_faction_magistracy"
 			],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"RequirementComparisons": []
 	},

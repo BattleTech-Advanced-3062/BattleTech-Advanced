@@ -217,7 +217,6 @@
 			"ArmLimitUpperRight",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Skirmisher",
 	"YangsThoughts": "The 3D variant of the Starslayer is intended to allow the 'Mech to better engage an enemy at long ranges. This is accomplished by removing one of the Large Lasers, the SRM-4 launcher, and the Small Laser. These are replaced with an additional Medium Laser and an ER PPC that can hit a target accurately at six hundred and ninety meters as well as one additional double heat sink to deal with the extra heat from the ER PPC.",

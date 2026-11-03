@@ -100,15 +100,12 @@ example from contract override definition:
                     "items" : [
                         "lance_type_convoy"
                     ],
-                    "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "lanceExcludedTagSet" : {
                     "items" : [],
-                    "tagSetSourceFile" : "tags/LanceTags"
                 },
                 "spawnEffectTags" : {
                     "items" : [ "convoy_player_control" ], <----- there
-                    "tagSetSourceFile" : "tags/SpawnEffectTags"
                 }, 
 .......................................
     "ConvoyMaxDistFromOther": 200, - max distance from other units of convoy allowed

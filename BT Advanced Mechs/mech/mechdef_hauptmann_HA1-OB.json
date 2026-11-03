@@ -17,7 +17,6 @@
 			"10thLyranGuards",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hauptmann_HA1-OB",
 	"HeraldryID": null,
@@ -35,7 +34,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

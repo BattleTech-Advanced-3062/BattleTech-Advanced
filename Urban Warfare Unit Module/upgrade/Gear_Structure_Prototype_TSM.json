@@ -10,7 +10,6 @@
 		"items": [
 			"BLACKLISTED"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ComponentType": "Upgrade",
 	"CriticalComponent": false,

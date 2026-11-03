@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : [
 					"bd_event_BlueSuedeShoes_mech"
 				]
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
         "RequirementComparisons" : []
@@ -35,11 +33,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -59,11 +55,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
 									"bd_event_BlueSuedeShoes_mech"
 								]
@@ -87,11 +81,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -103,7 +95,6 @@
     "EventType" : "NORMAL",
     "OneTimeEvent" : true,
     "Tags" : {
-        "tagSetSourceFile" : "tags/EventTags",
         "items" : []
     }
 }

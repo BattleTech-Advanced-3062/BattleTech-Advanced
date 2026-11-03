@@ -17,7 +17,6 @@
 		"items": [
 			"flashpoint_HM5_hourglass_complete"
 		],
-		"tagSetSourceFile": ""
 	},
 	"simGameMechPartCost": 3020000,
 	"Version": 1,
@@ -688,6 +687,5 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	}
 }

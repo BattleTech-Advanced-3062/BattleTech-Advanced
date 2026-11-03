@@ -19,7 +19,6 @@
 			"argoUpgrade_trainingModule2",
 			"argoUpgrade_pod3"
 		],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -31,7 +30,6 @@
         "items" : [
             "argo_trainingModule3"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

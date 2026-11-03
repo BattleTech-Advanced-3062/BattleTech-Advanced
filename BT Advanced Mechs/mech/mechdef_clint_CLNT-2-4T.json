@@ -21,7 +21,6 @@
 			"HouseKhulan",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_clint_CLNT-2-4T",
 	"HeraldryID": null,
@@ -39,7 +38,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

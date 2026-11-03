@@ -25,7 +25,6 @@
 			"ai_surrounded_high",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hazard_HZD-TRC",
 	"HeraldryID": null,

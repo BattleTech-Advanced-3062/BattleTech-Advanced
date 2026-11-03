@@ -14,7 +14,6 @@
 			"SolarisVIIMercLeague",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_swordsman_SWD-BZ",
 	"HeraldryID": null,
@@ -32,7 +31,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

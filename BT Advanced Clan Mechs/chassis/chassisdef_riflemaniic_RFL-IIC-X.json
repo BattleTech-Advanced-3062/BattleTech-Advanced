@@ -82,7 +82,6 @@
 			"ArmLimitUpperLeft",
 			"HeavyMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_riflemaniic",

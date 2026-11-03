@@ -42,7 +42,6 @@
 			"pilot_commander_permissions",
             "BLACKLISTED"
         ],
-        "tagSetSourceFile": ""
     },
     "PilotCost": 0
 }

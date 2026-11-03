@@ -43,7 +43,6 @@
 			"pilot_vehicle_crew",
 			"pilot_davion"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

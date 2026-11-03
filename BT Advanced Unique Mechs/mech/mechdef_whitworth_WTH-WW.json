@@ -26,7 +26,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-WW",
 	"HeraldryID": null,
@@ -44,7 +43,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

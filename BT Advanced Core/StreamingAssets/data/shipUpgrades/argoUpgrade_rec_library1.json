@@ -18,7 +18,6 @@
         "items" : [
 			"argoUpgrade_pod2"
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -30,7 +29,6 @@
         "items" : [
             "argo_rec_library1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

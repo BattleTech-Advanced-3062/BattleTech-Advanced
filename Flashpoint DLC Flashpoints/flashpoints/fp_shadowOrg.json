@@ -24,11 +24,9 @@
 				"planet_other_battlefield",
 				"planet_faction_independent"
 			],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},

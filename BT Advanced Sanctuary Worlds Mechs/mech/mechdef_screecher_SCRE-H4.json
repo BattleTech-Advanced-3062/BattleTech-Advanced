@@ -18,7 +18,6 @@
 			"JacobsonHaven",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_screecher_SCRE-H4",
 	"HeraldryID": null,
@@ -36,7 +35,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

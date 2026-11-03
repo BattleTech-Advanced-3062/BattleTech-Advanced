@@ -18,13 +18,11 @@
 					"fp_MackAttack_Complete",
 					"fp_MackAttack_Betrayed"
 				],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"ExclusionTags": {
 				"items": [
 					"fp_AKnightAtTheOmni_Complete"
 				],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}
@@ -37,11 +35,9 @@
 				"planet_other_blackmarket",
 				"planet_climate_terran"
 			],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},

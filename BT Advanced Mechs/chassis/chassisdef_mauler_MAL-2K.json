@@ -238,7 +238,6 @@
 			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Heavy Cavalry",
 	"YangsThoughts": "The Mauler 2K attempts to turn the assault 'Mech into a walking missile repository. The LRM15s of the original are downgraded to 10-racks, and in place of the autocannons, two MRM10s and two pairs of SRM racks per torso are added, giving each torso 10 of each missile type for combat at all ranges. A pair of ER Medium Lasers rounds out the 2K's weaponry, and two additional double heat sinks compared to the original help keep it cooler.",

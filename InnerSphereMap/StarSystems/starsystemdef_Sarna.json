@@ -38,7 +38,6 @@
 			"planet_other_ruins",
 			"planet_faction_sarnasupremacy"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -47,11 +46,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

@@ -157,7 +157,6 @@
 			"OmniArmorLock",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hauptmann",

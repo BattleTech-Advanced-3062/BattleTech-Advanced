@@ -25,7 +25,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_avatar_AV1-AT",
 	"HeraldryID": null,

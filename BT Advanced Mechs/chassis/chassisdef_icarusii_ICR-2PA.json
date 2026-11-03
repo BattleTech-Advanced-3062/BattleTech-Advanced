@@ -84,7 +84,6 @@
 			"ArmLimitLowerLeft",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_icarusii_ICR-1S",

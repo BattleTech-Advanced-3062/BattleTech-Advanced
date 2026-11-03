@@ -1074,13 +1074,11 @@
 					"Scope": "MechWarrior",
 					"Requirements": null,
 					"AddedTags": {
-						"tagSetSourceFile": "",
 						"items": [
 							"TBAS_SimBleed__Guts__-1"
 						]
 					},
 					"RemovedTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"Stats": [],
@@ -1099,13 +1097,11 @@
 					"Scope": "MechWarrior",
 					"Requirements": null,
 					"AddedTags": {
-						"tagSetSourceFile": "",
 						"items": [
 							"TBAS_SimBleed__Guts__-3"
 						]
 					},
 					"RemovedTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"Stats": [],
@@ -1124,13 +1120,11 @@
 					"Scope": "MechWarrior",
 					"Requirements": null,
 					"AddedTags": {
-						"tagSetSourceFile": "",
 						"items": [
 							"TBAS_SimBleed__Guts__-5"
 						]
 					},
 					"RemovedTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"Stats": [],

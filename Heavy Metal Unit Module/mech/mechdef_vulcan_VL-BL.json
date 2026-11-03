@@ -23,7 +23,6 @@
 			"ai_surrounded_high",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_vulcan_VL-BL",
 	"HeraldryID": null,

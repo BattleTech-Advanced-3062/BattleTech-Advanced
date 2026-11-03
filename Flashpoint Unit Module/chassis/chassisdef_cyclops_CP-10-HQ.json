@@ -10,7 +10,6 @@
 		"items": [
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"DFADamage": 100,
 	"DFAInstability": 100,

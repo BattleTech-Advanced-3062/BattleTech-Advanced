@@ -21,7 +21,6 @@
 			"CWEpsilonGalaxy",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_riflemaniic_RFL-IIC-X",
 	"HeraldryID": null,
@@ -39,7 +38,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

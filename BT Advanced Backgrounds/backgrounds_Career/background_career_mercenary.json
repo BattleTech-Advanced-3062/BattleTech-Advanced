@@ -13,13 +13,11 @@
 		"Requirements": {
 			"Scope": "Commander",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": [
 					"DONOTFIRE"
 				]
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": []
@@ -30,7 +28,6 @@
 				"pilot_vehicle_crew",
 				"pilot_commander_permissions"
 			],
-			"tagSetSourceFile": ""
 		},
 		"RemovedTags": null,
 		"Stats": [

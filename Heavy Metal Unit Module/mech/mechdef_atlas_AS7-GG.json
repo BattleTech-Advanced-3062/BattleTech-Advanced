@@ -13,7 +13,6 @@
 			"unit_armor_high",
 			"BLACKLISTED"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_atlas_AS7-GG",
 	"prefabOverride": "chrPrfMech_atlas_BHABase-001",

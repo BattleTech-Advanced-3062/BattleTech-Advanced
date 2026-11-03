@@ -24,7 +24,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_catapult_CPLT-C5",
 	"HeraldryID": null,

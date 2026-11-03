@@ -162,7 +162,6 @@
 			"HeroMech",
 			"LightMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_spider_SDR-5V",

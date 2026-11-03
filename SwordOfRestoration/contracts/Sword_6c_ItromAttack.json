@@ -90,21 +90,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -137,21 +133,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -184,21 +176,17 @@
 						"Scope": "Company",
 						"RequirementTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"ExclusionTags": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"RequirementComparisons": []
 					},
 					"AddedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"RemovedTags": {
 						"items": [],
-						"tagSetSourceFile": ""
 					},
 					"Stats": [
 						{
@@ -1217,15 +1205,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "Tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -1241,24 +1226,19 @@
 						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_default",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1274,24 +1254,19 @@
 						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_default",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1307,24 +1282,19 @@
 						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_default",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1340,24 +1310,19 @@
 						"unitDefId": "",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_default",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1404,15 +1369,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -1431,24 +1393,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1467,24 +1424,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_defender",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1503,24 +1455,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_pilot",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1539,24 +1486,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_tactician",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1572,15 +1514,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "Tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -1599,24 +1538,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1635,24 +1569,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_defender",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1671,24 +1600,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1707,24 +1631,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_pilot",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1740,15 +1659,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "Tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "Tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -1767,24 +1683,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1803,24 +1714,19 @@
 								"unit_mech",
 								"unit_light"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1839,24 +1745,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_tactician",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1875,24 +1776,19 @@
 								"unit_medium",
 								"unit_mech"
 							],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "Tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_d6_gunner",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": ""
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "Tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,

@@ -67,7 +67,6 @@
             "pilot_npc_gunner",
             "pilot_npc_dynamic"
         ],
-        "tagSetSourceFile": ""
     },
     "PilotCost": 0
 }

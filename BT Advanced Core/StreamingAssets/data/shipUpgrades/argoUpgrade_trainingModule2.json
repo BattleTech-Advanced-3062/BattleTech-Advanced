@@ -19,7 +19,6 @@
 			"argoUpgrade_trainingModule1",
 			"argoUpgrade_pod2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 15,
@@ -29,7 +28,6 @@
 		"items": [
 			"argo_trainingModule2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

@@ -23,7 +23,6 @@
 			"ai_surrounded_low",
 			"unit_indirectFire"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_zeus_ZEU-X-OL",
 	"HeraldryID": null,

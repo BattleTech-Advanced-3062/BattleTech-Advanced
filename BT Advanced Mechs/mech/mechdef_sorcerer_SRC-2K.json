@@ -12,7 +12,6 @@
 			"1stSwordOfLight",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_sorcerer_SRC-2K",
 	"HeraldryID": null,
@@ -30,7 +29,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

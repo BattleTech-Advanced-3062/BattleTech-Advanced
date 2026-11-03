@@ -13,7 +13,6 @@
 			"unit_notsacellum",
 			"unit_bracket_low"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_kitfox_F",
 	"HeraldryID": null,
@@ -31,7 +30,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

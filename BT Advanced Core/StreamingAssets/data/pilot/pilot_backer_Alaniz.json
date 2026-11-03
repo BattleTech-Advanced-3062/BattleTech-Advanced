@@ -48,7 +48,6 @@
 			"pilot_vehicle_crew",
 			"pilot_nomech_crew"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -24,7 +24,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_urbanking_URK-SH1",
 	"Description": {

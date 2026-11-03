@@ -221,7 +221,6 @@
 			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Heavy Sniper & Defender",
 	"YangsThoughts": "The HTM-C is exactly the same as the HTM-27U, except that it loses a heat sink for a C3 slave computer so it can share targeting data with its lancemates, making the HTM-C a dangerous sniper mech.",

@@ -12,7 +12,6 @@
 			"HeroMech",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"DFADamage": 60,
 	"DFAInstability": 30,

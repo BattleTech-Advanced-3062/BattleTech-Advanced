@@ -22,7 +22,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_flea_FLE-R5K",
 	"HeraldryID": null,

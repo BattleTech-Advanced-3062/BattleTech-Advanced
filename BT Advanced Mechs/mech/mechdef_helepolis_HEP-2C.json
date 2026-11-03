@@ -15,7 +15,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_helepolis_HEP-2C",
 	"HeraldryID": null,

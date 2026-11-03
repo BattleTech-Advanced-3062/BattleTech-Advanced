@@ -17,7 +17,6 @@
 			"15thLyranRegulars",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_sentinel_STN-3KB",
 	"HeraldryID": null,
@@ -35,7 +34,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

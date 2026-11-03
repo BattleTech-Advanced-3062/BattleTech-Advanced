@@ -24,7 +24,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_emperor_EMP-MC",
 	"HeraldryID": null,

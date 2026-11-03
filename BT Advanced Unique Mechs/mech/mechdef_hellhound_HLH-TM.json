@@ -25,7 +25,6 @@
 			"unit_legal",
 			"unit_bracket_med"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hellhound_HLH-TM",
 	"HeraldryID": null,
@@ -43,7 +42,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

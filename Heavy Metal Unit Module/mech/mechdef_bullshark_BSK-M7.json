@@ -17,7 +17,6 @@
 		"items": [
 			"flashpoint_HM5_hourglass_complete"
 		],
-		"tagSetSourceFile": ""
 	},
 	"simGameMechPartCost": 3020000,
 	"Version": 1,
@@ -556,6 +555,5 @@
 			"FlakJackals",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	}
 }

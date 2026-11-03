@@ -241,7 +241,6 @@
 			"ArmLimitUpperRight",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_shadowcat",

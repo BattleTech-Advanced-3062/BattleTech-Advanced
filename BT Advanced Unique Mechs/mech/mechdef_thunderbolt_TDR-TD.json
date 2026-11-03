@@ -24,7 +24,6 @@
 			"ai_surrounded_low",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_thunderbolt_TDR-TD",
 	"HeraldryID": null,

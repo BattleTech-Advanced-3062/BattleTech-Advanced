@@ -72,7 +72,6 @@
 		"items": [
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_atlas_AS7-D",

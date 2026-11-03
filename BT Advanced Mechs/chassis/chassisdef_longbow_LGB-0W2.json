@@ -222,7 +222,6 @@
 			"ArmLimitUpperLeft",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Hail of Missiles",
 	"YangsThoughts": "The Longbow LGB-0W was not a very popular variant of the venerable fire support design, due to giving up a lot of armor for its increased speed. Because of this, the 0W2 field refit was designed. The -0W2 is functionally the same as the -0W, except that it removes a ton of ammunition and the Small Laser and puts the freed weight back into armor. Otherwise, it keeps the 50 LRM tubes and the high ground speed.",

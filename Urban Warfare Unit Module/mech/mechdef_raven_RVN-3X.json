@@ -106,13 +106,11 @@
 			"WarriorHouseImarra",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": "3025-01-01T00:00:00Z",
 	"PaintTextureID": null,
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"Version": 1,
 	"inventory": [

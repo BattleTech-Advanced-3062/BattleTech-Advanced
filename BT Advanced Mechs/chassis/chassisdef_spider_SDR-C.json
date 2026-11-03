@@ -211,7 +211,6 @@
 		"items": [
 			"LightMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Extremely Maneuverable Scout",
 	"YangsThoughts": "This minor modification of the SDR-7M swaps one of the pulse lasers for a standard medium laser, freeing up enough space for a C3 slave unit, allowing the mech to better interface with the Combine's military doctrine. In all other respects, the -C is a standard SDR-7M.",

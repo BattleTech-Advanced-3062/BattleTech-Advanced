@@ -59,7 +59,6 @@
 			"MediumMech",
 			"HeroMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

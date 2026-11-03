@@ -12,7 +12,6 @@
 			"unit_legal",
 			"unit_role_sniper"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_incubus_INC-6",
 	"HeraldryID": null,
@@ -30,7 +29,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -24,7 +24,6 @@
 			"planet_faction_jacobsonhaven",
 			"planet_name_Zwillman"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"urbanHighTech",
@@ -33,11 +32,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

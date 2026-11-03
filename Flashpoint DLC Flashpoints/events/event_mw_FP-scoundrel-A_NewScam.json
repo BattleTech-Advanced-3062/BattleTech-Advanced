@@ -10,11 +10,9 @@
 	"Requirements": {
 		"Scope": "MechWarrior",
 		"RequirementTags": {
-			"tagSetSourceFile": "Tags/PilotTags",
 			"items": []
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "Tags/PilotTags",
 			"items": [
 				"pilot_criminal",
 				"pilot_honest"
@@ -33,13 +31,11 @@
 		{
 			"Scope": "Company",
 			"RequirementTags": {
-				"tagSetSourceFile": "Tags/CompanyTags",
 				"items": [
 					"flashpoint_scoundrel_complete"
 				]
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "Tags/CompanyTags",
 				"items": [
 					"flashpoint_scoundrel_followupEvent",
 					"flashpoint_scoundrel_followupEvent-1a",
@@ -51,11 +47,9 @@
 		{
 			"Scope": "Commander",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": [
@@ -70,13 +64,11 @@
 		{
 			"Scope": "StarSystem",
 			"RequirementTags": {
-				"tagSetSourceFile": "Tags/PlanetTags",
 				"items": [
 					"planet_faction_davion"
 				]
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "Tags/PlanetTags",
 				"items": [
 					"planet_pop_none",
 					"planet_pop_small"
@@ -109,13 +101,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/CompanyTags",
 								"items": [
 									"flashpoint_scoundrel_followupEvent"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -130,11 +120,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -162,13 +150,11 @@
 							"Scope": "MechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"pilot_criminal"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": []
 							},
 							"Stats": null,
@@ -188,13 +174,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/CompanyTags",
 								"items": [
 									"flashpoint_scoundrel_followupEvent-1a"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -224,11 +208,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -256,13 +238,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/CompanyTags",
 								"items": [
 									"flashpoint_scoundrel_followupEvent-1b"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -283,13 +263,11 @@
 							"Scope": "MechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"pilot_criminal"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -311,11 +289,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []

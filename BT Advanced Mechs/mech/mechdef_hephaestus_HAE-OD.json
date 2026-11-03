@@ -53,7 +53,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hephaestus_HAE-OD",
 	"HeraldryID": null,

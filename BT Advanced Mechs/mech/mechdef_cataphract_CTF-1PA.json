@@ -53,7 +53,6 @@
 			"BaumannGroup",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_cataphract_CTF-1PA",
 	"HeraldryID": null,
@@ -71,7 +70,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -29,7 +29,6 @@
 			"2ndCanopianFusiliers",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-2H",
 	"HeraldryID": null,
@@ -47,7 +46,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

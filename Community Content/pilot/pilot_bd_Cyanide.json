@@ -53,7 +53,6 @@
 			"pilot_honest",
 			"pilot_tech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

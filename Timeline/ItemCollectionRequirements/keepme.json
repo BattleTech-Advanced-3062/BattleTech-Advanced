@@ -2,11 +2,9 @@
 	"ItemID": "",
 	"Requirements": {
 		"RequirementTags": {
-			"tagSetSourceFile": "",
 			"items": []
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": []
 		}
 	}

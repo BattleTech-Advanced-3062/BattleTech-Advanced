@@ -20,7 +20,6 @@
             "argoUpgrade_power3",
 			"argoUpgrade_structure2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost" : 40,
@@ -30,7 +29,6 @@
 		"items": [
 			"argo_mechBay_expandedBays1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

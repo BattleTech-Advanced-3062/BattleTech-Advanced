@@ -19,7 +19,6 @@
             "argoUpgrade_mechBay1",
             "argoUpgrade_power1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -31,7 +30,6 @@
         "items" : [
             "argo_mechBay2"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

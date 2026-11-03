@@ -13,13 +13,11 @@
 			"TaurianConcordat",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [
 			"sanctuary_tdf_refit_complete"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate" : "3063-09-14T00:00:00Z",
 	"ChassisID": "chassisdef_talos_TLS-2S",
@@ -38,7 +36,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"prefabOverride": null,
 	"Version": 1,
