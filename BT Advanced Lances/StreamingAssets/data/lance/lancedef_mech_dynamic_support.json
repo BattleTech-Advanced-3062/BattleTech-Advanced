@@ -19,7 +19,6 @@
 			"lance_type_rangeLong",
 			"lance_type_indirectFire"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -33,22 +32,18 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -62,52 +57,18 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
-			}
-		},
-		{
-			"unitType": "Mech",
-			"unitId": "Tagged",
-			"pilotId": "Tagged",
-			"dynamicDifficulty": true,
-			"unitTagSet": {
-				"items": [
-					"unit_mech",
-					"unit_indirectFire",
-					"unit_legal",
-					"{CUR_TEAM.faction}"
-				],
-				"tagSetSourceFile": "Tags/UnitTags"
-			},
-			"excludedUnitTagSet": {
-				"items": [
-					"unit_noncombatant",
-					"unit_urbie"
-				],
-				"tagSetSourceFile": "Tags/UnitTags"
-			},
-			"pilotTagSet": {
-				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
-			},
-			"excludedPilotTagSet": {
-				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -122,22 +83,44 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
+			}
+		},
+		{
+			"unitType": "Mech",
+			"unitId": "Tagged",
+			"pilotId": "Tagged",
+			"dynamicDifficulty": true,
+			"unitTagSet": {
+				"items": [
+					"unit_mech",
+					"unit_indirectFire",
+					"unit_legal",
+					"{CUR_TEAM.faction}"
+				],
+			},
+			"excludedUnitTagSet": {
+				"items": [
+					"unit_noncombatant",
+					"unit_urbie"
+				],
+			},
+			"pilotTagSet": {
+				"items": [],
+			},
+			"excludedPilotTagSet": {
+				"items": null,
 			}
 		}
 	]

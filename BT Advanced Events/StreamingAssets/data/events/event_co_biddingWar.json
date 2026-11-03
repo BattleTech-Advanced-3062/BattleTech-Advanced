@@ -14,11 +14,9 @@
                 "uds_upgrade_hydroponics",
                 "event_mw_firstHarvest"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "ExclusionTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : [
             {
@@ -34,13 +32,11 @@
             "Scope" : "StarSystem",
             "RequirementTags" : {
                 "items" : null,
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "ExclusionTags" : {
                 "items" : [
                     "planet_pop_none"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -71,11 +67,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -103,11 +97,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -146,11 +138,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -180,11 +170,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -212,11 +200,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -237,11 +223,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -273,11 +257,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -298,11 +280,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -325,11 +305,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -348,11 +326,9 @@
                         "items" : [
                             "planet_climate_arctic"
                         ],
-                        "tagSetSourceFile" : "Tags/PlanetTags"
                     },
                     "ExclusionTags" : {
                         "items" : null,
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : []
                 }
@@ -372,11 +348,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -397,11 +371,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -440,11 +412,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -465,11 +435,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -499,11 +467,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

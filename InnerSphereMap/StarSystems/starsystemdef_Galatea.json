@@ -31,7 +31,6 @@
 			"planet_faction_steiner",
 			"planet_gameworld"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"badlandsParched",
@@ -44,11 +43,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

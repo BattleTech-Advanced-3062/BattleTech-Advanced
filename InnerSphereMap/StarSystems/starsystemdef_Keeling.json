@@ -26,7 +26,6 @@
 			"planet_other_starleague",
 			"planet_faction_marik"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -36,11 +35,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

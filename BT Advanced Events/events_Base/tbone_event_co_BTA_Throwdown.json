@@ -10,13 +10,11 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"timeline_3063_02_14"
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"fought_BTA",
 				"planet_name_merchantsrest"
@@ -57,11 +55,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -89,13 +85,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"fought_BTA"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -126,11 +120,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -142,7 +134,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": false,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

@@ -27,7 +27,6 @@
 			"planet_other_boreholes",
 			"planet_faction_liao"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -36,11 +35,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 14,

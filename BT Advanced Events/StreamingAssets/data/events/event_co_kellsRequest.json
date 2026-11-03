@@ -10,11 +10,9 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": []
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": [
 				"event_kellsrequest_complete1",
 				"event_kellsrequest_complete2",
@@ -57,11 +55,9 @@
 				{
 					"Scope": "Company",
 					"RequirementTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"ExclusionTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"RequirementComparisons": [
@@ -88,13 +84,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete1"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -122,11 +116,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -158,13 +150,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -192,11 +182,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -219,11 +207,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -240,11 +226,9 @@
 				{
 					"Scope": "Company",
 					"RequirementTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"ExclusionTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"RequirementComparisons": [
@@ -271,13 +255,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete1"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -305,11 +287,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -341,13 +321,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -375,11 +353,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -402,11 +378,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -434,13 +408,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -472,13 +444,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -501,11 +471,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -533,13 +501,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"event_kellsrequest_complete3"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -554,11 +520,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []

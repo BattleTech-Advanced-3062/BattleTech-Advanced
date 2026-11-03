@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "uds_upgrade_crewquarters1"
             ]
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "commander_career_special_operative",
                 "MODIFIED_STAT_MechTechSkill",
@@ -48,13 +46,11 @@
         {
             "Scope" : "Commander",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/CommanderTags",
                 "items" : [
                     "commander_career_soldier"
                 ]
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "RequirementComparisons" : []
@@ -62,11 +58,9 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : [
                     "planet_pop_none"
                 ]
@@ -80,11 +74,9 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : null
                 },
                 "RequirementComparisons" : [
@@ -121,13 +113,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Soldier"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -142,11 +132,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -174,11 +162,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -199,13 +185,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Soldier"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -228,11 +212,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -260,11 +242,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -285,13 +265,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Soldier"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "Stats" : [
@@ -312,13 +290,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -331,11 +307,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -352,11 +326,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -373,11 +345,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : null
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "RequirementComparisons" : [
@@ -404,13 +374,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Soldier"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -440,11 +408,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []

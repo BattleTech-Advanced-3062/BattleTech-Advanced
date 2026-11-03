@@ -11,11 +11,9 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": "mercnews_subscription",
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": null,
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -64,11 +62,9 @@
 									"WIIC_set_starsystemdef_Zlatousi_defender_strength_15",
 									"WIIC_set_starsystemdef_Zlatousi_attacker_strength_25"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -83,11 +79,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -134,11 +128,9 @@
 									"WIIC_set_starsystemdef_Zlatousi_defender_strength_15",
 									"WIIC_set_starsystemdef_Zlatousi_attacker_strength_25"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -153,11 +145,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}

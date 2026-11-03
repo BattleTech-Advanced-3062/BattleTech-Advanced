@@ -86,7 +86,6 @@
 			"ArmLimitUpperLeft",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_cicada_CDA-2A",

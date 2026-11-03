@@ -21,7 +21,6 @@
 			"planet_pop_medium",
 			"planet_faction_delphi"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -30,11 +29,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

@@ -36,7 +36,6 @@
 			"planet_other_boreholes",
 			"planet_faction_clannovacat"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -50,11 +49,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

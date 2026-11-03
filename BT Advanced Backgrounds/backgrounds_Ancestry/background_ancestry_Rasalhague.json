@@ -13,13 +13,11 @@
 		"Requirements": {
 			"Scope": "Commander",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": [
 					"DONOTFIRE"
 				]
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": []
@@ -28,7 +26,6 @@
 			"items": [
 				"commander_ancestry_rasalhague"
 			],
-			"tagSetSourceFile": ""
 		},
 		"RemovedTags": null,
 		"Stats": [

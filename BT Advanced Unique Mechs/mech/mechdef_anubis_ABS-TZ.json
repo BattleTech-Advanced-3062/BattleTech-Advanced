@@ -23,7 +23,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_anubis_ABS-TZ",
 	"HeraldryID": null,
@@ -41,7 +40,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

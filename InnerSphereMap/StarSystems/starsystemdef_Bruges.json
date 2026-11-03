@@ -25,7 +25,6 @@
 			"planet_industry_agriculture",
 			"planet_faction_hanse"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -38,11 +37,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

@@ -190,7 +190,6 @@
 			"Faction_TargetsAlly",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "vehiclechassisdef_ROTTWEILER",
 	"Description": {

@@ -94,7 +94,6 @@
 			"FlakJackals",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_swordsman_SWD-3",
 	"HeraldryID": null,
@@ -112,7 +111,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

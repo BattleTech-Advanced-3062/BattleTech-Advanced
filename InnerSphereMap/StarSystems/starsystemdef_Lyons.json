@@ -26,7 +26,6 @@
 			"planet_other_boreholes",
 			"planet_faction_cameron"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
@@ -40,11 +39,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

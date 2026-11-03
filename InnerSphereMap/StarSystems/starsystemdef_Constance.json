@@ -27,7 +27,6 @@
 			"planet_other_ruins",
 			"planet_faction_clanghostbear"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -41,11 +40,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

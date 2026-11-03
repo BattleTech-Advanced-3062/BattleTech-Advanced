@@ -27,18 +27,15 @@
 			"planet_industry_chemicals",
 			"planet_industry_electronics"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

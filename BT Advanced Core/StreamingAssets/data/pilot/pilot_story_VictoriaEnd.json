@@ -55,7 +55,6 @@
 			"pilot_cannot_eject",
 			"pilot_cannot_be_headshot"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0
 }

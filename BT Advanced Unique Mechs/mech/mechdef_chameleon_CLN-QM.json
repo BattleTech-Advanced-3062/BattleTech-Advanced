@@ -24,7 +24,6 @@
 			"ai_surrounded_high",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_chameleon_CLN-QM",
 	"HeraldryID": null,

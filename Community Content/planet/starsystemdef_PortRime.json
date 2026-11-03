@@ -23,7 +23,6 @@
 			"planet_factory",
 			"planet_faction_magistracyofcanopus"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -31,11 +30,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 15,
@@ -108,11 +105,9 @@
 				"items": [
 					"map_travel_2a"
 				],
-				"tagSetSourceFile": ""
 			},
 			"ExclusionTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}

@@ -12,7 +12,6 @@
 			"SolarisVIIMercLeague",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_titan_TI-1T",
 	"HeraldryID": null,
@@ -30,7 +29,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

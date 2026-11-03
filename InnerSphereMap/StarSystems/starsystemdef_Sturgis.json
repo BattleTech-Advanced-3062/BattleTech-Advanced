@@ -28,7 +28,6 @@
 			"planet_other_ruins",
 			"planet_faction_davion"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -42,11 +41,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

@@ -17,7 +17,6 @@
 			"3rdTaurianLancers",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talos_TLS-1H",
 	"HeraldryID": null,
@@ -35,7 +34,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -4,7 +4,6 @@
 			"unit_innerspheremech",
 			"unit_mechtool"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_corsair_COR-PL",
 	"HeraldryID": null,
@@ -22,7 +21,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

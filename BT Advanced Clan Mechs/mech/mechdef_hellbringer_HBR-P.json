@@ -15,7 +15,6 @@
 			"unit_legal",
 			"unit_bracket_med"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hellbringer_HBR-P",
 	"HeraldryID": null,
@@ -33,7 +32,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

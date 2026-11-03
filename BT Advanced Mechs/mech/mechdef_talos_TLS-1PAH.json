@@ -24,7 +24,6 @@
 			"CalderonsCommandos",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talos_TLS-1PAH",
 	"HeraldryID": null,
@@ -42,7 +41,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

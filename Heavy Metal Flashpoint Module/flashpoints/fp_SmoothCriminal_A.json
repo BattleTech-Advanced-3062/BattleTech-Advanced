@@ -17,7 +17,6 @@
 					"flashpoint_yangBigScore_complete",
 					"fp_MackAttack_Complete"
 				],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"ExclusionTags": {
 				"items": [
@@ -25,7 +24,6 @@
 					"fp_MackAttack_Betrayed",
 					"fp_MackAttack_Partial"
 				],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"RequirementComparisons": []
 		}
@@ -36,11 +34,9 @@
 			"items": [
 				"planet_name_claybrooke"
 			],
-			"tagSetSourceFile": "Tags/PlanetNameTags"
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"RequirementComparisons": []
 	},

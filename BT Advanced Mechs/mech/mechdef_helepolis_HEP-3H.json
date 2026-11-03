@@ -46,7 +46,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_helepolis_HEP-3H",
 	"HeraldryID": null,

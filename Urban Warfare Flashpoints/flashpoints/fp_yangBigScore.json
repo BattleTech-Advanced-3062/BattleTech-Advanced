@@ -16,13 +16,11 @@
 			"items": [
 				"planet_name_electra"
 			],
-			"tagSetSourceFile": "Tags/PlanetNameTags"
 		},
 		"ExclusionTags": {
 			"items": [
 				"flashpoint_yangBigScore_complete"
 			],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},

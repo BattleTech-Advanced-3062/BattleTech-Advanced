@@ -10,13 +10,11 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": [
 				"argo_medBay2"
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": []
 		},
 		"RequirementComparisons": []
@@ -28,13 +26,11 @@
 			"Requirements": {
 				"Scope": "SecondaryMechWarrior",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"DEBILITATED_Torso"
 					]
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"disable_debilHeal"
 					]
@@ -66,13 +62,11 @@
 							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"pilot_morale_low"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -87,11 +81,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -119,11 +111,9 @@
 							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"DEBILITATED",
 									"DEBILITATED_Torso"
@@ -139,11 +129,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -166,11 +154,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -182,7 +168,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": false,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

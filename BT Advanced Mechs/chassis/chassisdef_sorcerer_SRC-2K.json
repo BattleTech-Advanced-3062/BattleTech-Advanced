@@ -105,7 +105,6 @@
 		"items": [
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_banshee_BNC-3S",

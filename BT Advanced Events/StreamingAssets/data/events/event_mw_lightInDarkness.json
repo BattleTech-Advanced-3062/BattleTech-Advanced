@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "",
             "items" : []
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : [
                 "pilot_cautious",
                 "pilot_klutz"
@@ -26,11 +24,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
                     "event_mw_lightInDarkness"
                 ]
@@ -59,11 +55,9 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "RequirementComparisons" : []
@@ -93,13 +87,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -131,11 +123,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -156,13 +146,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -177,11 +165,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -209,13 +195,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -247,13 +231,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -276,11 +258,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -308,13 +288,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -335,13 +313,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -354,13 +330,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_spacer"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -394,11 +368,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -419,13 +391,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "event_mw_lightInDarkness"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -448,11 +418,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []

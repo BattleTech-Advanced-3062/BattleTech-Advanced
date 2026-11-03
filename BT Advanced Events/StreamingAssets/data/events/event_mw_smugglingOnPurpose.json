@@ -11,11 +11,9 @@
         "Scope" : "MechWarrior",
         "RequirementTags" : {
             "items" : [],
-            "tagSetSourceFile" : "Tags/PilotTags"
         },
         "ExclusionTags" : {
             "items" : [],
-            "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : [
             {
@@ -31,11 +29,9 @@
             "Scope" : "Company",
             "RequirementTags" : {
                 "items" : [],
-                "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "RequirementComparisons" : [
                 {
@@ -64,11 +60,9 @@
                 "items" : [
                     "planet_other_blackmarket"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -99,11 +93,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -131,11 +123,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -165,11 +155,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -193,11 +181,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -220,11 +206,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -239,11 +223,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -262,11 +244,9 @@
                         "items" : [
                             "pilot_dishonest"
                         ],
-                        "tagSetSourceFile" : "Tags/PilotTags"
                     },
                     "ExclusionTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : []
                 }
@@ -286,11 +266,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -320,11 +298,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -339,11 +315,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -362,11 +336,9 @@
                         "items" : [
                             "pilot_criminal"
                         ],
-                        "tagSetSourceFile" : "Tags/PilotTags"
                     },
                     "ExclusionTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : "Tags/PilotTags"
                     },
                     "RequirementComparisons" : []
                 }
@@ -386,11 +358,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -419,11 +389,9 @@
                                 "Scope" : "MechWarrior",
                                 "RequirementTags" : {
                                     "items" : [],
-                                    "tagSetSourceFile" : ""
                                 },
                                 "ExclusionTags" : {
                                     "items" : [],
-                                    "tagSetSourceFile" : ""
                                 },
                                 "RequirementComparisons" : []
                             },
@@ -431,11 +399,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [],
                             "Actions" : [],
@@ -450,11 +416,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

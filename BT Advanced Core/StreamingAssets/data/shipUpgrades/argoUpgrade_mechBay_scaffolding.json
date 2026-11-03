@@ -18,7 +18,6 @@
         "items" : [
 			"argoUpgrade_mechBay1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -30,7 +29,6 @@
         "items" : [
             "argo_mechBay_scaffolding"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
  		{

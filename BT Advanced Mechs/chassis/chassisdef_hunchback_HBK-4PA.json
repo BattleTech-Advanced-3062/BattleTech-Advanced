@@ -94,7 +94,6 @@
 		"items": [
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hunchback_HBK-4G",

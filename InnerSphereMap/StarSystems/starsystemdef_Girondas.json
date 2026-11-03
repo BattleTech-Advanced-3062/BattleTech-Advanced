@@ -23,7 +23,6 @@
 			"planet_faction_taurian",
 			"planet_industry_electronics"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -33,11 +32,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

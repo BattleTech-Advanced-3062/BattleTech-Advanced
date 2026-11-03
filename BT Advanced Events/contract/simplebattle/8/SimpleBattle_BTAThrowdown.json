@@ -19,14 +19,12 @@
 			"Scope": "StarSystem",
 			"RequirementTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"ExclusionTags": {
 				"items": [
 					"planet_other_empty",
 					"planet_name_merchantsrest"
 				],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}
@@ -37,11 +35,9 @@
 			"Requirements": null,
 			"AddedTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"RemovedTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"Stats": [],
 			"Actions": [
@@ -316,15 +312,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -340,24 +333,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -373,24 +361,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -406,24 +389,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -439,24 +417,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -503,15 +476,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 1,
 				"selectedLanceDefId": null,
@@ -527,24 +497,19 @@
 						"unitDefId": "mechdef_kingcrab_KGC-BD",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_jk_BloodyDoves_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -560,24 +525,19 @@
 						"unitDefId": "mechdef_corsair_COR-TB",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_tbone_t-bone_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -593,24 +553,19 @@
 						"unitDefId": "mechdef_cataphract_CTF-FR",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_bd_Frost_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -626,24 +581,19 @@
 						"unitDefId": "mechdef_marauder_MAD-3TL",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_tl_TaintedLoki_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -659,15 +609,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -683,24 +630,19 @@
 						"unitDefId": "mechdef_hunchback_HBK-IIC-TR",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_tr_Turtrus_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -716,24 +658,19 @@
 						"unitDefId": "mechdef_kitfox_KFX-BW",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_bw_Aether_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -749,24 +686,19 @@
 						"unitDefId": "mechdef_timberwolf_TW-RV",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_wiki_Revostae_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -782,24 +714,19 @@
 						"unitDefId": "mechdef_valkyrieii_VLK-II-SH",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_lts_Shade_super",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,

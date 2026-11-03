@@ -31,7 +31,6 @@
 			"planet_other_alienvegetation",
 			"planet_faction_clanjadefalcon"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -46,11 +45,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 4,

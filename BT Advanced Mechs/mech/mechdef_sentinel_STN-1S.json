@@ -26,7 +26,6 @@
 			"30thMarikMilitia",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_sentinel_STN-1S",
 	"HeraldryID": null,
@@ -44,7 +43,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -27,7 +27,6 @@
 			"planet_other_starleague",
 			"planet_faction_clanghostbear"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -36,11 +35,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

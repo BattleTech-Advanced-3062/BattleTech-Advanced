@@ -11,11 +11,9 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []
     },
@@ -47,11 +45,9 @@
                                 "items" : [
                                     "company_leopard_loan_fair"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -66,11 +62,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -100,11 +94,9 @@
                                 "items" : [
                                     "company_leopard_loan_fair"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -119,11 +111,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -153,11 +143,9 @@
                                 "items" : [
                                     "company_leopard_loan_fair"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -172,11 +160,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

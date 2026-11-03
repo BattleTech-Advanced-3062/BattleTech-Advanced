@@ -31,7 +31,6 @@
 			"planet_other_ruins",
 			"planet_faction_cameron"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -46,11 +45,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

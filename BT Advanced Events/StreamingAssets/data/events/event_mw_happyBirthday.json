@@ -11,14 +11,12 @@
         "Scope" : "MechWarrior",
         "RequirementTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : [
                 "event_mw_birthday",
                 "pilot_morale_high"
             ],
-            "tagSetSourceFile" : "Tags/PilotTags"
         },
         "RequirementComparisons" : [
             {
@@ -57,13 +55,11 @@
                                 "items" : [
                                     "event_mw_birthday"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -78,11 +74,9 @@
                                 "items" : [
                                     "pilot_morale_high"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -97,11 +91,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -120,11 +112,9 @@
                         "items" : [
                             "uds_upgrade_lounge1"
                         ],
-                        "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
                         "items" : null,
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : []
                 }
@@ -146,13 +136,11 @@
                                 "items" : [
                                     "event_mw_birthday"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -165,11 +153,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -192,11 +178,9 @@
                                 "items" : [
                                     "pilot_morale_high"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -211,11 +195,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

@@ -19,7 +19,6 @@
 			"2ndLegionOfVega",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hermesii_HER-4K",
 	"HeraldryID": null,
@@ -37,7 +36,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

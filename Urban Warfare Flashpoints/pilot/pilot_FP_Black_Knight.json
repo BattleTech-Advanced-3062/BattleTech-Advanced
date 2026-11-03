@@ -51,7 +51,6 @@
 			"BLACKLISTED",
 			"pilot_cannot_be_headshot"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0
 }

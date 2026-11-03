@@ -36,7 +36,6 @@
 			"331stDivision",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_sentinel_STN-3Lb",
 	"HeraldryID": null,
@@ -54,7 +53,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

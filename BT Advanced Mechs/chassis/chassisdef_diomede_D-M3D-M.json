@@ -289,7 +289,6 @@
 			"AssaultMech",
 			"IndustrialMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Militarized ConstructionMech",
 	"YangsThoughts": "The Diomede is a newly-created ConstructionMech, designed to fulfill construction needs while also serving as a SecurityMech in a pinch. The D-M3D-M is specifically a fully militarized variant of the Diomede, complete with heavy weaponry. Built on a 300-rated fusion engine, the D-M3D-M carries a heavy loadout (for an industrial 'Mech) of a Gauss Rifle, twin MML-7s, and some backup Medium Lasers and Machine Guns. The Diomede's traditionally heavy armor keeps it well protected.",

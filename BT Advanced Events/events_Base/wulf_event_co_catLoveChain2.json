@@ -10,13 +10,11 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"wulf_event_co_CatLoveChain1"
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"BTA_Team"
 			]
@@ -27,11 +25,9 @@
 		{
 			"Scope": "Commander",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": [
@@ -50,11 +46,9 @@
 			"Requirements": {
 				"Scope": "SecondaryMechWarrior",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"name_wulfbanes"
 					]
@@ -86,13 +80,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1"
 								]
@@ -109,11 +101,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -141,13 +131,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain2"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1"
 								]
@@ -172,11 +160,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -188,7 +174,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": true,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

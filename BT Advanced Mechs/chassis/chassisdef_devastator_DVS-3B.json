@@ -223,7 +223,6 @@
 			"ArmLimitLowerLeft",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Experimental Steel Wall",
 	"YangsThoughts": "When the NAIS was looking to test their new Blue Shield Particle Field Dampener system, they requested the AFFS provide them with several test chassis. The AFFS, when asked for an assault-class 'Mech, provided the NAIS with several Devastators. Knowing that the Devastator was essentially perfect at its role already, the NAIS made minimal changes, swapping the PPCs for ER PPCs and dropping a few extra tons of Gauss ammo for the Blue Shield system. Otherwise, the DVS-3B closely resembles the DVS-3 that spawned it.",

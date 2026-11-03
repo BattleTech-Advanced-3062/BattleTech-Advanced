@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : null
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "",
             "items" : null
         },
         "RequirementComparisons" : [
@@ -30,11 +28,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
                     "event_mw_doctorsOrders",
                     "MODIFIED_STAT_MedTechSkill"
@@ -52,11 +48,9 @@
         {
             "Scope" : "Commander",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "RequirementComparisons" : [
@@ -75,11 +69,9 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -109,11 +101,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -134,11 +124,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -153,13 +141,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -172,11 +158,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -191,13 +175,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -210,13 +192,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_mw_doctorsOrders"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -231,11 +211,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -263,11 +241,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -288,13 +264,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_mw_doctorsOrders"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -309,11 +283,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -330,13 +302,11 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : [
                             "argo_trainingModule1"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "RequirementComparisons" : []
@@ -356,11 +326,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -381,11 +349,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -406,13 +372,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_mw_doctorsOrders"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -427,11 +391,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []

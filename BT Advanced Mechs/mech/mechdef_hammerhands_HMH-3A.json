@@ -15,7 +15,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hammerhands_HMH-3A",
 	"HeraldryID": null,

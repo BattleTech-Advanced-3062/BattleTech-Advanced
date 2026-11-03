@@ -11,14 +11,12 @@
         "Scope" : "MechWarrior",
         "RequirementTags" : {
             "items" : null,
-            "tagSetSourceFile" : "Tags/PilotTags"
         },
         "ExclusionTags" : {
             "items" : [
                 "event_mw_informant",
                 "pilot_dishonest"
             ],
-            "tagSetSourceFile" : "Tags/PilotTags"
         },
         "RequirementComparisons" : [
             {
@@ -34,11 +32,9 @@
             "Scope" : "Company",
             "RequirementTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "RequirementComparisons" : [
                 {
@@ -53,13 +49,11 @@
             "Scope" : "StarSystem",
             "RequirementTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
                 "items" : [
                     "planet_pop_none"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -73,7 +67,6 @@
                     "items" : [
                         "pilot_dishonest"
                     ],
-                    "tagSetSourceFile" : "Tags/PilotTags"
                 },
                 "ExclusionTags" : {
                     "items" : [
@@ -81,7 +74,6 @@
                         "pilot_dependable",
                         "pilot_morale_high"
                     ],
-                    "tagSetSourceFile" : "Tags/PilotTags"
                 },
                 "RequirementComparisons" : [
                     {
@@ -120,11 +112,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -139,11 +129,9 @@
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -158,11 +146,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : [
@@ -184,11 +170,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -203,11 +187,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -233,11 +215,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -252,13 +232,11 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "pilot_dishonest"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -273,11 +251,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -292,11 +268,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -311,11 +285,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -345,11 +317,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -362,11 +332,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : [
@@ -386,11 +354,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -413,11 +379,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -443,11 +407,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -462,11 +424,9 @@
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -481,11 +441,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -500,11 +458,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -519,11 +475,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -538,11 +492,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -572,11 +524,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -591,11 +541,9 @@
                                 "items" : [
                                     "event_mw_informant"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -610,11 +558,9 @@
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -627,11 +573,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -654,11 +598,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -673,11 +615,9 @@
                                 "items" : [
                                     "chain_shoreLeave"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -692,11 +632,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

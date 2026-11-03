@@ -24,7 +24,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_pillager_PLG-4X",
 	"HeraldryID": null,

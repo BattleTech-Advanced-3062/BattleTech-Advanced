@@ -13,11 +13,9 @@
 			"items": [
 				"DONOTFIRE"
 			],
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -26,11 +24,9 @@
 			"Scope": "Commander",
 			"RequirementTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"ExclusionTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}
@@ -60,11 +56,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": [
@@ -86,13 +80,11 @@
 							"Scope": "Commander",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"Tutorial_PlotArmor"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -108,11 +100,9 @@
 								"items": [
 									"Tutorial_PlotArmor"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -127,11 +117,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -159,11 +147,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -178,11 +164,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": [],
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -194,6 +178,5 @@
 	"OneTimeEvent": true,
 	"Tags": {
 		"items": [],
-		"tagSetSourceFile": "tags/EventTags"
 	}
 }

@@ -14,7 +14,6 @@
 	"Difficulty": 3,
 	"LanceTags": {
 		"items": [],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{

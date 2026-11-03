@@ -15,7 +15,6 @@
 			"unit_legal",
 			"unit_jumpOK"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_highlanderiic_HGN-IIC-4",
 	"HeraldryID": null,
@@ -33,7 +32,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

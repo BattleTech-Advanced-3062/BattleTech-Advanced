@@ -36,7 +36,6 @@
 			"planet_factory",
 			"planet_hanseatic_raids"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
@@ -45,11 +44,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": -6,

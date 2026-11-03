@@ -13,11 +13,9 @@
             "items" : [
                 "event_co_researchYang"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "ExclusionTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : [
             {
@@ -55,11 +53,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -87,11 +83,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -112,13 +106,11 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "event_co_researchYang"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -133,11 +125,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -154,11 +144,9 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : null,
-                        "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
                         "items" : null,
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : [
                         {
@@ -185,11 +173,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -210,13 +196,11 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "event_co_researchYang"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -248,11 +232,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -273,13 +255,11 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "event_co_researchYang"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -302,11 +282,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

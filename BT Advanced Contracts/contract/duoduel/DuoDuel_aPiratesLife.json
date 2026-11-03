@@ -19,11 +19,9 @@
 			"Scope": "StarSystem",
 			"RequirementTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"ExclusionTags": {
 				"items": [],
-				"tagSetSourceFile": ""
 			},
 			"RequirementComparisons": []
 		}
@@ -33,13 +31,11 @@
 			"Scope": "Company",
 			"Requirements": null,
 			"AddedTags": {
-				"tagSetSourceFile": "",
 				"items": [
 					"pirate_lord"
 				]
 			},
 			"RemovedTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"Stats": [],
@@ -279,15 +275,12 @@
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -303,24 +296,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -336,24 +324,19 @@
 						"unitDefId": "mechDef_None",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -404,17 +387,14 @@
 						"lance_type_assault",
 						"lance_type_mech"
 					],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"lanceExcludedTagSet": {
 					"items": [
 						"lance_type_turret"
 					],
-					"tagSetSourceFile": "tags/LanceTags"
 				},
 				"spawnEffectTags": {
 					"items": [],
-					"tagSetSourceFile": "tags/SpawnEffectTags"
 				},
 				"lanceDifficultyAdjustment": 2,
 				"selectedLanceDefId": "",
@@ -430,24 +410,19 @@
 						"unitDefId": "mechdef_corsair_COR-PL",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilot_tbone_Rezak",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": "",
@@ -463,24 +438,19 @@
 						"unitDefId": "mechdef_banshee_BNC-6T",
 						"unitTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"unitExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/UnitTags"
 						},
 						"spawnEffectTags": {
 							"items": [],
-							"tagSetSourceFile": "tags/SpawnEffectTags"
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"pilotExcludedTagSet": {
 							"items": [],
-							"tagSetSourceFile": "tags/PilotTags"
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": "",

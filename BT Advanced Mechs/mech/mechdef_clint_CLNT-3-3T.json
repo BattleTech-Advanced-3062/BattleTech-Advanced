@@ -17,7 +17,6 @@
 			"TaurianGuard",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_clint_CLNT-3-3T",
 	"HeraldryID": null,
@@ -35,7 +34,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

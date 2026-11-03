@@ -19,7 +19,6 @@
 			"argoUpgrade_rec_lounge1",
 			"argoUpgrade_power1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -31,7 +30,6 @@
         "items" : [
             "argo_rec_lounge2"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

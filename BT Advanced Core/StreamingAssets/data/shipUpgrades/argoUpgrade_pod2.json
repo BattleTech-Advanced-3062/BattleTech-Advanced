@@ -20,7 +20,6 @@
 			"argoUpgrade_power1",
 			"argoUpgrade_structure1"
         ],
-        "tagSetSourceFile" : ""
     },
     "Requirements" : [
         
@@ -32,7 +31,6 @@
         "items" : [
             "argo_pod2"
         ],
-        "tagSetSourceFile" : ""
     },
     "Stats" : [
 		{

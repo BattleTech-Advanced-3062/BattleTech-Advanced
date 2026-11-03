@@ -13,7 +13,6 @@
 			"6thLyranGuards",
 			"unit_indirectFire"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_zeus_ZEU-X-X",
 	"HeraldryID": null,
@@ -31,7 +30,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

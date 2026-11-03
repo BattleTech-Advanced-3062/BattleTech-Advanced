@@ -172,7 +172,6 @@
 			"ArmLimitLowerLeft",
 			"HeavyMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hellbringer",

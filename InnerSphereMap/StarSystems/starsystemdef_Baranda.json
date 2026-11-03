@@ -31,7 +31,6 @@
 			"planet_other_pirate",
 			"planet_faction_davion"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -40,11 +39,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

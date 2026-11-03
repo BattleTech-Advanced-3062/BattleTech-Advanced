@@ -25,7 +25,6 @@
 			"unit_legal",
 			"unit_bracket_high"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_warhawk_WHK-NQ",
 	"HeraldryID": null,
@@ -43,7 +42,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

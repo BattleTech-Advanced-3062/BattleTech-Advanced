@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "",
             "items" : []
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "",
             "items" : [
                 "pilot_rebellious"
             ]
@@ -32,11 +30,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
                     "MODIFIED_STAT_MechTechSkill"
                 ]
@@ -57,11 +53,9 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : [
                         "pilot_rebellious",
                         "pilot_dependable"
@@ -82,11 +76,9 @@
             "Requirements" : {
                 "Scope" : "SecondaryMech",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -116,11 +108,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -141,13 +131,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_rebellious"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_dependable"
                                 ]
@@ -164,11 +152,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -196,11 +182,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -221,13 +205,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -240,11 +222,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -261,11 +241,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -282,11 +260,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -313,11 +289,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -338,13 +312,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_rebellious"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_dependable"
                                 ]
@@ -359,11 +331,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -386,11 +356,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -407,11 +375,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -438,11 +404,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -470,11 +434,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -495,13 +457,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_dependable"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_rebellious"
                                 ]
@@ -516,13 +476,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -535,11 +493,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -556,11 +512,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -572,7 +526,6 @@
     "EventType" : "NORMAL",
     "OneTimeEvent" : true,
     "Tags" : {
-        "tagSetSourceFile" : "tags/EventTags",
         "items" : []
     }
 }

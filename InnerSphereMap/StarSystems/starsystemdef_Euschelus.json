@@ -34,7 +34,6 @@
 			"planet_other_prison",
 			"planet_faction_taurianconcordat"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -42,11 +41,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : []
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "",
             "items" : []
         },
         "RequirementComparisons" : [
@@ -30,11 +28,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : null
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
                     "company_blackMarket_ON"
                 ]
@@ -57,13 +53,11 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : [
                     "planet_other_blackmarket"
                 ]
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : null
             },
             "RequirementComparisons" : []
@@ -94,11 +88,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -115,11 +107,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -146,11 +136,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -185,13 +173,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "chain_shoreLeave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -215,11 +201,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -240,13 +224,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "chain_shoreLeave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -261,11 +243,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -282,13 +262,11 @@
                 {
                     "Scope" : "MechWarrior",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/PilotTags",
                         "items" : [
                             "pilot_dishonest"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "Tags/PilotTags",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -308,11 +286,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "Stats" : [
@@ -340,13 +316,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "chain_shoreLeave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -370,11 +344,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -395,13 +367,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "chain_shoreLeave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -414,11 +384,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -450,11 +418,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -476,11 +442,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "Stats" : [
@@ -510,11 +474,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -531,11 +493,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -550,13 +510,11 @@
                 {
                     "Scope" : "MechWarrior",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/PilotTags",
                         "items" : [
                             "pilot_criminal"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -576,11 +534,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -615,13 +571,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : [
                                     "chain_shoreLeave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -636,11 +590,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []

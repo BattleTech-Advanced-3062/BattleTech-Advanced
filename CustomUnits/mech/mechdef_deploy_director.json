@@ -4,7 +4,6 @@
 			"BLACKLISTED",
 			"unit_mech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_deploy_director",
 	"HeraldryID": null,

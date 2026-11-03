@@ -23,7 +23,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_bushwacker_BSW-HR",
 	"HeraldryID": null,

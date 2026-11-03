@@ -10,11 +10,9 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "",
 			"items": []
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": []
 		},
 		"RequirementComparisons": []
@@ -26,13 +24,11 @@
 			"Requirements": {
 				"Scope": "SecondaryMechWarrior",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"name_wulfbanes"
 					]
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -43,11 +39,9 @@
 			"Requirements": {
 				"Scope": "SecondaryMech",
 				"RequirementTags": {
-					"tagSetSourceFile": "Tags/UnitTags",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -77,11 +71,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1",
 									"wulf_event_co_catLoveChain2",
@@ -107,11 +99,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -139,11 +129,9 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1",
 									"wulf_event_co_catLoveChain2",
@@ -162,11 +150,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -178,7 +164,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": true,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

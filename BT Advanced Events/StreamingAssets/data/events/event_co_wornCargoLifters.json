@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
-            "tagSetSourceFile" : "",
             "items" : null
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "event_co_wornCargoLifters",
                 "MODIFIED_STAT_MechTechSkill"
@@ -66,13 +64,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_wornCargoLifters"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "Stats" : [
@@ -95,11 +91,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -127,11 +121,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -152,13 +144,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_wornCargoLifters"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -173,11 +163,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -194,13 +182,11 @@
                 {
                     "Scope" : "StarSystem",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/PlanetTags",
                         "items" : [
                             "planet_industry_manufacturing"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "RequirementComparisons" : []
@@ -208,11 +194,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "RequirementComparisons" : [
@@ -245,13 +229,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_wornCargoLifters"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "Stats" : [
@@ -272,11 +254,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -299,11 +279,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []

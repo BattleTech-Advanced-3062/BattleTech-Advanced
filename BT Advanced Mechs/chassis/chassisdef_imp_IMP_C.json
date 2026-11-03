@@ -89,7 +89,6 @@
 			"AssaultMech",
 			"ClanMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

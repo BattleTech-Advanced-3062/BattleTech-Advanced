@@ -11,13 +11,11 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [],
-            "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : [
                 "MODIFIED_STAT_MechTechSkill"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "RequirementComparisons" : [
             {
@@ -53,11 +51,9 @@
                 "items" : [
                     "planet_other_blackmarket"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
         }
@@ -88,11 +84,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -120,11 +114,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -145,11 +137,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -181,11 +171,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -206,11 +194,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -242,11 +228,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -267,11 +251,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -294,11 +276,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -326,11 +306,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -351,11 +329,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -387,11 +363,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -412,11 +386,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -448,11 +420,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -473,11 +443,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -500,11 +468,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -521,11 +487,9 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : "Tags/CompanyTags"
                     },
                     "ExclusionTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : [
                         {
@@ -552,11 +516,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -577,11 +539,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -613,11 +573,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -638,11 +596,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -665,11 +621,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

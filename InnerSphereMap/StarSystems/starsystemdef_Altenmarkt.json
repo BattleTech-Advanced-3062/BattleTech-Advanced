@@ -22,7 +22,6 @@
 			"planet_other_pirate",
 			"planet_faction_clanghostbear"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -30,11 +29,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

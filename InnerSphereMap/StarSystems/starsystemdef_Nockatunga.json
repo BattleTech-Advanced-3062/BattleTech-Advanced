@@ -30,18 +30,15 @@
 			"planet_other_starleague",
 			"planet_faction_marik"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

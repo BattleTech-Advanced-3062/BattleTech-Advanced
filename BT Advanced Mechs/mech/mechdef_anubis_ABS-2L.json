@@ -21,7 +21,6 @@
 			"PleiadesHussars",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_anubis_ABS-2L",
 	"HeraldryID": null,
@@ -39,7 +38,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

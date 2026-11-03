@@ -27,7 +27,6 @@
 			"planet_other_alienvegetation",
 			"planet_faction_rimworldsrepublic"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -35,11 +34,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

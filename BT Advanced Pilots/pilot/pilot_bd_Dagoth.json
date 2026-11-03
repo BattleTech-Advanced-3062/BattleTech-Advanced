@@ -57,7 +57,6 @@
 			"pilot_disgraced",
 			"pilot_unstable"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

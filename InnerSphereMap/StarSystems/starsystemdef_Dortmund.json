@@ -25,7 +25,6 @@
 			"planet_gameworld",
 			"planet_faction_hanse"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"badlandsParched",
@@ -37,11 +36,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

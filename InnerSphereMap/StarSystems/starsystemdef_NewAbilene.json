@@ -25,7 +25,6 @@
 			"planet_faction_magistracyofcanopus",
 			"planet_industry_chemicals"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -34,11 +33,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

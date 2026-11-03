@@ -27,7 +27,6 @@
 			"planet_faction_pirate",
 			"planet_gameworld"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -39,11 +38,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

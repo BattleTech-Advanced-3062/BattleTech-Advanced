@@ -42,7 +42,6 @@
 			"pilot_aurigan",
 			"pilot_mechwarrior"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -10,11 +10,9 @@
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
-            "tagSetSourceFile" : "",
             "items" : null
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "chain_plague_Vaccine",
                 "event_FluShip",
@@ -34,13 +32,11 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : [
                     "planet_faction_liao"
                 ]
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : [
                     "planet_pop_none",
                     "planet_other_plague"
@@ -73,13 +69,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -103,11 +97,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -128,13 +120,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -149,11 +139,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -181,11 +169,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -206,11 +192,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -231,13 +215,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -261,11 +243,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -286,11 +266,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -318,13 +296,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -339,11 +315,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -371,11 +345,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -396,11 +368,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -421,13 +391,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -451,11 +419,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -476,11 +442,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -508,13 +472,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -529,11 +491,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -550,13 +510,11 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : [
                             "chain_plague_ShoreLeave1"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : null
                     },
                     "RequirementComparisons" : []
@@ -576,11 +534,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -608,13 +564,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_FluShip"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -629,11 +583,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []

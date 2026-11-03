@@ -19,7 +19,6 @@
 			"argoUpgrade_medBay1",
 			"argoUpgrade_pod2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 15,
@@ -29,7 +28,6 @@
 		"items": [
 			"argo_medBay2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

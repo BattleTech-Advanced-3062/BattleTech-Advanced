@@ -11,7 +11,6 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : [],
-            "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : [
@@ -20,7 +19,6 @@
                 "uds_upgrade_lounge1",
                 "uds_upgrade_pool"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "RequirementComparisons" : []
     },
@@ -51,11 +49,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -83,11 +79,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -119,11 +113,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -146,11 +138,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -169,11 +159,9 @@
                         "items" : [
                             "planet_industry_recreation"
                         ],
-                        "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : []
                 },
@@ -181,11 +169,9 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : ""
                     },
                     "ExclusionTags" : {
                         "items" : [],
-                        "tagSetSourceFile" : ""
                     },
                     "RequirementComparisons" : [
                         {
@@ -212,11 +198,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -239,11 +223,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

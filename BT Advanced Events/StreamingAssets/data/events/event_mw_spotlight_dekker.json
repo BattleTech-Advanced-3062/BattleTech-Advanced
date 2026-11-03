@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/PilotNameTags",
             "items" : [
                 "name_Dekker"
             ]
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : [
                 "event_mw_spotlight_dekker"
             ]
@@ -34,11 +32,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : []
             },
             "RequirementComparisons" : []
@@ -68,13 +64,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_spotlight_dekker"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -89,13 +83,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -110,11 +102,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -142,14 +132,12 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_spotlight_dekker",
                                     "pilot_brave"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_cautious"
                                 ]
@@ -164,13 +152,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -183,11 +169,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -204,11 +188,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -225,13 +207,11 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : [
                             "argo_rec_library1"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -251,14 +231,12 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_spotlight_dekker",
                                     "pilot_bookish"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -281,11 +259,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -302,13 +278,11 @@
                 {
                     "Scope" : "StarSystem",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/PlanetTags",
                         "items" : [
                             "planet_industry_recreation"
                         ]
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -316,11 +290,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -347,14 +319,12 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_spotlight_dekker",
                                     "pilot_dependable"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_rebellious"
                                 ]
@@ -386,11 +356,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []

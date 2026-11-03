@@ -16,7 +16,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talos_TLS-1T",
 	"HeraldryID": null,
@@ -34,7 +33,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

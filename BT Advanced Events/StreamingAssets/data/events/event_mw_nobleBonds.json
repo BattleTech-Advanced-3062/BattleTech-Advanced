@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : [
                 "pilot_noble"
             ]
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "",
             "items" : []
         },
         "RequirementComparisons" : [
@@ -35,13 +33,11 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : [
                         "pilot_tech"
                     ]
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : [
                         "pilot_noble"
                     ]
@@ -81,11 +77,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -113,13 +107,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_nobleBonds_project"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -134,13 +126,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -164,13 +154,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "event_mw_nobleBonds_project"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
@@ -185,13 +173,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -206,11 +192,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -238,13 +222,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -257,11 +239,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -287,13 +267,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -306,11 +284,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
@@ -327,11 +303,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []

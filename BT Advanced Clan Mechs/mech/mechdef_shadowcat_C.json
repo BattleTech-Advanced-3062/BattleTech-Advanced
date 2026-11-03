@@ -30,7 +30,6 @@
 			"unit_indirectFire",
 			"unit_role_sniper"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_shadowcat_C",
 	"HeraldryID": null,

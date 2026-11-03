@@ -16,11 +16,9 @@
 			"items": [
 				"planet_name_cluffsstand"
 			],
-			"tagSetSourceFile": "Tags/PlanetNameTags"
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},

@@ -18,7 +18,6 @@
 			"lance_type_magistracy",
 			"MagistracyOfCanopus"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -32,21 +31,17 @@
 					"{CUR_TEAM.faction}",
 					"unit_legal"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -60,22 +55,18 @@
 					"{CUR_TEAM.faction}",
 					"unit_legal"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"NotMagistracyOfCanopus"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -89,22 +80,18 @@
 					"{CUR_TEAM.faction}",
 					"unit_legal"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"NotMagistracyOfCanopus"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -118,22 +105,18 @@
 					"{CUR_TEAM.faction}",
 					"unit_legal"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"NotMagistracyOfCanopus"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		}
 	]

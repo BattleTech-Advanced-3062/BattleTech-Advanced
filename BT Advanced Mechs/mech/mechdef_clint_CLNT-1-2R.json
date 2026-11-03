@@ -24,7 +24,6 @@
 			"GreenGhosts",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_clint_CLNT-1-2R",
 	"HeraldryID": null,
@@ -42,7 +41,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

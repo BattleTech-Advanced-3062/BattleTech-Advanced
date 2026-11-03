@@ -200,7 +200,6 @@
 			"ArmLimitUpperLeft",
 			"LightMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Scout & Disabler",
 	"YangsThoughts": "A simple modification from 2670, this variant replaces the ER PPC with a standard Particle Projection Cannon. This greatly reduces the burden on the cooling system.",

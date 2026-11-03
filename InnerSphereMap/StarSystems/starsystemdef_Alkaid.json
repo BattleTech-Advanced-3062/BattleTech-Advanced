@@ -30,7 +30,6 @@
 			"planet_other_alienvegetation",
 			"planet_faction_steiner"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -39,11 +38,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 124,

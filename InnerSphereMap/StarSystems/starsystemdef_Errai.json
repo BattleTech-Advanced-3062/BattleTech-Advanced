@@ -27,7 +27,6 @@
 			"planet_factory",
 			"planet_faction_cameron"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
@@ -35,11 +34,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 2,

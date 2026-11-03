@@ -24,7 +24,6 @@
 			"planet_other_newcolony",
 			"planet_faction_clangoliathscorpion"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -33,11 +32,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

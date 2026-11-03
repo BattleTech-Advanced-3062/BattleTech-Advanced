@@ -41,7 +41,6 @@
 			"planet_other_ruins",
 			"planet_faction_delphi"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -52,11 +51,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": -9,

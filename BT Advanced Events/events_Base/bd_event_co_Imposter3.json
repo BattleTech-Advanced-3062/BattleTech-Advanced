@@ -10,13 +10,11 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": [
 				"bd_impostertwo_complete"
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "Tags/CompanyTags",
 			"items": [
 				"imposter_complete"
 			]
@@ -27,11 +25,9 @@
 		{
 			"Scope": "MechWarrior",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": []
@@ -43,13 +39,11 @@
 			"Requirements": {
 				"Scope": "SecondaryMechWarrior",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"name_bloodydoves"
 					]
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -68,11 +62,9 @@
 				{
 					"Scope": "Company",
 					"RequirementTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"ExclusionTags": {
-						"tagSetSourceFile": "",
 						"items": []
 					},
 					"RequirementComparisons": []
@@ -92,13 +84,11 @@
 							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"pilot_morale_high"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -111,13 +101,11 @@
 							"Scope": "SecondaryMechWarrior",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "Tags/PilotTags",
 								"items": [
 									"pilot_dependable"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": null,
@@ -130,13 +118,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"imposter_complete"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": []
 							},
 							"Stats": [
@@ -166,11 +152,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -182,7 +166,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": true,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

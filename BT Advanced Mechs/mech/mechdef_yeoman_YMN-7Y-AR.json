@@ -14,7 +14,6 @@
 			"40thShadowDivision",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_yeoman_YMN-7Y-AR",
 	"HeraldryID": null,
@@ -32,7 +31,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

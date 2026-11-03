@@ -30,7 +30,6 @@
 			"planet_other_pirate",
 			"planet_faction_magistracyofcanopus"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
@@ -39,11 +38,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 11,

@@ -22,7 +22,6 @@
 			"planet_faction_danesacellum",
 			"planet_name_Novensides"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -36,11 +35,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

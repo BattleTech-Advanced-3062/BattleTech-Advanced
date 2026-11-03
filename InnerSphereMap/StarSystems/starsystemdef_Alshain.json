@@ -32,7 +32,6 @@
 			"planet_other_pirate",
 			"planet_faction_clanghostbear"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -46,11 +45,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

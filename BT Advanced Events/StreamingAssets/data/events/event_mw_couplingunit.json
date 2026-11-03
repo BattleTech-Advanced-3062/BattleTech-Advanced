@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : [
                 "pilot_spacer"
             ]
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/PilotTags",
             "items" : null
         },
         "RequirementComparisons" : [
@@ -32,11 +30,9 @@
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : null
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/CompanyTags",
                 "items" : [
                     "MODIFIED_STAT_MechTechSkill",
                     "MODIFIED_STAT_MedTechSkill"
@@ -98,11 +94,9 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -125,11 +119,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []
@@ -157,13 +149,11 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_dependable"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : null,
@@ -187,11 +177,9 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : null
                             },
                             "Stats" : [
@@ -221,11 +209,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : null
                 },
                 "RequirementComparisons" : []

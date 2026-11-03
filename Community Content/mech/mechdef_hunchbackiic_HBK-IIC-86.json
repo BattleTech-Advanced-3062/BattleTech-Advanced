@@ -27,7 +27,6 @@
 			"unit_legal",
 			"unit_jumpOK"
         ], 
-        "tagSetSourceFile": ""
     }, 
     "ChassisID": "chassisdef_hunchbackiic_HBK-IIC-86", 
     "HeraldryID": null, 
@@ -45,7 +44,6 @@
     }, 
     "RequiredToSpawnCompanyTags": {
         "items": [], 
-        "tagSetSourceFile": ""
     }, 
     "MinAppearanceDate": null, 
     "prefabOverride": null, 

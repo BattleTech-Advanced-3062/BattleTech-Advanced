@@ -16,7 +16,6 @@
 			"9thDivisionWoB",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_yeoman_YMN-8Y",
 	"HeraldryID": null,
@@ -34,7 +33,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

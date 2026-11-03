@@ -91,7 +91,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_jotunn_JTN-4Q",
 	"HeraldryID": null,

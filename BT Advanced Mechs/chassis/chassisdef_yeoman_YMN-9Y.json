@@ -86,7 +86,6 @@
 			"ArmLimitUpperLeft",
 			"HeavyMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_rifleman_RFL-3N",

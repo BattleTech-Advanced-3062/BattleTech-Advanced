@@ -10,11 +10,9 @@
     "Requirements" : {
             "Scope" : "Company",
             "RequirementTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "RequirementComparisons" : [
@@ -45,7 +43,6 @@
                 "items" : [
                     "planet_faction_circinus"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "ExclusionTags" : {
                 "items" : [
@@ -53,7 +50,6 @@
                     "planet_other_plague",
                     "planet_pop_none"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -71,11 +67,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -102,7 +96,6 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"bd_event_TheIronPrice_mech"
 								]
@@ -136,11 +129,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -169,11 +160,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"Stats": [
                                 {
@@ -195,11 +184,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -211,7 +198,6 @@
     "EventType" : "NORMAL",
     "OneTimeEvent" : true,
     "Tags" : {
-        "tagSetSourceFile" : "tags/EventTags",
         "items" : []
     }
 }

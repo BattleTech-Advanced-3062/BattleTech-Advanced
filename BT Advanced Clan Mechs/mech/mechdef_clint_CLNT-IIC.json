@@ -25,7 +25,6 @@
 			"ScorpionEmpire",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_clint_CLNT-IIC",
 	"HeraldryID": null,
@@ -43,7 +42,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

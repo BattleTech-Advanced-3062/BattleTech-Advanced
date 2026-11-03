@@ -12,7 +12,6 @@
 	"ChassisID": "turretchassisdef_infantryflamer",
 	"TurretTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"CurrentArmor": 150,
 	"CurrentInternalStructure": 1,

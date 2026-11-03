@@ -24,7 +24,6 @@
 			"planet_other_pirate",
 			"planet_faction_oberon"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -37,11 +36,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 24,

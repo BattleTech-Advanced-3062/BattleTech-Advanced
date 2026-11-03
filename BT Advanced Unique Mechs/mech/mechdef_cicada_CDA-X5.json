@@ -23,7 +23,6 @@
 			"ai_surrounded_low",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_cicada_CDA-X5",
 	"HeraldryID": null,

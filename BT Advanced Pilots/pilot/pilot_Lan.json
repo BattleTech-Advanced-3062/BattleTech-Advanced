@@ -39,7 +39,6 @@
 	  "pilot_tech",
 	  "pilot_military"
     ],
-    "tagSetSourceFile": ""
   },
   "PilotCost": 0,
   "IsRonin": true,

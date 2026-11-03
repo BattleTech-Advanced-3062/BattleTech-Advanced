@@ -11,11 +11,9 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": "mercnews_subscription",
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": null,
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -55,11 +53,9 @@
 									"WIIC_set_starsystemdef_Matsuida_defender_strength_15",
 									"WIIC_set_starsystemdef_Matsuida_attacker_strength_45"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": [
 								{
@@ -89,11 +85,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -131,11 +125,9 @@
 									"WIIC_set_starsystemdef_Matsuida_defender_strength_15",
 									"WIIC_set_starsystemdef_Matsuida_attacker_strength_45"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": [
 								{
@@ -165,11 +157,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}

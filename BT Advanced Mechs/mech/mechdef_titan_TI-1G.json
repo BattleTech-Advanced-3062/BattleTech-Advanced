@@ -13,7 +13,6 @@
 			"1stKnightsOfTheInnerSphere",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_titan_TI-1G",
 	"HeraldryID": null,
@@ -31,7 +30,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

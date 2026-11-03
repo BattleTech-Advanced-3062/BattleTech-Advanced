@@ -14,7 +14,6 @@
 			"TaurianGuard",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talos_TLS-3T",
 	"HeraldryID": null,
@@ -32,7 +31,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

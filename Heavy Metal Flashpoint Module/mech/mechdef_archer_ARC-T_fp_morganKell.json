@@ -17,7 +17,6 @@
 			"ai_surrounded_high",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_archer_ARC-T",
 	"HeraldryID": null,

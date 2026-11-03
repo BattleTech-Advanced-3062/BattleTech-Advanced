@@ -17,11 +17,9 @@
 					"fp_tbk_enabled",
 					"unfinished"
 				],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"ExclusionTags": {
 				"items": [],
-				"tagSetSourceFile": "Tags/CompanyTags"
 			},
 			"RequirementComparisons": []
 		}
@@ -32,11 +30,9 @@
 			"items": [
 				"planet_name_repulse"
 			],
-			"tagSetSourceFile": "Tags/PlanetNameTags"
 		},
 		"ExclusionTags": {
 			"items": [],
-			"tagSetSourceFile": "Tags/PlanetTags"
 		},
 		"RequirementComparisons": []
 	},

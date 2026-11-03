@@ -13,7 +13,6 @@
 			"unit_gladiator",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_talos_TLS-GR",
 	"HeraldryID": null,
@@ -31,7 +30,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

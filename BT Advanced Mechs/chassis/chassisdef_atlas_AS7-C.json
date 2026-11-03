@@ -256,7 +256,6 @@
 		"items": [
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Close Assault",
 	"YangsThoughts": "Introduced in 3050 as a fork of the successful AS7-K, the AS7-C is nearly identical to the -K, only dropping one Medium Pulse Laser for an extra heat sink and, most importantly, a C3 Slave unit in the head to help share targeting data with the rest of its lance. Otherwise, the -C is the same as the -K.",

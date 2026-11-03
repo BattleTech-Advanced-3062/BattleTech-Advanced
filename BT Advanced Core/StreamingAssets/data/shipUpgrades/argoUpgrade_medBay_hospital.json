@@ -19,7 +19,6 @@
 			"argoUpgrade_medBay3",
 			"argoUpgrade_power3"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 30,
@@ -29,7 +28,6 @@
 		"items": [
 			"argo_medbay_hospital"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

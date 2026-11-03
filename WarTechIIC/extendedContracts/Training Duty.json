@@ -7,7 +7,6 @@
 			"RequirementTags": {},
             "ExclusionTags": {
                 "items": [ "planet_other_empty" ],
-                "tagSetSourceFile": ""
             }
         }
     ],

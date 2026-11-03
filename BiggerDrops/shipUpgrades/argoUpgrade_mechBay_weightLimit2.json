@@ -19,7 +19,6 @@
 			"argoUpgrade_mechBay3",
 			"argoUpgrade_mechBay_weightLimit1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 9,
@@ -29,7 +28,6 @@
 		"items": [
 			"argo_mechBay_Weightlimit2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

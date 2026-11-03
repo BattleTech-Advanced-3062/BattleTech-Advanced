@@ -21,7 +21,6 @@
 			"planet_other_comstar",
 			"planet_faction_clanghostbear"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -29,11 +28,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

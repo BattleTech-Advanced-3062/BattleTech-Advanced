@@ -21,7 +21,6 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_warhammer_WHM-BW",
 	"HeraldryID": null,

@@ -13,7 +13,6 @@
 		"items": [
 			"lance_type_convoy"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -27,7 +26,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -35,17 +33,14 @@
 					"unit_noconvoy",
 					"unit_turret"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_sensor"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -60,7 +55,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -68,17 +62,14 @@
 					"unit_noconvoy",
 					"unit_turret"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_sensor"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -94,7 +85,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -102,17 +92,14 @@
 					"unit_noconvoy",
 					"unit_turret"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_sensor"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -127,7 +114,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -135,17 +121,14 @@
 					"unit_noconvoy",
 					"unit_turret"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_sensor"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		}
 	]

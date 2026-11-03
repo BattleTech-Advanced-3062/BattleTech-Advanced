@@ -15,7 +15,6 @@
 			"2ndFreeWorldsGuards",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_icarusii_ICR-2R",
 	"HeraldryID": null,
@@ -33,7 +32,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

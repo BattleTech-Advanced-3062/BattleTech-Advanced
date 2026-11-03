@@ -25,7 +25,6 @@
 			"planet_industry_manufacturing",
 			"planet_faction_liao"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -34,11 +33,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 14,

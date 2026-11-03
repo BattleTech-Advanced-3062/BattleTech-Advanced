@@ -24,7 +24,6 @@
 			"planet_faction_nofaction",
 			"planet_other_empty"
 		],
-		"tagSetSourceFile": ""
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -32,11 +31,9 @@
 	],
 	"MapRequiredTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MapExcludedTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"FuelingStation": false,
 	"JumpDistance": 14,

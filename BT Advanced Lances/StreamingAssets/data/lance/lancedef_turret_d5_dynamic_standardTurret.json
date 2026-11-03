@@ -16,7 +16,6 @@
 			"lance_type_medium",
 			"lance_type_turret"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -29,21 +28,17 @@
 					"unit_turret",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_turret_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -56,21 +51,17 @@
 					"unit_turret",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_turret_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -83,21 +74,17 @@
 					"unit_turret",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_turret_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -110,21 +97,17 @@
 					"unit_turret",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_turret_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		}
 	]

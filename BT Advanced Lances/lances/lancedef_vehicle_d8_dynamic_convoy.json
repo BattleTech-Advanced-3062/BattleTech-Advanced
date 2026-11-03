@@ -13,7 +13,6 @@
 		"items": [
 			"lance_type_convoy"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -28,7 +27,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -36,13 +34,11 @@
 					"unit_carrier",
 					"unit_noconvoy"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d8"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": [
@@ -51,7 +47,6 @@
 					"pilot_npc_brawler",
 					"pilot_npc_sentinel"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -66,7 +61,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -74,13 +68,11 @@
 					"unit_carrier",
 					"unit_noconvoy"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d8"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": [
@@ -89,7 +81,6 @@
 					"pilot_npc_brawler",
 					"pilot_npc_sentinel"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -104,7 +95,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -112,13 +102,11 @@
 					"unit_carrier",
 					"unit_noconvoy"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d8"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": [
@@ -127,7 +115,6 @@
 					"pilot_npc_brawler",
 					"pilot_npc_sentinel"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -142,7 +129,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -150,13 +136,11 @@
 					"unit_carrier",
 					"unit_noconvoy"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d8"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": [
@@ -165,7 +149,6 @@
 					"pilot_npc_brawler",
 					"pilot_npc_sentinel"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		}
 	]

@@ -10,13 +10,11 @@
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "uds_upgrade_crewquarters1"
             ]
         },
         "ExclusionTags" : {
-            "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
                 "event_co_oldFriend_Gladiator"
             ]
@@ -34,13 +32,11 @@
         {
             "Scope" : "Commander",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/CommanderTags",
                 "items" : [
                     "commander_career_bounty_hunter"
                 ]
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "",
                 "items" : []
             },
             "RequirementComparisons" : []
@@ -48,11 +44,9 @@
         {
             "Scope" : "StarSystem",
             "RequirementTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : []
             },
             "ExclusionTags" : {
-                "tagSetSourceFile" : "Tags/PlanetTags",
                 "items" : [
                     "planet_faction_nofaction",
                     "planet_pop_none"
@@ -67,11 +61,9 @@
             "Requirements" : {
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "Tags/PilotTags",
                     "items" : []
                 },
                 "RequirementComparisons" : [
@@ -108,13 +100,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Gladiator"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -129,11 +119,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -161,13 +149,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Gladiator"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -188,13 +174,11 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_high"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : []
                             },
                             "Stats" : null,
@@ -207,11 +191,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/PilotTags",
                                 "items" : [
                                     "pilot_morale_low"
                                 ]
@@ -228,11 +210,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -249,11 +229,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : []
@@ -273,13 +251,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Gladiator"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "Stats" : [
@@ -300,11 +276,9 @@
                             "Scope" : "SecondaryMechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "",
                                 "items" : []
                             },
                             "Stats" : [
@@ -327,11 +301,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []
@@ -348,11 +320,9 @@
                 {
                     "Scope" : "Company",
                     "RequirementTags" : {
-                        "tagSetSourceFile" : "Tags/CompanyTags",
                         "items" : []
                     },
                     "ExclusionTags" : {
-                        "tagSetSourceFile" : "",
                         "items" : []
                     },
                     "RequirementComparisons" : [
@@ -379,13 +349,11 @@
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : [
                                     "event_co_oldFriend_Gladiator"
                                 ]
                             },
                             "RemovedTags" : {
-                                "tagSetSourceFile" : "Tags/CompanyTags",
                                 "items" : []
                             },
                             "Stats" : [
@@ -415,11 +383,9 @@
             "Requirements" : {
                 "Scope" : "Company",
                 "RequirementTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "ExclusionTags" : {
-                    "tagSetSourceFile" : "",
                     "items" : []
                 },
                 "RequirementComparisons" : []

@@ -50,7 +50,6 @@
 			"pilot_tech",
 			"pilot_periphery"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -256,7 +256,6 @@
 		"items": [
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Juggernaut & Close Assault",
 	"YangsThoughts": "Introduced in 3050 as a fork of the successful AS7-K, the AS7-CM is similar to the AS7-K. However, where the -K mounts twin ER Large Lasers in the arms, the -CM instead drops one of the lasers in order to carry a C3 Master unit for maximum lance coordination efforts. With the saved tonnage from the ER Large Laser's removal, the -CM also mounts two more heat sinks, helping with the mech's extensive heat generation.",

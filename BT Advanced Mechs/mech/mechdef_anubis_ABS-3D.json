@@ -15,7 +15,6 @@
 			"FederatedFreemen",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_anubis_ABS-3D",
 	"HeraldryID": null,
@@ -33,7 +32,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

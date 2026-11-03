@@ -11,13 +11,11 @@
         "Scope" : "Company",
         "RequirementTags" : {
             "items" : null,
-            "tagSetSourceFile" : ""
         },
         "ExclusionTags" : {
             "items" : [
                 "event_co_thePast_Loner"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "RequirementComparisons" : [
             {
@@ -35,11 +33,9 @@
                 "items" : [
                     "commander_youth_loner"
                 ],
-                "tagSetSourceFile" : "Tags/CommanderTags"
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : [
                 {
@@ -54,13 +50,11 @@
             "Scope" : "StarSystem",
             "RequirementTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
                 "items" : [
                     "planet_pop_none"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -92,11 +86,9 @@
                                 "items" : [
                                     "event_co_thePast_Loner"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -111,11 +103,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -145,11 +135,9 @@
                                 "items" : [
                                     "event_co_thePast_Loner"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [],
                             "Actions" : null,
@@ -164,11 +152,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -198,11 +184,9 @@
                                 "items" : [
                                     "event_co_thePast_Loner"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : null,
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -217,11 +201,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : null,
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

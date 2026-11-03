@@ -13,14 +13,12 @@
             "items" : [
                 "uds_upgrade_crewquarters1"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "ExclusionTags" : {
             "items" : [
                 "event_co_oldFriend_Pirate",
                 "MODIFIED_STAT_MechTechSkill"
             ],
-            "tagSetSourceFile" : "Tags/CompanyTags"
         },
         "RequirementComparisons" : [
             {
@@ -44,11 +42,9 @@
                 "items" : [
                     "commander_career_offroad_racer"
                 ],
-                "tagSetSourceFile" : "Tags/CommanderTags"
             },
             "ExclusionTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
         },
@@ -56,13 +52,11 @@
             "Scope" : "StarSystem",
             "RequirementTags" : {
                 "items" : null,
-                "tagSetSourceFile" : ""
             },
             "ExclusionTags" : {
                 "items" : [
                     "planet_pop_none"
                 ],
-                "tagSetSourceFile" : "Tags/PlanetTags"
             },
             "RequirementComparisons" : []
         }
@@ -74,11 +68,9 @@
                 "Scope" : "SecondaryMechWarrior",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : "Tags/PilotTags"
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : "Tags/PilotTags"
                 },
                 "RequirementComparisons" : [
                     {
@@ -117,11 +109,9 @@
                                 "items" : [
                                     "event_co_oldFriend_Pirate"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -134,13 +124,11 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "commander_underworldFriends"
                                 ],
-                                "tagSetSourceFile" : "Tags/CommanderTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -155,11 +143,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -187,11 +173,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -214,11 +198,9 @@
                                 "items" : [
                                     "event_co_oldFriend_Pirate"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -241,11 +223,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -273,11 +253,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -300,11 +278,9 @@
                                 "items" : [
                                     "event_co_oldFriend_Pirate"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "Stats" : [
                                 {
@@ -327,11 +303,9 @@
                                 "items" : [
                                     "pilot_morale_high"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -344,13 +318,11 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [
                                     "pilot_morale_low"
                                 ],
-                                "tagSetSourceFile" : "Tags/PilotTags"
                             },
                             "Stats" : null,
                             "Actions" : null,
@@ -365,11 +337,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }
@@ -397,11 +367,9 @@
                             "Requirements" : null,
                             "AddedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -424,11 +392,9 @@
                                 "items" : [
                                     "event_co_oldFriend_Pirate"
                                 ],
-                                "tagSetSourceFile" : "Tags/CompanyTags"
                             },
                             "RemovedTags" : {
                                 "items" : [],
-                                "tagSetSourceFile" : ""
                             },
                             "Stats" : [
                                 {
@@ -451,11 +417,9 @@
                 "Scope" : "Company",
                 "RequirementTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "ExclusionTags" : {
                     "items" : [],
-                    "tagSetSourceFile" : ""
                 },
                 "RequirementComparisons" : []
             }

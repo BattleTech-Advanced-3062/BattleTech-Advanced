@@ -110,7 +110,6 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_hermesii_HER-2S",
 	"HeraldryID": null,
@@ -128,7 +127,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

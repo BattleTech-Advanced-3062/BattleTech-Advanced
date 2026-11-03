@@ -43,7 +43,6 @@
 			"pilot_military",
 			"pilot_lucky"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

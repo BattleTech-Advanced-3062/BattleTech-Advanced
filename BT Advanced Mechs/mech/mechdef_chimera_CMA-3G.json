@@ -23,7 +23,6 @@
 			"HouseKhulan",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_chimera_CMA-3G",
 	"HeraldryID": null,
@@ -41,7 +40,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

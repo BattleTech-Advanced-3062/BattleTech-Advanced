@@ -23,7 +23,6 @@
 			"ai_surrounded_normal",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_shootist_ST-TW",
 	"HeraldryID": null,

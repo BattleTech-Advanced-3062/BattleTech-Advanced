@@ -225,7 +225,6 @@
 			"QuadMech",
 			"MediumMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Quad Flanker",
 	"YangsThoughts": "This 3060s version of the Scorpion is similar to the original design. The engine has been upgraded to an Extralight engine and it now uses Ferro-Fibrous armor for protection. The primary weapon is an ER PPC and the 12C has double heat sinks to handle the large heat load from the weapon. The SRM-6 was replaced with a Narc Missile Beacon which allows friendly units to fire missiles at enemies that have been tagged with a Narc pod with more accuracy. Additionally, a C3i computer has been added to allow other C3 equipped units to share targeting telemetry.",

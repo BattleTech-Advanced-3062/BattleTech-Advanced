@@ -33,7 +33,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_emperor_EMP-7AIV",
 	"HeraldryID": null,

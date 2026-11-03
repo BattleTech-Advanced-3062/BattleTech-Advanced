@@ -10,13 +10,11 @@
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"wulf_event_co_catLoveChain2"
 			]
 		},
 		"ExclusionTags": {
-			"tagSetSourceFile": "",
 			"items": [
 				"BTA_Team"
 			]
@@ -34,11 +32,9 @@
 		{
 			"Scope": "Commander",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"RequirementComparisons": [
@@ -53,11 +49,9 @@
 		{
 			"Scope": "StarSystem",
 			"RequirementTags": {
-				"tagSetSourceFile": "",
 				"items": []
 			},
 			"ExclusionTags": {
-				"tagSetSourceFile": "",
 				"items": [
 					"planet_other_empty"
 				]
@@ -71,11 +65,9 @@
 			"Requirements": {
 				"Scope": "SecondaryMechWarrior",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": [
 						"name_wulfbanes"
 					]
@@ -107,13 +99,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_CatLoveChain3"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1",
 									"wulf_event_co_catLoveChain2"
@@ -138,11 +128,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -170,13 +158,11 @@
 							"Scope": "Company",
 							"Requirements": null,
 							"AddedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_CatLoveChain3"
 								]
 							},
 							"RemovedTags": {
-								"tagSetSourceFile": "",
 								"items": [
 									"wulf_event_co_catLoveChain1",
 									"wulf_event_co_catLoveChain2"
@@ -207,11 +193,9 @@
 			"Requirements": {
 				"Scope": "Company",
 				"RequirementTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"ExclusionTags": {
-					"tagSetSourceFile": "",
 					"items": []
 				},
 				"RequirementComparisons": []
@@ -223,7 +207,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": true,
 	"Tags": {
-		"tagSetSourceFile": "tags/EventTags",
 		"items": []
 	}
 }

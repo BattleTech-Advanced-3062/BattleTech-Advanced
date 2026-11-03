@@ -18,7 +18,6 @@
 		"items": [
 			"argoUpgrade_power1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 3,
@@ -28,7 +27,6 @@
 		"items": [
 			"argo_mechBay_expandedDrop1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

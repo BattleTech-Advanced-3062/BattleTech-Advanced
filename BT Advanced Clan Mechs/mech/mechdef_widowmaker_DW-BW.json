@@ -9,7 +9,6 @@
 			"NOSALVAGE",
 			"BLACKLISTED"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_widowmaker_DW-BW",
 	"HeraldryID": null,
@@ -27,7 +26,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

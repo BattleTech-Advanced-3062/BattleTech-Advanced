@@ -48,7 +48,6 @@
 			"pilot_dependable",
 			"pilot_periphery"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

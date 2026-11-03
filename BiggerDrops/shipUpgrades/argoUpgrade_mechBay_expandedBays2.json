@@ -21,7 +21,6 @@
 			"argoUpgrade_structure2",
 			"argoUpgrade_mechBay_expandedBays1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost" : 55,
@@ -31,7 +30,6 @@
 		"items": [
 			"argo_mechBay_expandedBays2"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

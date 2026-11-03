@@ -428,7 +428,6 @@
 			"MediumMech",
 			"LandAirMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "LAM",
 	"YangsThoughts": "This version was created before the introduction of the PHX-HK2, in 2695. It removed the ER Large Laser, a Medium Laser, and two heat sinks, replacing them with an experimental Snub-Nose PPC, Beagle Active Probe, and an additional half ton of armor. It saw only limited production and the introduction of the HK2 ended the life of the -HK1R."

@@ -80,7 +80,6 @@
             "ClanMech", 
 			"MediumMech"
         ], 
-        "tagSetSourceFile": ""
     }, 
     "MechPartMax": 0, 
     "MovementCapDefID": "movedef_hunchback_IIC", 

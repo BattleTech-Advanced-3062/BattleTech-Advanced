@@ -73,7 +73,6 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_blackjack_BJ-2PA",
 	"HeraldryID": null,
@@ -91,7 +90,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

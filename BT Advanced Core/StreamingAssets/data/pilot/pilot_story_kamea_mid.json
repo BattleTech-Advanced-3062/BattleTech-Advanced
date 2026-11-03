@@ -51,7 +51,6 @@
 			"pilot_cannot_be_headshot",
 			"pilot_mechwarrior"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0
 }

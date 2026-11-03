@@ -18,7 +18,6 @@
 			"lance_type_mech",
 			"lance_type_notallvehicles"
 		],
-		"tagSetSourceFile": "Tags/LanceTags"
 	},
 	"LanceUnits": [
 		{
@@ -32,7 +31,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -41,17 +39,14 @@
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -66,24 +61,20 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -97,7 +88,6 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
@@ -106,17 +96,14 @@
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		},
 		{
@@ -130,24 +117,20 @@
 					"unit_legal",
 					"{CUR_TEAM.faction}"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"excludedUnitTagSet": {
 				"items": [
 					"unit_noncombatant",
 					"unit_urbie"
 				],
-				"tagSetSourceFile": "Tags/UnitTags"
 			},
 			"pilotTagSet": {
 				"items": [
 					"pilot_npc_d5"
 				],
-				"tagSetSourceFile": "Tags/PilotTags"
 			},
 			"excludedPilotTagSet": {
 				"items": null,
-				"tagSetSourceFile": "Tags/PilotTags"
 			}
 		}
 	]

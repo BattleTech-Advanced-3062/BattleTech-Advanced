@@ -19,7 +19,6 @@
 			"argoUpgrade_power1",
 			"argoUpgrade_structure1"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 8,
@@ -29,7 +28,6 @@
 		"items": [
 			"argoupgrade_Lance2Slot3"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

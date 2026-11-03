@@ -17,7 +17,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_mackie_MSK-12S",
 	"HeraldryID": null,

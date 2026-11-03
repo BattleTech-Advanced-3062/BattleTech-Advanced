@@ -29,7 +29,6 @@
 			"BlackWidowCompany",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_victor_VTR-12R",
 	"HeraldryID": null,
@@ -47,7 +46,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

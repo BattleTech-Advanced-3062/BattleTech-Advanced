@@ -39,7 +39,6 @@
 			"30thMarikMilitia",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_icarus_ICR-1X",
 	"HeraldryID": null,
@@ -57,7 +56,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

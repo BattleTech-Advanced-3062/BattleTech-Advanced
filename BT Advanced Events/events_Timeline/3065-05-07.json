@@ -11,11 +11,9 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": "mercnews_subscription",
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": null,
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -47,11 +45,9 @@
 								"items": [
 									"WIIC_give_starsystemdef_Twycross_to_ClanDiamondShark"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -66,11 +62,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}
@@ -98,11 +92,9 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -117,11 +109,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}

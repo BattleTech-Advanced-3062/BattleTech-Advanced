@@ -14,7 +14,6 @@
 			"unit_artillery",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_mauler_MAL-3S",
 	"HeraldryID": null,

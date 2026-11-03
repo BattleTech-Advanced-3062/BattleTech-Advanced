@@ -59,7 +59,6 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_dragon_DRG-1PA",
 	"HeraldryID": null,
@@ -77,7 +76,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

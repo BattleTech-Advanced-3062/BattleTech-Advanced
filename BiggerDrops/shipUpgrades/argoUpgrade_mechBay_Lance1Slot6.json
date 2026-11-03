@@ -21,7 +21,6 @@
 			"argoUpgrade_mechBay2",
 			"argoUpgrade_mechBay_Lance1Slot5"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Requirements": [],
 	"TechCost": 12,
@@ -31,7 +30,6 @@
 		"items": [
 			"argo_mechBay_Lance1Slot6"
 		],
-		"tagSetSourceFile": ""
 	},
 	"Stats": [
 		{

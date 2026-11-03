@@ -57,7 +57,6 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_charger_CGR-1PA1",
 	"HeraldryID": null,
@@ -75,7 +74,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

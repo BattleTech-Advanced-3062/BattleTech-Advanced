@@ -44,7 +44,6 @@
 			"pilot_disgraced",
 			"pilot_innersphere"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

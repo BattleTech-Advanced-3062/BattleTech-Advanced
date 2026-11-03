@@ -311,7 +311,6 @@
 				{
 					"Scope": "StarSystem",
 					"RequirementTags": {
-						"tagSetSourceFile": "",
 						"items": [
 							"planet_other_blackmarket"
 						]

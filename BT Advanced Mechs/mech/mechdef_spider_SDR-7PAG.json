@@ -60,7 +60,6 @@
 			"EdCorbu",
 			"unit_legal"
 		],
-		"tagSetSourceFile": ""
 	},
 	"ChassisID": "chassisdef_spider_SDR-7PAG",
 	"HeraldryID": null,
@@ -78,7 +77,6 @@
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [],
-		"tagSetSourceFile": ""
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

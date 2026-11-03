@@ -42,7 +42,6 @@
 			"pilot_drunk",
 			"pilot_reckless"
 		],
-		"tagSetSourceFile": ""
 	},
 	"PilotCost": 0,
 	"IsRonin": false,

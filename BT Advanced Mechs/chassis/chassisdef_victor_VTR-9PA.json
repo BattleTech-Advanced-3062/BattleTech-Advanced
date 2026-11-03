@@ -84,7 +84,6 @@
 			"ArmLimitLowerRight",
 			"AssaultMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_victor_VTR-9B",

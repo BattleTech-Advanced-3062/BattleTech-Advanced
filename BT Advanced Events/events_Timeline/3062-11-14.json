@@ -11,11 +11,9 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": "mercnews_subscription",
-			"tagSetSourceFile": ""
 		},
 		"ExclusionTags": {
 			"items": null,
-			"tagSetSourceFile": ""
 		},
 		"RequirementComparisons": []
 	},
@@ -74,11 +72,9 @@
 									"WIIC_set_starsystemdef_Gaucin_attacker_strength_20",
 									"sanctuary_menoetes_produced"
 								],
-								"tagSetSourceFile": ""
 							},
 							"RemovedTags": {
 								"items": null,
-								"tagSetSourceFile": ""
 							},
 							"Stats": null,
 							"Actions": null,
@@ -93,11 +89,9 @@
 				"Scope": "Company",
 				"RequirementTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"ExclusionTags": {
 					"items": null,
-					"tagSetSourceFile": ""
 				},
 				"RequirementComparisons": []
 			}

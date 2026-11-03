@@ -319,7 +319,6 @@
 			"AssaultMech",
 			"IndustrialMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"StockRole": "Construction and Security Mech",
 	"YangsThoughts": "The Diomede is a newly-created ConstructionMech, designed to fulfill construction needs while also serving as a SecurityMech in a pinch. To that end, while it is equipped with various industrial components it is also built to BattleMech standards, complete with a robust fuel cell engine, military grade armor, and advanced fire control systems in the cockpit. For industrial equipment, the Diomede comes with a powerful Dual Saw, twin Rivet Guns, three Sprayers, two Lift Hoists, a pair of Searchlights, and a Spot Welder. For more military grade gear the Diomede carries a pair of MML-7s with two tons of CASE'd ammo each. Thick armor keeps the Diomede safe in any situation, be it a battlefield or a construction site. Finally, it is equipped with Tracks in the legs for faster movement on the job, though in combat these mostly serve as just bonus armor for the legs.",

@@ -83,7 +83,6 @@
 		"items": [
 			"HeavyMech"
 		],
-		"tagSetSourceFile": ""
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_blackknight_BL-6-KNT",
