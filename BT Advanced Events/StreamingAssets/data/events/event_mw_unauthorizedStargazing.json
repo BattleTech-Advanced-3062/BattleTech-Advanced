@@ -401,7 +401,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_pool"
+                            "uds_upgrade_pool"
                         ]
                     },
                     "ExclusionTags" : {

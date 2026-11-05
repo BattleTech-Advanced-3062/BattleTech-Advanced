@@ -16,8 +16,7 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "event_co_oldFriend_Mercenary",
-                "MODIFIED_STAT_MedTechSkill"
+                "event_co_oldFriend_Mercenary"
             ]
         },
         "RequirementComparisons" : [

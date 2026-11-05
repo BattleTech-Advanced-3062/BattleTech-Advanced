@@ -209,7 +209,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Send {TGT_MW.Callsign} to the Training Modules.",
-                "Details" : "[Argo: Training Modules]",
+                "Details" : "[DropShip: Training Modules]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -217,7 +217,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_trainingModule1"
+                            "uds_upgrade_trainingModule1"
                         ],
                     },
                     "ExclusionTags" : {

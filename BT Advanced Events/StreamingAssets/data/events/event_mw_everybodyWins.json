@@ -358,7 +358,7 @@
                         "Details" : "You rub your chin, considering [[TGT_MW,{TGT_MW.Callsign}]]. \"If we're going to do this, let's do it right. You take a percentage, but the company keeps the rest.\"\r\n\r\n{TGT_MW.SUBJ_C} skeptically {TGT_MW.Gender?NonBinary:arch|Default:arches} an eyebrow. \"That sounds like less money for me.\"\r\n\r\n\"Think of it as insurance. You won't have to worry about ending up in jail or smeared across some back alley. If a deal goes south, I've got your back. That means you've got a hell of a lance to make sure no one fleeces you.\"\r\n\r\n\"You know, after meeting some of these shady dealers, I wouldn't mind back up, Commander.\" {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:extend|Default:extends} a hand.",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -413,7 +413,7 @@
                         "Details" : "\"You'll keep fencing our surplus gear. The profits will go to the outfit, minus a small fee for your talents. If a deal goes sideways, then the company has your back.\" You offer a hand.\r\n\r\n\"So, you want a cut. I get it.\" Ignoring your hand, [[TGT_MW,{TGT_MW.Callsign}]] pulls out a wad of crumpled C-bills and shoves them at you.\r\n\r\nYou take the money, counting it carefully. \"I'm not sure you do. You're lucky you still have a job, MechWarrior.\"\r\n\r\n\"Gee, thanks, Commander. I'm eternally grateful.\" {TGT_MW.Callsign}'s voice drips with dissent, but {TGT_MW.SUBJ} begrudgingly {TGT_MW.Gender?NonBinary:accept|Default:accepts} the terms. Not that {TGT_MW.SUBJ} really had a choice.",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",

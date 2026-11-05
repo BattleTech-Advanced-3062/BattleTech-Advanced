@@ -992,9 +992,7 @@
 				"name": "Lance_Enemy_AssassinationTarget",
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
-					"items": [
-						"no_extended_lance"
-					],
+					"items": [],
 				},
 				"lanceExcludedTagSet": {
 					"items": [],
@@ -1010,7 +1008,7 @@
 						"unitSpawnPoint": {
 							"EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
 						},
-						"customUnitName": "The Imposter",
+						"customUnitName": "",
 						"customHeraldryDefId": null,
 						"unitType": "Mech",
 						"unitDefId": "mechdef_archangel_C-ANG-CONDITUS",
@@ -1024,6 +1022,146 @@
 							"items": [],
 						},
 						"pilotDefId": "pilot_bd_Imposter",
+						"pilotTagSet": {
+							"items": [],
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": "",
+						"selectedPilotDefId": ""
+					},
+					{
+						"unitSpawnPoint": {
+							"EncounterObjectGuid": "32a78eeb-e3ee-4f2c-96ce-3f2aa6aefa6b"
+						},
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "Mech",
+						"unitDefId": "mechDef_None",
+						"unitTagSet": {
+							"items": [],
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+						},
+						"spawnEffectTags": {
+							"items": [],
+						},
+						"pilotDefId": "pilotDef_InheritLance",
+						"pilotTagSet": {
+							"items": [],
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": "",
+						"selectedPilotDefId": ""
+					},
+					{
+						"unitSpawnPoint": {
+							"EncounterObjectGuid": "fd6cffb3-edef-4892-8495-d1a5943869cf"
+						},
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "Mech",
+						"unitDefId": "mechDef_None",
+						"unitTagSet": {
+							"items": [],
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+						},
+						"spawnEffectTags": {
+							"items": [],
+						},
+						"pilotDefId": "pilotDef_InheritLance",
+						"pilotTagSet": {
+							"items": [],
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": "",
+						"selectedPilotDefId": ""
+					},
+					{
+						"unitSpawnPoint": {
+							"EncounterObjectGuid": "f9d76bd8-5c43-41c2-85d6-be237d2ca505"
+						},
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "Mech",
+						"unitDefId": "mechDef_None",
+						"unitTagSet": {
+							"items": [],
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+						},
+						"spawnEffectTags": {
+							"items": [],
+						},
+						"pilotDefId": "pilotDef_InheritLance",
+						"pilotTagSet": {
+							"items": [],
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": "",
+						"selectedPilotDefId": ""
+					},
+					{
+						"unitSpawnPoint": {
+							"EncounterObjectGuid": "f9d76bd8-5c43-41c2-85d6-be237d2ca505"
+						},
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "Mech",
+						"unitDefId": "mechDef_None",
+						"unitTagSet": {
+							"items": [],
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+						},
+						"spawnEffectTags": {
+							"items": [],
+						},
+						"pilotDefId": "pilotDef_InheritLance",
+						"pilotTagSet": {
+							"items": [],
+						},
+						"pilotExcludedTagSet": {
+							"items": [],
+						},
+						"selectedUnitType": "UNDEFINED",
+						"selectedUnitDefId": "",
+						"selectedPilotDefId": ""
+					},
+					{
+						"unitSpawnPoint": {
+							"EncounterObjectGuid": "f9d76bd8-5c43-41c2-85d6-be237d2ca505"
+						},
+						"customUnitName": "",
+						"customHeraldryDefId": "",
+						"unitType": "Mech",
+						"unitDefId": "mechDef_None",
+						"unitTagSet": {
+							"items": [],
+						},
+						"unitExcludedTagSet": {
+							"items": [],
+						},
+						"spawnEffectTags": {
+							"items": [],
+						},
+						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
 							"items": [],
 						},

@@ -44,8 +44,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "event_mw_survivorsGuilt",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "event_mw_survivorsGuilt"
                 ]
             },
             "RequirementComparisons" : [

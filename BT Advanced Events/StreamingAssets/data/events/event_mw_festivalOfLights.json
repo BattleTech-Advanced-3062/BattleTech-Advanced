@@ -33,10 +33,7 @@
                 ],
             },
             "ExclusionTags" : {
-                "items" : [
-                    "MODIFIED_STAT_MechTechSkill",
-                    "MODIFIED_STAT_MedTechSkill"
-                ],
+                "items" : [],
             },
             "RequirementComparisons" : [
                 {

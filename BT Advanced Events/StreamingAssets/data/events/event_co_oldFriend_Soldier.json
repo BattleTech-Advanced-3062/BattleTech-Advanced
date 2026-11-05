@@ -16,9 +16,7 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "commander_career_special_operative",
-                "MODIFIED_STAT_MechTechSkill",
-                "MODIFIED_STAT_MedTechSkill"
+                "commander_career_special_operative"
             ]
         },
         "RequirementComparisons" : [

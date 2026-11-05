@@ -606,7 +606,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Grant general leave and put {TGT_MW.Callsign} into training.",
-                "Details" : "[\u00A225,000, Argo: Low-G Pool]",
+                "Details" : "[\u00A225,000, DropShip: Low-G Pool]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -614,7 +614,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_pool"
+                            "uds_upgrade_pool"
                         ],
                     },
                     "ExclusionTags" : {

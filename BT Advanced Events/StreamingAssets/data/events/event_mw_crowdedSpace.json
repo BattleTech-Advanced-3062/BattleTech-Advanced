@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_crowdedSpace",
         "Name" : "Crowded Space",
-        "Details" : "Emergency klaxons blare as Darius reports, \"Commander, this planet's orbit is choked with space junk and an uncharted cloud of debris is about to hit the DropShip. There's not much we can do to avoid it on such short notice. If we get hit, we're going to feel it.\"\r\n\r\nSumire grins mischievously. \"I could take the Leopard out and mount an aggressive defense! [[TGT_MW,{TGT_MW.Callsign}]] can fire the guns, while I dodge the debris.\"\r\n\r\nDarius says, \"If we do that, we need to decide which systems to prioritize defending.\"",
+        "Details" : "Emergency klaxons blare as Darius reports, \"Commander, this planet's orbit is choked with space junk and an uncharted cloud of debris is about to hit the DropShip. There's not much we can do to avoid it on such short notice. If we get hit, we're going to feel it.\"\r\n\r\nSumire grins mischievously. \"I could fire up the weapons cluster and mount an aggressive defense! [[TGT_MW,{TGT_MW.Callsign}]] can fire the guns, while I try to maneuver the ship around the debris.\"\r\n\r\nDarius says, \"If we do that, we need to decide which systems to prioritize defending.\"",
         "Icon" : "uixTxrSpot_UnidentifiedObject.png"
     },
     "Scope" : "MechWarrior",
@@ -39,10 +39,7 @@
                 ]
             },
             "ExclusionTags" : {
-                "items" : [
-                    "MODIFIED_STAT_MechTechSkill",
-                    "MODIFIED_STAT_MedTechSkill"
-                ]
+                "items" : []
             },
             "RequirementComparisons" : [
                 {
@@ -127,7 +124,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "MedBay skill loss",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the MedBay suffered damage that ruined numerous supplies and equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the MedBay suffered damage that ruined numerous supplies and equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -184,7 +181,7 @@
                     "Description" : {
                         "Id" : "outcome_0_1",
                         "Name" : "Barracks loss, and TGT-MW injury",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Barracks suffered extensive damage. [[SCN_MW,{SCN_MW.Callsign}]] was wounded there. And [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury aboard the Leopard.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Barracks suffered extensive damage. [[SCN_MW,{SCN_MW.Callsign}]] was wounded there. And [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury while manning the guns.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -264,7 +261,7 @@
                     "Description" : {
                         "Id" : "outcome_0_2",
                         "Name" : "Barracks Morale loss, SCN MW injured, MedBay too",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the MedBay and the Barracks suffered damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded. Fortunately, that's the only significant damage report.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the MedBay and the Barracks suffered damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded. Fortunately, that's the only significant damage report.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -388,7 +385,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Barracks Morale loss, SCN MW injured",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Barracks suffered extensive damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Barracks suffered extensive damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -468,7 +465,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Mech Hangar loss, TGT-MW Injury",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Mech Hangar suffered extensive damage, and [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury aboard the Leopard.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Mech Hangar suffered extensive damage, and [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury manning the guns.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -525,7 +522,7 @@
                     "Description" : {
                         "Id" : "outcome_1_2",
                         "Name" : "Mech Hangar & Barracks loss, SCN MW injured",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the Mech Hangar and the Barracks suffered extensive damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the Mech Hangar and the Barracks suffered extensive damage, and [[SCN_MW,{SCN_MW.Callsign}]] was wounded.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -649,7 +646,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "Mech Hangar skill loss",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Mech Hangar suffered damage that ruined a fair amount of equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the Mech Hangar suffered damage that ruined a fair amount of equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -706,7 +703,7 @@
                     "Description" : {
                         "Id" : "outcome_2_1",
                         "Name" : "MedBay skill loss, TGT MW injured",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for action, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, and its weapons erupt into action.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the MedBay suffered extensive damage.  Also [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury aboard the Leopard.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, the MedBay suffered extensive damage.  Also [[TGT_MW,{TGT_MW.Callsign}]] took a minor injury manning the guns.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -763,7 +760,7 @@
                     "Description" : {
                         "Id" : "outcome_2_2",
                         "Name" : "MedBay skill loss, Mech Hangar skill loss",
-                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the Leopard for takeoff, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the Leopard pushes away from the docking collar, spirals gracefully towards the debris cloud, its weapons spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the MedBay and Mech Hangar suffered damage that ruined supplies and equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
+                        "Details" : "Everyone aboard the DropShip snaps into action. Techs prep the weapons cluster for activation, the bridge crew tracks the incoming debris, and everyone else secures breakables. At last, the guns come online, spitting fire in all directions.\r\n\r\nThere's shuddering and banging as the DropShip passes through the cloud. Then it's past and the clatter fades away. Darius announces, \"Commander, both the MedBay and Mech Hangar suffered damage that ruined supplies and equipment. They'll be struggling for the next couple weeks. Fortunately, that's the only significant damage report.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -838,7 +835,7 @@
         {
             "Description" : {
                 "Id" : "outcome_3",
-                "Name" : "Don't risk the Leopard and MechWarriors.",
+                "Name" : "Roll the dice and gamble that it'll be fine.",
                 "Details" : "roll the dice option",
                 "Icon" : ""
             },

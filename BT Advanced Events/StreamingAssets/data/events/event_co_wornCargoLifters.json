@@ -14,8 +14,7 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "event_co_wornCargoLifters",
-                "MODIFIED_STAT_MechTechSkill"
+                "event_co_wornCargoLifters"
             ]
         },
         "RequirementComparisons" : [

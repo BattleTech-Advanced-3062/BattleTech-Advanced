@@ -21,8 +21,8 @@
             {
                 "obj" : "Injuries",
                 "op" : "GreaterThanOrEqual",
-                "val" : 3,
-                "valueConstant" : "3"
+                "val" : 2,
+                "valueConstant" : "2"
             }
         ]
     },
@@ -53,7 +53,7 @@
         {
             "Description" : {
                 "Id" : "outcome_0",
-                "Name" : "Visit {TGT_MW.Callsign} in MedBay.",
+                "Name" : "Visit {TGT_MW.Callsign} in the MedBay.",
                 "Details" : "safe option",
                 "Icon" : ""
             },
@@ -174,7 +174,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gain unstable",
-                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I tried to cheer up {TGT_MW.Callsign}, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:are|Default:is} taking this injury badly. This may be a psychological problem.\"",
+                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by the MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I tried to cheer up {TGT_MW.Callsign}, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:are|Default:is} taking this injury badly. This may be a psychological problem.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -202,7 +202,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Gain Low Morale",
-                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I tried to cheer {TGT_MW.Callsign} up, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:are|Default:is} taking this injury badly. That said, I think {TGT_MW.SUBJ} will shake it off when not in the MedBay.\"",
+                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by the MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I tried to cheer {TGT_MW.Callsign} up, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:are|Default:is} taking this injury badly. That said, I think {TGT_MW.SUBJ} will shake it off when not in the MedBay.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -247,7 +247,7 @@
                     "Description" : {
                         "Id" : "outcome_1_2",
                         "Name" : "Gain High Morale",
-                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I managed to cheer up {TGT_MW.Callsign}. I think {TGT_MW.SUBJ} just needed to hear some encouragement from someone other than a MechWarrior or a doctor.\"",
+                        "Details" : "Later in the day, you delegate the task to Darius. \"Please drop by the MedBay and check in on [[TGT_MW,{TGT_MW.Callsign}]]. Remind {TGT_MW.OBJ} that these things happen, and that {TGT_MW.Gender?NonBinary:they're|Male:he's|Female:she's} still an important member of the crew.\"\r\n\r\nThe next day, Darius shares an update. \"I managed to cheer up {TGT_MW.Callsign}. I think {TGT_MW.SUBJ} just needed to hear some encouragement from someone other than a MechWarrior or a doctor.\"",
                         "Icon" : ""
                     },
                     "Weight" : 25,
@@ -304,7 +304,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Deliver some entertainment.",
-                "Details" : "[Argo: Library]",
+                "Details" : "[DropShip: Library]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -312,7 +312,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_rec_library1"
+                            "uds_upgrade_library1"
                         ],
                     },
                     "ExclusionTags" : {

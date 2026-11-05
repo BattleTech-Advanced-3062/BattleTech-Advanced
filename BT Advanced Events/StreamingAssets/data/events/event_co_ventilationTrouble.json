@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_co_ventilationTrouble",
         "Name" : "Ventilation Trouble",
-        "Details" : "In the daily briefing, Darius brings up the Barracks climate control system. \"Apparently it's started cycling randomly between 'tolerable' and 'the inside of a 'Mech cockpit in a desert.'\"\r\n\r\nDr. Murad just shrugs. \"I can replace the fan controllers again, but it may not be money well spent. Something else is going on in the unimproved power conduits, but as the DropShip is very old, and very complicated, tracking it down has been difficult.\"",
+        "Details" : "In the daily briefing, Darius brings up the Barracks climate control system. \"Apparently it's started cycling randomly between 'tolerable' and 'the inside of a 'Mech cockpit in a desert.'\"\r\n\r\nDr. Murad just shrugs. \"I can replace the fan controllers again, but it may not be money well spent. Something else is going on in the unimproved power system, but as the DropShip is very old, and very complicated, tracking it down has been difficult.\"",
         "Icon" : "uixTxrSpot_Barracks.png"
     },
     "Scope" : "Company",
@@ -14,7 +14,7 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "argo_power2",
+                "uds_upgrade_power2",
                 "company_fixedVentilation"
             ],
         },

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_corridorBocce",
         "Name" : "Corridor Bocce",
-        "Details" : "In the morning briefing, Sumire asks something unexpected: \"So, what's the story with those MechWarriors bowling in the barracks hallways?\"\r\n\r\nDarius crosses his arms over his chest. \"I've already put an end to that. [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] were calling it 'corridor bocce'\u2026 I shut it down as a matter of discipline.\"\r\n\r\nYou turn to Darius. \"How much trouble have their games caused?\"\r\n\r\n\"They're playing in unused corridors, so not much. But it was only a matter of time before something\u2026 or someone\u2026 got damaged. We should really repair the gym in Beta Pod instead.\"",
+        "Details" : "In the morning briefing, Sumire asks something unexpected: \"So, what's the story with those MechWarriors bowling in the barracks hallways?\"\r\n\r\nDarius crosses his arms over his chest. \"I've already put an end to that. [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] were calling it 'corridor bocce'\u2026 I shut it down as a matter of discipline.\"\r\n\r\nYou turn to Darius. \"How much trouble have their games caused?\"\r\n\r\n\"They're playing in unused corridors, so not much. But it was only a matter of time before something\u2026 or someone\u2026 got damaged. We should really get the gym up and running.\"",
         "Icon" : "uixTxrSpot_EngineeringInnards.png"
     },
     "Scope" : "MechWarrior",
@@ -202,7 +202,7 @@
                         "Details" : "You give permission for the MechWarriors to continue to play their game.\r\n\r\nThe next day, MechWarriors and crew crowd into a narrow barracks hallway to watch [[TGT_MW,{TGT_MW.Callsign}]] face off against [[SCN_MW,{SCN_MW.Callsign}]].\r\n\r\nIn the winning play, {TGT_MW.Callsign} bounces {TGT_MW.DET} final ball off the corridor wall twice to send {SCN_MW.Callsign}'s ball spinning away from scoring marker. The crew erupts in cheers, and continue to talk about it for days afterward.",
                         "Icon" : ""
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "Company",
@@ -272,7 +272,7 @@
                         "Details" : "You give permission for the MechWarriors to continue to play their game.\r\n\r\nThe next day, MechWarriors and crew crowd into a narrow barracks hallway to watch [[TGT_MW,{TGT_MW.Callsign}]] face off against [[SCN_MW,{SCN_MW.Callsign}]].\r\n\r\nUnfortunately, an errant ball from {SCN_MW.Callsign} slams into an exposed power coupling and smashes it, blacking out the corridor and ending the game.\r\n\r\nYou can almost feel Dr. Murad's displeasure from six decks away. Closer at hand, however, is an \"I told you so\" look from Darius as he walks over and snatches the ball from {SCN_MW.Callsign}'s hand.",
                         "Icon" : ""
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "Company",

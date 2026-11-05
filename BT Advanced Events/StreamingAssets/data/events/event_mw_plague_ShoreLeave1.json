@@ -36,8 +36,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "chain_plague_ShoreLeave1",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "chain_plague_ShoreLeave1"
                 ]
             },
             "RequirementComparisons" : [

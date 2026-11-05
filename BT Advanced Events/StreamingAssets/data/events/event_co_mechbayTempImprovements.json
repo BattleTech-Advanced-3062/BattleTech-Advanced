@@ -199,7 +199,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_power1"
+                            "uds_upgrade_power1"
                         ],
                     },
                     "ExclusionTags" : {

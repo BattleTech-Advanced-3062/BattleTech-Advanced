@@ -33,10 +33,7 @@
                 "items" : null
             },
             "ExclusionTags" : {
-                "items" : [
-                    "MODIFIED_STAT_MechTechSkill",
-                    "MODIFIED_STAT_MedTechSkill"
-                ]
+                "items" : []
             },
             "RequirementComparisons" : [
                 {
@@ -168,7 +165,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "That didn't work at all",
-                        "Details" : "Later that week, Dr. Murad enters your office. \"Bad news, Commander. The patch only partially worked. To maintain minimal gravity support, I'm going to insist we shut down the rotation for several hours each day until we can get a permanent fix. I let the staff know about the situation, and they seemed annoyed for some reason. But on the bright side, no MechWarriors were incapacitated by this!\"",
+                        "Details" : "Later that week, Dr. Murad enters your office. \"Bad news, Commander. The patch only partially worked. To maintain minimal gravity support, I'm going to insist we shut down the grav system for several hours each day until we can get a permanent fix. I let the staff know about the situation, and they seemed annoyed for some reason. But on the bright side, no MechWarriors were incapacitated by this!\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,

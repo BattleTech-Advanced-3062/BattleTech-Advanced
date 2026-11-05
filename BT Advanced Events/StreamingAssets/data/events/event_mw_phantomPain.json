@@ -32,8 +32,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "event_mw_phantomPain",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "event_mw_phantomPain"
                 ]
             },
             "RequirementComparisons" : [

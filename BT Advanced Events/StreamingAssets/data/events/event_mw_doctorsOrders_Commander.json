@@ -32,8 +32,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "event_mw_doctorsOrders",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "event_mw_doctorsOrders"
                 ]
             },
             "RequirementComparisons" : [
@@ -222,7 +221,7 @@
         {
             "Description" : {
                 "Id" : "outcome_1",
-                "Name" : "Discipline the pilots and confine them to MedBay.",
+                "Name" : "Discipline the pilots and confine them to the MedBay.",
                 "Details" : "boost to Med",
                 "Icon" : ""
             },
@@ -295,7 +294,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Order {TGT_MW.Callsign} to practice while {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:recover|Default:recovers}.",
-                "Details" : "[Argo: Training Module]",
+                "Details" : "[DropShip: Training Module]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -303,7 +302,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_trainingModule1"
+                            "uds_upgrade_trainingModule1"
                         ]
                     },
                     "ExclusionTags" : {

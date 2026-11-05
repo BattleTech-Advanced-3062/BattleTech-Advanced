@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_deadPool",
         "Name" : "Laying Wagers",
-        "Details" : "In an unused corridor near Gamma Pod, Darius shows you a strange chart written on the wall in chalk. Each row lists a MechWarrior callsign, and in the columns next to each name: a percentage and a number in C-Bills.\r\n\r\nAs you compare the C-Bill values and the relative experience of the MechWarriors listed, you realize that this is a perverse betting pool. The percentages must represent the survival odds for each MechWarrior.\r\n\r\nJust then [[TGT_MW,{TGT_MW.Callsign}]] rounds the corner and stops short. A stick of chalk falls from {TGT_MW.DET} fingers and snaps on the floor.",
+        "Details" : "In an unused corridor near the living quarters, Darius shows you a strange chart written on the wall in chalk. Each row lists a MechWarrior callsign, and in the columns next to each name: a percentage and a number in C-Bills.\r\n\r\nAs you compare the C-Bill values and the relative experience of the MechWarriors listed, you realize that this is a perverse betting pool. The percentages must represent the survival odds for each MechWarrior.\r\n\r\nJust then [[TGT_MW,{TGT_MW.Callsign}]] rounds the corner and stops short. A stick of chalk falls from {TGT_MW.DET} fingers and snaps on the floor.",
         "Icon" : "uixTxrSpot_MechWarriorsTalking.png"
     },
     "Scope" : "MechWarrior",

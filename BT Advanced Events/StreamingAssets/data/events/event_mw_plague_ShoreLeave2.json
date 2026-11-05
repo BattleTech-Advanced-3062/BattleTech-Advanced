@@ -37,8 +37,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "chain_plague_Vaccine",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "chain_plague_Vaccine"
                 ]
             },
             "RequirementComparisons" : [

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_drawStraws",
         "Name" : "Drawing Straws",
-        "Details" : "Dr. Murad gestures grandly at a bright yellow growth on the corridor wall in front of you. \"Meet the DropShip's very own mold problem. It started in the unfinished Gamma Pod, and despite my best efforts, it's spreading unchecked.\" She pokes at it with a screwdriver, frowning.\r\n\r\n\"I've seen this before, Boss.\" Yang takes the screwdriver out of Dr. Murad's hand and wipes it off. \"I know how to kill it, but whoever you pick for the job needs to be in a HazMat suit. And considering how widespread this infestation is, they're gonna be stewing in that suit for a long time.\"\r\n\r\nDr. Murad nods grimly. \"I was afraid of that. Any thoughts on who we should saddle with such an unpleasant task? I suppose we could ask for volunteers\u2026\"\r\n\r\n\"No one's gonna volunteer for HazMat duty,\" Yang chuckles. \"We may as well draw straws.\"",
+        "Details" : "Dr. Murad gestures grandly at a bright yellow growth on the corridor wall in front of you. \"Meet the DropShip's very own mold problem. It started in the unfinished living quarters, and despite my best efforts, it's spreading unchecked.\" She pokes at it with a screwdriver, frowning.\r\n\r\n\"I've seen this before, Boss.\" Yang takes the screwdriver out of Dr. Murad's hand and wipes it off. \"I know how to kill it, but whoever you pick for the job needs to be in a HazMat suit. And considering how widespread this infestation is, they're gonna be stewing in that suit for a long time.\"\r\n\r\nDr. Murad nods grimly. \"I was afraid of that. Any thoughts on who we should saddle with such an unpleasant task? I suppose we could ask for volunteers\u2026\"\r\n\r\n\"No one's gonna volunteer for HazMat duty,\" Yang chuckles. \"We may as well draw straws.\"",
         "Icon" : "uixTxrSpot_FarahTalking.png"
     },
     "Scope" : "MechWarrior",
@@ -35,9 +35,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "uds_upgrade_crewquarters2",
-                    "MODIFIED_STAT_MechTechSkill",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "uds_upgrade_crewquarters2"
                 ],
             },
             "RequirementComparisons" : [
@@ -150,7 +148,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "The, uhm, winner is",
-                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from Mech Hangar is doing the majority of the cleanup work. So if your 'Mech isn't getting the love you think it deserves, just remember it could have been you doing the cleaning. Oliveira out.\"",
+                        "Details" : "Darius' voice crackles through the DropShip's speakers.\r\n\r\n\"The DropShip has developed a mold problem. To combat this, Chief Virtanen has developed a highly toxic cleaning solution. The team from the Mech Hangar is doing the majority of the cleanup work. So if your 'Mech isn't getting the love you think it deserves, just remember it could have been you doing the cleaning. Oliveira out.\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

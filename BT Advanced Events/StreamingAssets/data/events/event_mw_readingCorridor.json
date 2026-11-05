@@ -34,8 +34,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "argo_rec_library1",
-                    "MODIFIED_STAT_MechTechSkill"
+                    "uds_upgrade_library1"
                 ]
             },
             "RequirementComparisons" : [

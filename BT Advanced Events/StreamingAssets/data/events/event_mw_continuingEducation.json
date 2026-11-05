@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_continuingEducation",
         "Name" : "Continuing Education",
-        "Details" : "In the morning briefing, Darius has a request to pass along.\r\n\r\n\"[[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] want to get some training outside of getting shot at by lasers planetside.\"\r\n\r\nDr. Murad observes, \"We do have those Training Modules. They'd be ideal, especially for less experienced MechWarriors. But\u2026 I'm sorry to say that they're not up and running yet.\"",
+        "Details" : "In the morning briefing, Darius has a request to pass along.\r\n\r\n\"[[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] want to get some training outside of getting shot at by lasers planetside.\"\r\n\r\nDr. Murad observes, \"We do have those Training Modules. They'd be ideal, especially for less experienced MechWarriors. But\u2026 I'm sorry to say that they're not up and running at full power yet.\"",
         "Icon" : "uixTxrSpot_TrainingModules.png"
     },
     "Scope" : "MechWarrior",
@@ -10,7 +10,9 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "items" : null,
+            "items" : [
+                "uds_upgrade_trainingModule1"
+            ],
         },
         "ExclusionTags" : {
             "items" : null,
@@ -25,7 +27,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "argo_trainingModule1"
+                    "uds_upgrade_trainingModule2"
                 ],
             },
             "RequirementComparisons" : []
@@ -286,7 +288,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Temporarily hook up the Training Modules.",
-                "Details" : "[Argo: Repaired Power Conduits]",
+                "Details" : "[DropShip: Advanced Training Modules]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -294,7 +296,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_power1"
+                            "uds_upgrade_power1"
                         ],
                     },
                     "ExclusionTags" : {
@@ -308,7 +310,7 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "gain xp",
-                        "Details" : "You say to Dr. Murad, \"We've invested in repairing the power conduits, so the Training Modules are nearly ready, aren't they? Perhaps a little creative engineering could get them up and running temporarily.\"\r\n\r\nDr. Murad answers your challenge with a smile.\r\n\r\nSeveral days later, she delivers a report. \"Oh. My. God! The network kept going down, the graphics processors were overheating, and [[TGT_MW,{TGT_MW.Callsign}]] got stuck in one of the cockpits when the hatch wouldn't open.\"\r\n\r\nAfter a pregnant pause, she finally laughs. \"It was amazing! We have to get these things up and running for real!\"\r\n\r\nShe pauses, \"Also, I found the phrase '<i>PropWash was here</i>' scratched into one of the monitors, and '<i>Wicced FTW</i>' on another. I don't know what they mean, but it looks like they've been there for years\u2026\"",
+                        "Details" : "You say to Dr. Murad, \"We've invested in repairing the power system, so the Training Module upgrade is nearly ready, right? Perhaps a little creative engineering could get them up and running temporarily.\"\r\n\r\nDr. Murad answers your challenge with a smile.\r\n\r\nSeveral days later, she delivers a report. \"Oh. My. God! The network kept going down, the graphics processors were overheating, and [[TGT_MW,{TGT_MW.Callsign}]] got stuck in one of the cockpits when the hatch wouldn't open.\"\r\n\r\nAfter a pregnant pause, she finally laughs. \"It was amazing! We have to get these things upgraded for real!\"\r\n\r\nShe pauses, \"Also, I found the phrase '<i>PropWash was here</i>' scratched into one of the monitors, and '<i>Wicced FTW</i>' on another. I don't know what they mean, but it looks like they've been there for years\u2026\"",
                         "Icon" : ""
                     },
                     "Weight" : 100,

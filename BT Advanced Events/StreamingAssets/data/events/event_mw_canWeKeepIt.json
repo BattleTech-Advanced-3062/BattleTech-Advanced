@@ -10,9 +10,7 @@
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
-            "items" : [
-                "chain_shoreLeave"
-            ],
+            "items" : [],
         },
         "ExclusionTags" : {
             "items" : null,

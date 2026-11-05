@@ -32,9 +32,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "uds_upgrade_lounge1",
-                    "MODIFIED_STAT_MechTechSkill",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "uds_upgrade_lounge1"
                 ]
             },
             "RequirementComparisons" : [

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_doctorsOrders",
         "Name" : "Doctor's Orders",
-        "Details" : "As you pass MedBay, you hear [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] shouting, followed by a loud metallic crash.\r\n\r\n\"Commander!\" {TGT_MW.Callsign} calls as you enter. \"How nice of you to join us!\" {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:rise|Default:rises} halfway out of bed, trailing a tangled rope of tubes and wires.\r\n\r\nThe senior doctor turns on you, flushed and angry. \"Commander, your MechWarriors refuse to follow their recovery regimen.\"\r\n\r\n{SCN_MW.Callsign} looks up from a nearby chair. \"C'mon, you old quack. Can't you see {TGT_MW.Callsign} is ready to get back out there?\"",
+        "Details" : "As you pass the MedBay, you hear [[TGT_MW,{TGT_MW.Callsign}]] and [[SCN_MW,{SCN_MW.Callsign}]] shouting, followed by a loud metallic crash.\r\n\r\n\"Commander!\" {TGT_MW.Callsign} calls as you enter. \"How nice of you to join us!\" {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:rise|Default:rises} halfway out of bed, trailing a tangled rope of tubes and wires.\r\n\r\nThe senior doctor turns on you, flushed and angry. \"Commander, your MechWarriors refuse to follow their recovery regimen.\"\r\n\r\n{SCN_MW.Callsign} looks up from a nearby chair. \"C'mon, you old quack. Can't you see {TGT_MW.Callsign} is ready to get back out there?\"",
         "Icon" : "uixTxrSpot_MedBayDoc.png"
     },
     "Scope" : "MechWarrior",
@@ -32,8 +32,7 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "event_mw_doctorsOrders",
-                    "MODIFIED_STAT_MedTechSkill"
+                    "event_mw_doctorsOrders"
                 ]
             },
             "RequirementComparisons" : [
@@ -295,7 +294,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Order {TGT_MW.Callsign} to practice while {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:recover|Default:recovers}.",
-                "Details" : "[Argo: Training Module]",
+                "Details" : "[DropShip: Training Module]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -303,7 +302,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_trainingModule1"
+                            "uds_upgrade_trainingModule1"
                         ]
                     },
                     "ExclusionTags" : {

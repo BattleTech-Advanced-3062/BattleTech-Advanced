@@ -16,8 +16,7 @@
 			"items": [
 				"event_kellsrequest_complete1",
 				"event_kellsrequest_complete2",
-				"event_kellsrequest_complete3",
-				"MODIFIED_STAT_MechTechSkill"
+				"event_kellsrequest_complete3"
 			]
 		},
 		"RequirementComparisons": [

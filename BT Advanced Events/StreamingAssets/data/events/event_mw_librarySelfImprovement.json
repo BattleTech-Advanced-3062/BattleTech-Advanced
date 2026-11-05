@@ -41,7 +41,7 @@
             "Scope" : "Company",
             "RequirementTags" : {
                 "items" : [
-                    "argo_rec_library1"
+                    "uds_upgrade_library1"
                 ],
             },
             "ExclusionTags" : {

@@ -14,8 +14,7 @@
         },
         "ExclusionTags" : {
             "items" : [
-                "uds_upgrade_power2",
-                "MODIFIED_STAT_MedTechSkill"
+                "uds_upgrade_power2"
             ]
         },
         "RequirementComparisons" : [

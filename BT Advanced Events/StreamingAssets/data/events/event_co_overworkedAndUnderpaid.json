@@ -15,9 +15,7 @@
             ]
         },
         "ExclusionTags" : {
-            "items" : [
-                "MODIFIED_STAT_MechTechSkill"
-            ]
+            "items" : []
         },
         "RequirementComparisons" : [
             {
