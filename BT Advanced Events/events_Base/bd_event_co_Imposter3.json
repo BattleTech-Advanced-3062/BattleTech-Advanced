@@ -55,7 +55,7 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "There was never another option here.",
-				"Details": "-",
+				"Details": "",
 				"Icon": null
 			},
 			"RequirementList": [

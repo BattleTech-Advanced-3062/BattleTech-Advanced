@@ -89,7 +89,7 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "Commit the company to helping take out the imposter.",
-				"Details": "-",
+				"Details": "",
 				"Icon": null
 			},
 			"RequirementList": [
