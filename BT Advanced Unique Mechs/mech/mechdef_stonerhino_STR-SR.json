@@ -15,7 +15,7 @@
 			"SolarisVIIMercLeague",
 			"unit_legal",
 			"unit_jumpOK"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_stonerhino_STR-SR",
 	"HeraldryID": null,
@@ -111,17 +111,6 @@
 		{
 			"MountedLocation": "Head",
 			"ComponentDefID": "Gear_Cockpit_Generic_Standard",
-			"SimGameUID": null,
-			"ComponentDefType": "Upgrade",
-			"HardpointSlot": -1,
-			"GUID": null,
-			"DamageLevel": "Functional",
-			"prefabName": null,
-			"hasPrefabName": false
-		},
-		{
-			"MountedLocation": "Head",
-			"ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
 			"SimGameUID": null,
 			"ComponentDefType": "Upgrade",
 			"HardpointSlot": -1,
@@ -380,7 +369,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_1"
+			"LocalGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "RightArm",
@@ -392,7 +381,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_1"
+			"TargetComponentGUID": "target_PPC_1"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -404,7 +393,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_PPC_2"
+			"LocalGUID": "target_PPC_2"
 		},
 		{
 			"MountedLocation": "LeftArm",
@@ -416,7 +405,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_PPC_2"
+			"TargetComponentGUID": "target_PPC_2"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -428,7 +417,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Gauss_1"
+			"LocalGUID": "target_Gauss_1"
 		},
 		{
 			"MountedLocation": "RightTorso",
@@ -451,7 +440,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_Gauss_1"
+			"TargetComponentGUID": "target_Gauss_1"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -463,7 +452,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"LocalGUID":"target_Gauss_2"
+			"LocalGUID": "target_Gauss_2"
 		},
 		{
 			"MountedLocation": "LeftTorso",
@@ -475,7 +464,7 @@
 			"DamageLevel": "Functional",
 			"prefabName": null,
 			"hasPrefabName": false,
-			"TargetComponentGUID":"target_Gauss_2"
+			"TargetComponentGUID": "target_Gauss_2"
 		},
 		{
 			"MountedLocation": "RightTorso",
