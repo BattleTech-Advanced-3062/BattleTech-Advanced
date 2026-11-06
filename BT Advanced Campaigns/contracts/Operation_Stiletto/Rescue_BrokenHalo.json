@@ -20,10 +20,12 @@
 			"Scope": "Company",
 			"Requirements": null,
 			"AddedTags": {
-				"items": ["OpStiletto_pilot_rescued"],
+				"items": [
+					"OpStiletto_pilot_rescued"
+				]
 			},
 			"RemovedTags": {
-				"items": [],
+				"items": []
 			},
 			"Stats": [],
 			"Actions": [],
@@ -37,10 +39,12 @@
 			"Scope": "Company",
 			"Requirements": null,
 			"AddedTags": {
-				"items": ["OpStiletto_pilot_failed"],
+				"items": [
+					"OpStiletto_pilot_failed"
+				]
 			},
 			"RemovedTags": {
-				"items": [],
+				"items": []
 			},
 			"Stats": [],
 			"Actions": [],
@@ -168,10 +172,10 @@
 					"Scope": "Company",
 					"Requirements": null,
 					"AddedTags": {
-						"items": [],
+						"items": []
 					},
 					"RemovedTags": {
-						"items": [],
+						"items": []
 					},
 					"Stats": [
 						{
@@ -687,13 +691,13 @@
 				"name": "Spawner_PlayerLance",
 				"lanceDefId": "Manual",
 				"lanceTagSet": {
-					"items": [],
+					"items": []
 				},
 				"lanceExcludedTagSet": {
-					"items": [],
+					"items": []
 				},
 				"spawnEffectTags": {
-					"items": [],
+					"items": []
 				},
 				"lanceDifficultyAdjustment": 0,
 				"selectedLanceDefId": null,
@@ -708,20 +712,20 @@
 						"unitType": "UNDEFINED",
 						"unitDefId": "",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -736,20 +740,20 @@
 						"unitType": "UNDEFINED",
 						"unitDefId": "",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -764,20 +768,20 @@
 						"unitType": "UNDEFINED",
 						"unitDefId": "",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -792,20 +796,20 @@
 						"unitType": "UNDEFINED",
 						"unitDefId": "",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -854,15 +858,15 @@
 					"items": [
 						"lance_type_battle",
 						"lance_type_notallvehicles"
-					],
+					]
 				},
 				"lanceExcludedTagSet": {
 					"items": [
 						"lance_type_gladiator"
-					],
+					]
 				},
 				"spawnEffectTags": {
-					"items": [],
+					"items": []
 				},
 				"lanceDifficultyAdjustment": 1,
 				"selectedLanceDefId": null,
@@ -877,20 +881,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -905,20 +909,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -933,20 +937,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -961,20 +965,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -992,17 +996,17 @@
 					"items": [
 						"lance_type_recon",
 						"lance_type_notallvehicles"
-					],
+					]
 				},
 				"lanceExcludedTagSet": {
 					"items": [
 						"lance_type_gladiator"
-					],
+					]
 				},
 				"spawnEffectTags": {
 					"items": [
 						"spawn_poorly_maintained_50"
-					],
+					]
 				},
 				"lanceDifficultyAdjustment": 1,
 				"selectedLanceDefId": null,
@@ -1017,20 +1021,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1045,20 +1049,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1073,20 +1077,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
@@ -1101,20 +1105,20 @@
 						"unitType": "Mech",
 						"unitDefId": "UseLance",
 						"unitTagSet": {
-							"items": [],
+							"items": []
 						},
 						"unitExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"spawnEffectTags": {
-							"items": [],
+							"items": []
 						},
 						"pilotDefId": "pilotDef_InheritLance",
 						"pilotTagSet": {
-							"items": [],
+							"items": []
 						},
 						"pilotExcludedTagSet": {
-							"items": [],
+							"items": []
 						},
 						"selectedUnitType": "UNDEFINED",
 						"selectedUnitDefId": null,
