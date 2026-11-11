@@ -301,6 +301,10 @@
 			{
 				"MapId": "mapGeneral_terracePlaza_uTech",
 				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_sunkenHills_iTnd",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},
