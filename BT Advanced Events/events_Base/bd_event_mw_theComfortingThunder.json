@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_IllicitDealings.png"
     },
     "Scope" : "MechWarrior",
-    "Weight" : 600,
+    "Weight" : 50,
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
@@ -92,7 +92,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "Gain the mech.",
-                        "Details" : "You rub your chin for a moment before speaking. \"This is pretty unusual, [[TGT_MW,{TGT_MW.Callsign}]], but I like the sound of a unique 'Mech. You'll get the funds to buy it, and be sure to let your old command know that we're grateful for the offer.\"\r\n\r\n\"Aye, aye, Commander. I'll get right on it!\" Darius rolls his eyes as {TGT_MW.Callsign} departs with a smile.\r\n\r\nHours later, as you're inspecting the Leopard, a 'Mech Carrier rumbles up to the landing pad. Darius patches in the ship's hail. \"Special delivery, Commander!\" {TGT_MW.Callsign}'s voice crackles over the comms. \"Apparently, we caught them at the right time, they had the 'Mech right here for immediate delivery!\"\r\n\r\n\"Someone let Yang know to prepare for his new toy, I'm sure he'll want to crawl over it.\" You signal to open up the Leopard's bay doors. The 'Mech Carrier stops nearby, revealing the gleaming 'Mech inside.",
+                        "Details" : "You rub your chin for a moment before speaking. \"This is pretty unusual, [[TGT_MW,{TGT_MW.Callsign}]], but I like the sound of a unique 'Mech. You'll get the funds to buy it, and be sure to let your old command know that we're grateful for the offer.\"\r\n\r\n\"Aye, aye, Commander. I'll get right on it!\" Darius rolls his eyes as {TGT_MW.Callsign} departs with a smile.\r\n\r\nHours later, as you're inspecting the DropShip, a 'Mech Carrier rumbles up to the landing pad. Darius patches in the ship's hail. \"Special delivery, Commander!\" {TGT_MW.Callsign}'s voice crackles over the comms. \"Apparently, we caught them at the right time, they had the 'Mech right here for immediate delivery!\"\r\n\r\n\"Someone let Yang know to prepare for his new toy, I'm sure he'll want to crawl over it.\" You signal to open up the DropShip's bay doors. The 'Mech Carrier stops nearby, revealing the gleaming 'Mech inside.",
                         "Icon" : null
                     },
                     "Weight" : 100,

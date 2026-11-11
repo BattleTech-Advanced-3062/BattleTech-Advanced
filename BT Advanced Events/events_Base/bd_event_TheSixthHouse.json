@@ -2,11 +2,11 @@
 	"Description": {
 		"Id": "bd_event_TheSixthHouse",
 		"Name": "Mysteries of The Sixth House",
-		"Details": "You'd come down planetside for a simple drink with Darius, figuring to escape work for an evening. However, you couldn't just have a quiet drink in peace and now there's... someone sitting across the table from you. You'd heard of him before, a rumor really, running around the various hiring halls in the region. That mask he wears is unmistakable after all. The firm and commanding voice coming from beneath it asks his question again. \"Well, Commander {COMMANDER.LastName}, you've heard my offer. I join your crew and I bring my 'Mech, Akulakhan, with me. In exchange, you don't ask any questions about me or my background.\" Darius leans over and whispers, \"This guy might be bad news, you sure we want him on board? Think carefully here, boss.\"",
+		"Details": "You'd come down planetside for a simple drink with Darius, figuring to escape work for an evening. However, you couldn't just have a quiet drink in peace and now there's... someone sitting across the table from you. You'd heard of him before, a rumor really, running around the various hiring halls in the region. That mask he wears is unmistakable after all. The firm and commanding voice coming from beneath it asks his question again. \"Well, Commander {COMMANDER.LastName}, you've heard my offer. I join your crew and I bring my 'Mech, Akulakhan, with me. In exchange, you don't ask any questions about me or my background.\" Darius leans over and whispers, \"This guy might be bad news, you sure we want him on board? Think carefully here, Commander.\"",
 		"Icon": "uixTxrSpot_HiringHall.png"
 	},
 	"Scope": "Company",
-	"Weight": 250,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {

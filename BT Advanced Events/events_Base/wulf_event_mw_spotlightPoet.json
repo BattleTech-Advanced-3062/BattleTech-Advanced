@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_Library.png"
 	},
 	"Scope": "MechWarrior",
-	"Weight": 1000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "MechWarrior",
 		"RequirementTags": {
@@ -31,7 +31,7 @@
 			"Scope": "Company",
 			"RequirementTags": {
 				"items": [
-					"argo_rec_library1"
+					"uds_upgrade_library1"
 				]
 			},
 			"ExclusionTags": {
@@ -119,7 +119,7 @@
 			"Description": {
 				"Id": "outcome_1",
 				"Name": "Suggest going digital.",
-				"Details": "[Improved Library]",
+				"Details": "[DropShip: Improved Library]",
 				"Icon": null
 			},
 			"RequirementList": [
@@ -127,7 +127,7 @@
 					"Scope": "Company",
 					"RequirementTags": {
 						"items": [
-							"argo_rec_library2"
+							"uds_upgrade_library2"
 						]
 					},
 					"ExclusionTags": {
@@ -198,7 +198,7 @@
 			"Description": {
 				"Id": "outcome_2",
 				"Name": "Suggest hitting the gym.",
-				"Details": "[Gymnasium]",
+				"Details": "[DropShip: Gymnasium]",
 				"Icon": null
 			},
 			"RequirementList": [

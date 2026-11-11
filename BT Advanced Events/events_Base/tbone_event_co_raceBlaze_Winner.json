@@ -161,6 +161,20 @@
 								},
 								{
 									"typeString": "System.Int32",
+									"name": "Reputation.Cameron",
+									"value": "3",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
+									"name": "Reputation.Outworld",
+									"value": "3",
+									"set": false,
+									"valueConstant": null
+								},
+								{
+									"typeString": "System.Int32",
 									"name": "Reputation.Liao",
 									"value": "3",
 									"set": false,

@@ -2,11 +2,11 @@
 	"Description": {
 		"Id": "tbone_event_co_biggerDarius2",
 		"Name": "Larger Than Life",
-		"Details": "On your way to a meeting with [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]], you run into  [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]], freshly returned from his trip to Nassau Heights.\r\n\r\n\r\n\"Hey Darius! So, how was it being back home?\"\r\n\r\n\"It was great Commander! But the <i>Argo</i> is my home now. I don't ever need to go back to Nassau Heights.\"\r\n\r\n\"Oh-kay. Say, Darius...you seem different. Taller somehow.\"\r\n\r\n\"Nope, I'm still just the same old me I've always been, Commander! You have a great day!\"",
+		"Details": "On your way to a meeting with [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]], you run into  [[DM.BaseDescriptionDefs[TooltipSimGameCharacterDARIUS],Darius]], freshly returned from his trip to Nassau Heights.\r\n\r\n\r\n\"Hey Darius! So, how was it being back home?\"\r\n\r\n\"It was great Commander! But the DropShip is my home now. I don't ever need to go back to Nassau Heights.\"\r\n\r\n\"Oh-kay. Say, Darius...you seem different. Taller somehow.\"\r\n\r\n\"Nope, I'm still just the same old me I've always been, Commander! You have a great day!\"",
 		"Icon": "uixTxrSpot_BiggerTalking.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {

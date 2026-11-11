@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_MedBayDoc.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -47,7 +47,7 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "\"Let's do the surgery, and let's do it right.\"",
-				"Details": "[Argo MedBay 2, \u00a2100.000]",
+				"Details": "[DropShip: MedBay 2, \u00a2100.000]",
 				"Icon": null
 			},
 			"RequirementList": [
@@ -55,7 +55,7 @@
 					"Scope": "Company",
 					"RequirementTags": {
 						"items": [
-							"argo_medBay2"
+							"uds_upgrade_medbay_2"
 						]
 					},
 					"ExclusionTags": {

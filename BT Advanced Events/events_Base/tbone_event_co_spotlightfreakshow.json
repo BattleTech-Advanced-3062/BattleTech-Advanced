@@ -11,7 +11,7 @@
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": [
-				"argo_medBay2"
+				"uds_upgrade_medbay_2"
 			]
 		},
 		"ExclusionTags": {

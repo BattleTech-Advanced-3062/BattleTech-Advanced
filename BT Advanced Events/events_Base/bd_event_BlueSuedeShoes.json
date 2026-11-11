@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_IllicitDealings.png"
     },
     "Scope" : "Company",
-    "Weight" : 600,
+    "Weight" : 60,
     "Requirements" : {
             "Scope" : "Company",
             "RequirementTags" : {

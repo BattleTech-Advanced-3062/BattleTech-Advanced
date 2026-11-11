@@ -42,7 +42,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "HELLO",
-						"Details": "After some brief exchanges you think it is indeed [[DM.BaseDescriptionDefs[Wulf_Lore_TaintedLokiAWOL],TaintedLoki]] who has shown up. Once you meet up you see the bruises and a lump on his head. \"How about the Pirates?\" You inquire: \"I thought you got worse than captured.\"\r\n\r\nLoki scowls: \"One of them got behind me. Next thing I knew everything goes black, and I wake up with a headache, and left stripped of my gear to die in the dirt. Well, I made sure to follow their tracks and return the favour. I've been trying to catch up with the Argo ever since.\"",
+						"Details": "After some brief exchanges you think it is indeed [[DM.BaseDescriptionDefs[Wulf_Lore_TaintedLokiAWOL],TaintedLoki]] who has shown up. Once you meet up you see the bruises and a lump on his head. \"How about the Pirates?\" You inquire: \"I thought you got worse than captured.\"\r\n\r\nLoki scowls: \"One of them got behind me. Next thing I knew everything goes black, and I wake up with a headache, and left stripped of my gear to die in the dirt. Well, I made sure to follow their tracks and return the favour. I've been trying to catch up with you ever since.\"",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -106,7 +106,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Pirate",
-						"Details": "Warily you plan to trigger the trap. It's only an ambush if you aren't aware of it, after all. The reverse ambush strategy is what you're going for here.\r\n\r\nYou find absolutely no pirate presence of note. You later spot [[DM.BaseDescriptionDefs[Wulf_Lore_TaintedLokiAWOL],TaintedLoki]] in the hiring hall with a few bruises and a lump on his head. \r\n\r\n\"How about the Pirates?\" You inquire: \"I thought you got worse than captured.\"\r\n\r\nLoki scowls: \"One of them got behind me. Next thing I knew everything goes black, and I wake up with a headache, and left stripped of my gear to die in the dirt. Well, I made sure to follow their tracks and return the favour. I thought about retiring until I spotted the Argo in orbit. I'm up for hire, if you want me back.\"",
+						"Details": "Warily you plan to trigger the trap. It's only an ambush if you aren't aware of it, after all. The reverse ambush strategy is what you're going for here.\r\n\r\nYou find absolutely no pirate presence of note. You later spot [[DM.BaseDescriptionDefs[Wulf_Lore_TaintedLokiAWOL],TaintedLoki]] in the hiring hall with a few bruises and a lump on his head. \r\n\r\n\"How about the Pirates?\" You inquire: \"I thought you got worse than captured.\"\r\n\r\nLoki scowls: \"One of them got behind me. Next thing I knew everything goes black, and I wake up with a headache, and left stripped of my gear to die in the dirt. Well, I made sure to follow their tracks and return the favour. I thought about retiring until I spotted your DropShip in orbit. I'm up for hire, if you want me back.\"",
 						"Icon": null
 					},
 					"Weight": 100,

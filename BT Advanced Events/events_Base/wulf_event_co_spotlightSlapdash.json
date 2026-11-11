@@ -6,17 +6,17 @@
 		"Icon": "uixTxrSpot_wulf_ArgoRedEngine.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
 			"items": [
-				"argo_drive2"
+				"uds_fortress_thrust_2"
 			]
 		},
 		"ExclusionTags": {
 			"items": [
-				"argo_driveSlapdash"
+				"uds_drive_Slapdash"
 			]
 		},
 		"RequirementComparisons": []
@@ -80,7 +80,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Right Way",
-						"Details": "Modifying an interplanetary drive is no easy task, especially on a ship the size of the Argo. By spending the extra time and money to prefabricate most of the drive and cooling reinforcements, [[SCN_MW,{SCN_MW.Callsign}]] and [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]] manage to have the supercharged drive system up and running with almost no downtime. Slapdash and Farah say the new system has added another .5 g to the drives. For ease of reference, they've painted the new components a particularly hideous shade of red.",
+						"Details": "Modifying an interplanetary drive is no easy task, especially on a ship the size of this one. By spending the extra time and money to prefabricate most of the drive and cooling reinforcements, [[SCN_MW,{SCN_MW.Callsign}]] and [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]] manage to have the supercharged drive system up and running with almost no downtime. Slapdash and Farah say the new system has added another .5 g to the drives. For ease of reference, they've painted the new components a particularly hideous shade of red.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -90,7 +90,7 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [
-									"argo_driveSlapdash"
+									"uds_drive_Slapdash"
 								]
 							},
 							"RemovedTags": {
@@ -107,7 +107,7 @@
 								{
 									"typeString": "System.Single",
 									"name": "DriveTravelMultiplier",
-									"value": "-0.1",
+									"value": "-0.05",
 									"set": false,
 									"valueConstant": null
 								},
@@ -186,7 +186,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Cheap",
-						"Details": "Modifying an interplanetary drive is no easy task, especially on a ship the size of the Argo. In order to save money on the installation, [[SCN_MW,{SCN_MW.Callsign}]] and [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]] had to remove half the drive mountings and most of the auxiliary cooling systems to even begin installing the supercharger system. The drive performance will be a little unpredictable until they calibrate the new systems, but Slapdash estimates the supercharger should add another .5 g once it's up and running.  For ease of reference, they've painted the new components a particularly hideous shade of red.\r\n\r\nThe Argo makes for a jarring and bumpy ride that no-one appreciates. Farah says the Argo will be slow for 30 days, and you keep reminding the crew this will pay off in the end.",
+						"Details": "Modifying an interplanetary drive is no easy task, especially on a ship the size of this one. In order to save money on the installation, [[SCN_MW,{SCN_MW.Callsign}]] and [[DM.BaseDescriptionDefs[TooltipSimGameCharacterFARAH],Farah]] had to remove half the drive mountings and most of the auxiliary cooling systems to even begin installing the supercharger system. The drive performance will be a little unpredictable until they calibrate the new systems, but Slapdash estimates the supercharger should add another .5 g once it's up and running.  For ease of reference, they've painted the new components a particularly hideous shade of red.\r\n\r\nThe DropShip makes for a jarring and bumpy ride that no-one appreciates. Farah says the DropShip will be slow for 30 days, and you keep reminding the crew this will pay off in the end.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -196,7 +196,7 @@
 							"Requirements": null,
 							"AddedTags": {
 								"items": [
-									"argo_driveSlapdash"
+									"uds_drive_Slapdash"
 								]
 							},
 							"RemovedTags": {
@@ -220,7 +220,7 @@
 								{
 									"typeString": "System.Single",
 									"name": "DriveTravelMultiplier",
-									"value": "-0.1",
+									"value": "-0.025",
 									"set": false,
 									"valueConstant": null
 								}

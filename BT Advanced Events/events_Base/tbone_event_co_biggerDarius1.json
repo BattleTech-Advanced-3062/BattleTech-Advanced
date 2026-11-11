@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_CommandersQuarters.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {

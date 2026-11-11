@@ -2,11 +2,11 @@
 	"Description": {
 		"Id": "tbone_event_co_freakshowrevenge",
 		"Name": "John Barleycorn's Revenge",
-		"Details": "Blaring klaxons interrupt an otherwise quiet morning routine as several fast-moving ships appear, pacing the <i>Argo</i>. Darius broadcasts their hail to the bridge.\r\n\r\n\"Hello again, {Commander.FirstName}. This is [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]], remember me? You fired me. Tossed me out like garbage. Well now you're flying through my space, and you'll have to pay. Don't try anything, pay up, and no one gets hurt. I know full well that Sumire is itching to try a last-minute rapid fire-up of the Leopard, so don't even try it. I'll be just as happy to collect 'mechs from your debris cloud as I will collecting c-bills from your account. Your call <i>commander</i>.\"\r\n\r\nWhile you consider your options, Sumire pipes up. \"Commander, I'm still willing to try the rapid fire-up of the Leopard. Just say the word.\"",
+		"Details": "Blaring klaxons interrupt an otherwise quiet morning routine as several fast-moving ships appear, pacing the DropShip. Darius broadcasts their hail to the bridge.\r\n\r\n\"Hello again, {Commander.FirstName}. This is [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]], remember me? You fired me. Tossed me out like garbage. Well now you're flying through my space, and you'll have to pay. Don't try anything, pay up, and no one gets hurt. I know full well that Sumire is itching to try a last-minute rapid fire-up of the weapons, so don't even try it. I'll be just as happy to collect 'Mechs from your debris cloud as I will collecting c-bills from your account. Your call <i>Commander</i>.\"\r\n\r\nWhile you consider your options, Sumire pipes up. \"Commander, I'm still willing to try the rapid fire-up. Just say the word.\"",
 		"Icon": "uixTxrSpot_UnidentifiedObject.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -96,7 +96,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Lose C-Bills & Morale",
-						"Details": "Swallowing your pride, you approve the payment to [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]]. The look of disappointment on Sumire's face echoes that of the rest of the bridge crew.\r\n\r\nAdding insult to injury, [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] voice over the bridge speaker drips with satisfaction. \"A pleasure doing business with you, {Commander.FirstName}. Don't be a stranger.\"\r\n\r\nAs the [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] ships disappear into the starry distance, it's not the first time you find yourself wishing that the <i>Argo</i> was a battleship...",
+						"Details": "Swallowing your pride, you approve the payment to [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]]. The look of disappointment on Sumire's face echoes that of the rest of the bridge crew.\r\n\r\nAdding insult to injury, [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] voice over the bridge speaker drips with satisfaction. \"A pleasure doing business with you, {Commander.FirstName}. Don't be a stranger.\"\r\n\r\nAs the [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] ships disappear into the starry distance, it's not the first time you find yourself wishing that the DropShip was a battleship...",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -150,7 +150,7 @@
 		{
 			"Description": {
 				"Id": "outcome_1",
-				"Name": "Stall until the Leopard is ready.",
+				"Name": "Stall until the guns are ready.",
 				"Details": "Risky option",
 				"Icon": null
 			},
@@ -160,7 +160,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Sumire destroys Freakshow's brigands",
-						"Details": "You try to talk [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]] down, stalling while Sumire gets the Leopard warmed up. Just as promised, he is ready when the Leopard leaps free from its docking collar on the side of the <i>Argo</i> and the pirate ships open fire immediately with lasers and PPCs, inflicting heavy damage. Within seconds, Sumire is able to acquire a firing solution and several LRM salvos impact [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] ramshackle fleet, destroying them utterly.\r\n\r\nAs the damage control teams call in, Yang reports heavy damage to the MechBay that will cost a pretty penny to repair and [[DM.BaseDescriptionDefs[TBoneLoreDoc],Doc]] reports a few casualties in the MedBay, including [[SCN_MW,{SCN_MW.Callsign}]], who is suffering from severe burns and decompression sickness.",
+						"Details": "You try to talk [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow]] down, stalling while Sumire gets the weapons warmed up. Just as promised, he is ready when the weapons cluster comes online and begins firing. The pirate ships open fire immediately with lasers and PPCs, inflicting heavy damage. Within seconds, Sumire is able to acquire a firing solution and several LRM salvos impact [[DM.BaseDescriptionDefs[TBoneLoreFreakshow],Freakshow's]] ramshackle fleet, destroying them utterly.\r\n\r\nAs the damage control teams call in, Yang reports heavy damage to the MechBay that will cost a pretty penny to repair and [[DM.BaseDescriptionDefs[TBoneLoreDoc],Doc]] reports a few casualties in the MedBay, including [[SCN_MW,{SCN_MW.Callsign}]], who is suffering from severe burns and decompression sickness.",
 						"Icon": null
 					},
 					"Weight": 100,

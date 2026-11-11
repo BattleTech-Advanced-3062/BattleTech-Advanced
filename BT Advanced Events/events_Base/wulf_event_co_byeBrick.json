@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_MedBayPatient.png"
 	},
 	"Scope": "Company",
-	"Weight": 2000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {

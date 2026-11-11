@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_ComputerScreen.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -48,7 +48,7 @@
 					"Description": {
 						"Id": "outcome_0_0",
 						"Name": "Pass on the contract.",
-						"Details": "After mulling on it for another minute, you shake your head. \"Sorry Yang but I'm with Darius. Too many unknowns with these guys to take the risk.\" Yang sits back down with a sad huff and you know in your heart you'll be hearing about this in the officer's mess for the next week.",
+						"Details": "After mulling on it for another minute, you shake your head. \"Sorry Yang but I'm with Darius. Too many unknowns with these guys to take the risk.\" Yang sits back down with a sad huff and you know in your heart you'll be hearing about this in the mess hall for the next week.",
 						"Icon": null
 					},
 					"Weight": 100,

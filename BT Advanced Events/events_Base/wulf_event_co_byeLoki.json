@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_UnidentifiedObject.png"
 	},
 	"Scope": "Company",
-	"Weight": 3000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -215,7 +215,7 @@
 					"Description": {
 						"Id": "outcome_1_0",
 						"Name": "Injured",
-						"Details": "Back at the Argo's Medbay you reminisce with [[SCN_MW,{SCN_MW.Callsign}]] over how you managed to suckerpunch the pirates.\r\n\r\n\"Look, I don't like the 'Get Help' Routine, but it's very effective.\" Loki smirks.\r\n\r\nYou laugh as you remember dragging Loki towards the enemy shouting for help, then throwing Loki at them. Those <i>were</i> some quality fisticuffs. Too bad about all the bruises.",
+						"Details": "Back at the DropShip's Medbay you reminisce with [[SCN_MW,{SCN_MW.Callsign}]] over how you managed to suckerpunch the pirates.\r\n\r\n\"Look, I don't like the 'Get Help' Routine, but it's very effective.\" Loki smirks.\r\n\r\nYou laugh as you remember dragging Loki towards the enemy shouting for help, then throwing Loki at them. Those <i>were</i> some quality fisticuffs. Too bad about all the bruises.",
 						"Icon": null
 					},
 					"Weight": 100,
@@ -461,7 +461,7 @@
 					"Description": {
 						"Id": "outcome_3_0",
 						"Name": "Tactics",
-						"Details": "\"You tune in to the Radio Chatter: \"Observer Actual this is Fire Control: \"Target Locked on Beacon Alpha. Firing for Effect. HE 5 rounds. Danger Close.\"\r\n\r\nYou recognise [[SCN_MW,{SCN_MW.Callsign}]]'s voice: \"Fire Control this is Observer Actual: Confirmed. Shot, out.\"\r\n\r\nMoments later: \"Fire Control this is Observer Actual: Good Effect on target. Targets Destroyed. No collateral.\"\r\n\r\nYou spot a grinning Loki later who all but skips through the Argo for a few days. It really is a pleasure when the tags are on point.\"",
+						"Details": "\"You tune in to the Radio Chatter: \"Observer Actual this is Fire Control: \"Target Locked on Beacon Alpha. Firing for Effect. HE 5 rounds. Danger Close.\"\r\n\r\nYou recognise [[SCN_MW,{SCN_MW.Callsign}]]'s voice: \"Fire Control this is Observer Actual: Confirmed. Shot, out.\"\r\n\r\nMoments later: \"Fire Control this is Observer Actual: Good Effect on target. Targets Destroyed. No collateral.\"\r\n\r\nYou spot a grinning Loki later who all but skips through the DropShip for a few days. It really is a pleasure when the tags are on point.\"",
 						"Icon": null
 					},
 					"Weight": 100,

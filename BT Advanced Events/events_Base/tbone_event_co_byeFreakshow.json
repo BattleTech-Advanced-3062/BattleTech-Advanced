@@ -6,7 +6,7 @@
 		"Icon": "uixTxrSpot_MedBay.png"
 	},
 	"Scope": "Company",
-	"Weight": 10000,
+	"Weight": 100,
 	"Requirements": {
 		"Scope": "Company",
 		"RequirementTags": {
@@ -106,7 +106,7 @@
 			"Description": {
 				"Id": "outcome_0",
 				"Name": "Try to save him.",
-				"Details": "[Argo Hospital Bay]",
+				"Details": "[DropShip: Hospital Bay]",
 				"Icon": null
 			},
 			"RequirementList": [
@@ -114,7 +114,7 @@
 					"Scope": "Company",
 					"RequirementTags": {
 						"items": [
-							"argo_medbay_hospital"
+							"uds_upgrade_medbay_hospital"
 						]
 					},
 					"ExclusionTags": {

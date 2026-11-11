@@ -31,11 +31,6 @@
 		},
 		{
 			"Type": "SimGameEventDef",
-			"Path": "events_Overwrites",
-			"AddToDB": true
-		},
-		{
-			"Type": "SimGameEventDef",
 			"Path": "events_Base",
 			"AddToDB": true
 		},
