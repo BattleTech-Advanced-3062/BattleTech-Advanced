@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "event_mw_fence_Pirate1_ac2",
-        "Name" : "Black Market fence selling an AC/2",
-        "Details" : "Darius checks in from the planet's surface. \"Commander, while [[TGT_MW,{TGT_MW.Callsign}]] has been helping me gather supplies, {TGT_MW.Gender?Male:he's|Female:she's|NonBinary:they've} developed a connection within the local black market. For what it's worth, this contact is about as sketchy as you'd expect.\"\r\n\r\n\"Now {TGT_MW.Callsign}'s new friend is offering to sell us a [[DM.WeaponDefs[Weapon_Autocannon_AC2_2-Mydron],{DM.WeaponDefs[Weapon_Autocannon_AC2_2-Mydron].Description.Name}]]. At a discount, no questions asked. You know how it goes. What do you say?\"",
+        "Name" : "Black Market Fence Selling an Autocannon",
+        "Details" : "Darius checks in from the planet's surface. \"Commander, while [[TGT_MW,{TGT_MW.Callsign}]] has been helping me gather supplies, {TGT_MW.Gender?Male:he's|Female:she's|NonBinary:they've} developed a connection within the local black market. For what it's worth, this contact is about as sketchy as you'd expect.\"\r\n\r\n\"Now {TGT_MW.Callsign}'s new friend is offering to sell us a [[DM.WeaponDefs[Weapon_Autocannon_LB20XAC],{DM.WeaponDefs[Weapon_Autocannon_LB20XAC].Description.Name}]]. At a discount, no questions asked. You know how it goes. What do you say?\"",
         "Icon" : "uixTxrSpot_IllicitDealings.png"
     },
     "Scope" : "MechWarrior",
@@ -31,9 +31,7 @@
                 "items" : []
             },
             "ExclusionTags" : {
-                "items" : [
-                    "company_blackMarket_ON"
-                ]
+                "items" : []
             },
             "RequirementComparisons" : [
                 {
@@ -100,7 +98,7 @@
             "Description" : {
                 "Id" : "outcome_1",
                 "Name" : "Accept the offer.",
-                "Details" : "[\u00A272,000]",
+                "Details" : "[\u00A2100,000]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -116,8 +114,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 72000,
-                            "valueConstant" : "72000"
+                            "val" : 10000,
+                            "valueConstant" : "100000"
                         }
                     ]
                 }
@@ -144,7 +142,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_2-Mydron",
+                                    "name" : "Item.WeaponDef.Weapon_Autocannon_LB20XAC",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -152,7 +150,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-72000",
+                                    "value" : "-100000",
                                     "set" : false,
                                     "valueConstant" : null
                                 },
@@ -294,7 +292,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_2-Mydron",
+                                    "name" : "Item.WeaponDef.Weapon_Autocannon_LB20XAC",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -421,7 +419,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Let {TGT_MW.Callsign}, the expert, handle it.",
-                "Details" : "[\u00A254,000, {TGT_MW.Callsign}: Criminal]",
+                "Details" : "[\u00A255,000, {TGT_MW.Callsign}: Criminal]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -437,8 +435,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 54000,
-                            "valueConstant" : "54000"
+                            "val" : 55000,
+                            "valueConstant" : "55000"
                         }
                     ]
                 },
@@ -477,7 +475,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Autocannon_AC2_2-Mydron",
+                                    "name" : "Item.WeaponDef.Weapon_Autocannon_LB20XAC",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -485,7 +483,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-54000",
+                                    "value" : "-55000",
                                     "set" : false,
                                     "valueConstant" : null
                                 },

@@ -42,8 +42,8 @@
                 {
                     "obj" : "Morale",
                     "op" : "LessThan",
-                    "val" : 25,
-                    "valueConstant" : "25"
+                    "val" : 30,
+                    "valueConstant" : "30"
                 }
             ]
         }

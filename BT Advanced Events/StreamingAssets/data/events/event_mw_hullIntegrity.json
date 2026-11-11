@@ -73,7 +73,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "no issues",
-                        "Details" : "\"I could've handled it,\" [[TGT_MW,{TGT_MW.Callsign}]] argues for a moment, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:drop|Default:drops} the subject.\r\n\r\n\"Don't worry, Commander.\" Sumire pats the control panel. \"If the DropShip could survive taking off from [[DM.BaseDescriptionDefs[LoreAxylus],Axylus]] with a few holes, then she can handle this.\"\r\n\r\nThere are no further issues with the DropShip, but you notice {TGT_MW.Callsign}'s mind is elsewhere as {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:attend|Default:attends} to {TGT_MW.DET} daily tasks.",
+                        "Details" : "\"I could've handled it,\" [[TGT_MW,{TGT_MW.Callsign}]] argues for a moment, but {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:drop|Default:drops} the subject.\r\n\r\n\"Don't worry, Commander.\" Sumire pats the control panel. \"If the DropShip could survive all this time and her extensive service history, then she can handle this.\"\r\n\r\nThere are no further issues with the DropShip, but you notice {TGT_MW.Callsign}'s mind is elsewhere as {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:attend|Default:attends} to {TGT_MW.DET} daily tasks.",
                         "Icon" : null
                     },
                     "Weight" : 50,

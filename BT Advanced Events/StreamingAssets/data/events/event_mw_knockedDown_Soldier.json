@@ -29,7 +29,7 @@
             "Scope" : "Commander",
             "RequirementTags" : {
                 "items" : [
-                    "commander_career_soldier"
+                    "commander_career_special_operative"
                 ],
             },
             "ExclusionTags" : {
@@ -132,7 +132,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gets Cautious",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -162,7 +162,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Gets Dependable",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -204,7 +204,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Share a personal story.",
-                "Details" : "[Background Career: Soldier]",
+                "Details" : "[Background Career: Special Operative]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -212,7 +212,7 @@
                     "Scope" : "Commander",
                     "RequirementTags" : {
                         "items" : [
-                            "commander_career_soldier"
+                            "commander_career_special_operative"
                         ],
                     },
                     "ExclusionTags" : {
@@ -225,8 +225,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_2_0",
-                        "Name" : "Career: Soldier",
-                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"I was fighting for the Aurigan Coalition, back before everything went to hell. A pirate shot my 'Mech out from under me, put me in the infirmary for a month. I didn't know how good I had it back then. I wasn't in a hurry to get back out there, but I should have been.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. You find something to fight for. Something that matters. That's what is going to get you back on your feet. Back in that 'Mech. Fighting again.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
+                        "Name" : "Career: Special Operative",
+                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"I can't tell you what I was doing in that backwater but I can tell you that it went about as badly as it could have. I accomplished the mission and escaped the shitshow but I nearly lost my arm doing it. Spent a month in the hospital, bemoaned every minute of it. Should have been fighting to get back out there, didn't know how good I had it, it was all worth it in the end.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. You find something to fight for. Something that matters. That's what is going to get you back on your feet. Back in that 'Mech. Fighting again.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

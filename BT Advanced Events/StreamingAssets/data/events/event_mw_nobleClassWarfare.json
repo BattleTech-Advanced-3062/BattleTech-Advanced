@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_nobleClassWarfare",
         "Name" : "Class Warfare",
-        "Details" : "Raised voices echo down the mess deck hallway and you arrive to find [[SCN_MW,{SCN_MW.Callsign}]] nose-to-nose with [[TGT_MW,{TGT_MW.Callsign}]].\r\n\r\n\"I don't care about your noble family! You. Don't. Give. Me. Orders!\" {SCN_MW.Callsign} snarls, poking the other MechWarrior in the chest with each word.\r\n\r\n{TGT_MW.Callsign} lifts {TGT_MW.DET} chin. \"Even out here in the Periphery, you should know enough to listen to your betters.\"\r\n\r\n{SCN_MW.Callsign}'s fist flashes out before anyone can intervene, sending {TGT_MW.Callsign} staggering, blood erupting from a broken nose.\r\n\r\nIn the dangerous silence that follows, the room finally notices that you've arrived. A single fork clatters to the floor.",
+        "Details" : "Raised voices echo down the mess deck hallway and you arrive to find [[SCN_MW,{SCN_MW.Callsign}]] nose-to-nose with [[TGT_MW,{TGT_MW.Callsign}]].\r\n\r\n\"I don't care about your noble family! You. Don't. Give. Me. Orders!\" {SCN_MW.Callsign} snarls, poking the other MechWarrior in the chest with each word.\r\n\r\n{TGT_MW.Callsign} lifts {TGT_MW.DET} chin. \"Even in mercenary work, you should know enough to listen to your betters.\"\r\n\r\n{SCN_MW.Callsign}'s fist flashes out before anyone can intervene, sending {TGT_MW.Callsign} staggering, blood erupting from a broken nose.\r\n\r\nIn the dangerous silence that follows, the room finally notices that you've arrived. A single fork clatters to the floor.",
         "Icon" : "uixTxrSpot_Discipline.png"
     },
     "Scope" : "MechWarrior",
@@ -348,7 +348,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Have them fight in the Gym instead.",
-                "Details" : "[Argo: Gym]",
+                "Details" : "[DropShip: Gym]",
                 "Icon" : ""
             },
             "RequirementList" : [

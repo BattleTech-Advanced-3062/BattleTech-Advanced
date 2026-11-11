@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_readingCorridor",
         "Name" : "Reading in the Corridor",
-        "Details" : "Rounding a corner in an unused corridor, you nearly trip over [[TGT_MW,{TGT_MW.Callsign}]]. The MechWarrior sits in a heap on the floor, nose-deep in a dog-eared, honest-to-goodness, paper book.\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:look|Default:looks} up. \"Oh, Commander, am I in your way? I needed to get out of the barracks. There's just no good place for me to read.\"\r\n\r\nYou gesture at the book and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:hand|Default:hands} it over. While you idly flip its pages, {TGT_MW.Callsign} asks, \"I heard that there's a disrepaired library here in the DropShip. Think we could get that online?\"",
+        "Details" : "Rounding a corner in an unused corridor, you nearly trip over [[TGT_MW,{TGT_MW.Callsign}]]. The MechWarrior sits in a heap on the floor, nose-deep in a dog-eared, honest-to-goodness, paper book.\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:look|Default:looks} up. \"Oh, Commander, am I in your way? I needed to get out of the barracks. There's just no good place for me to read.\"\r\n\r\nYou gesture at the book and {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:hand|Default:hands} it over. While you idly flip its pages, {TGT_MW.Callsign} asks, \"I'd really appreciate a proper library here on the DropShip. Think we could get one online?\"",
         "Icon" : "uixTxrSpot_EngineeringInnards.png"
     },
     "Scope" : "MechWarrior",

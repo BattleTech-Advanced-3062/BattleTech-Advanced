@@ -29,7 +29,7 @@
             "Scope" : "Commander",
             "RequirementTags" : {
                 "items" : [
-                    "commander_career_gladiator"
+                    "commander_career_bounty_hunter"
                 ],
             },
             "ExclusionTags" : {
@@ -132,7 +132,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gets Cautious",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -162,7 +162,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Gets Dependable",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -204,7 +204,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Share a personal story.",
-                "Details" : "[Background Career: Gladiator]",
+                "Details" : "[Background Career: Bounty Hunter]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -212,7 +212,7 @@
                     "Scope" : "Commander",
                     "RequirementTags" : {
                         "items" : [
-                            "commander_career_gladiator"
+                            "commander_career_bounty_hunter"
                         ],
                     },
                     "ExclusionTags" : {
@@ -225,8 +225,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_2_0",
-                        "Name" : "Career: Gladiator",
-                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"It was during my third season on Solaris VII. I'd finally started to make a name for myself, so of course I got cocky. I rode my 'Mech too hot and got knocked on my ass. Worse still, I let it get to me, and lost my next three matches too. Lost a lot of fans that season.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. Don't let one bad fight turn into three more. You get your head straight, and you get back in that 'Mech.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
+                        "Name" : "Career: Bounty Hunter",
+                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"I was on a roll with my bounties and hadn't had one get away from me for a few months. I got cocky and the biggest score of my career slipped through my fingers. The next two also managed to get away from me too, it was a real mess and I even took a shot to the head, if I hadn't had my helmet on I'd have been dusted right there and then.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. Don't let one bad fight turn into two more. You get your head straight, and you get back in that 'Mech.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

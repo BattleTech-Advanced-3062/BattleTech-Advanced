@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "event_mw_fence_Pirate3_largeLaser",
-        "Name" : "Black Market fence selling a Large Laser",
-        "Details" : "Darius calls up from a planetside supply run. \"Commander, [[TGT_MW,{TGT_MW.Callsign}]] tagged along to help me wrangle supplies. {TGT_MW.Gender?Male:He's|Female:She's|NonBinary:They've} managed to get involved with a broker in the local black market.\"\r\n\r\n\"Now this broker is offering to sell us a [[DM.WeaponDefs[Weapon_Laser_LargeLaser_2-Magna],{DM.WeaponDefs[Weapon_Laser_LargeLaser_2-Magna].Description.Name}]]. This is a serious deal with a pretty significant individual. What do you want to do?\"",
+        "Name" : "Black Market Fence Selling a Laser",
+        "Details" : "Darius calls up from a planetside supply run. \"Commander, [[TGT_MW,{TGT_MW.Callsign}]] tagged along to help me wrangle supplies. {TGT_MW.Gender?Male:He's|Female:She's|NonBinary:They've} managed to get involved with a broker in the local black market.\"\r\n\r\n\"Now this broker is offering to sell us a [[DM.WeaponDefs[Weapon_Laser_LargeLaserVSPL_0-STOCK],{DM.WeaponDefs[Weapon_Laser_LargeLaserVSPL_0-STOCK].Description.Name}]]. This is a serious deal with a pretty significant individual. What do you want to do?\"",
         "Icon" : "uixTxrSpot_IllicitDealings.png"
     },
     "Scope" : "MechWarrior",
@@ -31,9 +31,7 @@
                 "items" : null
             },
             "ExclusionTags" : {
-                "items" : [
-                    "company_blackMarket_ON"
-                ]
+                "items" : []
             },
             "RequirementComparisons" : [
                 {
@@ -100,7 +98,7 @@
             "Description" : {
                 "Id" : "outcome_1",
                 "Name" : "Accept the offer.",
-                "Details" : "[\u00A2160,000]",
+                "Details" : "[\u00A2100,000]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -116,8 +114,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 160000,
-                            "valueConstant" : "160000"
+                            "val" : 100000,
+                            "valueConstant" : "100000"
                         }
                     ]
                 }
@@ -144,7 +142,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_2-Magna",
+                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaserVSPL_0-STOCK",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -152,7 +150,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-160000",
+                                    "value" : "-100000",
                                     "set" : false,
                                     "valueConstant" : null
                                 },
@@ -210,7 +208,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-40000",
+                                    "value" : "-18000",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -294,7 +292,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_2-Magna",
+                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaserVSPL_0-STOCK",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -486,7 +484,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Let {TGT_MW.Callsign}, the expert, handle it.",
-                "Details" : "[\u00A2120,000, {TGT_MW.Callsign}: Criminal]",
+                "Details" : "[\u00A265,000, {TGT_MW.Callsign}: Criminal]",
                 "Icon" : null
             },
             "RequirementList" : [
@@ -502,8 +500,8 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 120000,
-                            "valueConstant" : "120000"
+                            "val" : 65000,
+                            "valueConstant" : "65000"
                         }
                     ]
                 },
@@ -542,7 +540,7 @@
                             "Stats" : [
                                 {
                                     "typeString" : "System.Int32",
-                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaser_2-Magna",
+                                    "name" : "Item.WeaponDef.Weapon_Laser_LargeLaserVSPL_0-STOCK",
                                     "value" : "1",
                                     "set" : false,
                                     "valueConstant" : null
@@ -550,7 +548,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Funds",
-                                    "value" : "-120000",
+                                    "value" : "-65000",
                                     "set" : false,
                                     "valueConstant" : null
                                 },

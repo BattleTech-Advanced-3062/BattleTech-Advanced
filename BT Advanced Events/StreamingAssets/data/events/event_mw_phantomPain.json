@@ -63,7 +63,7 @@
                         "Details" : "\"I trust your judgment, [[TGT_MW,{TGT_MW.Callsign}]].\" You turn your gaze to the MedTech. \"Get {TGT_MW.OBJ} another examination. Nothing invasive, unless it's warranted.\"\r\n\r\nLater in the day, you receive a report from the MedTechs. Their second examination of {TGT_MW.Callsign} revealed a large cyst hidden behind {TGT_MW.DET} appendix. They had to operate immediately.\r\n\r\nYou rush back to the MedBay and visit {TGT_MW.OBJ} in a recovery room. The medical equipment surrounding {TGT_MW.OBJ} blinks and beeps at a steady rate.\r\n\r\n\"How are you feeling?\" you ask.\r\n\r\n{TGT_MW.Callsign} carefully pats {TGT_MW.DET} abdomen. \"You should have seen this <i>thing</i> they took out of me. Nearly the size of a shotgun shell. That's no way for a mercenary to go, Commander. I won't forget this. You saved my life.\"",
                         "Icon" : null
                     },
-                    "Weight" : 33,
+                    "Weight" : 60,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -110,7 +110,7 @@
                         "Details" : "\"It doesn't hurt to be extra careful, [[TGT_MW,{TGT_MW.Callsign}]].\" You turn your gaze to the MedTech. \"I'm authorizing a second exam. Nothing invasive.\"\r\n\r\nLater in the day, you receive a report from the MedTechs. Their second examination of {TGT_MW.Callsign} revealed no physiological basis for {TGT_MW.DET} pain.\r\n\r\nYou visit {TGT_MW.OBJ} in the barracks after {TGT_MW.SUBJ}{TGT_MW.Gender?NonBinary:'re|Default:'s} discharged. \"Feeling better, MechWarrior?\"\r\n\r\n{TGT_MW.SUBJ_C} frowns. \"It's strange. The painkillers did nothing, but the anti-anxiety meds made the pain vanish. I'll be checking in regularly with the MedTechs for counseling until we figure out what's going on.\"\r\n\r\n{TGT_MW.Callsign} sticks to {TGT_MW.DET} word, not missing a day with the MedTechs. {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:are|Default:is} far less anxious when you next chat. There are no further incidents in the MedBay either.",
                         "Icon" : null
                     },
-                    "Weight" : 33,
+                    "Weight" : 40,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",

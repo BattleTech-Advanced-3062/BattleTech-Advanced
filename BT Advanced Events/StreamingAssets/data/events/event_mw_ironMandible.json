@@ -128,7 +128,7 @@
                         "Details" : "\"What's really going on here?\" You sit down on the edge of [[TGT_MW,{TGT_MW.Callsign}]]'s bunk. \"This isn't really about your old callsign is it? I mean, you've been going by {TGT_MW.Callsign} this whole time without complaint.\"\r\n\r\n{TGT_MW.Callsign} averts {TGT_MW.DET} gaze. \"I guess I've been missing all the freedom and the fame back on [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris VII]]\u2026 I don't know. I just wanted some attention again\"\r\n\r\n\"Oh, you've got my <i>attention</i> alright,\" Darius says with a scowl.\r\n\r\nYou raise a hand up to quiet the XO. \"This is clearly not the kind of attention you want, MechWarrior. But you can get all the recognition and glory you crave on my crew. Focus on your performance in and outside the cockpit and {TGT_MW.Callsign} will mean more than The Iron Mandible ever did.\"\r\n\r\n{TGT_MW.Callsign} cracks a smile. \"Challenge accepted, Commander. Let's see how famous I can make {TGT_MW.Callsign}, TITAN of STEEL and BREAKER of HEARTS!\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -158,7 +158,7 @@
                         "Details" : "\"So, what's really going on,\" You look [[TGT_MW,{TGT_MW.Callsign}]] straight in the eye. \"This isn't like you.\"\r\n\r\n{TGT_MW.Callsign} crosses {TGT_MW.DET} arms. \"Before I became a merc, fans screamed my name when I got in the ring on [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris VII]]. They lined up for autographs. Here, I get nothing, not even a thank you\u2014\r\n\r\n\"You get paid.\" Darius interrupts. \"More than most gladiators, too.\"\r\n\r\nYou soften slightly. \"Look, you're right there are no adoring fans on the DropShip, but you're here because we believe in you. Now if I can't trust you to follow orders, this isn't going to work out. We're a team. And that's just as important in the ring as it is out here. You know that.\"\r\n\r\n{TGT_MW.Callsign} murmurs {TGT_MW.DET} assent and agrees to behave. But later, the XO calls you. \"{TGT_MW.Callsign} still has a real attitude, I nearly threw {TGT_MW.OBJ} in the brig. I'm going to stay on {TGT_MW.OBJ} until {TGT_MW.SUBJ} {TGT_MW.Gender?NonBinary:shape|Default:shapes} up or {TGT_MW.Gender?NonBinary:ship|Default:ships} out.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -206,10 +206,10 @@
                     "Description" : {
                         "Id" : "outcome_2_0",
                         "Name" : "MW gains dependable",
-                        "Details" : "You point a finger at the MechWarrior. \"Darius gave you an order. Now I could throw you off this boat for insubordination, but you've got a future here. So, here's the deal. You pledge to fall in line and we'll call you whatever you want\u2014The Iron Mandible, Thunder Pants, your choice.\"\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:slide|Default:slides} out of {TGT_MW.DET} bunk. \"Alright, Commander. I'll be a model MechWarrior. Though I think I'll pass on Thunder Pants. I earned the name The Iron Mandible with sweat and steel and I'll do it again.\"\r\n\r\n\"I have no doubts.\" You dismiss the XO and {TGT_MW.Callsign}.\r\n\r\nLater that day, Darius calls you over the comms. \"Good news, Commander. Our [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris]] star has been working like a dog all day. Let's throw {TGT_MW.OBJ} a bone. [[TGT_MW,{TGT_MW.Callsign}]] it is. The <i>Argo's</i> champ.\"",
+                        "Details" : "You point a finger at the MechWarrior. \"Darius gave you an order. Now I could throw you off this boat for insubordination, but you've got a future here. So, here's the deal. You pledge to fall in line and we'll call you whatever you want\u2014The Iron Mandible, Thunder Pants, your choice.\"\r\n\r\n{TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:slide|Default:slides} out of {TGT_MW.DET} bunk. \"Alright, Commander. I'll be a model MechWarrior. Though I think I'll pass on Thunder Pants. I earned the name The Iron Mandible with sweat and steel and I'll do it again.\"\r\n\r\n\"I have no doubts.\" You dismiss the XO and {TGT_MW.Callsign}.\r\n\r\nLater that day, Darius calls you over the comms. \"Good news, Commander. Our [[DM.BaseDescriptionDefs[LoreSolaris7],Solaris]] star has been working like a dog all day. Let's throw {TGT_MW.OBJ} a bone. [[TGT_MW,{TGT_MW.Callsign}]] it is. The DropShip's champ.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -246,7 +246,7 @@
                         "Details" : "You stand next to Darius, fixing [[TGT_MW,{TGT_MW.Callsign}]] with a firm gaze.\"This ends now. No more games. The XO gave you an order, MechWarrior.\"\r\n\r\n\"Yeah, yeah.\" {TGT_MW.Callsign} groans and slides out of {TGT_MW.DET} bunk. \"I'm up.\"\r\n\r\n\"Good.\" You cross your arms, circling {TGT_MW.Callsign}. \"If you shape up, I think you'll find Darius far more accommodating.\" You leave Darius to handle the rest of {TGT_MW.DET} discipline.\r\n\r\nLater that day, Darius reports in. \"{TGT_MW.Callsign} decided that garbage detail was beneath a 'Thrashageddon semifinalist' whatever that means. So, I've put {TGT_MW.OBJ} on latrine duty for the next two weeks. I'll stay on {TGT_MW.OBJ} until they shape up, but it's an uphill battle.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",

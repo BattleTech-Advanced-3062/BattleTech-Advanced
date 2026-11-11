@@ -102,7 +102,7 @@
             "Description" : {
                 "Id" : "outcome_1",
                 "Name" : "Throw a party in the Lounge.",
-                "Details" : "[Argo: Lounge]",
+                "Details" : "[DropShip: Lounge]",
                 "Icon" : ""
             },
             "RequirementList" : [

@@ -2,7 +2,7 @@
     "Description" : {
         "Id" : "event_mw_lightInDarkness",
         "Name" : "Light in Darkness",
-        "Details" : "During the daily briefing, Dr. Murad raises a hand. \"There will be a rare meteor shower on [[TGT_SYSTEM,{TGT_SYSTEM.Name}]]. I thought it would boost everyone's spirits if we viewed the phenomenon from up close on the observation deck.\"\r\n\r\n\"Sounds risky.\" Darius shakes his head. \"It's not like the DropShip has brakes.\"\r\n\r\n\"Well, how about we install a telescopic camera on the hull?\" Dr. Murad persists. \"[[TGT_MW,{TGT_MW.Callsign}]] volunteered to mount it.\"\r\n\r\n\"Maybe it'd be safer to take the Leopard down to {TGT_SYSTEM.Name}'s surface and view the pretty lights from a safe distance?\" Yang beams. \"Hell, I'll even cook. What do you say, Commander?\"",
+        "Details" : "During the daily briefing, Dr. Murad raises a hand. \"There will be a rare meteor shower on [[TGT_SYSTEM,{TGT_SYSTEM.Name}]]. I thought it would boost everyone's spirits if we viewed the phenomenon from up close on the observation deck.\"\r\n\r\n\"Sounds risky.\" Darius shakes his head. \"It's not like the DropShip has brakes.\"\r\n\r\n\"Well, how about we install a telescopic camera on the hull?\" Dr. Murad persists. \"[[TGT_MW,{TGT_MW.Callsign}]] volunteered to mount it.\"\r\n\r\n\"Maybe it'd be safer to take a shuttle down to {TGT_SYSTEM.Name}'s surface and view the pretty lights from a safe distance?\" Yang beams. \"Hell, I'll even cook. What do you say, Commander?\"",
         "Icon" : "uixTxrSpot_DailyBriefing.png"
     },
     "Scope" : "MechWarrior",
@@ -81,7 +81,7 @@
                         "Details" : "You consider Yang and shake your head. \"Let's stick to the observation deck.\"\r\n\r\nCrew members and MechWarriors huddle on the observation deck, bottles clink and bets are placed. Once the first star zips across the sky, they cheer but soon the crowd quiets.\r\n\r\nThe company looks on in awe as a hundred points of light stream through the darkness. The comets flare up as they enter the atmosphere of [[TGT_SYSTEM,{TGT_SYSTEM.Name}]], leaving a radiant but brief trail.\r\n\r\n\"Shouldn't have doubted you,\" Yang whispers to Dr. Murad. Then he raises his voice to the crowd. \"How about I break out my special stash of [[DM.BaseDescriptionDefs[LoreTripleFBurger],Triple-F Burgers]]?\" Another cheer goes up, music plays over the comm system. Eventually, Yang even sort-of dances.\r\n\r\nYou find Dr. Murad on the opposite end of the festivities and thank her. With a fork and knife, she slices a grilled PB&J into neat squares. \"It's good to remember that space is more than just deadly anomalies and bleak emptiness.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "Company",
@@ -117,7 +117,7 @@
                         "Details" : "You consider Yang and shake your head. \"Let's stick to the observation deck.\"\r\n\r\nThe meteoroids veer far closer to the DropShip than expected. At first the crowd gathered on the observation deck cheers, but they quiet as more misshapen rocks fly by. The DropShip turns slowly in response.\r\n\r\nSensing the danger, you raise your voice. \"Everyone return to your quarters in an orderly fashion.\" A small metallic ping is followed by a thud and then another. The hull groans as more meteoroids slam into the DropShip. Panicked, the MechWarriors and crew collide in the cramped exit despite your warning.\r\n\r\nAfter the DropShip is at a safe distance, Darius gives you a report. \"Our MedTechs will be busy this week dealing with minor injuries, but we're lucky these space rocks didn't do any serious damage to the DropShip or our crew.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "Company",
@@ -222,7 +222,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Minor Morale Loss",
-                        "Details" : "\"Let's go planetside.\" You shrug. \"What's the worst that could happen?\"\r\n\r\nOn a secluded corner of [[TGT_SYSTEM,{TGT_SYSTEM.Name}]], the crew looks up as storm clouds move in fast, crowding the night sky.\r\n\r\nA shout goes up here and there as pilots catch the glimmer of a meteor, but soon heavy rains push the company back into the Leopard before they can start celebrating. Crowded inside, they return sooner than expected, griping loudly.\r\n\r\n\"Some shower,\" Sumire says, wringing the moisture from her hair.",
+                        "Details" : "\"Let's go planetside.\" You shrug. \"What's the worst that could happen?\"\r\n\r\nOn a secluded corner of [[TGT_SYSTEM,{TGT_SYSTEM.Name}]], the crew looks up as storm clouds move in fast, crowding the night sky.\r\n\r\nA shout goes up here and there as pilots catch the glimmer of a meteor, but soon heavy rains push the company back into the shuttle before they can start celebrating. Crowded inside, they return sooner than expected, griping loudly.\r\n\r\n\"Some shower,\" Sumire says, wringing the moisture from her hair.",
                         "Icon" : null
                     },
                     "Weight" : 50,

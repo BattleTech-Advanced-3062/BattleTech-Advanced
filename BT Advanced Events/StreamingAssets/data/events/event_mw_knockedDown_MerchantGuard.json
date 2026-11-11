@@ -29,7 +29,7 @@
             "Scope" : "Commander",
             "RequirementTags" : {
                 "items" : [
-                    "commander_career_merchantGuard"
+                    "commander_career_offworld_smuggler"
                 ],
             },
             "ExclusionTags" : {
@@ -132,7 +132,7 @@
                     "Description" : {
                         "Id" : "outcome_1_0",
                         "Name" : "Gets Cautious",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -162,7 +162,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Gets Dependable",
-                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here in the Periphery, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
+                        "Details" : "\"That 'Mech looks worse than you do, believe me.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] slowly turns, visibly avoiding any sudden movement.\r\n\r\n\"Life is hard out here, and a MechWarrior's life is harder than most. We put our bodies on the line over and over again, and for what? Money? Sure, but there's more to it than that. We do it for <i>each other</i>.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder and {TGT_MW.Subj} {TGT_MW.Gender?NonBinary:collapse|Default:collapses} into your protective embrace, all of the pent up suffering and fear emerging and washing away in waves.\r\n\r\nIt's always a roll of the dice on whether a MechWarrior will come out of an injury like this hesitant or confident. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -204,7 +204,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Share a personal story.",
-                "Details" : "[Background Career: Merchant Guard]",
+                "Details" : "[Background Career: Offworld Smuggler]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -212,7 +212,7 @@
                     "Scope" : "Commander",
                     "RequirementTags" : {
                         "items" : [
-                            "commander_career_merchantGuard"
+                            "commander_career_offworld_smuggler"
                         ],
                     },
                     "ExclusionTags" : {
@@ -225,8 +225,8 @@
                 {
                     "Description" : {
                         "Id" : "outcome_2_0",
-                        "Name" : "Career: Merchant Guard",
-                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"I was assaulting some rich bastard's warehouse complex, providing fire support for the vehicle convoy sent in to reclaim what they'd stolen from my employer the month before. These nobles and merchant princes, it never ends with them. But we get paid every time, and in the end we'll have the last laugh.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. No one is going to <i>give</i> you anything in this life. You have to fight to get paid. And if you're going to fight, I recommend getting back in that 'Mech to do it.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
+                        "Name" : "Career: Offworld Smuggler",
+                        "Details" : "\"That happened to me once\u2026\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] spins around, visibly pained by the sudden movement.\r\n\r\n\"I was running some obscure cargo across Great House borders, as we so often did, but this time the law was waiting for us. Barely managed to escape the ambush with my skin intact. Swore I'd never smuggle in Steiner space again, but it didn't keep me out of the game for long in the end.\"\r\n\r\nYou put a hand on {TGT_MW.Det} shoulder. \"Remember that, {TGT_MW.Callsign}. No one is going to <i>give</i> you anything in this life. You have to fight to get paid. And if you're going to fight, I recommend getting back in that 'Mech to do it.\"\r\n\r\nIt's always a roll of the dice on how a MechWarrior will come out of an injury like this. Time will tell.",
                         "Icon" : ""
                     },
                     "Weight" : 100,

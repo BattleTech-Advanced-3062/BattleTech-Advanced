@@ -31,8 +31,8 @@
             {
                 "obj" : "ExperienceSpent",
                 "op" : "LessThanOrEqual",
-                "val" : 6000,
-                "valueConstant" : "6000"
+                "val" : 10000,
+                "valueConstant" : "10000"
             }
         ]
     },
@@ -111,7 +111,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "ExperienceUnspent",
-                                    "value" : "100",
+                                    "value" : "500",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -176,7 +176,7 @@
                     "Description" : {
                         "Id" : "outcome_1_1",
                         "Name" : "Gets XP",
-                        "Details" : "\"When you're on the battlefield, knowing the terrain is as important as knowing the range of your weapons.\"\r\n\r\nYou do a quick search on one of the computers then flip it around for {TGT_MW.OBJ} to see. {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:read|Default:reads} the passage aloud. \"The dense crystal formations found in some Periphery deserts can play havoc on navigation and targeting sensors.\"\r\n\r\nYou give {TGT_MW.Callsign} a hearty slap on the back. \"We encounter lots of different biomes out here in the Periphery, and I need you to know how to handle them all. Master the map, master the 'Mech.\"",
+                        "Details" : "\"When you're on the battlefield, knowing the terrain is as important as knowing the range of your weapons.\"\r\n\r\nYou do a quick search on one of the computers then flip it around for {TGT_MW.OBJ} to see. {TGT_MW.SUBJ_C} {TGT_MW.Gender?NonBinary:read|Default:reads} the passage aloud. \"The dense crystal formations found in some deserts can play havoc on navigation and targeting sensors.\"\r\n\r\nYou give {TGT_MW.Callsign} a hearty slap on the back. \"We encounter lots of different biomes out here in the Periphery, and I need you to know how to handle them all. Master the map, master the 'Mech.\"",
                         "Icon" : ""
                     },
                     "Weight" : 50,
@@ -194,7 +194,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "ExperienceUnspent",
-                                    "value" : "100",
+                                    "value" : "500",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -222,7 +222,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Direct {TGT_MW.OBJ} to study technical manuals.",
-                "Details" : "[Argo: Improved Library]",
+                "Details" : "[DropShip: Improved Library]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -290,7 +290,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "ExperienceUnspent",
-                                    "value" : "500",
+                                    "value" : "750",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -318,7 +318,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Take {TGT_MW.OBJ} to the Lounge instead.",
-                "Details" : "[Argo: Lounge]",
+                "Details" : "[DropShip: Lounge]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -343,7 +343,7 @@
                         "Details" : "\"MechWarrior, what's clear to me is that you are wound <i>way</i> too tight right now. You get in a 'Mech like that and you're going to be all up in your head. You need to be in the moment, feeling the ebb and flow of the battlefield. Acting, not thinking.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] looks confused as to what to do with that information, casting an eye around the room as if a book will teach {TGT_MW.Obj} this concept.\r\n\r\nSighing, you pull the MechWarrior to {TGT_MW.Det} feet. \"Let's go to the Lounge. I clearly need to get you a drink. You'll get your chance to die on the battlefield soon enough, but for now? Now, we <i>live</i>.\"",
                         "Icon" : ""
                     },
-                    "Weight" : 75,
+                    "Weight" : 90,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -388,7 +388,7 @@
                         "Details" : "\"MechWarrior, what's clear to me is that you are wound <i>way</i> too tight right now. You get in a 'Mech like that and you're going to be all up in your head. You need to be in the moment, feeling the ebb and flow of the battlefield. Acting, not thinking.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] looks confused as to what to do with that information, casting an eye around the room as if a book will teach {TGT_MW.Obj} this concept.\r\n\r\nSighing, you pull the MechWarrior to {TGT_MW.Det} feet. \"Let's go to the Lounge. I clearly need to get you a drink. You'll get your chance to die on the battlefield soon enough, but for now? Now, we <i>live</i>.\"",
                         "Icon" : ""
                     },
-                    "Weight" : 25,
+                    "Weight" : 10,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",

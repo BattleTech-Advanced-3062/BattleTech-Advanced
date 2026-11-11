@@ -6,7 +6,7 @@
         "Icon" : "event_mechwarriors_TEMP.png"
     },
     "Scope" : "MechWarrior",
-    "Weight" : 1000,
+    "Weight" : 100,
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {
@@ -303,7 +303,7 @@
                         "Details" : "\"There's no predicting when you'll end up on the Memorial Wall. Don't let it get to you.\" You pause, reflecting for a moment. \"I've seen MechWarriors throw their lives away over these kind of doubts.\"\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] lowers {TGT_MW.DET} head. \"I don't want to end up like that.\"\r\n\r\n\"You've still got time. Feel free to stop by my quarters any time, but you should really check in with the MedTechs. They can work wonders, whether you need counselling or a prescription or anything else.\"\r\n\r\n{TGT_MW.Callsign} looks into the distance thoughtfully and then nods {TGT_MW.DET} head. \"I've trusted you with my life every time I've been on the battlefield. No reason to stop now. I'll see the MedTechs tomorrow, Commander.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 75,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -354,7 +354,7 @@
                         "Details" : "\"No one knows, MechWarrior. But there are resources for dealing with this anxiety. I've scheduled you for an appointment with the chief MedTech first thing tomorrow.\" You give an encouraging smile, but [[TGT_MW,{TGT_MW.Callsign}]] is unmoved. \"There's no shame in asking for a little help.\"\r\n\r\n\"I know, Commander, but I'm asking <i>you</i> for help. Not the MedTechs.\"\r\n\r\n\"I <i>am</i> helping you by getting you proper treatment. This isn't a suggestion, MechWarrior. It's an order.\" {TGT_MW.Callsign} utters a grunt in acknowledgment, but the conversation dwindles and ends shortly. \r\n\r\nThe next day, Darius reports in: \"{TGT_MW.Callsign} never showed up for {TGT_MW.DET} appointment. I hunted {TGT_MW.OBJ} down and {TGT_MW.SUBJ} got in my face. I disciplined {TGT_MW.OBJ}, but I'll be watching {TGT_MW.OBJ} from now on.\"",
                         "Icon" : null
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",

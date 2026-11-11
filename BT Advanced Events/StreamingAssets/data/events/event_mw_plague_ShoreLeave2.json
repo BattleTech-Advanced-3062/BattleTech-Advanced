@@ -660,7 +660,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_medbay_hospital"
+                            "uds_upgrade_medbay_hospital"
                         ]
                     },
                     "ExclusionTags" : {

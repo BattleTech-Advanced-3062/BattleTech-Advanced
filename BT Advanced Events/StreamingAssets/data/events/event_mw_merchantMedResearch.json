@@ -501,7 +501,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Establish a research partnership.",
-                "Details" : "[Argo: Hospital Bays]",
+                "Details" : "[DropShip: Hospital Bays]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -509,7 +509,7 @@
                     "Scope" : "Company",
                     "RequirementTags" : {
                         "items" : [
-                            "argo_medbay_hospital"
+                            "uds_upgrade_medbay_hospital"
                         ],
                     },
                     "ExclusionTags" : {

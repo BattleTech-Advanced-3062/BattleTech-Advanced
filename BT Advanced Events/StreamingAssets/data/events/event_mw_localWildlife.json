@@ -6,7 +6,7 @@
         "Icon" : "uixTxrSpot_RuralTown.png"
     },
     "Scope" : "MechWarrior",
-    "Weight" : 40,
+    "Weight" : 80,
     "Requirements" : {
         "Scope" : "MechWarrior",
         "RequirementTags" : {

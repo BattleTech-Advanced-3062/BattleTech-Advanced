@@ -179,7 +179,7 @@
                         "Details" : "As the crew cautiously pokes at the mystery meat, [[TGT_MW,{TGT_MW.Callsign}]] devours {TGT_MW.Det} meal with relish. \"Don't you love how the smokiness balances the sweetness? It isn't every day you get to eat something that had fur <i>and</i> feathers. And the local hunters told me that these vestigial haunches are the best parts of the animal\u2014the main locomotive limbs are too tough to chew.\" By the end of the meal, the other MechWarriors agree that {TGT_MW.Callsign}'s mystery animal is, in fact, delicious, and they give a collective thumbs-up to the experiment.",
                         "Icon" : ""
                     },
-                    "Weight" : 25,
+                    "Weight" : 50,
                     "Results" : [
                         {
                             "Scope" : "MechWarrior",
@@ -326,7 +326,7 @@
                         "Details" : "The deliciously-spiced meal turns to ash in your mouth when [[SCN_MW,{SCN_MW.Callsign}]] suddenly clutches {SCN_MW.Det} throat and falls, gasping, to the floor. You hop over your table to pull {SCN_MW.DET} twitching form away from obstacles. Then you're tugged out of the way by one medic while another plunges a syringe of epinephrine into the victim's thigh.\r\n\r\nAs {SCN_MW.Callsign}'s allergic reaction subsides, you glance around and see the aghast expression on [[TGT_MW,{TGT_MW.Callsign}]]'s face. A dozen plates are pushed forward in unison.",
                         "Icon" : ""
                     },
-                    "Weight" : 50,
+                    "Weight" : 25,
                     "Results" : [
                         {
                             "Scope" : "Company",
@@ -341,7 +341,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Morale",
-                                    "value" : "-2",
+                                    "value" : "-1",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -485,7 +485,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "Morale",
-                                    "value" : "1",
+                                    "value" : "2",
                                     "set" : false,
                                     "valueConstant" : null
                                 }

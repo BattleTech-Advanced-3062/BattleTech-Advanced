@@ -294,7 +294,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Send them to settle things in the simulators.",
-                "Details" : "[Argo: Training Module]",
+                "Details" : "[DropShip: Training Module]",
                 "Icon" : ""
             },
             "RequirementList" : [

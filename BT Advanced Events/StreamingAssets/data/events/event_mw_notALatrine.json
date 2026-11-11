@@ -310,6 +310,23 @@
                             "ResultDuration" : 0
                         },
                         {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "items" : [
+                                    "pilot_drunk"
+                                ]
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
                             "Scope" : "Company",
                             "Requirements" : null,
                             "AddedTags" : {
@@ -381,6 +398,23 @@
                             },
                             "RemovedTags" : {
                                 "items" : []
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
+                        },
+                        {
+                            "Scope" : "MechWarrior",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "items" : []
+                            },
+                            "RemovedTags" : {
+                                "items" : [
+                                    "pilot_drunk"
+                                ]
                             },
                             "Stats" : null,
                             "Actions" : null,
