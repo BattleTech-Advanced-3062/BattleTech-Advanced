@@ -197,9 +197,7 @@
                             "Scope" : "MechWarrior",
                             "Requirements" : null,
                             "AddedTags" : {
-                                "items" : [
-                                    "pilot_drunk"
-                                ]
+                                "items" : []
                             },
                             "RemovedTags" : {
                                 "items" : [

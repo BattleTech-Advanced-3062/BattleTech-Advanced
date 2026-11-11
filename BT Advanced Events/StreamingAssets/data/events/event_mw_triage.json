@@ -320,7 +320,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MedTechSkill",
-                                    "value" : "-6",
+                                    "value" : "-4",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -384,7 +384,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MedTechSkill",
-                                    "value" : "-6",
+                                    "value" : "-4",
                                     "set" : false,
                                     "valueConstant" : null
                                 }
@@ -466,7 +466,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Dedicate the entire hospital bay.",
-                "Details" : "[Argo: Hospital Bays]",
+                "Details" : "[DropShip: Hospital Bays]",
                 "Icon" : ""
             },
             "RequirementList" : [
@@ -506,7 +506,7 @@
                                 {
                                     "typeString" : "System.Int32",
                                     "name" : "MedTechSkill",
-                                    "value" : "-3",
+                                    "value" : "-2",
                                     "set" : false,
                                     "valueConstant" : null
                                 }

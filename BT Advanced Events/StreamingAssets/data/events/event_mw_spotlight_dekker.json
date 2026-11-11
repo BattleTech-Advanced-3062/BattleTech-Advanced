@@ -200,7 +200,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Encourage his continuing education.",
-                "Details" : "[Argo: Library]",
+                "Details" : "[DropShip: Library]",
                 "Icon" : null
             },
             "RequirementList" : [

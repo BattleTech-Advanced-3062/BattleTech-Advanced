@@ -30,8 +30,8 @@
                 {
                     "obj" : "Morale",
                     "op" : "LessThan",
-                    "val" : 5,
-                    "valueConstant" : "5"
+                    "val" : 10,
+                    "valueConstant" : "10"
                 }
             ]
         }
@@ -183,7 +183,7 @@
             "Description" : {
                 "Id" : "outcome_2",
                 "Name" : "Throw a farewell party to improve Morale.",
-                "Details" : "[Argo: Lounge]",
+                "Details" : "[DropShip: Lounge]",
                 "Icon" : ""
             },
             "RequirementList" : [

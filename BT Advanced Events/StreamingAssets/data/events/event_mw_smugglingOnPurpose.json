@@ -1,7 +1,7 @@
 {
     "Description" : {
         "Id" : "event_mw_smugglingOnPurpose",
-        "Name" : "Engaging in some Light Smuggling",
+        "Name" : "Engaging In Some Light Smuggling",
         "Details" : "[[TGT_MW,{TGT_MW.Callsign}]] calls up from the planet's surface with an interesting opportunity. \"Hey, Commander, remember that stuff on the planetary-restricted list that you wanted me to track down a source for? Well, while I was poking around, this guy calling himself an 'export-import specialist' walked up to me. He was looking for help transporting three stock Medium Lasers off-planet to his friends waiting in orbit\u2026 what do you want me to do?\"",
         "Icon" : "uixTxrSpot_IllicitDealings.png"
     },
@@ -53,18 +53,6 @@
                     "valueConstant" : "[rep_disliked_max]"
                 }
             ]
-        },
-        {
-            "Scope" : "StarSystem",
-            "RequirementTags" : {
-                "items" : [
-                    "planet_other_blackmarket"
-                ],
-            },
-            "ExclusionTags" : {
-                "items" : null,
-            },
-            "RequirementComparisons" : []
         }
     ],
     "AdditionalObjects" : [],

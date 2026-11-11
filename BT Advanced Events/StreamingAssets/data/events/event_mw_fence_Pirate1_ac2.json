@@ -114,7 +114,7 @@
                         {
                             "obj" : "Funds",
                             "op" : "GreaterThan",
-                            "val" : 10000,
+                            "val" : 100000,
                             "valueConstant" : "100000"
                         }
                     ]

@@ -57,7 +57,7 @@
                     "Description" : {
                         "Id" : "outcome_0_0",
                         "Name" : "nothing happens",
-                        "Details" : "\"Well, clearly we'll have to abandon this plan. If it doesn't work for everybody, it's useless. Shut it down, Doctor.\"\n\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] grins as Dr. Murad protests. \"But Commander, it was quite a bit of work getting the Argo systems to accept...\"\n\r\n\r\n\"And good work it was, Doctor. But working with the Argo has always been two steps forward, one step back, hasn't it?\"\n\r\n\r\nWith a sigh, Dr. Murad acquiesces.",
+                        "Details" : "\"Well, clearly we'll have to abandon this plan. If it doesn't work for everybody, it's useless. Shut it down, Doctor.\"\n\r\n\r\n[[TGT_MW,{TGT_MW.Callsign}]] grins as Dr. Murad protests. \"But Commander, it was quite a bit of work getting the ship's systems to accept...\"\n\r\n\r\n\"And good work it was, Doctor. But working with this ship has always been two steps forward, one step back, hasn't it?\"\n\r\n\r\nWith a sigh, Dr. Murad acquiesces.",
                         "Icon" : null
                     },
                     "Weight" : 100,

@@ -393,7 +393,7 @@
             "Description" : {
                 "Id" : "outcome_3",
                 "Name" : "Remind {TGT_MW.Callsign} that {TGT_MW.SUBJ} can stargaze from the Low-G Pool.",
-                "Details" : "[Requires: Low-G Pool]",
+                "Details" : "[DropShip: Low-G Pool]",
                 "Icon" : null
             },
             "RequirementList" : [
