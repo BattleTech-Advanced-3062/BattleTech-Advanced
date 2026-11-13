@@ -124,7 +124,9 @@
 		"LimbMaxChance": 1,
 		"ComponentMinChance": 1,
 		"ComponentMaxChance": 1,
-		"RepairTPMaxEffect": 0.66
+		"RepairTPMaxEffect": 0.66,
+		"RewardRareItemByValue ": true,
+		"RewardSortOrder ": "CategoryThenValue"
 	},
 	"Manifest": [
 		{
