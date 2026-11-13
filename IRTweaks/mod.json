@@ -46,6 +46,7 @@
 			"MechbayLayout": true,
 			"MechbayLayoutDisableStore": true,
 			"MechbayAdvancedStripping": true,
+			"MonthlyContractRefresh": false,
 			"MultiTargetStat": true,
 			"OnWeaponFireFix": true,
 			"PainTolerance": true,
