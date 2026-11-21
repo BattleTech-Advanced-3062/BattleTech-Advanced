@@ -70,7 +70,7 @@
 		"Manufacturer": "Victory",
 		"Model": "Heavy Plasma Rifle",
 		"UIName": "Heavy Plasma Rifle",
-		"Id": "Weapon_Plasma_Rifle_Heavy_Cannon",
+		"Id": "Weapon_Plasma_Rifle_Heavy_Canon",
 		"Name": "Heavy Plasma Rifle",
 		"Details": "The Heavy Plasma Rifle is an advanced version of the standard Plasma Rifle that accelerates more kinetic foam into a focused plasma projectile, doing even more damage and creating even more heat build up than the original PLasma Rifle was capable of. However, it pays for this by generating much more waste heat for the user, weighing more, and taking more internal space than the original design. Still, the tradeoffs are considered acceptable by most users. \n\n<b><color=#ffcc00>Uses Heavy Plasma Ammo.</color></b>",
 		"Icon": "particle"
