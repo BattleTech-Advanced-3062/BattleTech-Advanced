@@ -342,7 +342,7 @@
 		},
 		{
 			"MountedLocation": "RightArm",
-			"ComponentDefID": "Weapon_Plasma_Rifle_Heavy_Canon",
+			"ComponentDefID": "Weapon_Plasma_Rifle_Heavy_Cannon",
 			"SimGameUID": "",
 			"ComponentDefType": "Weapon",
 			"HardpointSlot": 0,
