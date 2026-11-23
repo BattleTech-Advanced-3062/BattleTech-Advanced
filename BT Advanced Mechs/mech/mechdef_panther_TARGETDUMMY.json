@@ -1,0 +1,111 @@
+{
+    "MechTags" : {
+        "items" : [
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile" : ""
+    },
+    "ChassisID" : "chassisdef_panther_TARGETDUMMY",
+    "HeraldryID" : null,
+    "Description" : {
+        "Cost" : 3100000,
+        "Rarity" : 1,
+        "Purchasable" : false,
+        "Manufacturer" : null,
+        "Model" : null,
+        "UIName" : null,
+        "Id" : "mechdef_panther_TARGETDUMMY",
+        "Name" : "Target Dummy",
+        "Details" : "",
+        "Icon" : ""
+    },
+    "simGameMechPartCost" : 1000000,
+    "Version" : 1,
+    "Locations" : [
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "Head",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : -1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : -1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "LeftArm",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : -1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : -1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "LeftTorso",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : 1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : 1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "CenterTorso",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : 1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : 1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "RightTorso",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : 1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : 1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "RightArm",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : -1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : -1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "LeftLeg",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : -1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : -1
+        },
+        {
+            "DamageLevel" : "Functional",
+            "Location" : "RightLeg",
+            "CurrentArmor" : 1,
+            "CurrentRearArmor" : -1,
+            "CurrentInternalStructure" : 1,
+            "AssignedArmor" : 1,
+            "AssignedRearArmor" : -1
+        }
+    ],
+    "inventory" : [
+        {
+            "MountedLocation" : "Head",
+            "ComponentDefID" : "TargetDummyMod",
+            "SimGameUID" : null,
+            "ComponentDefType" : "Upgrade",
+            "HardpointSlot" : 0,
+            "GUID" : null,
+            "DamageLevel" : "Functional",
+            "prefabName" : null,
+            "hasPrefabName" : false
+        }
+    ]
+}
