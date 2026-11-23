@@ -17,7 +17,7 @@
 	},
 	"Category": "Ballistic",
 	"Type": "Autocannon",
-	"WeaponSubType": "LB5X",
+	"WeaponSubType": "AC5",
 	"MinRange": 90,
 	"MaxRange": 840,
 	"RangeSplit": [
