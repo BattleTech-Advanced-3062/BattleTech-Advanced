@@ -24,17 +24,17 @@
 			"planet_other_newcolony",
 			"planet_other_pirate",
 			"planet_faction_magistracyofcanopus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

@@ -22,7 +22,7 @@
 			"planet_industry_poor",
 			"planet_industry_agriculture",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -35,10 +35,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

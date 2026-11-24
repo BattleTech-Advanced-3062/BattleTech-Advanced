@@ -23,7 +23,7 @@
 			"planet_industry_agriculture",
 			"planet_faction_davion",
 			"planet_gameworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -35,10 +35,10 @@
 		"lowlandsCoastal"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 15,

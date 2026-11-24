@@ -52,7 +52,7 @@
 			"SanctuaryMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_talos_TLS-1B",

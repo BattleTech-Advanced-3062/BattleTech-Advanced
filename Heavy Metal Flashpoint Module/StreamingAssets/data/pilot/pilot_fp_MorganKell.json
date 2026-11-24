@@ -60,7 +60,7 @@
 			"pilot_npc_d9",
 			"BLACKLISTED",
 			"pilot_cannot_be_headshot"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsImmortal": true

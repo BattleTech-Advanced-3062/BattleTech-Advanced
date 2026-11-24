@@ -15,7 +15,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_woodsman_WDM-PRIME",
 	"HeraldryID": null,

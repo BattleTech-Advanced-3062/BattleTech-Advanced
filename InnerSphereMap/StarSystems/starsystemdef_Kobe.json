@@ -27,7 +27,7 @@
 			"planet_other_starleague",
 			"planet_other_ruins",
 			"planet_faction_clanwolf"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -35,10 +35,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

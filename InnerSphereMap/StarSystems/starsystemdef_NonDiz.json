@@ -24,17 +24,17 @@
 			"planet_name_nondiz",
 			"planet_faction_davion",
 			"planet_industry_mining"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

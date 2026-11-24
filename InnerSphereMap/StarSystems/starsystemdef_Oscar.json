@@ -24,17 +24,17 @@
 			"planet_other_newcolony",
 			"planet_other_pirate",
 			"planet_faction_taurianconcordat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 14,

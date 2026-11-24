@@ -23,7 +23,7 @@
 			"planet_other_megacity",
 			"planet_name_samantha",
 			"planet_faction_taurian"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -33,10 +33,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

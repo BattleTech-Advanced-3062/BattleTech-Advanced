@@ -26,7 +26,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_jumpOK"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_madcatmkii_DS",
 	"HeraldryID": null,

@@ -27,7 +27,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_blackmarket",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -35,10 +35,10 @@
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

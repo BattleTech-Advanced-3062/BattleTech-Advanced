@@ -30,7 +30,7 @@
 			"planet_other_comstar",
 			"planet_other_hub",
 			"planet_faction_clanwolf"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -43,10 +43,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

@@ -23,17 +23,17 @@
 			"planet_industry_mining",
 			"planet_faction_davion",
 			"planet_tortugan_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

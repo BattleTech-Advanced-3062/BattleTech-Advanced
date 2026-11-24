@@ -22,7 +22,7 @@
 			"ai_shooting_high",
 			"ai_surrounded_high",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_bombard_BMB-TB",
 	"HeraldryID": null,

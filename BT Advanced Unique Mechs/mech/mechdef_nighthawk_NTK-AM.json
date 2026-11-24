@@ -9,7 +9,7 @@
 			"unit_lance_support",
 			"unit_role_scout",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_nighthawk_NTK-AM",
 	"HeraldryID": null,

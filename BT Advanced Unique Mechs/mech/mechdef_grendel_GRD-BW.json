@@ -25,7 +25,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_role_sniper"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_grendel_GRD-BW",
 	"HeraldryID": null,

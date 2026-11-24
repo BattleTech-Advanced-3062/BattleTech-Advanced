@@ -61,7 +61,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-2PA",
 	"HeraldryID": null,
@@ -78,7 +78,7 @@
 		"Icon": "uixTxrIcon_whitworth"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

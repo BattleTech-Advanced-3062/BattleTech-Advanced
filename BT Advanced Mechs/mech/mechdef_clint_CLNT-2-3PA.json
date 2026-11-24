@@ -61,7 +61,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_clint_CLNT-2-3PA",
 	"HeraldryID": null,
@@ -78,7 +78,7 @@
 		"Icon": "uixTxrIcon_clint"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

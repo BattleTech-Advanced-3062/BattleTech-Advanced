@@ -16,7 +16,7 @@
 			"40thShadowDivision",
 			"9thDivisionWoB",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_kintaro_KTO-19s",
 	"HeraldryID": null,
@@ -33,7 +33,7 @@
 		"Icon": "uixTxrIcon_kintaro"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

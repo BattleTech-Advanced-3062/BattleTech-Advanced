@@ -3,7 +3,7 @@
 		"items": [
 			"BLACKLISTED",
 			"unit_mech"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_deploy_director",
 	"HeraldryID": null,

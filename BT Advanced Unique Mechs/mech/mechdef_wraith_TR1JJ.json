@@ -11,7 +11,7 @@
 			"unit_lance_assassin",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_wraith_TR1JJ",
 	"HeraldryID": null,

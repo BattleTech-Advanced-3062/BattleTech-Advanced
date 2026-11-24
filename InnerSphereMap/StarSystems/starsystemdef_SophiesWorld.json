@@ -30,17 +30,17 @@
 			"planet_other_comstar",
 			"planet_other_blackmarket",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

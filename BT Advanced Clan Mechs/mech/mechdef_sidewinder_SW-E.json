@@ -32,7 +32,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sidewinder_SW-E",
 	"HeraldryID": null,

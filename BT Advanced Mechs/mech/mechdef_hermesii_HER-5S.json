@@ -122,7 +122,7 @@
 			"SelfEmployed",
 			"FlakJackals",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hermesii_HER-5S",
 	"HeraldryID": null,
@@ -139,7 +139,7 @@
 		"Icon": "uixTxrIcon_hermes"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

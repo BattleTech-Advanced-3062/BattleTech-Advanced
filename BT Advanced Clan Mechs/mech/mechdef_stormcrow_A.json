@@ -27,7 +27,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_stormcrow_A",
 	"HeraldryID": null,

@@ -17,7 +17,7 @@
 			"PleiadesHussars",
 			"3rdTaurianLancers",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_talos_TLS-2B",
 	"HeraldryID": null,
@@ -34,7 +34,7 @@
 		"Icon": "uixTxrIcon_talos"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -22,7 +22,7 @@
 			"planet_civ_periphery",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Jaivardhan"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -34,10 +34,10 @@
 		"lowlandsCoastal"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

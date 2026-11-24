@@ -161,7 +161,7 @@
 			"OmniMech",
 			"HeroMech",
 			"LightMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_spider_SDR-5V",

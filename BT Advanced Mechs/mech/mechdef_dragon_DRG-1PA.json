@@ -58,7 +58,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_dragon_DRG-1PA",
 	"HeraldryID": null,
@@ -75,7 +75,7 @@
 		"Icon": "uixTxrIcon_dragon"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -95,7 +95,7 @@
 			"ArmLimitLowerLeft",
 			"MediumMech",
 			"HeroMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_icarusii_ICR-1S",

@@ -140,6 +140,6 @@
 			"PPCCapacitorSupported-Snubgun",
 			"PPCFCSSupported-Snubgun",
 			"WebbTCSupported-SnubgunPPC"
-		],
+		]
 	}
 }

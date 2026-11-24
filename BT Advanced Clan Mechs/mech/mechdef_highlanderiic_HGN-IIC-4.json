@@ -14,7 +14,7 @@
 			"CGBThetaGalaxy",
 			"unit_legal",
 			"unit_jumpOK"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_highlanderiic_HGN-IIC-4",
 	"HeraldryID": null,
@@ -31,7 +31,7 @@
 		"Icon": "uixTxrIcon_highlanderiic"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

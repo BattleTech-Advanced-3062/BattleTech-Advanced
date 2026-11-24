@@ -23,7 +23,7 @@
 			"planet_other_comstar",
 			"planet_other_newcolony",
 			"planet_faction_cameron"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -31,10 +31,10 @@
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 14,

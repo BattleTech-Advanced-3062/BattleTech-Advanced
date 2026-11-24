@@ -28,7 +28,7 @@
 			"ClanGoliathScorpion",
 			"unit_legal",
 			"unit_role_sniper"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_shadowcat_M",
 	"HeraldryID": null,

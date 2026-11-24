@@ -58,7 +58,7 @@
 		"items": [
 			"MediumMech",
 			"HeroMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

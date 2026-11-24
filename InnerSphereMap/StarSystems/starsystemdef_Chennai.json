@@ -21,7 +21,7 @@
 			"planet_name_chennai",
 			"planet_faction_liao",
 			"planet_industry_chemicals"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -31,10 +31,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

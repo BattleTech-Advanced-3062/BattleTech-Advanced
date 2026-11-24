@@ -21,7 +21,7 @@
 			"planet_pop_small",
 			"planet_industry_mining",
 			"planet_faction_circinus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -29,10 +29,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

@@ -22,7 +22,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_thug_THG-DIL",
 	"HeraldryID": null,

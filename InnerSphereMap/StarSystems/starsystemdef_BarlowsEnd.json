@@ -28,17 +28,17 @@
 			"planet_industry_agriculture",
 			"planet_other_ruins",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 6,

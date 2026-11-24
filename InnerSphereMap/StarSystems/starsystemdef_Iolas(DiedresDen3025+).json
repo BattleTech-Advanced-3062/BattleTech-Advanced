@@ -32,7 +32,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_comstar",
 			"planet_faction_circinus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -40,10 +40,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 11,

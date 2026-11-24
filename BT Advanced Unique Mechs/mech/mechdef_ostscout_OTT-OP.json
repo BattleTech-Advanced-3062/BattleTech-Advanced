@@ -26,7 +26,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_high",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_ostscout_OTT-OP",
 	"HeraldryID": null,

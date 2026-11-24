@@ -27,7 +27,7 @@
 			"planet_faction_magistracyofcanopus",
 			"planet_industry_electronics",
 			"planet_industry_chemicals"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -40,10 +40,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

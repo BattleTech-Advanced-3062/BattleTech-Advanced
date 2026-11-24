@@ -33,17 +33,17 @@
 			"planet_other_blackmarket",
 			"planet_other_boreholes",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

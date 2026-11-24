@@ -22,7 +22,7 @@
 			"ai_surrounded_low",
 			"unit_legal",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_kodiak_SMK",
 	"HeraldryID": null,

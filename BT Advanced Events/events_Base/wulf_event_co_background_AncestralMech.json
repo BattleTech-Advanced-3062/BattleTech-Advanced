@@ -489,6 +489,6 @@
 	"EventType": "UNSELECTABLE",
 	"OneTimeEvent": false,
 	"Tags": {
-		"items": [],
+		"items": []
 	}
 }

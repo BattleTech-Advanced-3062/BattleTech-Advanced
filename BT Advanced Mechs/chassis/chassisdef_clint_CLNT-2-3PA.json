@@ -61,7 +61,7 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

@@ -25,7 +25,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_boreholes",
 			"planet_faction_wordofblake"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -33,10 +33,10 @@
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

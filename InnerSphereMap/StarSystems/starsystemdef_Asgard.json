@@ -27,7 +27,7 @@
 			"planet_other_comstar",
 			"planet_other_blackmarket",
 			"planet_faction_clannovacat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -41,10 +41,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 3,

@@ -27,7 +27,7 @@
 			"planet_faction_tortuga",
 			"planet_factory",
 			"planet_davion_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -40,10 +40,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

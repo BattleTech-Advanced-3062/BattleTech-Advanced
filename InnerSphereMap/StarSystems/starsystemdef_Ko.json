@@ -23,7 +23,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_comstar",
 			"planet_faction_cameron"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -36,10 +36,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

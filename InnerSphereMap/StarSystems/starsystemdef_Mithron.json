@@ -20,7 +20,7 @@
 			"planet_industry_manufacturing",
 			"planet_name_mithron",
 			"planet_faction_taurian"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -28,10 +28,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

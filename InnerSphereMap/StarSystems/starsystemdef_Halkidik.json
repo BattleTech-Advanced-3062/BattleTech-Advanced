@@ -21,7 +21,7 @@
 			"planet_civ_primitive",
 			"planet_industry_agriculture",
 			"planet_faction_delphi"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -29,10 +29,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

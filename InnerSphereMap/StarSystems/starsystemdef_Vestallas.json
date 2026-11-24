@@ -27,7 +27,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_starleague",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -39,10 +39,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

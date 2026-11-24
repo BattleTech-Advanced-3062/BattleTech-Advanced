@@ -26,7 +26,7 @@
 			"planet_other_megacity",
 			"planet_name_larsha",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -42,10 +42,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 11,

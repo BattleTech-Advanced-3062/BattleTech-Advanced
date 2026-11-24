@@ -31,7 +31,7 @@
 			"planet_other_alienvegetation",
 			"planet_factory",
 			"planet_faction_rasalhague"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -40,10 +40,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 27,

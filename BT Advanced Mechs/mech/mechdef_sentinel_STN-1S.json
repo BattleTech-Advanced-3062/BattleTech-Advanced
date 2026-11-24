@@ -25,7 +25,7 @@
 			"2ndFreeWorldsGuards",
 			"30thMarikMilitia",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sentinel_STN-1S",
 	"HeraldryID": null,
@@ -42,7 +42,7 @@
 		"Icon": "uixTxrIcon_sentinel"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

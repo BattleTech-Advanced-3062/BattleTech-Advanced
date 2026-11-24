@@ -23,7 +23,7 @@
 			"planet_industry_poor",
 			"planet_industry_agriculture",
 			"planet_faction_oberon"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -35,10 +35,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

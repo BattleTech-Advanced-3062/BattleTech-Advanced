@@ -52,7 +52,7 @@
 			"Moderbjorn",
 			"BaumannGroup",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_cataphract_CTF-1PA",
 	"HeraldryID": null,
@@ -69,7 +69,7 @@
 		"Icon": "uixTxrIcon_cataphract"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

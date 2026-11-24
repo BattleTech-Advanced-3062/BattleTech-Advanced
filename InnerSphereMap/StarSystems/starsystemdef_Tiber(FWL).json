@@ -27,7 +27,7 @@
 			"planet_other_starleague",
 			"planet_other_blackmarket",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -40,10 +40,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 14,

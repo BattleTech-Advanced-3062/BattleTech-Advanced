@@ -13,7 +13,7 @@
 			"unit_superheavy",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_ono_ONO-4K",
 	"HeraldryID": null,

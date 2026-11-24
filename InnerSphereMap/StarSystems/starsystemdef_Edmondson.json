@@ -24,17 +24,17 @@
 			"planet_other_boreholes",
 			"planet_other_ruins",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

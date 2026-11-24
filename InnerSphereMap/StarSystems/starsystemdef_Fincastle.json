@@ -27,17 +27,17 @@
 			"planet_industry_manufacturing",
 			"planet_other_alienvegetation",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

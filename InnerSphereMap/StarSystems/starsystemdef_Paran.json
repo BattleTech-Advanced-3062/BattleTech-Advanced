@@ -21,7 +21,7 @@
 			"planet_industry_agriculture",
 			"planet_faction_rimworldsrepublic",
 			"planet_hanseatic_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -33,10 +33,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 33,

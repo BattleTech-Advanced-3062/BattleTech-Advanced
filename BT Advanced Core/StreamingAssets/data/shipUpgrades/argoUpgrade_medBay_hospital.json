@@ -18,7 +18,7 @@
 		"items": [
 			"argoUpgrade_medBay3",
 			"argoUpgrade_power3"
-		],
+		]
 	},
 	"Requirements": [],
 	"TechCost": 30,
@@ -27,7 +27,7 @@
 	"Tags": {
 		"items": [
 			"argo_medbay_hospital"
-		],
+		]
 	},
 	"Stats": [
 		{

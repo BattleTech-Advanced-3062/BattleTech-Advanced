@@ -47,7 +47,7 @@
 			"pilot_davion",
 			"pilot_vehicle_crew",
 			"pilot_nomech_crew"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -83,7 +83,7 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"HeavyMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_cataphract_CTF-4X",

@@ -31,7 +31,7 @@
 			"planet_faction_davion",
 			"planet_salvageyard",
 			"planet_factory"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -44,10 +44,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

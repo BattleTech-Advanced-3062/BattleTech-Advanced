@@ -25,7 +25,7 @@
 			"planet_industry_poor",
 			"planet_faction_jacobsonhaven",
 			"planet_name_Weiss"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -33,10 +33,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

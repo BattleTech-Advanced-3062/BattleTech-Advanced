@@ -22,7 +22,7 @@
 			"3rdAllianceAirWing",
 			"CalderonsCommandos",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_talos_TLS-1PAL",
 	"HeraldryID": null,
@@ -39,7 +39,7 @@
 		"Icon": "uixTxrIcon_talos"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

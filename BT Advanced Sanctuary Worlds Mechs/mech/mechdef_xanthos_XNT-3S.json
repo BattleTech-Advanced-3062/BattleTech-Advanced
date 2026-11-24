@@ -16,7 +16,7 @@
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_xanthos_XNT-3S",
 	"HeraldryID": null,

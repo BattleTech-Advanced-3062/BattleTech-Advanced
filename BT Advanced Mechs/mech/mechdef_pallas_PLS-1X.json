@@ -7,7 +7,7 @@
 			"unit_lance_vanguard",
 			"unit_role_scout",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_pallas_PLS-1X",
 	"HeraldryID": null,

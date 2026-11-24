@@ -23,7 +23,7 @@
 			"planet_industry_chemicals",
 			"planet_faction_mallardrepublic",
 			"planet_name_Knox"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -31,10 +31,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

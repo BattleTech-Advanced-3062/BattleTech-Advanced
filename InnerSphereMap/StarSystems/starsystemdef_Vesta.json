@@ -23,7 +23,7 @@
 			"planet_industry_research",
 			"planet_faction_danesacellum",
 			"planet_name_Vesta"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -31,10 +31,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

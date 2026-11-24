@@ -18,7 +18,7 @@
 		"items": [
 			"argoUpgrade_medBay1",
 			"argoUpgrade_pod2"
-		],
+		]
 	},
 	"Requirements": [],
 	"TechCost": 15,
@@ -27,7 +27,7 @@
 	"Tags": {
 		"items": [
 			"argo_medBay2"
-		],
+		]
 	},
 	"Stats": [
 		{

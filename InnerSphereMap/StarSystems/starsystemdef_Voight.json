@@ -24,7 +24,7 @@
 			"planet_industry_electronics",
 			"planet_faction_jacobsonhaven",
 			"planet_name_Voight"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -35,10 +35,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

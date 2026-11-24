@@ -12,7 +12,7 @@
 			"unit_role_brawler",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_icarusii_ICR-DA",
 	"HeraldryID": null,
@@ -29,7 +29,7 @@
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

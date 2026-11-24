@@ -23,7 +23,7 @@
 			"Ignore_SelfKnockdown",
 			"unit_artillery",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_urbanking_URK-SH1",
 	"Description": {

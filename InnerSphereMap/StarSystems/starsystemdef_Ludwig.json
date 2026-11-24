@@ -27,7 +27,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_hub",
 			"planet_faction_kurita"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -35,10 +35,10 @@
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

@@ -6,7 +6,7 @@
 			"unit_flashpoint",
 			"NOSALVAGE",
 			"BLACKLISTED"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_griffin_GRF-1N",
 	"PaintTextureID": null,

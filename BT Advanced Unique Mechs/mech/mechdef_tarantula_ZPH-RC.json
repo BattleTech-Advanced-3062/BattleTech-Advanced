@@ -15,7 +15,7 @@
 			"unit_lance_assassin",
 			"unit_role_scout",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_tarantula_ZPH-RC",
 	"HeraldryID": null,

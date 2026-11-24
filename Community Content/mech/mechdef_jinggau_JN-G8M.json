@@ -21,12 +21,12 @@
 			"TaurianConcordat",
 			"TaurianGuard",
 			"unit_legal"
-		],
+		]
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [
 			"sanctuary_tdf_refit_complete"
-		],
+		]
 	},
 	"MinAppearanceDate": "3063-09-14T00:00:00Z",
 	"ChassisID": "chassisdef_jinggau_JN-G8M",

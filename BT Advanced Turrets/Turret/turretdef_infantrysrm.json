@@ -11,7 +11,7 @@
 	},
 	"ChassisID": "turretchassisdef_infantrysrm",
 	"TurretTags": {
-		"items": [],
+		"items": []
 	},
 	"CurrentArmor": 150,
 	"CurrentInternalStructure": 1,

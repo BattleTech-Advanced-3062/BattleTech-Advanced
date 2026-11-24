@@ -21,7 +21,7 @@
 			"planet_other_battlefield",
 			"planet_name_calseraigne",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -29,10 +29,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 4,

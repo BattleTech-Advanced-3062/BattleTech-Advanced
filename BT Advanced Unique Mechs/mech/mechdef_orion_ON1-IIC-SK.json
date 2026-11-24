@@ -24,7 +24,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_high",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_orion_ON1-IIC-SK",
 	"HeraldryID": null,

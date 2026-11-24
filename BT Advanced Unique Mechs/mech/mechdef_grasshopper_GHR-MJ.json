@@ -23,7 +23,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_low",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_grasshopper_GHR-MJ",
 	"HeraldryID": null,

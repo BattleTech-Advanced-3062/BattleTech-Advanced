@@ -240,7 +240,7 @@
 			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_shadowcat",

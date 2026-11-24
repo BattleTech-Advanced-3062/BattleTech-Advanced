@@ -105,6 +105,6 @@
 			"LaserInsulatorSupported-ERPulse",
 			"LaserFCSSupported-ERPulse",
 			"WebbTCSupported-ERPulse"
-		],
+		]
 	}
 }

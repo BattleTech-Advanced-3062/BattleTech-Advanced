@@ -27,7 +27,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_preta_X-PRT-O-SIROCCO",
 	"HeraldryID": null,

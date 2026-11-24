@@ -23,7 +23,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_low",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_dragon_DRG-FLAME",
 	"HeraldryID": null,

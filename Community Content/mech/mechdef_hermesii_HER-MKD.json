@@ -19,7 +19,7 @@
 			"ClanDiamondShark",
 			"MacksMercs",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hermesii_HER-MKD",
 	"HeraldryID": null,
@@ -36,7 +36,7 @@
 		"Icon": "uixTxrIcon_hermes"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

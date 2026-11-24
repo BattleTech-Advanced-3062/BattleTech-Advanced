@@ -10,7 +10,7 @@
 		"items": [
 			"HeroMech",
 			"AssaultMech"
-		],
+		]
 	},
 	"DFADamage": 100,
 	"DFAInstability": 50,

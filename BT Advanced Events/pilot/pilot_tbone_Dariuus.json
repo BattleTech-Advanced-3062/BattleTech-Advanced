@@ -40,7 +40,7 @@
 			"pilot_unstable",
 			"pilot_reckless",
 			"pilot_jinxed"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": false,

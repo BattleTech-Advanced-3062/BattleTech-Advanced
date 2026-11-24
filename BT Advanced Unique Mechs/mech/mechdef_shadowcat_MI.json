@@ -23,7 +23,7 @@
 			"ai_shooting_high",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_shadowcat_MI",
 	"HeraldryID": null,

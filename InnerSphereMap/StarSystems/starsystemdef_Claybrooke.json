@@ -24,7 +24,7 @@
 			"planet_other_moon",
 			"planet_name_claybrooke",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -39,10 +39,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 18,

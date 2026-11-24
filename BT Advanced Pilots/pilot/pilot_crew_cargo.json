@@ -42,7 +42,7 @@
 			"pilot_tech",
 			"pilot_command",
 			"pilot_brave"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

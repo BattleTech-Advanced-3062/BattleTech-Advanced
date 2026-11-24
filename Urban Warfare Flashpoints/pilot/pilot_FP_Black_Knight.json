@@ -50,7 +50,7 @@
 			"pilot_npc_d6",
 			"BLACKLISTED",
 			"pilot_cannot_be_headshot"
-		],
+		]
 	},
 	"PilotCost": 0
 }

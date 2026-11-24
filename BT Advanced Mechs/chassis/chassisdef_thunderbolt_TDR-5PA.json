@@ -82,7 +82,7 @@
 	"ChassisTags": {
 		"items": [
 			"HeavyMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",

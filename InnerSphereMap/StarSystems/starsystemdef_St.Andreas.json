@@ -20,7 +20,7 @@
 			"planet_pop_small",
 			"planet_other_alienvegetation",
 			"planet_faction_locals"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -33,10 +33,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 2,

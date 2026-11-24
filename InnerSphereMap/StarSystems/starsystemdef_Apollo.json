@@ -34,7 +34,7 @@
 			"planet_other_capital",
 			"planet_factory_restricted",
 			"planet_faction_rimworldsrepublic"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -47,10 +47,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

@@ -21,16 +21,16 @@
 			"planet_other_boreholes",
 			"planet_name_liusmemory",
 			"planet_faction_independent"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

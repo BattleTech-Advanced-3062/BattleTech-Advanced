@@ -19,7 +19,7 @@
 			"planet_civ_periphery",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Yetholm"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -27,10 +27,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

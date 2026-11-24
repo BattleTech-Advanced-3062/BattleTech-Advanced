@@ -21,17 +21,17 @@
 			"planet_civ_periphery",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Hoplon"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

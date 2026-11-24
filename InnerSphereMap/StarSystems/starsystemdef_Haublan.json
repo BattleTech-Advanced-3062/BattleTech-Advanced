@@ -24,17 +24,17 @@
 			"planet_other_pirate",
 			"planet_faction_rimworldsrepublic",
 			"planet_hanseatic_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 24,

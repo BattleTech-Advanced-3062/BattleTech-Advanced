@@ -37,7 +37,7 @@
 			"TaurianGuard",
 			"PleiadesHussars",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-2",
 	"HeraldryID": null,
@@ -54,7 +54,7 @@
 		"Icon": "uixTxrIcon_whitworth"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

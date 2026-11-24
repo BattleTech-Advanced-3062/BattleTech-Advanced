@@ -23,17 +23,17 @@
 			"planet_other_moon",
 			"planet_name_pernik",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

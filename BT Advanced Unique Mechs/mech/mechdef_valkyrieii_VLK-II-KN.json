@@ -11,7 +11,7 @@
 			"unit_role_flanker",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_valkyrieii_VLK-II-KN",
 	"HeraldryID": null,

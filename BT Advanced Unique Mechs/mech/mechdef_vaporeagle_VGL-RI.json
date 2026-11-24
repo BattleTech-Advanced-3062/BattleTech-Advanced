@@ -25,7 +25,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_role_brawler"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_vaporeagle_VGL-RI",
 	"HeraldryID": null,

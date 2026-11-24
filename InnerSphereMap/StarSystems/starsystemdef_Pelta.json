@@ -21,17 +21,17 @@
 			"planet_other_alienvegetation",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Pelta"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"lowlandsCoastal"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

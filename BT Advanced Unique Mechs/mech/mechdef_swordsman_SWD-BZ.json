@@ -13,7 +13,7 @@
 			"unit_gladiator",
 			"SolarisVIIMercLeague",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_swordsman_SWD-BZ",
 	"HeraldryID": null,
@@ -30,7 +30,7 @@
 		"Icon": "uixTxrIcon_swordsman"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

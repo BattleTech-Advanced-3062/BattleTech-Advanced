@@ -21,7 +21,7 @@
 			"planet_name_mangzhangdian",
 			"planet_faction_restoration",
 			"planet_industry_chemicals"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -29,10 +29,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

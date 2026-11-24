@@ -21,17 +21,17 @@
 			"planet_industry_poor",
 			"planet_name_dicon",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

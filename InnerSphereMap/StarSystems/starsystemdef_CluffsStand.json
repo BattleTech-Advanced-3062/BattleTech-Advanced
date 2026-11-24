@@ -26,7 +26,7 @@
 			"planet_industry_rich",
 			"planet_name_cluffsstand",
 			"planet_faction_independent"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -42,10 +42,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,
