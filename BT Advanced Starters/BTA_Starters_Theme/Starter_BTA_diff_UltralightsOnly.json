@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_10ton,itemCollection_Mechs_Starting_Ultralight_10ton"
+						"ConstantValue": "itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_15ton,itemCollection_Mechs_Starting_Ultralight_10ton,itemCollection_Mechs_Starting_Ultralight_10ton"
 					}
 				]
 			}

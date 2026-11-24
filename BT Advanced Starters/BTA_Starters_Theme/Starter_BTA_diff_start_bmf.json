@@ -19,7 +19,7 @@
 					{
 						"ConstantType": "CareerMode",
 						"ConstantName": "StartingRandomMechLists",
-						"ConstantValue": "itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug"
+						"ConstantValue": "itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug,itemCollection_Mechs_Generic_Bug"
 					}
 				]
 			}
