@@ -22,17 +22,17 @@
 			"planet_industry_research",
 			"planet_factory",
 			"planet_faction_magistracyofcanopus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 15,

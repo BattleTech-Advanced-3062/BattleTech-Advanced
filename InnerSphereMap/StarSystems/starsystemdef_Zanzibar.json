@@ -24,7 +24,7 @@
 			"planet_other_megacity",
 			"planet_name_zanzibar",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -33,10 +33,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

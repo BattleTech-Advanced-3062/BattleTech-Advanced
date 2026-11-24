@@ -26,7 +26,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_ruins",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -34,10 +34,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

@@ -23,7 +23,7 @@
 			"ai_surrounded_high",
 			"unit_legal",
 			"unit_advanced"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_rifleman_RFL-IIC-CH",
 	"HeraldryID": null,

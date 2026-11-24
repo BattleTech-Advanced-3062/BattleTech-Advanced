@@ -30,7 +30,7 @@
 			"planet_factory_restricted",
 			"planet_other_hub",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -43,10 +43,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

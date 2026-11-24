@@ -13,7 +13,7 @@
 			"DeathCommandos",
 			"1stMcCarronsArmoredCavalry",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_laohu_LHU-4M",
 	"HeraldryID": null,
@@ -30,7 +30,7 @@
 		"Icon": "uixTxrIcon_laohu"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

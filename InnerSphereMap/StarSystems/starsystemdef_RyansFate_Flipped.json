@@ -21,17 +21,17 @@
 			"planet_name_ryansfate",
 			"planet_faction_restoration",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

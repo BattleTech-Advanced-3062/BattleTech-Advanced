@@ -27,7 +27,7 @@
 			"planet_other_comstar",
 			"planet_other_starleague",
 			"planet_faction_clanghostbear"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -35,10 +35,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

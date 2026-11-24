@@ -24,17 +24,17 @@
 			"planet_other_comstar",
 			"planet_other_boreholes",
 			"planet_faction_kurita"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 13,

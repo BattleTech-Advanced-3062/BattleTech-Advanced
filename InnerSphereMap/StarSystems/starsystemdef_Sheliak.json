@@ -22,17 +22,17 @@
 			"planet_industry_poor",
 			"planet_industry_recreation",
 			"planet_faction_clanghostbear"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

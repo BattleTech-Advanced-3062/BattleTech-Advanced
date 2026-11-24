@@ -23,7 +23,7 @@
 			"planet_name_bellerophon",
 			"planet_faction_independent",
 			"planet_bellerophon_fp_whitelies"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -31,10 +31,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

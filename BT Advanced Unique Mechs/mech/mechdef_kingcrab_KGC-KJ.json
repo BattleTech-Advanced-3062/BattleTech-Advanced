@@ -23,7 +23,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_kingcrab_KGC-KJ",
 	"HeraldryID": null,

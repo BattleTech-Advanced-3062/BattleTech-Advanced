@@ -12,7 +12,7 @@
 			"Marik",
 			"1stKnightsOfTheInnerSphere",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_titan_TI-1G",
 	"HeraldryID": null,
@@ -29,7 +29,7 @@
 		"Icon": "uixTxrIcon_titan"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

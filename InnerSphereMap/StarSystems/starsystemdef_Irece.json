@@ -35,7 +35,7 @@
 			"planet_factory_restricted",
 			"planet_other_boreholes",
 			"planet_faction_clannovacat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -48,10 +48,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

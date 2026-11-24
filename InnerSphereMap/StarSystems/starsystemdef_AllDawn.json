@@ -22,7 +22,7 @@
 			"planet_industry_agriculture",
 			"planet_other_alienvegetation",
 			"planet_faction_nofaction"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -34,10 +34,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

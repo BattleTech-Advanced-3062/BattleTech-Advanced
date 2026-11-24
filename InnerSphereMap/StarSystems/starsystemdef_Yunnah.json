@@ -21,17 +21,17 @@
 			"planet_other_alienvegetation",
 			"planet_other_newcolony",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

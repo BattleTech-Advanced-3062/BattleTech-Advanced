@@ -18,7 +18,7 @@
 			"CWEpsilonGalaxy",
 			"unit_legal",
 			"unit_jumpOK"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hunchbackiic_HBK-IIC-6",
 	"HeraldryID": null,
@@ -35,7 +35,7 @@
 		"Icon": "uixTxrIcon_hunchbackiic"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

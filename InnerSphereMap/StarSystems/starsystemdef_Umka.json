@@ -27,7 +27,7 @@
 			"planet_other_comstar",
 			"planet_faction_marik",
 			"planet_salvageyard"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -35,10 +35,10 @@
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

@@ -26,16 +26,16 @@
 			"planet_industry_agriculture",
 			"planet_other_starleague",
 			"planet_faction_taurianconcordat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

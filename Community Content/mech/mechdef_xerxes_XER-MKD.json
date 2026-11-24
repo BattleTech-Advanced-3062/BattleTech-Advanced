@@ -27,7 +27,7 @@
 			"unit_superheavy",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_xerxes_XER-MKD",
 	"Description": {

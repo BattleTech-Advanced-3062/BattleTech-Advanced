@@ -18,17 +18,17 @@
 			"planet_feature_gasgiant",
 			"planet_pop_none",
 			"planet_faction_outworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

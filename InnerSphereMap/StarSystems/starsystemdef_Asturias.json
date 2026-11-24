@@ -25,7 +25,7 @@
 			"planet_industry_manufacturing",
 			"planet_faction_castile",
 			"planet_factory"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -34,10 +34,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

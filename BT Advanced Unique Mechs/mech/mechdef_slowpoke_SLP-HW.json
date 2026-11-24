@@ -23,7 +23,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_slowpoke_SLP-HW",
 	"HeraldryID": null,

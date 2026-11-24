@@ -27,17 +27,17 @@
 			"planet_other_starleague",
 			"planet_other_alienvegetation",
 			"planet_faction_marian"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

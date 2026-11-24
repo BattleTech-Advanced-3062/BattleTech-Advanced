@@ -40,17 +40,17 @@
 			"planet_other_ruins",
 			"planet_factory",
 			"planet_faction_circinus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": -2,

@@ -23,17 +23,17 @@
 			"planet_industry_poor",
 			"planet_other_pirate",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

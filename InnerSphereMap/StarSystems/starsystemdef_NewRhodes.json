@@ -23,17 +23,17 @@
 			"planet_industry_recreation",
 			"planet_industry_research",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 2,

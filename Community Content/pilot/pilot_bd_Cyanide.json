@@ -52,7 +52,7 @@
 			"name_cyanide",
 			"pilot_honest",
 			"pilot_tech"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -23,7 +23,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_advanced"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_bloodasp_RA",
 	"HeraldryID": null,

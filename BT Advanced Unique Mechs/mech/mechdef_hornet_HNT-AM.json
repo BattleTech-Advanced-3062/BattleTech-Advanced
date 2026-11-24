@@ -10,7 +10,7 @@
 			"unit_role_scout",
 			"unit_range_medium",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hornet_HNT-AM",
 	"HeraldryID": null,

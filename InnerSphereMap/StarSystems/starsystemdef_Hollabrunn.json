@@ -20,16 +20,16 @@
 			"planet_industry_poor",
 			"planet_industry_mining",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

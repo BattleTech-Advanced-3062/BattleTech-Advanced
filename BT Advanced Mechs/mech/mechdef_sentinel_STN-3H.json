@@ -15,7 +15,7 @@
 			"StarGuardCorps",
 			"ICorps",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sentinel_STN-3H",
 	"HeraldryID": null,
@@ -32,7 +32,7 @@
 		"Icon": "uixTxrIcon_sentinel"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

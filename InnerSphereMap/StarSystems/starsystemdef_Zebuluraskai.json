@@ -22,17 +22,17 @@
 			"planet_industry_rich",
 			"planet_faction_nofaction",
 			"planet_other_empty"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

@@ -58,7 +58,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_blackknight_BL-7PA-KNT",
 	"HeraldryID": null,
@@ -75,7 +75,7 @@
 		"Icon": "uixTxrIcon_blackknight"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

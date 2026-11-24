@@ -23,7 +23,7 @@
 			"planet_other_megacity",
 			"planet_name_ryerson",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -32,10 +32,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

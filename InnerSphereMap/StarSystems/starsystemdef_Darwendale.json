@@ -26,7 +26,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_blackmarket",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -34,10 +34,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

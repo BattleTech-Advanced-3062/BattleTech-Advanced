@@ -23,17 +23,17 @@
 			"planet_industry_mining",
 			"planet_faction_danesacellum",
 			"planet_name_Pomona"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

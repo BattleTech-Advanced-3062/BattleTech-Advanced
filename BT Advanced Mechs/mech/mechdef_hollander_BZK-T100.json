@@ -118,7 +118,7 @@
 			"FlakJackals",
 			"unit_artillery",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hollander_BZK-T100",
 	"HeraldryID": null,

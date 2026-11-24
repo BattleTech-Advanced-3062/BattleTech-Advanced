@@ -33,16 +33,16 @@
 			"planet_other_prison",
 			"planet_other_ruins",
 			"planet_faction_magistracyofcanopus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": -7,

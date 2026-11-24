@@ -35,7 +35,7 @@
 			"planet_other_prison",
 			"planet_other_ruins",
 			"planet_faction_outworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -43,10 +43,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

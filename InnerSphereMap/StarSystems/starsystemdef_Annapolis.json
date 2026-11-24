@@ -21,7 +21,7 @@
 			"planet_civ_primitive",
 			"planet_industry_poor",
 			"planet_faction_kurita"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -34,10 +34,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

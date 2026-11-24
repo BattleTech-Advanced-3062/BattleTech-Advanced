@@ -27,16 +27,16 @@
 			"planet_other_alienvegetation",
 			"planet_other_blackmarket",
 			"planet_faction_wordofblake"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

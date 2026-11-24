@@ -20,7 +20,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_role_brawler"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_vaporeagle_VGL-3",
 	"HeraldryID": null,

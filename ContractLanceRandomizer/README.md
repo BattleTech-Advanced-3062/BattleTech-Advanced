@@ -13,12 +13,12 @@ Update the entries in the contract.json under "player1Team.lanceOverrideList[x].
 For example, to update a player 'Mech from the assgined UM-R60 to a random UrbanMech, change
 	"unitDefId" : "mechdef_urbanmech_UM-R60",
 	"unitTagSet" : {
-		"items" : [],
+		"items" : []
 	}
 to
 	"unitDefId" : "Tagged",
 	"unitTagSet" : {
 		"items" : [
 			"unit_urbie"
-		],
+		]
 	}

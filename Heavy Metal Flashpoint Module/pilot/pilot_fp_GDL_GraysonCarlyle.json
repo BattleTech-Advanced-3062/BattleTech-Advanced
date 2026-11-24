@@ -55,7 +55,7 @@
 			"pilot_dependable",
 			"BLACKLISTED",
 			"pilot_cannot_be_headshot"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsImmortal": true

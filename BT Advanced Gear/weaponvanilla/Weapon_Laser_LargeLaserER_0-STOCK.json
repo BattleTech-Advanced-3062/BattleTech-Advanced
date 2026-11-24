@@ -77,6 +77,6 @@
 			"WebbTCSupported-SingleShot",
 			"LaserPulseSupported-SingleShot",
 			"QuirkStagSupported-ERLargeLaser"
-		],
+		]
 	}
 }

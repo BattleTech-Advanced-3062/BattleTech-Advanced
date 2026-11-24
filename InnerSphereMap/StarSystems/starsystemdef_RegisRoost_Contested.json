@@ -24,7 +24,7 @@
 			"planet_other_moon",
 			"planet_name_regisroost",
 			"planet_faction_restoration"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -34,10 +34,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

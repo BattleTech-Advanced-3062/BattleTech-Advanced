@@ -25,7 +25,7 @@
 			"planet_faction_taurian",
 			"planet_factory",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -34,10 +34,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 6,

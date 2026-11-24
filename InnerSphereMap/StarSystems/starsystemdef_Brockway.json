@@ -24,7 +24,7 @@
 			"planet_name_brockway",
 			"planet_faction_davion",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -33,10 +33,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 4,

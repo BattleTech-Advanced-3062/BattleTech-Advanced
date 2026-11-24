@@ -17,7 +17,7 @@
 			"1stKnightsOfTheInnerSphere",
 			"MacksMercs",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_laohu_LHU-SB",
 	"HeraldryID": null,
@@ -34,7 +34,7 @@
 		"Icon": "uixTxrIcon_laohu"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

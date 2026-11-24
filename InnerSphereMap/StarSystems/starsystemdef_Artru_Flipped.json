@@ -21,16 +21,16 @@
 			"planet_name_artru",
 			"planet_faction_restoration",
 			"planet_other_starleague"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

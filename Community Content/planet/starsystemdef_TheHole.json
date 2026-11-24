@@ -25,16 +25,16 @@
 			"planet_other_prison",
 			"planet_factory",
 			"planet_faction_rimworldsrepublic"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

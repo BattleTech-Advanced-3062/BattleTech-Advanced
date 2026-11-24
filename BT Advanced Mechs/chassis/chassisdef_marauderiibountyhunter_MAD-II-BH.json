@@ -76,7 +76,7 @@
 		"items": [
 			"ClanMech",
 			"AssaultMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_marauderII_MAD-4A",

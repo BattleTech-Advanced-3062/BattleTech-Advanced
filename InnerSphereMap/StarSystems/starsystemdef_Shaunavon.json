@@ -22,16 +22,16 @@
 			"planet_other_blackmarket",
 			"planet_name_shaunavon",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

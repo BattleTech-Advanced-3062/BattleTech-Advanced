@@ -30,7 +30,7 @@
 			"planet_other_alienvegetation",
 			"planet_other_blackmarket",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -44,10 +44,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

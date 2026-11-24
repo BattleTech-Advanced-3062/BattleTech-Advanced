@@ -173,7 +173,7 @@
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"HeavyMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_ebonjaguar",

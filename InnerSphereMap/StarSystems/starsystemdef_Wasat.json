@@ -30,7 +30,7 @@
 			"planet_other_starleague",
 			"planet_other_ruins",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -44,10 +44,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 11,

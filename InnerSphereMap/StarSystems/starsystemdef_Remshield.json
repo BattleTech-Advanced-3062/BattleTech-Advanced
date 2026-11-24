@@ -23,7 +23,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_comstar",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -36,10 +36,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

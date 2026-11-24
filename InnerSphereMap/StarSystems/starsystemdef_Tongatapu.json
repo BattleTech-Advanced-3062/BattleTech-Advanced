@@ -23,17 +23,17 @@
 			"planet_industry_mining",
 			"planet_faction_marik",
 			"planet_factory"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 15,

@@ -23,7 +23,7 @@
 			"planet_industry_agriculture",
 			"planet_other_comstar",
 			"planet_faction_kurita"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -31,10 +31,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

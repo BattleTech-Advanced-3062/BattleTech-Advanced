@@ -59,7 +59,7 @@
 			"mr-resize-1.15-1.15-1.15",
 			"ArmLimitLowerRight",
 			"HeavyMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_talos_TLS-1B",

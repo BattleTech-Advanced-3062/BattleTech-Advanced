@@ -62,7 +62,7 @@
 			"OmniMech",
 			"ArmLimitLowerLeft",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

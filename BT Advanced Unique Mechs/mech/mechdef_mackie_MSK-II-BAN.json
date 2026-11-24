@@ -13,7 +13,7 @@
 			"unit_gladiator",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_mackie_MSK-II-BAN",
 	"HeraldryID": null,

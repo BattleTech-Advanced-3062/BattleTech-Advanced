@@ -15,7 +15,7 @@
 			"TaurianGuard",
 			"PleiadesHussars",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_talos_TLS-3M",
 	"HeraldryID": null,
@@ -32,7 +32,7 @@
 		"Icon": "uixTxrIcon_talos"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -28,7 +28,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_comstar",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -42,10 +42,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

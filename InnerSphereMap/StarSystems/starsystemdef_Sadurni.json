@@ -25,7 +25,7 @@
 			"planet_name_sadurni",
 			"planet_faction_marik",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -39,10 +39,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

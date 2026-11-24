@@ -26,7 +26,7 @@
 			"planet_faction_tortuga",
 			"planet_gameworld",
 			"planet_davion_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"badlandsParched",
@@ -37,10 +37,10 @@
 		"lowlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 16,

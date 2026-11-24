@@ -24,7 +24,7 @@
 			"planet_other_storms",
 			"planet_name_tarragona",
 			"planet_faction_independent"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -34,10 +34,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

@@ -25,17 +25,17 @@
 			"planet_other_ruins",
 			"planet_faction_clanjadefalcon",
 			"planet_salvageyard"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 8,

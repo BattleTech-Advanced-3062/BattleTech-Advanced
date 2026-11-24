@@ -23,7 +23,7 @@
 			"planet_other_blackmarket",
 			"planet_name_borden",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -31,10 +31,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

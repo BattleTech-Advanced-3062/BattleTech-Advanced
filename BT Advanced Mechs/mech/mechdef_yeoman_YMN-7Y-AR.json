@@ -13,7 +13,7 @@
 			"WordOfBlake",
 			"40thShadowDivision",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_yeoman_YMN-7Y-AR",
 	"HeraldryID": null,
@@ -30,7 +30,7 @@
 		"Icon": "uixTxrIcon_yeoman"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

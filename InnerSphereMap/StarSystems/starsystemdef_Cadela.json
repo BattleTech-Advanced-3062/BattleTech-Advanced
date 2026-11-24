@@ -28,7 +28,7 @@
 			"planet_other_ruins",
 			"planet_faction_nofaction",
 			"planet_other_empty"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -37,10 +37,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 15,

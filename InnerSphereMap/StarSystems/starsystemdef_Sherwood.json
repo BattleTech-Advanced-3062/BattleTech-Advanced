@@ -29,7 +29,7 @@
 			"planet_other_starleague",
 			"planet_other_alienvegetation",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -41,10 +41,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

@@ -20,7 +20,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_raven_RVN-H",
 	"HeraldryID": null,

@@ -26,7 +26,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_adder_ADR-CN",
 	"HeraldryID": null,

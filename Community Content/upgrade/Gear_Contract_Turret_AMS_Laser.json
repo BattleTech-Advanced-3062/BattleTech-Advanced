@@ -36,6 +36,6 @@
 			"turretdef_ams_laser",
 			"CanSpawnTurret",
 			"Contract_Turret"
-		],
+		]
 	}
 }

@@ -29,7 +29,7 @@
 			"planet_industry_aquaculture",
 			"planet_industry_manufacturing",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -37,10 +37,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

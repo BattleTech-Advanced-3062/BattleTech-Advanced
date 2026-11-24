@@ -73,6 +73,6 @@
 			"ArtemisIVSRMSupported",
 			"SRMFCSSupported",
 			"WebbTCSupported-SingleShot"
-		],
+		]
 	}
 }

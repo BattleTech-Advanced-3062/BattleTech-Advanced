@@ -21,17 +21,17 @@
 			"planet_industry_mining",
 			"planet_other_prison",
 			"planet_faction_kurita"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 16,

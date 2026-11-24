@@ -16,7 +16,7 @@
 			"1stHeliusLegionnaires",
 			"8thHeliusFusiliers",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-0",
 	"HeraldryID": null,
@@ -33,7 +33,7 @@
 		"Icon": "uixTxrIcon_whitworth"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -31,7 +31,7 @@
 			"planet_factory_restricted",
 			"planet_other_blackmarket",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -39,10 +39,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 19,

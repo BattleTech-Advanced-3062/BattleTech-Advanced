@@ -22,7 +22,7 @@
 			"TheDark",
 			"GreenGhosts",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_whitworth_WTH-1S",
 	"HeraldryID": null,
@@ -39,7 +39,7 @@
 		"Icon": "uixTxrIcon_whitworth"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

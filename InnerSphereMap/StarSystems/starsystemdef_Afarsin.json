@@ -23,7 +23,7 @@
 			"planet_other_starleague",
 			"planet_other_blackmarket",
 			"planet_faction_magistracyofcanopus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -36,10 +36,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 18,

@@ -26,7 +26,7 @@
 			"planet_faction_liao",
 			"planet_factory",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -36,10 +36,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

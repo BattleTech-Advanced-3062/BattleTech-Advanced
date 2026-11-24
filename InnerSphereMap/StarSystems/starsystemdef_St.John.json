@@ -23,17 +23,17 @@
 			"planet_industry_aquaculture",
 			"planet_other_starleague",
 			"planet_faction_clanwolf"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
 		"highlandsSpring"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

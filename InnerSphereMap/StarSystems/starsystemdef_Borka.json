@@ -23,16 +23,16 @@
 			"planet_name_borka",
 			"planet_faction_marik",
 			"planet_other_battlefield"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

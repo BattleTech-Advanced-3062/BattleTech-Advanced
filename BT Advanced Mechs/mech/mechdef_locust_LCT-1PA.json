@@ -57,7 +57,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_locust_LCT-1PA",
 	"HeraldryID": null,
@@ -74,7 +74,7 @@
 		"Icon": "uixTxrIcon_locust"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

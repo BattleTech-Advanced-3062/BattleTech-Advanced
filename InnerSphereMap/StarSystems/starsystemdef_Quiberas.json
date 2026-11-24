@@ -34,7 +34,7 @@
 			"planet_other_boreholes",
 			"planet_other_newcolony",
 			"planet_faction_outworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -42,10 +42,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": -15,

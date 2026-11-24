@@ -30,7 +30,7 @@
 			"planet_other_pirate",
 			"planet_other_capital",
 			"planet_faction_oberon"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -41,10 +41,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 15,

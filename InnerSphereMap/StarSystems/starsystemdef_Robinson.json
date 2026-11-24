@@ -28,17 +28,17 @@
 			"planet_other_comstar",
 			"planet_factory",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

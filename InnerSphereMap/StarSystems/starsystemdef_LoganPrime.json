@@ -31,7 +31,7 @@
 			"planet_other_comstar",
 			"planet_other_pirate",
 			"planet_faction_marian"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -40,10 +40,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 10,

@@ -20,7 +20,7 @@
 			"AuriganRestoration",
 			"MacksMercs",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_talosII_TLS-5T",
 	"HeraldryID": null,
@@ -37,7 +37,7 @@
 		"Icon": "uixTxrIcon_talos"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

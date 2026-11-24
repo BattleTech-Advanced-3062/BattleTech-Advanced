@@ -87,7 +87,7 @@
 			"ArmLimitLowerRight",
 			"ArmLimitUpperLeft",
 			"AssaultMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

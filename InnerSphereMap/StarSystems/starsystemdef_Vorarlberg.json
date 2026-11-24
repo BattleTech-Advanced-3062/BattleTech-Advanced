@@ -27,7 +27,7 @@
 			"planet_other_starleague",
 			"planet_other_blackmarket",
 			"planet_faction_clanghostbear"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -36,10 +36,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

@@ -24,7 +24,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_warhawk_WHK-NQ",
 	"HeraldryID": null,
@@ -41,7 +41,7 @@
 		"Icon": "uixTxrIcon_warhawk"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

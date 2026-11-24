@@ -19,7 +19,7 @@
 			"argoUpgrade_power1",
 			"argoUpgrade_structure1",
 			"argoUpgrade_VeeSlot"
-		],
+		]
 	},
 	"Requirements": [],
 	"TechCost": 6,
@@ -28,7 +28,7 @@
 	"Tags": {
 		"items": [
 			"argo_mechBay_expandedDrop1"
-		],
+		]
 	},
 	"Stats": [
 		{

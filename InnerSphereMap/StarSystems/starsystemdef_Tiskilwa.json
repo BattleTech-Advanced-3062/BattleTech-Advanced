@@ -23,17 +23,17 @@
 			"planet_industry_aquaculture",
 			"planet_other_prison",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

@@ -11,7 +11,7 @@
 			"Kurita",
 			"1stSwordOfLight",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sorcerer_SRC-2K",
 	"HeraldryID": null,
@@ -28,7 +28,7 @@
 		"Icon": "uixTxrIcon_sorcerer"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

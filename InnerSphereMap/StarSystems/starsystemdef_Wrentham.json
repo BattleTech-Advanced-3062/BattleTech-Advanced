@@ -24,7 +24,7 @@
 			"planet_industry_aquaculture",
 			"planet_name_wrentham",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -34,10 +34,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

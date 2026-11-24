@@ -13,7 +13,7 @@
 			"1stKnightsOfTheInnerSphere",
 			"2ndFreeWorldsGuards",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_icarusii_ICR-2M",
 	"HeraldryID": null,
@@ -30,7 +30,7 @@
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -27,7 +27,7 @@
 			"ai_shooting_high",
 			"ai_surrounded_normal",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_maddog_MDD-BA",
 	"HeraldryID": null,

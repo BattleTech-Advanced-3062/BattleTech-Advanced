@@ -23,7 +23,7 @@
 			"planet_civ_innersphere",
 			"planet_industry_agriculture",
 			"planet_faction_rimworldsrepublic"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -32,10 +32,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

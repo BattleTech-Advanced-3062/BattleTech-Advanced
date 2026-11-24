@@ -3,7 +3,7 @@
 		"items": [
 			"unit_innerspheremech",
 			"unit_mechtool"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_corsair_COR-PL",
 	"HeraldryID": null,
@@ -20,7 +20,7 @@
 		"Icon": "uixTxrIcon_corsair"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

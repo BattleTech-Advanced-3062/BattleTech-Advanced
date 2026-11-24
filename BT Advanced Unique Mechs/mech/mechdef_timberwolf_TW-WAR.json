@@ -23,7 +23,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_timberwolf_TW-WAR",
 	"HeraldryID": null,

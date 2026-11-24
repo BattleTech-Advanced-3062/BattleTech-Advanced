@@ -21,16 +21,16 @@
 			"planet_other_boreholes",
 			"planet_name_fjaldr",
 			"planet_faction_restoration"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

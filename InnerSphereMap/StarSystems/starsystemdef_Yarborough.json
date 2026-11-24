@@ -22,17 +22,17 @@
 			"planet_industry_recreation",
 			"planet_faction_mallardrepublic",
 			"planet_name_Yarborough"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

@@ -24,17 +24,17 @@
 			"planet_industry_aquaculture",
 			"planet_other_blackmarket",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 39,

@@ -27,7 +27,7 @@
 			"planet_industry_recreation",
 			"planet_industry_aquaculture",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsCoastal",
@@ -37,10 +37,10 @@
 		"lowlandsFall "
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

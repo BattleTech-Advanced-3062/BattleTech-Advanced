@@ -39,7 +39,7 @@
 			"planet_other_pirate",
 			"planet_other_prison",
 			"planet_faction_outworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -47,10 +47,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 2,

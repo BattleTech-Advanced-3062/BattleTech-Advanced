@@ -28,7 +28,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_starleague",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -41,10 +41,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

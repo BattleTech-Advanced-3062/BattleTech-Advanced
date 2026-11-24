@@ -25,17 +25,17 @@
 			"planet_industry_mining",
 			"planet_industry_agriculture",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

@@ -29,7 +29,7 @@
 			"planet_other_comstar",
 			"planet_other_starleague",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
@@ -37,10 +37,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 24,

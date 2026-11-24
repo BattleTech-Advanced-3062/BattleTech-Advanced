@@ -26,7 +26,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_alienvegetation",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -35,10 +35,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 16,

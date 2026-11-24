@@ -23,7 +23,7 @@
 			"planet_other_moon",
 			"planet_name_umgard",
 			"planet_faction_restoration"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -33,10 +33,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

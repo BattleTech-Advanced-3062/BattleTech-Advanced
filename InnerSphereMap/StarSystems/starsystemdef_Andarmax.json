@@ -23,16 +23,16 @@
 			"planet_other_starleague",
 			"planet_name_andarmax",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 3,

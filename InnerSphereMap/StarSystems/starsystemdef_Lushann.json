@@ -37,17 +37,17 @@
 			"planet_other_ruins",
 			"planet_factory",
 			"planet_faction_outworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": -14,

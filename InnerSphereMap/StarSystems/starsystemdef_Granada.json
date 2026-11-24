@@ -26,7 +26,7 @@
 			"planet_industry_aquaculture",
 			"planet_other_hub",
 			"planet_faction_castile"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -35,10 +35,10 @@
 		"lowlandsCoastal"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

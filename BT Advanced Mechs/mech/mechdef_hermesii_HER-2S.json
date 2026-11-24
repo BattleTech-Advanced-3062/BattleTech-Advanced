@@ -109,7 +109,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hermesii_HER-2S",
 	"HeraldryID": null,
@@ -126,7 +126,7 @@
 		"Icon": "uixTxrIcon_hermes"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -10,7 +10,7 @@
 			"unit_generic",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_warhammer_WHM-DR",
 	"HeraldryID": null,

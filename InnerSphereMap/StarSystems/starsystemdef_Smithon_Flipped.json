@@ -21,7 +21,7 @@
 			"planet_name_smithon",
 			"planet_faction_restoration",
 			"planet_industry_mining"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -30,10 +30,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

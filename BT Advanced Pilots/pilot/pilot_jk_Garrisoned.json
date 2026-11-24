@@ -45,7 +45,7 @@
 			"name_Garrisoned",
 			"pilot_steiner",
 			"pilot_mechwarrior"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

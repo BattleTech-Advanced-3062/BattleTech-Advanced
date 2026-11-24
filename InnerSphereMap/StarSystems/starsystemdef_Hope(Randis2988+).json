@@ -24,17 +24,17 @@
 			"planet_other_pirate",
 			"planet_faction_locals",
 			"planet_tortugan_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

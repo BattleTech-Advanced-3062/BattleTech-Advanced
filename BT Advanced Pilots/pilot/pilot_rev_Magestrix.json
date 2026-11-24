@@ -47,7 +47,7 @@
 			"pilot_nomech_crew",
 			"pilot_lucky",
 			"pilot_naive"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

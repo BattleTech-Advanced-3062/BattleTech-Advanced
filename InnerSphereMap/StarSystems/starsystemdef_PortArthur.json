@@ -23,7 +23,7 @@
 			"planet_industry_mining",
 			"planet_industry_agriculture",
 			"planet_faction_clannovacat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -35,10 +35,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

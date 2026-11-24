@@ -62,7 +62,7 @@
 			"BlackWidowCompany",
 			"MacksMercs",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_icarusii_ICR-4R",
 	"HeraldryID": null,
@@ -79,7 +79,7 @@
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

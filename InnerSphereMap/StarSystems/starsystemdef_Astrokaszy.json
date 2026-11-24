@@ -26,7 +26,7 @@
 			"planet_other_comstar",
 			"planet_faction_pirate",
 			"planet_gameworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -37,10 +37,10 @@
 		"lowlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

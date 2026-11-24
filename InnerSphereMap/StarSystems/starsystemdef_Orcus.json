@@ -24,7 +24,7 @@
 			"planet_other_volcanic",
 			"planet_faction_danesacellum",
 			"planet_name_Orcus"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -34,10 +34,10 @@
 		"lunarVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 12,

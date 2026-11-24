@@ -23,7 +23,7 @@
 			"planet_industry_mining",
 			"planet_industry_agriculture",
 			"planet_faction_steiner"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -31,10 +31,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

@@ -22,7 +22,7 @@
 			"planet_other_taintedair",
 			"planet_name_carmichael",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -32,10 +32,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

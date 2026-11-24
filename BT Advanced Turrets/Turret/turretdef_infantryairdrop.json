@@ -11,7 +11,7 @@
 	},
 	"ChassisID": "turretchassisdef_infantryairdrop",
 	"TurretTags": {
-		"items": [],
+		"items": []
 	},
 	"CurrentArmor": 150,
 	"CurrentInternalStructure": 1,

@@ -21,7 +21,7 @@
 			"planet_name_newvallis",
 			"planet_faction_taurian",
 			"planet_industry_electronics"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -30,10 +30,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

@@ -24,17 +24,17 @@
 			"planet_industry_mining",
 			"planet_other_alienvegetation",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

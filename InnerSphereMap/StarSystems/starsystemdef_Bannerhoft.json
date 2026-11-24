@@ -25,7 +25,7 @@
 			"planet_other_battlefield",
 			"planet_other_megacity",
 			"planet_faction_nofaction"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -33,10 +33,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

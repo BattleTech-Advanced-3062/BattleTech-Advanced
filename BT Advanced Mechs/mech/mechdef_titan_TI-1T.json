@@ -11,7 +11,7 @@
 			"unit_role_brawler",
 			"SolarisVIIMercLeague",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_titan_TI-1T",
 	"HeraldryID": null,
@@ -28,7 +28,7 @@
 		"Icon": "uixTxrIcon_titan"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

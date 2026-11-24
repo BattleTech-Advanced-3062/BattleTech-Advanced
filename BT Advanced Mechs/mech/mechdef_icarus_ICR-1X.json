@@ -38,7 +38,7 @@
 			"Marik",
 			"30thMarikMilitia",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_icarus_ICR-1X",
 	"HeraldryID": null,
@@ -55,7 +55,7 @@
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -23,7 +23,7 @@
 			"planet_other_battlefield",
 			"planet_name_flintoft",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lowlandsSpring",
@@ -37,10 +37,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

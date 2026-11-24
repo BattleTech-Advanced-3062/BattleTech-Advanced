@@ -23,7 +23,7 @@
 			"planet_industry_recreation",
 			"planet_industry_mining",
 			"planet_faction_davion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -36,10 +36,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

@@ -20,7 +20,7 @@
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_colossalturtle_CTR-1",
 	"HeraldryID": null,

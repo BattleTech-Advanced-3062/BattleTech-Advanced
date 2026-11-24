@@ -26,7 +26,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hellfire_HLF-VO",
 	"HeraldryID": null,

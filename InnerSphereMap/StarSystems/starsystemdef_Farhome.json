@@ -20,17 +20,17 @@
 			"planet_industry_poor",
 			"planet_other_alienvegetation",
 			"planet_faction_locals"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"jungleTropical",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

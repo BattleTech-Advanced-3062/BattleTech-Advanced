@@ -56,7 +56,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_zeus_ZEU-6PA",
 	"HeraldryID": null,
@@ -73,7 +73,7 @@
 		"Icon": "uixTxrIcon_zeus"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

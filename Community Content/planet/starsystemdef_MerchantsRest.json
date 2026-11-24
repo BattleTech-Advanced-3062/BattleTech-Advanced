@@ -22,17 +22,17 @@
 			"planet_pop_small",
 			"planet_civ_innersphere",
 			"planet_faction_clandiamondshark"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 10,

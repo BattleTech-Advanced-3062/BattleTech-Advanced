@@ -9,7 +9,7 @@
 	"ComponentTags": {
 		"items": [
 			"BLACKLISTED"
-		],
+		]
 	},
 	"ComponentType": "Upgrade",
 	"CriticalComponent": false,

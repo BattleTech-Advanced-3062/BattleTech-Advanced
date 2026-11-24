@@ -29,16 +29,16 @@
 			"planet_other_boreholes",
 			"planet_other_pirate",
 			"planet_faction_clanwolf"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

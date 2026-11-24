@@ -27,7 +27,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_griffin_GRF-1E",
 	"HeraldryID": null,

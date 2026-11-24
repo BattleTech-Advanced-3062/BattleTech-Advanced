@@ -19,7 +19,7 @@
 			"argoUpgrade_power2",
 			"argoUpgrade_structure1",
 			"argoUpgrade_Lance2Slot3"
-		],
+		]
 	},
 	"Requirements": [],
 	"TechCost": 10,
@@ -28,7 +28,7 @@
 	"Tags": {
 		"items": [
 			"argoupgrade_Lance2Slot4"
-		],
+		]
 	},
 	"Stats": [
 		{

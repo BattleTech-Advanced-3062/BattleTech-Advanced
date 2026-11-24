@@ -83,7 +83,7 @@
 		"items": [
 			"ArmLimitLowerRight",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_trebuchet_TBT-5N",

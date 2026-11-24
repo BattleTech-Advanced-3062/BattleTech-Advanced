@@ -45,7 +45,7 @@
 			"pilot_aurigan",
 			"pilot_mechwarrior",
 			"pilot_btateam"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": false,

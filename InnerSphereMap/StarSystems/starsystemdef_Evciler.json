@@ -23,7 +23,7 @@
 			"planet_industry_agriculture",
 			"planet_industry_research",
 			"planet_faction_clanjadefalcon"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -35,10 +35,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 11,

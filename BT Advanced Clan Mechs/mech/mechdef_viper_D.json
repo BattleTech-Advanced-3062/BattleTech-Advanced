@@ -34,7 +34,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_role_brawler"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_viper_D",
 	"HeraldryID": null,

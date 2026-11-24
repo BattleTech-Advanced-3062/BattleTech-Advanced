@@ -85,7 +85,7 @@
 			"ArmLimitUpperLeft",
 			"HeroMech",
 			"AssaultMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_corsair_COR-5R",

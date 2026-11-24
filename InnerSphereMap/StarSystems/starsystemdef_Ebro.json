@@ -22,16 +22,16 @@
 			"planet_industry_agriculture",
 			"planet_faction_davion",
 			"planet_tortugan_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 15,

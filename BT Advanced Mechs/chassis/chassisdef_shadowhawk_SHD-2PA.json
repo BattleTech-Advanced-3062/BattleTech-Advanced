@@ -82,7 +82,7 @@
 	"ChassisTags": {
 		"items": [
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_shadowhawk_SHD-2H",

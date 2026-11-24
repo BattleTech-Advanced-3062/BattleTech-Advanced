@@ -13,7 +13,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sunspider_SNS_C",
 	"HeraldryID": null,

@@ -30,17 +30,17 @@
 			"planet_industry_manufacturing",
 			"planet_faction_davion",
 			"planet_tortugan_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 10,

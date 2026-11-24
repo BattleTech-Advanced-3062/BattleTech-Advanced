@@ -8,7 +8,7 @@
 			"ai_dfa_low",
 			"NOSALVAGE",
 			"BLACKLISTED"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_widowmaker_DW-BW",
 	"HeraldryID": null,
@@ -25,7 +25,7 @@
 		"Icon": "uixTxrIcon_direwolf"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

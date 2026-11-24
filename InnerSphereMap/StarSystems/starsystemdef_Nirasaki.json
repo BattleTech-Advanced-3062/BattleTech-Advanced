@@ -24,7 +24,7 @@
 			"planet_industry_research",
 			"planet_other_comstar",
 			"planet_faction_cameron"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -32,10 +32,10 @@
 		"highlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 17,

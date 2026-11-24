@@ -20,17 +20,17 @@
 			"planet_industry_agriculture",
 			"planet_other_comstar",
 			"planet_faction_clanghostbear"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 12,

@@ -24,7 +24,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_high",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_uziel_UZL-BE",
 	"HeraldryID": null,

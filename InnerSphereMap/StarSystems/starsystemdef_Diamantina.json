@@ -25,16 +25,16 @@
 			"planet_industry_aquaculture",
 			"planet_other_blackmarket",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

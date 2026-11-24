@@ -13,12 +13,12 @@
 			"unit_rarity_2",
 			"TaurianConcordat",
 			"unit_legal"
-		],
+		]
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [
 			"sanctuary_tdf_refit_complete"
-		],
+		]
 	},
 	"MinAppearanceDate" : "3063-09-14T00:00:00Z",
 	"ChassisID": "chassisdef_stalker_STK-3S",

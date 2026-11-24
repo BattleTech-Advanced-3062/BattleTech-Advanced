@@ -92,7 +92,7 @@
 			"SelfEmployed",
 			"FlakJackals",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_clint_CLNT-5U",
 	"HeraldryID": null,
@@ -109,7 +109,7 @@
 		"Icon": "uixTxrIcon_clint"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

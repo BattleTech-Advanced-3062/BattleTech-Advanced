@@ -26,7 +26,7 @@
 			"planet_other_moon",
 			"planet_name_itrom",
 			"planet_faction_restoration"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -41,10 +41,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 10,

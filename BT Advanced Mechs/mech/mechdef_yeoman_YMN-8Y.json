@@ -15,7 +15,7 @@
 			"40thShadowDivision",
 			"9thDivisionWoB",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_yeoman_YMN-8Y",
 	"HeraldryID": null,
@@ -32,7 +32,7 @@
 		"Icon": "uixTxrIcon_yeoman"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

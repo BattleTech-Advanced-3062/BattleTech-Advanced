@@ -82,7 +82,7 @@
 			"ClanMech",
 			"ArmLimitLowerRight",
 			"AssaultMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_highlander_HGN-733",

@@ -106,7 +106,7 @@
 			"FlakJackals",
 			"unit_artillery",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_shadowhawk_SHD-6S",
 	"HeraldryID": null,

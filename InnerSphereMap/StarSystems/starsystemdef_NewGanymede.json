@@ -24,7 +24,7 @@
 			"planet_other_moon",
 			"planet_name_newganymede",
 			"planet_faction_taurian"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -32,10 +32,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

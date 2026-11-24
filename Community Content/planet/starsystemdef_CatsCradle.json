@@ -22,16 +22,16 @@
 			"planet_industry_mining",
 			"planet_factory",
 			"planet_faction_cameron"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

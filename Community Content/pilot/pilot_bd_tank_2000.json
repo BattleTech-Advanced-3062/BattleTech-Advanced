@@ -45,7 +45,7 @@
 			"pilot_officer",
 			"pilot_criminal",
 			"pilot_steiner"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -21,7 +21,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_release"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_warhammer_WHM-IIC-ML",
 	"HeraldryID": null,
