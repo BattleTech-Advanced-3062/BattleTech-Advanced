@@ -39,17 +39,17 @@
 			"planet_other_prison",
 			"planet_faction_magistracyofcanopus",
 			"planet_gameworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": -1,

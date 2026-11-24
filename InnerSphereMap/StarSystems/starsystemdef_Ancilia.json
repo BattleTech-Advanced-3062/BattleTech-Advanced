@@ -21,7 +21,7 @@
 			"planet_civ_periphery",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Ancilia"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -29,10 +29,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 14,

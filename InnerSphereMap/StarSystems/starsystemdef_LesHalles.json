@@ -24,7 +24,7 @@
 			"planet_other_comstar",
 			"planet_other_hub",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -32,10 +32,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 15,

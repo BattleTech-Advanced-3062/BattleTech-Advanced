@@ -25,7 +25,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hellspawn_HSN-7D2",
 	"HeraldryID": null,

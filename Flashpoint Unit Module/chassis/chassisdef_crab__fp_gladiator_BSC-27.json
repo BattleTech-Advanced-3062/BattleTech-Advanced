@@ -11,7 +11,7 @@
 		"items": [
 			"HeroMech",
 			"MediumMech"
-		],
+		]
 	},
 	"DFADamage": 60,
 	"DFAInstability": 30,

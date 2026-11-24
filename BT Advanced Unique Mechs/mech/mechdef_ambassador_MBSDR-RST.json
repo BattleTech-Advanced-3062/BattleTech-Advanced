@@ -11,7 +11,7 @@
 			"unit_role_scout",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_ambassador_MBSDR-RST",
 	"HeraldryID": null,

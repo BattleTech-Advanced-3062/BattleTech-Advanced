@@ -14,7 +14,7 @@
 			"Davion",
 			"DavionAssaultGuards",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sentinel_STN-4D",
 	"HeraldryID": null,
@@ -31,7 +31,7 @@
 		"Icon": "uixTxrIcon_sentinel"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -25,7 +25,7 @@
 			"unit_superheavy",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hyperion_HYP-A",
 	"HeraldryID": null,

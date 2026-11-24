@@ -36,7 +36,7 @@
 			"pilot_military",
 			"pilot_mechwarrior",
 			"pilot_kurita"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

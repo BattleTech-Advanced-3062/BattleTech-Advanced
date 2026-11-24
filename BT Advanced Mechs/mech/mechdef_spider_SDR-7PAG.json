@@ -59,7 +59,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_spider_SDR-7PAG",
 	"HeraldryID": null,
@@ -76,7 +76,7 @@
 		"Icon": "uixTxrIcon_spider"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

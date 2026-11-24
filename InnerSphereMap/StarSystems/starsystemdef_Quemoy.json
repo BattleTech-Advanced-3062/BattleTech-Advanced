@@ -24,7 +24,7 @@
 			"planet_industry_research",
 			"planet_other_ruins",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -32,10 +32,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 4,

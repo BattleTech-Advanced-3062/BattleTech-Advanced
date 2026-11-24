@@ -11,7 +11,7 @@
 			"unit_generic",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_blackknight_BL-EB-KNT",
 	"HeraldryID": null,

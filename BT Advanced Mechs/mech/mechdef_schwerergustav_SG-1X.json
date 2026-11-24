@@ -9,7 +9,7 @@
 			"unit_ready",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_schwerergustav_SG-1X",
 	"HeraldryID": null,

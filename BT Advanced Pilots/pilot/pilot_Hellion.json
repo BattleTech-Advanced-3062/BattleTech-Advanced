@@ -39,7 +39,7 @@
 			"pilot_periphery",
 			"pilot_assassin",
 			"pilot_tech"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -62,7 +62,7 @@
 			"HeroMech",
 			"ArmLimitLowerRight",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

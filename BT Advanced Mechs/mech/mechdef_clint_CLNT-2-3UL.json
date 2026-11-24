@@ -21,7 +21,7 @@
 			"TaurianConcordat",
 			"TaurianGuard",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_clint_CLNT-2-3UL",
 	"HeraldryID": null,
@@ -38,7 +38,7 @@
 		"Icon": "uixTxrIcon_clint"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

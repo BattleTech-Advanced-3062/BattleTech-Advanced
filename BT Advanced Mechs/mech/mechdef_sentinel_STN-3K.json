@@ -19,7 +19,7 @@
 			"Kurita",
 			"2ndLegionOfVega",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sentinel_STN-3K",
 	"HeraldryID": null,
@@ -36,7 +36,7 @@
 		"Icon": "uixTxrIcon_sentinel"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -22,7 +22,7 @@
 			"planet_faction_cameron",
 			"planet_industry_poor",
 			"planet_salvageyard"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -31,10 +31,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

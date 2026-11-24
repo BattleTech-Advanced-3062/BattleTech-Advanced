@@ -39,7 +39,7 @@
 			"pilot_dishonest",
 			"pilot_reckless",
 			"pilot_jinxed"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

@@ -84,7 +84,7 @@
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_locust_LCT-1V",

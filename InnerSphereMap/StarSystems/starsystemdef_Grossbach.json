@@ -39,17 +39,17 @@
 			"planet_other_prison",
 			"planet_other_ruins",
 			"planet_faction_taurianconcordat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": -2,

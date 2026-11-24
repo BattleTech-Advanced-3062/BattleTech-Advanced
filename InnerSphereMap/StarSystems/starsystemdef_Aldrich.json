@@ -24,7 +24,7 @@
 			"planet_industry_recreation",
 			"planet_faction_mallardrepublic",
 			"planet_name_Aldrich"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -36,10 +36,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

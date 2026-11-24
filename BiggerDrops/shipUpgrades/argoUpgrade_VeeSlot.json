@@ -17,7 +17,7 @@
 	"RequiredModules": {
 		"items": [
 			"argoUpgrade_power1"
-		],
+		]
 	},
 	"Requirements": [],
 	"TechCost": 3,
@@ -26,7 +26,7 @@
 	"Tags": {
 		"items": [
 			"argo_mechBay_expandedDrop1"
-		],
+		]
 	},
 	"Stats": [
 		{

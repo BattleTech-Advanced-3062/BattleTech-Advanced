@@ -5,7 +5,7 @@
 			"unit_flashpoint",
 			"unit_innerspheremech",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_griffin_GRF-4N_fp_greed",
 	"PaintTextureID": null,

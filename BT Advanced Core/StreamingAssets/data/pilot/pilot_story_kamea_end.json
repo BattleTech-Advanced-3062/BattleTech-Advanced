@@ -56,7 +56,7 @@
 			"pilot_cannot_eject",
 			"pilot_cannot_be_headshot",
 			"pilot_mechwarrior"
-		],
+		]
 	},
 	"PilotCost": 0
 }

@@ -28,7 +28,7 @@
 			"planet_industry_manufacturing",
 			"planet_other_starleague",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -41,10 +41,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

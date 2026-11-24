@@ -12,7 +12,7 @@
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_yazata_X-YZT-EXTREMIS",
 	"HeraldryID": null,

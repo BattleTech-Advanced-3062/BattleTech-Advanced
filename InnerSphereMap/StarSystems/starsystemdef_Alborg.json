@@ -26,7 +26,7 @@
 			"planet_other_hub",
 			"planet_other_blackmarket",
 			"planet_faction_jarnfolk"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
@@ -39,10 +39,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 19,

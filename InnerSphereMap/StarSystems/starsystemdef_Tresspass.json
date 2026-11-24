@@ -24,7 +24,7 @@
 			"planet_other_taintedair",
 			"planet_other_battlefield",
 			"planet_faction_nofaction"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -32,10 +32,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

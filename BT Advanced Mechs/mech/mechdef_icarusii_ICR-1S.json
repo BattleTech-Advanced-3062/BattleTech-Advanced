@@ -37,7 +37,7 @@
 			"BlackCalderaDefense",
 			"BlackCalderaDefense_Hidden",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_icarusii_ICR-1S",
 	"HeraldryID": null,
@@ -54,7 +54,7 @@
 		"Icon": "uixTxrIcon_icarusii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

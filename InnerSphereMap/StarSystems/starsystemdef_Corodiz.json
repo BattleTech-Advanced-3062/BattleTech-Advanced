@@ -21,7 +21,7 @@
 			"planet_industry_mining",
 			"planet_name_corodiz",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -29,10 +29,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

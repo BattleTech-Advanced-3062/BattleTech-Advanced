@@ -63,7 +63,7 @@
 			"pilot_dependable",
 			"pilot_comstar",
 			"pilot_mechwarrior"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": false,

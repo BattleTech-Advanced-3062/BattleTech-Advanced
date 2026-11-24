@@ -23,7 +23,7 @@
 			"planet_name_arn",
 			"planet_faction_independent",
 			"planet_industry_mining"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -32,10 +32,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

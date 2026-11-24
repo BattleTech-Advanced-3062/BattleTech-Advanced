@@ -34,7 +34,7 @@
 			"planet_other_pirate",
 			"planet_faction_rimworldsrepublic",
 			"planet_hanseatic_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -42,10 +42,10 @@
 		"tundraFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 3,

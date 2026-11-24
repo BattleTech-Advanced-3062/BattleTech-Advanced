@@ -22,7 +22,7 @@
 			"planet_industry_recreation",
 			"planet_faction_jacobsonhaven",
 			"planet_name_Lombardo"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -32,10 +32,10 @@
 		"lowlandsCoastal"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 7,

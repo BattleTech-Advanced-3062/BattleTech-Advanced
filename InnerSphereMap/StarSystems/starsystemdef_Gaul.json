@@ -33,7 +33,7 @@
 			"planet_other_newcolony",
 			"planet_other_prison",
 			"planet_faction_taurianconcordat"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -42,10 +42,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": -13,

@@ -23,7 +23,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_low",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_catapult_CPLT-BB",
 	"HeraldryID": null,

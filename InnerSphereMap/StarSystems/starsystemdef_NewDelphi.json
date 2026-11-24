@@ -20,7 +20,7 @@
 			"planet_other_capital",
 			"planet_pop_medium",
 			"planet_faction_delphi"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -28,10 +28,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

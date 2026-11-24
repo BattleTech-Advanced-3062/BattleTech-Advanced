@@ -25,17 +25,17 @@
 			"planet_other_comstar",
 			"planet_other_ruins",
 			"planet_faction_clanjadefalcon"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 3,

@@ -12,7 +12,7 @@
 			"Steiner",
 			"6thLyranGuards",
 			"unit_indirectFire"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_zeus_ZEU-X-X",
 	"HeraldryID": null,
@@ -29,7 +29,7 @@
 		"Icon": "uixTxrIcon_zeusx"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -20,7 +20,7 @@
 			"CNCOmicronGalaxy",
 			"CWEpsilonGalaxy",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_riflemaniic_RFL-IIC-X",
 	"HeraldryID": null,
@@ -37,7 +37,7 @@
 		"Icon": "uixTxrIcon_riflemaniic"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

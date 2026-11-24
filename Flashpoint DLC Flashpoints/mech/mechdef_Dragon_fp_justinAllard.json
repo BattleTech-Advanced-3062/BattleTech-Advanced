@@ -6,7 +6,7 @@
 			"unit_flashpoint",
 			"NOSALVAGE",
 			"BLACKLISTED"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_dragon_DRG-1N",
 	"PaintTextureID": null,

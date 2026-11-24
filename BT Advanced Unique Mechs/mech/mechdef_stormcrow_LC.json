@@ -22,7 +22,7 @@
 			"ai_shooting_normal",
 			"ai_surrounded_normal",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_stormcrow_LC",
 	"HeraldryID": null,

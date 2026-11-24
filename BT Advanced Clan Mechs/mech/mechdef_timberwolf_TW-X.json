@@ -18,7 +18,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_timberwolf_TW-X",
 	"HeraldryID": null,
@@ -35,7 +35,7 @@
 		"Icon": "uixTxrIcon_madcat"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

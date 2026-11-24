@@ -15,7 +15,7 @@
 			"unit_rarity_1",
 			"SolarisVIIMercLeague",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_chimera_CMA-PD",
 	"HeraldryID": null,
@@ -32,7 +32,7 @@
 		"Icon": "uixTxrIcon_chimera"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

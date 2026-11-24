@@ -15,7 +15,7 @@
 			"unit_lance_tank",
 			"unit_role_brawler",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_greatturtle_GTR-4",
 	"HeraldryID": null,

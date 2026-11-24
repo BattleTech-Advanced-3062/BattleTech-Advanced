@@ -29,7 +29,7 @@
 			"planet_industry_research",
 			"planet_industry_manufacturing",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -38,10 +38,10 @@
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 5,

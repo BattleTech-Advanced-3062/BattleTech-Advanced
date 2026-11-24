@@ -37,6 +37,6 @@
 			"CanSpawnTurret",
 			"ConsumeOnUse",
 			"Contract_Tank"
-		],
+		]
 	}
 }

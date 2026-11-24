@@ -15,7 +15,7 @@
 			"unit_superheavy",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_monster_MNST-3R-LAM",
 	"Description": {

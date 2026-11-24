@@ -20,7 +20,7 @@
 			"TaurianGuard",
 			"PleiadesHussars",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_anubis_ABS-2L",
 	"HeraldryID": null,
@@ -37,7 +37,7 @@
 		"Icon": "uixTxrIcon_anubis"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

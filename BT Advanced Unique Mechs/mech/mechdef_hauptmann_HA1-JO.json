@@ -24,7 +24,7 @@
 			"ai_shooting_high",
 			"ai_surrounded_high",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hauptmann_HA1-JO",
 	"HeraldryID": null,

@@ -17,7 +17,7 @@
 			"MallardRepublic",
 			"JacobsonHaven",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_screecher_SCRE-H9",
 	"HeraldryID": null,
@@ -34,7 +34,7 @@
 		"Icon": "uixTxrIcon_screecher"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

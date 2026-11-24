@@ -79,7 +79,7 @@
 		"items": [
 			"ClanMech",
 			"LightMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_incubus",

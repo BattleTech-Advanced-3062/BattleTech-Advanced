@@ -229,7 +229,7 @@
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"AssaultMech"
-		],
+		]
 	},
 	"StockRole": "Fire Support & Ranged Assault",
 	"YangsThoughts": "A relatively new development, the Zeus 6T removes the Autocannon and replaces it with a PPC.  To help mitigate the additional heat, 2 Heat Sinks were also added.",

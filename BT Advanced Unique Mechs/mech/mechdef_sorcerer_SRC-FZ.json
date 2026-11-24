@@ -23,7 +23,7 @@
 			"ai_shooting_low",
 			"ai_surrounded_normal",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_sorcerer_SRC-FZ",
 	"HeraldryID": null,
@@ -40,7 +40,7 @@
 		"Icon": "uixTxrIcon_sorcerer"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

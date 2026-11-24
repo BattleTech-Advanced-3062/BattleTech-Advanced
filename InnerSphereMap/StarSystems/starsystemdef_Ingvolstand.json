@@ -37,17 +37,17 @@
 			"planet_faction_rimworldsrepublic",
 			"planet_factory",
 			"planet_hanseatic_raids"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": -9,

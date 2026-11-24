@@ -6,7 +6,7 @@
 			"unit_innerspheremech",
 			"NOSALVAGE",
 			"BLACKLISTED"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_marauderiibountyhunter_MAD-II-BH",
 	"HeraldryID": null,
@@ -23,7 +23,7 @@
 		"Icon": "uixTxrIcon_marauderii"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

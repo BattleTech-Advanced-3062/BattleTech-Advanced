@@ -12,7 +12,7 @@
 			"unit_lance_vanguard",
 			"unit_gladiator",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_slagmaiden_SLG-X",
 	"HeraldryID": null,

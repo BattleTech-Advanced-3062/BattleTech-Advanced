@@ -16,7 +16,7 @@
 			"5thDonegalGuards",
 			"10thLyranGuards",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hauptmann_HA1-OB",
 	"HeraldryID": null,
@@ -33,7 +33,7 @@
 		"Icon": "uixTxrIcon_hauptmann"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

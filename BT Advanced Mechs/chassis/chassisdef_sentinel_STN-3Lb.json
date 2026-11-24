@@ -62,7 +62,7 @@
 			"RoyalMech",
 			"ArmLimitUpperLeft",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"LOSSourcePositions": [

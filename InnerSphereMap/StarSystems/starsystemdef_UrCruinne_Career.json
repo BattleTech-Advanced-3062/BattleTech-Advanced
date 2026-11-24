@@ -22,7 +22,7 @@
 			"planet_other_volcanic",
 			"planet_name_urcruinne",
 			"planet_faction_independent"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -32,10 +32,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

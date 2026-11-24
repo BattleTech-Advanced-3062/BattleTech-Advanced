@@ -72,7 +72,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_blackjack_BJ-2PA",
 	"HeraldryID": null,
@@ -89,7 +89,7 @@
 		"Icon": "uixTxrIcon_blackjack"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -49,7 +49,7 @@
 			"pilot_dependable",
 			"pilot_reckless",
 			"BLACKLISTED"
-		],
+		]
 	},
 	"PilotCost": 0
 }

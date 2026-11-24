@@ -24,7 +24,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_advanced"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_linebacker_LBK-RL",
 	"HeraldryID": null,

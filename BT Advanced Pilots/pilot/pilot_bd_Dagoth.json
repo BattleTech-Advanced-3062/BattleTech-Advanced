@@ -56,7 +56,7 @@
 			"pilot_noble",
 			"pilot_disgraced",
 			"pilot_unstable"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

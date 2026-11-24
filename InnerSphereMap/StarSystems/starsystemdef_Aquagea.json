@@ -23,7 +23,7 @@
 			"planet_other_moon",
 			"planet_name_aquagea",
 			"planet_faction_independent"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -31,10 +31,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 5,

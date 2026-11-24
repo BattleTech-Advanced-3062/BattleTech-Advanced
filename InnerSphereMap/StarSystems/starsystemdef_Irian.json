@@ -33,7 +33,7 @@
 			"planet_other_blackmarket",
 			"planet_other_boreholes",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -46,10 +46,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 7,

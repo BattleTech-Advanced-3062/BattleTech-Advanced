@@ -33,7 +33,7 @@
 			"Abominari",
 			"Tortuga",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_swordsman_SWD-1",
 	"HeraldryID": null,
@@ -50,7 +50,7 @@
 		"Icon": "uixTxrIcon_swordsman"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

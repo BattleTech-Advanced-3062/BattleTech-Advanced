@@ -23,7 +23,7 @@
 			"planet_industry_recreation",
 			"planet_industry_mining",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"polarFrozen",
@@ -31,10 +31,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 9,

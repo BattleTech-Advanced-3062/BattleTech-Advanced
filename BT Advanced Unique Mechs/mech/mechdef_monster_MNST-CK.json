@@ -12,7 +12,7 @@
 			"unit_gladiator",
 			"Ignore_SelfKnockdown",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_monster_MNST-CK",
 	"Description": {

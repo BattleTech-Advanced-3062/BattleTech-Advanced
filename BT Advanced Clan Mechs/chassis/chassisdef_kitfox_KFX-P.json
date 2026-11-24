@@ -202,7 +202,7 @@
 			"OmniArmorLock",
 			"ArmLimitUpperRight",
 			"LightMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_kitfox",

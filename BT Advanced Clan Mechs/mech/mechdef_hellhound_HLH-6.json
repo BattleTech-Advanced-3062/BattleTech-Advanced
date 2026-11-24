@@ -14,7 +14,7 @@
 			"CWEpsilonGalaxy",
 			"unit_legal",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_hellhound_HLH-6",
 	"HeraldryID": null,
@@ -31,7 +31,7 @@
 		"Icon": "uixTxrIcon_hellhound"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -24,7 +24,7 @@
 			"ai_surrounded_normal",
 			"unit_legal",
 			"unit_bracket_high"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_gargoyle_GAR-KW",
 	"HeraldryID": null,

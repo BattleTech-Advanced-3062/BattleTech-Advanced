@@ -13,7 +13,7 @@
 			"Davion",
 			"DavionAssaultGuards",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_titan_TI-1M",
 	"HeraldryID": null,
@@ -30,7 +30,7 @@
 		"Icon": "uixTxrIcon_titan"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

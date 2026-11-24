@@ -12,7 +12,7 @@
 			"ClanJadeFalcon",
 			"unit_legal",
 			"unit_bracket_low"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_kitfox_KFX-P",
 	"HeraldryID": null,
@@ -29,7 +29,7 @@
 		"Icon": "uixTxrIcon_kitfox"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -26,7 +26,7 @@
 			"planet_industry_poor",
 			"planet_industry_agriculture",
 			"planet_faction_marik"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -34,10 +34,10 @@
 		"badlandsParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 10,

@@ -21,16 +21,16 @@
 			"planet_industry_mining",
 			"planet_other_newcolony",
 			"planet_faction_clangoliathscorpion"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 13,

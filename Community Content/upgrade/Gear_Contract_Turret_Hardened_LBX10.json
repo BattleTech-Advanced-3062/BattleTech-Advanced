@@ -36,6 +36,6 @@
 			"turretdef_mediumlbx_hardened",
 			"CanSpawnTurret",
 			"Contract_Turret"
-		],
+		]
 	}
 }

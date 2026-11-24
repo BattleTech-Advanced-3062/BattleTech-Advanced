@@ -15,7 +15,7 @@
 			"ClanGhostBear",
 			"unit_legal",
 			"unit_role_sniper"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_shadowcat_SHC-S",
 	"HeraldryID": null,
@@ -32,7 +32,7 @@
 		"Icon": "uixTxrIcon_shadowcat"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

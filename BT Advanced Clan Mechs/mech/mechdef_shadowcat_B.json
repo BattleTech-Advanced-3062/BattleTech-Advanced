@@ -29,7 +29,7 @@
 			"unit_legal",
 			"unit_indirectFire",
 			"unit_role_sniper"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_shadowcat_B",
 	"HeraldryID": null,

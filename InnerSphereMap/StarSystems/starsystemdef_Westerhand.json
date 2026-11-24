@@ -27,7 +27,7 @@
 			"planet_other_starleague",
 			"planet_faction_liao",
 			"planet_gameworld"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -41,10 +41,10 @@
 		"lowlandsFall"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

@@ -57,7 +57,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_charger_CGR-1PA2",
 	"HeraldryID": null,
@@ -74,7 +74,7 @@
 		"Icon": "uixTxrIcon_charger"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

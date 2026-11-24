@@ -14,7 +14,7 @@
 			"11thAvalonHussars",
 			"FederatedFreemen",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_anubis_ABS-3D",
 	"HeraldryID": null,
@@ -31,7 +31,7 @@
 		"Icon": "uixTxrIcon_anubis"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

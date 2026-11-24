@@ -11,7 +11,7 @@
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"LightMech"
-		],
+		]
 	},
 	"DFADamage": 35,
 	"DFAInstability": 10,

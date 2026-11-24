@@ -42,7 +42,7 @@
 			"name_Pistol",
 			"pilot_tortuga",
 			"pilot_mechwarrior"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,

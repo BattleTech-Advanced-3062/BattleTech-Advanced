@@ -24,7 +24,7 @@
 			"ai_surrounded_high",
 			"unit_legal",
 			"unit_bracket_med"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_NovaCat_NCT-CC",
 	"HeraldryID": null,

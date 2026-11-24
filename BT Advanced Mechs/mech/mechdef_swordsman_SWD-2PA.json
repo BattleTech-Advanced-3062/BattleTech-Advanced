@@ -59,7 +59,7 @@
 			"LocalsBrockwayRefugees",
 			"EdCorbu",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_swordsman_SWD-2PA",
 	"HeraldryID": null,
@@ -76,7 +76,7 @@
 		"Icon": "uixTxrIcon_swordsman"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

@@ -84,7 +84,7 @@
 			"ArmLimitUpperRight",
 			"ArmLimitUpperLeft",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_hellhound",

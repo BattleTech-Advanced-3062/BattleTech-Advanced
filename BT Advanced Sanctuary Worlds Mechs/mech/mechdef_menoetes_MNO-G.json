@@ -15,12 +15,12 @@
 			"MallardRepublic",
 			"JacobsonHaven",
 			"unit_legal"
-		],
+		]
 	},
 	"RequiredToSpawnCompanyTags": {
 		"items": [
 			"sanctuary_menoetes_produced"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_menoetes_MNO-G",
 	"HeraldryID": null,

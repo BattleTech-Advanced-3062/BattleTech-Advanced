@@ -10,7 +10,7 @@
 			"unit_lance_vanguard",
 			"unit_role_scout",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_ambassador_MBSDR-1",
 	"HeraldryID": null,

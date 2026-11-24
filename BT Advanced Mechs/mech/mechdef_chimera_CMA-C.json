@@ -26,7 +26,7 @@
 			"3rdNightStalkers",
 			"HouseKhulan",
 			"unit_legal"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_chimera_CMA-C",
 	"HeraldryID": null,
@@ -43,7 +43,7 @@
 		"Icon": "uixTxrIcon_chimera"
 	},
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"MinAppearanceDate": null,
 	"prefabOverride": null,

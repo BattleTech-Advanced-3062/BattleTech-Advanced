@@ -177,6 +177,6 @@
 	"EventType": "NORMAL",
 	"OneTimeEvent": true,
 	"Tags": {
-		"items": [],
+		"items": []
 	}
 }

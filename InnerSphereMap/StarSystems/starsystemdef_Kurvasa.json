@@ -21,7 +21,7 @@
 			"planet_industry_agriculture",
 			"planet_name_kurvasa",
 			"planet_faction_liao"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -29,10 +29,10 @@
 		"polarFrozen"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 6,

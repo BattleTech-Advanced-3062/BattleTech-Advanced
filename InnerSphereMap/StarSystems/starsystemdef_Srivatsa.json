@@ -25,7 +25,7 @@
 			"planet_other_taintedair",
 			"planet_faction_sanctuaryalliance",
 			"planet_name_Srivatsa"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"desertParched",
@@ -33,10 +33,10 @@
 		"martianVacuum"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 6,

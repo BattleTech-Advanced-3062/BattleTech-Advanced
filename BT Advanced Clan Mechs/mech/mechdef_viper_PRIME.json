@@ -56,7 +56,7 @@
 			"GreenGhosts",
 			"unit_legal",
 			"unit_role_brawler"
-		],
+		]
 	},
 	"ChassisID": "chassisdef_viper_PRIME",
 	"HeraldryID": null,

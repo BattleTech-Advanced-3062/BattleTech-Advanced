@@ -24,7 +24,7 @@
 			"planet_name_gangtok",
 			"planet_industry_chemicals",
 			"planet_faction_restoration"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"martianVacuum",
@@ -39,10 +39,10 @@
 		"jungleTropical"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": false,
 	"JumpDistance": 4,

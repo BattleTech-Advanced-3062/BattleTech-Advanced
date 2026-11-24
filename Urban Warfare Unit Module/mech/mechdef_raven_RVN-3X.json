@@ -105,12 +105,12 @@
 			"Liao",
 			"WarriorHouseImarra",
 			"unit_legal"
-		],
+		]
 	},
 	"MinAppearanceDate": "3025-01-01T00:00:00Z",
 	"PaintTextureID": null,
 	"RequiredToSpawnCompanyTags": {
-		"items": [],
+		"items": []
 	},
 	"Version": 1,
 	"inventory": [

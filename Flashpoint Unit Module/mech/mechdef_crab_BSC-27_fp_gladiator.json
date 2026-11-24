@@ -7,7 +7,7 @@
 			"unit_legal",
 			"unit_innerspheremech",
 			"unit_medium"
-		],
+		]
 	},
 	"Chassis": null,
 	"ChassisID": "chassisdef_crab__fp_gladiator_BSC-27",

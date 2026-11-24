@@ -27,7 +27,7 @@
 			"planet_other_comstar",
 			"planet_faction_davion",
 			"planet_factory"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"highlandsSpring",
@@ -40,10 +40,10 @@
 		"urbanHighTech"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 8,

@@ -84,7 +84,7 @@
 			"ArmLimitLowerRight",
 			"ArmLimitLowerLeft",
 			"MediumMech"
-		],
+		]
 	},
 	"MechPartMax": 0,
 	"MovementCapDefID": "movedef_enforcer_ENF-4R",

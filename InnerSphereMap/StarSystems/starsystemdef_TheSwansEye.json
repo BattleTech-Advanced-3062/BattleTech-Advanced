@@ -24,17 +24,17 @@
 			"planet_other_comstar",
 			"planet_faction_nofaction",
 			"planet_other_empty"
-		],
+		]
 	},
 	"SupportedBiomes": [
 		"lunarVacuum",
 		"desertParched"
 	],
 	"MapRequiredTags": {
-		"items": [],
+		"items": []
 	},
 	"MapExcludedTags": {
-		"items": [],
+		"items": []
 	},
 	"FuelingStation": true,
 	"JumpDistance": 9,

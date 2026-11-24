@@ -41,7 +41,7 @@
 			"pilot_mechwarrior",
 			"pilot_drunk",
 			"pilot_reckless"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": false,

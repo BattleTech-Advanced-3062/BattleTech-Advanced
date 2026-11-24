@@ -54,7 +54,7 @@
 			"pilot_command",
 			"pilot_dependable",
 			"pilot_noble"
-		],
+		]
 	},
 	"PilotCost": 0,
 	"IsRonin": true,
