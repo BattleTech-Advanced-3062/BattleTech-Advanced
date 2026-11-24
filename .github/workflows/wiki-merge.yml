@@ -397,6 +397,27 @@ jobs:
                 WIKI_USER: ${{ secrets.WIKI_USER}}
               run: |
                 python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/quirkRenderer.py          
+    thermal-update:
+        needs: cloudflare-pass-enable
+        name: Post Thermal Gear Info to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v5
+              with:
+                repository: ${{ github.repository }}
+                path: bta
+            - name: Check out automation code
+              uses: actions/checkout@v5
+              with:
+                repository: 'BattleTech-Advanced-3062/bta-wiki-automation'
+                path: wiki-gen
+            - name: Run Thermal Gear automation
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: ${{ secrets.WIKI_USER}}
+              run: |
+                python3 /home/runner/work/BattleTech-Advanced/BattleTech-Advanced/wiki-gen/src/thermalRenderer.py   
     import-game-info-to-wiki:
         needs: cloudflare-pass-enable
         name: Uploading game info to wiki
@@ -421,7 +442,7 @@ jobs:
                 ./bta-wiki-import import  -l https://www.bta3062.com/api.php  ./path-to-wikitext/
     cloudflare-pass-disable:
         if: ${{ always() }}
-        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki, armor-update, weapon-update, skill-update, cockpit-update, actuator-update, engine-update, gyro-update, jumpjet-update, structure-update, beacon-update, myomer-update, ewar-update, quirk-update]
+        needs: [faction-update, factory-update, pilot-update, vehicle-update, import-game-info-to-wiki, armor-update, weapon-update, skill-update, cockpit-update, actuator-update, engine-update, gyro-update, jumpjet-update, structure-update, beacon-update, myomer-update, ewar-update, quirk-update, thermal-update]
         name: Disable Cloudflare Workaround
         runs-on: ubuntu-latest
         steps:
